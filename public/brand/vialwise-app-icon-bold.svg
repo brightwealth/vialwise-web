@@ -1,0 +1,13 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vialwise app icon — bold gradient (in reserve)">
+  <title>Vialwise app icon — bold gradient (held in reserve)</title>
+  <desc>Alternative bold-gradient app icon variant. NOT for production use. Held in reserve for a future brand refresh or A/B test.</desc>
+  <defs>
+    <linearGradient id="amberBold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D78757"/>
+      <stop offset="100%" stop-color="#8C481E"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1024" height="1024" rx="226" fill="url(#amberBold)"/>
+  <path d="M187 290 L512 785 L837 290" stroke="#2F5234" stroke-width="125" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M187 290 L512 785 L837 290" stroke="#FBF7F0" stroke-width="91" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

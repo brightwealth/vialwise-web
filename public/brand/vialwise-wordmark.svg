@@ -1,0 +1,5 @@
+<svg viewBox="0 0 380 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="vialwise wordmark" style="color: #2D2620;">
+  <title>vialwise wordmark</title>
+  <desc>Lowercase wordmark in geometric sans-serif (Outfit), weight 500, tight letter-spacing. Uses currentColor for flexible coloring; defaults to espresso #2D2620.</desc>
+  <text x="0" y="95" fill="currentColor" font-size="110" font-weight="500" font-family="Outfit, 'Cabinet Grotesk', Inter, system-ui, sans-serif" letter-spacing="-4">vialwise</text>
+</svg>

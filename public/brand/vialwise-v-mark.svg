@@ -1,0 +1,5 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vialwise V mark" style="color: #2F5234;">
+  <title>Vialwise V monogram</title>
+  <desc>V monogram, single color via currentColor. Defaults to forest green #2F5234. Geometrically centered in 100x100 viewBox for flexible inline use.</desc>
+  <path d="M18 25 L50 73 L82 25" stroke="currentColor" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
