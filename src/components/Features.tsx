@@ -9,30 +9,31 @@ export function Features() {
           Three things, done well.
         </h2>
         <p className="mt-4 text-[16px] leading-relaxed text-graphite md:text-[17px]">
-          The calculator is the hero. Everything else exists to make the calculator more useful — not to bloat the app.
+          The calculator is the hero. The library is the source of truth. The
+          today view is the only place you check in. That&rsquo;s v1.
         </p>
       </div>
 
       <div className="mt-16 grid grid-cols-1 gap-5 md:grid-cols-3 md:gap-6">
         <FeatureCard
           eyebrow="01"
-          title="Calculator that's actually right."
-          body="Reconstitution math, dose conversion, syringe units. Works for any peptide — semaglutide, BPC-157, tirzepatide, ipamorelin, your stack of three. The math doesn't care."
+          title="The calculator, done right."
+          body="Forward and reverse modes. Vial + water + dose → draw on a U-100 syringe. Long-press any result to copy it to your clipboard. Works for any peptide — semaglutide, retatrutide, BPC-157, your stack of three. The math doesn't care."
           icon={<CalculatorIcon />}
           accent="amber"
         />
         <FeatureCard
           eyebrow="02"
-          title="Track without busywork."
-          body="Vials, doses, reconstitution dates, stability windows. You log it once. The app does the boring part — counting days, flagging when a vial is past peak, prepping your next reorder."
-          icon={<TrackIcon />}
+          title="A library you can actually use."
+          body="45 peptide entries with primary-source citations — PubMed DOIs, ClinicalTrials.gov NCTs, FDA labels. Reconstitution tables are calculator-rendered, never hand-typed. Tap &ldquo;Use in calculator&rdquo; on any entry to jump straight into the math with that peptide pre-picked."
+          icon={<LibraryIcon />}
           accent="forest"
         />
         <FeatureCard
           eyebrow="03"
-          title="Reminders that respect you."
-          body="Optional, configurable, never naggy. No streaks. No guilt. No 'you've missed 3 days' notifications. Adults running protocols don't need a habit-tracker breathing down their neck."
-          icon={<BellIcon />}
+          title="Today view. No guilt."
+          body="Today's protocols at a glance. Tap the circle to mark today's dose checked. &ldquo;All set for today&rdquo; when you've cleared the list. No streaks, no missed-dose alerts, no 6am push notifications. Adults running protocols don't need a habit tracker."
+          icon={<CheckCircleIcon />}
           accent="amber"
         />
       </div>
@@ -76,6 +77,8 @@ function FeatureCard({
   );
 }
 
+// ─── Icons ─────────────────────────────────────────────────────────────────
+
 function CalculatorIcon() {
   return (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
@@ -86,20 +89,23 @@ function CalculatorIcon() {
   );
 }
 
-function TrackIcon() {
+function LibraryIcon() {
   return (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M3 17l5-5 4 4 8-8" />
-      <path d="M14 8h6v6" />
+      {/* Stack of book spines — leaning */}
+      <path d="M4 19V5a2 2 0 0 1 2-2h2v18H6a2 2 0 0 1-2-2z" />
+      <path d="M10 3h2v18h-2z" />
+      <path d="M14 3h2v18h-2z" />
+      <path d="M18 5l3 16-2 .4L16 5.4z" />
     </svg>
   );
 }
 
-function BellIcon() {
+function CheckCircleIcon() {
   return (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" />
-      <path d="M10 21a2 2 0 0 0 4 0" />
+      <circle cx="12" cy="12" r="9" />
+      <path d="M8 12.5 L11 15.5 L16 9.5" />
     </svg>
   );
 }
