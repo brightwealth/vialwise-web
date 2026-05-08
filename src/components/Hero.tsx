@@ -24,7 +24,7 @@ export function Hero() {
           <p className="max-w-lg text-[17px] leading-relaxed text-graphite md:text-[18px]">
             Built by someone who actually runs peptides.{" "}
             <span className="block sm:inline">
-              Free for one peptide. Forever.
+              Full library, free. Pro for multiple active protocols.
             </span>
           </p>
 

@@ -18,7 +18,7 @@ export function Features() {
         <FeatureCard
           eyebrow="01"
           title="The calculator, done right."
-          body="Forward and reverse modes. Vial + water + dose → draw on a U-100 syringe. Long-press any result to copy it to your clipboard. Works for any peptide — semaglutide, retatrutide, BPC-157, your stack of three. The math doesn't care."
+          body="Forward and reverse modes. Vial + water + dose → draw on a U-100 syringe (100, 50, or 30 IU). Long-press any result to copy it to your clipboard. Works for any peptide — semaglutide, retatrutide, BPC-157, your stack of three. The math doesn't care."
           icon={<CalculatorIcon />}
           accent="amber"
         />
