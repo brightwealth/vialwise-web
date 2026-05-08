@@ -14,7 +14,7 @@ export default function TermsPage() {
     <PageShell
       eyebrow="Legal"
       title="Terms of service"
-      intro="The legal terms governing your use of Vialwise. Plain English where possible. This is placeholder language — Andrew will get this reviewed by counsel before v2.0 paid launch."
+      intro="The legal terms governing your use of Vialwise. Plain English where possible."
     >
       <p className="text-[14px] text-graphite/70">Last updated: {LAST_UPDATED}</p>
 
