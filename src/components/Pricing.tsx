@@ -31,7 +31,7 @@ export function Pricing() {
           Free for one peptide. Forever.
         </h2>
         <p className="mt-4 text-[16px] leading-relaxed text-graphite md:text-[17px]">
-          Pro unlocks unlimited peptides and the rest of the toolkit. No trials that auto-bill, no surprise tier changes, no &quot;7-day money back&quot; runaround.
+          Pro unlocks unlimited protocols. Everyone gets full access to the library. No trials that auto-bill, no surprise tier changes, no &quot;7-day money back&quot; runaround.
         </p>
       </div>
 

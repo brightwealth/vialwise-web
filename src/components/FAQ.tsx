@@ -23,7 +23,7 @@ const FAQS = [
   },
   {
     q: "What's the difference between Free and Pro?",
-    a: "Free gives you the full calculator and tracking for one peptide. Pro ($39.99/yr) unlocks unlimited peptides, scheduled reminders, inventory tracking, half-life decay charts, and Apple Health imports. Free stays free, forever, even after Pro launches.",
+    a: "Free gives you the full calculator, the full library, and tracking for one protocol. Pro ($39.99/yr) unlocks unlimited protocols, scheduled reminders, inventory tracking, half-life decay charts, and Apple Health imports. Free stays free, forever, even after Pro launches.",
   },
   {
     q: "Will there be an Android version?",
