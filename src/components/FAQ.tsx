@@ -27,7 +27,7 @@ const FAQS = [
   },
   {
     q: "Will there be an Android version?",
-    a: "Maybe. iOS first because that's where the engineering and the audience overlap is best for v1. Android is on the table for late 2027 if there's demand and Pro economics support it.",
+    a: "Yes. iOS ships first, Android follows. The goal is to have both available close to launch — the app is built on React Native so the lift is smaller than a full rebuild.",
   },
 ];
 
