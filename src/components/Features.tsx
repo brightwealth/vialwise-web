@@ -31,8 +31,8 @@ export function Features() {
         />
         <FeatureCard
           eyebrow="03"
-          title="Today view. No guilt."
-          body="Today's protocols at a glance. Tap the circle to mark today's dose checked. &ldquo;All set for today&rdquo; when you've cleared the list. No streaks, no missed-dose alerts, no 6am push notifications. Adults running protocols don't need a habit tracker."
+          title="Today view. Stay on track."
+          body="Today's protocols at a glance. Tap the circle to mark today's dose checked. &ldquo;All set for today&rdquo; when you've cleared the list. Clean, simple, and exactly what you need to stay consistent."
           icon={<CheckCircleIcon />}
           accent="amber"
         />
