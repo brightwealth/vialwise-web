@@ -36,7 +36,7 @@ export function Footer() {
           <FooterColumn
             title="Contact"
             links={[
-              { label: "support@vialwise.com", href: "mailto:support@vialwise.com" },
+              { label: "support@vialwise.app", href: "mailto:support@vialwise.app" },
             ]}
           />
         </div>

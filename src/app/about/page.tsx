@@ -60,7 +60,7 @@ export default function AboutPage() {
       </p>
       <p>
         You can also email me directly at{" "}
-        <a href="mailto:andrew@vialwise.com">andrew@vialwise.com</a>. I read everything and reply to most of it.
+        <a href="mailto:andrew@vialwise.app">andrew@vialwise.app</a>. I read everything and reply to most of it.
       </p>
 
       <hr />

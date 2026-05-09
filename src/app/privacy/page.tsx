@@ -63,7 +63,7 @@ export default function PrivacyPage() {
       <h2>Your rights</h2>
       <p>
         Regardless of where you live, you can email{" "}
-        <a href="mailto:support@vialwise.com">support@vialwise.com</a> to:
+        <a href="mailto:privacy@vialwise.app">privacy@vialwise.app</a> to:
       </p>
       <ul>
         <li>Request a copy of any data tied to your email address.</li>
@@ -87,7 +87,7 @@ export default function PrivacyPage() {
       <h2>Contact</h2>
       <p>
         Questions? Email{" "}
-        <a href="mailto:support@vialwise.com">support@vialwise.com</a>. We answer.
+        <a href="mailto:privacy@vialwise.app">privacy@vialwise.app</a>. We answer.
       </p>
 
       <hr />

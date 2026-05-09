@@ -66,7 +66,7 @@ export default function TermsPage() {
       <h2>9. Contact</h2>
       <p>
         Questions? Email{" "}
-        <a href="mailto:support@vialwise.com">support@vialwise.com</a>.
+        <a href="mailto:legal@vialwise.app">legal@vialwise.app</a>.
       </p>
 
       <hr />
