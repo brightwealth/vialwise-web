@@ -15,15 +15,12 @@ export default function AboutPage() {
       title="Built by someone who actually runs peptides."
       intro="Most peptide apps are built by people who don't take peptides. That shows up in every part of the product. Vialwise exists because that gap kept costing me time and trust."
     >
-      <p className="text-[15px] text-graphite/80">
-        <em>This is a working draft of the founder story. Andrew will edit in his voice before launch.</em>
-      </p>
-
-      <hr />
-
       <h2>The short version</h2>
       <p>
-        I&rsquo;m Andrew. I run peptides personally — for recovery, for body composition, for the same reasons a lot of other people in their 30s and 40s do. I&rsquo;m not a doctor. I&rsquo;m not a clinic. I&rsquo;m someone who got tired of doing reconstitution math in a Notes app at 6am while squinting at a u-100 syringe.
+        I&rsquo;m Andrew. I&rsquo;ve been working out for 20 years and in sports my whole life. I run peptides — for recovery, for body composition, for overall health. Not because I&rsquo;m a bodybuilder or a CrossFit competitor, but because the science kept pointing in a direction I couldn&rsquo;t ignore.
+      </p>
+      <p>
+        Peptides aren&rsquo;t just for fat loss or muscle gain or better skin. For most people it goes deeper than that — longevity, inflammation, gut health, how you feel day to day. The research is growing fast and the people getting behind it aren&rsquo;t just athletes. They&rsquo;re everyday people who&rsquo;ve figured out that not every diet works for every body, not every protocol works for every person, and that there&rsquo;s more than one way to take care of yourself.
       </p>
       <p>
         Every peptide app I tried was built by people who clearly didn&rsquo;t use peptides themselves. The math was wrong, or the UI was a wall of medical-looking dashboards designed to impress investors, or — worst of all — the app was a thinly disguised funnel into a partnered vendor&rsquo;s store. I didn&rsquo;t want a glossy storefront. I wanted a calculator that was actually right.
@@ -34,7 +31,7 @@ export default function AboutPage() {
         The honest answer: nobody else was going to. The existing players have been around for years, charge a lot, and still get the basics wrong. The unfair advantage I have isn&rsquo;t engineering — it&rsquo;s that I&rsquo;m the customer. I know which feature requests are real and which are noise, because I&rsquo;m the one who&rsquo;d use them.
       </p>
       <p>
-        Vialwise is going to stay deliberately small. v1 is just the calculator and reconstitution date tracking — free, forever, for one peptide. Pro adds unlimited peptides, reminders, and the rest of the toolkit when v2 ships. That&rsquo;s the whole product roadmap. No coaching. No AI personalities. No vendor partnerships. No supplements line.
+        v1 is the calculator and reconstitution date tracking — free, forever, for one protocol. Pro adds unlimited protocols, reminders, and the rest of the toolkit when v2 ships. No coaching. No AI personalities. No vendor partnerships. No supplements line.
       </p>
 
       <h2>The promises</h2>
