@@ -73,8 +73,10 @@ export function Hero() {
  *
  * Shows what the user sees when they first open Vialwise: brand-amber
  * disclaimer strip, today's date, the vial+syringe illustration, the
- * "What are you working toward?" headline, and the forest "Open the
- * calculator" CTA.
+ * "What are you working toward?" headline, and the dual-CTA pair —
+ * "Browse the library" (primary, forest) + "Open the calculator"
+ * (secondary, outlined). Library-first caters to new users who haven't
+ * yet bought peptides and want to learn before they need dose math.
  *
  * Mirrors what shipped in the Expo app so the marketing site is an
  * honest preview — no aspirational mock-ups that promise UI Vialwise
@@ -93,7 +95,7 @@ function HeroVisual() {
           {/* Amber disclaimer strip */}
           <div className="bg-amber-dark px-4 pt-7 pb-3 text-center">
             <p className="text-[10px] font-medium uppercase tracking-[0.14em] text-bone">
-              Research and educational only · Start with the calculator
+              Research and educational only
             </p>
           </div>
 
@@ -103,21 +105,38 @@ function HeroVisual() {
               Today
             </p>
             <h3 className="mt-1 text-[20px] font-medium leading-none tracking-tight text-espresso">
-              Wednesday, May 7
+              Saturday, May 9
             </h3>
           </div>
 
-          {/* Vial + syringe + copy + CTA, vertically centered */}
-          <div className="mt-6 flex flex-col items-center px-5">
-            <VialAndSyringe size={120} />
-            <h4 className="mt-5 text-center text-[18px] font-medium tracking-tight text-espresso">
+          {/* Vial + syringe + headline + dual CTAs, vertically centered */}
+          <div className="mt-5 flex flex-col items-center px-5">
+            <VialAndSyringe size={108} />
+            <h4 className="mt-4 text-center text-[17px] font-medium tracking-tight text-espresso">
               What are you working toward?
             </h4>
-            <p className="mt-1 text-center text-[12px] text-graphite">
-              Calculator → Protocol takes 30 seconds.
+            <p className="mt-1 text-center text-[11px] text-graphite">
+              Look up a peptide, or calculate a dose.
             </p>
-            <div className="mt-5 inline-flex items-center justify-center rounded-full bg-forest px-6 py-2.5 text-[13px] font-medium text-bone shadow-[0_8px_22px_-8px_rgba(36,63,40,0.5)]">
-              Open the calculator
+
+            {/* Dual CTAs — Library primary, Calculator secondary */}
+            <div className="mt-4 flex w-full flex-col gap-2">
+              <div className="flex flex-col items-center justify-center rounded-2xl bg-forest px-4 py-2 text-center shadow-[0_8px_22px_-8px_rgba(36,63,40,0.5)]">
+                <span className="text-[12px] font-medium leading-tight text-bone">
+                  Browse the library
+                </span>
+                <span className="mt-[1px] text-[9px] leading-tight text-bone/80">
+                  45 researched peptides
+                </span>
+              </div>
+              <div className="flex flex-col items-center justify-center rounded-2xl border border-espresso/15 bg-bone px-4 py-2 text-center">
+                <span className="text-[12px] font-medium leading-tight text-espresso">
+                  Open the calculator
+                </span>
+                <span className="mt-[1px] text-[9px] leading-tight text-graphite">
+                  Forward + reverse math
+                </span>
+              </div>
             </div>
           </div>
 
