@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Wordmark } from "./Wordmark";
 import { VMark } from "./AppIcon";
+import { CookiePreferencesLink } from "./CookiePreferencesLink";
 
 export function Footer() {
   return (
@@ -25,14 +26,40 @@ export function Footer() {
               { label: "Beta", href: "#beta" },
             ]}
           />
-          <FooterColumn
-            title="Company"
-            links={[
-              { label: "About", href: "/about" },
-              { label: "Privacy", href: "/privacy" },
-              { label: "Terms", href: "/terms" },
-            ]}
-          />
+          <div className="flex flex-col gap-3">
+            <h3 className="text-[12px] font-medium uppercase tracking-[0.14em] text-graphite/80">
+              Company
+            </h3>
+            <ul className="flex flex-col gap-2">
+              <li>
+                <Link
+                  href="/about"
+                  className="text-[14px] text-espresso transition hover:text-amber-dark"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/privacy"
+                  className="text-[14px] text-espresso transition hover:text-amber-dark"
+                >
+                  Privacy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/terms"
+                  className="text-[14px] text-espresso transition hover:text-amber-dark"
+                >
+                  Terms
+                </Link>
+              </li>
+              <li>
+                <CookiePreferencesLink className="text-left text-[14px] text-espresso transition hover:text-amber-dark" />
+              </li>
+            </ul>
+          </div>
           <FooterColumn
             title="Contact"
             links={[
