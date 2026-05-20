@@ -12,7 +12,7 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-forest/40" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-forest" />
             </span>
-            v1 beta — TestFlight invites open
+            iOS — coming soon. Join the waitlist.
           </span>
 
           <h1 className="text-[44px] font-medium leading-[1.05] tracking-display text-espresso md:text-[68px] lg:text-[78px]">
@@ -33,7 +33,7 @@ export function Hero() {
               href={TESTFLIGHT_URL}
               className="inline-flex items-center justify-center gap-2 rounded-full bg-forest px-6 py-3 text-[15px] font-medium text-bone shadow-sm transition hover:bg-forest-deep"
             >
-              Join the beta
+              Join the waitlist
               <span aria-hidden>→</span>
             </Link>
             <Link
@@ -105,7 +105,7 @@ function HeroVisual() {
               Today
             </p>
             <h3 className="mt-1 text-[20px] font-medium leading-none tracking-tight text-espresso">
-              Saturday, May 9
+              Monday, May 18
             </h3>
           </div>
 
