@@ -126,7 +126,7 @@ function HeroVisual() {
                   Browse the library
                 </span>
                 <span className="mt-[1px] text-[9px] leading-tight text-bone/80">
-                  45 researched peptides
+                  56 researched peptides
                 </span>
               </div>
               <div className="flex flex-col items-center justify-center rounded-2xl border border-espresso/15 bg-bone px-4 py-2 text-center">
