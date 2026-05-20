@@ -25,7 +25,7 @@ export function Features() {
         <FeatureCard
           eyebrow="02"
           title="A library you can actually use."
-          body="45 peptide entries with primary-source citations — PubMed DOIs, ClinicalTrials.gov NCTs, FDA labels. Reconstitution tables are calculator-rendered, never hand-typed. Tap &ldquo;Use in calculator&rdquo; on any entry to jump straight into the math with that peptide pre-picked."
+          body="56 peptide entries with primary-source citations — PubMed DOIs, ClinicalTrials.gov NCTs, FDA labels. Reconstitution tables are calculator-rendered, never hand-typed. Tap &ldquo;Use in calculator&rdquo; on any entry to jump straight into the math with that peptide pre-picked."
           icon={<LibraryIcon />}
           accent="forest"
         />
