@@ -19,7 +19,7 @@ const FAQS = [
   },
   {
     q: "When does v1 launch?",
-    a: "App Store submission is targeted for June 2026. The TestFlight beta is open now to a small group — join the waitlist below to get an invite or get notified when v1 hits the App Store.",
+    a: "App Store submission is targeted for June 2026. TestFlight invites will open before that — join the waitlist below to get an invite when builds are ready, plus a heads-up the day v1 hits the App Store.",
   },
   {
     q: "What's the difference between Free and Pro?",

@@ -32,7 +32,7 @@ export function Header() {
             href="#beta"
             className="rounded-full bg-forest px-5 py-2 text-[14px] font-medium text-bone transition hover:bg-forest-deep"
           >
-            Join the beta
+            Join the waitlist
           </Link>
         </nav>
 

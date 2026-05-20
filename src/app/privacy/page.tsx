@@ -3,9 +3,14 @@ import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
+  title: {
+    absolute: "VialWise Privacy Policy — No Data Sold, Ever",
+  },
   description:
-    "How Vialwise handles your data. Short version: it stays on your device, we don't sell it, and we don't share it with third parties.",
+    "VialWise does not sell your data, share protocols, or store personal health information. Your research stays on your device. Full privacy policy here.",
+  alternates: {
+    canonical: "https://www.getvialwise.com/privacy",
+  },
 };
 
 const LAST_UPDATED = "May 3, 2026";

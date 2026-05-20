@@ -1,7 +1,4 @@
-import Link from "next/link";
 import { EmailForm } from "./EmailForm";
-
-const TESTFLIGHT_URL = process.env.NEXT_PUBLIC_TESTFLIGHT_URL ?? "#beta";
 
 export function BetaCTA() {
   return (
@@ -9,46 +6,29 @@ export function BetaCTA() {
       <div className="mx-auto max-w-5xl px-6 md:px-10">
         <div className="relative overflow-hidden rounded-[40px] bg-espresso px-8 py-14 text-bone md:px-16 md:py-20">
           <AmberOrb />
-          <div className="relative grid grid-cols-1 gap-10 md:grid-cols-[1.2fr_1fr] md:items-end">
+          <div className="relative grid grid-cols-1 gap-10 md:grid-cols-[1.2fr_1fr] md:items-center">
             <div>
               <p className="text-[13px] font-medium uppercase tracking-[0.16em] text-amber-light">
-                Get early access
+                Early access
               </p>
               <h2 className="mt-4 text-[36px] font-medium leading-tight tracking-headline md:text-[48px]">
-                Two ways in.
+                Join the waitlist.
               </h2>
               <p className="mt-4 max-w-md text-[16px] leading-relaxed text-bone/75 md:text-[17px]">
-                The TestFlight beta is open to a small group right now. If you&rsquo;d rather wait for the App Store launch, we&rsquo;ll email you the day it goes live. Nothing else.
+                iOS launch is targeted for June 2026. Drop your email and we&rsquo;ll send a TestFlight invite when builds open, plus a heads-up the day v1 hits the App Store. Nothing else.
               </p>
             </div>
 
-            <div className="flex flex-col gap-5">
-              <Link
-                href={TESTFLIGHT_URL}
-                className="inline-flex items-center justify-between gap-4 rounded-2xl bg-amber-dark px-6 py-5 text-[15px] font-medium text-bone transition hover:bg-amber"
-              >
-                <span className="flex flex-col">
-                  <span className="text-[12px] font-normal uppercase tracking-[0.12em] text-bone/70">
-                    Join the TestFlight beta
-                  </span>
-                  <span className="mt-0.5 text-[16px] font-medium">
-                    iOS 17+ · Free
-                  </span>
-                </span>
-                <span aria-hidden className="text-xl">→</span>
-              </Link>
-
-              <div className="rounded-2xl bg-bone/5 p-5 ring-1 ring-inset ring-bone/10">
-                <p className="text-[12px] font-medium uppercase tracking-[0.12em] text-bone/60">
-                  Or get notified at launch
-                </p>
-                <div className="mt-3">
-                  <EmailForm
-                    variant="hero"
-                    buttonLabel="Notify me"
-                    placeholder="your@email.com"
-                  />
-                </div>
+            <div className="rounded-2xl bg-bone/5 p-6 ring-1 ring-inset ring-bone/10">
+              <p className="text-[12px] font-medium uppercase tracking-[0.12em] text-bone/60">
+                Get on the list
+              </p>
+              <div className="mt-3">
+                <EmailForm
+                  variant="hero"
+                  buttonLabel="Join the waitlist"
+                  placeholder="your@email.com"
+                />
               </div>
             </div>
           </div>

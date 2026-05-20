@@ -42,7 +42,7 @@ export function Pricing() {
           cadence="forever"
           summary="The calculator, plus tracking for your first peptide."
           features={ALL_FEATURES}
-          ctaLabel="Join the beta"
+          ctaLabel="Join the waitlist"
           ctaHref={TESTFLIGHT_URL}
           tone="cream"
         />
@@ -53,7 +53,7 @@ export function Pricing() {
           alt="$7.99/mo"
           summary="Unlimited peptides, reminders, and the full toolkit. 7-day free trial on annual."
           features={PRO_FEATURES}
-          ctaLabel="Join the beta"
+          ctaLabel="Join the waitlist"
           ctaHref={TESTFLIGHT_URL}
           tone="forest"
           badge="58% off vs monthly"
@@ -61,7 +61,7 @@ export function Pricing() {
       </div>
 
       <p className="mx-auto mt-8 max-w-xl text-center text-[13px] leading-relaxed text-graphite">
-        Pro launches with v2.0 in August 2026. The beta is free. No payment info collected until subscriptions go live, and your beta usage stays free either way.
+        Pro launches with v2.0 in August 2026. Waitlist signups get a TestFlight invite when builds open — free, no payment info collected until subscriptions go live.
       </p>
     </section>
   );

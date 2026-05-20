@@ -3,8 +3,14 @@ import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
 
 export const metadata: Metadata = {
-  title: "Terms of Service",
-  description: "The terms governing use of Vialwise.",
+  title: {
+    absolute: "VialWise Terms of Service — Research & Educational Use",
+  },
+  description:
+    "VialWise is a research and educational tool. Use the calculator and peptide library for research purposes only. Read the full terms of service here.",
+  alternates: {
+    canonical: "https://www.getvialwise.com/terms",
+  },
 };
 
 const LAST_UPDATED = "May 3, 2026";
