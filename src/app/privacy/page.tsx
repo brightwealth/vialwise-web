@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
 };
 
-const LAST_UPDATED = "May 3, 2026";
+const LAST_UPDATED = "June 2, 2026";
 
 export default function PrivacyPage() {
   return (
