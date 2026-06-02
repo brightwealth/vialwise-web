@@ -51,9 +51,25 @@ export default function PrivacyPage() {
         <li>We do not sell, rent, or share your data with advertisers or insurers.</li>
         <li>We do not partner with peptide vendors and do not share user lists with anyone.</li>
         <li>We do not collect biometric identifiers, real-name identity, or government IDs.</li>
-        <li>We do not use third-party analytics providers in v1.</li>
+        <li>We do not use third-party analytics providers inside the Vialwise iOS app. (This marketing website uses privacy-hardened, consent-gated analytics &mdash; see &ldquo;Website analytics&rdquo; below.)</li>
         <li>We do not transmit raw Apple Health data off your device, ever.</li>
       </ul>
+
+      <h2>Website analytics (getvialwise.com)</h2>
+      <p>
+        This marketing website uses two privacy-hardened analytics tools, and only after you accept them on the cookie banner:
+      </p>
+      <ul>
+        <li>
+          <strong>Google Analytics 4</strong> &mdash; aggregate, measurement-only traffic statistics. We disable Google Signals and ad personalization, so there is no cross-site advertising profile and no signed-in-account integration.
+        </li>
+        <li>
+          <strong>Microsoft Clarity</strong> &mdash; anonymized, aggregate usage insights (for example, which pages get read).
+        </li>
+      </ul>
+      <p>
+        Neither one runs until you choose &ldquo;Accept&rdquo; (or opt in via &ldquo;Customize&rdquo;) on the cookie banner. Choose &ldquo;Reject&rdquo; and no analytics cookies are set and nothing is sent. You can reopen the banner any time from the footer to change your choice. These tools apply to this website only &mdash; they are not part of the iOS app, which keeps your peptide and dose data on your device.
+      </p>
 
       <h2>How long we keep things</h2>
       <ul>
