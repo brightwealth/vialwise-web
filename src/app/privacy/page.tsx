@@ -41,9 +41,6 @@ export default function PrivacyPage() {
         <li>
           <strong>Subscription status (v2.0+)</strong> — managed by Apple via App Store In-App Purchases. We see whether your account is Free or Pro, not your payment details.
         </li>
-        <li>
-          <strong>Anonymous crash and performance data</strong> — to help us fix bugs. No personal information is included.
-        </li>
       </ul>
 
       <h2>What we don&rsquo;t collect</h2>
