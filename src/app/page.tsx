@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     absolute: "VialWise: Peptide Reconstitution Calculator & Library",
   },
   description:
-    "Free peptide reconstitution calculator. Forward and reverse BAC water math. 56+ peptides with primary-source citations. Research and educational only.",
+    "Free peptide reconstitution calculator. Forward and reverse BAC water math. 64+ peptides with primary-source citations. Research and educational only.",
   alternates: {
     canonical: "https://www.getvialwise.com",
   },
@@ -32,7 +32,7 @@ const jsonLd = {
       "@type": "SoftwareApplication",
       name: "VialWise",
       description:
-        "Peptide reconstitution calculator with forward and reverse BAC water math. Library of 56+ peptides with primary-source citations. Research and educational use only.",
+        "Peptide reconstitution calculator with forward and reverse BAC water math. Library of 64+ peptides with primary-source citations. Research and educational use only.",
       applicationCategory: "HealthApplication",
       operatingSystem: "iOS",
       offers: {
@@ -50,7 +50,7 @@ const jsonLd = {
       featureList: [
         "Forward reconstitution calculator (vial + BAC water + dose → draw size)",
         "Reverse reconstitution calculator (dose + vial + desired draw → BAC water volume)",
-        "Library of 56+ peptides with primary-source citations",
+        "Library of 64+ peptides with primary-source citations",
         "mg/mcg toggle for unit safety",
         "U-100 syringe visualization",
       ],
