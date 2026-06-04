@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Wordmark } from "./Wordmark";
 import { VMark } from "./AppIcon";
 import { CookiePreferencesLink } from "./CookiePreferencesLink";
+import { AppStoreBadge, APP_LIVE } from "./AppStoreBadge";
 
 export function Footer() {
   return (
@@ -16,6 +17,7 @@ export function Footer() {
             <p className="max-w-xs text-[14px] leading-relaxed text-graphite">
               The honest peptide app. Built by someone who actually runs peptides.
             </p>
+            {APP_LIVE && <AppStoreBadge height={44} className="mt-1" />}
           </div>
 
           <FooterColumn
