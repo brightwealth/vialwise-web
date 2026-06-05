@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
+import { pageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = {
   title: {
@@ -8,9 +9,7 @@ export const metadata: Metadata = {
   },
   description:
     "VialWise does not sell your data, share protocols, or store personal health information. Your research stays on your device. Full privacy policy here.",
-  alternates: {
-    canonical: "https://www.getvialwise.com/privacy",
-  },
+  ...pageMetadata("https://www.getvialwise.com/privacy"),
 };
 
 const LAST_UPDATED = "June 2, 2026";

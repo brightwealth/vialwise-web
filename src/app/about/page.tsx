@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
+import { pageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = {
   title: {
@@ -8,9 +9,7 @@ export const metadata: Metadata = {
   },
   description:
     "Andrew built VialWise because he runs peptides himself and needed accurate reconstitution math. No vendor kickbacks. Research and educational only.",
-  alternates: {
-    canonical: "https://www.getvialwise.com/about",
-  },
+  ...pageMetadata("https://www.getvialwise.com/about"),
 };
 
 export default function AboutPage() {

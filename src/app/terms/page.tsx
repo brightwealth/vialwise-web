@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
+import { pageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = {
   title: {
@@ -8,9 +9,7 @@ export const metadata: Metadata = {
   },
   description:
     "VialWise is a research and educational tool. Use the calculator and peptide library for research purposes only. Read the full terms of service here.",
-  alternates: {
-    canonical: "https://www.getvialwise.com/terms",
-  },
+  ...pageMetadata("https://www.getvialwise.com/terms"),
 };
 
 const LAST_UPDATED = "May 3, 2026";
