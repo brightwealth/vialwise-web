@@ -8,6 +8,7 @@ import { AntiBloat } from "@/components/AntiBloat";
 import { FAQ } from "@/components/FAQ";
 import { BetaCTA } from "@/components/BetaCTA";
 import { Footer } from "@/components/Footer";
+import { pageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = {
   title: {
@@ -15,9 +16,7 @@ export const metadata: Metadata = {
   },
   description:
     "Free peptide reconstitution calculator. Forward and reverse BAC water math. 64+ peptides with primary-source citations. Research and educational only.",
-  alternates: {
-    canonical: "https://www.getvialwise.com",
-  },
+  ...pageMetadata("https://www.getvialwise.com"),
 };
 
 // JSON-LD structured data — SoftwareApplication + FAQPage + Organization on a

@@ -13,7 +13,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://getvialwise.com"),
+  metadataBase: new URL("https://www.getvialwise.com"),
   title: {
     default: "Vialwise — Peptide tracking, done right.",
     template: "%s — Vialwise",
@@ -30,19 +30,25 @@ export const metadata: Metadata = {
     "TB-500",
     "semaglutide calculator",
   ],
+  // Site-wide Open Graph fallback (used by routes that don't set their own,
+  // e.g. /preview/*). The public pages override this with a per-page og:url via
+  // pageMetadata() in src/lib/metadata.ts. No absolute `url` here on purpose —
+  // a hard-coded homepage URL would (a) be non-www and (b) wrongly claim the
+  // homepage URL on every page.
   openGraph: {
     type: "website",
     title: "Vialwise — Peptide tracking, done right.",
     description:
       "The honest peptide app. Built by someone who actually runs peptides.",
-    url: "https://getvialwise.com",
     siteName: "Vialwise",
+    images: ["/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Vialwise — Peptide tracking, done right.",
     description:
       "The honest peptide app. Built by someone who actually runs peptides.",
+    images: ["/og-image.png"],
   },
   icons: {
     icon: "/brand/vialwise-app-icon.svg",
