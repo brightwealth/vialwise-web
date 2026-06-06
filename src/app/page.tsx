@@ -120,6 +120,9 @@ const jsonLd = {
       "@type": "Organization",
       name: "VialWise",
       url: "https://www.getvialwise.com",
+      // Square raster logo (512x512) — required by Google's Organization rich
+      // result. Asset: public/logo-512.png (rasterized from the app-icon SVG).
+      logo: "https://www.getvialwise.com/logo-512.png",
       founder: {
         "@type": "Person",
         name: "Andrew Chavez",
