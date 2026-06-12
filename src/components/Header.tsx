@@ -12,6 +12,12 @@ export function Header() {
 
         <nav className="hidden items-center gap-9 md:flex" aria-label="Primary">
           <Link
+            href="/calculator"
+            className="text-[14px] text-graphite transition hover:text-espresso"
+          >
+            Calculator
+          </Link>
+          <Link
             href="#features"
             className="text-[14px] text-graphite transition hover:text-espresso"
           >
