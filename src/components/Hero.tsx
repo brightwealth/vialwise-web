@@ -30,24 +30,43 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+            {/* Primary CTA — the free reconstitution calculator. The marketing
+                points people at "calculator at getvialwise.com", so the root
+                offers it up front, above the fold, as the obvious primary
+                action: one tap to /calculator. */}
+            <Link
+              href="/calculator"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-forest px-6 py-3 text-[15px] font-medium text-bone shadow-sm transition hover:bg-forest-deep"
+            >
+              Open the free reconstitution calculator
+              <span aria-hidden>→</span>
+            </Link>
+
+            {/* Secondary CTA — the waitlist (Android demand + release updates),
+                or the App Store badge once NEXT_PUBLIC_APP_LIVE is flipped on.
+                The badge gating is unchanged; it just sits in the secondary
+                slot now that the calculator is primary. */}
             {APP_LIVE ? (
               <AppStoreBadge height={52} />
             ) : (
               <Link
                 href={TESTFLIGHT_URL}
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-forest px-6 py-3 text-[15px] font-medium text-bone shadow-sm transition hover:bg-forest-deep"
+                className="inline-flex items-center justify-center gap-2 rounded-full border border-espresso/15 bg-bone px-6 py-3 text-[15px] font-medium text-espresso transition hover:border-espresso/30"
               >
                 Join the waitlist
-                <span aria-hidden>→</span>
               </Link>
             )}
+          </div>
+
+          {/* Tertiary — feature breakdown, without leaving the page. */}
+          <p className="-mt-3">
             <Link
               href="#features"
-              className="inline-flex items-center justify-center gap-2 rounded-full border border-espresso/15 bg-bone px-6 py-3 text-[15px] font-medium text-espresso transition hover:border-espresso/30"
+              className="text-[14px] font-medium text-forest underline-offset-4 hover:underline"
             >
-              See what it does
+              See what it does →
             </Link>
-          </div>
+          </p>
 
           {APP_LIVE && (
             <p className="-mt-3 text-[14px] text-graphite">
