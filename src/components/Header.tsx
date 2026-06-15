@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Wordmark } from "./Wordmark";
-import { AppStoreBadge, APP_LIVE } from "./AppStoreBadge";
+import { AppStoreBadge } from "./AppStoreBadge";
 
 export function Header() {
   return (
@@ -35,28 +35,10 @@ export function Header() {
           >
             About
           </Link>
-          {APP_LIVE ? (
-            <AppStoreBadge height={40} />
-          ) : (
-            <Link
-              href="#beta"
-              className="rounded-full bg-forest px-5 py-2 text-[14px] font-medium text-bone transition hover:bg-forest-deep"
-            >
-              Join the waitlist
-            </Link>
-          )}
+          <AppStoreBadge height={40} />
         </nav>
 
-        {APP_LIVE ? (
-          <AppStoreBadge height={40} className="md:hidden" />
-        ) : (
-          <Link
-            href="#beta"
-            className="rounded-full bg-forest px-4 py-2 text-[13px] font-medium text-bone md:hidden"
-          >
-            Beta
-          </Link>
-        )}
+        <AppStoreBadge height={40} className="md:hidden" />
       </div>
     </header>
   );

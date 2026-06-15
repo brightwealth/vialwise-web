@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   ...pageMetadata("https://www.getvialwise.com/privacy"),
 };
 
-const LAST_UPDATED = "June 2, 2026";
+const LAST_UPDATED = "June 15, 2026";
 
 export default function PrivacyPage() {
   return (
@@ -28,9 +28,6 @@ export default function PrivacyPage() {
         Vialwise is designed to collect as little data as possible. Here is everything we touch:
       </p>
       <ul>
-        <li>
-          <strong>Email address</strong> — only if you join the launch waitlist on this website. Used solely to email you when v1 launches and for occasional product updates. You can unsubscribe at any time.
-        </li>
         <li>
           <strong>Peptide and dose data inside the app</strong> — stored locally on your device only in v1. Vialwise does not transmit this data to any server.
         </li>
@@ -70,9 +67,6 @@ export default function PrivacyPage() {
       <h2>How long we keep things</h2>
       <ul>
         <li>
-          <strong>Email waitlist:</strong> until you unsubscribe, or until 12 months after launch with no activity, whichever comes first.
-        </li>
-        <li>
           <strong>In-app data:</strong> stored on your device until you delete the app. Cloud-synced data (v2+) is deleted within 30 days of account deletion.
         </li>
       </ul>
@@ -83,9 +77,8 @@ export default function PrivacyPage() {
         <a href="mailto:privacy@vialwise.app">privacy@vialwise.app</a> to:
       </p>
       <ul>
-        <li>Request a copy of any data tied to your email address.</li>
+        <li>Request a copy of any data we hold about you.</li>
         <li>Request deletion of your data.</li>
-        <li>Opt out of all marketing email.</li>
       </ul>
       <p>
         We honor GDPR, CCPA, and similar requests within 30 days regardless of your jurisdiction.
@@ -98,7 +91,7 @@ export default function PrivacyPage() {
 
       <h2>Changes to this policy</h2>
       <p>
-        If we make material changes, we will update the &ldquo;Last updated&rdquo; date at the top of this page and, if you&rsquo;re on the waitlist, email you a summary of what changed.
+        If we make material changes, we will update the &ldquo;Last updated&rdquo; date at the top of this page.
       </p>
 
       <h2>Contact</h2>

@@ -18,8 +18,8 @@ const FAQS = [
     a: "Yes. v1 stores everything locally on your device. v2 (with Pro) syncs encrypted to your account. Health data from Apple Health stays on-device — we never see your raw weight, body fat, or biometrics. We're transparent about every byte.",
   },
   {
-    q: "When does v1 launch?",
-    a: "App Store submission is targeted for June 2026. TestFlight invites will open before that — join the waitlist below to get an invite when builds are ready, plus a heads-up the day v1 hits the App Store.",
+    q: "Is VialWise available yet?",
+    a: "Yes. VialWise v1 is now available on the App Store for iPhone — free, with the full reconstitution calculator and the peptide library. Android is on the way.",
   },
   {
     q: "What's the difference between Free and Pro?",

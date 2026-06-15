@@ -6,7 +6,6 @@ import { Why } from "@/components/Why";
 import { Pricing } from "@/components/Pricing";
 import { AntiBloat } from "@/components/AntiBloat";
 import { FAQ } from "@/components/FAQ";
-import { BetaCTA } from "@/components/BetaCTA";
 import { Footer } from "@/components/Footer";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -92,10 +91,10 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "When does v1 launch?",
+          name: "Is VialWise available yet?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "App Store submission is targeted for June 2026. TestFlight invites will open before that — join the waitlist below to get an invite when builds are ready, plus a heads-up the day v1 hits the App Store.",
+            text: "Yes. VialWise v1 is now available on the App Store for iPhone — free, with the full reconstitution calculator and the peptide library. Android is on the way.",
           },
         },
         {
@@ -151,7 +150,6 @@ export default function Home() {
         <Pricing />
         <AntiBloat />
         <FAQ />
-        <BetaCTA />
       </main>
       <Footer />
     </>

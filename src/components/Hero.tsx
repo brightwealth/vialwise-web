@@ -1,7 +1,5 @@
 import Link from "next/link";
-import { AppStoreBadge, APP_LIVE } from "./AppStoreBadge";
-
-const TESTFLIGHT_URL = process.env.NEXT_PUBLIC_TESTFLIGHT_URL ?? "#beta";
+import { AppStoreBadge } from "./AppStoreBadge";
 
 export function Hero() {
   return (
@@ -13,7 +11,7 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-forest/40" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-forest" />
             </span>
-            {APP_LIVE ? "iOS — now on the App Store." : "iOS — coming soon. Join the waitlist."}
+            iOS — now on the App Store.
           </span>
 
           <h1 className="text-[44px] font-medium leading-[1.05] tracking-display text-espresso md:text-[68px] lg:text-[78px]">
@@ -42,20 +40,9 @@ export function Hero() {
               <span aria-hidden>→</span>
             </Link>
 
-            {/* Secondary CTA — the waitlist (Android demand + release updates),
-                or the App Store badge once NEXT_PUBLIC_APP_LIVE is flipped on.
-                The badge gating is unchanged; it just sits in the secondary
-                slot now that the calculator is primary. */}
-            {APP_LIVE ? (
-              <AppStoreBadge height={52} />
-            ) : (
-              <Link
-                href={TESTFLIGHT_URL}
-                className="inline-flex items-center justify-center gap-2 rounded-full border border-espresso/15 bg-bone px-6 py-3 text-[15px] font-medium text-espresso transition hover:border-espresso/30"
-              >
-                Join the waitlist
-              </Link>
-            )}
+            {/* Secondary CTA — the App Store badge. The app is live, so this
+                links straight to the App Store listing. */}
+            <AppStoreBadge height={52} />
           </div>
 
           {/* Tertiary — feature breakdown, without leaving the page. */}
@@ -67,18 +54,6 @@ export function Hero() {
               See what it does →
             </Link>
           </p>
-
-          {APP_LIVE && (
-            <p className="-mt-3 text-[14px] text-graphite">
-              On Android, or want release updates?{" "}
-              <Link
-                href="#beta"
-                className="font-medium text-forest underline-offset-4 hover:underline"
-              >
-                Join the waitlist →
-              </Link>
-            </p>
-          )}
 
           <dl className="mt-2 flex flex-wrap gap-x-10 gap-y-3 text-[13px] text-graphite">
             <div className="flex flex-col">
