@@ -12,6 +12,7 @@ const PRO_FEATURES = [
   "Everything in Free",
   "Unlimited peptides & protocols",
   "Inventory & vial tracking",
+  "Protocol PDF export",
   "Scheduled reminders",
   "Half-life decay charts (multi-dose)",
 ];
