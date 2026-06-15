@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { EmailForm } from "@/components/EmailForm";
-import { AppStoreBadge, APP_LIVE } from "@/components/AppStoreBadge";
+import { AppStoreBadge } from "@/components/AppStoreBadge";
 import { ReconstitutionCalculator } from "@/components/calculator/ReconstitutionCalculator";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -140,7 +139,7 @@ export default function CalculatorPage() {
         <section id="calculator" className="mx-auto w-full max-w-5xl px-6 py-12 md:px-10 md:py-16">
           <ReconstitutionCalculator />
 
-          {/* App CTA — App Store badge once live (gated), waitlist until then */}
+          {/* App CTA — App Store badge (the app is live) */}
           <div className="mt-8 flex flex-col items-start gap-3 rounded-3xl border border-espresso/[0.08] bg-bone p-6 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="text-[15px] font-medium text-espresso">
@@ -148,20 +147,10 @@ export default function CalculatorPage() {
               </p>
               <p className="mt-1 text-[14px] text-graphite">
                 VialWise for iOS pairs the calculator with primary-source-cited
-                entries. Free at launch.
+                entries. Free on the App Store.
               </p>
             </div>
-            {APP_LIVE ? (
-              <AppStoreBadge height={48} />
-            ) : (
-              <Link
-                href="#waitlist"
-                className="inline-flex shrink-0 items-center justify-center gap-2 rounded-full bg-forest px-6 py-3 text-[15px] font-medium text-bone transition hover:bg-forest-deep"
-              >
-                Get the app at launch
-                <span aria-hidden>→</span>
-              </Link>
-            )}
+            <AppStoreBadge height={48} />
           </div>
         </section>
 
@@ -239,18 +228,21 @@ export default function CalculatorPage() {
                 64+ entries, each with primary-source citations, in the iOS app.
                 You can read more{" "}
                 <Link href="/about">about why it exists</Link>, or{" "}
-                <Link href="#waitlist">join the waitlist</Link> for the launch.
-                For research and educational purposes only.
+                <a
+                  href="https://apps.apple.com/app/id6774017323"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  download it on the App Store
+                </a>
+                . For research and educational purposes only.
               </p>
             </div>
           </div>
         </section>
 
-        {/* ── Library tease + waitlist capture ────────────────────────── */}
-        <section
-          id="waitlist"
-          className="relative overflow-hidden bg-bone py-20 md:py-28"
-        >
+        {/* ── Library tease + App Store download ──────────────────────── */}
+        <section className="relative overflow-hidden bg-bone py-20 md:py-28">
           <div className="mx-auto max-w-5xl px-6 md:px-10">
             <div className="relative overflow-hidden rounded-[40px] bg-espresso px-8 py-14 text-bone md:px-16 md:py-20">
               <div className="relative grid grid-cols-1 gap-10 md:grid-cols-[1.2fr_1fr] md:items-center">
@@ -265,22 +257,12 @@ export default function CalculatorPage() {
                     The web calculator is the math. The VialWise iOS app adds a
                     library of 64+ peptides with primary-source citations, a
                     visual syringe, and reconstitution tables rendered by this
-                    same engine. Drop your email and we&rsquo;ll send a heads-up
-                    the day it&rsquo;s on the App Store.
+                    same engine. Free on the App Store.
                   </p>
                 </div>
 
-                <div className="rounded-2xl bg-bone/5 p-6 ring-1 ring-inset ring-bone/10">
-                  <p className="text-[12px] font-medium uppercase tracking-[0.12em] text-bone/60">
-                    Get the app at launch
-                  </p>
-                  <div className="mt-3">
-                    <EmailForm
-                      variant="hero"
-                      buttonLabel="Get the app at launch"
-                      placeholder="your@email.com"
-                    />
-                  </div>
+                <div className="flex md:justify-end">
+                  <AppStoreBadge height={52} />
                 </div>
               </div>
             </div>

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -60,7 +59,14 @@ export default function AboutPage() {
       <h2>If you want to help</h2>
       <p>
         The fastest way is to{" "}
-        <Link href="/#beta">join the waitlist</Link> for a TestFlight invite when builds open and tell me what&rsquo;s wrong with it. I&rsquo;m looking for honest feedback from people actually running peptides — bodybuilders, GLP-1 patients, biohackers, and anyone in between.
+        <a
+          href="https://apps.apple.com/app/id6774017323"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          download it on the App Store
+        </a>{" "}
+        and tell me what&rsquo;s wrong with it. I&rsquo;m looking for honest feedback from people actually running peptides — bodybuilders, GLP-1 patients, biohackers, and anyone in between.
       </p>
       <p>
         You can also email me directly at{" "}

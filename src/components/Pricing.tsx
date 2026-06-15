@@ -1,6 +1,4 @@
-import Link from "next/link";
-
-const TESTFLIGHT_URL = process.env.NEXT_PUBLIC_TESTFLIGHT_URL ?? "#beta";
+import { AppStoreBadge } from "./AppStoreBadge";
 
 const ALL_FEATURES = [
   "Reconstitution & dose calculator",
@@ -42,26 +40,31 @@ export function Pricing() {
           cadence="forever"
           summary="The calculator, plus tracking for your first peptide."
           features={ALL_FEATURES}
-          ctaLabel="Join the waitlist"
-          ctaHref={TESTFLIGHT_URL}
           tone="cream"
+          cta={<AppStoreBadge height={48} />}
         />
         <PricingCard
           name="Pro"
           price="$39.99"
           cadence="per year"
           alt="$7.99/mo"
-          summary="Unlimited peptides, reminders, and the full toolkit. 7-day free trial on annual."
+          summary="Unlimited peptides, reminders, and the full toolkit."
           features={PRO_FEATURES}
-          ctaLabel="Join the waitlist"
-          ctaHref={TESTFLIGHT_URL}
           tone="forest"
           badge="58% off vs monthly"
+          cta={
+            <span
+              aria-disabled="true"
+              className="inline-flex w-fit cursor-default items-center justify-center rounded-full bg-bone/15 px-6 py-3 text-[14.5px] font-medium text-bone/80"
+            >
+              Coming soon
+            </span>
+          }
         />
       </div>
 
       <p className="mx-auto mt-8 max-w-xl text-center text-[13px] leading-relaxed text-graphite">
-        Pro launches with v2.0 in August 2026. Waitlist signups get a TestFlight invite when builds open — free, no payment info collected until subscriptions go live.
+        Pro is coming soon. Everyone gets the full calculator and the peptide library, free, today.
       </p>
     </section>
   );
@@ -74,10 +77,9 @@ type PricingCardProps = {
   alt?: string;
   summary: string;
   features: string[];
-  ctaLabel: string;
-  ctaHref: string;
   tone: "cream" | "forest";
   badge?: string;
+  cta: React.ReactNode;
 };
 
 function PricingCard({
@@ -87,10 +89,9 @@ function PricingCard({
   alt,
   summary,
   features,
-  ctaLabel,
-  ctaHref,
   tone,
   badge,
+  cta,
 }: PricingCardProps) {
   const isForest = tone === "forest";
 
@@ -148,17 +149,7 @@ function PricingCard({
         ))}
       </ul>
 
-      <Link
-        href={ctaHref}
-        className={`mt-8 inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[14.5px] font-medium transition ${
-          isForest
-            ? "bg-bone text-forest hover:bg-cream"
-            : "bg-espresso text-bone hover:bg-espresso/90"
-        }`}
-      >
-        {ctaLabel}
-        <span aria-hidden>→</span>
-      </Link>
+      <div className="mt-8">{cta}</div>
     </div>
   );
 }
