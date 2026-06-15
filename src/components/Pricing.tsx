@@ -14,8 +14,6 @@ const PRO_FEATURES = [
   "Inventory & vial tracking",
   "Scheduled reminders",
   "Half-life decay charts (multi-dose)",
-  "Apple Health weight & body-fat import",
-  "Weekly AI summary (opt-in, on-device privacy)",
 ];
 
 export function Pricing() {
