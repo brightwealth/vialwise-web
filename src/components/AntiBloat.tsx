@@ -30,7 +30,7 @@ export function AntiBloat() {
     <section className="bg-cream/50 py-24 md:py-32">
       <div className="mx-auto max-w-6xl px-6 md:px-10">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-[13px] font-medium uppercase tracking-[0.16em] text-amber-dark">
+          <p className="text-[13px] font-medium uppercase tracking-[0.16em] text-amber-deep">
             What we don&rsquo;t do
           </p>
           <h2 className="mt-4 text-[36px] font-medium leading-tight tracking-headline text-espresso md:text-[48px]">

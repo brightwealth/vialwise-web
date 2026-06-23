@@ -120,7 +120,7 @@ function PricingCard({
         <span className="text-[44px] font-medium leading-none tracking-display">
           {price}
         </span>
-        <span className={`text-[14px] ${isForest ? "text-bone/70" : "text-graphite"}`}>
+        <span className={`text-[14px] ${isForest ? "text-bone" : "text-graphite"}`}>
           {cadence}
         </span>
       </div>
@@ -148,7 +148,7 @@ function PricingCard({
         <div className="mt-6">
           <p
             className={`text-[12px] font-medium uppercase tracking-[0.14em] ${
-              isForest ? "text-bone/80" : "text-graphite"
+              isForest ? "text-bone" : "text-graphite"
             }`}
           >
             Coming to Pro
@@ -158,10 +158,10 @@ function PricingCard({
               <li
                 key={f}
                 className={`flex items-start gap-3 text-[14px] leading-relaxed ${
-                  isForest ? "text-bone/80" : "text-graphite"
+                  isForest ? "text-bone" : "text-graphite"
                 }`}
               >
-                <PlusIcon className={isForest ? "text-bone/80" : "text-graphite"} />
+                <PlusIcon className={isForest ? "text-bone" : "text-graphite"} />
                 <span>{f}</span>
               </li>
             ))}

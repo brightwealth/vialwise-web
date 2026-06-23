@@ -301,10 +301,10 @@ function ResultPlaceholder({ mode, message }: { mode: Mode; message?: string }) 
             key={r.label}
             className="flex items-baseline justify-between border-b border-espresso/[0.07] py-2.5 last:border-b-0"
           >
-            <dt className="text-[11px] font-medium uppercase tracking-[0.14em] text-graphite/70">
+            <dt className="text-[11px] font-medium uppercase tracking-[0.14em] text-graphite">
               {r.label}
             </dt>
-            <dd className="flex items-baseline gap-1 text-graphite/50">
+            <dd className="flex items-baseline gap-1 text-graphite">
               <span className="text-[22px] font-medium leading-none">—</span>
               <span className="text-[13px]">{r.unit}</span>
             </dd>
@@ -351,7 +351,7 @@ function ModeToggle({ mode, onChange }: { mode: Mode; onChange: (m: Mode) => voi
             </span>
             <span
               className={`mt-0.5 text-[10px] font-medium uppercase tracking-[0.12em] ${
-                active ? "text-amber-dark" : "text-graphite/60"
+                active ? "text-amber-deep" : "text-graphite"
               }`}
             >
               {s.helper}

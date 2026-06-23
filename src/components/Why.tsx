@@ -5,7 +5,7 @@ export function Why() {
     <section className="relative bg-forest text-bone">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-6 py-24 md:grid-cols-[1fr_1.2fr] md:gap-20 md:px-10 md:py-32">
         <div>
-          <p className="text-[13px] font-medium uppercase tracking-[0.16em] text-bone/60">
+          <p className="text-[13px] font-medium uppercase tracking-[0.16em] text-bone">
             Why we exist
           </p>
           <h2 className="mt-4 text-[36px] font-medium leading-tight tracking-headline md:text-[48px]">

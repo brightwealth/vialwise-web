@@ -19,7 +19,7 @@ export function PageShell({
         <section className="border-b border-espresso/[0.06] bg-cream/40">
           <div className="mx-auto max-w-3xl px-6 py-20 md:px-10 md:py-28">
             {eyebrow ? (
-              <p className="text-[13px] font-medium uppercase tracking-[0.16em] text-amber-dark">
+              <p className="text-[13px] font-medium uppercase tracking-[0.16em] text-amber-deep">
                 {eyebrow}
               </p>
             ) : null}

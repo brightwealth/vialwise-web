@@ -35,7 +35,7 @@ export function VialUsage({ totalDoses }: { totalDoses: number }) {
   return (
     <div className="rounded-3xl border border-espresso/[0.10] bg-bone p-6">
       <div className="flex items-baseline gap-2">
-        <p className="text-[12px] font-medium uppercase tracking-[0.14em] text-graphite/80">
+        <p className="text-[12px] font-medium uppercase tracking-[0.14em] text-graphite">
           Draws per vial
         </p>
       </div>

@@ -286,7 +286,7 @@ function DisclaimerBanner({ className }: { className?: string }) {
       className={`rounded-2xl border border-amber-dark/30 bg-amber-dark/[0.07] px-5 py-4 ${className ?? ""}`}
     >
       <p className="text-[14px] leading-relaxed text-espresso">
-        <span className="font-medium text-amber-dark">
+        <span className="font-medium text-amber-deep">
           For research and educational purposes only.
         </span>{" "}
         Not for medical use. This tool does not provide medical advice.

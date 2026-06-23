@@ -28,7 +28,7 @@ export function Footer() {
             ]}
           />
           <div className="flex flex-col gap-3">
-            <h3 className="text-[12px] font-medium uppercase tracking-[0.14em] text-graphite/80">
+            <h3 className="text-[12px] font-medium uppercase tracking-[0.14em] text-graphite">
               Company
             </h3>
             <ul className="flex flex-col gap-2">
@@ -69,7 +69,7 @@ export function Footer() {
           />
         </div>
 
-        <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-espresso/[0.08] pt-6 text-[12.5px] text-graphite/80 md:flex-row md:items-center">
+        <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-espresso/[0.08] pt-6 text-[12.5px] text-graphite md:flex-row md:items-center">
           <p>© {new Date().getFullYear()} Vialwise. All rights reserved.</p>
           <p className="max-w-xl md:text-right">
             Vialwise is not a medical device, does not diagnose or treat any condition, and does not provide medical advice. Talk to a qualified healthcare provider before making decisions about peptide use.
@@ -89,7 +89,7 @@ function FooterColumn({
 }) {
   return (
     <div className="flex flex-col gap-3">
-      <h3 className="text-[12px] font-medium uppercase tracking-[0.14em] text-graphite/80">
+      <h3 className="text-[12px] font-medium uppercase tracking-[0.14em] text-graphite">
         {title}
       </h3>
       <ul className="flex flex-col gap-2">

@@ -4,6 +4,11 @@
   --color-amber: #B8693A;
   --color-amber-light: #CB7B4F;
   --color-amber-dark: #A65A30;
+  /* Darker burnt-amber for eyebrows on cream-tinted section backgrounds, where
+     amber-dark (#A65A30) dips to ~4.2:1 and fails WCAG AA. amber-deep clears
+     4.5:1 on cream while staying on-brand. Use on bg-cream sections only;
+     amber-dark stays the default eyebrow on bone. */
+  --color-amber-deep: #7E4220;
   --color-amber-bold: #D78757;
   --color-forest: #2F5234;
   --color-forest-deep: #243F28;
