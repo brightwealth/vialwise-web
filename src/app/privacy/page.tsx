@@ -21,7 +21,7 @@ export default function PrivacyPage() {
       title="Privacy policy"
       intro="Short version: your peptide and health data stays on your device. We don't sell it. We don't share it. This page explains the details."
     >
-      <p className="text-[14px] text-graphite/70">Last updated: {LAST_UPDATED}</p>
+      <p className="text-[14px] text-graphite">Last updated: {LAST_UPDATED}</p>
 
       <h2>What we collect</h2>
       <p>
@@ -35,7 +35,7 @@ export default function PrivacyPage() {
           <strong>Apple Health data (v2.5+)</strong> — when enabled, weight and body-composition data is read from HealthKit on your device. Raw HealthKit data never leaves your phone.
         </li>
         <li>
-          <strong>Subscription status (v2.0+)</strong> — managed by Apple via App Store In-App Purchases. We see whether your account is Free or Pro, not your payment details.
+          <strong>Purchase status</strong> — Vialwise Pro is a one-time in-app purchase managed by Apple via App Store In-App Purchases. We see whether you have bought Pro, not your payment details.
         </li>
       </ul>
 
@@ -102,7 +102,7 @@ export default function PrivacyPage() {
 
       <hr />
 
-      <p className="text-[13px] text-graphite/70">
+      <p className="text-[13px] text-graphite">
         Vialwise is a software calculator and tracker. It is not a medical device, does not diagnose or treat any condition, and does not provide medical advice. See our{" "}
         <Link href="/terms">Terms</Link> for full details.
       </p>

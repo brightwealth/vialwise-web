@@ -21,7 +21,7 @@ export default function TermsPage() {
       title="Terms of service"
       intro="The legal terms governing your use of Vialwise. Plain English where possible."
     >
-      <p className="text-[14px] text-graphite/70">Last updated: {LAST_UPDATED}</p>
+      <p className="text-[14px] text-graphite">Last updated: {LAST_UPDATED}</p>
 
       <h2>1. What Vialwise is</h2>
       <p>
@@ -48,9 +48,9 @@ export default function TermsPage() {
         <li>You are responsible for keeping your device and account secure.</li>
       </ul>
 
-      <h2>5. Subscriptions (v2.0+)</h2>
+      <h2>5. In-app purchases</h2>
       <p>
-        Pro subscriptions are processed by Apple via App Store In-App Purchases. Pricing, billing, refunds, and cancellations are governed by Apple&rsquo;s standard terms. You can cancel any time from your Apple ID settings.
+        Vialwise Pro is a one-time in-app purchase processed by Apple via App Store In-App Purchases &mdash; not a subscription. Pricing, billing, and refunds are governed by Apple&rsquo;s standard terms. Because Pro is a one-time purchase, there is no recurring charge to cancel; refund requests are handled by Apple.
       </p>
 
       <h2>6. Acceptable use</h2>
@@ -76,7 +76,7 @@ export default function TermsPage() {
 
       <hr />
 
-      <p className="text-[13px] text-graphite/70">
+      <p className="text-[13px] text-graphite">
         See also our <Link href="/privacy">Privacy Policy</Link>.
       </p>
     </PageShell>

@@ -23,7 +23,11 @@ const FAQS = [
   },
   {
     q: "What's the difference between Free and Pro?",
-    a: "Free gives you the full calculator, the full library, and tracking for one protocol. Pro ($39.99/yr) unlocks unlimited protocols, scheduled reminders, inventory tracking, half-life decay charts, and Apple Health imports. Free stays free, forever, even after Pro launches.",
+    a: "Free gives you the full calculator, the full library, and tracking for one protocol. Pro is a one-time $44.99 purchase that unlocks unlimited saved protocols plus scheduled reminders. Free stays free, forever, even after you buy Pro.",
+  },
+  {
+    q: "Is Pro a subscription?",
+    a: "No — one-time. Pro is a single $44.99 purchase through the App Store. You buy it once and keep it: no recurring billing, no auto-renew, nothing to cancel.",
   },
   {
     q: "Will there be an Android version?",

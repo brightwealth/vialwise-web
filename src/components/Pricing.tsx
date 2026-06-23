@@ -8,13 +8,23 @@ const ALL_FEATURES = [
   "All future calc improvements",
 ];
 
+// Live, shipped-today Pro features. Pro (v1.6) is a one-time purchase whose
+// only entitlement gate is unlimited saved protocols (see the app's
+// src/entitlements/freeTier.ts — protocol count is the sole gated capability).
+// Scheduled reminders shipped in v1.1. Half-life charts are FREE for everyone,
+// so they are not listed here as a Pro upsell.
 const PRO_FEATURES = [
   "Everything in Free",
   "Unlimited peptides & protocols",
+  "Scheduled reminders",
+];
+
+// Not yet shipped — folds into the same one-time Pro unlock at v2.0. Shown as a
+// clearly-labeled "coming to Pro" sub-list with NO dates, so the card never
+// claims an unbuilt feature is available today.
+const PRO_COMING_SOON = [
   "Inventory & vial tracking",
   "Protocol PDF export",
-  "Scheduled reminders",
-  "Half-life decay charts (multi-dose)",
 ];
 
 export function Pricing() {
@@ -44,26 +54,18 @@ export function Pricing() {
         />
         <PricingCard
           name="Pro"
-          price="$39.99"
-          cadence="per year"
-          alt="$7.99/mo"
-          summary="Unlimited peptides, reminders, and the full toolkit."
+          price="$44.99"
+          cadence="one-time"
+          summary="Unlimited peptides and protocols, plus scheduled reminders. One payment, no subscription."
           features={PRO_FEATURES}
+          comingSoon={PRO_COMING_SOON}
           tone="forest"
-          badge="58% off vs monthly"
-          cta={
-            <span
-              aria-disabled="true"
-              className="inline-flex w-fit cursor-default items-center justify-center rounded-full bg-bone/15 px-6 py-3 text-[14.5px] font-medium text-bone/80"
-            >
-              Coming soon
-            </span>
-          }
+          cta={<AppStoreBadge height={48} />}
         />
       </div>
 
       <p className="mx-auto mt-8 max-w-xl text-center text-[13px] leading-relaxed text-graphite">
-        Pro is coming soon. Everyone gets the full calculator and the peptide library, free, today.
+        Pro is a one-time purchase, unlocked inside the app. Everyone gets the full calculator and the peptide library, free, today.
       </p>
     </section>
   );
@@ -73,9 +75,9 @@ type PricingCardProps = {
   name: string;
   price: string;
   cadence: string;
-  alt?: string;
   summary: string;
   features: string[];
+  comingSoon?: string[];
   tone: "cream" | "forest";
   badge?: string;
   cta: React.ReactNode;
@@ -85,9 +87,9 @@ function PricingCard({
   name,
   price,
   cadence,
-  alt,
   summary,
   features,
+  comingSoon,
   tone,
   badge,
   cta,
@@ -122,12 +124,6 @@ function PricingCard({
           {cadence}
         </span>
       </div>
-      {alt ? (
-        <span className={`mt-1 text-[12px] ${isForest ? "text-bone/60" : "text-graphite/80"}`}>
-          or {alt}
-        </span>
-      ) : null}
-
       <p className={`mt-5 text-[15px] leading-relaxed ${isForest ? "text-bone/85" : "text-graphite"}`}>
         {summary}
       </p>
@@ -147,6 +143,31 @@ function PricingCard({
           </li>
         ))}
       </ul>
+
+      {comingSoon && comingSoon.length > 0 ? (
+        <div className="mt-6">
+          <p
+            className={`text-[12px] font-medium uppercase tracking-[0.14em] ${
+              isForest ? "text-bone/80" : "text-graphite"
+            }`}
+          >
+            Coming to Pro
+          </p>
+          <ul className="mt-3 flex flex-col gap-2.5">
+            {comingSoon.map((f) => (
+              <li
+                key={f}
+                className={`flex items-start gap-3 text-[14px] leading-relaxed ${
+                  isForest ? "text-bone/80" : "text-graphite"
+                }`}
+              >
+                <PlusIcon className={isForest ? "text-bone/80" : "text-graphite"} />
+                <span>{f}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
 
       <div className="mt-8">{cta}</div>
     </div>
@@ -168,6 +189,25 @@ function CheckIcon({ className }: { className?: string }) {
       aria-hidden
     >
       <path d="M20 6L9 17l-5-5" />
+    </svg>
+  );
+}
+
+function PlusIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      className={`mt-0.5 shrink-0 ${className ?? ""}`}
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
+      <path d="M12 5v14M5 12h14" />
     </svg>
   );
 }

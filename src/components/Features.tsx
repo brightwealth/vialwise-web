@@ -66,7 +66,7 @@ function FeatureCard({
         {icon}
       </div>
 
-      <span className="mt-6 text-[12px] font-medium tracking-[0.18em] text-graphite/70">
+      <span className="mt-6 text-[12px] font-medium tracking-[0.18em] text-graphite">
         {eyebrow}
       </span>
       <h3 className="mt-2 text-[22px] font-medium leading-snug tracking-tight text-espresso">

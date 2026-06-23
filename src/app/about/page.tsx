@@ -75,7 +75,7 @@ export default function AboutPage() {
 
       <hr />
 
-      <p className="text-[14px] text-graphite/70">
+      <p className="text-[14px] text-graphite">
         — Andrew
       </p>
     </PageShell>

@@ -57,21 +57,24 @@ export function Hero() {
 
           <dl className="mt-2 flex flex-wrap gap-x-10 gap-y-3 text-[13px] text-graphite">
             <div className="flex flex-col">
-              <dt className="text-graphite/70">Calculator</dt>
+              <dt className="text-graphite">Calculator</dt>
               <dd className="font-medium text-espresso">Actually right.</dd>
             </div>
             <div className="flex flex-col">
-              <dt className="text-graphite/70">Privacy</dt>
+              <dt className="text-graphite">Privacy</dt>
               <dd className="font-medium text-espresso">On-device.</dd>
             </div>
             <div className="flex flex-col">
-              <dt className="text-graphite/70">Vendor kickbacks</dt>
+              <dt className="text-graphite">Vendor kickbacks</dt>
               <dd className="font-medium text-espresso">None.</dd>
             </div>
           </dl>
         </div>
 
-        <div className="relative flex items-center justify-center md:justify-end">
+        <div
+          className="relative flex items-center justify-center md:justify-end"
+          aria-hidden="true"
+        >
           <HeroVisual />
         </div>
       </div>
@@ -112,7 +115,7 @@ function HeroVisual() {
 
           {/* Today / date */}
           <div className="px-5 pt-4">
-            <p className="text-[10px] font-medium uppercase tracking-[0.16em] text-graphite/70">
+            <p className="text-[10px] font-medium uppercase tracking-[0.16em] text-graphite">
               Today
             </p>
             <h3 className="mt-1 text-[20px] font-medium leading-none tracking-tight text-espresso">

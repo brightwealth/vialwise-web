@@ -36,6 +36,20 @@ html, body {
   color: var(--color-bone);
 }
 
+/* Visible keyboard focus (WCAG 2.4.7). Interactive elements get a branded
+   forest ring on keyboard focus; mouse clicks don't trigger :focus-visible.
+   Scoped to links/buttons/summaries so it never overrides the calculator's
+   own input focus treatment. Class-based outline-none utilities (e.g. the
+   cookie banner's buttons, which supply their own ring) still win on
+   specificity. */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--color-forest);
+  outline-offset: 2px;
+}
+
 .amber-halo {
   background: radial-gradient(closest-side, rgba(47, 82, 52, 0.10) 0%, rgba(47, 82, 52, 0) 70%);
 }

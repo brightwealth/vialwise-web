@@ -21,7 +21,7 @@ const PROMISES = [
   },
   {
     title: "No dark patterns.",
-    body: "One subscription tier. Cancel in two taps. No friction, no &lsquo;are you sure?&rsquo; theater.",
+    body: "Pro is one-time, not a subscription. Buy it once and keep it &mdash; no recurring billing, nothing to cancel, no &lsquo;are you sure?&rsquo; theater.",
   },
 ];
 

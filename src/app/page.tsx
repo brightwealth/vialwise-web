@@ -37,7 +37,7 @@ const jsonLd = {
         "@type": "Offer",
         price: "0",
         priceCurrency: "USD",
-        availability: "https://schema.org/PreOrder",
+        availability: "https://schema.org/InStock",
       },
       url: "https://www.getvialwise.com",
       author: {
@@ -102,7 +102,15 @@ const jsonLd = {
           name: "What's the difference between Free and Pro?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Free gives you the full calculator, the full library, and tracking for one protocol. Pro ($39.99/yr) unlocks unlimited protocols, scheduled reminders, inventory tracking, half-life decay charts, and Apple Health imports. Free stays free, forever, even after Pro launches.",
+            text: "Free gives you the full calculator, the full library, and tracking for one protocol. Pro is a one-time $44.99 purchase that unlocks unlimited saved protocols plus scheduled reminders. Free stays free, forever, even after you buy Pro.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is Pro a subscription?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No — one-time. Pro is a single $44.99 purchase through the App Store. You buy it once and keep it: no recurring billing, no auto-renew, nothing to cancel.",
           },
         },
         {
