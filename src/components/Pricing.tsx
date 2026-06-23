@@ -19,12 +19,17 @@ const PRO_FEATURES = [
   "Scheduled reminders",
 ];
 
-// Not yet shipped — folds into the same one-time Pro unlock at v2.0. Shown as a
-// clearly-labeled "coming to Pro" sub-list with NO dates, so the card never
-// claims an unbuilt feature is available today.
+// Not yet shipped — roadmap items that fold into the one-time Pro unlock over
+// time. Shown as a clearly-labeled "coming to Pro" sub-list with NO dates and
+// NO version numbers, so the card never claims an unbuilt feature is available
+// today. Multi-dose half-life charts are a Pro-only future item; the
+// single-dose half-life chart stays free for everyone (see ALL_FEATURES).
 const PRO_COMING_SOON = [
+  "Dose logging & history",
   "Inventory & vial tracking",
   "Protocol PDF export",
+  "Multi-dose half-life charts",
+  "Pro-only Discord community",
 ];
 
 export function Pricing() {
@@ -57,6 +62,7 @@ export function Pricing() {
           price="$44.99"
           cadence="one-time"
           summary="Unlimited peptides and protocols, plus scheduled reminders. One payment, no subscription."
+          note="Founder price — locked in now. It goes up as more features ship."
           features={PRO_FEATURES}
           comingSoon={PRO_COMING_SOON}
           tone="forest"
@@ -76,6 +82,7 @@ type PricingCardProps = {
   price: string;
   cadence: string;
   summary: string;
+  note?: string;
   features: string[];
   comingSoon?: string[];
   tone: "cream" | "forest";
@@ -88,6 +95,7 @@ function PricingCard({
   price,
   cadence,
   summary,
+  note,
   features,
   comingSoon,
   tone,
@@ -127,6 +135,16 @@ function PricingCard({
       <p className={`mt-5 text-[15px] leading-relaxed ${isForest ? "text-bone/85" : "text-graphite"}`}>
         {summary}
       </p>
+
+      {note ? (
+        <p
+          className={`mt-3 text-[12.5px] font-medium leading-relaxed ${
+            isForest ? "text-bone" : "text-graphite"
+          }`}
+        >
+          {note}
+        </p>
+      ) : null}
 
       <ul className="mt-7 flex flex-col gap-3">
         {features.map((f) => (

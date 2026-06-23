@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   ...pageMetadata("https://www.getvialwise.com/privacy"),
 };
 
-const LAST_UPDATED = "June 15, 2026";
+const LAST_UPDATED = "June 23, 2026";
 
 export default function PrivacyPage() {
   return (
@@ -35,7 +35,7 @@ export default function PrivacyPage() {
           <strong>Apple Health data (v2.5+)</strong> — when enabled, weight and body-composition data is read from HealthKit on your device. Raw HealthKit data never leaves your phone.
         </li>
         <li>
-          <strong>Purchase status</strong> — Vialwise Pro is a one-time in-app purchase managed by Apple via App Store In-App Purchases. We see whether you have bought Pro, not your payment details.
+          <strong>Purchase status</strong> — Vialwise Pro is a one-time in-app purchase managed by Apple via App Store In-App Purchases. We can see whether your account is Free or Pro — never your payment details.
         </li>
       </ul>
 

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   ...pageMetadata("https://www.getvialwise.com/terms"),
 };
 
-const LAST_UPDATED = "May 3, 2026";
+const LAST_UPDATED = "June 23, 2026";
 
 export default function TermsPage() {
   return (
@@ -50,7 +50,7 @@ export default function TermsPage() {
 
       <h2>5. In-app purchases</h2>
       <p>
-        Vialwise Pro is a one-time in-app purchase processed by Apple via App Store In-App Purchases &mdash; not a subscription. Pricing, billing, and refunds are governed by Apple&rsquo;s standard terms. Because Pro is a one-time purchase, there is no recurring charge to cancel; refund requests are handled by Apple.
+        Vialwise Pro is a one-time in-app purchase processed by Apple via App Store In-App Purchases &mdash; not a subscription. Pricing, billing, and refunds are governed by Apple&rsquo;s standard terms. Because Pro is a one-time purchase, there is no recurring charge and nothing to cancel. Pro is a permanent unlock tied to your Apple ID; you can restore it on your other devices with &lsquo;Restore Purchases.&rsquo; Refund requests are handled by Apple.
       </p>
 
       <h2>6. Acceptable use</h2>
