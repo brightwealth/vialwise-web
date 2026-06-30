@@ -26,17 +26,18 @@ const PRO_FEATURES = [
   "Vial inventory & days of supply",
   "BID / TID dosing",
   "Protocol PDF export",
+  // Steady-state accumulation view — see how levels accumulate across repeated
+  // doses, from the protocol's schedule and the published half-life. Shipped to
+  // 2.0.0 users on the v2.0 OTA. Distinct from the FREE single-dose chart above.
+  "Multi-dose half-life charts",
 ];
 
 // Genuinely unshipped — teased as "coming," never listed alongside the live Pro
 // features above. No dates, no version numbers. Rendered in a visually distinct
 // "Coming to Pro" sub-list (muted text + divider + plus icons) so nothing here
-// reads as already available. The single-dose half-life chart is FREE today
-// (see FREE_FEATURES); the multi-dose accumulation view is the unshipped item.
-const PRO_COMING_SOON = [
-  "Multi-dose half-life charts (steady-state view)",
-  "Pro-only Discord community",
-];
+// reads as already available. (Multi-dose half-life charts shipped to 2.0.0
+// users and moved up into PRO_FEATURES; the single-dose chart stays FREE.)
+const PRO_COMING_SOON = ["Pro-only Discord community"];
 
 export function Pricing() {
   return (
