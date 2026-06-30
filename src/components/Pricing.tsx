@@ -14,17 +14,28 @@ const FREE_FEATURES = [
 ];
 
 // Pro — the full tracking suite, live on the App Store as of the v2.0 launch.
-// One-time purchase, no subscription. Everything listed here is shipped today;
-// there is no "coming soon" list anymore.
+// One-time purchase, no subscription. Everything listed here is shipped today.
+// "Unlimited saved protocols" leads: free saves one protocol, Pro saves
+// unlimited, so it is the headline Pro benefit.
 const PRO_FEATURES = [
-  "Everything in Free",
   "Unlimited saved protocols",
+  "Everything in Free",
   "Dose log & history",
   "Body map & site rotation",
   "Weekly recap",
   "Vial inventory & days of supply",
   "BID / TID dosing",
   "Protocol PDF export",
+];
+
+// Genuinely unshipped — teased as "coming," never listed alongside the live Pro
+// features above. No dates, no version numbers. Rendered in a visually distinct
+// "Coming to Pro" sub-list (muted text + divider + plus icons) so nothing here
+// reads as already available. The single-dose half-life chart is FREE today
+// (see FREE_FEATURES); the multi-dose accumulation view is the unshipped item.
+const PRO_COMING_SOON = [
+  "Multi-dose half-life charts (steady-state view)",
+  "Pro-only Discord community",
 ];
 
 export function Pricing() {
@@ -38,7 +49,7 @@ export function Pricing() {
           Free for one peptide. Forever.
         </h2>
         <p className="mt-4 text-[16px] leading-relaxed text-graphite md:text-[17px]">
-          Pro unlocks unlimited protocols and the full tracking suite. Everyone gets the calculator and the cited library. No trials that auto-bill, no surprise tier changes, no &quot;7-day money back&quot; runaround.
+          Free saves one protocol. Pro saves unlimited and unlocks the full tracking suite. Everyone gets the calculator and the cited library. No trials that auto-bill, no surprise tier changes, no &quot;7-day money back&quot; runaround.
         </p>
       </div>
 
@@ -56,9 +67,10 @@ export function Pricing() {
           name="Pro"
           price="$44.99"
           cadence="one-time"
-          summary="Unlimited saved protocols and the full tracking suite: dose log, body map, weekly recap, vial inventory, BID/TID, and PDF export. One payment, no subscription."
+          summary="Unlimited saved protocols, plus the full tracking suite: dose log, body map, weekly recap, vial inventory, BID/TID, and PDF export. One payment, no subscription."
           note="Founder price — locked in now. It goes up as more features ship."
           features={PRO_FEATURES}
+          comingSoon={PRO_COMING_SOON}
           tone="forest"
           cta={<AppStoreBadge height={48} />}
         />
@@ -78,6 +90,7 @@ type PricingCardProps = {
   summary: string;
   note?: string;
   features: string[];
+  comingSoon?: string[];
   tone: "cream" | "forest";
   badge?: string;
   cta: React.ReactNode;
@@ -90,6 +103,7 @@ function PricingCard({
   summary,
   note,
   features,
+  comingSoon,
   tone,
   badge,
   cta,
@@ -154,6 +168,34 @@ function PricingCard({
         ))}
       </ul>
 
+      {/* Coming-to-Pro teaser — genuinely unshipped items only. Visually distinct
+          from the live feature list above (divider + muted text + plus icons +
+          "Coming to Pro" label) so nothing reads as already available. */}
+      {comingSoon && comingSoon.length > 0 ? (
+        <div className={`mt-6 border-t pt-5 ${isForest ? "border-bone/15" : "border-espresso/10"}`}>
+          <p
+            className={`text-[12px] font-medium uppercase tracking-[0.14em] ${
+              isForest ? "text-bone/70" : "text-graphite"
+            }`}
+          >
+            Coming to Pro
+          </p>
+          <ul className="mt-3 flex flex-col gap-2.5">
+            {comingSoon.map((f) => (
+              <li
+                key={f}
+                className={`flex items-start gap-3 text-[14px] leading-relaxed ${
+                  isForest ? "text-bone/60" : "text-graphite"
+                }`}
+              >
+                <PlusIcon className={isForest ? "text-bone/60" : "text-graphite"} />
+                <span>{f}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
+
       <div className="mt-8">{cta}</div>
     </div>
   );
@@ -174,6 +216,25 @@ function CheckIcon({ className }: { className?: string }) {
       aria-hidden
     >
       <path d="M20 6L9 17l-5-5" />
+    </svg>
+  );
+}
+
+function PlusIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      className={`mt-0.5 shrink-0 ${className ?? ""}`}
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
+      <path d="M12 5v14M5 12h14" />
     </svg>
   );
 }
