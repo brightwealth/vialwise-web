@@ -34,7 +34,7 @@ export default function AboutPage() {
         The honest answer: nobody else was going to. The existing players have been around for years, charge a lot, and still get the basics wrong. The unfair advantage I have isn&rsquo;t engineering — it&rsquo;s that I&rsquo;m the customer. I know which feature requests are real and which are noise, because I&rsquo;m the one who&rsquo;d use them.
       </p>
       <p>
-        v1 is the calculator and reconstitution date tracking — free, forever, for one protocol. Pro adds unlimited protocols, reminders, and the rest of the toolkit when v2 ships. No coaching. No AI personalities. No vendor partnerships. No supplements line.
+        The calculator and the cited library are free, forever, with tracking for one protocol. Pro is a one-time $44.99 unlock that adds unlimited protocols and the full tracking suite — dose log, body map for site rotation, weekly recap, vial inventory with days of supply, BID/TID dosing, and PDF export. No coaching. No AI personalities. No vendor partnerships. No supplements line.
       </p>
 
       <h2>The promises</h2>
@@ -43,7 +43,7 @@ export default function AboutPage() {
           <strong>The calculator will be right.</strong> If we ever get the math wrong, that&rsquo;s a fire-drill bug, not a feature request.
         </li>
         <li>
-          <strong>Your data stays yours.</strong> v1 is local-only. v2 syncs encrypted to your account. Apple Health data never leaves your device.
+          <strong>Your data stays yours.</strong> Everything you enter stays on your device. The app collects no personal data &mdash; Apple&rsquo;s privacy label is &ldquo;Data Not Collected.&rdquo; Apple Health data never leaves your device.
         </li>
         <li>
           <strong>No vendor kickbacks.</strong> Ever. There&rsquo;s a real conflict between &ldquo;the app you trust&rdquo; and &ldquo;the app that profits when you buy more.&rdquo; I&rsquo;m picking the first one.

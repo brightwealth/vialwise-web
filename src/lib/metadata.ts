@@ -6,11 +6,10 @@ import type { Metadata } from "next";
  */
 export const OG_IMAGE = "/og-image.png";
 
-// Shared Open Graph title/description. These intentionally mirror the root
-// layout's current values: the "tracking" share copy is a known messaging
-// mismatch (v1 is a calculator + library, not a tracker) that is flagged for
-// Andrew to revisit as a SEPARATE task, so it is preserved verbatim here and is
-// deliberately NOT made per-page.
+// Shared Open Graph title/description. These mirror the root layout's values.
+// As of the v2.0 launch the app IS a full protocol tracker (dose log, body map,
+// weekly recap, vial inventory, BID/TID, PDF export), so the "tracking" share
+// copy is now accurate. Kept site-wide (not per-page) intentionally.
 const OG_TITLE = "Vialwise — Peptide tracking, done right.";
 const OG_DESCRIPTION =
   "The honest peptide app. Built by someone who actually runs peptides.";

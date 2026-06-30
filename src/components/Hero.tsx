@@ -23,7 +23,7 @@ export function Hero() {
           <p className="max-w-lg text-[17px] leading-relaxed text-graphite md:text-[18px]">
             Built by someone who actually runs peptides.{" "}
             <span className="block sm:inline">
-              Full library, free. Pro for multiple active protocols.
+              Calculator and 69-peptide cited library, free. Pro adds the full tracking suite for a one-time $44.99.
             </span>
           </p>
 
@@ -140,7 +140,7 @@ function HeroVisual() {
                   Browse the library
                 </span>
                 <span className="mt-[1px] text-[9px] leading-tight text-bone/80">
-                  64 researched peptides
+                  69 researched peptides
                 </span>
               </div>
               <div className="flex flex-col items-center justify-center rounded-2xl border border-espresso/15 bg-bone px-4 py-2 text-center">

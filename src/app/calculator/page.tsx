@@ -143,7 +143,7 @@ export default function CalculatorPage() {
           <div className="mt-8 flex flex-col items-start gap-3 rounded-3xl border border-espresso/[0.08] bg-bone p-6 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="text-[15px] font-medium text-espresso">
-                Want this on your phone, plus a library of 64+ researched peptides?
+                Want this on your phone, plus a library of 69 researched peptides?
               </p>
               <p className="mt-1 text-[14px] text-graphite">
                 VialWise for iOS pairs the calculator with primary-source-cited
@@ -225,7 +225,7 @@ export default function CalculatorPage() {
               <p>
                 VialWise keeps the calculator{" "}
                 <Link href="/#features">paired with a peptide library</Link> of
-                64+ entries, each with primary-source citations, in the iOS app.
+                69 entries, each with primary-source citations, in the iOS app.
                 You can read more{" "}
                 <Link href="/about">about why it exists</Link>, or{" "}
                 <a
@@ -255,7 +255,7 @@ export default function CalculatorPage() {
                   </h2>
                   <p className="mt-4 max-w-md text-[16px] leading-relaxed text-bone/75 md:text-[17px]">
                     The web calculator is the math. The VialWise iOS app adds a
-                    library of 64+ peptides with primary-source citations, a
+                    library of 69 peptides with primary-source citations, a
                     visual syringe, and reconstitution tables rendered by this
                     same engine. Free on the App Store.
                   </p>

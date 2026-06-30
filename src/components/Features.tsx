@@ -9,8 +9,8 @@ export function Features() {
           Three things, done well.
         </h2>
         <p className="mt-4 text-[16px] leading-relaxed text-graphite md:text-[17px]">
-          The calculator is the hero. The library is the source of truth. The
-          today view is the only place you check in. That&rsquo;s v1.
+          The calculator is the hero. The library is the source of truth. And
+          Pro tracks the whole protocol &mdash; on the App Store now.
         </p>
       </div>
 
@@ -25,14 +25,14 @@ export function Features() {
         <FeatureCard
           eyebrow="02"
           title="A library you can actually use."
-          body="64 peptide entries with primary-source citations — PubMed DOIs, ClinicalTrials.gov NCTs, FDA labels. Reconstitution tables are calculator-rendered, never hand-typed. Open the reconstitution calculator straight from the library to run the math yourself."
+          body="69 peptide entries with primary-source citations — PubMed DOIs, ClinicalTrials.gov NCTs, FDA labels. Reconstitution tables are calculator-rendered, never hand-typed. Open the reconstitution calculator straight from the library to run the math yourself."
           icon={<LibraryIcon />}
           accent="forest"
         />
         <FeatureCard
           eyebrow="03"
-          title="Today view. Stay on track."
-          body="Today's protocols at a glance. Tap the circle to mark today's dose checked. &ldquo;All set for today&rdquo; when you've cleared the list. Clean, simple, and exactly what you need to stay consistent."
+          title="Track the whole protocol."
+          body="Pro turns the calculator into a tracker: a dose log and history, a body map for site rotation, a weekly recap, vial inventory with days of supply, BID/TID dosing, and one-tap PDF export. It records what you logged — it never tells you what to take."
           icon={<CheckCircleIcon />}
           accent="amber"
         />

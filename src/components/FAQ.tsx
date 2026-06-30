@@ -15,15 +15,15 @@ const FAQS = [
   },
   {
     q: "Is my data private?",
-    a: "Yes. v1 stores everything locally on your device. v2 (with Pro) syncs encrypted to your account. Health data from Apple Health stays on-device — we never see your raw weight, body fat, or biometrics. We're transparent about every byte.",
+    a: "Yes. Everything you enter — peptides, doses, protocols, and your dose log — stays on your device. The app collects no personal data and transmits nothing to a server; Apple's privacy label is \"Data Not Collected.\" We never see your data.",
   },
   {
     q: "Is VialWise available yet?",
-    a: "Yes. VialWise v1 is now available on the App Store for iPhone — free, with the full reconstitution calculator and the peptide library. Android is on the way.",
+    a: "Yes. VialWise is on the App Store for iPhone. The forward and reverse calculator and the 69-peptide cited library are free; Pro adds the full tracking suite as a one-time purchase. Android is on the way.",
   },
   {
     q: "What's the difference between Free and Pro?",
-    a: "Free gives you the full calculator, the full library, and tracking for one protocol. Pro is a one-time $44.99 purchase that unlocks unlimited saved protocols plus scheduled reminders. Free stays free, forever, even after you buy Pro.",
+    a: "Free gives you the full forward and reverse calculator, the 69-peptide cited library, and tracking for one protocol. Pro is a one-time $44.99 purchase that unlocks unlimited saved protocols plus the full tracking suite: dose log, body map for site rotation, weekly recap, vial inventory with days of supply, BID/TID dosing, and PDF export. Free stays free, forever, even after you buy Pro.",
   },
   {
     q: "Is Pro a subscription?",
@@ -31,7 +31,7 @@ const FAQS = [
   },
   {
     q: "Will there be an Android version?",
-    a: "Yes. iOS ships first, Android follows. The goal is to have both available close to launch — the app is built on React Native so the lift is smaller than a full rebuild.",
+    a: "Yes. iOS is available now; Android is on the way. The app is built on React Native, so the lift is smaller than a full rebuild.",
   },
 ];
 

@@ -1,35 +1,30 @@
 import { AppStoreBadge } from "./AppStoreBadge";
 
-const ALL_FEATURES = [
-  "Reconstitution & dose calculator",
-  "Track 1 peptide",
-  "Reconstitution date tracking",
-  "Half-life chart preview",
-  "All future calc improvements",
+// Free tier — the full calculator and the cited library, plus tracking for a
+// first protocol. Free forever, even after a Pro purchase. The only entitlement
+// gate is saved-protocol count (see the app's src/entitlements/freeTier.ts —
+// protocol count is the sole gated capability), so reminders and the half-life
+// charts are free for everyone.
+const FREE_FEATURES = [
+  "Forward + reverse calculator",
+  "69-peptide cited library",
+  "Track your first protocol",
+  "Scheduled dose reminders",
+  "Half-life decay charts",
 ];
 
-// Live, shipped-today Pro features. Pro (v1.6) is a one-time purchase whose
-// only entitlement gate is unlimited saved protocols (see the app's
-// src/entitlements/freeTier.ts — protocol count is the sole gated capability).
-// Scheduled reminders shipped in v1.1. Half-life charts are FREE for everyone,
-// so they are not listed here as a Pro upsell.
+// Pro — the full tracking suite, live on the App Store as of the v2.0 launch.
+// One-time purchase, no subscription. Everything listed here is shipped today;
+// there is no "coming soon" list anymore.
 const PRO_FEATURES = [
   "Everything in Free",
-  "Unlimited peptides & protocols",
-  "Scheduled reminders",
-];
-
-// Not yet shipped — roadmap items that fold into the one-time Pro unlock over
-// time. Shown as a clearly-labeled "coming to Pro" sub-list with NO dates and
-// NO version numbers, so the card never claims an unbuilt feature is available
-// today. Multi-dose half-life charts are a Pro-only future item; the
-// single-dose half-life chart stays free for everyone (see ALL_FEATURES).
-const PRO_COMING_SOON = [
-  "Dose logging & history",
-  "Inventory & vial tracking",
+  "Unlimited saved protocols",
+  "Dose log & history",
+  "Body map & site rotation",
+  "Weekly recap",
+  "Vial inventory & days of supply",
+  "BID / TID dosing",
   "Protocol PDF export",
-  "Multi-dose half-life charts",
-  "Pro-only Discord community",
 ];
 
 export function Pricing() {
@@ -43,7 +38,7 @@ export function Pricing() {
           Free for one peptide. Forever.
         </h2>
         <p className="mt-4 text-[16px] leading-relaxed text-graphite md:text-[17px]">
-          Pro unlocks unlimited protocols. Everyone gets full access to the library. No trials that auto-bill, no surprise tier changes, no &quot;7-day money back&quot; runaround.
+          Pro unlocks unlimited protocols and the full tracking suite. Everyone gets the calculator and the cited library. No trials that auto-bill, no surprise tier changes, no &quot;7-day money back&quot; runaround.
         </p>
       </div>
 
@@ -52,8 +47,8 @@ export function Pricing() {
           name="Free"
           price="$0"
           cadence="forever"
-          summary="The calculator, plus tracking for your first peptide."
-          features={ALL_FEATURES}
+          summary="The full forward and reverse calculator, the 69-peptide cited library, and tracking for your first protocol."
+          features={FREE_FEATURES}
           tone="cream"
           cta={<AppStoreBadge height={48} />}
         />
@@ -61,10 +56,9 @@ export function Pricing() {
           name="Pro"
           price="$44.99"
           cadence="one-time"
-          summary="Unlimited peptides and protocols, plus scheduled reminders. One payment, no subscription."
+          summary="Unlimited saved protocols and the full tracking suite: dose log, body map, weekly recap, vial inventory, BID/TID, and PDF export. One payment, no subscription."
           note="Founder price — locked in now. It goes up as more features ship."
           features={PRO_FEATURES}
-          comingSoon={PRO_COMING_SOON}
           tone="forest"
           cta={<AppStoreBadge height={48} />}
         />
@@ -84,7 +78,6 @@ type PricingCardProps = {
   summary: string;
   note?: string;
   features: string[];
-  comingSoon?: string[];
   tone: "cream" | "forest";
   badge?: string;
   cta: React.ReactNode;
@@ -97,7 +90,6 @@ function PricingCard({
   summary,
   note,
   features,
-  comingSoon,
   tone,
   badge,
   cta,
@@ -162,31 +154,6 @@ function PricingCard({
         ))}
       </ul>
 
-      {comingSoon && comingSoon.length > 0 ? (
-        <div className="mt-6">
-          <p
-            className={`text-[12px] font-medium uppercase tracking-[0.14em] ${
-              isForest ? "text-bone" : "text-graphite"
-            }`}
-          >
-            Coming to Pro
-          </p>
-          <ul className="mt-3 flex flex-col gap-2.5">
-            {comingSoon.map((f) => (
-              <li
-                key={f}
-                className={`flex items-start gap-3 text-[14px] leading-relaxed ${
-                  isForest ? "text-bone" : "text-graphite"
-                }`}
-              >
-                <PlusIcon className={isForest ? "text-bone" : "text-graphite"} />
-                <span>{f}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ) : null}
-
       <div className="mt-8">{cta}</div>
     </div>
   );
@@ -207,25 +174,6 @@ function CheckIcon({ className }: { className?: string }) {
       aria-hidden
     >
       <path d="M20 6L9 17l-5-5" />
-    </svg>
-  );
-}
-
-function PlusIcon({ className }: { className?: string }) {
-  return (
-    <svg
-      className={`mt-0.5 shrink-0 ${className ?? ""}`}
-      width="16"
-      height="16"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden
-    >
-      <path d="M12 5v14M5 12h14" />
     </svg>
   );
 }

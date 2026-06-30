@@ -9,7 +9,7 @@ const PROMISES = [
   },
   {
     title: "No AI hype.",
-    body: "We use AI for one thing: a friendly weekly recap (opt-in, post-launch). Not a personality, not a coach, not a buzzword.",
+    body: "We use AI for one thing: a friendly weekly recap (opt-in). Not a personality, not a coach, not a buzzword.",
   },
   {
     title: "No data sale, ever.",
