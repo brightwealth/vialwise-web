@@ -80,16 +80,17 @@ export function Hero() {
 }
 
 /**
- * HeroVisual — the real Vialwise "Today" screen in a CSS phone frame.
+ * HeroVisual — a real Vialwise app capture in a CSS phone frame.
  *
- * Drops a real App-capture (public/hero-today.png — the populated Today / dose
- * log: a saved protocol with today's dose checked off, plus doses remaining and
- * days of supply) into the existing phone frame as an <img>. The screenshot
- * already carries its own iOS status bar, so the frame draws only the
- * Dynamic-Island pill over the status bar's empty centre — there is no second
- * status bar. The <img> has descriptive alt text and is not a heading, so it
- * stays out of the page's heading outline (the old hand-built mock's h3/h4
- * leaked into it).
+ * Drops a real screenshot (public/hero-today.png — the reconstitution calculator:
+ * syringe size, concentration, draw volume, and the draw position on a U-100
+ * syringe, under the research-and-educational disclaimer) into the existing phone
+ * frame as an <img>. The filename is carried over from the prior capture so the
+ * src markup is unchanged. The screenshot already carries its own iOS status bar,
+ * so the frame draws only the Dynamic-Island pill over the status bar's empty
+ * centre — there is no second status bar. The <img> has descriptive alt text and
+ * is not a heading, so it stays out of the page's heading outline (the old
+ * hand-built mock's h3/h4 leaked into it).
  */
 function HeroVisual() {
   return (
@@ -105,7 +106,7 @@ function HeroVisual() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/hero-today.png"
-            alt="The Vialwise Today screen: a saved peptide protocol with today's dose checked off, showing doses remaining and days of supply, under a research-and-educational disclaimer."
+            alt="The Vialwise reconstitution calculator showing the concentration, draw volume, and the draw position on a U-100 syringe, under a research-and-educational disclaimer."
             width={1179}
             height={2556}
             className="h-full w-full object-cover"
