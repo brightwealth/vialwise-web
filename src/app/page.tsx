@@ -32,7 +32,7 @@ const jsonLd = {
       description:
         "Peptide reconstitution calculator with forward and reverse BAC water math, a library of 69 peptides with primary-source citations, and a one-time Pro protocol-tracking suite. Research and educational use only.",
       applicationCategory: "HealthApplication",
-      operatingSystem: "iOS",
+      operatingSystem: "iOS, Android",
       offers: {
         "@type": "Offer",
         price: "0",
@@ -95,7 +95,7 @@ const jsonLd = {
           name: "Is VialWise available yet?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. VialWise is on the App Store for iPhone. The forward and reverse calculator and the 69-peptide cited library are free; Pro adds the full tracking suite as a one-time purchase. Android is on the way.",
+            text: "Yes. VialWise is on the App Store for iPhone and on Google Play for Android. The forward and reverse calculator and the 69-peptide cited library are free; Pro adds the full tracking suite as a one-time purchase.",
           },
         },
         {
@@ -116,10 +116,10 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "Will there be an Android version?",
+          name: "Is VialWise on Android?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. iOS is available now; Android is on the way. The app is built on React Native, so the lift is smaller than a full rebuild.",
+            text: "Yes. VialWise is now available on Google Play, and on the App Store for iPhone. Because the app is built on React Native, both platforms run the same calculator and cited library.",
           },
         },
       ],

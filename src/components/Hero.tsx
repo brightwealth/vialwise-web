@@ -11,7 +11,7 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-forest/40" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-forest" />
             </span>
-            iOS — now on the App Store.
+            Now on iPhone and Android.
           </span>
 
           <h1 className="text-[44px] font-medium leading-[1.05] tracking-display text-espresso md:text-[68px] lg:text-[78px]">
