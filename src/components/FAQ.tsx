@@ -25,11 +25,11 @@ const FAQS: FaqItem[] = [
   },
   {
     q: "Is VialWise available yet?",
-    a: "Yes. VialWise is on the App Store for iPhone and on Google Play for Android. The forward and reverse calculator and the 69-peptide cited library are free; Pro adds the full tracking suite as a one-time purchase.",
+    a: "Yes. VialWise is on the App Store for iPhone and on Google Play for Android. The forward and reverse calculator and 90+ cited peptides are free; Pro adds the full tracking suite as a one-time purchase.",
   },
   {
     q: "What's the difference between Free and Pro?",
-    a: "Free gives you the full forward and reverse calculator, the 69-peptide cited library, and tracking for one protocol. Pro is a one-time $44.99 purchase that unlocks unlimited saved protocols plus the full tracking suite: dose log, body map for site rotation, weekly recap, vial inventory with days of supply, BID/TID dosing, and PDF export. Free stays free, forever, even after you buy Pro.",
+    a: "Free gives you the full forward and reverse calculator, 90+ cited peptides, and tracking for one protocol. Pro is a one-time $44.99 purchase that unlocks unlimited saved protocols plus the full tracking suite: dose log, body map for site rotation, weekly recap, vial inventory with days of supply, BID/TID dosing, and PDF export. Free stays free, forever, even after you buy Pro.",
   },
   {
     q: "Is Pro a subscription?",

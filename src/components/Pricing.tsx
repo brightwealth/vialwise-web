@@ -7,7 +7,7 @@ import { StoreBadges } from "./StoreBadges";
 // charts are free for everyone.
 const FREE_FEATURES = [
   "Forward + reverse calculator",
-  "69-peptide cited library",
+  "90+ cited peptides",
   "Track your first protocol",
   "Scheduled dose reminders",
   "Half-life decay charts",
@@ -59,7 +59,7 @@ export function Pricing() {
           name="Free"
           price="$0"
           cadence="forever"
-          summary="The full forward and reverse calculator, the 69-peptide cited library, and tracking for your first protocol."
+          summary="The full forward and reverse calculator, 90+ cited peptides, and tracking for your first protocol."
           features={FREE_FEATURES}
           tone="cream"
           cta={<StoreBadges height={48} />}

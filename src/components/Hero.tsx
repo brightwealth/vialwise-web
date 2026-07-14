@@ -23,7 +23,7 @@ export function Hero() {
           <p className="max-w-lg text-[17px] leading-relaxed text-graphite md:text-[18px]">
             Built by someone who actually runs peptides.{" "}
             <span className="block sm:inline">
-              Calculator and 69-peptide cited library, free. Pro adds the full tracking suite for a one-time $44.99.
+              Calculator and 90+ cited peptides, free. Pro adds the full tracking suite for a one-time $44.99.
             </span>
           </p>
 

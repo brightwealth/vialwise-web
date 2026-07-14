@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     absolute: "VialWise: Peptide Reconstitution Calculator & Library",
   },
   description:
-    "Free peptide reconstitution calculator. Forward and reverse BAC water math. 69 peptides with primary-source citations. Pro adds a one-time protocol tracker. Research and educational only.",
+    "Free peptide reconstitution calculator. Forward and reverse BAC water math. 90+ peptides with primary-source citations. Pro adds a one-time protocol tracker. Research and educational only.",
   ...pageMetadata("https://www.getvialwise.com"),
 };
 
@@ -30,7 +30,7 @@ const jsonLd = {
       "@type": "SoftwareApplication",
       name: "VialWise",
       description:
-        "Peptide reconstitution calculator with forward and reverse BAC water math, a library of 69 peptides with primary-source citations, and a one-time Pro protocol-tracking suite. Research and educational use only.",
+        "Peptide reconstitution calculator with forward and reverse BAC water math, a library of 90+ peptides with primary-source citations, and a one-time Pro protocol-tracking suite. Research and educational use only.",
       applicationCategory: "HealthApplication",
       operatingSystem: "iOS, Android",
       offers: {
@@ -48,7 +48,7 @@ const jsonLd = {
       featureList: [
         "Forward reconstitution calculator (vial + BAC water + dose → draw size)",
         "Reverse reconstitution calculator (dose + vial + desired draw → BAC water volume)",
-        "Library of 69 peptides with primary-source citations",
+        "Library of 90+ peptides with primary-source citations",
         "mg/mcg toggle for unit safety",
         "U-100 syringe visualization",
         "Protocol tracking suite (Pro): dose log, body map, weekly recap, vial inventory, BID/TID, PDF export",
@@ -95,7 +95,7 @@ const jsonLd = {
           name: "Is VialWise available yet?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. VialWise is on the App Store for iPhone and on Google Play for Android. The forward and reverse calculator and the 69-peptide cited library are free; Pro adds the full tracking suite as a one-time purchase.",
+            text: "Yes. VialWise is on the App Store for iPhone and on Google Play for Android. The forward and reverse calculator and 90+ cited peptides are free; Pro adds the full tracking suite as a one-time purchase.",
           },
         },
         {
@@ -103,7 +103,7 @@ const jsonLd = {
           name: "What's the difference between Free and Pro?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Free gives you the full forward and reverse calculator, the 69-peptide cited library, and tracking for one protocol. Pro is a one-time $44.99 purchase that unlocks unlimited saved protocols plus the full tracking suite: dose log, body map for site rotation, weekly recap, vial inventory with days of supply, BID/TID dosing, and PDF export. Free stays free, forever, even after you buy Pro.",
+            text: "Free gives you the full forward and reverse calculator, 90+ cited peptides, and tracking for one protocol. Pro is a one-time $44.99 purchase that unlocks unlimited saved protocols plus the full tracking suite: dose log, body map for site rotation, weekly recap, vial inventory with days of supply, BID/TID dosing, and PDF export. Free stays free, forever, even after you buy Pro.",
           },
         },
         {
