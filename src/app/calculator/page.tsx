@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { AppStoreBadge } from "@/components/AppStoreBadge";
+import { StoreBadges } from "@/components/StoreBadges";
 import { ReconstitutionCalculator } from "@/components/calculator/ReconstitutionCalculator";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -139,18 +139,18 @@ export default function CalculatorPage() {
         <section id="calculator" className="mx-auto w-full max-w-5xl px-6 py-12 md:px-10 md:py-16">
           <ReconstitutionCalculator />
 
-          {/* App CTA — App Store badge (the app is live) */}
+          {/* App CTA — App Store + Google Play badges (the app is live on both) */}
           <div className="mt-8 flex flex-col items-start gap-3 rounded-3xl border border-espresso/[0.08] bg-bone p-6 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="text-[15px] font-medium text-espresso">
                 Want this on your phone, plus a library of 69 researched peptides?
               </p>
               <p className="mt-1 text-[14px] text-graphite">
-                VialWise for iOS pairs the calculator with primary-source-cited
-                entries. Free on the App Store.
+                VialWise pairs the calculator with primary-source-cited
+                entries. Free on the App Store and Google Play.
               </p>
             </div>
-            <AppStoreBadge height={48} />
+            <StoreBadges height={48} />
           </div>
         </section>
 
@@ -257,12 +257,12 @@ export default function CalculatorPage() {
                     The web calculator is the math. The VialWise iOS app adds a
                     library of 69 peptides with primary-source citations, a
                     visual syringe, and reconstitution tables rendered by this
-                    same engine. Free on the App Store.
+                    same engine. Free on the App Store and Google Play.
                   </p>
                 </div>
 
                 <div className="flex md:justify-end">
-                  <AppStoreBadge height={52} />
+                  <StoreBadges height={52} />
                 </div>
               </div>
             </div>

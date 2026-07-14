@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Wordmark } from "./Wordmark";
 import { AppStoreBadge } from "./AppStoreBadge";
+import { StoreBadges } from "./StoreBadges";
 
 export function Header() {
   return (
@@ -35,9 +36,12 @@ export function Header() {
           >
             About
           </Link>
-          <AppStoreBadge height={40} />
+          <StoreBadges height={40} />
         </nav>
 
+        {/* Mobile: a single App Store badge only — both full store badges plus
+            the wordmark overflow a phone-width header bar. The hero directly
+            below the header shows the App Store + Google Play pair. */}
         <AppStoreBadge height={40} className="md:hidden" />
       </div>
     </header>

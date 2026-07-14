@@ -1,4 +1,4 @@
-import { AppStoreBadge } from "./AppStoreBadge";
+import { StoreBadges } from "./StoreBadges";
 
 // Free tier — the full calculator and the cited library, plus tracking for a
 // first protocol. Free forever, even after a Pro purchase. The only entitlement
@@ -62,7 +62,7 @@ export function Pricing() {
           summary="The full forward and reverse calculator, the 69-peptide cited library, and tracking for your first protocol."
           features={FREE_FEATURES}
           tone="cream"
-          cta={<AppStoreBadge height={48} />}
+          cta={<StoreBadges height={48} />}
         />
         <PricingCard
           name="Pro"
@@ -73,7 +73,7 @@ export function Pricing() {
           features={PRO_FEATURES}
           comingSoon={PRO_COMING_SOON}
           tone="forest"
-          cta={<AppStoreBadge height={48} />}
+          cta={<StoreBadges height={48} />}
         />
       </div>
 

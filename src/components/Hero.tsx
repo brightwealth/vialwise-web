@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { AppStoreBadge } from "./AppStoreBadge";
+import { StoreBadges } from "./StoreBadges";
 
 export function Hero() {
   return (
@@ -40,9 +40,9 @@ export function Hero() {
               <span aria-hidden>→</span>
             </Link>
 
-            {/* Secondary CTA — the App Store badge. The app is live, so this
-                links straight to the App Store listing. */}
-            <AppStoreBadge height={52} />
+            {/* Secondary CTA — the App Store + Google Play badges. The app is
+                live on both stores, so these link straight to each listing. */}
+            <StoreBadges height={52} />
           </div>
 
           {/* Tertiary — feature breakdown, without leaving the page. */}
