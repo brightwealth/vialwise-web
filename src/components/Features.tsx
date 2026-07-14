@@ -10,7 +10,7 @@ export function Features() {
         </h2>
         <p className="mt-4 text-[16px] leading-relaxed text-graphite md:text-[17px]">
           The calculator is the hero. The library is the source of truth. And
-          Pro tracks the whole protocol &mdash; on the App Store now.
+          Pro tracks the whole protocol &mdash; on the App Store and Google Play.
         </p>
       </div>
 
