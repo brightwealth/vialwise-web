@@ -34,7 +34,7 @@ export default function AboutPage() {
         The honest answer: nobody else was going to. The existing players have been around for years, charge a lot, and still get the basics wrong. The unfair advantage I have isn&rsquo;t engineering — it&rsquo;s that I&rsquo;m the customer. I know which feature requests are real and which are noise, because I&rsquo;m the one who&rsquo;d use them.
       </p>
       <p>
-        The calculator and the cited library are free, forever, with tracking for one protocol. Pro is a one-time $44.99 unlock that adds unlimited protocols and the full tracking suite — dose log, body map for site rotation, weekly recap, vial inventory with days of supply, BID/TID dosing, and PDF export. No coaching. No AI personalities. No vendor partnerships. No supplements line.
+        The calculator, the cited library, and unlimited protocols are free, forever. Pro is a one-time $44.99 unlock for the advanced tracking suite and calculators — dose history, body map for site rotation, journal, weekly recap, vial inventory with days of supply, the blend, titration, and cost-per-dose calculators, and PDF export. No coaching. No AI personalities. No vendor partnerships. No supplements line.
       </p>
 
       <h2>The promises</h2>

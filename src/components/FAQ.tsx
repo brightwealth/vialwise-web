@@ -21,7 +21,7 @@ const FAQS: FaqItem[] = [
   },
   {
     q: "Is my data private?",
-    a: "Yes. Everything you enter — peptides, doses, protocols, and your dose log — stays on your device. The app collects no personal data and transmits nothing to a server; Apple's privacy label is \"Data Not Collected.\" We never see your data.",
+    a: "Yes. Everything you enter — peptides, doses, protocols, and your dose log — stays on your device. The app collects no personal data and transmits nothing to a server; Apple's App Privacy label reads \"Data Not Collected,\" and the app ships no analytics, ads, or trackers on either platform. We never see your data.",
   },
   {
     q: "Is VialWise available yet?",
@@ -29,11 +29,11 @@ const FAQS: FaqItem[] = [
   },
   {
     q: "What's the difference between Free and Pro?",
-    a: "Free gives you the full forward and reverse calculator, 90+ cited peptides, and tracking for one protocol. Pro is a one-time $44.99 purchase that unlocks unlimited saved protocols plus the full tracking suite: dose log, body map for site rotation, weekly recap, vial inventory with days of supply, BID/TID dosing, and PDF export. Free stays free, forever, even after you buy Pro.",
+    a: "Free gives you unlimited saved protocols, basic dose logging, the full forward and reverse calculator, the complete 90+ cited library, basic dose reminders, and the single-dose half-life chart. Pro is a one-time $44.99 purchase, not a subscription, that adds the advanced tracking suite (dose history and back-logging, body map for site rotation, live doses-remaining and vial inventory, the journal, PDF export, and weekly recap), the advanced calculators (blend, titration, and cost-per-dose), shared-vial support, the live half-life view, and advanced catch-up and expiry reminders. Free stays free, forever, even after you buy Pro.",
   },
   {
     q: "Is Pro a subscription?",
-    a: "No — one-time. Pro is a single $44.99 purchase through the App Store. You buy it once and keep it: no recurring billing, no auto-renew, nothing to cancel.",
+    a: "No — one-time. Pro is a single $44.99 purchase in the app (App Store or Google Play). You buy it once and keep it: no recurring billing, no auto-renew, nothing to cancel.",
   },
   {
     q: "Is VialWise on Android?",

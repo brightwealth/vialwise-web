@@ -32,7 +32,7 @@ export function Features() {
         <FeatureCard
           eyebrow="03"
           title="Track the whole protocol."
-          body="Pro turns the calculator into a tracker: a dose log and history, a body map for site rotation, a weekly recap, vial inventory with days of supply, BID/TID dosing, and one-tap PDF export. It records what you logged — it never tells you what to take."
+          body="Pro turns the calculator into a tracker: a dose log and history, a body map for site rotation, a journal, a weekly recap, vial inventory with days of supply, and one-tap PDF export. It records what you logged — it never tells you what to take."
           icon={<CheckCircleIcon />}
           accent="amber"
         />

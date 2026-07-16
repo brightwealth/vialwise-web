@@ -1,35 +1,38 @@
 import { StoreBadges } from "./StoreBadges";
 
-// Free tier — the full calculator and the cited library, plus tracking for a
-// first protocol. Free forever, even after a Pro purchase. The only entitlement
-// gate is saved-protocol count (see the app's src/entitlements/freeTier.ts —
-// protocol count is the sole gated capability), so reminders and the half-life
-// charts are free for everyone.
+// Free tier (Option 1) — unlimited saved protocols, basic dose logging, the full
+// calculator, the full cited library, basic reminders, and the single-dose
+// half-life chart. Free forever, even after a Pro purchase. Pro now gates the
+// ADVANCED suite (see the app's src/entitlements/freeTier.ts — the 1-protocol cap
+// was removed), not the protocol count.
 const FREE_FEATURES = [
+  "Unlimited saved protocols",
   "Forward + reverse calculator",
   "90+ cited peptides",
-  "Track your first protocol",
+  "Basic dose logging",
   "Scheduled dose reminders",
-  "Half-life decay charts",
+  "Single-dose half-life chart",
 ];
 
-// Pro — the full tracking suite, live on the App Store as of the v2.0 launch.
+// Pro (Option 1) — the ADVANCED suite, live on the App Store and Google Play.
 // One-time purchase, no subscription. Everything listed here is shipped today.
-// "Unlimited saved protocols" leads: free saves one protocol, Pro saves
-// unlimited, so it is the headline Pro benefit.
+// Unlimited protocols is now FREE, so Pro leads with the advanced tracking +
+// advanced calculators instead.
 const PRO_FEATURES = [
-  "Unlimited saved protocols",
   "Everything in Free",
-  "Dose log & history",
+  "Dose history & back-logging",
   "Body map & site rotation",
+  "Live doses-remaining & vial inventory",
+  "Journal",
   "Weekly recap",
-  "Vial inventory & days of supply",
-  "BID / TID dosing",
   "Protocol PDF export",
-  // Steady-state accumulation view — see how levels accumulate across repeated
-  // doses, from the protocol's schedule and the published half-life. Shipped to
-  // 2.0.0 users on the v2.0 OTA. Distinct from the FREE single-dose chart above.
-  "Multi-dose half-life charts",
+  "Blend, titration & cost calculators",
+  "Shared-vial support",
+  // Live, logged-dose half-life view — steady-state accumulation across repeated
+  // doses, from the protocol's schedule and the published half-life. Distinct from
+  // the FREE single-dose chart above.
+  "Live half-life view",
+  "Advanced catch-up & expiry reminders",
 ];
 
 // Genuinely unshipped — teased as "coming," never listed alongside the live Pro
@@ -47,10 +50,10 @@ export function Pricing() {
           Pricing
         </p>
         <h2 className="mt-4 text-[36px] font-medium leading-tight tracking-headline text-espresso md:text-[48px]">
-          Free for one peptide. Forever.
+          Unlimited protocols, free. Forever.
         </h2>
         <p className="mt-4 text-[16px] leading-relaxed text-graphite md:text-[17px]">
-          Free saves one protocol. Pro saves unlimited and unlocks the full tracking suite. Everyone gets the calculator and the cited library. No trials that auto-bill, no surprise tier changes, no &quot;7-day money back&quot; runaround.
+          Unlimited protocols, the calculator, and the full cited library are free. Pro is a one-time unlock for the advanced tracking and calculators &mdash; no subscription. No trials that auto-bill, no surprise tier changes, no &quot;7-day money back&quot; runaround.
         </p>
       </div>
 
@@ -59,7 +62,7 @@ export function Pricing() {
           name="Free"
           price="$0"
           cadence="forever"
-          summary="The full forward and reverse calculator, 90+ cited peptides, and tracking for your first protocol."
+          summary="Unlimited saved protocols, the full forward and reverse calculator, 90+ cited peptides, basic logging, and reminders."
           features={FREE_FEATURES}
           tone="cream"
           cta={<StoreBadges height={48} />}
@@ -68,7 +71,7 @@ export function Pricing() {
           name="Pro"
           price="$44.99"
           cadence="one-time"
-          summary="Unlimited saved protocols, plus the full tracking suite: dose log, body map, weekly recap, vial inventory, BID/TID, and PDF export. One payment, no subscription."
+          summary="The advanced suite: dose history, body map, journal, vial inventory, PDF export, the blend/titration/cost calculators, shared-vial, and the live half-life view. One payment, no subscription."
           note="Founder price — locked in now. It goes up as more features ship."
           features={PRO_FEATURES}
           comingSoon={PRO_COMING_SOON}
@@ -78,7 +81,7 @@ export function Pricing() {
       </div>
 
       <p className="mx-auto mt-8 max-w-xl text-center text-[13px] leading-relaxed text-graphite">
-        Pro is a one-time purchase, unlocked inside the app. Everyone gets the full calculator and the peptide library, free, today.
+        Pro is a one-time purchase, unlocked inside the app. Everyone gets unlimited protocols, the full calculator, and the peptide library, free, today.
       </p>
     </section>
   );
