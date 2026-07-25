@@ -26,6 +26,11 @@ const PRO_FEATURES = [
   "Journal",
   "Weekly recap",
   "Protocol PDF export",
+  // v3.0 native features. Platform caveats (please confirm exact wording, Andrew):
+  //  - iCloud sync is iOS-only (Android keeps the free file backup).
+  //  - Health export is WEIGHT-ONLY (Apple Health on iOS, Health Connect on Android).
+  "Private iCloud sync (iPhone)",
+  "Apple Health & Health Connect weight export",
   "Blend, titration & cost calculators",
   "Shared-vial support",
   // Live, logged-dose half-life view — steady-state accumulation across repeated
@@ -71,7 +76,7 @@ export function Pricing() {
           name="Pro"
           price="$44.99"
           cadence="one-time"
-          summary="The advanced suite: dose history, body map, journal, vial inventory, PDF export, the blend/titration/cost calculators, shared-vial, and the live half-life view. One payment, no subscription."
+          summary="The advanced suite: dose history, body map, journal, vial inventory, PDF export, private iCloud sync, Apple Health export, the blend/titration/cost calculators, shared-vial, and the live half-life view. One payment, no subscription."
           note="Founder price — locked in now. It goes up as more features ship."
           features={PRO_FEATURES}
           comingSoon={PRO_COMING_SOON}
