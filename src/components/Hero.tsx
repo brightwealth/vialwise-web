@@ -82,11 +82,13 @@ export function Hero() {
 /**
  * HeroVisual — a real Vialwise app capture in a CSS phone frame.
  *
- * Drops a real screenshot (public/hero-today.png — the reconstitution calculator:
- * syringe size, concentration, draw volume, and the draw position on a U-100
- * syringe, under the research-and-educational disclaimer) into the existing phone
- * frame as an <img>. The filename is carried over from the prior capture so the
- * src markup is unchanged. The screenshot already carries its own iOS status bar,
+ * Drops a real screenshot (public/hero-v31.png — the v3.1 reconstitution
+ * calculator: syringe size, concentration, draw volume, and the draw position on
+ * a U-100 syringe, under the research-and-educational disclaimer) into the
+ * existing phone frame as an <img>. Each new capture gets its own FILENAME rather
+ * than overwriting the last one — Vercel's CDN and Next's image cache key on the
+ * path, so reusing a name serves the stale shot for hours.
+ * The screenshot already carries its own iOS status bar,
  * so the frame draws only the Dynamic-Island pill over the status bar's empty
  * centre — there is no second status bar. The <img> has descriptive alt text and
  * is not a heading, so it stays out of the page's heading outline (the old
@@ -105,10 +107,10 @@ function HeroVisual() {
         <div className="relative aspect-[9/19.5] w-full overflow-hidden rounded-[42px] bg-bone">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/hero-today.png"
+            src="/hero-v31.png"
             alt="The Vialwise reconstitution calculator showing the concentration, draw volume, and the draw position on a U-100 syringe, under a research-and-educational disclaimer."
-            width={1179}
-            height={2556}
+            width={1080}
+            height={2342}
             className="h-full w-full object-cover"
           />
         </div>
