@@ -36,6 +36,35 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Reserve room for the cookie consent banner.
+ *
+ * The banner is position:fixed, so it takes no space in the document and is
+ * painted ON TOP of whatever happens to occupy the bottom band of the viewport.
+ * Measured 2026-08-05 at 390px: it completely covered the homepage hero CTA and
+ * both download buttons on /get — a first-time visitor on a phone had no
+ * tappable download button at all until they dismissed it.
+ *
+ * Padding alone does NOT fix this. Bottom padding only reserves space at the END
+ * of the document, so it rescues the footer while mid-page content (the hero)
+ * still scrolls underneath the banner. The only way to guarantee nothing is ever
+ * covered is to make the scrollable content area itself end where the banner
+ * begins — which is what this does.
+ *
+ * Scoped to `html[data-cookie-banner]`, set by CookieConsent only while the
+ * banner is on screen: document scrolling is completely untouched before the
+ * banner mounts and after a choice is made. --cookie-banner-height is measured
+ * live, so this holds at any width and as the banner grows (buttons stack below
+ * `sm`, the Customize panel expands). */
+html[data-cookie-banner] body {
+  height: calc(100dvh - var(--cookie-banner-height, 0px));
+  /* Must also override the `min-h-full` utility on <body>. min-height beats
+     height in the cascade, so without this the body springs back to the full
+     viewport and content slides under the banner again — which is exactly how
+     the first attempt at this fix silently did nothing. */
+  min-height: calc(100dvh - var(--cookie-banner-height, 0px));
+  overflow-y: auto;
+}
+
 ::selection {
   background: var(--color-amber);
   color: var(--color-bone);
