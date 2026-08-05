@@ -5,20 +5,14 @@
  * browser-only globals at module scope so the server can import it safely.
  */
 
-/* ────────────────────────────────────────────────────────────────────────────
- * ⚠️  ACTION REQUIRED — PASTE THE REAL APPLE PROVIDER TOKEN BELOW  ⚠️
- *
- * `PROVIDER_TOKEN` is a PLACEHOLDER. Andrew must replace it with the real
- * value from:
- *
- *     App Store Connect → App Analytics → Campaigns  (the "Provider Token")
- *
- * It was deliberately NOT invented — a guessed token silently attributes
- * nothing. Until it is replaced, the App Store link still opens the correct
- * product page (pt/ct are analytics-only params); only Apple-side campaign
- * attribution stays inert.
- * ──────────────────────────────────────────────────────────────────────────── */
-export const APPLE_PROVIDER_TOKEN = "PROVIDER_TOKEN";
+/**
+ * Apple campaign provider token, from App Store Connect → App Analytics →
+ * Campaigns. It identifies US as the traffic provider; the per-link `ct`
+ * campaign token below identifies WHICH link an install came from. Installs
+ * attributed with this pair show up in App Store Connect → App Analytics →
+ * Campaigns, independently of the site's consent-gated GA4.
+ */
+export const APPLE_PROVIDER_TOKEN = "128963457";
 
 const APPLE_APP_ID = "6774017323";
 const ANDROID_PACKAGE = "com.vialwise.app";
@@ -88,14 +82,25 @@ export function sanitizeSource(raw: string | null | undefined): string {
   return cleaned || DEFAULT_SOURCE;
 }
 
-/** App Store URL carrying Apple campaign attribution (`pt` / `ct`). */
+/**
+ * App Store URL carrying Apple campaign attribution (`pt` / `ct`).
+ *
+ * Uses the `/app/apple-store/id…` path, which is the canonical form App Store
+ * Connect itself generates for campaign links — NOT the shorter `/app/id…` used
+ * by the plain untagged links elsewhere on the site. Matching Apple's own form
+ * exactly avoids any chance of a redirect hop dropping the campaign params
+ * before they are recorded.
+ *
+ * Param order (pt, ct, mt) is insertion order and matches the reference link
+ * from App Store Connect byte for byte.
+ */
 export function appStoreUrl(source: string): string {
   const params = new URLSearchParams({
     pt: APPLE_PROVIDER_TOKEN,
     ct: source,
     mt: "8",
   });
-  return `https://apps.apple.com/app/id${APPLE_APP_ID}?${params.toString()}`;
+  return `https://apps.apple.com/app/apple-store/id${APPLE_APP_ID}?${params.toString()}`;
 }
 
 /**
