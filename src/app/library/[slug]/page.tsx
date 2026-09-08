@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllSlugs, getEntry, type LibraryEntry } from "@/lib/library";
 import { pageMetadata } from "@/lib/metadata";
-import { EntryProse } from "@/components/library/EntryProse";
+import { EntryProse, Inline } from "@/components/library/EntryProse";
 import { LibraryStoreCta } from "@/components/library/LibraryStoreCta";
 
 const SITE = "https://www.getvialwise.com";
@@ -145,7 +145,7 @@ export default async function PeptideEntryPage({
           ) : null}
           {b?.evidenceLevel ? (
             <p className="mt-4 inline-block rounded-full border border-espresso/15 px-3 py-1 text-[13px] text-espresso">
-              Evidence level: {b.evidenceLevel}
+              Evidence level: <Inline text={b.evidenceLevel} />
             </p>
           ) : null}
         </div>
@@ -193,9 +193,9 @@ export default async function PeptideEntryPage({
                     {entry.quickReference.map((row, i) => (
                       <tr key={i} className="border-b border-espresso/10 align-top">
                         <th className="py-2 pr-4 text-left font-medium text-espresso">
-                          {row.label}
+                          <Inline text={row.label} />
                         </th>
-                        <td className="py-2 text-graphite">{row.value}</td>
+                        <td className="py-2 text-graphite"><Inline text={row.value} /></td>
                       </tr>
                     ))}
                   </tbody>
@@ -219,7 +219,7 @@ export default async function PeptideEntryPage({
                   <h3>Commonly reported</h3>
                   <ul>
                     {entry.sideEffects.common.map((s, i) => (
-                      <li key={i}>{s}</li>
+                      <li key={i}><Inline text={s} /></li>
                     ))}
                   </ul>
                 </>
@@ -229,7 +229,7 @@ export default async function PeptideEntryPage({
                   <h3>Serious</h3>
                   <ul>
                     {entry.sideEffects.serious.map((s, i) => (
-                      <li key={i}>{s}</li>
+                      <li key={i}><Inline text={s} /></li>
                     ))}
                   </ul>
                 </>
@@ -250,8 +250,8 @@ export default async function PeptideEntryPage({
               <dl>
                 {b.keyTerms.map((t, i) => (
                   <div key={i} className="mt-3">
-                    <dt className="font-medium text-espresso">{t.term}</dt>
-                    <dd className="mt-1 text-graphite">{t.definition}</dd>
+                    <dt className="font-medium text-espresso"><Inline text={t.term} /></dt>
+                    <dd className="mt-1 text-graphite"><Inline text={t.definition} /></dd>
                   </div>
                 ))}
               </dl>
@@ -265,7 +265,7 @@ export default async function PeptideEntryPage({
                   <li key={c.index} className="mt-3 text-graphite">
                     {c.primaryUrl ? (
                       <a href={c.primaryUrl} rel="nofollow noopener">
-                        {c.reference}
+                        <Inline text={c.reference} />
                       </a>
                     ) : (
                       c.reference
@@ -287,7 +287,7 @@ export default async function PeptideEntryPage({
                 {entry.web.related.map((r) => (
                   <li key={r.slug} className="mt-2">
                     <Link href={`/library/${r.slug}`}>{r.name}</Link>
-                    <span className="text-graphite"> — {r.reason}</span>
+                    <span className="text-graphite"> — <Inline text={r.reason} /></span>
                   </li>
                 ))}
               </ul>

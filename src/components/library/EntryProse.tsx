@@ -73,7 +73,7 @@ function MarkdownTable({ source }: { source: string }) {
  */
 const INLINE_RE = /(\*\*[^*\n]+\*\*|\*[^*\n]+\*|`[^`\n]+`)/g;
 
-function Inline({ text }: { text: string }) {
+export function Inline({ text }: { text: string }) {
   const parts = text.split(INLINE_RE).filter((s) => s !== "" && s !== undefined);
   return (
     <>
