@@ -5,6 +5,11 @@
   "entryCount": 97,
   "totalInLibrary": 97,
   "slateGate": [
+    "POSITIVE CONTROL — the matcher must see both marker shapes",
+    "PASS  control: matcher sees a bare [VERIFY]",
+    "PASS  control: matcher sees a parameterised [VERIFY ...]",
+    "PASS  control: a parameterised marker is NOT counted as the bare form",
+    "info  ⚠️ REPORT (not blocking): abaloparatide has 1 PARAMETERISED [VERIFY ...] marker(s) on an LV-1 source field (frontmatter status:). These do NOT block today by Andrew's 2026-09-08 decision — an unresolved marker is not a false claim. They WILL block once the backlog is resolved.",
     "info  abaloparatide: 2 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  ace-031: no [VERIFY] markers at all",
     "info  adamax: 13 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
@@ -17,8 +22,10 @@
     "info  aod-9604: 4 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  ara-290: no [VERIFY] markers at all",
     "info  bpc-157-tb-500-blend: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
+    "info  ⚠️ REPORT (not blocking): bpc-157 has 2 PARAMETERISED [VERIFY ...] marker(s) on an LV-1 source field (frontmatter status:). These do NOT block today by Andrew's 2026-09-08 decision — an unresolved marker is not a false claim. They WILL block once the backlog is resolved.",
     "info  bpc-157: 4 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  bronchogen: no [VERIFY] markers at all",
+    "info  ⚠️ REPORT (not blocking): cagrilintide has 1 PARAMETERISED [VERIFY ...] marker(s) on an LV-1 source field (frontmatter status:). These do NOT block today by Andrew's 2026-09-08 decision — an unresolved marker is not a false claim. They WILL block once the backlog is resolved.",
     "info  cagrilintide: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  cagrisema: no [VERIFY] markers at all",
     "info  cardiogen: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
@@ -26,6 +33,7 @@
     "info  cerebrolysin: 2 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  chonluten: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  cjc-1295-ipamorelin-blend: no [VERIFY] markers at all",
+    "info  ⚠️ REPORT (not blocking): cjc-1295 has 1 PARAMETERISED [VERIFY ...] marker(s) on an LV-1 source field (frontmatter status:). These do NOT block today by Andrew's 2026-09-08 decision — an unresolved marker is not a false claim. They WILL block once the backlog is resolved.",
     "info  cjc-1295: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  clomiphene-enclomiphene: 3 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  cortagen: no [VERIFY] markers at all",
@@ -39,6 +47,7 @@
     "info  five-amino-1mq: 2 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  follistatin: 3 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  foxo4-dri: 5 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
+    "info  ⚠️ REPORT (not blocking): ghk-cu has 1 PARAMETERISED [VERIFY ...] marker(s) on an LV-1 source field (regulatory-status block). These do NOT block today by Andrew's 2026-09-08 decision — an unresolved marker is not a false claim. They WILL block once the backlog is resolved.",
     "info  ghk-cu: 2 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  ghrp-2: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  ghrp-6: no [VERIFY] markers at all",
@@ -50,12 +59,14 @@
     "info  hgh: no [VERIFY] markers at all",
     "info  humanin: no [VERIFY] markers at all",
     "info  igf-1-lr3: no [VERIFY] markers at all",
+    "info  ⚠️ REPORT (not blocking): ipamorelin has 1 PARAMETERISED [VERIFY ...] marker(s) on an LV-1 source field (frontmatter status:). These do NOT block today by Andrew's 2026-09-08 decision — an unresolved marker is not a false claim. They WILL block once the backlog is resolved.",
     "info  ipamorelin: 2 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  kisspeptin: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  klow: 5 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
+    "info  ⚠️ REPORT (not blocking): kpv has 1 PARAMETERISED [VERIFY ...] marker(s) on an LV-1 source field (regulatory-status block). These do NOT block today by Andrew's 2026-09-08 decision — an unresolved marker is not a false claim. They WILL block once the backlog is resolved.",
     "info  kpv: 18 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  letrozole: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
-    "info  linaclotide: 2 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
+    "info  linaclotide: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  liraglutide: 2 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  livagen: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  ll-37: 4 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
@@ -90,9 +101,11 @@
     "info  survodutide: 5 [VERIFY] marker(s). 2 sit on an LV-1 source field but state a fact as TRUE NOW WITH A NAMED EXPIRY (frontmatter status:, regulatory-status block) — non-blocking. ⚠️ REVIEWER MUST CONFIRM the public copy for survodutide does not assert the thing that expires.",
     "info  tamoxifen: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  tb-500: no [VERIFY] markers at all",
+    "info  ⚠️ REPORT (not blocking): teduglutide has 2 PARAMETERISED [VERIFY ...] marker(s) on an LV-1 source field (beginner.safetyBasics, frontmatter status:). These do NOT block today by Andrew's 2026-09-08 decision — an unresolved marker is not a false claim. They WILL block once the backlog is resolved.",
     "info  teduglutide: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  teriparatide: no [VERIFY] markers at all",
     "info  tesamorelin: 3 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
+    "info  ⚠️ REPORT (not blocking): tesofensine has 1 PARAMETERISED [VERIFY ...] marker(s) on an LV-1 source field (frontmatter status:). These do NOT block today by Andrew's 2026-09-08 decision — an unresolved marker is not a false claim. They WILL block once the backlog is resolved.",
     "info  tesofensine: 3 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  testagen: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  testosterone: no [VERIFY] markers at all",
@@ -102,7 +115,7 @@
     "info  vesugen: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  vilon: no [VERIFY] markers at all",
     "info  vip: no [VERIFY] markers at all",
-    "97 checked · 0 blocking · 97 informational"
+    "97 checked · 0 blocking · 106 informational"
   ],
   "entries": [
     {
@@ -12561,13 +12574,13 @@
       ],
       "category": "Guanylate cyclase-C (GC-C) receptor agonist, oral gut peptide",
       "mechanismClass": "Gut & mucosal peptide",
-      "status": "FDA-approved prescription drug (Linzess in the US; Constella in the EU). Indicated for irritable bowel syndrome with constipation (IBS-C) and chronic idiopathic constipation (CIC) in adults. Exact approved indications, doses and age ranges are set by current labeling. ⭐ Notable as a peptide you swallow — a 14-amino-acid peptide taken as an oral capsule acting on receptors in the intestinal lining, rather than an injectable. WADA status: linaclotide is not named on the 2026 WADA Prohibited List, and no guanylate cyclase-C drug class appears on that list (verified directly against the 2026 list text, 2026-08-04). Because it holds regulatory approval for human therapeutic use, S0 (Non-Approved Substances) does not capture it. Athletes should still verify with their anti-doping organization. Not DEA-scheduled (prescription, non-controlled).",
+      "status": "FDA-approved prescription drug (Linzess in the US; Constella in the EU). Boxed warning — risk of serious dehydration in pediatric patients less than 2 years of age. Linzess is contraindicated in patients less than 2 years of age; in neonatal mice, linaclotide caused deaths due to dehydration. This is the FDA's most serious warning class, it applies to the currently-marketed capsule rather than to a discontinued formulation, and it is molecule-wide here — there is only one marketed product. Three approved indications, with different age ranges — this is not an adults-only drug: irritable bowel syndrome with constipation (IBS-C) in adults and pediatric patients 7 years of age and older; chronic idiopathic constipation (CIC) in adults; and functional constipation (FC) in pediatric patients 2 years of age and older. Only CIC is adults-only. Verified against DailyMed SPL `09beda19-56d6-4a56-afdc-9a77b70b2ef3` version 39 (label revised 5/2026), checked 2026-09-08. ⭐ Notable as a peptide you swallow — a 14-amino-acid peptide taken as an oral capsule acting on receptors in the intestinal lining, rather than an injectable. WADA status: linaclotide is not named on the 2026 WADA Prohibited List, and no guanylate cyclase-C drug class appears on that list (verified directly against the 2026 list text, 2026-08-04). Because it holds regulatory approval for human therapeutic use, S0 (Non-Approved Substances) does not capture it. Athletes should still verify with their anti-doping organization. Not DEA-scheduled (prescription, non-controlled).",
       "fdaApproved": true,
       "recommendedTimeOfDay": "anytime",
-      "lastUpdated": "2026-09-03",
+      "lastUpdated": "2026-09-08",
       "beginner": {
-        "summary": "Linaclotide (brand names Linzess and Constella) is a prescription medicine for two long-term gut conditions: irritable bowel syndrome with constipation, and chronic constipation with no identified cause. It is a peptide you swallow rather than inject — it stays in the gut and switches on a receptor in the intestinal lining that draws fluid into the bowel and changes how gut pain signals are carried. It is FDA-approved and taken as a once-daily capsule.",
-        "researchFindings": "Linaclotide has been studied in large trials in people with constipation- predominant IBS and with chronic constipation. Across two Phase 3 IBS trials totalling about 1,600 people, it improved abdominal pain, bloating, discomfort, fullness and cramping more than placebo — including in the people who started with the most severe symptoms. In chronic constipation with bad bloating, more people met the study's bowel-movement target on linaclotide than on placebo, though the numbers on both sides were modest. The honest part: diarrhea is the common side effect, reported by up to about one in five people in the IBS trials, and it rose with the higher dose — which makes sense, since drawing fluid into the bowel is exactly how the drug works.",
+        "summary": "Linaclotide (brand names Linzess and Constella) is a prescription medicine for three long-term gut conditions: irritable bowel syndrome with constipation, chronic constipation with no identified cause, and functional constipation in children. It is a peptide you swallow rather than inject — it stays in the gut and switches on a receptor in the intestinal lining that draws fluid into the bowel and changes how gut pain signals are carried. It is FDA-approved and taken as a once-daily capsule. It also carries the most serious warning label US regulators issue: it must never be given to a child under 2 years old, because in newborn mice it caused deaths from dehydration.",
+        "researchFindings": "Linaclotide has been studied in large trials in people with constipation- predominant IBS and with chronic constipation. Across two Phase 3 IBS trials totalling about 1,600 people, it improved abdominal pain, bloating, discomfort, fullness and cramping more than placebo — including in the people who started with the most severe symptoms. In chronic constipation with bad bloating, more people met the study's bowel-movement target on linaclotide than on placebo, though the numbers on both sides were modest. The honest part: diarrhea is the common side effect, reported by up to about one in five people in the IBS trials, and it rose with the higher dose — which makes sense, since drawing fluid into the bowel is exactly how the drug works. The other honest part sits outside the adult trials: the drug carries the most serious warning label US regulators issue, because it must never be given to a child under 2 — newborn mice given a single adult-sized dose died of dehydration.",
         "evidenceLevel": "FDA-approved drug",
         "keyTerms": [
           {
@@ -12591,16 +12604,24 @@
             "definition": "A pass/fail bar a trial sets in advance — for example, a set number of bowel movements per week for a set number of weeks. It is stricter than \"did the average improve\", so responder rates often look low even when a drug works."
           }
         ],
-        "safetyBasics": "Linaclotide is a prescription drug for diagnosed gut conditions. Its most common side effect is diarrhea, reported by roughly one in five people in the IBS trials and clearly dose-related in the constipation trials — 6% at the lower dose and 17% at the higher, against 2% on placebo. That is the drug's own mechanism overshooting rather than an unrelated effect. It is not named on the WADA Prohibited List and, being an approved medicine, is not captured by the S0 non-approved-substances category — though athletes should verify with their anti-doping organization. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
+        "safetyBasics": "Linaclotide carries a boxed warning, the most serious warning label US regulators issue: it must never be given to a child under 2 years old, because in newborn mice a single adult-sized dose caused deaths from dehydration. It must also not be used by anyone with a known or suspected mechanical blockage of the gut. Beyond those two, it is a prescription drug for diagnosed gut conditions — and it is approved for children as well as adults, at ages that differ by condition. Its most common side effect is diarrhea, reported by roughly one in five people in the IBS trials and clearly dose-related in the constipation trials — 6% at the lower dose and 17% at the higher, against 2% on placebo. That is the drug's own mechanism overshooting rather than an unrelated effect. It is not named on the WADA Prohibited List and, being an approved medicine, is not captured by the S0 non-approved-substances category — though athletes should verify with their anti-doping organization. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
       },
       "disclosures": [
         "⚠️ This is an approved prescription medicine, not a research peptide. Linaclotide is dispensed by a pharmacy for diagnosed conditions. The reconstitution and self-dosing workflows used elsewhere in this library do not apply. Information here is informational, not medical advice.",
-        "⚠️ It is not a general \"gut health\" supplement. Linaclotide's evidence base is in two diagnosed conditions — IBS-C and chronic idiopathic constipation — in trials where participants met formal diagnostic criteria.[¹][²][³] Nothing in this entry supports using it for general digestion, bloating without a diagnosis, or gut-lining \"repair,\" none of which it was tested for."
+        "⚠️ It is not a general \"gut health\" supplement. Linaclotide's evidence base is in diagnosed conditions — IBS-C, chronic idiopathic constipation, and functional constipation in children — in trials where participants met formal diagnostic criteria.[¹][²][³] Nothing in this entry supports using it for general digestion, bloating without a diagnosis, or gut-lining \"repair,\" none of which it was tested for."
       ],
       "quickReference": [
         {
           "label": "Compound class",
           "value": "Synthetic 14-amino-acid peptide; agonist of the guanylate cyclase-C (GC-C) receptor on the intestinal epithelium."
+        },
+        {
+          "label": "Boxed warning",
+          "value": "Risk of serious dehydration in pediatric patients less than 2 years of age. Contraindicated under 2; in neonatal mice, linaclotide caused deaths due to dehydration. DailyMed SPL `09beda19-56d6-4a56-afdc-9a77b70b2ef3` version 39 (label revised 5/2026), checked 2026-09-08."
+        },
+        {
+          "label": "Approved indications",
+          "value": "Three, with different age ranges: IBS-C (adults and pediatric ≥7 years); chronic idiopathic constipation (adults); functional constipation (pediatric ≥2 years). DailyMed SPL `09beda19-56d6-4a56-afdc-9a77b70b2ef3` version 39 (label revised 5/2026), checked 2026-09-08."
         },
         {
           "label": "Supplied as",
@@ -12626,7 +12647,7 @@
         "Evidence quality. Large, randomized, placebo-controlled, and pre-registered:",
         "- Two Phase 3 IBS-C trials, pooled: intent-to-treat population 1,602 patients (797 placebo, 805 linaclotide), 12 weeks, meeting modified Rome II criteria.[¹] At baseline, severe symptoms were common — bloating 44%, fullness 44%, discomfort 32%, pain 23%, cramping 22%.[¹] In patients with severe symptoms, mean changes from baseline ranged −2.7 to −3.4 on linaclotide versus −1.4 to −1.9 on placebo (P <.0001), with global measures and IBS quality-of-life scores also improved.[¹] Diarrhea was the most common adverse event, at 18.8%–21.0% in these severe-symptom subgroups.[¹]\n- A Phase 3b trial in chronic idiopathic constipation with moderate-to-severe bloating, 483 patients randomized to linaclotide or placebo for 12 weeks.[²] The primary responder endpoint — at least 3 complete spontaneous bowel movements per week with an increase of at least 1 from baseline, for at least 9 of 12 weeks — was met by 15.7% on linaclotide versus 7.6% on placebo (P <.05).[²] Both doses significantly improved abdominal bloating.[²] ⚠️ Note the absolute numbers: roughly double the placebo rate, but 15.7% still means most patients did not meet that bar. Responder endpoints are deliberately strict — read them as a high hurdle, not as \"the drug failed 84% of people.\"\n- A pooled analysis of two Phase 3 CIC trials, 1,271 patients on or placebo.[³] Source for the finding that abdominal symptoms drive patients' global assessments when pain is severe.[³]",
         "Dose-related diarrhea. The bloating trial reports it cleanly: diarrhea in 6%, 17%, and 2% on placebo.[²] Discontinuations due to adverse events were 5% and 9% versus 6% on placebo.[²] The dose-response is exactly what the mechanism predicts.",
-        "Regulatory status (US). FDA-approved as Linzess for three indications, and the age ranges differ between them: IBS-C in adults and pediatric patients 7 years of age and older; chronic idiopathic constipation (CIC) in adults; and functional constipation (FC) in pediatric patients 2 years of age and older. So the entry's older \"in adults\" framing was incomplete — only CIC is adults-only. Not DEA-scheduled.",
+        "Regulatory status (US). FDA-approved as Linzess for three indications, and the age ranges differ between them: IBS-C in adults and pediatric patients 7 years of age and older; chronic idiopathic constipation (CIC) in adults; and functional constipation (FC) in pediatric patients 2 years of age and older. So the entry's older \"in adults\" framing was incomplete — only CIC is adults-only. The label carries a boxed warning — the FDA's most serious warning class — for risk of serious dehydration in pediatric patients less than 2 years of age: Linzess is contraindicated under 2, because in neonatal mice a single clinically relevant adult oral dose caused deaths due to dehydration. The label also contraindicates it in known or suspected mechanical gastrointestinal obstruction. Verified against DailyMed SPL `09beda19-56d6-4a56-afdc-9a77b70b2ef3` version 39 (label revised 5/2026), checked 2026-09-08. Not DEA-scheduled.",
         "Regulatory status (sport — WADA). Linaclotide is not named on the 2026 WADA Prohibited List, and no guanylate cyclase-C class appears anywhere on it (checked directly against the list text, 2026-08-04). S0 captures only substances with no current approval by any regulatory health authority — linaclotide is approved, so S0 does not reach it. Verify current status with your National Anti-Doping Organization."
       ],
       "reconstitution": {
@@ -12652,8 +12673,9 @@
       },
       "contraindications": [
         "This is a prescription medicine for diagnosed conditions. Use outside that context is outside everything the evidence base covers.",
-        "Age restrictions apply and matter. Labeling for this drug class carries age-related restrictions; the exact current wording must be read from labeling rather than inferred here. The trials cited enrolled adults and adolescents.[¹][²]",
-        "Known or suspected mechanical gastrointestinal obstruction — a general caution for any agent that increases intestinal fluid secretion; consult current labeling for the specific contraindications.",
+        "Contraindicated under 2 years of age — this is the label's boxed warning. In neonatal mice, a single clinically relevant adult oral dose of linaclotide caused deaths due to dehydration. The FDA states this as its most serious warning class, not as a precaution. Verified against DailyMed SPL `09beda19-56d6-4a56-afdc-9a77b70b2ef3` version 39 (label revised 5/2026), checked 2026-09-08.",
+        "Known or suspected mechanical gastrointestinal obstruction — a labeled contraindication, not merely a caution. Verified against DailyMed SPL `09beda19-56d6-4a56-afdc-9a77b70b2ef3` version 39 (label revised 5/2026), checked 2026-09-08.",
+        "Age ranges differ by indication and are part of the approval, not a general restriction. IBS-C is approved from 7 years, functional constipation from 2 years, and CIC in adults only. The trials cited in this entry enrolled adults and adolescents.[¹][²]",
         "Existing diarrhea, or conditions where fluid loss is dangerous — the dominant, dose-related adverse effect is diarrhea.[²]",
         "General \"gut health\" or undiagnosed bloating — not studied, not approved, not supported by any source in this entry.",
         "Pregnancy and lactation — not addressed by the sources here. Refer to current labeling.",
@@ -12661,7 +12683,7 @@
         "Not DEA-scheduled."
       ],
       "firstTimeWalkthrough": [
-        "This is a prescription medicine, not a research-supply peptide. It is prescribed after a diagnosis of IBS-C or chronic idiopathic constipation. There is no self-directed first-use workflow for this compound, and this library will not construct one.",
+        "This is a prescription medicine, not a research-supply peptide. It is prescribed after a diagnosis of IBS-C, chronic idiopathic constipation, or functional constipation. There is no self-directed first-use workflow for this compound, and this library will not construct one.",
         "If you have been prescribed linaclotide, follow the instructions supplied with the dispensed product and your prescriber's direction — including any instruction about timing relative to food.",
         "There is nothing to reconstitute and no calculator to use. This is an oral capsule; VialWise's reconstitution calculator is built for lyophilized research vials and does not apply.",
         "Expect diarrhea to be the effect to watch, and know that it is dose-related — 6% at the lower dose versus 17% at the higher in the constipation trial.[²] If it is a problem, that is a conversation with your prescriber about dose, not something to solve by self-adjusting.",
@@ -12693,7 +12715,7 @@
       "web": {
         "url": "https://www.getvialwise.com/library/linaclotide",
         "title": "Linaclotide (Linzess) — what it does, evidence, and safety",
-        "description": "Linaclotide (brand names Linzess and Constella) is a prescription medicine for two long-term gut conditions: irritable bowel syndrome with constipation, and…",
+        "description": "Linaclotide (brand names Linzess and Constella) is a prescription medicine for three long-term gut conditions: irritable bowel syndrome with constipation,…",
         "related": [
           {
             "slug": "teduglutide",
@@ -19278,12 +19300,12 @@
         "metabolic-weight",
         "appetite"
       ],
-      "status": "FDA-approved prescription drug (Imcivree, Rhythm Pharmaceuticals). Approved for chronic weight management in patients with obesity caused by specific, genetically confirmed defects in the leptin–melanocortin pathway — not for general or common obesity. This is a genuine prescription medicine dispensed through a pharmacy, distinct from the research-supply peptides elsewhere in this library. Specific approved indications, eligible genotypes, and minimum age are set by current FDA labeling and should be read there. WADA status: setmelanotide is not named on the 2026 WADA Prohibited List, and no melanocortin drug class appears on that list (verified directly against the 2026 list text, 2026-08-04). Because setmelanotide holds regulatory approval for human therapeutic use, S0 (Non-Approved Substances) does not capture it — the opposite of the unapproved melanocortins elsewhere in this library, which are captured by S0 precisely because they lack approval. Athletes should still verify current status with their anti-doping organization. Not DEA-scheduled (prescription, non-controlled).",
+      "status": "FDA-approved prescription drug (Imcivree, Rhythm Pharmaceuticals). Approved to reduce excess body weight and maintain the reduction long term in two populations: obesity from specific, genetically confirmed faults in the leptin–melanocortin pathway (from age 2), and acquired hypothalamic obesity — which is not genetic at all — from age 4. Not approved for general or common obesity. This is a genuine prescription medicine dispensed through a pharmacy, distinct from the research-supply peptides elsewhere in this library. Approved indications, eligible genotypes and minimum ages verified against current FDA labeling (SPL v14, published 2026-04-02) on 2026-09-08 — see the Regulatory status section for the full table.[⁵] WADA status: setmelanotide is not named on the 2026 WADA Prohibited List, and no melanocortin drug class appears on that list (verified directly against the 2026 list text, 2026-08-04). Because setmelanotide holds regulatory approval for human therapeutic use, S0 (Non-Approved Substances) does not capture it — the opposite of the unapproved melanocortins elsewhere in this library, which are captured by S0 precisely because they lack approval. Athletes should still verify current status with their anti-doping organization. Not DEA-scheduled (prescription, non-controlled).",
       "fdaApproved": true,
       "recommendedTimeOfDay": "anytime",
       "lastUpdated": "2026-09-03",
       "beginner": {
-        "summary": "Setmelanotide (brand name Imcivree) is a prescription medicine that reduces hunger and body weight in people whose obesity is caused by a specific, inherited fault in the brain pathway that controls appetite. It works by switching on a receptor called MC4R that those faults leave under-stimulated. It is FDA-approved, but only for people with a confirmed genetic diagnosis — it is not a treatment for common obesity, and it has not been shown to work in people without those specific gene variants.",
+        "summary": "Setmelanotide (brand name Imcivree) is a prescription medicine that reduces hunger and body weight in people whose brain is not getting the signal to stop eating. It works by switching on a receptor called MC4R that sits at the end of that signalling chain. It is FDA-approved for two groups whose signal fails in different ways: people born with a rare inherited fault in that chain, and people with hypothalamic obesity, where hunger begins after the appetite centre in the brain is damaged. It is not approved for common obesity and has not been shown to work there.",
         "researchFindings": "Setmelanotide has been studied in people born with rare gene faults that break the body's appetite-control pathway. In the two trials that led to approval, 8 of 10 people with POMC deficiency and 5 of 11 with LEPR deficiency lost at least 10% of their body weight over about a year, and reported large drops in hunger. A companion analysis found quality of life improved for most participants. The honest part: these were very small, mostly open-label studies in a rare population, run by the company that makes the drug, and nearly everyone got injection-site reactions and skin darkening. Nothing here says anything about how it would work in ordinary obesity, which it was not tested for.",
         "evidenceLevel": "FDA-approved drug",
         "keyTerms": [
@@ -19308,7 +19330,7 @@
             "definition": "A study where everyone knows who is getting the drug. It is easier to run than a blinded study but more open to bias, so results carry less weight than a fully blinded trial."
           }
         ],
-        "safetyBasics": "Setmelanotide is a prescription drug and should only be used under the care of a clinician who has confirmed an eligible genetic diagnosis. In the published trials, every single participant had injection-site reactions, and skin darkening occurred in every treated patient in a dedicated dermatology study — including darkening of moles and, in red-haired participants, a change in hair color. Because of that, regular skin examinations before and during treatment are recommended in the published literature. It is not named on the WADA Prohibited List and, being an approved medicine, is not captured by the S0 non-approved-substances category — but athletes should verify with their anti-doping organization. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
+        "safetyBasics": "Setmelanotide is a prescription drug and should only be used under the care of a clinician who has confirmed an eligible diagnosis under one of its approved indications — a qualifying inherited gene variant, or acquired hypothalamic obesity. In the published trials, every single participant had injection-site reactions, and skin darkening occurred in every treated patient in a dedicated dermatology study — including darkening of moles and, in red-haired participants, a change in hair color. Because of that, regular skin examinations before and during treatment are recommended in the published literature. It is not named on the WADA Prohibited List and, being an approved medicine, is not captured by the S0 non-approved-substances category — but athletes should verify with their anti-doping organization. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
       },
       "disclosures": [
         "⚠️ This is an approved prescription medicine, not a research peptide. Setmelanotide is dispensed by a pharmacy under a prescription and is used under clinical supervision. The reconstitution and self-dosing workflows used elsewhere in this library do not apply to it. Information here is informational, not medical advice.",
@@ -19422,7 +19444,7 @@
       "web": {
         "url": "https://www.getvialwise.com/library/setmelanotide",
         "title": "Setmelanotide (Imcivree) — what it does, evidence, and safety",
-        "description": "Setmelanotide (brand name Imcivree) is a prescription medicine that reduces hunger and body weight in people whose obesity is caused by a specific, inherited…",
+        "description": "Setmelanotide (brand name Imcivree) is a prescription medicine that reduces hunger and body weight in people whose brain is not getting the signal to stop…",
         "related": [
           {
             "slug": "afamelanotide",
