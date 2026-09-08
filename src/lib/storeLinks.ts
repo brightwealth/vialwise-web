@@ -28,7 +28,25 @@ const APPLE_PROVIDER_TOKEN = "128963457";
 const ANDROID_PACKAGE = "com.vialwise.app";
 
 /** Campaign tokens registered in docs/marketing/campaign-links.md. */
-export type Campaign = "website" | "web-library";
+export type Campaign = "website" | "web-library" | "qr";
+
+/**
+ * Campaign tokens a `?src=` value is allowed to select, for /download.
+ *
+ * An allowlist rather than a passthrough: `src` comes off a printed code that
+ * anyone can photograph and edit, and an arbitrary value would let a stranger
+ * mint campaign tokens in our App Store Connect reporting.
+ */
+const SRC_CAMPAIGNS: Record<string, Campaign> = {
+  qr: "qr",
+  website: "website",
+};
+
+/** Resolve a `?src=` value to a campaign token; unknown values fall back. */
+export function campaignFromSrc(src: string | null): Campaign {
+  if (!src) return "website";
+  return SRC_CAMPAIGNS[src.trim().toLowerCase()] ?? "website";
+}
 
 export function appStoreUrl(campaign: Campaign): string {
   return (
