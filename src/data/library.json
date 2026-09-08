@@ -1977,15 +1977,18 @@
         "serious": []
       },
       "contraindications": [
+        "Absolute contraindications (per the FDA Arimidex label):[¹]",
         "Pregnancy — Category D / fetal harm warning. Anastrozole produced embryo-fetal toxicities at doses 9× human clinical exposure (rats) and pregnancy failure at doses ≥16× human dose (rabbits). Females of reproductive potential should use effective contraception during and after treatment.",
         "Hypersensitivity to anastrozole or any product excipient — anaphylaxis, angioedema, urticaria reported.",
         "Premenopausal women — anastrozole's pharmacology in premenopausal women (with active ovarian aromatase) differs substantially from postmenopausal women; not an FDA-approved use case.",
+        "Warnings and cautions:",
         "Bone density — multi-year exposure produces measurable bone density loss in the breast-cancer literature; baseline DEXA scan and serial bone density monitoring are appropriate for sustained use, including off-label men's-health use.",
         "Lipids — modest dyslipidemia reported in long-term breast-cancer follow-up; lipid monitoring appropriate.",
         "Concurrent estrogen therapy — pharmacologic antagonism; not recommended.",
         "Concurrent tamoxifen — inferior combination per ATAC; not recommended.",
         "Hepatic impairment — severe hepatic impairment (Child-Pugh C) not studied; use caution.",
         "Lactation — not known whether anastrozole is excreted in human milk; advise against breastfeeding.",
+        "Regulatory notes:",
         "Regulatory note (US): FDA-approved for postmenopausal breast cancer only. All use in men is off-label. Generic anastrozole is widely available since 2010 patent expiration. Standard prescription required (not DEA-scheduled).",
         "Regulatory note (sport): WADA-banned in regulated sport — explicitly named under Section S4.1 (Aromatase Inhibitors) of the 2026 Prohibited List as a Specified Substance.[⁶]",
         "Not DEA-scheduled.",
@@ -2763,6 +2766,7 @@
         "serious": []
       },
       "contraindications": [
+        "The blend's contraindications are the union of each component's contraindications. See [bpc-157.md](./bpc-157.md) and [tb-500.md](./tb-500.md) for component-specific detail. Most prominent items that researchers using the blend should be aware of:",
         "Active malignancy or undiagnosed cancer concern — theoretical contraindication based on both components' angiogenic mechanisms (BPC-157 vegf promotion + TB-500-derived Tβ4 angiogenesis). The combined-use evidence base is silent on whether this concern compounds.",
         "Pregnancy and lactation: no data; default to contraindicated — applies to both components individually and to the blend.",
         "Pediatric use: no data — should not be used in researchers under 18.",
@@ -4901,6 +4905,7 @@
         "serious": []
       },
       "contraindications": [
+        "The blend's contraindications are the union of each component's contraindications. See [cjc-1295.md](./cjc-1295.md) and [ipamorelin.md](./ipamorelin.md) for component-specific detail. Most prominent items that researchers using the blend should be aware of:",
         "Active malignancy or undiagnosed cancer concern — theoretical contraindication based on IGF-1 elevation. Class consideration for any GH-elevating intervention.",
         "Diabetes or impaired glucose tolerance — caution due to GH's counter-regulatory effects on insulin sensitivity",
         "Pregnancy and lactation: no data; default to contraindicated — applies to both components individually and to the blend.",
@@ -5441,6 +5446,7 @@
         "serious": []
       },
       "contraindications": [
+        "Absolute contraindications (per the FDA Clomid label):[¹]",
         "Pregnancy — Pregnancy Category X. Anti-estrogenic and embryo-fetal toxicity concerns. Documented absence of pregnancy required before initiating in female patients.",
         "Liver disease or history of liver dysfunction",
         "Abnormal uterine bleeding of undetermined origin (female patients)",
@@ -5448,10 +5454,12 @@
         "Hypersensitivity to clomiphene or any product excipient",
         "Uncontrolled thyroid or adrenal dysfunction",
         "Organic intracranial lesions (e.g., pituitary tumor)",
+        "Warnings and cautions:",
         "Visual disturbances — discontinue immediately for any visual changes; evaluate before considering re-treatment.",
         "Long-term off-label men's-health use is outside the FDA-approved 6-cycle maximum framework. Researchers using clomiphene continuously for years are operating outside the FDA-approved duration framework as well as the FDA-approved indication.",
         "Ovarian hyperstimulation syndrome (female patients) — particularly at higher doses or in patients with PCOS.",
         "Multiple pregnancies (female patients) — increased rate of twins and higher-order multiples.",
+        "Regulatory notes:",
         "Regulatory note (US — clomiphene): FDA-approved exclusively for female ovulation induction (Clomid 1967, NDA 016131). All use in men is off-label. Generic widely available since the 1980s. Standard prescription required (not DEA-scheduled).",
         "Regulatory note (US — enclomiphene): Not FDA-approved for any indication. Repros Therapeutics' Androxal NDA received a Complete Response Letter in December 2015; development discontinued by 2021.[²] Available exclusively via 503A compounding pharmacies for off-label men's-health use.",
         "Regulatory note (sport): WADA-banned in regulated sport. Clomifene (INN spelling) is explicitly named under Section S4.2 of the 2026 Prohibited List as a Specified Substance.[⁶] Enclomiphene is covered as a stereoisomer of clomiphene under WADA's general framework. Both prohibited at all times.",
@@ -7265,10 +7273,12 @@
         ]
       },
       "contraindications": [
+        "Absolute contraindications (per FDA label):[¹][²]",
         "Personal or family history of medullary thyroid carcinoma (MTC)",
         "Multiple endocrine neoplasia syndrome type 2 (MEN 2)",
         "Hypersensitivity to exenatide or any product excipient",
         "Type 1 diabetes or diabetic ketoacidosis — exenatide is not appropriate",
+        "Warnings:",
         "Pancreatitis — discontinue if suspected; do not restart",
         "Acute kidney injury — particular concern with severe renal impairment",
         "Hypoglycemia — when combined with sulfonylurea or insulin",
@@ -7276,6 +7286,7 @@
         "Hypersensitivity reactions including anaphylaxis",
         "Severe injection site reactions (Bydureon-specific)",
         "Drug interactions affecting absorption — Byetta delays gastric emptying, which can affect oral medication absorption; consider timing relative to other oral drugs",
+        "Regulatory notes:",
         "Regulatory note (US): Exenatide's only FDA-approved indication was T2DM — as Byetta (twice daily, NDA 021773) and the Bydureon family (once weekly, NDA 022200). Both branded products are discontinued and their approvals withdrawn; the Orange Book lists only a generic twice-daily exenatide (Amneal, ANDA 206697) as marketed. Never FDA-approved for obesity. Standard prescription required (not DEA-scheduled).",
         "Regulatory note (sport): Not listed on the WADA 2026 Prohibited List — confirmed by direct grep against the canonical 2026 PDF.[⁶] Sixth negative-WADA-listing entry in the library.",
         "Not DEA-scheduled."
@@ -9704,10 +9715,12 @@
         "serious": []
       },
       "contraindications": [
+        "Absolute contraindications (per the historical Lutrepulse / Factrel labels):[¹]",
         "Hypersensitivity to gonadorelin or any product excipient",
         "Pituitary tumor that may respond to GnRH stimulation in undesirable ways",
         "Active hormone-sensitive cancer (prostate, breast, etc.) — caution; absolute contraindication in many cases",
         "Disrupted hypothalamic-pituitary axis affecting somatotroph function — gonadorelin requires intact pituitary gonadotrophs",
+        "Warnings:",
         "Pediatric use (off-label): specialist (pediatric endocrinology) supervision required.",
         "Adult use: off-label; no FDA-approved adult-male hypogonadism or TRT-adjunct indication.",
         "Pregnancy and lactation: caution; not commonly used and safety not established for off-label use.",
@@ -9990,10 +10003,12 @@
         ]
       },
       "contraindications": [
+        "Absolute contraindications (per FDA labels):[⁴][⁵]",
         "Known or suspected androgen-dependent neoplasm (e.g., prostate cancer in men) — HCG drives endogenous testosterone production and would be contraindicated",
         "Precocious puberty in pediatric patients — HCG can induce premature pubertal development",
         "Pregnancy — HCG is appropriate for ovulation induction but is contraindicated in established pregnancy outside specific obstetric indications",
         "Hypersensitivity to HCG or any product component",
+        "Warnings:",
         "Pregnancy and lactation: HCG is naturally produced during pregnancy; therapeutic use in pregnancy is limited to specific obstetric contexts under specialist supervision.",
         "Concurrent use of testosterone: the most common stacking pattern (TRT adjunct); not contraindicated but requires monitoring of estradiol, hematocrit, and PSA per the Bhasin 2018 testosterone guideline framework. See [testosterone.md](./testosterone.md).",
         "Concurrent use of fertility medications: HCG is intentionally combined with menotropins, FSH, and SERMs in fertility contexts; specialist supervision is the standard of care for these regimens.",
@@ -10601,6 +10616,7 @@
         ]
       },
       "contraindications": [
+        "Absolute contraindications (per FDA labels for adult GHD):[⁴][⁵]",
         "Active malignancy — IGF-1 elevation may promote cancer growth",
         "Prader-Willi syndrome with severe obesity or severe respiratory impairment — fatalities reported in PWS patients with severe respiratory impairment treated with HGH",
         "Acute critical illness — HGH treatment in ICU contexts associated with increased mortality (per pivotal trials in critically ill ICU populations)",
@@ -10608,6 +10624,7 @@
         "Hypersensitivity to somatropin or any product component",
         "Closed epiphyses (in pediatric growth indications) — HGH for growth indications is ineffective once epiphyses are closed",
         "Pregnancy — Category C (insufficient human data); discontinue during pregnancy",
+        "Warnings:",
         "Pregnancy and lactation: discontinue. Safety not established.",
         "Diabetes / impaired glucose tolerance: monitor glucose carefully; HGH worsens glucose tolerance",
         "Concurrent corticosteroid use: may require corticosteroid dose adjustment; HGH affects cortisol metabolism",
@@ -12895,12 +12912,14 @@
         ]
       },
       "contraindications": [
+        "Absolute contraindications (per FDA Victoza and Saxenda labels):[⁴][⁵]",
         "Personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN2) — FDA-mandated boxed warning across the GLP-1 class, based on rodent thyroid C-cell tumor findings",
         "History of pancreatitis — caution; weigh against benefit",
         "Severe gastrointestinal disease (gastroparesis especially — liraglutide further slows gastric emptying)",
         "Severe renal impairment — caution; dehydration risk amplifies",
         "Hypersensitivity to liraglutide or any product component",
         "Pregnancy — discontinue at least 2 months before a planned pregnancy due to long half-life",
+        "Warnings:",
         "Pregnancy and lactation: discontinue. Animal studies showed reproductive toxicity.",
         "Concurrent use of other GLP-1, GIP, or glucagon receptor agonists: contraindicated due to compounded incretin effect.",
         "Diabetic retinopathy: observed worsening in some GLP-1 trials; caution in patients with proliferative retinopathy.",
@@ -14625,12 +14644,14 @@
         ]
       },
       "contraindications": [
+        "Strong contraindications / cautions:",
         "Pre-existing congestive heart failure or significant cardiac vulnerability — strong caution per the Adunsky 2011 phase 2b CHF safety signal",
         "Active malignancy — IGF-1 elevation may promote cancer progression",
         "Diabetes / impaired glucose tolerance — caution; MK-677 worsens insulin sensitivity",
         "Pregnancy and lactation — no data; default to contraindicated",
         "Pediatric use (outside the Lumos Pharma OraGrowtH trial framework) — the active phase 3 program operates under specialist supervision in a controlled trial population; off-label pediatric use outside this framework is strongly contraindicated",
         "Concurrent corticosteroid use — caution; corticosteroids may interfere with MK-677's GH-stimulating effect",
+        "Warnings:",
         "Pregnancy and lactation: contraindicated (no human data).",
         "Long-term safety in healthy adults is essentially unknown — no multi-year human safety dataset exists for the research-community continuous-use pattern.",
         "Regulatory note (US): MK-677 is not FDA-approved; classified as an Investigational New Drug. Distribution outside the FDA-approved clinical trial framework is regulated under the broader compounding-pharmacy and \"research use only\" framework that applies to most non-FDA-approved compounds.",
@@ -17766,9 +17787,11 @@
         ]
       },
       "contraindications": [
+        "Absolute contraindications (per Vyleesi label):[⁴]",
         "Uncontrolled hypertension or known cardiovascular disease — PT-141's BP-elevation effect contraindicated",
         "Hypersensitivity to bremelanotide or any product component",
         "Pregnancy — Category X; bremelanotide is contraindicated in pregnancy",
+        "Warnings:",
         "Pregnancy and lactation: contraindicated per Vyleesi label.[⁴]",
         "Cardiovascular disease / hypertension: caution; assess cardiovascular risk before initiating.",
         "Concurrent nitrate medications: caution (BP/cardiovascular interaction).",
@@ -19196,10 +19219,12 @@
         "serious": []
       },
       "contraindications": [
+        "Absolute contraindications (per the historical Geref label):[²]",
         "Active malignancy — IGF-1 elevation may promote cancer growth",
         "Hypersensitivity to sermorelin, mannitol, or other product components",
         "Pregnancy and lactation — Category C; insufficient human data; default to contraindicated",
         "Disruption of the hypothalamic-pituitary axis (hypophysectomy, hypopituitarism, pituitary tumor) — sermorelin requires intact pituitary somatotroph function",
+        "Warnings:",
         "Pediatric use (historical Geref indication): specialist (pediatric endocrinology) supervision required.",
         "Adult use: off-label; no FDA-approved adult indication.",
         "Concurrent corticosteroid use: may interfere with sermorelin's GH-stimulating effect.",
@@ -20570,16 +20595,19 @@
         ]
       },
       "contraindications": [
+        "Absolute contraindications (per the FDA Nolvadex label):[¹]",
         "Pregnancy — Pregnancy Category D; embryotoxicity in animal studies. Documented absence of pregnancy required before initiating in females of reproductive potential.",
         "Hypersensitivity to tamoxifen or any product excipient.",
         "Concurrent warfarin in patients with DCIS or for breast cancer prevention (FDA label-specific contraindication; relative contraindication in other contexts with INR monitoring).",
         "History of deep vein thrombosis or pulmonary embolism (in patients receiving tamoxifen for breast cancer prevention or DCIS).",
+        "Warnings:",
         "Endometrial cancer and uterine sarcoma risk (women) — black-box warning.",
         "VTE/PE/stroke risk (women) — black-box warning.",
         "Visual disturbances — discontinue immediately for any visual changes; evaluate before considering re-treatment.",
         "Hepatic effects — rare hepatic toxicity reported; monitor LFTs.",
         "CYP2D6 metabolism considerations — strong CYP2D6 inhibitors reduce endoxifen formation.",
         "Lactation — not recommended.",
+        "Regulatory notes:",
         "Regulatory note (US): Tamoxifen is FDA-approved exclusively for breast-cancer indications in women. All use in men is off-label. Generic widely available since 2002. Standard prescription required (not DEA-scheduled).",
         "Regulatory note (sport): WADA-banned in regulated sport — explicitly named under Section S4.2 (Anti-Estrogenic Substances and SERMs) of the 2026 Prohibited List as a Specified Substance.[⁶]",
         "Not DEA-scheduled."
@@ -21465,10 +21493,12 @@
         ]
       },
       "contraindications": [
+        "Absolute contraindications (per FDA Egrifta label):[⁴]",
         "Disruption of the hypothalamic-pituitary axis (hypophysectomy, hypopituitarism, pituitary tumor, pituitary surgery, head irradiation, head trauma) — tesamorelin requires intact pituitary function to mediate its GH-releasing effect",
         "Active malignancy — GH/IGF-1 elevation may accelerate malignancy progression",
         "Pregnancy — Category X; contraindicated due to lack of clinical benefit in HIV-lipodystrophy during pregnancy and theoretical fetal-development risks",
         "Hypersensitivity to tesamorelin or any product component (mannitol)",
+        "Warnings:",
         "Pregnancy and lactation: contraindicated. Discontinue if pregnancy is detected.",
         "Concurrent corticosteroid use: caution; corticosteroids may interfere with tesamorelin's GH-stimulating effect.",
         "Diabetes / impaired glucose tolerance: monitor glucose carefully; tesamorelin may worsen glucose tolerance in some patients.",
@@ -22187,6 +22217,7 @@
         ]
       },
       "contraindications": [
+        "Absolute contraindications (per FDA labels and Bhasin 2018):[¹][⁵][⁶]",
         "Known or suspected prostate cancer or breast cancer in men — testosterone can drive growth of androgen-sensitive cancers",
         "Untreated severe sleep apnea — testosterone can worsen sleep apnea; should be managed before initiating TRT",
         "Severe cardiac, hepatic, or renal disease — exercise caution; balance against established benefit",
@@ -22196,11 +22227,13 @@
         "Recent (within 6 months) cardiovascular event — caution; TRT initiation should typically be delayed and balanced against other clinical needs",
         "Pediatric use — generally contraindicated outside specialist settings; testosterone can prematurely close growth plates and disrupt normal pubertal development",
         "Active breast cancer (in women) — even off-label transgender use should be reconsidered in this context",
+        "Warnings:",
         "Pregnancy and lactation: contraindicated — virilization risk to fetus; testosterone is excreted in milk.",
         "Concurrent use of warfarin and other anticoagulants — testosterone can potentiate warfarin effects; monitor INR closely.",
         "Concurrent use of insulin or oral hypoglycemics — testosterone can affect glucose metabolism; monitor glucose carefully when initiating or adjusting TRT.",
         "Increased blood pressure (FDA class-wide warning, 2025). FDA added a class-wide warning that testosterone can increase blood pressure — confirmed across all routes by required post-market ambulatory blood-pressure monitoring (ABPM) studies. Blood pressure should be monitored during therapy, and the increase should be weighed in individuals with hypertension or cardiovascular risk.[⁹]",
         "Cardiovascular language removed FROM the boxed warning (FDA, 2/28/2025) — the boxed warning itself was not removed. Following the TRAVERSE cardiovascular-safety results,[³] FDA issued class-wide testosterone labeling changes \"removing language from the Boxed Warning related to an increased risk of adverse cardiovascular outcomes for all testosterone products\", adding the TRAVERSE results to all labels and a class-wide blood-pressure warning, while retaining the \"Limitation of Use\" language for age-related hypogonadism.[⁹] ⚠️ This is not the same as testosterone having no boxed warning, and this entry previously implied that it was. The FDA notice says nothing about the secondary-exposure or POME boxed warnings, and both still stand. This reflects the current FDA regulatory posture for TRT-range use and does not extend to supraphysiologic-dose research-community use.",
+        "If you use a transdermal gel, cream or solution, the boxed warning on that product applies to the people around you. Virilization has been reported in children who contacted an application site. Cover the site, wash your hands after applying, and keep children off unwashed skin. The injectable walkthrough in this entry does not cover that risk, because injectables do not carry it.",
         "Boxed warnings are formulation-specific — see the per-formulation table in the About section. Topical/transdermal products carry secondary exposure to testosterone; Aveed (undecanoate IM) carries POME and anaphylaxis; the ordinary IM esters, Xyosted, the oral undecanoates, Natesto and Testopel carry none.",
         "Regulatory note (US): Testosterone is a DEA Schedule III controlled substance — possessing, distributing, or using testosterone outside an authorized prescriber relationship is a federal criminal offense.[⁸]",
         "Regulatory note (sport): Testosterone is explicitly listed in WADA 2026 Prohibited List Section S1.1 (Anabolic Androgenic Steroids), prohibited at all times.[⁷] Researchers competing in any WADA-tested sport will test positive on standard testing protocols.",
@@ -22731,12 +22764,15 @@
         "serious": []
       },
       "contraindications": [
+        "Documented (Zadaxin label and clinical literature):[¹]",
         "Hypersensitivity to thymosin α1, mannitol (a common excipient in lyophilized formulations), or other product components",
         "Pregnancy and lactation — Category C in the Zadaxin labeling framework; insufficient human data; default to contraindicated in research-community use",
         "Pediatric use — not established in research-community contexts; pediatric clinical use exists in some international markets under specialist supervision",
+        "Theoretical / cautionary:",
         "Active autoimmune disease — see Side Effects",
         "Active immunosuppressive therapy (transplant immunosuppression, intentional cytotoxic immunosuppression) — see Common Stacks & Combinations",
         "Concurrent biologic immunomodulators (TNF inhibitors, IL-6 inhibitors, JAK inhibitors) — no published interaction data; theoretical concern about immunomodulator-on-immunomodulator effects",
+        "Regulatory notes:",
         "Regulatory note (US): thymosin α1 is not FDA-approved in the United States and not legally compoundable through US 503A pharmacies as of December 2024. Researchers obtaining thymosin α1 in the US are operating outside the FDA-recognized supply chain. International patients prescribed Zadaxin operate within their country's regulatory framework.",
         "Regulatory note (sport): thymosin α1 is not listed on the WADA 2026 Prohibited List — confirmed by direct grep against the canonical 2026 PDF.[⁸] This is the fourth negative-WADA-listing entry in the library. Re-verify against the current annual edition before competition; absence of a listing in 2026 is not a guarantee of absence in 2027 or beyond.",
         "Not DEA-scheduled."
