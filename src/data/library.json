@@ -26,7 +26,7 @@
       "researchAreas": [
         "healing-repair"
       ],
-      "status": "Not FDA approved for any indication. Investigational. US compounding status remains under FDA review and NO final determination has been issued (as of 2026-09-03). BPC-157 was removed from Category 2 of the FDA's 503A bulks list effective ~April 22, 2026; an April 16, 2026 Federal Register notice (document 2026-07361) scheduled a Pharmacy Compounding Advisory Committee (Pcac) meeting for July 23–24, 2026, and that meeting took place as scheduled, with the committee taking separate votes on BPC-157 free base and BPC-157 acetate for the 503A Bulks List. FDA's own pre-meeting briefing document proposed that Neither form be included. FDA has published no summary minutes, vote results, or final determination from that meeting, and BPC-157 does not appear on the 503A Bulks List. A Pcac recommendation is advisory and non-binding — FDA states it does not intend to issue a final determination until the advisory-committee input has been considered and all reviews finalized, so a favorable committee vote would not by itself make BPC-157 listed, compoundable, legal, or approved. Removal from Category 2 does not make BPC-157 compoundable — it was never in Category 1, so 503A compounding was never permitted; the practical US access position is unchanged. WADA-banned in regulated sport — BPC-157 is explicitly named in the WADA 2026 Prohibited List under S0 (Non-Approved Substances): \"This class covers many different substances including but not limited to BPC-157…\", prohibited at all times. (S0 basis = no current governmental regulatory-health-authority approval for human therapeutic use, rather than a named pharmacological class.) ✓ re-verified 2026-07-18 against the 2026 list (effective Jan 1 2026; the 2027 list is not yet published). Not DEA-scheduled ✓ re-verified 2026-07-18.",
+      "status": "Not FDA approved for any indication. Investigational. US compounding status remains under FDA review and NO final determination has been issued (as of 2026-09-03). BPC-157 was removed from Category 2 of the FDA's 503A bulks list effective ~April 22, 2026; an April 16, 2026 Federal Register notice (document 2026-07361) scheduled a Pharmacy Compounding Advisory Committee (PCAC) meeting for July 23–24, 2026, and that meeting took place as scheduled, with the committee taking separate votes on BPC-157 free base and BPC-157 acetate for the 503A Bulks List. FDA's own pre-meeting briefing document proposed that neither form be included. FDA has published no summary minutes, vote results, or final determination from that meeting, and BPC-157 does not appear on the 503A Bulks List. A PCAC recommendation is advisory and non-binding — FDA states it does not intend to issue a final determination until the advisory-committee input has been considered and all reviews finalized, so a favorable committee vote would not by itself make BPC-157 listed, compoundable, legal, or approved. Removal from Category 2 does not make BPC-157 compoundable — it was never in Category 1, so 503A compounding was never permitted; the practical US access position is unchanged. WADA-banned in regulated sport — BPC-157 is explicitly named in the WADA 2026 Prohibited List under S0 (Non-Approved Substances): \"This class covers many different substances including but not limited to BPC-157…\", prohibited at all times. (S0 basis = no current governmental regulatory-health-authority approval for human therapeutic use, rather than a named pharmacological class.) ✓ re-verified 2026-07-18 against the 2026 list (effective Jan 1 2026; the 2027 list is not yet published). Not DEA-scheduled ✓ re-verified 2026-07-18.",
       "recommendedTimeOfDay": "anytime",
       "lastUpdated": "2026-09-03",
       "beginner": {
@@ -55,7 +55,7 @@
       },
       "disclosures": [
         "⚠️ For research and educational purposes only. BPC-157 is not approved by the FDA for any indication and is not permitted for 503A compounding in the US; its regulatory status is under active FDA review with a determination pending (see Regulatory status below). Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
-        "⚠️ Precision matters at low doses. BPC-157 is dosed in micrograms (mcg), not milligrams. Small dosing errors that look trivial in absolute terms can be significant in percentage terms when starting doses are small. A one-unit mis-draw at a 5-unit dose is a error; the same one-unit error at a 50-unit dose is only. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting — most acutely at the smallest draws in your titration.",
+        "⚠️ Precision matters at low doses. BPC-157 is dosed in micrograms (mcg), not milligrams. Small dosing errors that look trivial in absolute terms can be significant in percentage terms when starting doses are small. A one-unit mis-draw at a 5-unit dose is a 20% error; the same one-unit error at a 50-unit dose is only 2%. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting — most acutely at the smallest draws in your titration.",
         "⚠️ Note on evidence base. Unlike the FDA-approved GLP-1 peptides covered elsewhere in this library, BPC-157 has no large randomized clinical trials supporting its use. The cited literature consists primarily of preclinical (animal) studies and small case reports. The mechanisms of action, efficacy claims, and dose-response relationships described in this entry should be read with that limitation in mind. This entry exists to consolidate what *is* in the published literature so researchers can make their own assessment — not to imply an evidence base comparable to FDA-approved compounds."
       ],
       "quickReference": [
@@ -69,7 +69,7 @@
         },
         {
           "label": "Half-life",
-          "value": "Not established in humans. Two independent reviews report a plasma half-life of under 30 minutes, based on preclinical pharmacokinetic work;[⁶][⁹] a formal two-species preclinical Adme study described in [⁹] reported linear, dose-proportional kinetics and intramuscular bioavailability of 14–51%. Biological effects described in the preclinical literature persist longer than plasma half-life alone would suggest — a disconnect both reviews note but neither resolves.[⁵][⁶][⁹] Human pharmacokinetic data is limited to a preliminary two-subject pilot.[⁹]"
+          "value": "Not established in humans. Two independent reviews report a plasma half-life of under 30 minutes, based on preclinical pharmacokinetic work;[⁶][⁹] a formal two-species preclinical ADME study described in [⁹] reported linear, dose-proportional kinetics and intramuscular bioavailability of 14–51%. Biological effects described in the preclinical literature persist longer than plasma half-life alone would suggest — a disconnect both reviews note but neither resolves.[⁵][⁶][⁹] Human pharmacokinetic data is limited to a preliminary two-subject pilot.[⁹]"
         },
         {
           "label": "Route",
@@ -84,10 +84,10 @@
         "BPC-157 (Body Protection Compound 157, sometimes \"Body Protective Compound\") is a 15-amino-acid synthetic peptide derived from a partial sequence of a protein found in human gastric juice. It was first described in the 1990s by the Sikiric laboratory at the University of Zagreb, which has published the bulk of the preclinical literature on the compound.[¹]",
         "Regulatory status — under review, determination pending. BPC-157 has never received FDA approval for any indication. It progressed through some early-stage clinical work for inflammatory bowel disease (under the development code PL 14736) but has not advanced to large pivotal trials.",
         "In September 2023, the FDA placed BPC-157 in Category 2 of its 503A bulks list evaluation — the category for substances raising significant safety risks. An important nuance that is often lost in secondary coverage: BPC-157 was never in Category 1, so compounding under section 503A was never actually permitted for it in the first place.",
-        "Effective on or about April 22, 2026, FDA removed BPC-157 from Category 2. This removal is a procedural step, not a liberalization: it does not make BPC-157 compoundable. The substance moved out of the interim category because FDA opened the formal evaluation of whether it belongs on the 503A Bulks List. An April 16, 2026 Federal Register notice (document 2026-07361) scheduled a Pharmacy Compounding Advisory Committee (Pcac) meeting for July 23–24, 2026, at which BPC-157 (free base and acetate; the indication under review is ulcerative colitis) was on the agenda. That meeting took place on July 23, 2026, and the committee took two separate votes on BPC-157 — one on the free base, one on the acetate ([FDA meeting page](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026); [FDA voting questions](https://www.fda.gov/media/193711/download)). FDA's own pre-meeting briefing document proposed that BPC-157 Not be added to the 503A Bulks List (in FDA's words, *“FDA is proposing that BPC-157 (free base) Not be included on the 503A Bulks List”*, and likewise for the acetate), citing that the substance is not well characterized, that human efficacy evidence for injectable routes is minimal, and that safety and immunogenicity data are insufficient.",
+        "Effective on or about April 22, 2026, FDA removed BPC-157 from Category 2. This removal is a procedural step, not a liberalization: it does not make BPC-157 compoundable. The substance moved out of the interim category because FDA opened the formal evaluation of whether it belongs on the 503A Bulks List. An April 16, 2026 Federal Register notice (document 2026-07361) scheduled a Pharmacy Compounding Advisory Committee (PCAC) meeting for July 23–24, 2026, at which BPC-157 (free base and acetate; the indication under review is ulcerative colitis) was on the agenda. That meeting took place on July 23, 2026, and the committee took two separate votes on BPC-157 — one on the free base, one on the acetate ([FDA meeting page](https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026); [FDA voting questions](https://www.fda.gov/media/193711/download)). FDA's own pre-meeting briefing document proposed that BPC-157 not be added to the 503A Bulks List (in FDA's words, *“FDA is proposing that BPC-157 (free base) not be included on the 503A Bulks List”*, and likewise for the acetate), citing that the substance is not well characterized, that human efficacy evidence for injectable routes is minimal, and that safety and immunogenicity data are insufficient.",
         "Net effect for US researchers as of 2026-09-03: unchanged. BPC-157 is not an approved drug and is not lawfully compoundable under 503A. FDA has not published summary minutes, vote results, or a final determination from the July 2026 meeting, and BPC-157 does not appear on the 503A Bulks List ([FDA 503A bulk drug substances page](https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act), content current as of 05/14/2026). Whatever the committee recommended, the recommendation is advisory and non-binding. FDA's briefing document states it *“does not intend to issue a final determination on the issues at hand until input from the advisory committee process has been considered and all reviews have been finalized”*. The accurate chain is therefore: panel reviewed and voted → FDA determination still pending → 503A compounding not permitted on that basis. A favorable committee vote would not, by itself, make BPC-157 FDA-listed, compoundable, legal, or approved. Researchers in other jurisdictions face different regulatory environments.",
-        "Mechanism. Multiple mechanisms have been proposed across the published preclinical literature, including: promotion of nitric oxide production, modulation of growth hormone receptor expression on tendon fibroblasts, promotion of angiogenesis through Vegf pathway upregulation, modulation of dopamine and serotonin systems, and direct cytoprotective effects on gastrointestinal mucosa.[¹][²] The nitric-oxide arm of this picture has recently gained its first *human tissue* support: in an *ex vivo* study of internal mammary artery rings harvested from 12 patients undergoing coronary bypass surgery, investigators reported concentration-dependent vasorelaxation that was endothelium- and NO-dependent.[¹¹] That is human tissue in a laboratory bath, not a clinical outcome in a living patient — it strengthens the mechanistic plausibility of the NO pathway without saying anything about efficacy. No single mechanism has been established as primary, and the multi-mechanism profile is part of why the compound is studied for a broad range of indications.",
-        "Evidence quality. Most of the published literature is preclinical — primarily rat models of tendon transection, ligament injury, gastric ulcer, and inflammatory bowel disease.[²][³] Human clinical evidence is limited to case reports and small, uncontrolled pilot studies — a 2021 case series on intra-articular BPC-157 for multiple types of knee pain,[⁸] a 2024 uncontrolled pilot in 12 women with interstitial cystitis,[¹⁰] and an intravenous safety/pharmacokinetic pilot described in the review literature — plus the early PL 14736 inflammatory bowel disease development program. A 2026 independent drug-development review characterises the entire human dataset as \"fewer than 30 subjects across three uncontrolled pilot studies,\" with no approved formulation and no completed Phase II trial.[⁹] None of these studies was randomized or controlled; they are pilot- and case-series-grade evidence and should be read as such. Two 2025 independent third-party reviews — one systematic review from a Hospital for Special Surgery group on orthopedic sports medicine applications,[⁶] and one narrative review explicitly framed around the efficacy-vs-risk balance for musculoskeletal healing[⁷] — provide perspective on the evidence base from outside the originating Sikiric research group. Researchers comparing BPC-157 to FDA-approved compounds should be explicit with themselves that the evidence base is fundamentally different in scale and rigor: there is no semaglutide Step-1 equivalent for BPC-157.",
+        "Mechanism. Multiple mechanisms have been proposed across the published preclinical literature, including: promotion of nitric oxide production, modulation of growth hormone receptor expression on tendon fibroblasts, promotion of angiogenesis through VEGF pathway upregulation, modulation of dopamine and serotonin systems, and direct cytoprotective effects on gastrointestinal mucosa.[¹][²] The nitric-oxide arm of this picture has recently gained its first *human tissue* support: in an *ex vivo* study of internal mammary artery rings harvested from 12 patients undergoing coronary bypass surgery, investigators reported concentration-dependent vasorelaxation that was endothelium- and NO-dependent.[¹¹] That is human tissue in a laboratory bath, not a clinical outcome in a living patient — it strengthens the mechanistic plausibility of the NO pathway without saying anything about efficacy. No single mechanism has been established as primary, and the multi-mechanism profile is part of why the compound is studied for a broad range of indications.",
+        "Evidence quality. Most of the published literature is preclinical — primarily rat models of tendon transection, ligament injury, gastric ulcer, and inflammatory bowel disease.[²][³] Human clinical evidence is limited to case reports and small, uncontrolled pilot studies — a 2021 case series on intra-articular BPC-157 for multiple types of knee pain,[⁸] a 2024 uncontrolled pilot in 12 women with interstitial cystitis,[¹⁰] and an intravenous safety/pharmacokinetic pilot described in the review literature — plus the early PL 14736 inflammatory bowel disease development program. A 2026 independent drug-development review characterises the entire human dataset as \"fewer than 30 subjects across three uncontrolled pilot studies,\" with no approved formulation and no completed Phase II trial.[⁹] None of these studies was randomized or controlled; they are pilot- and case-series-grade evidence and should be read as such. Two 2025 independent third-party reviews — one systematic review from a Hospital for Special Surgery group on orthopedic sports medicine applications,[⁶] and one narrative review explicitly framed around the efficacy-vs-risk balance for musculoskeletal healing[⁷] — provide perspective on the evidence base from outside the originating Sikiric research group. Researchers comparing BPC-157 to FDA-approved compounds should be explicit with themselves that the evidence base is fundamentally different in scale and rigor: there is no semaglutide STEP-1 equivalent for BPC-157.",
         "Common research interests. Despite the limited clinical evidence base, BPC-157 is one of the most discussed peptides in the research community, primarily for:\n- Tendon and ligament injury recovery (the largest preclinical evidence base)\n- Gastrointestinal mucosal protection (the original described use)\n- Joint pain and post-injury rehabilitation\n- Adjunct use during periods of high physical stress or rapid body composition change",
         "These uses are based on extrapolation from preclinical data plus accumulated researcher experience. They are not FDA-approved indications, and any researcher exploring them is operating in a context where the published evidence does not yet support strong claims."
       ],
@@ -126,7 +126,7 @@
           }
         ],
         "storageBeforeReconstitution": "Refrigerated 2–8°C, away from light. Lyophilized peptide is generally stable refrigerated; check the specific source's stability sheet.",
-        "storageAfterReconstitution": "Refrigerated 2–8°C. Stability after reconstitution in Bac water is commonly cited at 28–30 days, though no rigorous BPC-157-specific stability study has been published — the 28–30-day figure is an extrapolation from general peptide stability, not a BPC-157-specific number. Discard at the first sign of cloudiness, color change, or particulates.",
+        "storageAfterReconstitution": "Refrigerated 2–8°C. Stability after reconstitution in BAC water is commonly cited at 28–30 days, though no rigorous BPC-157-specific stability study has been published — the 28–30-day figure is an extrapolation from general peptide stability, not a BPC-157-specific number. Discard at the first sign of cloudiness, color change, or particulates.",
         "stabilityNotes": [
           "Avoid freezing once reconstituted.",
           "Avoid vigorous agitation — gentle inversion only."
@@ -161,7 +161,7 @@
           "Mild nausea or stomach discomfort, especially with oral administration",
           "Lightheadedness or transient blood pressure changes (uncommon)",
           "No consistent pattern of serious adverse events in the published preclinical or case-report literature",
-          "Angiogenic activity in the context of malignancy — BPC-157's Vegf-promoting effects raise a theoretical concern about supporting tumor vasculature in researchers with active or undiagnosed malignancy. This concern has not been validated in clinical data but is the most commonly cited theoretical safety issue.",
+          "Angiogenic activity in the context of malignancy — BPC-157's VEGF-promoting effects raise a theoretical concern about supporting tumor vasculature in researchers with active or undiagnosed malignancy. This concern has not been validated in clinical data but is the most commonly cited theoretical safety issue.",
           "Long-term safety in humans is essentially unknown. No multi-year human safety dataset exists."
         ],
         "serious": []
@@ -172,13 +172,13 @@
         "Pediatric use: no data — should not be used in researchers under 18",
         "Active anti-coagulation regimens — no published interaction data; theoretical concern given vascular effects",
         "Concurrent immunosuppressive or chemotherapeutic regimens — no published interaction data",
-        "Regulatory note (US): BPC-157 is not FDA-approved and is not lawfully compoundable under section 503A. It was placed in Category 2 of the 503A bulks list evaluation in September 2023 and removed from Category 2 effective ~April 22, 2026 — a procedural move that does not make it compoundable (it was never in Category 1). The Pcac met on July 23–24, 2026 and voted on it for the 503A Bulks List, with FDA's own briefing document proposing that neither the free base nor the acetate be included. FDA has published no minutes, vote results, or determination from that meeting as of 2026-09-03, and BPC-157 is not on the 503A Bulks List. A committee recommendation is advisory and non-binding, so 503A compounding is still not permitted on that basis. Researchers should confirm the current position and be aware of the regulatory environment in their jurisdiction."
+        "Regulatory note (US): BPC-157 is not FDA-approved and is not lawfully compoundable under section 503A. It was placed in Category 2 of the 503A bulks list evaluation in September 2023 and removed from Category 2 effective ~April 22, 2026 — a procedural move that does not make it compoundable (it was never in Category 1). The PCAC met on July 23–24, 2026 and voted on it for the 503A Bulks List, with FDA's own briefing document proposing that neither the free base nor the acetate be included. FDA has published no minutes, vote results, or determination from that meeting as of 2026-09-03, and BPC-157 is not on the 503A Bulks List. A committee recommendation is advisory and non-binding, so 503A compounding is still not permitted on that basis. Researchers should confirm the current position and be aware of the regulatory environment in their jurisdiction."
       ],
       "firstTimeWalkthrough": [
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency matches what the Vialwise calculator is set to.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder. Pay attention to the unit conversion — BPC-157 is dosed in micrograms, not milligrams. The calculator will handle the conversion; double-check the units field shows \"mcg\" before entering the dose.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is typicallyper day. Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is typically per day. Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower doses (5–12.5 units), even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
         "Inject subcutaneously, ideally at or near the area of intended effect (for tendon/ligament work) or in a standard subcutaneous site such as the abdomen (for general use). Rotate sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies.",
         "Log the dose, the site, and a baseline note (subjective injury status, mood, sleep) immediately after administration. Track over the cycle — BPC-157's effects, if present, are typically gradual rather than acute."
@@ -186,77 +186,77 @@
       "citations": [
         {
           "index": 1,
-          "reference": "Sikiric P, Seiwerth S, Rucman R, Turkovic B, Rokotov DS, Brcic L, Sever M, Klicek R, Radic B, Drmic D, Ilic S, Kolenc D, Vrcic H, Sebecic B. (2011). Stable gastric pentadecapeptide BPC 157: novel therapy in gastrointestinal tract. Current Pharmaceutical Design, 17 (16):1612–1632.",
+          "reference": "Sikiric P, Seiwerth S, Rucman R, Turkovic B, Rokotov DS, Brcic L, Sever M, Klicek R, Radic B, Drmic D, Ilic S, Kolenc D, Vrcic H, Sebecic B. (2011). Stable gastric pentadecapeptide BPC 157: novel therapy in gastrointestinal tract. Current Pharmaceutical Design, 17(16):1612–1632.",
           "primaryUrl": "https://doi.org/10.2174/138161211796196954",
           "identifierLabel": "PMID 21548867",
           "verified": true
         },
         {
           "index": 2,
-          "reference": "Chang CH, Tsai WC, Lin MS, Hsu YH, Pang JH. (2011). The promoting effect of pentadecapeptide BPC 157 on tendon healing involves tendon outgrowth, cell survival, and cell migration. Journal of Applied Physiology (1985), 110 (3):774–780.",
+          "reference": "Chang CH, Tsai WC, Lin MS, Hsu YH, Pang JH. (2011). The promoting effect of pentadecapeptide BPC 157 on tendon healing involves tendon outgrowth, cell survival, and cell migration. Journal of Applied Physiology (1985), 110(3):774–780.",
           "primaryUrl": "https://doi.org/10.1152/japplphysiol.00945.2010",
           "identifierLabel": "PMID 21030672",
           "verified": true
         },
         {
           "index": 3,
-          "reference": "Krivic A, Anic T, Seiwerth S, Huljev D, Sikiric P. (2006). Achilles detachment in rat and stable gastric pentadecapeptide BPC 157: Promoted tendon-to-bone healing and opposed corticosteroid aggravation. Journal of Orthopaedic Research, 24 (5):982–989.",
+          "reference": "Krivic A, Anic T, Seiwerth S, Huljev D, Sikiric P. (2006). Achilles detachment in rat and stable gastric pentadecapeptide BPC 157: Promoted tendon-to-bone healing and opposed corticosteroid aggravation. Journal of Orthopaedic Research, 24(5):982–989.",
           "primaryUrl": "https://doi.org/10.1002/jor.20096",
           "identifierLabel": "PMID 16583442",
           "verified": true
         },
         {
           "index": 4,
-          "reference": "Sikiric P, Hahm KB, Blagaic AB, Tvrdeic A, Pavlov KH, Petrovic A, Kokot A, Gojkovic S, Krezic I, Drmic D, Rucman R, Seiwerth S. (2020). Stable Gastric Pentadecapeptide BPC 157, Robert's Stomach Cytoprotection/Adaptive Cytoprotection/Organoprotection, and Selye's Stress Coping Response: Progress, Achievements, and the Future. Gut and Liver, 14 (2):153–167.",
+          "reference": "Sikiric P, Hahm KB, Blagaic AB, Tvrdeic A, Pavlov KH, Petrovic A, Kokot A, Gojkovic S, Krezic I, Drmic D, Rucman R, Seiwerth S. (2020). Stable Gastric Pentadecapeptide BPC 157, Robert's Stomach Cytoprotection/Adaptive Cytoprotection/Organoprotection, and Selye's Stress Coping Response: Progress, Achievements, and the Future. Gut and Liver, 14(2):153–167.",
           "primaryUrl": "https://doi.org/10.5009/gnl18490",
           "identifierLabel": "PMID 31158953",
           "verified": true
         },
         {
           "index": 5,
-          "reference": "Vukojević J, Siroglavić M, Kašnik K, Kralj T, Stanćić D, Kokot A, Kolarić D, Drmić D, Sever AZ, Barišić I, Šuran J, Bojić D, Patrlj MH, Sjekavica I, Pavlov KH, Vidović T, Vlainić J, Stupnišek M, Seiwerth S, Sikiric P. (2018). Rat inferior caval vein (Icv) ligature and particular new insights with the stable gastric pentadecapeptide BPC 157. Vascular Pharmacology, 106:54–66.",
+          "reference": "Vukojević J, Siroglavić M, Kašnik K, Kralj T, Stanćić D, Kokot A, Kolarić D, Drmić D, Sever AZ, Barišić I, Šuran J, Bojić D, Patrlj MH, Sjekavica I, Pavlov KH, Vidović T, Vlainić J, Stupnišek M, Seiwerth S, Sikiric P. (2018). Rat inferior caval vein (ICV) ligature and particular new insights with the stable gastric pentadecapeptide BPC 157. Vascular Pharmacology, 106:54–66.",
           "primaryUrl": "https://doi.org/10.1016/j.vph.2018.02.010",
           "identifierLabel": "PMID 29510201",
           "verified": true
         },
         {
           "index": 6,
-          "reference": "Vasireddi N, Hahamyan H, Salata MJ, Karns M, Calcei JG, Voos JE, Apostolakos JM. (2025). Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review. Hss Journal, 21 (4):15563316251355551 (online ahead of print, July 31, 2025).",
+          "reference": "Vasireddi N, Hahamyan H, Salata MJ, Karns M, Calcei JG, Voos JE, Apostolakos JM. (2025). Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review. HSS Journal, 21(4):15563316251355551 (online ahead of print, July 31, 2025).",
           "primaryUrl": "https://doi.org/10.1177/15563316251355551",
           "identifierLabel": "PMID 40756949",
           "verified": true
         },
         {
           "index": 7,
-          "reference": "McGuire FP, Martinez R, Lenz A, Skinner L, Cushman DM. (2025). Regeneration or Risk? A Narrative Review of BPC-157 for Musculoskeletal Healing. Current Reviews in Musculoskeletal Medicine, 18 (12):611–619 (online August 12, 2025; print issue December 2025).",
+          "reference": "McGuire FP, Martinez R, Lenz A, Skinner L, Cushman DM. (2025). Regeneration or Risk? A Narrative Review of BPC-157 for Musculoskeletal Healing. Current Reviews in Musculoskeletal Medicine, 18(12):611–619 (online August 12, 2025; print issue December 2025).",
           "primaryUrl": "https://doi.org/10.1007/s12178-025-09990-7",
           "identifierLabel": "PMID 40789979",
           "verified": true
         },
         {
           "index": 8,
-          "reference": "Lee E, Padgett B. (2021). Intra-Articular Injection of BPC 157 for Multiple Types of Knee Pain. Alternative Therapies in Health and Medicine, 27 (4):8–13.",
+          "reference": "Lee E, Padgett B. (2021). Intra-Articular Injection of BPC 157 for Multiple Types of Knee Pain. Alternative Therapies in Health and Medicine, 27(4):8–13.",
           "primaryUrl": "https://pubmed.ncbi.nlm.nih.gov/34324435/",
           "identifierLabel": "PMID 34324435",
           "verified": true
         },
         {
           "index": 9,
-          "reference": "Mateescu D-m, et al. (2026). BPC-157 as an Investigational Peptide Therapeutic: Biopharmaceutical Challenges, Formulation Strategies, and Translational Development Barriers. Pharmaceutics, 18 (5):625.",
+          "reference": "Mateescu D-M, et al. (2026). BPC-157 as an Investigational Peptide Therapeutic: Biopharmaceutical Challenges, Formulation Strategies, and Translational Development Barriers. Pharmaceutics, 18(5):625.",
           "primaryUrl": "https://doi.org/10.3390/pharmaceutics18050625",
           "identifierLabel": "PMID 42198317",
           "verified": true
         },
         {
           "index": 10,
-          "reference": "Lee E, Walker C, Ayadi B. (2024). Effect of BPC-157 on Symptoms in Patients with Interstitial Cystitis: A Pilot Study. Alternative Therapies in Health and Medicine, 30 (10):12–17.",
+          "reference": "Lee E, Walker C, Ayadi B. (2024). Effect of BPC-157 on Symptoms in Patients with Interstitial Cystitis: A Pilot Study. Alternative Therapies in Health and Medicine, 30(10):12–17.",
           "primaryUrl": "https://pubmed.ncbi.nlm.nih.gov/39325560/",
           "identifierLabel": "PMID 39325560",
           "verified": true
         },
         {
           "index": 11,
-          "reference": "Yildirim AK, et al. (2026). Endothelium-Dependent Nitric Oxide-Mediated Vasorelaxant Effects of BPC 157 in Human Internal Mammary Artery. Journal of Clinical Medicine, 15 (9):3488.",
+          "reference": "Yildirim AK, et al. (2026). Endothelium-Dependent Nitric Oxide-Mediated Vasorelaxant Effects of BPC 157 in Human Internal Mammary Artery. Journal of Clinical Medicine, 15(9):3488.",
           "primaryUrl": "https://doi.org/10.3390/jcm15093488",
           "identifierLabel": "PMID 42123221",
           "verified": true
@@ -285,7 +285,7 @@
       "researchAreas": [
         "sleep"
       ],
-      "status": "FDA-approved prescription drug, long established. A synthetic analogue of vasopressin (antidiuretic hormone) used in central diabetes insipidus, bedwetting (nocturnal enuresis), night-time urination in adults (nocturia), and certain bleeding disorders. Approved indications and formulations are set by current labeling, verified against FDA labeling on accessdata.fda.gov and DailyMed, 2026-08-30. Boxed Warning — Hyponatremia. It applies to some formulations and not others. Carries It: the injection (DDAVP injection; Sun generic) — the currently-marketed product that carries it — plus two Discontinued products, Nocdurna sublingual tablets and Noctiva nasal spray. Does Not Carry It: the marketed nasal sprays (0.01%) and the marketed oral tablets. The injection carries it; the marketed nasal sprays and oral tablets do not. WADA status. Desmopressin is Explicitly Named on the 2026 WADA Prohibited List, under S5 (Diuretics and Masking Agents), Prohibited At All Times — in and out of competition. All substances in the S5 class are Specified Substances. Verified verbatim against the 2026 list text, 2026-08-04. Most entries in this library are \"not named but captured by S0 because they are unapproved.\" Desmopressin is the reverse: an approved medicine that is named outright. Anyone in regulated sport must treat this as a prohibited substance and speak to their anti-doping organization before use. Not DEA-scheduled (prescription, non-controlled).",
+      "status": "FDA-approved prescription drug, long established. A synthetic analogue of vasopressin (antidiuretic hormone) used in central diabetes insipidus, bedwetting (nocturnal enuresis), night-time urination in adults (nocturia), and certain bleeding disorders. Approved indications and formulations are set by current labeling, verified against FDA labeling on accessdata.fda.gov and DailyMed, 2026-08-30. Boxed warning — hyponatremia. It applies to some formulations and not others. Carries it: the injection (DDAVP injection; Sun generic) — the currently-marketed product that carries it — plus two discontinued products, Nocdurna sublingual tablets and Noctiva nasal spray. Does not carry it: the marketed nasal sprays (0.01%) and the marketed oral tablets. The injection carries it; the marketed nasal sprays and oral tablets do not. WADA status. Desmopressin is explicitly named on the 2026 WADA Prohibited List, under S5 (Diuretics and Masking Agents), prohibited at all times — in and out of competition. All substances in the S5 class are Specified Substances. Verified verbatim against the 2026 list text, 2026-08-04. Most entries in this library are \"not named but captured by S0 because they are unapproved.\" Desmopressin is the reverse: an approved medicine that is named outright. Anyone in regulated sport must treat this as a prohibited substance and speak to their anti-doping organization before use. Not DEA-scheduled (prescription, non-controlled).",
       "fdaApproved": true,
       "recommendedTimeOfDay": "anytime",
       "lastUpdated": "2026-09-03",
@@ -312,10 +312,10 @@
           },
           {
             "term": "Specified Substance (WADA)",
-            "definition": "A category on the anti-doping list for substances more likely to be taken for genuine medical reasons. It can affect how a case is judged — it does Not mean the substance is permitted."
+            "definition": "A category on the anti-doping list for substances more likely to be taken for genuine medical reasons. It can affect how a case is judged — it does not mean the substance is permitted."
           }
         ],
-        "safetyBasics": "Desmopressin is a prescription drug. Its main risk is low blood sodium (hyponatraemia), and pooled trial data identify dose, older age, lower baseline sodium and reduced kidney function as the drivers — which is why researchers proposed the lowest effective dose plus sodium checks before starting and during treatment. Some desmopressin products carry an FDA Boxed Warning for that same risk — the most serious warning label US regulators issue — and Which Ones Depends On The Formulation. The injection carries it, and so did two products no longer sold (Nocdurna sublingual tablets and Noctiva nasal spray). The nasal sprays and oral tablets sold today do not. The warning says severe hyponatraemia can be life-threatening, leading to seizures, coma, respiratory arrest or death. It is contraindicated in people at increased risk — those drinking excessive fluids, those with an illness causing fluid or electrolyte imbalance, and those taking loop diuretics or systemic or inhaled glucocorticoids. It calls for normal blood sodium before starting or restarting, a check within 7 days and at about one month, then periodically, with more frequent checks from age 65. In sport, this one is different from most of this library: desmopressin is Explicitly Named on the WADA Prohibited List under S5 (Diuretics and Masking Agents) and is prohibited at all times, in and out of competition. Anyone in regulated sport should treat it as prohibited and consult their anti-doping organization. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
+        "safetyBasics": "Desmopressin is a prescription drug. Its main risk is low blood sodium (hyponatraemia), and pooled trial data identify dose, older age, lower baseline sodium and reduced kidney function as the drivers — which is why researchers proposed the lowest effective dose plus sodium checks before starting and during treatment. Some desmopressin products carry an FDA boxed warning for that same risk — the most serious warning label US regulators issue — and which ones depends on the formulation. The injection carries it, and so did two products no longer sold (Nocdurna sublingual tablets and Noctiva nasal spray). The nasal sprays and oral tablets sold today do not. The warning says severe hyponatraemia can be life-threatening, leading to seizures, coma, respiratory arrest or death. It is contraindicated in people at increased risk — those drinking excessive fluids, those with an illness causing fluid or electrolyte imbalance, and those taking loop diuretics or systemic or inhaled glucocorticoids. It calls for normal blood sodium before starting or restarting, a check within 7 days and at about one month, then periodically, with more frequent checks from age 65. In sport, this one is different from most of this library: desmopressin is explicitly named on the WADA Prohibited List under S5 (Diuretics and Masking Agents) and is prohibited at all times, in and out of competition. Anyone in regulated sport should treat it as prohibited and consult their anti-doping organization. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
       },
       "disclosures": [
         "⚠️ This is an approved prescription medicine, not a research peptide. Desmopressin is dispensed by a pharmacy and used under clinical supervision. The reconstitution and self-dosing workflows used elsewhere in this library do not apply. Information here is informational, not medical advice.",
@@ -347,13 +347,13 @@
         "Desmopressin, also written DDAVP (1-deamino-8-D-arginine vasopressin), is a synthetic analogue of vasopressin — the hormone that tells the kidney to reabsorb water. It has been in clinical use for decades and has been marketed under several names including Minirin, Nocdurna and Noctiva — but Nocdurna and Noctiva are both discontinued (see the formulations table below). In the US the products currently listed as marketed in FDA's Drugs@FDA are DDAVP and generic desmopressin acetate; neither Nocdurna nor Noctiva appears there at all.",
         "Mechanism. Vasopressin acts on renal receptors to concentrate urine and conserve water. Desmopressin is modified to retain that antidiuretic action with a longer duration while largely dropping vasopressin's blood-pressure effects. Clinically this means less urine produced over the dosing window — useful when the problem is either too little natural vasopressin (central diabetes insipidus) or too much urine made overnight (nocturnal polyuria, the mechanism behind much nocturia and bedwetting).[¹][³]",
         "Evidence quality. The evidence base is unusual for this library: the drug is old, so there is no single modern pivotal trial to point to. Instead there are many trials across several indications, plus pooled safety analyses. This entry uses three:",
-        "- A pooled analysis of three clinical trials in nocturia examined who develops clinically significant hyponatraemia.[¹] Dose, age, baseline serum sodium and kidney function (eGFR) were significant risk factors in both sexes — the same risk factors that predict hyponatraemia in the general population.[¹] The authors proposed sex-specific minimum effective dosing, lower in women than in men, using the orally disintegrating form plus a monitoring scheme: baseline sodium must be ≥135 mmol/L, with additional checks at week 1 and month 1 for patients at elevated risk because they are aged ≥65 or taking other medications associated with hyponatraemia.[¹] Applying that scheme retrospectively, all patients with clinically significant hyponatraemia would have been screened out, leaving only mild, non-clinically-significant cases.[¹] ⚠️ The authors are employees of Ferring Pharmaceuticals, which markets desmopressin.[¹]\n- A randomized comparison in children with monosymptomatic nocturnal enuresis, 93 patients, assigned to alarm, desmopressin, imipramine, or behavioral therapy alone.[²] Counting full plus partial responders: alarm, imipramine, desmopressin.[²] The authors' conclusion is explicit — alarms were the most effective treatment, superior to both drugs.[²] ⚠️ Small study, and the authors themselves list the sample size and the absence of an end-of-study voiding diary as weaknesses.[²]\n- A randomized trial in 248 men with benign prostatic hyperplasia and nocturia compared tamsulosin alone against tamsulosin plus low-dose desmopressin melt.[³] Night voids fell with the combination versus with tamsulosin alone, and the first uninterrupted sleep period rose from 82.1 to 160.0 minutes on the combination versus 83.2 to 123.8 minutes on tamsulosin alone (p < 0.001).[³] No serious adverse effects were reported in either group over 3 months.[³]",
+        "- A pooled analysis of three clinical trials in nocturia examined who develops clinically significant hyponatraemia.[¹] Dose, age, baseline serum sodium and kidney function (eGFR) were significant risk factors in both sexes — the same risk factors that predict hyponatraemia in the general population.[¹] The authors proposed sex-specific minimum effective dosing, lower in women than in men, using the orally disintegrating form plus a monitoring scheme: baseline sodium must be ≥135 mmol/L, with additional checks at week 1 and month 1 for patients at elevated risk because they are aged ≥65 or taking other medications associated with hyponatraemia.[¹] Applying that scheme retrospectively, all patients with clinically significant hyponatraemia would have been screened out, leaving only mild, non-clinically-significant cases.[¹] ⚠️ The authors are employees of Ferring Pharmaceuticals, which markets desmopressin.[¹]\n- A randomized comparison in children with monosymptomatic nocturnal enuresis, 93 patients, assigned to alarm, desmopressin, imipramine, or behavioral therapy alone.[²] Counting full plus partial responders: alarm 100%, imipramine 73.7%, desmopressin 63.6%.[²] The authors' conclusion is explicit — alarms were the most effective treatment, superior to both drugs.[²] ⚠️ Small study, and the authors themselves list the sample size and the absence of an end-of-study voiding diary as weaknesses.[²]\n- A randomized trial in 248 men with benign prostatic hyperplasia and nocturia compared tamsulosin alone against tamsulosin plus low-dose desmopressin melt.[³] Night voids fell 64.3% with the combination versus 44.6% with tamsulosin alone, and the first uninterrupted sleep period rose from 82.1 to 160.0 minutes on the combination versus 83.2 to 123.8 minutes on tamsulosin alone (p < 0.001).[³] No serious adverse effects were reported in either group over 3 months.[³]",
         "Regulatory status (US). FDA-approved, long established, across multiple formulations and indications. Indications by formulation are set by current labeling — verified against FDA labeling on accessdata.fda.gov and DailyMed, 2026-08-30. Not DEA-scheduled.",
-        "Boxed Warning — Hyponatremia. This is Formulation-specific, not molecule-wide. The FDA's most serious warning applies to some desmopressin products and not others, The injection carries it, as did the two discontinued products; the marketed nasal sprays and oral tablets do not.",
-        "| Formulation | Boxed warning | Market status |\n|---|---|---|\n| Injection (DDAVP; generic, Sun) | YES | Currently marketed — this is the live one |\n| Nocdurna, sublingual tablet | YES | Discontinued |\n| Noctiva, nasal spray | YES | Discontinued |\n| Nasal spray (DDAVP and generic) | No | Marketed |\n| Oral tablets (DDAVP and generic) | No | Marketed |",
+        "Boxed warning — hyponatremia. This is formulation-specific, not molecule-wide. The FDA's most serious warning applies to some desmopressin products and not others. The injection carries it, as did the two discontinued products; the marketed nasal sprays and oral tablets do not.",
+        "| Formulation | Boxed warning | Market status |\n|---|---|---|\n| Injection (DDAVP; generic, Sun) | YES | Currently marketed |\n| Nocdurna, sublingual tablet | YES | Discontinued |\n| Noctiva, nasal spray | YES | Discontinued |\n| Nasal spray (DDAVP and generic) | No | Marketed |\n| Oral tablets (DDAVP and generic) | No | Marketed |",
         "What the warning says. Severe hyponatremia can be life-threatening, leading to seizures, coma, respiratory arrest or death. It is contraindicated in patients at increased risk: excessive fluid intake; illnesses causing fluid or electrolyte imbalance; and concomitant loop diuretics or systemic or inhaled glucocorticoids. It requires normal serum sodium before starting or resuming, then measurement within 7 days and at approximately one month, then periodically — with more frequent monitoring in patients aged 65 and over.",
         "This is the same hyponatraemia risk the pooled trial analysis below characterises;[¹] the boxed warning is the regulatory expression of it on the formulations that carry it, and the trial-derived monitoring scheme sits alongside it rather than replacing it.",
-        "Regulatory status (sport — WADA). Desmopressin is Explicitly Named on the 2026 WADA Prohibited List (checked directly against the list text, 2026-08-04). It appears under S5 — Diuretics and Masking Agents, which is prohibited at all times (in- and out-of-competition), and the section states that all prohibited substances in that class are Specified Substances. In the list, desmopressin is itemised in the same block as intravenous plasma expanders (albumin, dextran, hydroxyethyl starch, mannitol) and probenecid.",
+        "Regulatory status (sport — WADA). Desmopressin is explicitly named on the 2026 WADA Prohibited List (checked directly against the list text, 2026-08-04). It appears under S5 — Diuretics and Masking Agents, which is prohibited at all times (in- and out-of-competition), and the section states that all prohibited substances in that class are Specified Substances. In the list, desmopressin is itemised in the same block as intravenous plasma expanders (albumin, dextran, hydroxyethyl starch, mannitol) and probenecid.",
         "Note also the practical consequence built into that same section: the list specifies that detecting certain threshold-limited substances in conjunction with a diuretic or masking agent is treated differently. Anyone in regulated sport should treat desmopressin as prohibited and consult their National Anti-Doping Organization about therapeutic use exemptions before any use."
       ],
       "reconstitution": {
@@ -362,7 +362,7 @@
         "storageBeforeReconstitution": "Per the dispensed product's labeling — formulations differ."
       },
       "dosingProtocol": {
-        "startingDose": "Formulation- and indication-specific, set by labeling and by the prescriber. Published reference points: the pooled nocturia analysis proposed a minimum effective ODT dose ofin women andin men;[¹] the BPH nocturia trial usedmelt nightly added to tamsulosin;[³] the pediatric enuresis trial usedsublingual nightly.[²] None of these is a recommendation.",
+        "startingDose": "Formulation- and indication-specific, set by labeling and by the prescriber. Published reference points: the pooled nocturia analysis proposed a minimum effective ODT dose of in women and in men;[¹] the BPH nocturia trial used melt nightly added to tamsulosin;[³] the pediatric enuresis trial used sublingual nightly.[²] None of these is a recommendation.",
         "maximumDose": "Not stated here. Dose is itself a hyponatraemia risk factor,[¹] so any ceiling is a clinical decision, not a number to copy from a library entry."
       },
       "stacks": {
@@ -377,7 +377,7 @@
           },
           {
             "partner": "Bedwetting alarm (non-drug)",
-            "rationale": "worth listing precisely because it outperformed desmopressin head-to-head in children (100% vs success).[²] The best-supported option in that trial was not a drug at all."
+            "rationale": "worth listing precisely because it outperformed desmopressin head-to-head in children (100% vs 63.6% success).[²] The best-supported option in that trial was not a drug at all."
           }
         ],
         "contraindicatedCombinations": [
@@ -397,7 +397,7 @@
         "serious": []
       },
       "contraindications": [
-        "Boxed Warning (formulation-specific) — hyponatremia. The injection carries the FDA's most serious warning label; the discontinued Nocdurna and Noctiva products did too. The marketed nasal sprays (0.01%) and oral tablets do not. Severe hyponatremia can be life-threatening — seizures, coma, respiratory arrest or death. Contraindicated with excessive fluid intake, with illnesses causing fluid or electrolyte imbalance, and with concomitant loop diuretics or systemic/inhaled glucocorticoids. Requires normal serum sodium before starting or resuming, a check within 7 days and at ~1 month, then periodically; more frequent monitoring at age 65+.",
+        "Boxed warning (formulation-specific) — hyponatremia. The injection carries the FDA's most serious warning label; the discontinued Nocdurna and Noctiva products did too. The marketed nasal sprays (0.01%) and oral tablets do not. Severe hyponatremia can be life-threatening — seizures, coma, respiratory arrest or death. Contraindicated with excessive fluid intake, with illnesses causing fluid or electrolyte imbalance, and with concomitant loop diuretics or systemic/inhaled glucocorticoids. Requires normal serum sodium before starting or resuming, a check within 7 days and at ~1 month, then periodically; more frequent monitoring at age 65+.",
         "This is a prescription medicine. Use outside a prescribed, clinically supervised context is outside everything the evidence base covers — and for a drug whose main risk is a dangerous electrolyte shift, the monitoring is not optional.",
         "Baseline serum sodium below 135 mmol/L — the pooled analysis proposes this as a threshold that should exclude a patient from starting.[¹]",
         "Age ≥65 — an identified risk factor and a trigger for added sodium monitoring at week 1 and month 1.[¹]",
@@ -405,7 +405,7 @@
         "Concomitant medications associated with hyponatraemia — a trigger for added monitoring.[¹]",
         "Pregnancy and lactation — not addressed by the sources here. Refer to current labeling.",
         "Pediatric use — desmopressin is used in children for enuresis;[²] dosing and suitability are clinical decisions.",
-        "Regulatory note (sport): Explicitly Named on the 2026 WADA Prohibited List, S5 (Diuretics and Masking Agents), prohibited at all times, in and out of competition. A Specified Substance — which affects how a case is judged, not whether it is allowed. Consult your anti-doping organization.",
+        "Regulatory note (sport): Explicitly named on the 2026 WADA Prohibited List, S5 (Diuretics and Masking Agents), prohibited at all times, in and out of competition. A Specified Substance — which affects how a case is judged, not whether it is allowed. Consult your anti-doping organization.",
         "Not DEA-scheduled."
       ],
       "firstTimeWalkthrough": [
@@ -418,21 +418,21 @@
       "citations": [
         {
           "index": 1,
-          "reference": "Juul KV, Malmberg A, van der Meulen E, Walle JV, Nørgaard JP. (2017). Low-dose desmopressin combined with serum sodium monitoring can prevent clinically significant hyponatraemia in patients treated for nocturia. BJU International, 119 (5):776–784.",
+          "reference": "Juul KV, Malmberg A, van der Meulen E, Walle JV, Nørgaard JP. (2017). Low-dose desmopressin combined with serum sodium monitoring can prevent clinically significant hyponatraemia in patients treated for nocturia. BJU International, 119(5):776–784.",
           "primaryUrl": "https://doi.org/10.1111/bju.13718",
           "identifierLabel": "PMID 27862898",
           "verified": true
         },
         {
           "index": 2,
-          "reference": "Mello MF, Locali RF, Araujo RM, Reis JN, Saiovici S, Mello LF, Trigo Rocha FE. (2023). A prospective and randomized study comparing the use of alarms, desmopressin and imipramine in the treatment of monosymptomatic nocturnal enuresis. Journal of Pediatric Urology, 19 (3):241–246.",
+          "reference": "Mello MF, Locali RF, Araujo RM, Reis JN, Saiovici S, Mello LF, Trigo Rocha FE. (2023). A prospective and randomized study comparing the use of alarms, desmopressin and imipramine in the treatment of monosymptomatic nocturnal enuresis. Journal of Pediatric Urology, 19(3):241–246.",
           "primaryUrl": "https://doi.org/10.1016/j.jpurol.2023.01.004",
           "identifierLabel": "PMID 36717289",
           "verified": true
         },
         {
           "index": 3,
-          "reference": "Ahmed AF, Maarouf A, Shalaby E, Gabr AH, Shahin A, Ghobish A. (2015). The impact of adding low-dose oral desmopressin therapy to tamsulosin therapy for treatment of nocturia owing to benign prostatic hyperplasia. World Journal of Urology, 33 (5):649–657.",
+          "reference": "Ahmed AF, Maarouf A, Shalaby E, Gabr AH, Shahin A, Ghobish A. (2015). The impact of adding low-dose oral desmopressin therapy to tamsulosin therapy for treatment of nocturia owing to benign prostatic hyperplasia. World Journal of Urology, 33(5):649–657.",
           "primaryUrl": "https://doi.org/10.1007/s00345-014-1378-2",
           "identifierLabel": "PMID 25138579",
           "verified": true
@@ -462,7 +462,7 @@
       "lastUpdated": "2026-09-03",
       "beginner": {
         "summary": "Retatrutide is a lab-made peptide studied for weight loss and type 2 diabetes — it activates three gut-hormone receptors at once (GLP-1, GIP, and glucagon, a 'triple agonist') to increase fullness, control blood sugar, and raise energy expenditure. It's given as a once-weekly injection under the skin. It's investigational and not FDA-approved; Phase 3 trials have begun reporting results, but no regulatory filing had been made as of July 2026.",
-        "researchFindings": "Retatrutide has been studied as a once-weekly injection for obesity and type 2 diabetes. In a Phase 2 obesity trial it was associated with average weight reductions of up to about at the highest dose over 48 weeks (versus about on placebo), and the Phase 3 TRIUMPH-1 trial reported about at 80 weeks on thedose (topline May 2026, full publication still pending). A separate Phase 3 diabetes trial (Transcend-t2D-1, published in The Lancet in 2026) reported dose-dependent blood-sugar (HbA1c) and weight reductions. Nausea was the most common dose-limiting side effect. The research attributes these weight and blood-sugar changes largely to reduced appetite and food intake (greater satiety via the gut-hormone pathway these agents act on), an appetite and energy-intake mechanism measured across the trials.",
+        "researchFindings": "Retatrutide has been studied as a once-weekly injection for obesity and type 2 diabetes. In a Phase 2 obesity trial it was associated with average weight reductions of up to about 24% at the highest dose over 48 weeks (versus about 2% on placebo), and the Phase 3 TRIUMPH-1 trial reported about 28% at 80 weeks on the dose (topline May 2026, full publication still pending). A separate Phase 3 diabetes trial (TRANSCEND-T2D-1, published in The Lancet in 2026) reported dose-dependent blood-sugar (HbA1c) and weight reductions. Nausea was the most common dose-limiting side effect. The research attributes these weight and blood-sugar changes largely to reduced appetite and food intake (greater satiety via the gut-hormone pathway these agents act on), an appetite and energy-intake mechanism measured across the trials.",
         "evidenceLevel": "Clinical research",
         "keyTerms": [
           {
@@ -486,11 +486,11 @@
             "definition": "Roughly how long the body takes to clear half of a dose. A long half-life is why some compounds can be taken only once a week."
           }
         ],
-        "safetyBasics": "Retatrutide is investigational and not FDA-approved for any indication. It carries a class contraindication related to a personal or family history of medullary thyroid carcinoma. It is not Named on the WADA Prohibited List, but it holds no marketing approval anywhere, and S0 (Non-Approved Substances) prohibits at all times any substance \"with no current approval by any governmental regulatory health authority for human therapeutic use (e.g. drugs under pre-clinical or clinical development)\" — so S0 captures it by default and it is off-limits in drug-tested sport. This is the same correction applied to survodutide on 2026-09-07: the approved GLP-1 drugs are exempt from S0 Because they are approved, and that exemption does not transfer to an investigational member of the family. Verified against the local archive `docs/legal/wada-2026-prohibited-list.txt` (S0 clause plus a full-text search returning no hit for retatrutide). Re-verify when the 2027 list publishes ~September–October 2026. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
+        "safetyBasics": "Retatrutide is investigational and not FDA-approved for any indication. It carries a class contraindication related to a personal or family history of medullary thyroid carcinoma. It is not named on the WADA Prohibited List, but it holds no marketing approval anywhere, and S0 (Non-Approved Substances) prohibits at all times any substance \"with no current approval by any governmental regulatory health authority for human therapeutic use (e.g. drugs under pre-clinical or clinical development)\" — so S0 captures it by default and it is off-limits in drug-tested sport. This is the same correction applied to survodutide on 2026-09-07: the approved GLP-1 drugs are exempt from S0 because they are approved, and that exemption does not transfer to an investigational member of the family. Verified against the local archive `docs/legal/wada-2026-prohibited-list.txt` (S0 clause plus a full-text search returning no hit for retatrutide). Re-verify when the 2027 list publishes ~September–October 2026. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
       },
       "disclosures": [
         "⚠️ For research and educational purposes only. Retatrutide is an investigational compound not approved by the FDA for any indication. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
-        "⚠️ Precision matters at low doses. Small dosing errors that look trivial in absolute terms can be significant in percentage terms when starting doses are small. A one-unit mis-draw at a 5-unit dose is a error; the same one-unit error at a 50-unit dose is only. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting — most acutely at the smallest draws in your titration."
+        "⚠️ Precision matters at low doses. Small dosing errors that look trivial in absolute terms can be significant in percentage terms when starting doses are small. A one-unit mis-draw at a 5-unit dose is a 20% error; the same one-unit error at a 50-unit dose is only 2%. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting — most acutely at the smallest draws in your titration."
       ],
       "quickReference": [
         {
@@ -516,13 +516,13 @@
       ],
       "about": [
         "Retatrutide (development code LY3437943) is a single-molecule triple agonist developed by Eli Lilly that activates the GLP-1, GIP, and glucagon receptors. The triple-receptor mechanism is the key differentiator from earlier-generation incretin therapies: GLP-1 and GIP activation drives glucose-dependent insulin release and reduced appetite, while glucagon receptor activation contributes to increased energy expenditure. The combination has produced the largest weight reductions reported to date in phase 2 incretin trials.[¹]",
-        "The foundational phase 2 obesity results published in 2023 (Jastreboff et al., NEJM; trial NCT04881760, n=338) reported least-squares mean weight reductions, after 48 weeks of subcutaneous weekly dosing, of −8.7%, −17.1%, −22.8%, and −24.2%, compared with −2.1% in the placebo arm.[¹] Liver-fat reductions in the substudy were even larger in magnitude: −81.4% to −82.4% at theanddoses at 24 weeks.[¹]",
-        "The pivotal phase 3 obesity trial, TRIUMPH-1 (NCT05929066, n≈2,335), has since completed, with topline results announced by the manufacturer on May 21, 2026. In the trial, participants on thedose had mean weight reductions of −28.3% at 80 weeks, with a dose response of −17.6%, −23.7%, and −25.0% versus −3.9% on placebo; a 104-week extension reported approximately −30.3%. All dose arms met the primary and key secondary endpoints. Gastrointestinal adverse events at the high dose were reported as nausea, diarrhea, constipation, and vomiting.[⁷] These are manufacturer-announced topline figures — a full peer-reviewed TRIUMPH-1 primary publication was not yet indexed as of July 2026.",
-        "A separate phase 2 trial in adults with type 2 diabetes (Rosenstock et al., Lancet 2023) established the T2D foundation, reporting dose-dependent weight reductions from −3.19% to −16.94% (escalation arm) at 36 weeks, alongside clinically meaningful HbA1c reductions; retatrutide outperformed the active comparator dulaglutide.[⁴]",
-        "The phase 3 T2D monotherapy trial Transcend-t2D-1 (NCT06354660) is peer-reviewed and published (Bajaj et al., The Lancet 2026). Over 40 weeks at, participants in the trial had HbA1c changes of −1.69% / −1.86% / −1.94% versus −0.81% on placebo, and bodyweight changes of −11.5% / −13.9% / −15.3% versus −2.6% on placebo; gastrointestinal adverse events were reported as predominantly mild to moderate.[⁶]",
+        "The foundational phase 2 obesity results published in 2023 (Jastreboff et al., NEJM; trial NCT04881760, n=338) reported least-squares mean weight reductions, after 48 weeks of subcutaneous weekly dosing, of −8.7%, −17.1%, −22.8%, and −24.2%, compared with −2.1% in the placebo arm.[¹] Liver-fat reductions in the substudy were even larger in magnitude: −81.4% to −82.4% at the and doses at 24 weeks.[¹]",
+        "The pivotal phase 3 obesity trial, TRIUMPH-1 (NCT05929066, n≈2,335), has since completed, with topline results announced by the manufacturer on May 21, 2026. In the trial, participants on the dose had mean weight reductions of −28.3% at 80 weeks, with a dose response of −17.6%, −23.7%, and −25.0% versus −3.9% on placebo; a 104-week extension reported approximately −30.3%. All dose arms met the primary and key secondary endpoints. Gastrointestinal adverse events at the high dose were reported as nausea 42.4%, diarrhea 32.0%, constipation 26.1%, and vomiting 25.3%.[⁷] These are manufacturer-announced topline figures — a full peer-reviewed TRIUMPH-1 primary publication was not yet indexed as of July 2026.",
+        "A separate phase 2 trial in adults with type 2 diabetes (Rosenstock et al., Lancet 2023) established the T2D foundation, reporting dose-dependent weight reductions from −3.19% to −16.94% ( escalation arm) at 36 weeks, alongside clinically meaningful HbA1c reductions; retatrutide outperformed the active comparator dulaglutide.[⁴]",
+        "The phase 3 T2D monotherapy trial TRANSCEND-T2D-1 (NCT06354660) is peer-reviewed and published (Bajaj et al., The Lancet 2026). Over 40 weeks at three ascending dose levels, participants in the trial had HbA1c changes of −1.69% / −1.86% / −1.94% versus −0.81% on placebo, and bodyweight changes of −11.5% / −13.9% / −15.3% versus −2.6% on placebo; gastrointestinal adverse events were reported as predominantly mild to moderate.[⁶]",
         "The broader phase 3 TRIUMPH program also includes a cardiovascular outcomes trial, TRIUMPH-outcomes (NCT06383390, n≈10,000), which remains active with completion expected in 2029.[⁷] Retatrutide remained investigational as of July 2026, with no FDA new drug application filed.",
         "Mechanistically, retatrutide is a 39-amino-acid single peptide engineered from a GIP-peptide backbone, conjugated to a C20 fatty di-acid moiety for albumin binding (the source of its ~6-day half-life). Receptor-potency profile: approximately 2.5x lower than native hormone at GLP-1, 8.9x higher than native at GIP, and 2.9x lower than native at glucagon receptor.[⁵]",
-        "A 2025 body-composition substudy reported that approximately of total weight loss on retatrutide came from lean mass — comparable to other incretin therapies (the 20-40% range observed across the GLP-1 class), but with a larger absolute lean mass change because total weight loss is greater.[²] This finding is the citable basis for the stacking rationale of Gh-preserving peptides during retatrutide cycles."
+        "A 2025 body-composition substudy reported that approximately 38% of total weight loss on retatrutide came from lean mass — comparable to other incretin therapies (the 20-40% range observed across the GLP-1 class), but with a larger absolute lean mass change because total weight loss is greater.[²] This finding is the citable basis for the stacking rationale of GH-preserving peptides during retatrutide cycles."
       ],
       "reconstitution": {
         "diluent": "Bacteriostatic water (most common). Sterile saline acceptable in some compounding contexts.",
@@ -559,7 +559,7 @@
           }
         ],
         "storageBeforeReconstitution": "Refrigerated 2–8°C, away from light. Lyophilized peptide is generally stable refrigerated; check the specific source's stability sheet.",
-        "storageAfterReconstitution": "Refrigerated 2–8°C. Stability after reconstitution is generally cited at 28 days for incretin peptides reconstituted in Bac water, though source-specific guidance varies.",
+        "storageAfterReconstitution": "Refrigerated 2–8°C. Stability after reconstitution is generally cited at 28 days for incretin peptides reconstituted in BAC water, though source-specific guidance varies.",
         "stabilityNotes": [
           "Avoid freezing once reconstituted.",
           "Avoid vigorous agitation — gentle inversion only.",
@@ -588,9 +588,9 @@
         ],
         "maximumDose": "weekly.",
         "notes": [
-          "The schedule above is the *phase 2* titration. The phase 3 program used different target doses —, andweekly in both TRIUMPH-1 (obesity)[⁷] and Transcend-t2D-1 (type 2 diabetes)[⁶], each reached via its own protocol-specified escalation. Thestep above does not appear as a phase 3 target dose.",
-          "The Rosenstock 2023 T2D phase 2 trial used astarting dose (lower than the obesity trial'sstarting dose), so the 0.5–range is fully trial-validated when both phase 2 programs are considered together.[⁴]",
-          "Sub-starting doses (e.g.weekly) and twice-weekly split-dose protocols are reported in researcher communities but are not validated in published trials. These should be presented to users as observational, not recommended."
+          "The schedule above is the *phase 2* titration. The phase 3 program used different target doses —, and weekly in both TRIUMPH-1 (obesity)[⁷] and TRANSCEND-T2D-1 (type 2 diabetes)[⁶], each reached via its own protocol-specified escalation. The step above does not appear as a phase 3 target dose.",
+          "The Rosenstock 2023 T2D phase 2 trial used a starting dose (lower than the obesity trial's starting dose), so the 0.5– range is fully trial-validated when both phase 2 programs are considered together.[⁴]",
+          "Sub- starting doses (e.g. weekly) and twice-weekly split-dose protocols are reported in researcher communities but are not validated in published trials. These should be presented to users as observational, not recommended."
         ]
       },
       "stacks": {
@@ -628,7 +628,7 @@
         ]
       },
       "contraindications": [
-        "Personal or family history of medullary thyroid carcinoma (Mtc) or Men2 — class contraindication for incretin therapies",
+        "Personal or family history of medullary thyroid carcinoma (MTC) or MEN2 — class contraindication for incretin therapies",
         "History of pancreatitis",
         "Severe gastrointestinal disease (gastroparesis especially)",
         "Concurrent use of other GLP-1 / GIP / glucagon agonists",
@@ -646,55 +646,55 @@
       "citations": [
         {
           "index": 1,
-          "reference": "Jastreboff AM, Kaplan LM, Frías JP, Wu Q, Du Y, Gurbuz S, Coskun T, Haupt A, Milicevic Z, Hartman ML, for the Retatrutide Phase 2 Obesity Trial Investigators. (2023). Triple-Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial. New England Journal of Medicine, 389 (6):514–526.",
+          "reference": "Jastreboff AM, Kaplan LM, Frías JP, Wu Q, Du Y, Gurbuz S, Coskun T, Haupt A, Milicevic Z, Hartman ML, for the Retatrutide Phase 2 Obesity Trial Investigators. (2023). Triple-Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial. New England Journal of Medicine, 389(6):514–526.",
           "primaryUrl": "https://doi.org/10.1056/NEJMoa2301972",
           "identifierLabel": "PMID 37366315 · NCT04881760",
           "verified": true
         },
         {
           "index": 2,
-          "reference": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial. (2025). The Lancet Diabetes & Endocrinology, 13 (8):674–684.",
-          "primaryUrl": "https://doi.org/10.1016/S2213-8587 (25)00092-0",
+          "reference": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial. (2025). The Lancet Diabetes & Endocrinology, 13(8):674–684.",
+          "primaryUrl": "https://doi.org/10.1016/S2213-8587(25)00092-0",
           "identifierLabel": "PMID 40609566 · NCT04867785",
           "verified": true
         },
         {
           "index": 3,
-          "reference": "Eli Lilly and Company press release (2023). Lilly's phase 2 retatrutide results published in The New England Journal of Medicine show the investigational molecule achieved up to mean weight reduction at 24 weeks in adults with obesity and overweight. investor.lilly.com. Manufacturer source for the-at-24-weeks figure.",
+          "reference": "Eli Lilly and Company press release (2023). Lilly's phase 2 retatrutide results published in The New England Journal of Medicine show the investigational molecule achieved up to 17.5% mean weight reduction at 24 weeks in adults with obesity and overweight. investor.lilly.com. Manufacturer source for the 17.5%-at-24-weeks figure.",
           "primaryUrl": "https://investor.lilly.com/news-releases/news-release-details/lillys-phase-2-retatrutide-results-published-new-england-journal",
           "verified": true
         },
         {
           "index": 4,
-          "reference": "Rosenstock J, Frias JP, Jastreboff AM, et al. (2023). Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group, phase 2 trial conducted in the USA. The Lancet, 402 (10401):529–544.",
-          "primaryUrl": "https://doi.org/10.1016/S0140-6736 (23)01053-X",
+          "reference": "Rosenstock J, Frias JP, Jastreboff AM, et al. (2023). Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group, phase 2 trial conducted in the USA. The Lancet, 402(10401):529–544.",
+          "primaryUrl": "https://doi.org/10.1016/S0140-6736(23)01053-X",
           "identifierLabel": "PMID 37385280 · NCT04867785",
           "verified": true
         },
         {
           "index": 5,
-          "reference": "Triple Agonism Based Therapies for Obesity. (2025). Current Cardiovascular Risk Reports, 19 (1):18.",
+          "reference": "Triple Agonism Based Therapies for Obesity. (2025). Current Cardiovascular Risk Reports, 19(1):18.",
           "primaryUrl": "https://doi.org/10.1007/s12170-025-00770-z",
           "identifierLabel": "PMID 40741227",
           "verified": true
         },
         {
           "index": 6,
-          "reference": "Bajaj HS, et al. (2026). Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (Transcend-t2D-1): a double-blind, randomised, phase 3 trial. The Lancet, 407 (10546):2402–2413.",
-          "primaryUrl": "https://doi.org/10.1016/S0140-6736 (26)00967-0",
+          "reference": "Bajaj HS, et al. (2026). Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in people with type 2 diabetes and inadequate glycaemic control with diet and exercise (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial. The Lancet, 407(10546):2402–2413.",
+          "primaryUrl": "https://doi.org/10.1016/S0140-6736(26)00967-0",
           "identifierLabel": "PMID 42250575 · NCT06354660",
           "verified": true
         },
         {
           "index": 7,
-          "reference": "Eli Lilly and Company press release (May 21, 2026). TRIUMPH-1 phase 3 topline results: retatrutideassociated with mean weight reduction at 80 weeks in adults with obesity. investor.lilly.com.",
+          "reference": "Eli Lilly and Company press release (May 21, 2026). TRIUMPH-1 phase 3 topline results: retatrutide associated with 28.3% mean weight reduction at 80 weeks in adults with obesity. investor.lilly.com.",
           "primaryUrl": "https://investor.lilly.com/news-releases",
           "identifierLabel": "NCT05929066",
           "verified": true
         },
         {
           "index": 8,
-          "reference": "Panou T, et al. (2026). Retatrutide in type 2 diabetes mellitus and obesity: an overview. Expert Review of Clinical Pharmacology, 19 (4):313–339.",
+          "reference": "Panou T, et al. (2026). Retatrutide in type 2 diabetes mellitus and obesity: an overview. Expert Review of Clinical Pharmacology, 19(4):313–339.",
           "primaryUrl": "https://doi.org/10.1080/17512433.2026.2642415",
           "identifierLabel": "PMID 41785010",
           "verified": true
