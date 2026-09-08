@@ -5889,9 +5889,19 @@
             "reason": "both carry a boxed warning"
           },
           {
+            "slug": "abaloparatide",
+            "name": "Abaloparatide",
+            "reason": "both are prescription medicines"
+          },
+          {
             "slug": "dulaglutide",
             "name": "Dulaglutide",
             "reason": "both carry a boxed warning"
+          },
+          {
+            "slug": "afamelanotide",
+            "name": "Afamelanotide",
+            "reason": "both are prescription medicines"
           },
           {
             "slug": "exenatide",
@@ -5899,19 +5909,9 @@
             "reason": "both carry a boxed warning"
           },
           {
-            "slug": "liraglutide",
-            "name": "Liraglutide",
-            "reason": "both carry a boxed warning"
-          },
-          {
-            "slug": "orforglipron",
-            "name": "Orforglipron",
-            "reason": "both carry a boxed warning"
-          },
-          {
-            "slug": "pramlintide",
-            "name": "Pramlintide",
-            "reason": "both carry a boxed warning"
+            "slug": "anastrozole",
+            "name": "Anastrozole",
+            "reason": "both are prescription medicines"
           }
         ]
       }
