@@ -112,7 +112,12 @@ export function appStoreUrl(source: string): string {
  * and `referrer` pair separately and leave the inner `&` splitting the URL.
  */
 export function googlePlayUrl(source: string): string {
-  const referrer = `utm_source=${source}&utm_medium=social`;
+  // `utm_campaign` was missing until 2026-09-07, so Play Console could not break
+  // these installs down by campaign the way App Store Connect could via `ct` —
+  // the iOS and Android halves of the same link disagreed about what they were
+  // measuring. The source doubles as the campaign, matching the pairs in
+  // docs/marketing/campaign-links.md.
+  const referrer = `utm_source=${source}&utm_medium=social&utm_campaign=${source}`;
   return `https://play.google.com/store/apps/details?id=${ANDROID_PACKAGE}&referrer=${encodeURIComponent(
     referrer,
   )}`;

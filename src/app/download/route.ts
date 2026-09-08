@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
+import { appStoreUrl, googlePlayUrl } from "@/lib/storeLinks";
 
 /**
  * /download — permanent device-aware smart redirect.
@@ -22,9 +23,15 @@ import { NextResponse, type NextRequest } from "next/server";
  * the intended graceful fallback, not a bug.
  */
 
-const APP_STORE_URL = "https://apps.apple.com/app/id6774017323";
-const GOOGLE_PLAY_URL =
-  "https://play.google.com/store/apps/details?id=com.vialwise.app";
+// Tagged as `website` (Andrew, 2026-09-07). These were BARE store URLs, so every
+// QR scan that reached a store arrived indistinguishable from organic App Store
+// Search — the same defect as the site's download buttons.
+//
+// ⚠️ CONSEQUENCE, recorded rather than hidden: offline QR scans now count inside
+// `website` and are not separable from ordinary site traffic. Splitting them out
+// needs its own token; see the note in docs/marketing/campaign-links.md.
+const APP_STORE_URL = appStoreUrl("website");
+const GOOGLE_PLAY_URL = googlePlayUrl("website");
 const HOME_URL = "https://www.getvialwise.com/";
 
 const IOS_RE = /iPhone|iPad|iPod/i;
@@ -41,7 +48,12 @@ export function GET(request: NextRequest): NextResponse {
   const destination = new URL(destinationFor(userAgent));
 
   // Forward incoming query params (append, so the Play URL's own ?id= is kept).
+  // Attribution keys are NOT forwarded: the destination already carries its own
+  // pt/ct/referrer, and appending an inbound copy would put two `ct` values on
+  // one URL and make the campaign ambiguous at exactly the moment it is read.
+  const RESERVED = new Set(["pt", "ct", "mt", "referrer"]);
   request.nextUrl.searchParams.forEach((value, key) => {
+    if (RESERVED.has(key)) return;
     destination.searchParams.append(key, value);
   });
 
