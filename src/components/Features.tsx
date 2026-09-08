@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Features() {
   return (
     <section id="features" className="mx-auto max-w-6xl px-6 py-24 md:px-10 md:py-32">
@@ -28,6 +30,7 @@ export function Features() {
           body="90+ peptide entries with primary-source citations — PubMed DOIs, ClinicalTrials.gov NCTs, FDA labels. Reconstitution tables are calculator-rendered, never hand-typed. Open the reconstitution calculator straight from the library to run the math yourself."
           icon={<LibraryIcon />}
           accent="forest"
+          link={{ href: "/library", label: "Browse the peptide library" }}
         />
         <FeatureCard
           eyebrow="03"
@@ -47,12 +50,16 @@ function FeatureCard({
   body,
   icon,
   accent,
+  link,
 }: {
   eyebrow: string;
   title: string;
   body: string;
   icon: React.ReactNode;
   accent: "amber" | "forest";
+  /** Optional in-body link. Anchor text describes the destination — a crawler
+      and a screen reader both get the subject from the text, not the context. */
+  link?: { href: string; label: string };
 }) {
   const accentRing = accent === "amber" ? "ring-amber-dark/20" : "ring-forest/20";
   const accentBg = accent === "amber" ? "bg-amber-dark/[0.06]" : "bg-forest/[0.06]";
@@ -73,6 +80,14 @@ function FeatureCard({
         {title}
       </h3>
       <p className="mt-3 text-[15px] leading-relaxed text-graphite">{body}</p>
+      {link ? (
+        <Link
+          href={link.href}
+          className={`mt-4 inline-flex w-fit text-[15px] font-medium ${accentText} underline underline-offset-4 transition hover:opacity-80`}
+        >
+          {link.label}
+        </Link>
+      ) : null}
     </article>
   );
 }

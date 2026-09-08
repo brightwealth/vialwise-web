@@ -42,9 +42,13 @@ export default function LibraryIndexPage() {
                 href={`/library/${e.slug}`}
                 className="block rounded-lg border border-espresso/10 p-5 no-underline transition-colors hover:border-amber-deep/40 hover:bg-cream/40"
               >
-                <span className="block text-[19px] font-medium text-espresso">
+                {/* h2, not span: the index lists 92 compounds and rendered
+                    every one as a span, leaving the page h1:1 / h2:0. The
+                    compound name IS the heading of its card. Same classes —
+                    this is a semantics change, not a restyle. */}
+                <h2 className="block text-[19px] font-medium text-espresso">
                   {e.name}
-                </span>
+                </h2>
                 <span className="mt-1 block text-[14px] text-amber-deep">
                   {e.category}
                 </span>

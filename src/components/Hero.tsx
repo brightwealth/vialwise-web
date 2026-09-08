@@ -48,7 +48,7 @@ export function Hero() {
           {/* Tertiary — feature breakdown, without leaving the page. */}
           <p className="-mt-3">
             <Link
-              href="#features"
+              href="/#features"
               className="text-[14px] font-medium text-forest underline-offset-4 hover:underline"
             >
               See what it does →

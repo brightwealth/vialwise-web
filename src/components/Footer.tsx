@@ -24,8 +24,11 @@ export function Footer({ campaign = "website" }: { campaign?: Campaign } = {}) {
           <FooterColumn
             title="Product"
             links={[
-              { label: "Features", href: "#features" },
-              { label: "Pricing", href: "#pricing" },
+              { label: "Peptide library", href: "/library" },
+              // Root-relative: these anchors only exist on the homepage, and the
+              // footer renders on every page including all 92 library entries.
+              { label: "Features", href: "/#features" },
+              { label: "Pricing", href: "/#pricing" },
             ]}
           />
           <div className="flex flex-col gap-3">

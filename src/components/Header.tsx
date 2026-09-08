@@ -29,14 +29,26 @@ export function Header({ campaign = "website" }: { campaign?: Campaign } = {}) {
           >
             Calculator
           </Link>
+          {/* The library is 92 indexable pages and was reachable from NOTHING on
+              the site — Search Console showed "Referring page: None detected".
+              This nav is shared, so one entry here un-orphans every one of them. */}
           <Link
-            href="#features"
+            href="/library"
+            className="text-[14px] text-graphite transition hover:text-espresso"
+          >
+            Library
+          </Link>
+          {/* Root-relative, NOT bare "#features": these targets exist only on the
+              homepage, so a bare hash was a dead link on /library and on all 92
+              detail pages. */}
+          <Link
+            href="/#features"
             className="text-[14px] text-graphite transition hover:text-espresso"
           >
             Features
           </Link>
           <Link
-            href="#pricing"
+            href="/#pricing"
             className="text-[14px] text-graphite transition hover:text-espresso"
           >
             Pricing
