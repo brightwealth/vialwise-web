@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { StoreBadges } from "@/components/StoreBadges";
+import { appStoreUrl } from "@/lib/storeLinks";
 import { ReconstitutionCalculator } from "@/components/calculator/ReconstitutionCalculator";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -229,7 +230,7 @@ export default function CalculatorPage() {
                 You can read more{" "}
                 <Link href="/about">about why it exists</Link>, or{" "}
                 <a
-                  href="https://apps.apple.com/app/id6774017323"
+                  href={appStoreUrl("website")}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

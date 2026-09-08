@@ -3,8 +3,9 @@ import { Wordmark } from "./Wordmark";
 import { VMark } from "./AppIcon";
 import { CookiePreferencesLink } from "./CookiePreferencesLink";
 import { StoreBadges } from "./StoreBadges";
+import type { Campaign } from "@/lib/storeLinks";
 
-export function Footer() {
+export function Footer({ campaign = "website" }: { campaign?: Campaign } = {}) {
   return (
     <footer className="border-t border-espresso/[0.08] bg-cream/30">
       <div className="mx-auto max-w-6xl px-6 py-14 md:px-10 md:py-16">
@@ -17,7 +18,7 @@ export function Footer() {
             <p className="max-w-xs text-[14px] leading-relaxed text-graphite">
               The honest peptide app. Built by someone who actually runs peptides.
             </p>
-            <StoreBadges height={44} className="mt-1" />
+            <StoreBadges height={44} className="mt-1" campaign={campaign} />
           </div>
 
           <FooterColumn

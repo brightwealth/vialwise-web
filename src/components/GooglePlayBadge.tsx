@@ -14,8 +14,7 @@
  * as a pair at a shared height — see StoreBadges.
  */
 
-const GOOGLE_PLAY_URL =
-  "https://play.google.com/store/apps/details?id=com.vialwise.app";
+import { googlePlayUrl, type Campaign } from "@/lib/storeLinks";
 
 // Trimmed official badge artwork aspect ratio (564 x 168 after clear-space trim).
 const BADGE_RATIO = 564 / 168;
@@ -24,15 +23,25 @@ interface GooglePlayBadgeProps {
   /** Rendered height in px; defaults to 48 to match AppStoreBadge. */
   height?: number;
   className?: string;
+  /**
+   * Campaign token for install attribution. Defaults to "website" — the
+   * site's own download buttons. /library pages pass "web-library" so the two
+   * stay separable in App Store Connect.
+   */
+  campaign?: Campaign;
 }
 
-export function GooglePlayBadge({ height = 48, className }: GooglePlayBadgeProps) {
+export function GooglePlayBadge({
+  height = 48,
+  className,
+  campaign = "website",
+}: GooglePlayBadgeProps) {
   const h = height;
   const width = Math.round(h * BADGE_RATIO);
 
   return (
     <a
-      href={GOOGLE_PLAY_URL}
+      href={googlePlayUrl(campaign)}
       target="_blank"
       rel="noopener"
       aria-label="Get it on Google Play"

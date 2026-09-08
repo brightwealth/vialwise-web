@@ -12,12 +12,7 @@
  * it, so expect a blank Campaigns page before the traffic exists — that is
  * suppression, not zero.
  */
-const APP_STORE_URL =
-  "https://apps.apple.com/app/apple-store/id6774017323?pt=128963457&ct=web-library&mt=8";
-
-const GOOGLE_PLAY_URL =
-  "https://play.google.com/store/apps/details?id=com.vialwise.app" +
-  "&referrer=utm_source%3Dgetvialwise%26utm_medium%3Dreferral%26utm_campaign%3Dweb-library";
+import { appStoreUrl, googlePlayUrl } from "@/lib/storeLinks";
 
 export function LibraryStoreCta({ peptideName }: { peptideName: string }) {
   return (
@@ -28,13 +23,13 @@ export function LibraryStoreCta({ peptideName }: { peptideName: string }) {
       </p>
       <div className="mt-4 flex flex-wrap gap-3">
         <a
-          href={APP_STORE_URL}
+          href={appStoreUrl("web-library")}
           className="rounded-md bg-espresso px-4 py-2 text-[14px] font-medium text-bone no-underline transition-colors hover:bg-amber-deep"
         >
           Download on the App Store
         </a>
         <a
-          href={GOOGLE_PLAY_URL}
+          href={googlePlayUrl("web-library")}
           className="rounded-md border border-espresso/20 px-4 py-2 text-[14px] font-medium text-espresso no-underline transition-colors hover:border-amber-deep hover:text-amber-deep"
         >
           Get it on Google Play

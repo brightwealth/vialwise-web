@@ -18,7 +18,7 @@
  *    clear space of 1/10 the badge height for every placement here.
  */
 
-const APP_STORE_URL = "https://apps.apple.com/app/id6774017323";
+import { appStoreUrl, type Campaign } from "@/lib/storeLinks";
 
 /** Build-time launch flag. OFF unless NEXT_PUBLIC_APP_LIVE is "true" or "1". */
 export const APP_LIVE =
@@ -32,15 +32,25 @@ interface AppStoreBadgeProps {
   /** Rendered height in px. Apple minimum is 40; defaults to 48. */
   height?: number;
   className?: string;
+  /**
+   * Campaign token for install attribution. Defaults to "website" — the
+   * site's own download buttons. /library pages pass "web-library" so the two
+   * stay separable in App Store Connect.
+   */
+  campaign?: Campaign;
 }
 
-export function AppStoreBadge({ height = 48, className }: AppStoreBadgeProps) {
+export function AppStoreBadge({
+  height = 48,
+  className,
+  campaign = "website",
+}: AppStoreBadgeProps) {
   const h = Math.max(40, height); // never below Apple's 40px minimum
   const width = Math.round(h * BADGE_RATIO);
 
   return (
     <a
-      href={APP_STORE_URL}
+      href={appStoreUrl(campaign)}
       target="_blank"
       rel="noopener"
       aria-label="Download Vialwise on the App Store"

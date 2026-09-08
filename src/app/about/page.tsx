@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { PageShell } from "@/components/PageShell";
 import { pageMetadata } from "@/lib/metadata";
+import { appStoreUrl } from "@/lib/storeLinks";
 
 export const metadata: Metadata = {
   title: {
@@ -60,7 +61,7 @@ export default function AboutPage() {
       <p>
         The fastest way is to{" "}
         <a
-          href="https://apps.apple.com/app/id6774017323"
+          href={appStoreUrl("website")}
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -1,5 +1,7 @@
 "use client";
 
+import { googlePlayUrl } from "@/lib/storeLinks";
+
 type FaqItem = {
   q: string;
   a: string;
@@ -39,7 +41,7 @@ const FAQS: FaqItem[] = [
     q: "Is VialWise on Android?",
     a: "Yes. VialWise is now available on Google Play, and on the App Store for iPhone. Because the app is built on React Native, both platforms run the same calculator and cited library.",
     link: {
-      href: "https://play.google.com/store/apps/details?id=com.vialwise.app",
+      href: googlePlayUrl("website"),
       label: "Get it on Google Play",
     },
   },

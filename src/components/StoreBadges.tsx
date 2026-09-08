@@ -10,19 +10,27 @@
 import { AppStoreBadge } from "./AppStoreBadge";
 import { GooglePlayBadge } from "./GooglePlayBadge";
 
+import type { Campaign } from "@/lib/storeLinks";
+
 interface StoreBadgesProps {
   /** Shared rendered height in px for both badges; defaults to 48. */
   height?: number;
   className?: string;
+  /** Install-attribution campaign token; defaults to "website". */
+  campaign?: Campaign;
 }
 
-export function StoreBadges({ height = 48, className }: StoreBadgesProps) {
+export function StoreBadges({
+  height = 48,
+  className,
+  campaign = "website",
+}: StoreBadgesProps) {
   return (
     <div
       className={`flex flex-wrap items-center gap-3${className ? ` ${className}` : ""}`}
     >
-      <AppStoreBadge height={height} />
-      <GooglePlayBadge height={height} />
+      <AppStoreBadge height={height} campaign={campaign} />
+      <GooglePlayBadge height={height} campaign={campaign} />
     </div>
   );
 }

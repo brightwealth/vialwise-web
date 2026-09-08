@@ -16,10 +16,12 @@ export default function LibraryLayout({
 }) {
   return (
     <>
-      <Header />
+      {/* Every store link on a /library page reports as web-library,
+          chrome included — see the Campaign note in Header.tsx. */}
+      <Header campaign="web-library" />
       <ResearchDisclaimer />
       <main className="flex flex-1 flex-col">{children}</main>
-      <Footer />
+      <Footer campaign="web-library" />
     </>
   );
 }
