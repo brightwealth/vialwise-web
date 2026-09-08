@@ -2,11 +2,12 @@
   "generatedBy": "scripts/build-library-web.mjs",
   "source": "src/library/peptides/*.ts (generated from content/peptides/*.md by scripts/build-library.mjs)",
   "doNotEdit": "DERIVED FILE. Editing it makes the website disagree with the app. Edit content/peptides/<slug>.md, re-run build-library.mjs, then re-run build-library-web.mjs.",
-  "entryCount": 92,
+  "entryCount": 97,
   "totalInLibrary": 97,
   "slateGate": [
     "info  abaloparatide: 2 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  ace-031: no [VERIFY] markers at all",
+    "info  adamax: 13 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  adipotide: no [VERIFY] markers at all",
     "info  afamelanotide: no [VERIFY] markers at all",
     "info  ahk-cu: no [VERIFY] markers at all",
@@ -30,6 +31,7 @@
     "info  cortagen: no [VERIFY] markers at all",
     "info  crystagen: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  desmopressin: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
+    "info  dsip: 5 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  dulaglutide: no [VERIFY] markers at all",
     "info  epitalon: 4 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  exemestane: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
@@ -51,6 +53,7 @@
     "info  ipamorelin: 2 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  kisspeptin: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  klow: 5 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
+    "info  kpv: 18 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  letrozole: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  linaclotide: 2 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  liraglutide: 2 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
@@ -63,6 +66,7 @@
     "info  mk-677: 2 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  mots-c: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  nad: 5 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
+    "info  octreotide: 3 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  orforglipron: no [VERIFY] markers at all",
     "info  ovagen: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  oxytocin: no [VERIFY] markers at all",
@@ -79,6 +83,7 @@
     "info  semaglutide: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  semax: 4 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  sermorelin: 3 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
+    "info  setmelanotide: 2 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  slu-pp-332: no [VERIFY] markers at all",
     "info  snap-8: no [VERIFY] markers at all",
     "info  ss-31: 3 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
@@ -97,7 +102,7 @@
     "info  vesugen: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  vilon: no [VERIFY] markers at all",
     "info  vip: no [VERIFY] markers at all",
-    "92 checked · 0 blocking · 92 informational"
+    "97 checked · 0 blocking · 97 informational"
   ],
   "entries": [
     {
@@ -464,6 +469,253 @@
             "slug": "igf-1-lr3",
             "name": "IGF-1 LR3",
             "reason": "shared research area"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "adamax",
+      "name": "Adamax",
+      "aliases": [
+        "Adamax peptide",
+        "adamantyl Semax analog",
+        "N-acetyl Semax analog (vendor term)",
+        "Ac-MEHFPGPAG-NH2 (vendor-claimed sequence)"
+      ],
+      "category": "Semax-family neuropeptide analog",
+      "mechanismClass": "Neuro & cognitive peptide",
+      "status": "Not FDA-approved for any indication and never submitted to FDA; sold only as a research chemical (\"not for human consumption\"). Not registered as a pharmaceutical drug in any jurisdiction (unlike Semax, which is registered in Russia). Not a DEA-controlled substance — no entry in the DEA *Lists of Scheduling Actions, Controlled Substances, Regulated Chemicals* (August 2026 revision), checked 2026-09-08.[⁶] Prohibited in drug-tested sport at all times, under WADA S0. Adamax is not named on the 2026 WADA Prohibited List (verified by text search, 2026-09-08), but not-named is not permitted: S0 catches any substance with no current approval for human therapeutic use from any governmental health authority, which describes Adamax. A later section does not displace S0 either — the only corticotropic entry, S2.2.2, names corticorelin and tetracosactide, both of which act on the adrenal axis, and an ACTH(4-10) fragment of the Semax family does not. Competitors should treat Adamax as prohibited and consult their National Anti-Doping Organization. Available only through research-peptide suppliers; identity and purity are not independently established. Distinct from Cortagen (Ala-Glu-Asp-Pro / AEDP) — do not confuse the two.",
+      "recommendedTimeOfDay": "morning",
+      "lastUpdated": "2026-09-03",
+      "beginner": {
+        "summary": "Adamax is marketed in the research-peptide world as a nootropic, claimed to sharpen focus and mental clarity, the same claims sold for Semax, the Russian peptide it's built from. Vendors describe it as Semax with two add-ons, an acetyl cap and a bulky 'adamantane' group, meant to help it last longer and reach the brain more easily. It isn't approved as a medicine anywhere, and no published study has ever tested a peptide called Adamax, so nearly every claim about it is carried over from Semax rather than proven on Adamax itself.",
+        "researchFindings": "Adamax is marketed as a Semax-like nootropic — described as raising BDNF (a nerve-growth protein) and interacting with melanocortin receptors — but there is no primary research on it: a medical-literature search finds only an unrelated computer-science paper. Vendor descriptions are marketing rather than measured results, and different sellers describe the sequence differently, so every efficacy and dosing claim should be treated as unverified.",
+        "evidenceLevel": "Limited data",
+        "keyTerms": [
+          {
+            "term": "Semax",
+            "definition": "A Russian synthetic peptide (Met-Glu-His-Phe-Pro-Gly-Pro) based on a fragment of the hormone ACTH, used in Russia as a neuroprotective and nootropic medication. Adamax is marketed as a modified version of it."
+          },
+          {
+            "term": "Nootropic",
+            "definition": "A substance used with the goal of supporting cognition, focus, or memory. The term makes no claim that a given compound is proven to work."
+          },
+          {
+            "term": "Adamantane (adamantyl)",
+            "definition": "A bulky, fat-loving cage-shaped molecule (the same scaffold used in drugs like memantine) sometimes attached to peptides to help them resist breakdown and cross into the brain."
+          },
+          {
+            "term": "Research peptide",
+            "definition": "A compound sold for laboratory research only, not approved or tested as a medicine, with no guarantee of identity, purity, or safety."
+          }
+        ],
+        "safetyBasics": "Adamax is not FDA-approved and has never been studied in a published clinical trial; its safety and even its exact composition are not independently established, and sellers describe it inconsistently. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
+      },
+      "disclosures": [
+        "⚠️ For research and educational purposes only. Adamax is not approved by the FDA or any regulator as a drug for any indication and is sold only as a research chemical. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
+        "⚠️ No primary literature exists for a peptide named \"Adamax.\" According to PubMed, a search for \"Adamax peptide\" returns exactly one indexed record — and it is an unrelated machine-learning paper describing the \"Adamax optimizer\" algorithm for blood-glucose forecasting, not a study of any peptide.[¹] There are no clinical trials, no human data, and no peer-reviewed preclinical studies of Adamax itself. Everything below that is specific to \"Adamax\" — its sequence, its modifications, its dosing, its effects — comes from research-vendor marketing pages, which describe the compound inconsistently. Read this entry as documentation of *what Adamax is marketed as*, not as evidence that it works.",
+        "⚠️ Adamax is not the same as Cortagen / AEDP. The two are readily confused, and the conflation is worth naming: AEDP is Cortagen — a separate, brain-cortex peptide that has its own [Cortagen entry](./cortagen.md) — and the thymus-tropic Khavinson peptide is Vilon (Lys-Glu), not AEDP. Adamax itself is a Semax-family neuropeptide marketed for cognition, with no thymus/immune positioning and no Khavinson-bioregulator identity.",
+        "⚠️ The vendor-claimed identity is a Semax analog — but the details conflict. The most common vendor description is Ac-MEHFPGPAG-NH₂: the Semax backbone (Met-Glu-His-Phe-Pro-Gly-Pro) N-terminally acetylated, extended by Ala-Gly, C-terminally amidated, and carrying an adamantane (\"adamantyl\") group borrowed from the peptide P21 to improve lipophilicity, enzymatic stability, and blood-brain-barrier penetration.[³] Other sellers describe it more loosely as simply \"N-acetyl-Semax,\" and some conflate it with P21 or with NAP/davunetide. There is no authoritative registry, structural paper, or CAS/PubChem record cross-checked here to lock the sequence, so the sequence, molecular weight, and modifications are all marked. Do not treat the vendor sequence as confirmed.",
+        "⚠️ Every mechanism and effect claim below is extrapolated from Semax, not measured on Adamax. The BDNF/TrkB and melanocortin-receptor framing is the mechanism of the *parent* Semax compound.[²] Whether Adamax reproduces, exceeds, or fails to reproduce those effects has never been tested in any published study. See the [Semax entry](./semax.md) for the compound Adamax is derived from."
+      ],
+      "quickReference": [
+        {
+          "label": "What it is",
+          "value": "A research-peptide-market compound marketed as a modified Semax analog (ACTH(4-10)-derived) for cognitive/neuroprotective research use. Named from adamant(yl) + Semax."
+        },
+        {
+          "label": "Vendor-claimed sequence",
+          "value": "Most commonly written Ac-MEHFPGPAG-NH₂ — acetylated, Ala-Gly-extended, amidated Semax backbone with a C-terminal adamantane group. — vendor-attributed, descriptions conflict, no authoritative structure confirmed here. Molecular weight/formula not tool-verified; intentionally omitted rather than guessed."
+        },
+        {
+          "label": "Evidence base",
+          "value": "None specific to Adamax. No PubMed-indexed primary literature.[¹] Parent-compound (Semax) mechanism literature exists but does not describe Adamax.[²]"
+        },
+        {
+          "label": "Common product forms",
+          "value": "Lyophilized powder (commonly vials) and pre-made intranasal spray (commonly). Sold \"for research use only.\""
+        },
+        {
+          "label": "Route",
+          "value": "Intranasal (the common vendor format) or subcutaneous injection (research-community)."
+        },
+        {
+          "label": "Half-life",
+          "value": "Not measured for Adamax. Vendors *claim* a longer duration than Semax (hours vs. minutes) on the rationale of the acetyl/adamantyl modifications; unverified."
+        },
+        {
+          "label": "Onset of action",
+          "value": "Not established. Vendor pages describe subjective intranasal onset within ~20–40 minutes by analogy to Semax; unverified."
+        }
+      ],
+      "about": [
+        "What the research-peptide market sells as \"Adamax.\" Adamax is a compound offered by research-chemical suppliers as a chemically modified analog of Semax — the Russian ACTH(4-10)-derived heptapeptide (Met-Glu-His-Phe-Pro-Gly-Pro) used in Russia as a neuroprotective/nootropic medication (see the [Semax entry](./semax.md)). Vendor and marketing pages present Adamax as Semax with two additions intended to improve pharmacokinetics: an N-terminal acetyl cap (to slow aminopeptidase degradation) and a C-terminal adamantane group (a bulky, lipophilic diamondoid cage, the same scaffold used in CNS drugs such as amantadine and memantine, intended to improve enzymatic stability and blood-brain-barrier penetration). The most frequently quoted sequence is Ac-MEHFPGPAG-NH₂, with the adamantane/Ala-Gly-amide modifications described as adapted from the peptide P21 (see [P21 entry](./p021.md)).[³] The name itself is a portmanteau of *adamantyl* and *Semax*.",
+        "The evidence problem — read this before anything else. There is no peer-reviewed primary literature on a peptide named \"Adamax.\" According to PubMed, the sole indexed record matching \"Adamax peptide\" is an unrelated machine-learning paper about the \"Adamax optimizer\" algorithm (a gradient-descent method) applied to blood-glucose forecasting — not a peptide study at all.[¹] A search for an \"adamantyl Semax analog\" returns zero results. This means that, unlike Semax (which has a real, if Russian-skewed, published mechanism literature), Adamax has essentially no independent scientific record. Its identity, sequence, modifications, dosing, and claimed effects are documented only on research-vendor product pages and secondary \"peptide encyclopedia\" sites, and those sources disagree with one another — some describe Ac-MEHFPGPAG-NH₂, others equate Adamax with plain \"N-acetyl-Semax,\" and others conflate it with P21 or unrelated neuroprotective peptides. Because of that, this entry deliberately does not assert a confirmed sequence, molecular weight, or mechanism; all such fields carry.",
+        "Claimed mechanism (inherited from Semax, not tested on Adamax). Vendors describe Adamax as acting through the same pathways attributed to Semax: upregulation of brain-derived neurotrophic factor (BDNF) and its receptor TrkB, plus interaction with melanocortin receptors (MC1R/MC3R/MC4R/MC5R) given the ACTH-fragment origin. The BDNF/TrkB mechanism is genuinely documented for Semax in the peer-reviewed literature — e.g., a single intranasal dose of Semax increases hippocampal BDNF and TrkB expression in rats and improves conditioned avoidance learning.[²] Whether Adamax shares this mechanism, at what potency, or with what duration, has never been measured in any published study. Treat the mechanism section as \"what the parent compound does,\" carried over by vendors on structural analogy.",
+        "Distinction from Cortagen and the Khavinson bioregulators. Adamax is sometimes conflated with the Khavinson tetrapeptide AEDP (Ala-Glu-Asp-Pro) and given a thymus/immune indication. That conflation fails on three counts: (1) AEDP is Cortagen, a brain-cortex peptide with its own [entry](./cortagen.md); (2) the thymus-associated Khavinson peptide is Vilon (Lys-Glu), not AEDP; and (3) Adamax is a Semax-family cognitive peptide, not an immune bioregulator. Adamax is not a Khavinson bioregulator and has no established thymus, immune, or T-cell activity.",
+        "Regulatory status (US). Adamax is not FDA-approved for any indication and has never been submitted to FDA. It is sold only as a research chemical labeled \"not for human consumption.\" It is not DEA-scheduled. Unlike Semax (registered as a medication in Russia), Adamax is not registered as a pharmaceutical drug in any jurisdiction.",
+        "Regulatory status (sport — WADA). Prohibited at all times under S0.",
+        "Adamax is not named on the 2026 WADA Prohibited List. A text search of the canonical list returned zero matches for \"Adamax\", \"Semax\", \"ACTH\", \"ACTH(4-10)\", \"melanocortin\" and \"n-Acetyl\" (checked 2026-09-08).[⁵]",
+        "That is a naming result, not a permission. WADA S0 (Non-Approved Substances) reads, verbatim:",
+        "> Any pharmacological substance which is not addressed by any of the subsequent sections of the List and with no current approval by any governmental regulatory health authority for human therapeutic use (e.g. drugs under pre-clinical or clinical development or discontinued, designer drugs, substances approved only for veterinary use) is prohibited at all times.",
+        "Adamax holds no approval for human therapeutic use from any governmental health authority anywhere, so S0 captures it by default and it is prohibited at all times, in and out of competition.",
+        "Why a later section does not displace S0 — stated explicitly so it is not re-argued. S0 applies only to a substance \"not addressed by any of the subsequent sections\". The candidate section is S2.2.2, Corticotrophins and their releasing factors, whose named examples are corticorelin and tetracosactide. Both are corticotropic: they act on the hypothalamic-pituitary-adrenal axis to drive cortisol release. Adamax is an ACTH(4-10) fragment of the Semax family, and that fragment is the melanocortin/neurotropic portion — it lacks the C-terminal region responsible for adrenal steroidogenic activity, which is why the Semax family is studied for neurological rather than corticotropic effect. It is therefore not addressed by S2.2.2, and S0 applies.",
+        "Note the direction of that reasoning: falling outside S2.2.2 makes Adamax more clearly prohibited, not less, because S0 is the residual category. Competitors should treat Adamax as prohibited at all times and consult their National Anti-Doping Organization.",
+        "*Contrast with Semax itself, which is a registered medicine in Russia: that approval is exactly what takes Semax out of S0's reach. Adamax has no such approval anywhere, so the two are not interchangeable on this point.*"
+      ],
+      "reconstitution": {
+        "diluent": "Bacteriostatic water (most common). Sterile water is acceptable for single-use reconstitution.",
+        "examples": [
+          {
+            "vialMg": 10,
+            "bacWaterMl": 2,
+            "doseMg": 1
+          },
+          {
+            "vialMg": 10,
+            "bacWaterMl": 5,
+            "doseMg": 1
+          },
+          {
+            "vialMg": 10,
+            "bacWaterMl": 10,
+            "doseMg": 1
+          }
+        ],
+        "storageBeforeReconstitution": "Refrigerated 2–8°C, away from light. Lyophilized peptide is generally stable refrigerated.",
+        "storageAfterReconstitution": "Refrigerated 2–8°C. Post-reconstitution stability for short peptides is commonly cited at ~28 days; no Adamax-specific stability study exists, so this is a general-peptide extrapolation. Discard at the first sign of cloudiness, color change, or particulates.",
+        "stabilityNotes": [
+          "Avoid freezing once reconstituted; gentle inversion only, no vigorous agitation. Source and identity verification matter more than usual here — because there is no independent structural reference for Adamax and vendor descriptions conflict, there is no reliable way for a buyer to confirm that a vial labeled \"Adamax\" contains any particular molecule."
+        ]
+      },
+      "dosingProtocol": {
+        "startingDose": ""
+      },
+      "stacks": {
+        "combinations": [
+          {
+            "partner": "Semax and/or Selank",
+            "rationale": "Adamax is marketed to the same Russian-nootropic research community that uses Semax and Selank; see the [Semax](./semax.md) and Selank entries. No combined-use study exists."
+          },
+          {
+            "partner": "P21 (P021)",
+            "rationale": "frequently mentioned alongside Adamax because Adamax's adamantyl/amide modifications are described as adapted from P21; see the [P21 entry](./p021.md). Combined use is not characterized."
+          },
+          {
+            "partner": "Choline sources, racetams, other nootropics",
+            "rationale": "described in research-community cognitive-enhancement stacks by analogy to Semax. Interactions are uncharacterized."
+          },
+          {
+            "partner": "Active psychiatric medication regimens",
+            "rationale": "no interaction data; caution."
+          }
+        ],
+        "contraindicatedCombinations": []
+      },
+      "sideEffects": {
+        "common": [
+          "Mild nasal irritation or rhinorrhea (intranasal use)",
+          "Injection-site reactions (subcutaneous use)",
+          "Headache",
+          "Overstimulation, jitteriness, or disrupted sleep if dosed late in the day (Semax's dopaminergic activation)",
+          "No human safety data of any kind, at any dose, for any duration.",
+          "The claimed CNS-penetration modifications (adamantyl group) are exactly the features most likely to change safety relative to Semax — and none of that has been studied."
+        ],
+        "serious": [
+          "Severe allergic/hypersensitivity reaction (rash, swelling, difficulty breathing)",
+          "Severe or infected injection-site reaction",
+          "Any unexpected neurological or psychiatric change"
+        ]
+      },
+      "contraindications": [
+        "Pregnancy and lactation: no data; default to contraindicated.",
+        "Pediatric use: no data; should not be used in research settings involving anyone under 18.",
+        "Active psychiatric or neurological condition under treatment: caution; no interaction or safety data.",
+        "Known peptide allergy or hypersensitivity: contraindicated.",
+        "Unknown identity/purity: treat any Adamax product as of unverified composition; there is no independent way to confirm what a vial contains.",
+        "Regulatory note (US): not FDA-approved for any indication; sold only as a research chemical; not DEA-scheduled.",
+        "Regulatory note (sport): prohibited at all times in drug-tested sport under WADA S0. Not named on the 2026 List, but S0 catches any substance with no approval for human therapeutic use anywhere, and S2.2.2 (corticotrophins) does not reach an ACTH(4-10) Semax-family fragment. Consult your National Anti-Doping Organization before any competitive use.[⁵]"
+      ],
+      "firstTimeWalkthrough": [
+        "Understand what you have. There is no published science on Adamax and no authoritative structure; you are relying entirely on the seller's description, which may differ from other sellers' descriptions of the same name.",
+        "Confirm the product form — ready-made intranasal spray vs. lyophilized powder for reconstitution — and the labeled amount.",
+        "If reconstituting powder, choose a diluent volume and use the Vialwise calculator to convert your intended dose to volume. Default to a concentration (e.g. / 5 mL =) that keeps draws in a readable range.",
+        "Recognize the dose is unverified. No safe or effective dose has been established. Vendor \"starter dose\" figures are marketing, not evidence.",
+        "Log everything — form, concentration, dose, timing, and any subjective or adverse effects — since you are effectively your own (uncontrolled) data point.",
+        "Store correctly (refrigerated 2–8°C; do not freeze reconstituted solution) and discard on any sign of cloudiness or particulates."
+      ],
+      "citations": [
+        {
+          "index": 1,
+          "reference": "Sawant PM, Ghongade RB. (2026). Diabetes Management Through Glucose Dynamics Analysis Network: A Novel Approach for Accurate Blood Glucose Level Forecasting. Diabetes, Obesity & Metabolism, 28(8):7352-7366.",
+          "primaryUrl": "https://doi.org/10.1111/dom.70930",
+          "identifierLabel": "PMID 42236259",
+          "verified": true
+        },
+        {
+          "index": 2,
+          "reference": "Dolotov OV, Karpenko EA, Inozemtseva LS, Seredenina TS, Levitskaya NG, Rozyczka J, Dubynina EV, Novosadova EV, Andreeva LA, Alfeeva LY, Kamensky AA, Grivennikov IA, Myasoedov NF, Engele J. (2006). Semax, an analog of ACTH(4-10) with cognitive effects, regulates BDNF and trkB expression in the rat hippocampus. Brain Research, 1117(1):54-60.",
+          "primaryUrl": "https://doi.org/10.1016/j.brainres.2006.07.108",
+          "identifierLabel": "PMID 16996037",
+          "verified": true
+        },
+        {
+          "index": 3,
+          "reference": "In-library cross-references: Semax (the parent compound), Cortagen (AEDP — the compound Adamax is most often conflated with), and P21 / P021 (the source of the adamantyl/amide modifications vendors attribute to Adamax). These are internal VialWise entries provided for orientation, not external evidence for Adamax.",
+          "verified": false
+        },
+        {
+          "index": 4,
+          "reference": "Vendor / marketing sources (not peer-reviewed; descriptions conflict; used only to document what Adamax is marketed as, not that it works). Representative pages consulted 2026-07-18 include medsbase.com (\"n-Acetyl-Semax\" framing), exploring-peptides.com and edgepeptides.com (\"Semax vs. Adamax\" comparisons), semaxpolska.com, and BOC Sciences' catalog listing (aapep.bocsci.com). These sources variously describe Adamax as Ac-MEHFPGPAG-NH₂, as plain N-acetyl-Semax, or as a P21-modified Semax — the inconsistency is itself the finding. — no authoritative registry (CAS/PubChem/ChEMBL) record was cross-checked to confirm the sequence, and none should be assumed.",
+          "verified": false
+        },
+        {
+          "index": 5,
+          "reference": "World Anti-Doping Agency. World Anti-Doping Code International Standard — Prohibited List 2026 (effective 1 January 2026). Canonical PDF: wada-ama.org, archived in this repo at `docs/legal/wada-2026-prohibited-list.pdf` (382,029 bytes) with a text extraction alongside it. Cited for a negative naming result and for the verbatim S0 clause. Text search on 2026-09-08 returned zero matches for \"Adamax\", \"Semax\", \"ACTH\", \"ACTH(4-10)\", \"melanocortin\", \"n-Acetyl\" and \"adrenocorticotroph\"; \"Corticotroph\" returns only the S2.2.2 heading, whose named examples are corticorelin and tetracosactide. ⚠️ Methodology note. A live fetch of the WADA url on 2026-09-08 returned 0 bytes (blocked), so the canonical archive could not be checksum-matched against the publisher on that date. Corroboration was obtained instead from an independent transposition of the same instrument into national law: the Austrian Federal Law Gazette, BGBl III Nr 219/2025, attachment at rdb.manz.at. The S0 text and the S2.2.2 named examples are identical in both copies, and the same zero-hit results reproduce in the Austrian copy. Two independent copies from different jurisdictions agreeing is a stronger check than a checksum against one publisher.",
+          "primaryUrl": "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf",
+          "verified": false
+        },
+        {
+          "index": 6,
+          "reference": "U.S. Department of Justice, Drug Enforcement Administration, Diversion Control Division. Lists of Scheduling Actions, Controlled Substances, Regulated Chemicals (\"the DEA Orange Book\"), August 2026 revision, 139 pp. deadiversion.usdoj.gov. Cited for a negative scheduling result, which requires naming the full list and the date it was checked: a text search of the complete document on 2026-09-08 returned zero matches for \"Adamax\", \"Semax\" and \"ACTH\". The nine hits for \"adamantyl\" are synthetic cannabinoids (APINACA and related indazole-carboxamides), an unrelated compound class. Extraction was validated with a positive control before the negative was trusted — Testosterone, Fentanyl, Ketamine and Oxycodone all resolve in the extracted text.",
+          "primaryUrl": "https://www.deadiversion.usdoj.gov/schedules/orangebook/orangebook.pdf",
+          "verified": false
+        }
+      ],
+      "web": {
+        "url": "https://www.getvialwise.com/library/adamax",
+        "title": "Adamax (adamantyl Semax analog) — what it does, evidence, and safety",
+        "description": "Adamax is marketed in the research-peptide world as a nootropic, claimed to sharpen focus and mental clarity, the same claims sold for Semax, the Russian…",
+        "related": [
+          {
+            "slug": "cerebrolysin",
+            "name": "Cerebrolysin",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "dsip",
+            "name": "DSIP",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "oxytocin",
+            "name": "Oxytocin",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "p021",
+            "name": "P021",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "pe-22-28",
+            "name": "PE-22-28",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "selank",
+            "name": "Selank",
+            "reason": "same mechanism class"
           }
         ]
       }
@@ -873,6 +1125,11 @@
             "reason": "same mechanism class"
           },
           {
+            "slug": "setmelanotide",
+            "name": "Setmelanotide",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "ahk-cu",
             "name": "AHK-Cu",
             "reason": "shared research area"
@@ -885,11 +1142,6 @@
           {
             "slug": "glow",
             "name": "GLOW",
-            "reason": "shared research area"
-          },
-          {
-            "slug": "klow",
-            "name": "KLOW",
             "reason": "shared research area"
           }
         ]
@@ -4286,6 +4538,16 @@
         "description": "Cerebrolysin is a mixture of small peptides and amino acids made from purified pig brain tissue, used for stroke recovery and dementia-related cognitive…",
         "related": [
           {
+            "slug": "adamax",
+            "name": "Adamax",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "dsip",
+            "name": "DSIP",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "oxytocin",
             "name": "Oxytocin",
             "reason": "same mechanism class"
@@ -4304,16 +4566,6 @@
             "slug": "selank",
             "name": "Selank",
             "reason": "same mechanism class"
-          },
-          {
-            "slug": "semax",
-            "name": "Semax",
-            "reason": "same mechanism class"
-          },
-          {
-            "slug": "glutathione",
-            "name": "Glutathione",
-            "reason": "shared research area"
           }
         ]
       }
@@ -5884,34 +6136,292 @@
         "description": "Desmopressin (often called DDAVP) is a long-established prescription medicine that tells the kidneys to hold on to water, so the body makes less urine.",
         "related": [
           {
-            "slug": "cagrisema",
-            "name": "CagriSema",
-            "reason": "both carry a boxed warning"
+            "slug": "dsip",
+            "name": "DSIP",
+            "reason": "shared research area"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "dsip",
+      "name": "DSIP",
+      "aliases": [
+        "Delta Sleep-Inducing Peptide",
+        "Delta sleep peptide",
+        "Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu",
+        "WAGGDASGE"
+      ],
+      "category": "Endogenous nonapeptide; sleep-modulating / stress-buffering peptide",
+      "mechanismClass": "Neuro & cognitive peptide",
+      "researchAreas": [
+        "sleep"
+      ],
+      "status": "Not FDA approved for any indication. Not approved as a pharmaceutical drug in any major regulatory jurisdiction (FDA, EMA, MHRA). Research-community use only. DSIP — nominated as a bulk drug substance under the name Emideltide — was reviewed and voted on by FDA's Pharmacy Compounding Advisory Committee at its July 23–24, 2026 meeting (Emideltide taken up July 24) for possible inclusion on the Section 503A Bulks List, with separate votes on the free base and the acetate. FDA's own pre-meeting briefing document proposed that neither form be included. FDA has published no summary minutes, vote results, or determination from that meeting as of 2026-09-03, and a PCAC recommendation is advisory and non-binding, so 503A compounding is not permitted on that basis; Emideltide/DSIP does not appear on the 503A Bulks List. This concerns compounding eligibility, not drug approval. Prohibited in drug-tested sport at all times, under WADA S0. DSIP is not named on the 2026 WADA Prohibited List, and no S2-class anabolic, GH-axis or growth-factor activity is attributed to it — but not-named is not permitted. S0 catches any substance with no current approval for human therapeutic use from any governmental health authority, which describes DSIP.[⁸] Russia and several Eastern European countries have a more developed research and clinical literature than the US/Western Europe — DSIP has been studied at multiple Russian institutes since the 1980s, but none of that work has produced a US- or EU-approved indication.",
+      "recommendedTimeOfDay": "bedtime",
+      "lastUpdated": "2026-09-03",
+      "beginner": {
+        "summary": "DSIP (delta sleep-inducing peptide) is a naturally occurring nine-amino-acid peptide studied for promoting deep, slow-wave sleep and buffering stress, which is how it got its name. First isolated from rabbit blood in the 1970s, it's sold in Western markets only as a research peptide, and it is not FDA-approved or approved as a drug in any major country. Human trials are mostly decades old and give mixed results, and after about 50 years of study its exact mechanism is still not well understood.",
+        "researchFindings": "DSIP (delta sleep-inducing peptide) has been studied mainly for sleep. Most human trials are from the 1980s–90s and are mixed — some reported improved sleep in chronic insomniacs, others found changes that were measurable but not clinically meaningful. After roughly 50 years of study its mechanism is still not well established, and it has never been approved for any use. The sleep and stress uses people pursue rest on this modest, aging, mixed evidence plus user reports.",
+        "evidenceLevel": "Clinical research",
+        "keyTerms": [
+          {
+            "term": "Peptide",
+            "definition": "A short chain of amino acids, the building blocks of proteins. Many compounds in this library are peptides."
           },
           {
-            "slug": "abaloparatide",
-            "name": "Abaloparatide",
-            "reason": "both are prescription medicines"
+            "term": "Half-life",
+            "definition": "Roughly how long the body takes to clear half of a dose. A long half-life is why some compounds can be taken only once a week."
           },
           {
-            "slug": "dulaglutide",
-            "name": "Dulaglutide",
-            "reason": "both carry a boxed warning"
+            "term": "Subcutaneous",
+            "definition": "An injection into the fatty layer just under the skin, rather than into a muscle or vein."
           },
           {
-            "slug": "afamelanotide",
-            "name": "Afamelanotide",
-            "reason": "both are prescription medicines"
+            "term": "Mechanism of action",
+            "definition": "how a compound produces its effect in the body."
+          }
+        ],
+        "safetyBasics": "DSIP is not FDA-approved, and its safety in humans has not been established in modern controlled trials. It is not named on the WADA Prohibited List as of the 2026 edition, but WADA's S0 category covers any substance with no regulatory approval anywhere for human use, so tested athletes should treat it as prohibited. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
+      },
+      "disclosures": [
+        "⚠️ For research and educational purposes only. DSIP is not approved by the FDA as a pharmaceutical drug for any indication. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
+        "⚠️ Precision matters at low doses. DSIP is dosed in micrograms per dose — typical research-community injectable doses ( per dose) at typical reconstitution concentrations produce small draws in the range on a U-100 syringe. At those draw sizes, even a one-unit error is a meaningful percentage of the dose (a one-unit error is ~33%; the same one-unit error is ~10%). Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting — most acutely at the smallest draws in your titration.",
+        "⚠️ The DSIP evidence base is modest, mostly older, and mixed. Most published human clinical trials of DSIP for sleep indications are from the 1980s and 1990s (predominantly the Schneider-Helmert group); results across studies are inconsistent, with some reporting clinically meaningful improvement in chronic insomniacs and others reporting statistically-detectable-but-not-clinically-meaningful changes.[¹][²][³] The compound has not received FDA, EMA, or MHRA approval for any indication despite roughly 50 years since discovery. Modern (post-2010) clinical work in Western literature is sparse; Russian and Eastern European research has continued more actively but the bulk of that literature is not indexed in PubMed and is harder to verify against canonical primary sources. Researchers should be explicit with themselves about the modest, mixed, and aging evidence base when interpreting subjective effects.",
+        "⚠️ Mechanism of action is not well-established. Despite roughly 50 years of research, DSIP's molecular mechanism remains incompletely characterized.[⁴] Multiple mechanisms have been proposed in the literature (modulation of GABAergic transmission, opioid-receptor interaction, antioxidant activity, hypothalamic-pituitary-adrenal axis modulation, stress-buffering effects), but no single mechanism has been definitively established as the primary driver of DSIP's sleep effects. The compound's name (\"delta sleep-inducing peptide\") reflects the original observation that infusion increased delta-frequency EEG activity in rabbits — but the mechanism by which this occurs in humans, and the relationship between EEG-delta effects and subjective sleep quality, are not fully resolved."
+      ],
+      "quickReference": [
+        {
+          "label": "Common vial sizes (research peptide)",
+          "value": "lyophilized vials are the most common research-peptide format; and vials also encountered. Branded pharmaceutical products do not exist in the US/EU."
+        },
+        {
+          "label": "Sequence",
+          "value": "Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu (WAGGDASGE). Nine amino acids. Molecular weight 848.8 Da."
+        },
+        {
+          "label": "Frequency",
+          "value": "Most commonly once daily, pre-bed (within 30–60 minutes of intended sleep onset). Some protocols use intermittent dosing (every other day, or 3–5 days per week)."
+        },
+        {
+          "label": "Half-life",
+          "value": "Short — IV plasma half-life reported at ~7 minutes in early human pharmacokinetic work.[⁴] However, observed behavioral and EEG effects persist substantially longer than the short plasma half-life suggests, implicating receptor-modulation or downstream signaling rather than direct concentration-dependent action."
+        },
+        {
+          "label": "Route",
+          "value": "Subcutaneous (most common in research-community use). Intravenous in early clinical trials. Intranasal formulations have been explored in Russian research literature."
+        },
+        {
+          "label": "Onset of action",
+          "value": "Subjective sleep effects typically reported within 30–90 minutes of subcutaneous injection in research-community reports. Some clinical trials report cumulative effects across multiple consecutive nights of use rather than acute single-night effects.[¹]"
+        }
+      ],
+      "about": [
+        "DSIP (delta sleep-inducing peptide) is an endogenous nonapeptide. The compound was isolated and characterized by the Swiss research group of Schoenenberger, Monnier, and colleagues across a series of papers spanning the 1970s; the canonical amino-acid analysis, sequence determination, and synthesis paper is Schoenenberger, Maier, Tobler, Wilson, and Monnier (1978), part XI of a serial-numbered \"delta EEG (sleep)-inducing peptide\" series in *Pflügers Archiv*.[⁶] The peptide was isolated from the cerebral venous blood of rabbits subjected to electrical stimulation of the intralaminar thalamic area to induce slow-wave sleep, then purified, sequenced, and synthesized for further study. The name refers to the original observation that intracerebroventricular infusion of the peptide increased delta-frequency EEG activity (the EEG signature of slow-wave sleep) in recipient animals.",
+        "Sequence and structure. DSIP is a linear nonapeptide with the sequence Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu (single-letter code WAGGDASGE). Molecular weight is approximately 848.8 Da. The peptide does not contain any disulfide bridges or post-translational modifications in its canonical form, which contributes to relatively short plasma stability — the IV plasma half-life has been reported at approximately 7 minutes in early human pharmacokinetic work.[⁴] Despite this short plasma half-life, behavioral and EEG effects of DSIP administration in animal and human studies persist substantially longer than concentration-dependent action would predict, suggesting that the compound's effects involve receptor-modulation, downstream signaling, or active metabolites rather than direct concentration-dependent activity.",
+        "Mechanism of action — multiple proposed, none definitively established. Despite approximately 50 years since the original isolation, DSIP's molecular mechanism remains incompletely characterized.[⁴] The literature describes multiple proposed mechanisms, including: modulation of GABAergic neurotransmission (the dominant inhibitory neurotransmitter system relevant to sleep); interaction with opioid-receptor signaling (some studies report DSIP attenuates opioid withdrawal symptoms in animal models, suggesting opioid-receptor crosstalk); antioxidant activity (DSIP appears to reduce oxidative stress markers in some preclinical models); hypothalamic-pituitary-adrenal (HPA) axis modulation (DSIP appears to attenuate cortisol responses to stress in some clinical and animal studies); and direct effects on hypothalamic sleep-promoting circuitry. No single mechanism has been definitively established as the primary driver, and the practical implication for researchers is that DSIP's effects across diverse indications (sleep, stress, withdrawal, antioxidant) may reflect either a single upstream mechanism with downstream pleiotropy or several distinct mechanisms operating in parallel.",
+        "Regulatory status. DSIP has never received FDA approval as a pharmaceutical drug for any indication. The compound has been studied clinically in multiple Western European countries (predominantly Switzerland and Germany) and in Russia/Eastern Europe, but no jurisdiction has approved it for therapeutic use. In the US, DSIP is sold as a research peptide by suppliers operating under research-chemical regulations. Its Section 503A compounding status was reviewed by FDA's advisory committee and no determination has issued (as of 2026-09-03). DSIP — nominated as a bulk drug substance under the name Emideltide (Emideltide free base / Emideltide acetate) — was on the agenda of FDA's Pharmacy Compounding Advisory Committee (PCAC) meeting of July 23–24, 2026, and the committee met on July 24 and voted separately on the free base and the acetate for possible inclusion on the Section 503A Bulks List. FDA published a briefing document evaluating the Emideltide/DSIP evidence base for the nominated uses of opioid withdrawal, chronic insomnia, and narcolepsy.[⁷] Those are the uses nominated and under FDA evaluation — not established efficacy, and the entry's framing of the evidence base (modest, older, mixed) is unchanged by the nomination. No outcome has been published: FDA has released no minutes or vote results from the meeting, the Committee's recommendation is advisory and non-binding in any case, and FDA had not issued a final determination as of 2026-09-03, so DSIP is neither confirmed on nor excluded from the final list. DSIP is also not a DEA-controlled substance — it appears in no schedule of the DEA's *Lists of Scheduling Actions, Controlled Substances, Regulated Chemicals*, August 2026 revision, searched in full on 2026-09-08 for \"DSIP\", \"Delta sleep\", \"delta-sleep\", \"Delta Sleep-Inducing\" and \"WAGGDASGE\" with zero matches.[⁹] DSIP is not listed in the WADA 2026 Prohibited List — direct text-search of the canonical 2026 WADA pdf (downloaded and archived at `docs/legal/wada-2026-prohibited-list.pdf` on 2026-05-04) returned no matches for \"DSIP\", \"delta sleep\", or \"WAGGDASGE\".[⁵] DSIP has no anabolic, GH-axis, or growth-factor activity, and would not be expected to fall under the WADA S2 categories that cover most peptide hormones.",
+        "Not named is not permitted — DSIP is prohibited at all times under S0. Falling outside S2 does not make DSIP allowed; it makes S0 the operative section, because S0 applies precisely to a substance \"not addressed by any of the subsequent sections of the List\". S0 reads, verbatim:",
+        "> Any pharmacological substance which is not addressed by any of the subsequent sections of the List and with no current approval by any governmental regulatory health authority for human therapeutic use (e.g. drugs under pre-clinical or clinical development or discontinued, designer drugs, substances approved only for veterinary use) is prohibited at all times.",
+        "No jurisdiction has approved DSIP for therapeutic use — stated earlier in this same paragraph — so S0 captures it and it is prohibited at all times, in and out of competition.[⁸] A competitor reading only the zero-hit search result would draw the opposite conclusion, which is why the naming result and the S0 consequence are stated together here.",
+        "Researchers competing in WADA-tested sport should still confirm against the most recent annual Prohibited List edition before any competitive event — the WADA 2027 Prohibited List is expected to publish around September–October 2026 (effective 1 January 2027), and DSIP's status should be re-verified against that edition when it drops.",
+        "Common research interests. DSIP is one of the more long-tailed research peptides — it has been studied for multiple indications without producing approval for any of them. Common areas of research-community interest include:\n- Sleep, particularly chronic insomnia — the original and best-studied indication, with multiple human clinical trials from the 1980s and 1990s reporting mixed efficacy.[¹][²][³]\n- Stress and HPA-axis modulation — DSIP appears to attenuate cortisol responses to stress in some studies; this has been studied as a potential adjunct in chronic-stress and burnout protocols.\n- Opioid and alcohol withdrawal — Russian research literature describes DSIP use as an adjunct in withdrawal protocols, though the published Western primary literature on this is thin.\n- Antioxidant and \"anti-aging\" framing — DSIP appears to reduce oxidative stress markers in some preclinical models; this has been extrapolated into research-community \"anti-aging\" protocol use, though the human evidence base for this specific indication is essentially absent.\n- Stroke recovery (preclinical) — animal models have suggested potential neuroprotective and motor-recovery effects after focal stroke, but human clinical translation has not been established.",
+        "The diversity of proposed indications, combined with the absence of approval for any of them, is a useful signal of where DSIP sits in the evidence-quality landscape: a compound with a recognizable name and a long research history, but without the focused indication-specific evidence base that would support pharmaceutical development."
+      ],
+      "reconstitution": {
+        "diluent": "Bacteriostatic water (most common). Sterile water acceptable for single-use reconstitution.",
+        "examples": [
+          {
+            "vialMg": 5,
+            "bacWaterMl": 5,
+            "doseMg": 0.1
           },
           {
-            "slug": "exenatide",
-            "name": "Exenatide",
-            "reason": "both carry a boxed warning"
+            "vialMg": 5,
+            "bacWaterMl": 2.5,
+            "doseMg": 0.1
           },
           {
-            "slug": "anastrozole",
-            "name": "Anastrozole",
-            "reason": "both are prescription medicines"
+            "vialMg": 5,
+            "bacWaterMl": 2,
+            "doseMg": 0.1
+          },
+          {
+            "vialMg": 5,
+            "bacWaterMl": 1,
+            "doseMg": 0.1
+          },
+          {
+            "vialMg": 1,
+            "bacWaterMl": 1,
+            "doseMg": 0.1
+          }
+        ],
+        "storageBeforeReconstitution": "Refrigerated 2–8°C, away from light. Lyophilized peptide is generally stable refrigerated; some sources recommend −20°C frozen storage for long-term hold. Check the specific source's stability sheet.",
+        "storageAfterReconstitution": "Refrigerated 2–8°C. Stability after reconstitution in BAC water is commonly cited at 28 days, though no rigorous DSIP-specific stability study has been published in the modern literature — the figure is an extrapolation from general peptide stability. Discard if cloudy or particulates observed.",
+        "stabilityNotes": [
+          "Avoid freezing once reconstituted.",
+          "Avoid vigorous agitation — gentle inversion only.",
+          "DSIP's nonapeptide structure (no disulfide bridges, no post-translational modifications) is generally considered stable in solution at refrigerated temperatures over the typical 28-day window, but the compound's primary plasma half-life is short (~7 minutes IV)[⁴] — stability in solution and stability in vivo are different questions, and the short plasma half-life is the dominant pharmacokinetic concern at administration time."
+        ]
+      },
+      "dosingProtocol": {
+        "startingDose": "subcutaneous, once daily, within 30–60 minutes of intended sleep onset",
+        "maximumDose": "Human clinical trials have used DSIP at doses up to 25 nmol/kg (approximately) intravenously, which corresponds to ~ for a 70 kg adult.[¹][²] Subcutaneous doses in research-community use rarely exceed per dose. Toxicology data at higher doses is essentially absent in the modern Western literature."
+      },
+      "stacks": {
+        "combinations": [
+          {
+            "partner": "Selank, Semax, or other Russian nootropic peptides",
+            "rationale": "sometimes stacked on the rationale that DSIP and Selank/Semax are part of a coordinated Russian research tradition emphasizing peptide-based modulation of stress, sleep, and cognition. The published clinical evidence for these specific stacks is limited to Russian-language literature that is harder to verify against canonical primary sources. `[citation needed]`"
+          },
+          {
+            "partner": "Magnesium, glycine, or other \"sleep stack\" supplements",
+            "rationale": "common in research-community sleep protocols on the rationale of complementary mechanisms. Not a peptide-specific stack; the same considerations that apply to magnesium/glycine in any sleep protocol apply here."
+          },
+          {
+            "partner": "CJC-1295 / Ipamorelin (or other GHS-axis peptides)",
+            "rationale": "sometimes co-administered with DSIP pre-bed on the rationale that GH peptides amplify the natural sleep-onset GH pulse and DSIP independently supports sleep onset and depth. The combination is theoretical; no published clinical data supports the specific stack. `[citation needed]`"
+          },
+          {
+            "partner": "BPC-157 / TB-500",
+            "rationale": "occasionally co-administered during recovery cycles where the researcher is also targeting sleep optimization; no specific mechanism rationale beyond \"sleep is recovery-supporting\" applies."
+          }
+        ],
+        "contraindicatedCombinations": []
+      },
+      "sideEffects": {
+        "common": [
+          "Injection site reactions (local redness, soreness, mild swelling) — uncommon but the most consistently reported adverse event",
+          "Vivid dreams or unusually intense dream recall — reported by some researchers, presumably reflecting changes in REM sleep architecture",
+          "Daytime grogginess or sluggishness — reported particularly with higher doses (>) or with use during the active daytime period rather than pre-bed",
+          "Mild headache — uncommon, typically transient",
+          "No consistent pattern of serious adverse events in research-community reports, though no controlled long-term safety surveillance exists",
+          "Schneider-Helmert and colleagues' studies of DSIP in chronic insomniacs reported the compound was \"well tolerated\" with no serious adverse events at the doses studied (typically 25 nmol/kg IV).[¹][²]",
+          "Some clinical trials reported transient mild side effects including dizziness, mild nausea, or warm sensations at the time of administration, particularly with IV dosing.",
+          "No deaths or persistent adverse outcomes have been reported in the published clinical literature.",
+          "HPA-axis effects with long-term use. DSIP appears to attenuate cortisol responses to stress in some studies; the long-term consequences of chronic HPA modulation in the research-community-use pattern (continuous or cycled daily use over months) have not been characterized.",
+          "Tolerance and dependence. No published clinical evidence demonstrates DSIP tolerance or dependence in humans; the absence of evidence is not evidence of absence, particularly given the absence of any long-term human safety surveillance.",
+          "Long-term safety in humans is essentially unknown. No multi-year human safety dataset exists for the modern research-community-use pattern (subcutaneous self-administration, often nightly, often in stack with other peptides)."
+        ],
+        "serious": []
+      },
+      "contraindications": [
+        "Pregnancy and lactation: no data; default to contraindicated — no published reproductive toxicology in humans",
+        "Pediatric use: no data — should not be used in researchers under 18",
+        "Active sedative-hypnotic use — caution; theoretical risk of additive sedation though no published interaction data",
+        "Active opioid use — theoretical interest given DSIP's reported opioid-withdrawal-attenuation activity, but no published interaction data; researchers should not infer that DSIP can substitute for clinical opioid management",
+        "Severe sleep apnea, narcolepsy, or other primary sleep disorders — caution; DSIP has not been studied in these populations and any subjective sleep improvement could mask underlying pathology that warrants clinical evaluation",
+        "Active major depression or other primary mood disorder — caution; sleep modulation in the context of underlying mood disorders is a clinical question that should not be handled with research-community peptide protocols",
+        "Regulatory note (US): DSIP is sold as a research peptide and is not FDA-approved for any indication. Its Section 503A compounding status is under active FDA review — DSIP, nominated under the name Emideltide, is before the Pharmacy Compounding Advisory Committee at its July 23–24, 2026 meeting (DSIP discussed July 24) for possible inclusion on the 503A Bulks List, with an FDA briefing document evaluating the nominated uses of opioid withdrawal, chronic insomnia, and narcolepsy.[⁷] That meeting took place and the committee voted separately on Emideltide free base and Emideltide acetate; FDA's own briefing document proposed that neither be included. FDA has published no summary minutes, vote results, or final determination from that meeting as of 2026-09-03, and a PCAC recommendation is advisory and non-binding — panel review → FDA determination still pending → 503A compounding not permitted on that basis. Emideltide/DSIP is not on the 503A Bulks List. The nominated uses are uses under evaluation, not established efficacy. Researchers should track this docket and be aware of the regulatory environment in their jurisdiction.",
+        "Regulatory note (DEA): DSIP is not a DEA-controlled substance and appears in no schedule of the DEA's *Lists of Scheduling Actions, Controlled Substances, Regulated Chemicals* (August 2026 revision), checked 2026-09-08.[⁹]",
+        "Regulatory note (WADA): prohibited at all times under WADA S0. DSIP is not named in the 2026 List,[⁵] but S0 catches any substance with no approval for human therapeutic use anywhere — which DSIP lacks.[⁸] This may change in future annual editions; the 2027 list is expected around September–October 2026 (effective 1 January 2027), and researchers competing in WADA-tested sport should confirm against the most recent edition before any competitive event."
+      ],
+      "firstTimeWalkthrough": [
+        "Verify vial integrity — seal intact, lyophilized powder visible (typically white to off-white), no signs of damage or temperature exposure during shipping. Confirm the labeled potency matches what the Vialwise calculator is set to.",
+        "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder. The reconstituted solution should be clear and colorless.",
+        "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
+        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is typically per dose. Verify the math twice on the first draw.",
+        "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower doses (typical for DSIP at most reconstitution scenarios), even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
+        "Inject subcutaneously into the abdomen, rotating sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies. Pre-bed (within 30–60 minutes of intended sleep onset) is the most-commonly-reported timing in research-community sleep protocols.",
+        "Log the dose, the site, the time relative to sleep onset, and a baseline note (subjective sleep quality, time to sleep onset, number of nighttime awakenings, morning grogginess) immediately after administration. Track over the cycle — DSIP's effects, if present, typically build across multiple consecutive nights rather than appearing acutely on the first night, per the clinical trial pattern.[¹]",
+        "After 5–7 nights, reassess. If effects are not detectable, consider whether the dose, timing, or compound is the right tool for the sleep concern at hand. DSIP's evidence base does not support open-ended escalation in the absence of subjective response — researchers in published clinical trials saw mixed efficacy across populations, and individual non-response is not unexpected."
+      ],
+      "citations": [
+        {
+          "index": 1,
+          "reference": "Schneider-Helmert D. (1987). Effects of delta-sleep-inducing peptide on 24-hour sleep-wake behaviour in severe chronic insomnia. European Neurology, 27(2):120-9.",
+          "primaryUrl": "https://doi.org/10.1159/000116143",
+          "identifierLabel": "PMID 3622582",
+          "verified": true
+        },
+        {
+          "index": 2,
+          "reference": "Schneider-Helmert D, Schoenenberger GA. (1981). The influence of synthetic DSIP (delta-sleep-inducing-peptide) on disturbed human sleep. Experientia, 37(9):913-7.",
+          "primaryUrl": "https://doi.org/10.1007/BF01971753",
+          "identifierLabel": "PMID 7028502",
+          "verified": true
+        },
+        {
+          "index": 3,
+          "reference": "Monti JM, Debellis J, Alterwain P, Pellejero T, Monti D. (1987). Study of delta sleep-inducing peptide efficacy in improving sleep on short-term administration to chronic insomniacs. International Journal of Clinical Pharmacology Research, 7(2):105-10.",
+          "primaryUrl": "https://pubmed.ncbi.nlm.nih.gov/3583493/",
+          "identifierLabel": "PMID 3583493",
+          "verified": true
+        },
+        {
+          "index": 4,
+          "reference": "Graf MV, Kastin AJ. (1984). Delta-sleep-inducing peptide (DSIP): a review. Neuroscience and Biobehavioral Reviews, 8(1):83-93.",
+          "primaryUrl": "https://doi.org/10.1016/0149-7634(84)90022-8",
+          "identifierLabel": "PMID 6145137",
+          "verified": true
+        },
+        {
+          "index": 5,
+          "reference": "World Anti-Doping Agency. The 2026 Prohibited List, International Standard (effective 1 January 2026). Canonical PDF: wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf (linked from the WADA landing page at wada-ama.org/en/prohibited-list; local archival copy in `docs/legal/wada-2026-prohibited-list.pdf`). DSIP is not listed in the 2026 WADA Prohibited List.",
+          "primaryUrl": "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf",
+          "verified": true
+        },
+        {
+          "index": 6,
+          "reference": "Schoenenberger GA, Maier PF, Tobler HJ, Wilson K, Monnier M. (1978). The delta EEG (sleep)-inducing peptide (DSIP). XI. Amino-acid analysis, sequence, synthesis and activity of the nonapeptide. Pflügers Archiv: European Journal of Physiology, 376(2):119-29.",
+          "primaryUrl": "https://doi.org/10.1007/BF00581575",
+          "identifierLabel": "PMID 568769",
+          "verified": true
+        },
+        {
+          "index": 7,
+          "reference": "U.S. Food and Drug Administration. July 23-24, 2026, Meeting of the Pharmacy Compounding Advisory Committee — FDA Briefing Document for Emideltide-Related Bulk Drug Substances. FDA briefing document PDF: fda.gov/media/193344/download. Meeting page: July 23-24, 2026 Meeting of the Pharmacy Compounding Advisory Committee (page content current as of 06/29/2026). Federal Register notice: 91 FR 20465, Doc. 2026-07361, published 04/16/2026, Docket FDA-2025-N-6895 (comment docket closes 07/22/2026) — federalregister.gov/d/2026-07361. The primary regulatory source for DSIP's live Section 503A status. DSIP is nominated as a bulk drug substance under the name Emideltide (free base and acetate forms) and was discussed and voted on at the PCAC meeting held July 24, 2026 (FDA has published no minutes, vote results, or determination as of 2026-09-03); FDA's briefing document evaluates the evidence for the nominated uses of opioid withdrawal, chronic insomnia, and narcolepsy. Cited in the Regulatory status paragraph and the Contraindications US regulatory note for the \"under active PCAC review, outcome pending\" framing — the nominated uses are uses under FDA evaluation, not established efficacy, and the Committee's recommendation is advisory and non-binding.",
+          "primaryUrl": "https://www.fda.gov/media/193344/download",
+          "verified": true
+        },
+        {
+          "index": 8,
+          "reference": "World Anti-Doping Agency. World Anti-Doping Code International Standard — Prohibited List 2026 (effective 1 January 2026). Canonical PDF: wada-ama.org, archived at `docs/legal/wada-2026-prohibited-list.pdf`. Cited for the verbatim S0 clause, resolving the flag that previously sat on this entry's regulatory line. S0 reads: \"Any pharmacological substance which is not addressed by any of the subsequent sections of the List and with no current approval by any governmental regulatory health authority for human therapeutic use (e.g. drugs under pre-clinical or clinical development or discontinued, designer drugs, substances approved only for veterinary use) is prohibited at all times.\" Confirmed 2026-09-08. ⚠️ Methodology note. A live fetch of the WADA url on that date returned 0 bytes (blocked), so the archive could not be checksum-matched against the publisher. Corroboration came instead from an independent transposition of the same instrument into national law — the Austrian Federal Law Gazette, BGBl III Nr 219/2025 (rdb.manz.at), in which the S0 wording and the S2.2.2 named examples are identical and the same zero-hit searches reproduce.",
+          "primaryUrl": "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf",
+          "verified": false
+        },
+        {
+          "index": 9,
+          "reference": "U.S. Department of Justice, Drug Enforcement Administration, Diversion Control Division. Lists of Scheduling Actions, Controlled Substances, Regulated Chemicals, August 2026 revision, 139 pp. deadiversion.usdoj.gov. Cited for a negative scheduling result, which requires naming the full list and the date checked: a text search of the complete document on 2026-09-08 returned zero matches for \"DSIP\", \"Delta sleep\", \"delta-sleep\", \"Delta Sleep-Inducing\" and \"WAGGDASGE\". Extraction was validated with a positive control before the negative was trusted — Testosterone, Fentanyl, Ketamine and Oxycodone all resolve.",
+          "primaryUrl": "https://www.deadiversion.usdoj.gov/schedules/orangebook/orangebook.pdf",
+          "verified": false
+        }
+      ],
+      "web": {
+        "url": "https://www.getvialwise.com/library/dsip",
+        "title": "DSIP (Delta sleep peptide) — what it does, evidence, and safety",
+        "description": "DSIP (delta sleep-inducing peptide) is a naturally occurring nine-amino-acid peptide studied for promoting deep, slow-wave sleep and buffering stress, which…",
+        "related": [
+          {
+            "slug": "cjc-1295-ipamorelin-blend",
+            "name": "CJC-1295 / Ipamorelin Blend",
+            "reason": "discussed together in this entry's stacks section"
+          },
+          {
+            "slug": "bpc-157-tb-500-blend",
+            "name": "BPC-157 / TB-500 Blend",
+            "reason": "discussed together in this entry's stacks section"
+          },
+          {
+            "slug": "adamax",
+            "name": "Adamax",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "cerebrolysin",
+            "name": "Cerebrolysin",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "oxytocin",
+            "name": "Oxytocin",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "p021",
+            "name": "P021",
+            "reason": "same mechanism class"
           }
         ]
       }
@@ -10180,9 +10690,9 @@
             "reason": "same mechanism class"
           },
           {
-            "slug": "ace-031",
-            "name": "ACE-031",
-            "reason": "shared research area"
+            "slug": "octreotide",
+            "name": "Octreotide",
+            "reason": "same mechanism class"
           }
         ]
       }
@@ -10697,9 +11207,9 @@
             "reason": "same mechanism class"
           },
           {
-            "slug": "ace-031",
-            "name": "ACE-031",
-            "reason": "shared research area"
+            "slug": "octreotide",
+            "name": "Octreotide",
+            "reason": "same mechanism class"
           }
         ]
       }
@@ -11462,6 +11972,365 @@
             "slug": "bpc-157",
             "name": "BPC-157",
             "reason": "same mechanism class"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "kpv",
+      "name": "KPV",
+      "aliases": [
+        "Lys-Pro-Val",
+        "α-MSH(11-13)",
+        "alpha-MSH 11-13",
+        "Lysine-Proline-Valine",
+        "Tripeptide KPV"
+      ],
+      "category": "α-msh c-terminal tripeptide; anti-inflammatory peptide",
+      "mechanismClass": "Immune & anti-inflammatory peptide",
+      "researchAreas": [
+        "inflammation"
+      ],
+      "status": "Not FDA approved for any indication. Research-community use only. Reviewed for the 503A Bulks List; no FDA determination issued — KPV (free base) and KPV acetate were on the Pharmacy Compounding Advisory Committee (PCAC) agenda for July 23–24, 2026, with uses evaluated listed as \"wound healing and inflammatory conditions\" (public docket FDA-2025-N-6895), and the committee met and voted on both forms on July 23, 2026. FDA's pre-meeting briefing document proposed that neither form be included. FDA has published no summary minutes, vote results, or determination from that meeting as of 2026-09-03, and a PCAC recommendation is advisory and non-binding — no outcome has been published by FDA, KPV is not on the 503A Bulks List, and 503A compounding is not permitted on that basis.[¹⁴] Not named in the WADA 2026 Prohibited List,[⁵] but WADA's S0 (Non-Approved Substances) category prohibits at all times any pharmacological substance with no current regulatory approval for human therapeutic use — which KPV lacks — so athletes in WADA-tested sport should treat KPV as prohibited-by-default under WADA S0. Not a DEA-scheduled / controlled substance — no entry in the DEA *Lists of Scheduling Actions, Controlled Substances, Regulated Chemicals* (August 2026 revision), checked 2026-09-08.[²⁰] Available primarily as a research peptide for oral and topical use; some injectable formulations also encountered. The published evidence base is predominantly preclinical (cell culture and DSS/TNBS colitis animal models); no PubMed-indexed human clinical trial of KPV was located as of 2026-07-18.",
+      "recommendedTimeOfDay": "anytime",
+      "lastUpdated": "2026-09-03",
+      "beginner": {
+        "summary": "KPV is a tripeptide best known for research as an anti-inflammatory, especially for gut inflammation. It's the tail end of the natural hormone alpha-MSH, though it seems to work through a different pathway, and unlike most peptides in this library, it's most commonly taken by mouth or applied topically rather than injected. It is not FDA-approved for any use and is sold only as a research peptide.",
+        "researchFindings": "KPV has been studied mainly as an anti-inflammatory, especially for the gut. Most research is in cells and animal models of inflammatory bowel disease, where oral KPV was associated with reduced intestinal inflammation. Human evidence is limited to small pilot studies and case reports with no large controlled trials, so the gut, skin, and anti-inflammatory uses people pursue have not been confirmed in people. Its activity is thought to work mainly through a transporter (PepT1) rather than the pigmentation receptors alpha-MSH uses — in animal studies the anti-inflammatory effect held even when that pigmentation receptor was non-functional.",
+        "evidenceLevel": "Early/animal research",
+        "keyTerms": [
+          {
+            "term": "Peptide",
+            "definition": "A short chain of amino acids, the building blocks of proteins. Many compounds in this library are peptides."
+          },
+          {
+            "term": "Preclinical",
+            "definition": "Research done in cells or animals, before human clinical trials. Promising preclinical results don't always hold up in people."
+          },
+          {
+            "term": "Topical",
+            "definition": "applied to the skin (as a cream or serum) rather than injected."
+          },
+          {
+            "term": "Anti-inflammatory",
+            "definition": "reducing the body's inflammation response."
+          }
+        ],
+        "safetyBasics": "KPV is not FDA-approved, and its safety in humans has not been established in clinical trials. As of July 2026 the FDA is actively reviewing whether KPV should be added to the 503A compounding bulks list; no decision has been announced. KPV is not named on the WADA Prohibited List as of the 2026 edition, but WADA's S0 category covers any substance with no regulatory approval anywhere for human use, so tested athletes should assume it is prohibited. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
+      },
+      "disclosures": [
+        "⚠️ For research and educational purposes only. KPV is not approved by the FDA as a pharmaceutical drug for any indication. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
+        "⚠️ KPV is most commonly used orally or topically — not injected. Unlike most peptides covered elsewhere in this library (which are subcutaneous-injection compounds), KPV is most commonly administered as an oral capsule or topical cream/spray. The PepT1 transporter that mediates KPV's cellular uptake is highly expressed in the small intestine and induced in inflamed colon tissue,[¹] which is the mechanistic basis for the oral route's effectiveness in IBD models. Some research-community use of injectable KPV exists, but the published evidence base is predominantly oral (for IBD/gut indications) and topical (for dermatologic indications). The Vialwise calculator and reconstitution table below cover the injectable form for completeness, but most KPV use does not require reconstitution math — capsules and topical formulations come pre-formulated.",
+        "⚠️ The KPV evidence base is preclinical — no human study was located at all. Essentially all published efficacy data for KPV is from cell culture and rodent models (Dalmasso et al. 2008 in DSS/TNBS colitis is the foundational paper),[¹] with independent replication in the same models.[⁶] As of 2026-07-18, targeted searching located no PubMed-indexed human clinical study of KPV of any size — not a randomized trial, not a pilot study, not a published case series — and no ClinicalTrials.gov interventional KPV trial. Research-community materials do reference small randomized studies in ulcerative colitis or atopic dermatitis with positive results, but no primary publication backing those claims could be found (see Pending Verification, where these are now recorded as *confirmed absent* rather than merely unlocked). Researchers should be explicit with themselves that the human evidence for KPV is unestablished, not simply thin, when interpreting subjective effects.",
+        "⚠️ Regulatory status was reviewed by FDA’s advisory committee and no determination has issued (as of 2026-09-03). KPV (free base) and KPV acetate were on the FDA Pharmacy Compounding Advisory Committee agenda for July 23–24, 2026, and that meeting took place and the committee voted, under consideration for the 503A Bulks List for \"wound healing and inflammatory conditions\" (docket FDA-2025-N-6895).[¹⁴] The meeting post-dates this entry's last update — no determination has been made, and nothing here should be read as approval, endorsement, or rejection. Re-checked 2026-09-03: the committee met and voted, but FDA has published no outcome or determination.",
+        "⚠️ Mechanism is predominantly PepT1-mediated, not melanocortin-receptor-mediated. Despite KPV being the C-terminal tripeptide of α-melanocyte-stimulating hormone (α-MSH), KPV's anti-inflammatory activity does not appear to *depend* on melanocortin receptor signaling.[¹] The compound is taken up into intestinal epithelial cells and immune cells by the PepT1 di/tripeptide transporter, where it acts intracellularly to inhibit NF-κB and MAP kinase pathway activation, reducing pro-inflammatory cytokine secretion. Supporting this, an independent group reported that KPV retained anti-inflammatory efficacy in mice whose MC1R was non-functional — i.e. the effect was at least partially MC1R-independent[⁶] — and a mechanistic review notes that KPV lacks the sequence motif required for binding the known melanocortin receptors while still retaining anti-inflammatory capacity \"with a lack of any pigmentory action.\"[⁷] The literature is not unanimous: at least one report describes KPV as able to bind MC1R.[¹⁵] The honest framing is that weak or partial MC1R interaction has been reported but is not required for the anti-inflammatory effect. Researchers should not infer that KPV produces the pigmentation, sexual function, or appetite effects characteristic of α-MSH or its longer melanocortin analogues."
+      ],
+      "quickReference": [
+        {
+          "label": "Sequence",
+          "value": "Lysine-Proline-Valine (Lys-Pro-Val, single-letter code KPV). Three amino acids. Molecular weight 343.4 Da. The C-terminal tripeptide of α-melanocyte-stimulating hormone (α-MSH(11-13))."
+        },
+        {
+          "label": "Common formulations",
+          "value": "Oral capsules (most common): typically or per capsule. Topical creams and serums: typically 0.05%–0.5% w/v. Injectable: research-peptide vials lyophilized powder (less commonly encountered)."
+        },
+        {
+          "label": "Frequency",
+          "value": "Daily, with multiple doses per day common for active inflammatory indications (IBD, oral mucositis). Topical use is typically 1–2 applications per day."
+        },
+        {
+          "label": "Half-life",
+          "value": "Short. Free KPV is rapidly hydrolyzed in solution; in vivo half-life is short.[¹][⁹] PepT1-mediated uptake into target tissue (intestinal epithelium, immune cells) operates on a timescale faster than systemic peptide degradation, which is the mechanistic basis for the compound's effectiveness in animal models despite its short plasma stability.[¹] No human pharmacokinetic study was located."
+        },
+        {
+          "label": "Route",
+          "value": "Oral (most common — IBD, gut inflammation, systemic anti-inflammatory). Topical (second most common — dermatologic indications including atopic dermatitis, psoriasis, oral mucositis). Subcutaneous (research-community use, less common). Intrarectal (referenced in research-community materials for UC; no published human study using this route was located). Note that an ex-vivo human-skin study found KPV required iontophoresis across microporated skin to cross the skin barrier,[⁸] so passive absorption from an ordinary topical base should not be assumed."
+        },
+        {
+          "label": "Onset of action",
+          "value": "Subjective effects on inflammatory symptoms typically reported within 1–4 weeks of consistent oral or topical use in research-community reports. Not validated in published large RCTs at any specific dose or formulation."
+        }
+      ],
+      "about": [
+        "KPV is a tripeptide consisting of lysine, proline, and valine (Lys-Pro-Val; single-letter code KPV). Structurally, KPV is the C-terminal tripeptide of α-melanocyte-stimulating hormone (α-MSH) — specifically residues 11–13 of the parent 13-amino-acid hormone. Molecular weight is 343.4 Da. The compound is one of the smallest peptides in the Vialwise library and is also one of the few that is most commonly administered orally rather than by injection — which has substantial implications for both the clinical evidence base and the regulatory framing.",
+        "Mechanism of action. KPV is the C-terminal tripeptide of α-MSH, but its anti-inflammatory activity is predominantly not melanocortin-receptor-mediated.[¹] Instead, KPV is taken up into intestinal epithelial cells and immune cells by the PepT1 di/tripeptide transporter — a proton-coupled oligopeptide transporter normally expressed in the small intestine and upregulated in inflamed colon tissue during inflammatory bowel disease. Once inside the target cell, KPV acts intracellularly to inhibit activation of the NF-κB transcription factor and the MAP kinase signaling pathway, both of which are central to pro-inflammatory cytokine production (TNF-α, IL-1β, IL-6, IL-8) in immune and epithelial cells. The downstream consequences include reduced inflammatory cytokine secretion, reduced neutrophil infiltration, and reduced epithelial barrier dysfunction in inflamed tissue.[¹] The PepT1-mediated mechanism is mechanistically interesting because it provides a degree of inflammatory-tissue selectivity: PepT1 is upregulated specifically in inflamed colon tissue (in IBD), so KPV uptake is preferentially concentrated at the disease site. This is the mechanistic basis for why oral KPV is effective in colitis models despite the compound's short plasma half-life — the relevant pharmacokinetic compartment is the inflamed gut wall, not systemic circulation. An independent 2024 group has since built a PepT1-targeted nanodrug for DSS colitis on the same targeting rationale.[¹⁷]",
+        "On the melanocortin-receptor question specifically. The \"not melanocortin-mediated\" framing is well-supported but should not be stated as an absolute. An independent group (Kannengiesser et al. 2008, Münster) found that KPV reduced inflammation in DSS and transfer colitis models and that the effect was retained in mice with non-functional MC1R, concluding the activity is at least partially independent of MC1R signaling.[⁶] A mechanistic review from the same broader group states that KPV \"lacks the entire sequence motif required for binding to any of the known MC-Rs\" while retaining anti-inflammatory capacity with no pigmentary action.[⁷] Against that, Luger and colleagues (2003) describe KPV as able to bind MC1R.[¹⁵] The defensible reading of the current literature: weak or partial MC1R interaction has been reported, but melanocortin-receptor signaling is not required for KPV's anti-inflammatory effect.",
+        "Foundational preclinical evidence — DSS/TNBS colitis. The foundational mechanism and efficacy work for KPV in inflammatory bowel disease was published by Dalmasso and colleagues in 2008 in *Gastroenterology* (\"PepT1-Mediated Tripeptide KPV Uptake Reduces Intestinal Inflammation\").[¹] The paper demonstrated that orally administered KPV significantly decreased inflammation in dextran-sulfate-sodium (DSS)- and 2,4,6-trinitrobenzene sulfonic acid (TNBS)-induced colitis mouse models, with reductions in body weight loss, colonic myeloperoxidase (MPO) activity, histologic inflammation scores, and pro-inflammatory cytokine mRNA levels. The paper also established the PepT1-mediated mechanism by demonstrating that KPV's effects required PepT1 expression in intestinal and immune cells. This paper remains the most-cited primary source for KPV's mechanism and preclinical efficacy in IBD.",
+        "Targeted-delivery work — nanoparticle formulations. A 2017 paper (Xiao et al.) in *Molecular Therapy* (referenced via [PMC5498804](https://pmc.ncbi.nlm.nih.gov/articles/PMC5498804/)) demonstrated that hyaluronic-acid-functionalized nanoparticles loaded with KPV could deliver nanogram-level doses to the inflamed gut wall in mouse models of ulcerative colitis, producing measurable reductions in mucosal inflammation at far lower total doses than free oral KPV.[²] More recent work in the same vein reported an inflammation-triggered self-immolative KPV conjugate (\"proKPV\") that, in mouse models, achieved roughly 3.8× greater colonic accumulation than free KPV and showed efficacy at a 20× lower dose.[¹²] This delivery work is mechanistically interesting (demonstrating that KPV's local inflamed-tissue concentration is what matters, not systemic exposure) but has not translated to human clinical use — all of it remains preclinical.",
+        "Human clinical evidence — not located. The published human clinical evidence base for KPV is far thinner than the preclinical work. No randomized controlled trial of KPV — and no PubMed-indexed human clinical study of any size — was located as of 2026-07-18, and no ClinicalTrials.gov interventional KPV trial surfaced either. Research-community materials reference small pilot studies and case series in ulcerative colitis (oral and intrarectal formulations) and dermatologic indications (atopic dermatitis, psoriasis, oral mucositis), some describing positive efficacy and acceptable tolerability — but no primary publication backing those specific claims could be found. Researchers should treat the human clinical picture as unestablished, not merely under-documented.",
+        "Regulatory status — under active FDA review (updated 2026-07-18). KPV has never received FDA approval as a pharmaceutical drug for any indication, and that has not changed. What *has* changed is its compounding status. KPV-related bulk drug substances — \"KPV (free base)\" and \"KPV acetate\" — were on the agenda of the FDA's Pharmacy Compounding Advisory Committee (PCAC) meeting of July 23–24, 2026, and the committee met and voted on both forms on July 23, 2026, considering them for inclusion on the 503A Bulks List. Fda has published no minutes, vote results, or determination as of 2026-09-03, and KPV is not on that list. The FDA lists the uses evaluated as \"wound healing and inflammatory conditions.\" A public FDA briefing document has been posted and the matter sits under public docket FDA-2025-N-6895.[¹⁴] The meeting post-dates this entry's last update, so no determination exists yet — KPV's bulks-list status is pending, and nothing here should be read as indicating that KPV has been added, rejected, approved, or endorsed. (The same session covers several other peptides, including BPC-157, TB-500, and MOTS-c.) This supersedes this entry's previous framing that KPV carried no peptide-specific designation and was governed by general 503A requirements — that description is no longer current. Oral and topical KPV are sold widely as research-peptide products in jurisdictions where this is permitted; the legal framing varies by jurisdiction, and researchers should expect the US picture specifically to move after July 2026.",
+        "Regulatory status — DEA. KPV is not a DEA-scheduled or controlled substance; no scheduling action for KPV was located. This is consistent with the other peptide entries in this library.",
+        "Regulatory status — WADA. KPV is not named in the WADA 2026 Prohibited List — direct text-search of the canonical 2026 WADA pdf returned no matches for \"KPV\", \"Lys-Pro-Val\", or \"lysine-proline-valine\".[⁵] KPV has no anabolic, GH-axis, or growth-factor activity and would not be expected to fall under the S2 categories covering peptide hormones and growth factors. However, not-named is not the same as not-prohibited. WADA's S0 (Non-Approved Substances) category prohibits, at all times, any pharmacological substance that has no current regulatory approval for human therapeutic use by any governmental health authority. KPV has no such approval anywhere — so S0 plausibly captures it, and the conservative, athlete-protective reading is that researchers competing in WADA-tested sport should treat KPV as prohibited-by-default under S0. A 2026 critical review of peptide use in sport lists KPV among peptides promoted for anti-inflammatory effects and notes the detection challenges such compounds pose, without asserting that KPV is named-prohibited.[¹⁶] Confirm against the most recent annual Prohibited List edition before any competitive event.",
+        "Common research interests. KPV is one of the most-used research peptides for inflammation-focused protocols, particularly:\n- Inflammatory bowel disease (oral) — the original and best-studied indication, with strong *preclinical* evidence (including independent replication in DSS and transfer colitis models[⁶]) and no located human trial. A 2025 independent review lists KPV among α-MSH-derived host-defense peptides that downregulate NF-κB in IBD contexts.[¹⁰]\n- Atopic dermatitis and other inflammatory skin conditions (topical) — mechanism rationale extrapolates from the same NF-κB / MAP kinase pathway inhibition seen in IBD models; in a 2025 cell-culture study, KPV mitigated fine-dust-induced keratinocyte apoptosis and inflammatory signaling via MAPK/NF-κB.[¹³] Note the delivery caveat: KPV required iontophoresis across microporated skin to achieve transdermal delivery in an ex-vivo human-skin study,[⁸] so passive absorption from an ordinary topical base should not be assumed.\n- Wound healing (topical) — the indication the FDA is evaluating for the 503A bulks list. A 2025 independent review of tripeptides in wound healing and skin regeneration reports that KPV-loaded hydrogels reduced inflammation, promoted tissue regeneration, and showed activity against MRSA in preclinical models;[¹¹] earlier work found α-MSH peptides including KPV inhibited *S. aureus* and *C. albicans* in vitro.[¹⁸] All preclinical.\n- Oral mucositis (topical or oral) — particularly post-chemotherapy and post-radiation. Research-community materials reference small clinical reports, but no published human study was located; the traceable foundational work is oral-mucosal cell-culture research.\n- General systemic anti-inflammatory protocols (oral) — research-community use as a low-side-effect anti-inflammatory adjunct, often stacked with other anti-inflammatory peptides or supplements.\n- Allergic/immune dysregulation (oral) — emerging research-community interest based on the broader anti-inflammatory mechanism, though specific clinical evidence for these uses is not established."
+      ],
+      "reconstitution": {
+        "diluent": "",
+        "examples": [
+          {
+            "vialMg": 5,
+            "bacWaterMl": 5,
+            "doseMg": 0.2
+          },
+          {
+            "vialMg": 5,
+            "bacWaterMl": 2.5,
+            "doseMg": 0.2
+          },
+          {
+            "vialMg": 5,
+            "bacWaterMl": 2,
+            "doseMg": 0.2
+          },
+          {
+            "vialMg": 5,
+            "bacWaterMl": 1,
+            "doseMg": 0.2
+          }
+        ],
+        "storageBeforeReconstitution": "Refrigerated 2–8°C, away from light. Lyophilized peptide is generally stable refrigerated.",
+        "storageAfterReconstitution": "Refrigerated 2–8°C. Stability after reconstitution in BAC water is commonly cited at 28 days, though no rigorous KPV-specific stability study has been published — the figure is an extrapolation from general peptide stability. Discard if cloudy or particulates observed.",
+        "stabilityNotes": [
+          "Avoid freezing once reconstituted.",
+          "Avoid vigorous agitation — gentle inversion only.",
+          "KPV is a small tripeptide and is more susceptible to degradation in solution than larger peptides; some research-community sources recommend shorter post-reconstitution use windows (~14 days) than the typical 28-day peptide stability assumption.",
+          "A stability-indicating HPLC assay published for KPV found that under stress conditions the peptide degrades to a lysine-proline diketopiperazine product,[⁹] which is the closest published support for the \"rapidly hydrolyzed / limited solution stability\" framing used elsewhere in this entry — note that it is a forced-degradation analytical study, not a shelf-life study of reconstituted research vials, so the 14-day and 28-day figures above remain extrapolations rather than validated windows."
+        ]
+      },
+      "dosingProtocol": {
+        "startingDose": "",
+        "maximumDose": "Research-community use rarely exceeds three times daily orally ( total). Toxicology data at higher doses is essentially absent in the published literature. The Dalmasso 2008 mouse studies used doses on the order /day, which would extrapolate to substantial gram-per-day doses in humans — far above any research-community use pattern.[¹]"
+      },
+      "stacks": {
+        "combinations": [
+          {
+            "partner": "BPC-157 (oral or injectable)",
+            "rationale": "sometimes stacked for combined gut-healing and anti-inflammatory effects. BPC-157 has its own oral-formulation literature for gut-specific applications; KPV's PepT1-mediated mechanism makes oral formulations particularly relevant for gut indications. The combination is mechanistically complementary on paper but the specific stack has not been studied in published trials. `[citation needed]`"
+          },
+          {
+            "partner": "Tudca (tauroursodeoxycholic acid) or other gut-supportive supplements",
+            "rationale": "common in research-community gut-healing protocols on the rationale of complementary mechanisms (KPV reduces inflammatory signaling; Tudca supports bile-acid homeostasis and ER stress)."
+          },
+          {
+            "partner": "GLP-1 agonists during weight-loss cycles",
+            "rationale": "sometimes co-administered when GI side effects of GLP-1 agonists are particularly burdensome, on the rationale that KPV's anti-inflammatory activity may attenuate the GLP-1-induced GI inflammation/discomfort. The combination is research-community-attributed; no clinical evidence supports the specific stack. `[citation needed]`"
+          },
+          {
+            "partner": "LL-37, thymosin α1, or other immune-modulating peptides",
+            "rationale": "sometimes stacked in immune-support protocols, particularly for researchers managing chronic infections or immune dysregulation. Mechanistically complementary on paper; specific stacks not studied."
+          },
+          {
+            "partner": "Topical formulations stacked with conventional dermatologic actives",
+            "rationale": "KPV-containing topical products are sometimes used alongside corticosteroid creams, calcineurin inhibitors, or moisturizers for atopic dermatitis. The interactions in topical co-administration are not well-characterized."
+          }
+        ],
+        "contraindicatedCombinations": []
+      },
+      "sideEffects": {
+        "common": [
+          "Mild local skin reactions (transient redness, mild itching) — uncommon",
+          "Hypersensitivity reactions to formulation excipients — rare; specific to the carrier rather than KPV itself",
+          "No serious adverse events reported in the published or research-community literature for topical use at typical concentrations",
+          "Reported as generally well-tolerated in research-community accounts. ⚠️ There is no published human clinical dataset behind this — no PubMed-indexed human study of KPV was located as of 2026-07-18, so \"well-tolerated\" here reflects anecdote, not trial evidence, and carries all the reporting bias that implies",
+          "Mild GI symptoms (nausea, mild abdominal discomfort) — uncommon, typically transient",
+          "No consistent pattern of serious adverse events in research-community reports",
+          "Injection site reactions (local redness, soreness, mild swelling) — uncommon",
+          "Mild systemic effects (transient warmth, mild fatigue) reported rarely",
+          "No consistent pattern of serious adverse events in research-community reports, though no controlled long-term safety surveillance exists",
+          "Long-term safety in humans is essentially unknown. No multi-year human safety dataset exists for the modern research-community-use pattern (chronic oral use over months, often in stack with other peptides or supplements).",
+          "Immunosuppression in immune-compromised researchers. KPV's mechanism reduces inflammatory cytokine production via NF-κB/MAP kinase inhibition. In researchers with active infection, immunocompromise, or active cancer, this anti-inflammatory action is theoretically concerning — but the magnitude of the effect at typical research-community doses is not well-characterized, and KPV's effect is far weaker than pharmacologic immunosuppressants.",
+          "Drug interactions with active IBD medications. Researchers managing IBD with biologic therapy (anti-TNF, anti-integrin, anti-IL-12/23) or DMARDs should be aware that KPV's mechanism overlaps with these therapies' targets — the interaction is theoretical but worth flagging.",
+          "Allergic / hypersensitivity reactions. Rare; researchers with known peptide-allergy histories should exercise caution."
+        ],
+        "serious": []
+      },
+      "contraindications": [
+        "Active immunosuppressive therapy (biologics, DMARDs, transplant immunosuppression) — caution; theoretical risk of additive immunosuppression though no published interaction data",
+        "Active major infection — caution; KPV's anti-inflammatory mechanism is theoretically concerning in the context of active infection requiring inflammatory response",
+        "Active cancer or undiagnosed malignancy concern — theoretical caution given KPV's anti-inflammatory mechanism; the specific human cancer-risk relationship for KPV at research-community doses is not established",
+        "Pregnancy and lactation: no data; default to contraindicated — no published reproductive toxicology in humans",
+        "Pediatric use: no data — should not be used in researchers under 18",
+        "Known peptide allergy or hypersensitivity — contraindicated",
+        "Severe IBD or active flare requiring hospitalization — KPV is not a substitute for pharmacologic IBD management; researchers managing active IBD should not substitute KPV for established therapies in collaboration with their gastroenterologist",
+        "Regulatory note (US — status changing): KPV is sold as a research peptide and has never been FDA-approved for any indication. KPV (free base) and KPV acetate are under active FDA review for the 503A Bulks List, scheduled for the Pharmacy Compounding Advisory Committee meeting of July 23–24, 2026 (uses evaluated: wound healing and inflammatory conditions; docket FDA-2025-N-6895).[¹⁴] The committee met and voted on both forms on July 23, 2026, and FDA's own briefing document proposed that neither be included. FDA has published no summary minutes, vote results, or final determination from that meeting as of 2026-09-03, and a PCAC recommendation is advisory and non-binding — panel review → FDA determination still pending → 503A compounding not permitted on that basis. Do not read the review as approval, endorsement, or rejection. Researchers should re-check the outcome — FDA had published none as of 2026-09-03 — and be aware of the regulatory environment in their jurisdiction.",
+        "Regulatory note (DEA): KPV is not a scheduled / controlled substance — no entry in the DEA's *Lists of Scheduling Actions, Controlled Substances, Regulated Chemicals* (August 2026 revision), checked 2026-09-08.[²⁰]",
+        "Regulatory note (WADA): KPV is not named in the 2026 WADA Prohibited List.[⁵] But not-named is not not-prohibited: WADA's S0 (Non-Approved Substances) category prohibits at all times any pharmacological substance lacking current regulatory approval for human therapeutic use by any governmental health authority — a description KPV fits. Researchers competing in WADA-tested sport should treat KPV as prohibited-by-default under S0 and confirm against the most recent edition before any competitive event."
+      ],
+      "firstTimeWalkthrough": [
+        "Verify product authenticity and labeled potency. Confirm the capsule labeled potency (typically, or per capsule) matches your intended dose. KPV is a small tripeptide and counterfeit or under-dosed products are a real concern in the research-peptide market — purchase from sources with established reputation and ideally with third-party testing.",
+        "Confirm the product is KPV (Lys-Pro-Val), not a different α-MSH-derived peptide. Several other α-MSH-derived peptides exist (notably KPV-22, MSH(11-13)-related variants, and longer melanocortin analogues like mt-II and PT-141 covered in their own library entries). The mechanism, dose range, and indications differ substantially. Vendor labels should specify KPV (Lys-Pro-Val) explicitly; if unclear, contact the source before using.",
+        "For first-time researchers, start at the lower end of the dose range — typically once or twice daily for IBD/systemic anti-inflammatory indications. Increase gradually based on response over 1–2 weeks.",
+        "Take orally with or without food — published preclinical work and research-community use have not established a clear food-effect pattern for oral KPV, and PepT1-mediated uptake in the small intestine is the rate-limiting step regardless of food status.",
+        "Log the dose, the timing, and a baseline note (subjective inflammatory symptoms — for IBD researchers, that is bowel-movement frequency, urgency, blood, and abdominal discomfort; for skin indications, that is the standard atopic-dermatitis severity tracking). Track over the cycle — KPV's effects, if present, are typically gradual rather than acute, with most-noticeable change typically reported in the 2–4 week window.",
+        "After 4 weeks, reassess. If effects are not detectable, consider whether the dose, timing, or compound is the right tool for the inflammatory concern at hand. Researchers managing IBD or other inflammatory conditions should not delay or substitute for established medical care based on KPV response or non-response.",
+        "For topical use: apply per product instructions (typically 1–2 times daily to affected area). Topical formulations are pre-formulated and do not require dose calculation — but log application timing and severity tracking similarly to the oral protocol."
+      ],
+      "citations": [
+        {
+          "index": 1,
+          "reference": "Dalmasso G, Charrier-Hisamuddin L, Nguyen HT, Yan Y, Sitaraman S, Merlin D. (2008). PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation. Gastroenterology, 134(1):166-78.",
+          "primaryUrl": "https://doi.org/10.1053/j.gastro.2007.10.026",
+          "identifierLabel": "PMID 18061177",
+          "verified": true
+        },
+        {
+          "index": 2,
+          "reference": "Xiao B, Xu Z, Viennois E, Zhang Y, Zhang Z, Zhang M, Han MK, Kang Y, Merlin D. (2017). Orally Targeted Delivery of Tripeptide KPV via Hyaluronic Acid-Functionalized Nanoparticles Efficiently Alleviates Ulcerative Colitis. Molecular Therapy, 25(7):1628-1640.",
+          "primaryUrl": "https://doi.org/10.1016/j.ymthe.2016.11.020",
+          "identifierLabel": "PMID 28143741",
+          "verified": true
+        },
+        {
+          "index": 3,
+          "reference": "Hiltz ME, Lipton JM. (1989). Antiinflammatory activity of a COOH-terminal fragment of the neuropeptide alpha-MSH. FASEB Journal, 3(11):2282-4.",
+          "primaryUrl": "https://pubmed.ncbi.nlm.nih.gov/2550304/",
+          "identifierLabel": "PMID 2550304",
+          "verified": true
+        },
+        {
+          "index": 4,
+          "reference": "Catania A, Lipton JM. (1993). Alpha-melanocyte stimulating hormone in the modulation of host reactions. Endocrine Reviews, 14(5):564-76.",
+          "primaryUrl": "https://doi.org/10.1210/edrv-14-5-564",
+          "identifierLabel": "PMID 8262006",
+          "verified": true
+        },
+        {
+          "index": 5,
+          "reference": "World Anti-Doping Agency. The 2026 Prohibited List, International Standard (effective 1 January 2026). Canonical PDF: wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf (linked from the WADA landing page at wada-ama.org/en/prohibited-list; local archival copy in `docs/legal/wada-2026-prohibited-list.pdf`). KPV is not listed in the 2026 WADA Prohibited List.",
+          "primaryUrl": "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf",
+          "verified": true
+        },
+        {
+          "index": 6,
+          "reference": "Kannengiesser K, Maaser C, Heidemann J, Luegering A, Ross M, Brzoska T, Bohm M, Luger TA, Domschke W, Kucharzik T. (2008). Melanocortin-derived tripeptide KPV has anti-inflammatory potential in murine models of inflammatory bowel disease. Inflammatory Bowel Diseases, 14(3):324-31.",
+          "primaryUrl": "https://doi.org/10.1002/ibd.20334",
+          "identifierLabel": "PMID 18092346",
+          "verified": true
+        },
+        {
+          "index": 7,
+          "reference": "Brzoska T, Böhm M, Lügering A, Loser K, Luger TA. (2010). Terminal signal: anti-inflammatory effects of α-MSH related peptides beyond the pharmacophore. Advances in Experimental Medicine and Biology, 681:107-16.",
+          "primaryUrl": "https://doi.org/10.1007/978-1-4419-6354-3_8",
+          "identifierLabel": "PMID 21222263",
+          "verified": true
+        },
+        {
+          "index": 8,
+          "reference": "Pawar K, Kolli CS, Rangari VK, Babu RJ. (2017). Transdermal Iontophoretic Delivery of Lysine-Proline-Valine (KPV) Peptide Across Microporated Human Skin. Journal of Pharmaceutical Sciences, 106(7):1814-1820.",
+          "primaryUrl": "https://doi.org/10.1016/j.xphs.2017.03.017",
+          "identifierLabel": "PMID 28343991",
+          "verified": true
+        },
+        {
+          "index": 9,
+          "reference": "Pawar KR, Nagarsenker M, et al. (2014). Stability-indicating HPLC assay for lysine-proline-valine (KPV). Biomedical Chromatography, 29(5):716-21.",
+          "primaryUrl": "https://doi.org/10.1002/bmc.3347",
+          "identifierLabel": "PMID 25298219",
+          "verified": true
+        },
+        {
+          "index": 10,
+          "reference": "Rodrigues JM, et al., Franco OL. (2025). Host defense peptides as a new drug lead… for inflammatory bowel disease. Drug Discovery Today, 30(12):104535.",
+          "primaryUrl": "https://doi.org/10.1016/j.drudis.2025.104535",
+          "identifierLabel": "PMID 41241376",
+          "verified": true
+        },
+        {
+          "index": 11,
+          "reference": "Adnan SB, et al., Fadilah NIM. (2025). Exploring the Role of Tripeptides in Wound Healing and Skin Regeneration: A Comprehensive Review. International Journal of Medical Sciences, 22(16):4175-4200.",
+          "primaryUrl": "https://doi.org/10.7150/ijms.118118",
+          "identifierLabel": "PMID 41209547",
+          "verified": true
+        },
+        {
+          "index": 12,
+          "reference": "Cheng J, et al. (2026). Inflammation-triggered self-immolative conjugates enable oral peptide delivery. Science Advances, 12(3):eaea2989.",
+          "primaryUrl": "https://doi.org/10.1126/sciadv.aea2989",
+          "identifierLabel": "PMID 41533788",
+          "verified": true
+        },
+        {
+          "index": 13,
+          "reference": "Sung J, et al. (2025). Lysine-Proline-Valine peptide mitigates fine dust-induced keratinocyte apoptosis and inflammation… MAPK/NF-κB pathway. Tissue and Cell, 95:102837.",
+          "primaryUrl": "https://doi.org/10.1016/j.tice.2025.102837",
+          "identifierLabel": "PMID 40073467",
+          "verified": true
+        },
+        {
+          "index": 14,
+          "reference": "US Food and Drug Administration. July 23–24, 2026: Meeting of the Pharmacy Compounding Advisory Committee. FDA advisory-committee calendar: fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026. FDA briefing document: \"FDA Briefing Document for KPV-Related Bulk Drug Substances\" → fda.gov/media/193346/download. Public docket: FDA-2025-N-6895. The primary regulatory source for KPV's current 503A bulks-list review status. On July 23, 2026, the committee takes up KPV-related bulk drug substances — \"KPV (free base)\" and \"KPV acetate\" — for consideration for inclusion on the 503A Bulks List, with uses evaluated listed as \"wound healing and inflammatory conditions.\" The same session covers BPC-157, TB-500, and MOTS-c.",
+          "primaryUrl": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026",
+          "verified": true
+        },
+        {
+          "index": 15,
+          "reference": "Luger TA, Scholzen TE, Brzoska T, Böhm M. (2003). New insights into the functions of alpha-MSH and related peptides in the immune system. Annals of the New York Academy of Sciences, 994:133-40.",
+          "primaryUrl": "https://doi.org/10.1111/j.1749-6632.2003.tb03172.x",
+          "identifierLabel": "PMID 12851308",
+          "verified": true
+        },
+        {
+          "index": 16,
+          "reference": "Coutinho LFD, et al. (2026). A new era of doping? Use of peptide and peptide-analog drugs in… sport and bodybuilding: a critical review. Journal of Sports Medicine and Physical Fitness, 66(7):880-885.",
+          "primaryUrl": "https://doi.org/10.23736/S0022-4707.26.17773-1",
+          "identifierLabel": "PMID 41880199",
+          "verified": true
+        },
+        {
+          "index": 17,
+          "reference": "Zhang D, et al. (2024). PepT1-targeted nanodrug… for combined treatment of acute and chronic DSS-induced colitis. Frontiers in Pharmacology, 15:1442876.",
+          "primaryUrl": "https://doi.org/10.3389/fphar.2024.1442876",
+          "identifierLabel": "PMID 39211778",
+          "verified": true
+        },
+        {
+          "index": 18,
+          "reference": "Cutuli M, Cristiani S, Lipton JM, Catania A. (2000). Antimicrobial effects of alpha-MSH peptides. Journal of Leukocyte Biology, 67(2):233-9.",
+          "primaryUrl": "https://doi.org/10.1002/jlb.67.2.233",
+          "identifierLabel": "PMID 10670585",
+          "verified": true
+        },
+        {
+          "index": 19,
+          "reference": "World Anti-Doping Agency. World Anti-Doping Code International Standard — Prohibited List 2026 (effective 1 January 2026). Canonical PDF: wada-ama.org, archived at `docs/legal/wada-2026-prohibited-list.pdf`. Cited for the verbatim S0 clause, resolving the flag that previously sat on this entry's regulatory line. S0 reads: \"Any pharmacological substance which is not addressed by any of the subsequent sections of the List and with no current approval by any governmental regulatory health authority for human therapeutic use (e.g. drugs under pre-clinical or clinical development or discontinued, designer drugs, substances approved only for veterinary use) is prohibited at all times.\" Confirmed 2026-09-08. ⚠️ Methodology note. A live fetch of the WADA url on that date returned 0 bytes (blocked), so the archive could not be checksum-matched against the publisher. Corroboration came instead from an independent transposition of the same instrument into national law — the Austrian Federal Law Gazette, BGBl III Nr 219/2025 (rdb.manz.at), in which the S0 wording and the S2.2.2 named examples are identical and the same zero-hit searches reproduce.",
+          "primaryUrl": "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf",
+          "verified": false
+        },
+        {
+          "index": 20,
+          "reference": "U.S. Department of Justice, Drug Enforcement Administration, Diversion Control Division. Lists of Scheduling Actions, Controlled Substances, Regulated Chemicals, August 2026 revision, 139 pp. deadiversion.usdoj.gov. Cited for a negative scheduling result, which requires naming the full list and the date checked: a text search of the complete document on 2026-09-08 returned zero matches for \"KPV\", \"Lys-Pro-Val\" and \"lysine-proline-valine\". Extraction was validated with a positive control before the negative was trusted — Testosterone, Fentanyl, Ketamine and Oxycodone all resolve.",
+          "primaryUrl": "https://www.deadiversion.usdoj.gov/schedules/orangebook/orangebook.pdf",
+          "verified": false
+        }
+      ],
+      "web": {
+        "url": "https://www.getvialwise.com/library/kpv",
+        "title": "KPV (Lys-Pro-Val) — what it does, evidence, and safety",
+        "description": "KPV is a tripeptide best known for research as an anti-inflammatory, especially for gut inflammation.",
+        "related": [
+          {
+            "slug": "bpc-157",
+            "name": "BPC-157",
+            "reason": "discussed together in this entry's stacks section"
+          },
+          {
+            "slug": "ll-37",
+            "name": "LL-37",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "thymosin-alpha-1",
+            "name": "Thymosin Alpha-1",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "vip",
+            "name": "VIP",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "chonluten",
+            "name": "Chonluten",
+            "reason": "shared research area"
           }
         ]
       }
@@ -12565,6 +13434,11 @@
             "reason": "discussed together in this entry's stacks section"
           },
           {
+            "slug": "kpv",
+            "name": "KPV",
+            "reason": "discussed together in this entry's stacks section"
+          },
+          {
             "slug": "vip",
             "name": "VIP",
             "reason": "same mechanism class"
@@ -12577,11 +13451,6 @@
           {
             "slug": "bpc-157",
             "name": "BPC-157",
-            "reason": "shared research area"
-          },
-          {
-            "slug": "chonluten",
-            "name": "Chonluten",
             "reason": "shared research area"
           }
         ]
@@ -13334,6 +14203,11 @@
             "reason": "same mechanism class"
           },
           {
+            "slug": "setmelanotide",
+            "name": "Setmelanotide",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "ahk-cu",
             "name": "AHK-Cu",
             "reason": "shared research area"
@@ -13346,11 +14220,6 @@
           {
             "slug": "ghk-cu",
             "name": "GHK-Cu",
-            "reason": "shared research area"
-          },
-          {
-            "slug": "glow",
-            "name": "GLOW",
             "reason": "shared research area"
           }
         ]
@@ -13580,13 +14449,13 @@
             "reason": "same mechanism class"
           },
           {
-            "slug": "ace-031",
-            "name": "ACE-031",
-            "reason": "shared research area"
+            "slug": "octreotide",
+            "name": "Octreotide",
+            "reason": "same mechanism class"
           },
           {
-            "slug": "aicar",
-            "name": "AICAR",
+            "slug": "ace-031",
+            "name": "ACE-031",
             "reason": "shared research area"
           }
         ]
@@ -14353,6 +15222,208 @@
       }
     },
     {
+      "slug": "octreotide",
+      "name": "Octreotide",
+      "aliases": [
+        "Sandostatin",
+        "Sandostatin LAR",
+        "Mycapssa",
+        "SMS 201-995",
+        "somatostatin analogue",
+        "octreotide acetate"
+      ],
+      "category": "Somatostatin analogue (somatostatin receptor ligand), growth-hormone suppressing",
+      "mechanismClass": "Growth hormone & IGF-1",
+      "researchAreas": [
+        "growth-hormone"
+      ],
+      "status": "FDA-approved prescription drug, available as an immediate-release injection dosed three times daily (Sandostatin), a long-acting depot injection (Sandostatin LAR Depot), and oral capsules (Mycapssa). Used in acromegaly — a disease of too much growth hormone — and in certain neuroendocrine tumor and carcinoid settings. Approved indications differ BY FORMULATION — the injections cover acromegaly plus symptom control in carcinoid tumors and VIPomas, while the oral capsule (Mycapssa) is approved for acromegaly only. Verified against current FDA labeling, 2026-09-08.[⁴] ⭐ Note the direction: octreotide SUPPRESSES growth hormone. It is the pharmacological opposite of the growth-hormone secretagogues and releasing factors that make up a large part of this library. WADA status: octreotide is not named on the 2026 WADA Prohibited List, and no somatostatin drug class appears on that list (verified directly against the 2026 list text, 2026-08-04). Because it holds regulatory approval, S0 does not capture it. Note the sharp contrast with S2.2.4, which prohibits growth hormone releasing factors and secretagogues by name — including sermorelin, tesamorelin, CJC-1295, ipamorelin, MK-677, hexarelin and the GHRPs, all of which are in this library. Octreotide is on the opposite side of that axis and is not listed. Athletes should still verify with their anti-doping organization. Not DEA-scheduled (prescription, non-controlled).",
+      "fdaApproved": true,
+      "recommendedTimeOfDay": "anytime",
+      "lastUpdated": "2026-09-03",
+      "beginner": {
+        "summary": "Octreotide (brand names Sandostatin and Mycapssa) is a prescription medicine that turns growth hormone down. It is a lab-made version of somatostatin, the body's own \"stop\" signal for growth hormone. Its main use is acromegaly — a condition where a small benign tumor in the pituitary gland makes far too much growth hormone, causing bones and organs to keep growing in adulthood. It is FDA-approved, and comes both as a long-acting injection and, more recently, as a capsule.",
+        "researchFindings": "Octreotide has been studied mainly in acromegaly, where the goal is bringing growth hormone and IGF-1 back into normal range. A Phase 3 trial compared the newer capsule form against the established injections in people already responding to the injections, and found the capsules held that response in most patients — 50 of 55, against 37 of 37 who stayed on injections. Older work using the injection as a first treatment in newly diagnosed patients found it shrank tumors and lowered hormone levels, though only about half reached a normal IGF-1. The honest part: the capsule trial only enrolled people already known to respond to this drug class, so it does not tell you how a new patient would do, and the first-line study was small with several dropouts.",
+        "evidenceLevel": "FDA-approved drug",
+        "keyTerms": [
+          {
+            "term": "Peptide",
+            "definition": "A short chain of amino acids, the building blocks of proteins. Many compounds in this library are peptides."
+          },
+          {
+            "term": "Somatostatin",
+            "definition": "A natural hormone that acts as the body's brake on growth hormone release. Octreotide is a longer-lasting synthetic version of it."
+          },
+          {
+            "term": "Acromegaly",
+            "definition": "A condition caused by too much growth hormone in adulthood, usually from a benign pituitary tumor. It causes gradual enlargement of the hands, feet and facial features, along with joint and metabolic problems."
+          },
+          {
+            "term": "IGF-1",
+            "definition": "Insulin-like growth factor 1 — a hormone the liver makes in response to growth hormone. Because it is steadier in the blood than growth hormone itself, it is the standard blood marker for whether acromegaly is controlled."
+          },
+          {
+            "term": "Biochemical response",
+            "definition": "In acromegaly, having growth hormone and IGF-1 brought into a target range by treatment. It is a lab measurement, not a measure of how a person feels."
+          }
+        ],
+        "safetyBasics": "Octreotide is a prescription drug used under specialist endocrine care. In the Phase 3 trial the most common treatment-related side effects in both the capsule and injection groups were gastrointestinal. It is not named on the WADA Prohibited List and, being an approved medicine, is not captured by the S0 non-approved-substances category — though athletes should verify with their anti-doping organization. Worth understanding in context: this drug lowers growth hormone, the opposite direction to the growth-hormone secretagogues elsewhere in this library, several of which are explicitly prohibited in sport. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
+      },
+      "disclosures": [
+        "⚠️ This is an approved prescription medicine, not a research peptide. Octreotide is dispensed by a pharmacy and used under specialist endocrine care. The reconstitution and self-dosing workflows used elsewhere in this library do not apply. Information here is informational, not medical advice.",
+        "⚠️ Read the Phase 3 trial's entry criteria before reading its result. The MPOWERED trial only randomized patients who were already responding to injectable somatostatin receptor ligands and who then also responded during a 26-week oral run-in.[¹] It is a maintenance and formulation-switching study. It does not tell you how likely a newly diagnosed patient is to respond to octreotide at all."
+      ],
+      "quickReference": [
+        {
+          "label": "Compound class",
+          "value": "Synthetic 8-amino-acid cyclic analogue of somatostatin; a somatostatin receptor ligand (SRL) that suppresses growth hormone secretion."
+        },
+        {
+          "label": "Supplied as",
+          "value": "Pharmacy-dispensed prescription product — long-acting injectable (Sandostatin LAR) or oral capsules (Mycapssa). Not a research-supply lyophilized vial."
+        },
+        {
+          "label": "Frequency",
+          "value": "Oral capsules daily; long-acting injectable is given at multi-week intervals set by the prescriber.[¹]"
+        },
+        {
+          "label": "Route",
+          "value": "Oral (capsules) or intramuscular/deep subcutaneous depot injection, depending on formulation.[¹]"
+        },
+        {
+          "label": "Onset of action",
+          "value": "Biochemical endpoints (IGF-1, GH) are assessed monthly over months.[¹] Tumor-volume change was measured at 6 and 12 months in the first-line study.[³]"
+        }
+      ],
+      "about": [
+        "Octreotide is a synthetic cyclic octapeptide analogue of somatostatin, the body's endogenous inhibitor of growth hormone release. It is marketed as Sandostatin and Sandostatin LAR (injectable) and Mycapssa (oral capsules).",
+        "Mechanism. Somatostatin binds receptors on pituitary cells and suppresses growth hormone secretion, but its natural half-life is far too short to be a drug. Octreotide is engineered for a much longer duration while retaining that suppressive activity.[²] In acromegaly, reducing GH secretion lowers hepatic IGF-1 production, which is the marker clinicians track.[¹]",
+        "The oral formulation problem, and why it is interesting. Peptides are normally destroyed in the gut, which is why nearly everything in this library is injected. Oral octreotide capsules pair the peptide with a transient permeability enhancer technology that lets it cross the intestinal wall intact — the first oral somatostatin receptor ligand approved in the United States.[²] Alongside `orforglipron` and `linaclotide` in this library, it is one of the few worked examples of getting peptide-class pharmacology into a swallowed dose.",
+        "Evidence quality.",
+        "- MPOWERED was a Phase 3, global, open-label, randomized controlled trial across 29 sites in 10 countries.[¹] Design matters here: eligible adults were already on injectable SRLs for at least 6 months at a stable dose and already biochemically responding. All 146 enrolled patients first took oral octreotide for a 26-week run-in; only those still responding at week 24 were randomized 3:2 to oral octreotide (n=55) or back to injectable SRL (n=37).[¹] At the end of the randomized phase, 50 of 55 (91%) on oral and 37 of 37 (100%) on injectable maintained biochemical response — meeting the prespecified non-inferiority margin of −20 percentage points (95% CI −19.9 to 0.5).[¹] ⚠️ That confidence interval only just clears the margin, and 30 of the 146 enrolled patients discontinued during the run-in.[¹] Treatment-related adverse events occurred in 35% (oral) and 41% (injectable), most commonly gastrointestinal.[¹] Funded by Chiasma.[¹]\n- A clinical review covering 4 pivotal trials and 238 patients treated with oral octreotide capsules described effective GH and IGF-1 suppression, maintenance of disease control, and a safety profile comparable to injectable SRLs, and noted that most trial patients preferred oral to injectable administration.[²]\n- Injectable octreotide LAR as first-line therapy was studied prospectively in 19 treatment-naive acromegalic patients over 12 months.[³] Tumor volume fell 25 ± 23% (p = 0.046) regardless of initial tumor extension; basal GH fell 76 ± 18% and fasting IGF-1 fell 52 ± 31%; 6 of 13 completers (46%) normalized IGF-1, and 8 patients (42%) achieved >25% tumor shrinkage.[³] ⚠️ 19 patients, 6 of whom withdrew — this is a small observational study, not a controlled trial, and roughly half of completers did *not* reach a normal IGF-1.",
+        "Regulatory status (US). The approved indications are formulation-specific — the oral capsule is not approved for the tumor indications. Verified against current FDA labeling on DailyMed, 2026-09-08.[⁴]",
+        "| Formulation | Approved indications |\n|---|---|\n| Sandostatin Injection (immediate-release, SC/IV) | Acromegaly, after inadequate response to or inability to have surgery, pituitary irradiation and bromocriptine; symptomatic treatment of severe diarrhea and flushing in metastatic carcinoid tumors; profuse watery diarrhea associated with VIP-secreting tumors (VIPomas) |\n| Sandostatin LAR Depot | The same three, but only in patients who have already responded to and tolerated Sandostatin Injection |\n| Mycapssa (oral delayed-release capsules) | Acromegaly only — long-term maintenance in patients who have responded to and tolerated octreotide or lanreotide. Not approved for carcinoid tumors or VIPomas. |",
+        "Limitations of Use, from the Sandostatin Injection label: *\"Improvement in clinical signs and symptoms, or reduction in tumor size or rate of growth, were not shown in clinical trials performed with Sandostatin Injection; these trials were not optimally designed to detect such effects.\"* The carcinoid and VIPoma indications are for symptom control, not tumor treatment — worth stating plainly, because the shorthand \"approved for neuroendocrine tumors\" invites the opposite reading.",
+        "Not DEA-scheduled.",
+        "Regulatory status (sport — WADA). Octreotide is not named on the 2026 WADA Prohibited List, and no somatostatin class appears anywhere on it (checked directly against the list text, 2026-08-04). Because it holds regulatory approval, S0 does not capture it.",
+        "⭐ The instructive contrast: S2.2.4 of the same list prohibits *growth hormone releasing factors* and *growth hormone secretagogues* explicitly and by name — the verbatim list includes GHRH analogues (CJC-1293, CJC-1295, sermorelin, tesamorelin), secretagogues (anamorelin, capromorelin, ibutamoren/MK-677, ipamorelin, lenomorelin/ghrelin, macimorelin, tabimorelin), and the GHRPs (alexamorelin, examorelin/hexarelin, GHRP-1 through GHRP-6). Nearly all of those are entries in this library. Octreotide moves the same axis in the opposite direction and is not listed. Athletes should verify current status with their National Anti-Doping Organization."
+      ],
+      "reconstitution": {
+        "diluent": "",
+        "examples": [],
+        "storageBeforeReconstitution": "Per the dispensed product's labeling."
+      },
+      "dosingProtocol": {
+        "startingDose": "In the MPOWERED trial the oral formulation was started, with optional titration to 60 or.[¹] Injectable dosing was continued at each patient's pre-existing dose and interval.[¹] Reference points from a trial, not recommendations — the prescribed dose is set by labeling and by the treating clinician."
+      },
+      "stacks": {
+        "combinations": [
+          {
+            "partner": "Lanreotide autogel",
+            "rationale": "the other injectable somatostatin receptor ligand; MPOWERED enrolled patients on either long-acting octreotide or lanreotide.[¹] An alternative, not a partner — no data support combining two SRLs."
+          },
+          {
+            "partner": "Pituitary surgery",
+            "rationale": "the review notes surgery remains first-line, with medical therapy used when surgery is contraindicated, does not achieve remission, or does not prevent recurrence.[²] Octreotide's role is defined relative to surgery, not as a standalone protocol."
+          }
+        ],
+        "contraindicatedCombinations": [
+          "Growth hormone secretagogues and releasing factors — directly pharmacologically opposed. Combining a GH-raising compound with a GH-suppressing drug is self-defeating and entirely unstudied; no source in this entry addresses it. `[citation needed]`"
+        ]
+      },
+      "sideEffects": {
+        "common": [
+          "Treatment-related adverse events in 35% (oral) and 41% (injectable) of patients, most commonly gastrointestinal.[¹]",
+          "30 of 146 patients discontinued during the 26-week oral run-in phase, though the trial report does not attribute all of those to adverse events.[¹]",
+          "The safety profile of oral capsules was described as comparable to injectable SRLs, with the benefit of avoiding injection-related side effects.[²]"
+        ],
+        "serious": []
+      },
+      "contraindications": [
+        "This is a prescription medicine used under specialist endocrine care for a serious chronic condition. Use outside that context is outside everything the evidence base covers.",
+        "Not a growth-hormone enhancer — the opposite. Anyone approaching this entry from the GH-peptide side of the library should be clear that octreotide lowers GH and IGF-1.[¹][³]",
+        "Concurrent GH secretagogues or releasing factors — pharmacologically opposed, unstudied in combination.",
+        "Pregnancy and lactation — not addressed by the sources here. Refer to current labeling.",
+        "Pediatric use — the trials cited enrolled adults (MPOWERED: 18–75 years).[¹]",
+        "Full contraindication list is set by labeling. The three sources here cover efficacy and headline tolerability, not the complete safety profile.",
+        "Regulatory note (sport): not named on the 2026 WADA Prohibited List and not captured by S0 (approved medicine) — in contrast to the GH secretagogues in S2.2.4, which are named and prohibited. Verify with your anti-doping organization.",
+        "Not DEA-scheduled."
+      ],
+      "firstTimeWalkthrough": [
+        "This is a prescription medicine, not a research-supply peptide. It is prescribed and monitored by an endocrinologist, usually after pituitary surgery has been considered. There is no self-directed first-use workflow for this compound, and this library will not construct one.",
+        "If you have been prescribed octreotide, follow the instructions supplied with the dispensed product — capsules and depot injections have completely different handling — and your prescriber's direction.",
+        "Do not use the VialWise reconstitution calculator for this compound. That calculator is built for lyophilized research vials you reconstitute yourself.",
+        "Expect regular blood monitoring. IGF-1 was measured monthly in the Phase 3 trial, because biochemical response is how this drug's effect is judged.[¹]",
+        "If you are reading this entry as background on growth-hormone pharmacology rather than as a patient: the useful takeaway is what it treats. Acromegaly is the clinical picture of sustained growth-hormone excess, and it is a disease, not a physique outcome."
+      ],
+      "citations": [
+        {
+          "index": 1,
+          "reference": "Fleseriu M, Dreval A, Bondar I, Vagapova G, Macut D, Pokramovich YG, Molitch ME, Leonova N, Raverot G, Grineva E, Poteshkin YE, Gilgun-Sherki Y, Ludlam WH, Patou G, Haviv A, Gordon MB, Biermasz NR, Melmed S, Strasburger CJ. (2022). Maintenance of response to oral octreotide compared with injectable somatostatin receptor ligands in patients with acromegaly: a phase 3, multicentre, randomised controlled trial. The Lancet Diabetes & Endocrinology, 10(2):102–111.",
+          "primaryUrl": "https://doi.org/10.1016/S2213-8587(21)00296-5",
+          "identifierLabel": "PMID 34953531 · NCT02685709",
+          "verified": true
+        },
+        {
+          "index": 2,
+          "reference": "Yuen KCJ, Samson SL. (2022). Oral Octreotide: A Review of Recent Clinical Trials and Practical Recommendations for Its Use in the Treatment of Patients With Acromegaly. Endocrine Practice, 28(6):637–645.",
+          "primaryUrl": "https://doi.org/10.1016/j.eprac.2022.04.009",
+          "identifierLabel": "PMID 35452815",
+          "verified": true
+        },
+        {
+          "index": 3,
+          "reference": "Luque-Ramírez M, Portoles GR, Varela C, Albero R, Halperin I, Moreiro J, Soto A, Casamitjana R. (2010). The efficacy of octreotide LAR as firstline therapy for patients with newly diagnosed acromegaly is independent of tumor extension: predictive factors of tumor and biochemical response. Hormone and Metabolic Research, 42(1):38–44.",
+          "primaryUrl": "https://doi.org/10.1055/s-0029-1239506",
+          "identifierLabel": "PMID 19798622",
+          "verified": true
+        },
+        {
+          "index": 4,
+          "reference": "U.S. Food and Drug Administration, current prescribing information via DailyMed (NLM), retrieved 2026-09-08. Three separate labels, because the approved indications are not the same across formulations and a single-label check would have missed that: Sandostatin (octreotide acetate) Injection, Novartis, SPL version 23, published 2026-07-24, setid `4e2c9856-1836-49f0-9472-4dbeeb408f39`; Sandostatin LAR Depot, Novartis, SPL version 29, published 2025-12-23, setid `d0b7fe9e-7000-4b79-ba3b-291ce92c14f9`; Mycapssa (octreotide) delayed-release capsules, Chiesi USA, SPL version 6, published 2025-07-28, setid `58d80bc6-bdfb-4908-93e7-aace447c8d1a`. Cited for the indications and usage and Limitations of Use sections quoted above. dailymed.nlm.nih.gov",
+          "primaryUrl": "https://dailymed.nlm.nih.gov/dailymed/",
+          "verified": false
+        }
+      ],
+      "web": {
+        "url": "https://www.getvialwise.com/library/octreotide",
+        "title": "Octreotide (Sandostatin) — what it does, evidence, and safety",
+        "description": "Octreotide (brand names Sandostatin and Mycapssa) is a prescription medicine that turns growth hormone down.",
+        "related": [
+          {
+            "slug": "aod-9604",
+            "name": "AOD-9604",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "hgh",
+            "name": "HGH (Human Growth Hormone) / Somatropin",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "igf-1-lr3",
+            "name": "IGF-1 LR3",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "mgf",
+            "name": "MGF",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "cjc-1295-ipamorelin-blend",
+            "name": "CJC-1295 / Ipamorelin Blend",
+            "reason": "shared research area"
+          },
+          {
+            "slug": "cjc-1295",
+            "name": "CJC-1295",
+            "reason": "shared research area"
+          }
+        ]
+      }
+    },
+    {
       "slug": "orforglipron",
       "name": "Orforglipron",
       "aliases": [
@@ -14985,8 +16056,18 @@
         "description": "Oxytocin is the body's 'love hormone' — best known for driving social bonding, trust, and connection (it also triggers labor contractions and milk letdown).",
         "related": [
           {
+            "slug": "adamax",
+            "name": "Adamax",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "cerebrolysin",
             "name": "Cerebrolysin",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "dsip",
+            "name": "DSIP",
             "reason": "same mechanism class"
           },
           {
@@ -15003,16 +16084,6 @@
             "slug": "selank",
             "name": "Selank",
             "reason": "same mechanism class"
-          },
-          {
-            "slug": "semax",
-            "name": "Semax",
-            "reason": "same mechanism class"
-          },
-          {
-            "slug": "glutathione",
-            "name": "Glutathione",
-            "reason": "shared research area"
           }
         ]
       }
@@ -15237,8 +16308,18 @@
         "description": "P021 is a small, lab-designed peptide studied for brain protection and memory support in Alzheimer's research.",
         "related": [
           {
+            "slug": "adamax",
+            "name": "Adamax",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "cerebrolysin",
             "name": "Cerebrolysin",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "dsip",
+            "name": "DSIP",
             "reason": "same mechanism class"
           },
           {
@@ -15255,16 +16336,6 @@
             "slug": "selank",
             "name": "Selank",
             "reason": "same mechanism class"
-          },
-          {
-            "slug": "semax",
-            "name": "Semax",
-            "reason": "same mechanism class"
-          },
-          {
-            "slug": "glutathione",
-            "name": "Glutathione",
-            "reason": "shared research area"
           }
         ]
       }
@@ -15656,8 +16727,18 @@
         "description": "PE-22-28 is a short, lab-designed peptide studied for depression. In mouse studies, it produces antidepressant-like effects noticeably faster than standard…",
         "related": [
           {
+            "slug": "adamax",
+            "name": "Adamax",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "cerebrolysin",
             "name": "Cerebrolysin",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "dsip",
+            "name": "DSIP",
             "reason": "same mechanism class"
           },
           {
@@ -15674,16 +16755,6 @@
             "slug": "selank",
             "name": "Selank",
             "reason": "same mechanism class"
-          },
-          {
-            "slug": "semax",
-            "name": "Semax",
-            "reason": "same mechanism class"
-          },
-          {
-            "slug": "glutathione",
-            "name": "Glutathione",
-            "reason": "shared research area"
           }
         ]
       }
@@ -16745,6 +17816,11 @@
             "reason": "same mechanism class"
           },
           {
+            "slug": "setmelanotide",
+            "name": "Setmelanotide",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "clomiphene-enclomiphene",
             "name": "Clomiphene / Enclomiphene",
             "reason": "shared research area"
@@ -16752,11 +17828,6 @@
           {
             "slug": "gonadorelin",
             "name": "Gonadorelin",
-            "reason": "shared research area"
-          },
-          {
-            "slug": "hcg",
-            "name": "HCG (Human Chorionic Gonadotropin)",
             "reason": "shared research area"
           }
         ]
@@ -17315,18 +18386,18 @@
             "reason": "discussed together in this entry's stacks section"
           },
           {
+            "slug": "adamax",
+            "name": "Adamax",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "cerebrolysin",
             "name": "Cerebrolysin",
             "reason": "same mechanism class"
           },
           {
-            "slug": "oxytocin",
-            "name": "Oxytocin",
-            "reason": "same mechanism class"
-          },
-          {
-            "slug": "p021",
-            "name": "P021",
+            "slug": "dsip",
+            "name": "DSIP",
             "reason": "same mechanism class"
           }
         ]
@@ -17905,18 +18976,18 @@
             "reason": "discussed together in this entry's stacks section"
           },
           {
+            "slug": "adamax",
+            "name": "Adamax",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "cerebrolysin",
             "name": "Cerebrolysin",
             "reason": "same mechanism class"
           },
           {
-            "slug": "oxytocin",
-            "name": "Oxytocin",
-            "reason": "same mechanism class"
-          },
-          {
-            "slug": "p021",
-            "name": "P021",
+            "slug": "dsip",
+            "name": "DSIP",
             "reason": "same mechanism class"
           }
         ]
@@ -18188,6 +19259,200 @@
             "slug": "cjc-1295",
             "name": "CJC-1295",
             "reason": "same mechanism class"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "setmelanotide",
+      "name": "Setmelanotide",
+      "aliases": [
+        "Imcivree",
+        "RM-493",
+        "BIM-22493",
+        "MC4R agonist"
+      ],
+      "category": "Melanocortin-4 receptor (MC4R) agonist",
+      "mechanismClass": "Melanocortin receptor agonist",
+      "researchAreas": [
+        "metabolic-weight",
+        "appetite"
+      ],
+      "status": "FDA-approved prescription drug (Imcivree, Rhythm Pharmaceuticals). Approved for chronic weight management in patients with obesity caused by specific, genetically confirmed defects in the leptin–melanocortin pathway — not for general or common obesity. This is a genuine prescription medicine dispensed through a pharmacy, distinct from the research-supply peptides elsewhere in this library. Specific approved indications, eligible genotypes, and minimum age are set by current FDA labeling and should be read there. WADA status: setmelanotide is not named on the 2026 WADA Prohibited List, and no melanocortin drug class appears on that list (verified directly against the 2026 list text, 2026-08-04). Because setmelanotide holds regulatory approval for human therapeutic use, S0 (Non-Approved Substances) does not capture it — the opposite of the unapproved melanocortins elsewhere in this library, which are captured by S0 precisely because they lack approval. Athletes should still verify current status with their anti-doping organization. Not DEA-scheduled (prescription, non-controlled).",
+      "fdaApproved": true,
+      "recommendedTimeOfDay": "anytime",
+      "lastUpdated": "2026-09-03",
+      "beginner": {
+        "summary": "Setmelanotide (brand name Imcivree) is a prescription medicine that reduces hunger and body weight in people whose obesity is caused by a specific, inherited fault in the brain pathway that controls appetite. It works by switching on a receptor called MC4R that those faults leave under-stimulated. It is FDA-approved, but only for people with a confirmed genetic diagnosis — it is not a treatment for common obesity, and it has not been shown to work in people without those specific gene variants.",
+        "researchFindings": "Setmelanotide has been studied in people born with rare gene faults that break the body's appetite-control pathway. In the two trials that led to approval, 8 of 10 people with POMC deficiency and 5 of 11 with LEPR deficiency lost at least 10% of their body weight over about a year, and reported large drops in hunger. A companion analysis found quality of life improved for most participants. The honest part: these were very small, mostly open-label studies in a rare population, run by the company that makes the drug, and nearly everyone got injection-site reactions and skin darkening. Nothing here says anything about how it would work in ordinary obesity, which it was not tested for.",
+        "evidenceLevel": "FDA-approved drug",
+        "keyTerms": [
+          {
+            "term": "Peptide",
+            "definition": "A short chain of amino acids, the building blocks of proteins. Many compounds in this library are peptides."
+          },
+          {
+            "term": "MC4R (melanocortin-4 receptor)",
+            "definition": "A receptor in the brain that helps set how hungry you feel. When the signals reaching it are too weak, appetite can become very hard to control."
+          },
+          {
+            "term": "POMC / LEPR deficiency",
+            "definition": "Rare inherited conditions in which a gene in the appetite-control pathway does not work, causing severe obesity starting in early childhood. Diagnosis requires genetic testing."
+          },
+          {
+            "term": "Hyperphagia",
+            "definition": "Persistent, extreme hunger that does not settle after eating. It is the core symptom setmelanotide was designed to address."
+          },
+          {
+            "term": "Open-label",
+            "definition": "A study where everyone knows who is getting the drug. It is easier to run than a blinded study but more open to bias, so results carry less weight than a fully blinded trial."
+          }
+        ],
+        "safetyBasics": "Setmelanotide is a prescription drug and should only be used under the care of a clinician who has confirmed an eligible genetic diagnosis. In the published trials, every single participant had injection-site reactions, and skin darkening occurred in every treated patient in a dedicated dermatology study — including darkening of moles and, in red-haired participants, a change in hair color. Because of that, regular skin examinations before and during treatment are recommended in the published literature. It is not named on the WADA Prohibited List and, being an approved medicine, is not captured by the S0 non-approved-substances category — but athletes should verify with their anti-doping organization. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
+      },
+      "disclosures": [
+        "⚠️ This is an approved prescription medicine, not a research peptide. Setmelanotide is dispensed by a pharmacy under a prescription and is used under clinical supervision. The reconstitution and self-dosing workflows used elsewhere in this library do not apply to it. Information here is informational, not medical advice.",
+        "⚠️ Approved only for genetically confirmed disease — not for general obesity. This is the single most important thing to understand about setmelanotide. Its approval rests on trials in people born with specific, rare, genetically confirmed faults in the leptin–melanocortin pathway. It has not been shown to produce meaningful weight loss in people without those variants, and it is not an alternative to the GLP-1 medicines covered elsewhere in this library. Seeing \"MC4R agonist for obesity\" and reading that as a general weight-loss drug is a misreading of the evidence.",
+        "⚠️ Note on evidence quality. The two registration trials were single-arm and open-label, enrolling ten and eleven participants respectively, with only a short blinded placebo-withdrawal window inside a mostly unblinded year.[¹] They were funded by Rhythm Pharmaceuticals, and company employees are co-authors.[¹] This is normal and largely unavoidable in a disease this rare — you cannot run a large blinded trial in a population of a few dozen people worldwide — but it means the evidence base is small and less robust than the trial phase number alone suggests."
+      ],
+      "quickReference": [
+        {
+          "label": "Compound class",
+          "value": "Synthetic cyclic 8-amino-acid melanocortin-4 receptor (MC4R) agonist. Structurally related to the natural melanocortin peptide α-MSH."
+        },
+        {
+          "label": "Supplied as",
+          "value": "Pharmacy-dispensed prescription product. Not a research-supply lyophilized vial. Follow the dispensed product's own instructions."
+        },
+        {
+          "label": "Frequency",
+          "value": "Once daily, subcutaneous, in the registration trials.[¹]"
+        },
+        {
+          "label": "Route",
+          "value": "Subcutaneous injection.[¹]"
+        },
+        {
+          "label": "Onset of action",
+          "value": "Hunger reduction was measured over weeks; the primary weight endpoint was assessed at approximately 1 year. Quality-of-life improvement was detectable as early as week 5.[¹][²]"
+        }
+      ],
+      "about": [
+        "Setmelanotide is a synthetic cyclic octapeptide agonist of the melanocortin-4 receptor (MC4R), developed by Rhythm Pharmaceuticals and marketed as Imcivree.",
+        "Mechanism. Body weight is regulated in part by the leptin–melanocortin pathway: leptin from fat tissue signals through the leptin receptor (LEPR), which drives production of pro-opiomelanocortin (POMC), which is cleaved by the enzyme PCSK1 into melanocortin peptides that activate MC4R and suppress hunger.[¹][⁴] Biallelic loss-of-function variants anywhere along that chain — in `POMC`, `PCSK1`, or `LEPR` — leave MC4R under-stimulated, producing relentless hunger (hyperphagia) and severe obesity from early childhood.[¹][⁴] Setmelanotide bypasses the broken upstream step by activating MC4R directly.",
+        "Evidence quality. The human evidence consists of two pivotal Phase 3 trials and their companion analyses:",
+        "- The registration trials were single-arm, open-label, multicenter studies run across ten hospitals in seven countries, enrolling 10 participants with POMC deficiency and 11 with LEPR deficiency.[¹] After 12 weeks of open-label treatment, participants who had lost at least 5 kg (or ≥5% if under 100 kg) entered an 8-week blinded withdrawal sequence alternating setmelanotide and placebo, then returned to open-label treatment for a further 32 weeks.[¹] At approximately 1 year, 8 of 10 (80%) POMC participants and 5 of 11 (45%) LEPR participants had achieved at least 10% weight loss.[¹] Mean change in the \"most hunger\" score was −27.1% in the POMC trial and −43.7% in the LEPR trial.[¹]\n- A quality-of-life analysis of the same 21 patients found moderate-to-severe baseline impairment, with improvement detectable by week 5; 5 of 6 adults with week-52 scores showed a clinically meaningful improvement.[²] Some patients did not improve, and the authors note that the psychological burden of a rare genetic disease may take longer than a year to shift.[²]\n- A natural-history analysis of 17 patients found that before setmelanotide these individuals sat above the 95th weight percentile throughout childhood and did not achieve durable weight loss from diet, exercise, or surgery.[⁴] This is the context that makes the trial results meaningful: the comparison is not against untried lifestyle change.\n- A dedicated dermatology study followed 5 patients for up to 46 months and found skin pigmentation increased in every treated patient, with darkening of lips and moles, and a change from red to brown hair in red-haired participants.[³] The authors attribute this to off-target activity at the closely related MC1R receptor and emphasize the need for regular skin examinations.[³] No malignant skin changes were seen in that small cohort — which is reassuring but far too small a sample to establish long-term skin-cancer safety.",
+        "Regulatory status (US). FDA-approved as Imcivree, to reduce excess body weight and maintain the reduction long term. Verified against current FDA labeling on DailyMed, 2026-09-08.[⁵] The approved population is broader than a purely genetic one, and the minimum age differs by indication:",
+        "| Population | Minimum age |\n|---|---|\n| Acquired hypothalamic obesity (HO) — acquired, not genetic | 4 years and older |\n| Bardet-Biedl syndrome (BBS) | 2 years and older |\n| POMC, PCSK1 or LEPR deficiency, confirmed by genetic testing showing variants interpreted as pathogenic, likely pathogenic, or of uncertain significance (VUS) | 2 years and older |",
+        "Limitations of Use, from the label: Imcivree is not indicated where POMC/PCSK1/LEPR variants are classified benign or likely benign, nor for other obesity unrelated to acquired HO, BBS or those deficiencies — including obesity associated with other genetic syndromes and general (polygenic) obesity, \"as IMCIVREE would not be expected to be effective.\"",
+        "Not DEA-scheduled.",
+        "Regulatory status (sport — WADA). Setmelanotide is not named on the 2026 WADA Prohibited List, and no melanocortin drug class appears anywhere on it (checked directly against the list text, 2026-08-04). Because S0 (Non-Approved Substances) applies only to substances with no current approval by any governmental regulatory health authority for human therapeutic use, and setmelanotide holds such approval, S0 does not capture it. This is a useful contrast with the unapproved melanocortin peptides elsewhere in this library, which fall under S0 for exactly that reason — the difference is regulatory approval, not chemistry. Athletes should verify current status with their National Anti-Doping Organization.",
+        "Common research interests. Setmelanotide appears in discussion mainly as (a) the first approved drug to treat obesity by targeting a specific genetic cause rather than the symptom, and (b) a clean demonstration that MC4R activation reduces hunger in humans. Neither of those makes it applicable to obesity without a confirmed pathway defect, which is the only setting it has been tested in."
+      ],
+      "reconstitution": {
+        "diluent": "",
+        "examples": [],
+        "storageBeforeReconstitution": "Per the dispensed product's labeling. Do not extrapolate storage or in-use stability from the research-peptide conventions used elsewhere in this library."
+      },
+      "dosingProtocol": {
+        "startingDose": "Set by prescribing labeling and by the treating clinician, with individual titration. The registration trials used once-daily subcutaneous administration with per-patient dose titration.[¹] No self-directed dose is published in this entry — see below."
+      },
+      "sideEffects": {
+        "common": [
+          "Injection-site reactions — reported in every participant in both trials (10/10 POMC, 11/11 LEPR).[¹]",
+          "Hyperpigmentation / skin darkening — reported in all ten POMC participants,[¹] and confirmed in every patient in the dedicated dermatology follow-up.[³]",
+          "Nausea (5 participants) and vomiting (3 participants) in the POMC trial; nausea in 4 participants and skin disorders in 5 in the LEPR trial.[¹]",
+          "No serious treatment-related adverse events occurred in either trial.[¹]"
+        ],
+        "serious": []
+      },
+      "contraindications": [
+        "This is a prescription medicine. Use outside a prescribed, genetically confirmed, clinically supervised context is outside everything the evidence base covers.",
+        "Obesity without a confirmed pathway defect — setmelanotide has not been shown to work here and this is not an approved use.",
+        "Pre-existing skin lesions, many moles, or personal/family history of skin cancer — caution; documented MC1R-mediated pigmentation changes including darkening of nevi, with baseline and ongoing skin examination recommended in the published literature.[³]",
+        "Other melanocortin-active compounds — caution; setmelanotide already has documented off-target MC1R activity producing skin and hair pigmentation,[³] so combining it with other melanocortin agonists would compound that off-target effect. No data characterize any such combination.",
+        "Pregnancy and lactation — refer to current labeling; not addressed by the trials cited here.",
+        "Pediatric use — the registration trials enrolled participants aged 6 and older; minimum approved age is set by current labeling.",
+        "Regulatory note (sport): not named on the 2026 WADA Prohibited List and not captured by S0 because it holds regulatory approval. Verify with your anti-doping organization.",
+        "Not DEA-scheduled."
+      ],
+      "firstTimeWalkthrough": [
+        "This is a prescription medicine, not a research-supply peptide. It is started by a clinician after genetic testing confirms an eligible diagnosis. There is no self-directed first-use workflow for this compound, and this library will not construct one.",
+        "If you have been prescribed setmelanotide, follow the instructions supplied with the dispensed product and the direction of your prescriber — not the reconstitution workflow used for research peptides elsewhere in this library.",
+        "Do not use the VialWise reconstitution calculator for this compound. That calculator is built for lyophilized research vials you reconstitute yourself; this is a pharmacy-dispensed product supplied ready to use.",
+        "Ask your prescriber about skin examination before you start and while you continue. Pigmentation increased in every patient in the dedicated dermatology study, including darkening of moles.[³]",
+        "You can still log doses in VialWise to keep a record — but treat the app as a log only. The dose, the titration, and the monitoring are set by your prescriber."
+      ],
+      "citations": [
+        {
+          "index": 1,
+          "reference": "Clément K, van den Akker E, Argente J, Bahm A, Chung WK, Connors H, De Waele K, Farooqi IS, Gonneau-Lejeune J, Gordon G, Kohlsdorf K, Poitou C, Puder L, Swain J, Stewart M, Yuan G, Wabitsch M, Kühnen P. (2020). Efficacy and safety of setmelanotide, an MC4R agonist, in individuals with severe obesity due to LEPR or POMC deficiency: single-arm, open-label, multicentre, phase 3 trials. The Lancet Diabetes & Endocrinology, 8(12):960–970.",
+          "primaryUrl": "https://doi.org/10.1016/S2213-8587(20)30364-8",
+          "identifierLabel": "PMID 33137293 · NCT02896192",
+          "verified": true
+        },
+        {
+          "index": 2,
+          "reference": "Kühnen P, Wabitsch M, von Schnurbein J, Chirila C, Mallya UG, Callahan P, Gnanasakthy A, Poitou C, Krabusch PM, Stewart M, Clément K. (2022). Quality of life outcomes in two phase 3 trials of setmelanotide in patients with obesity due to LEPR or POMC deficiency. Orphanet Journal of Rare Diseases, 17(1):38.",
+          "primaryUrl": "https://doi.org/10.1186/s13023-022-02186-z",
+          "identifierLabel": "PMID 35123544",
+          "verified": true
+        },
+        {
+          "index": 3,
+          "reference": "Kanti V, Puder L, Jahnke I, Krabusch PM, Kottner J, Vogt A, Richter C, Andruck A, Lechner L, Poitou C, Krude H, Gottesdiener K, Clément K, Farooqi IS, Wiegand S, Kühnen P, Blume-Peytavi U. (2021). A Melanocortin-4 Receptor Agonist Induces Skin and Hair Pigmentation in Patients with Monogenic Mutations in the Leptin-Melanocortin Pathway. Skin Pharmacology and Physiology, 34(6):307–316.",
+          "primaryUrl": "https://doi.org/10.1159/000516282",
+          "identifierLabel": "PMID 34058738",
+          "verified": true
+        },
+        {
+          "index": 4,
+          "reference": "Wabitsch M, Farooqi S, Flück CE, Bratina N, Mallya UG, Stewart M, Garrison J, van den Akker E, Kühnen P. (2022). Natural History of Obesity Due to POMC, PCSK1, and LEPR Deficiency and the Impact of Setmelanotide. Journal of the Endocrine Society, 6(6):bvac057.",
+          "primaryUrl": "https://doi.org/10.1210/jendso/bvac057",
+          "identifierLabel": "PMID 35528826",
+          "verified": true
+        },
+        {
+          "index": 5,
+          "reference": "U.S. Food and Drug Administration, current prescribing information for IMCIVREE (setmelanotide) injection, Rhythm Pharmaceuticals, via DailyMed (NLM). SPL version 14, published 2026-04-02, setid `70c3ccf7-4df0-4c75-ba07-fede9970c8d9`; retrieved 2026-09-08. Cited for the indications and usage and Limitations of Use sections quoted above, including the acquired-hypothalamic-obesity indication and the per-indication minimum ages. dailymed.nlm.nih.gov",
+          "primaryUrl": "https://dailymed.nlm.nih.gov/dailymed/",
+          "verified": false
+        }
+      ],
+      "web": {
+        "url": "https://www.getvialwise.com/library/setmelanotide",
+        "title": "Setmelanotide (Imcivree) — what it does, evidence, and safety",
+        "description": "Setmelanotide (brand name Imcivree) is a prescription medicine that reduces hunger and body weight in people whose obesity is caused by a specific, inherited…",
+        "related": [
+          {
+            "slug": "afamelanotide",
+            "name": "Afamelanotide",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "melanotan-ii",
+            "name": "Melanotan II",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "pt-141",
+            "name": "PT-141 (Bremelanotide)",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "adipotide",
+            "name": "Adipotide",
+            "reason": "shared research area"
+          },
+          {
+            "slug": "amycretin",
+            "name": "Amycretin",
+            "reason": "shared research area"
+          },
+          {
+            "slug": "aod-9604",
+            "name": "AOD-9604",
+            "reason": "shared research area"
           }
         ]
       }
@@ -21539,6 +22804,11 @@
         "description": "Thymosin alpha-1 (brand name Zadaxin, generic name thymalfasin) is a synthetic 28-amino-acid peptide best known as an immune-system modulator.",
         "related": [
           {
+            "slug": "kpv",
+            "name": "KPV",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "ll-37",
             "name": "LL-37",
             "reason": "same mechanism class"
@@ -22540,6 +23810,11 @@
         "description": "VIP (vasoactive intestinal peptide) is a natural signaling molecule the body makes throughout the gut, lungs, nerves, and immune system, best known for…",
         "related": [
           {
+            "slug": "kpv",
+            "name": "KPV",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "ll-37",
             "name": "LL-37",
             "reason": "same mechanism class"
@@ -22562,11 +23837,6 @@
           {
             "slug": "gonadorelin",
             "name": "Gonadorelin",
-            "reason": "shared research area"
-          },
-          {
-            "slug": "hcg",
-            "name": "HCG (Human Chorionic Gonadotropin)",
             "reason": "shared research area"
           }
         ]
