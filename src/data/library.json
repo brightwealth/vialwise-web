@@ -343,7 +343,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~. No FDA-approved product exists."
+          "value": "Research-supply lyophilized vials. No FDA-approved product exists."
         },
         {
           "label": "Frequency",
@@ -546,7 +546,7 @@
         },
         {
           "label": "Common product forms",
-          "value": "Lyophilized powder (commonly vials) and pre-made intranasal spray (commonly). Sold \"for research use only.\""
+          "value": "Lyophilized powder ( vials) and pre-made intranasal spray. Sold \"for research use only.\""
         },
         {
           "label": "Route",
@@ -1217,7 +1217,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research/cosmetic-supply lyophilized vials, commonly ~. Sold as a raw ingredient for topical formulation."
+          "value": "Research/cosmetic-supply lyophilized vials. Sold as a raw ingredient for topical formulation."
         },
         {
           "label": "Typical use concentration",
@@ -1430,7 +1430,7 @@
       "disclosures": [
         "⚠️ For research and educational purposes only. AICAR (acadesine) is not approved by the FDA for any indication. Acadesine Phase III clinical development for cardioprotection during CABG surgery (the RED-CABG trial) was terminated for futility in 2010. AICAR is available exclusively as a research compound through unregulated supply chains. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
         "⚠️ AICAR is a nucleoside analog, not a peptide. Unlike the majority of the Vialwise library, AICAR is a small-molecule nucleoside (MW 258.23 Da) that is phosphorylated intracellularly to AICA-ribotide (\"ZMP\"), an AMP-mimic that activates AMP-activated protein kinase (AMPK). This places AICAR mechanistically and pharmacologically distinct from peptide-axis compounds in the library — the cluster context is exercise-mimetic compounds (SLU-PP-332, MOTS-c, AICAR), not the GHS-axis or HPG-axis peptide clusters.",
-        "⚠️ The Narkar 2008 *Cell* \"exercise mimetic\" finding is foundational but is preclinical (mouse) data — the human exercise-mimetic effect has not been demonstrated in published clinical trials. The Narkar 2008 study found that 4 weeks of AICAR alone (/day IP) in sedentary adult mice produced a 44% increase in treadmill running endurance without any exercise training, accompanied by induction of metabolic genes including oxidative-fiber and fatty-acid-oxidation markers.[¹] This is the foundational exercise-mimetic finding that anchored research-community use of AICAR. However: (a) the dose was very high ( in mice translates to ~ in humans by body-surface-area scaling, or ~2.8 grams in a 70-kg adult — far higher than any clinically-studied human acadesine dose); (b) IP administration in mice does not translate cleanly to SC or oral administration in humans; (c) no published human RCT has reproduced the exercise-mimetic effect at translationally-relevant doses. Research-community use of AICAR for exercise-mimetic effects in humans operates on a substantial gap between preclinical and clinical evidence.",
+        "⚠️ The Narkar 2008 *Cell* \"exercise mimetic\" finding is foundational but is preclinical (mouse) data — the human exercise-mimetic effect has not been demonstrated in published clinical trials. The Narkar 2008 study found that 4 weeks of AICAR alone (/day IP) in sedentary adult mice produced a 44% increase in treadmill running endurance without any exercise training, accompanied by induction of metabolic genes including oxidative-fiber and fatty-acid-oxidation markers.[¹] This is the foundational exercise-mimetic finding that anchored research-community use of AICAR. However: (a) the dose was very high ( in mice translates in humans by body-surface-area scaling, or ~2.8 grams in a 70-kg adult — far higher than any clinically-studied human acadesine dose); (b) IP administration in mice does not translate cleanly to SC or oral administration in humans; (c) no published human RCT has reproduced the exercise-mimetic effect at translationally-relevant doses. Research-community use of AICAR for exercise-mimetic effects in humans operates on a substantial gap between preclinical and clinical evidence.",
         "⚠️ AICAR has multiple safety considerations distinct from the peptide-cluster compounds in the library. Three load-bearing pharmacological concerns:\n\n- Cardiac AMPK activation alters myocyte contractility. The Oliveira 2012 *Circulation Research* study established that AICAR-induced AMPK activation in murine cardiomyocytes phosphorylates cardiac troponin I at Ser150, increasing myofilament Ca²⁺ sensitivity, increasing myocyte contractility, and prolonging relaxation — even without changing the amplitude or decay-time-constant of Ca²⁺ transient.[²] The clinical implication is that AICAR alters cardiac contractile function at the molecular level; whether this is beneficial (cardioprotective during ischemia) or concerning (in healthy young athletes) depends on context. The acadesine cardioprotective hypothesis was the basis for the Phase III red-cabg trial; the trial's failure (terminated for futility)[⁴] means the cardioprotective effect did not translate to a clinically-meaningful CABG outcome.\n- Hyperuricemia. AICAR-derived ZMP enters purine metabolism and produces dose-dependent hyperuricemia in published human clinical trials — typically asymptomatic and transient but a recognized lab-monitoring concern.\n- Possible glucose dysregulation. AMPK activation increases glucose uptake into skeletal muscle (GLUT4 translocation) and decreases hepatic gluconeogenesis. In healthy humans these effects are likely subclinical; in individuals with diabetes, glucose-lowering medications, or impaired glucose tolerance, the AMPK-activation pathway may produce unexpected hypoglycemia.",
         "⚠️ WADA-banned under Section S4.4.1 (activators of the AMP-activated protein kinase (AMPK) and PPARδ agonists, within the Metabolic Modulators class S4.4) — a different WADA subsection from the GHS-axis (S2.2.4) and AAS (S1) classes that dominate the rest of the library. The 2026 WADA Prohibited List Section S4.4.1 names \"AICAR\" and \"GW1516\" explicitly among the prohibited metabolic modulators — the verbatim S4.4.1 text reads: *\"Activators of the AMP-activated protein kinase (AMPK), e.g. AICAR and MOTS-c; and Peroxisome Proliferator Activated Receptor δ (PPARδ) agonists, e.g. GW1516 (GW501516).\"*[³] AICAR is a non-Specified Substance, prohibited at all times in and out of competition, and the exercise-mimetic cluster sibling MOTS-c shares this exact subsection (S4.4.1). AICAR has been a high-priority Athlete Biological Passport target since ~2009 following multiple high-profile cycling-sport doping cases — the WADA testing apparatus monitors AICAR/ZMP analytes as part of routine sample analysis. AICAR is one of the substances explicitly identified in the post-Operación Puerto era as having been used by elite endurance athletes."
       ],
@@ -2155,7 +2155,7 @@
       "quickReference": [
         {
           "label": "Common vial sizes",
-          "value": "(most common). Branded pharmaceutical products do not exist — Metabolic Pharmaceuticals' oral pharmaceutical formulation never reached approval."
+          "value": "Branded pharmaceutical products do not exist — Metabolic Pharmaceuticals' oral pharmaceutical formulation never reached approval."
         },
         {
           "label": "Frequency",
@@ -2263,7 +2263,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled compound is AOD-9604 specifically, not \"hGH fragment 176-191.\" The two compounds are related but not identical (see disambiguation callout above), and most published research is on AOD-9604 specifically. If the vendor's label says \"176-191\" without explicit AOD-9604 nomenclature, contact the source before reconstituting.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder. Pay attention to the unit conversion — AOD-9604 is dosed in micrograms, not milligrams. The calculator will handle the conversion; double-check the units field shows \"mcg\" before entering the dose.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is typically per day. Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is per day. Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower doses (typical for AOD-9604), even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
         "Inject subcutaneously, in a standard subcutaneous site such as the abdomen. The morning-fasted timing is the most commonly reported research-community pattern, reflecting the Phase 2b trial's protocol. Rotate sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies.",
         "Log the dose, the site, and a baseline note (subjective body composition, hunger, energy) immediately after administration. Track over the cycle — AOD-9604's effects, if present, are typically gradual rather than acute, with most-noticeable change typically reported in the 4–8 week window."
@@ -2441,7 +2441,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials (commonly cited around). No FDA-approved branded product exists."
+          "value": "Research-supply lyophilized vials (commonly cited). No FDA-approved branded product exists."
         },
         {
           "label": "Frequency",
@@ -2728,7 +2728,7 @@
         "Dosing tradeoff in detail. This is the single most important practical consideration unique to the blend format. The single-compound research-community typical dose ranges differ by approximately 10x:",
         "| Compound | Single-compound typical dose range | Source |\n|---|---|---|\n| BPC-157 | | See [bpc-157.md](./bpc-157.md) |\n| TB-500 | | See [tb-500.md](./tb-500.md) |",
         "A 1:1 pre-mixed blend cannot satisfy both ranges simultaneously. Common blend dosing patterns therefore fall into three groups:",
-        "1. BPC-anchored dosing ( of each per dose): the TB-500 component is well below its single-compound range. This is the most common research-community pattern for regular use.\n2. TB-anchored dosing ( of each per dose): the BPC-157 component is significantly above its single-compound range. Less commonly reported and increases per-dose cost substantially.\n3. Compromise dosing (~ of each per dose): a midpoint that exceeds typical BPC-157 and falls short of typical TB-500. Sometimes reported during loading phases.",
+        "1. BPC-anchored dosing ( of each per dose): the TB-500 component is well below its single-compound range. This is the most common research-community pattern for regular use.\n2. TB-anchored dosing ( of each per dose): the BPC-157 component is significantly above its single-compound range. Less commonly reported and increases per-dose cost substantially.\n3. Compromise dosing ( of each per dose): a midpoint that exceeds typical BPC-157 and falls short of typical TB-500. Sometimes reported during loading phases.",
         "No protocol from any of these three patterns is validated in published research. The choice between them is a researcher judgment about which compound's effects are being prioritized."
       ],
       "reconstitution": {
@@ -2899,7 +2899,7 @@
       "quickReference": [
         {
           "label": "Common vial sizes",
-          "value": "(research/compounded). Branded products do not exist — there is no FDA-approved BPC-157 product."
+          "value": "Branded products do not exist — there is no FDA-approved BPC-157 product."
         },
         {
           "label": "Frequency",
@@ -3016,7 +3016,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency matches what the Vialwise calculator is set to.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder. Pay attention to the unit conversion — BPC-157 is dosed in micrograms, not milligrams. The calculator will handle the conversion; double-check the units field shows \"mcg\" before entering the dose.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is typically per day. Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is per day. Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower doses, even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
         "Inject subcutaneously, ideally at or near the area of intended effect (for tendon/ligament work) or in a standard subcutaneous site such as the abdomen (for general use). Rotate sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies.",
         "Log the dose, the site, and a baseline note (subjective injury status, mood, sleep) immediately after administration. Track over the cycle — BPC-157's effects, if present, are typically gradual rather than acute."
@@ -3189,7 +3189,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~. Also sold in Russia as an oral capsule supplement. No FDA-approved product."
+          "value": "Research-supply lyophilized vials. Also sold in Russia as an oral capsule supplement. No FDA-approved product."
         },
         {
           "label": "Frequency",
@@ -3386,7 +3386,7 @@
       "disclosures": [
         "⚠️ For research and educational purposes only. Cagrilintide (alone or in the CagriSema fixed-dose combination with semaglutide) is not currently FDA-approved for any indication. Novo Nordisk has completed Phase 3a clinical trials with results published in NEJM in 2025;[⁴][⁵] regulatory submission and approval timelines depend on Novo Nordisk strategy. Cagrilintide is not currently available through approved pharmaceutical supply chains. Research-peptide and unregulated GLP-1-cluster supply chains have begun making it available outside the FDA-recognized supply chain. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
         "⚠️ The CagriSema (cagrilintide + semaglutide) Phase 3a results are among the largest weight-loss results in published obesity-pharmacotherapy literature — but Phase 3 results in REDEFINE 1 (20.4%) were modestly below the early-trial expectations (~25%) that drove Novo Nordisk stock volatility in late 2024. Two key data points anchor cagrilintide's clinical relevance:\n\n- REDEFINE 1 (Garvey 2025 NEJM): Phase 3a 68-week trial in 3,417 adults with overweight or obesity without diabetes. Mean body-weight reduction with cagrilintide-semaglutide + = −20.4% vs placebo −3.0% (treatment difference −17.3 percentage points, p<0.001).[⁴]\n- REDEFINE 2 (Davies 2025 NEJM): Phase 3a 68-week trial in 1,206 adults with overweight or obesity and type 2 diabetes. Mean body-weight reduction with cagrilintide-semaglutide = −13.7% vs placebo −3.4% (treatment difference −10.4 percentage points, p<0.001). 73.5% of cagrilintide-semaglutide patients achieved HbA1c ≤6.5% vs 15.9% placebo.[⁵]\n\nContext: Novo Nordisk's published Phase 1b expectations (Enebo 2021, Lancet) reported 17.1% weight loss at 20 weeks with the cagrilintide + semaglutide combination — a result that anchored market expectations of ~25%+ weight loss at the 68-week Phase 3 timepoint.[³] The actual REDEFINE 1 Phase 3 result of 20.4% met the regulatory primary-endpoint significance threshold but was below the most optimistic projections.",
-        "⚠️ Cagrilintide is dosed in milligrams (mg), not micrograms — same as the GLP-1 ra family. Unlike the GHS-axis peptide entries in the library that dose in mcg, cagrilintide doses are typically per weekly injection (the dose used in the REDEFINE 1/2 Phase 3a trials). Cagrilintide is supplied in research-peptide / unregulated GLP-1-cluster supply chains in formats ranging vials. Always verify the units field shows \"mg\" before entering the dose in the Vialwise calculator. Same mg-scale dosing convention as Semaglutide, Tirzepatide, Liraglutide, Retatrutide, and Exenatide.",
+        "⚠️ Cagrilintide is dosed in milligrams (mg), not micrograms — same as the GLP-1 ra family. Unlike the GHS-axis peptide entries in the library that dose in mcg, cagrilintide doses are per weekly injection (the dose used in the REDEFINE 1/2 Phase 3a trials). Cagrilintide is supplied in research-peptide / unregulated GLP-1-cluster supply chains in formats ranging vials. Always verify the units field shows \"mg\" before entering the dose in the Vialwise calculator. Same mg-scale dosing convention as Semaglutide, Tirzepatide, Liraglutide, Retatrutide, and Exenatide.",
         "⚠️ Cagrilintide is mechanistically distinct from the GLP-1 ra family — but the two mechanisms are additive on weight loss. The GLP-1 ra family (Semaglutide, Tirzepatide, Liraglutide, Retatrutide, Exenatide) act primarily at the GLP-1 receptor (Tirzepatide also at the GIP receptor; Retatrutide also at the glucagon receptor) — producing satiety, delayed gastric emptying, and improved glycemic control. Cagrilintide acts at the amylin and calcitonin receptor family — producing complementary satiety signaling and gastric emptying delay through a distinct receptor pathway. The Phase 1b Enebo 2021 and Phase 3 Garvey 2025 / Davies 2025 trials established that the cagrilintide + semaglutide combination produces additive (super-additive in some metrics) weight loss compared to either compound alone.[³][⁴][⁵] CagriSema is the clinical-development manifestation of this additive-mechanism hypothesis.",
         "⚠️ The gastrointestinal-adverse-event burden of CagriSema is substantial. Per the REDEFINE 1 Phase 3a results, gastrointestinal adverse events affected 79.6% of patients in the cagrilintide-semaglutide group vs 39.9% in the placebo group — including nausea, vomiting, diarrhea, constipation, abdominal pain.[⁴] REDEFINE 2 reported 72.5% GI adverse events vs 34.4% placebo.[⁵] Most events were transient and mild-to-moderate in severity. The GI burden of CagriSema is higher than for semaglutide monotherapy — the additive-mechanism benefit on weight loss comes with an additive GI adverse-event signal that is the dominant tolerability concern in clinical practice."
       ],
@@ -3913,7 +3913,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~; also an oral capsule supplement in Russia. No FDA-approved product."
+          "value": "Research-supply lyophilized vials; also an oral capsule supplement in Russia. No FDA-approved product."
         },
         {
           "label": "Frequency",
@@ -4639,7 +4639,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~; also an oral capsule supplement in Russia. No FDA-approved product."
+          "value": "Research-supply lyophilized vials; also an oral capsule supplement in Russia. No FDA-approved product."
         },
         {
           "label": "Frequency",
@@ -5060,7 +5060,7 @@
       },
       "disclosures": [
         "⚠️ For research and educational purposes only. CJC-1295 is not approved by the FDA for any indication. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
-        "⚠️ Precision matters at low doses. CJC-1295 dosing differs substantially between the two forms (see disambiguation callout below). The no-DAC form is dosed in micrograms (typically per dose), placing it firmly in the precision-sensitive draw range where small unit errors translate to large percentage errors. The DAC form is dosed in milligrams (typically per week). Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting — most acutely at the smallest draws in your titration.",
+        "⚠️ Precision matters at low doses. CJC-1295 dosing differs substantially between the two forms (see disambiguation callout below). The no-DAC form is dosed in micrograms ( per dose), placing it firmly in the precision-sensitive draw range where small unit errors translate to large percentage errors. The DAC form is dosed in milligrams ( per week). Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting — most acutely at the smallest draws in your titration.",
         "⚠️ CJC-1295 exists in two forms with very different pharmacokinetics. Do not confuse them. The peptide commonly called \"CJC-1295\" is sold as either:\n\n- CJC-1295 with DAC (Drug Affinity Complex): the full molecule including a maleimidopropionic acid linker that binds covalently to serum albumin. Half-life ≈ 6–8 days. Typical research dosing: per week (usually twice weekly or once weekly). This is the formulation that ConjuChem developed.\n- CJC-1295 without DAC (also called Mod GRF 1-29 or \"Modified GRF (1-29)\"): the same 4-amino-acid GHRH(1-29) substitutions but without the DAC linker. Half-life ≈ 30 minutes (similar to native GHRH). Typical research dosing: per dose, 1–3 times daily (often timed to bedtime and around training).\n\nThe two forms produce very different growth hormone pharmacology: DAC elevates baseline GH and produces a sustained \"GH bleed,\" while no-DAC produces near-physiologic pulsatile GH release. Most published research literature uses the DAC formulation; most research-community use is split between both. Researchers should be explicit with themselves about which form they are using and dose accordingly. This entry treats them as related but distinct compounds and flags inline where a citation refers to one vs the other."
       ],
       "quickReference": [
@@ -5334,7 +5334,7 @@
       },
       "disclosures": [
         "⚠️ For research and educational purposes only. Clomiphene citrate (Clomid) is FDA-approved exclusively for ovulation induction in anovulatory women — not for any male indication. Enclomiphene (the trans-isomer alone) is not FDA-approved for any indication; the Repros Therapeutics Androxal NDA for secondary male hypogonadism received a Complete Response Letter in December 2015 and development was discontinued by 2021. Use of either compound in men — for hypogonadism, infertility, or as a TRT alternative — is off-label and operates outside FDA approval. Information in this entry is informational, not medical advice. Always consult appropriate professional guidance before any protocol decisions.",
-        "⚠️ Clomiphene and enclomiphene are not peptides. This entry exists in the Vialwise library because researchers running TRT-adjacent men's-health protocols frequently use clomiphene or enclomiphene as a TRT alternative (raises endogenous testosterone via hypothalamic-pituitary axis stimulation) or as a fertility-preserving option (preserves spermatogenesis, unlike exogenous testosterone administration). Both compounds are small-molecule triphenylethylene-class selective estrogen receptor modulators (SERMs) — not peptides, not proteins, not injectables. Both are taken as oral tablets (clomiphene: FDA-label tablets, generic widely available; enclomiphene: only available via 503A compounding pharmacies as a single-isomer formulation, typically or capsules). Mechanistically, pharmacologically, and regulatorily they sit in a different category from the rest of the Vialwise library.",
+        "⚠️ Clomiphene and enclomiphene are not peptides. This entry exists in the Vialwise library because researchers running TRT-adjacent men's-health protocols frequently use clomiphene or enclomiphene as a TRT alternative (raises endogenous testosterone via hypothalamic-pituitary axis stimulation) or as a fertility-preserving option (preserves spermatogenesis, unlike exogenous testosterone administration). Both compounds are small-molecule triphenylethylene-class selective estrogen receptor modulators (SERMs) — not peptides, not proteins, not injectables. Both are taken as oral tablets (clomiphene: FDA-label tablets, generic widely available; enclomiphene: only available via 503A compounding pharmacies as a single-isomer formulation or capsules). Mechanistically, pharmacologically, and regulatorily they sit in a different category from the rest of the Vialwise library.",
         "⚠️ The Vialwise calculator is informational, not computational, for clomiphene and enclomiphene. Same framing as the [anastrozole.md](./anastrozole.md) entry — these are oral compounds dosed as whole or split tablets, with no per-injection draw to compute. The calculator's role for clomiphene/enclomiphene is to display the FDA-label and off-label dosing patterns plus the clomiphene-vs-enclomiphene disambiguation and pill-splitting precision considerations.",
         "⚠️ Clomiphene citrate is a racemic mixture of two stereoisomers with substantially different pharmacology — they are not equivalent. This is the most important single piece of information in this entry. Commercial clomiphene citrate (Clomid, Serophene, generic) contains:\n\n- Enclomiphene (the trans-isomer, ~62% of commercial clomiphene; USP range 50–70%) — the \"active\" anti-estrogen. Half-life ~8–10 hours. Peak plasma concentration at ~4 hours. Acts as a relatively pure estrogen-receptor antagonist. Cleared rapidly. This is the isomer that produces the desired hypothalamic-anti-estrogen effect.\n- Zuclomiphene (the cis-isomer, ~38% of commercial clomiphene; USP range 30–50%) — half-life >40 hours, with tissue half-life of several days to a week. Weakly estrogenic (mixed agonist/antagonist with net agonist character at some receptor subtypes). Accumulates substantially with long-term dosing. After prolonged clomiphene use, zuclomiphene predominates in serum — the long-half-life isomer accumulates while the short-half-life enclomiphene clears.\n\nThe clinical implication is meaningful: long-term clomiphene therapy in men effectively becomes long-term zuclomiphene exposure with intermittent enclomiphene peaks. Enclomiphene-only formulations were developed (Androxal) to deliver pure anti-estrogen activity without the accumulating estrogenic zuclomiphene component. The Androxal phase II/III trials demonstrated enclomiphene alone produced testosterone elevation similar to topical testosterone gel while preserving spermatogenesis.[⁷] Despite the regulatory failure (Complete Response Letter 2015, development discontinued 2021), enclomiphene-only formulations are now available via 503A compounding pharmacies for off-label men's-health use. Researchers selecting between racemic clomiphene and enclomiphene-only formulations are choosing on the zuclomiphene-accumulation question.",
         "⚠️ Distinctive US regulatory category for enclomiphene — \"FDA-rejected for the male hypogonadism indication; never-FDA-approved for any indication; available via 503A compounding only.\" Enclomiphene's regulatory history is unusually pointed for a research-community compound: Repros Therapeutics specifically attempted to advance enclomiphene through the FDA approval process for the male hypogonadism indication; the company completed two Phase 3 trials (ZA-301, ZA-302); the FDA canceled the November 2015 advisory committee meeting before it convened due to bioanalytical method validation concerns; the FDA issued a Complete Response Letter in December 2015 citing inadequate Phase 3 study design (active-comparator vs placebo-controlled trial requirements) and recommending additional Phase 3 trials; Repros did not resubmit; the company rebranded as Androclus Therapeutics and eventually wound down the program. Enclomiphene's failure to gain FDA approval was not for safety reasons — the safety profile in the Repros trials was favorable — but for adequacy-of-clinical-benefit-demonstration reasons under FDA's regulatory framework.[²] This is a regulatory category not previously represented in the library: a compound with a substantial Phase 3 development program that was specifically rejected by the FDA for the indication of interest, and that researchers continue to use off-label via 503A compounding.",
@@ -5472,7 +5472,7 @@
         "Establish baseline labs before starting. For research-community men's-health use, baseline labs typically include: total testosterone, free testosterone, SHBG, sensitive estradiol (LC-MS/MS preferred), LH, FSH, prolactin (to rule out prolactinoma), CBC, and (for sustained use) liver function tests and bone density (DEXA).",
         "Choose between racemic clomiphene and enclomiphene-only based on the intended duration. For short-term use (≤6 months), racemic clomiphene is the standard option (FDA-approved, generic, low cost). For sustained use (>6 months) where zuclomiphene accumulation matters, enclomiphene-only compounded formulations are an alternative — at higher cost and outside FDA-approved supply chain.",
         "Choose a starting dose pattern matched to the indication context. For TRT-alternative use of racemic clomiphene: every other day is the most-common starting pattern (the Shabsigh 2005 / Moskovic-Katz 2012 pattern from the published men's-health literature; used again in the 2026 Kim cohort).[³][⁵][¹⁰] For TRT-alternative use of enclomiphene: daily or daily are the Phase II trial doses.[⁷] Titrate by serum testosterone response at 4–8 weeks.",
-        "Use whole tablets or compounded capsules where possible. Pill-splitting accuracy degrades substantially below half-tablet (~ from a clomiphene tablet); pharmacy-compounded sub-25-mg formulations are the more accurate option.",
+        "Use whole tablets or compounded capsules where possible. Pill-splitting accuracy degrades substantially below half-tablet ( from a clomiphene tablet); pharmacy-compounded sub-25-mg formulations are the more accurate option.",
         "Recheck labs at 4–8 weeks after starting. Adjust dose based on serum testosterone, LH, FSH, and estradiol response. Monitor for visual changes — discontinue immediately for any visual symptoms.",
         "Periodic monitoring — total testosterone, estradiol, CBC, liver function quarterly; bone density (DEXA) at baseline and annually for sustained use."
       ],
@@ -5642,7 +5642,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~; also an oral capsule supplement in Russia. No FDA-approved product."
+          "value": "Research-supply lyophilized vials; also an oral capsule supplement in Russia. No FDA-approved product."
         },
         {
           "label": "Frequency",
@@ -5841,7 +5841,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~; also an oral capsule supplement in Russia. No FDA-approved product."
+          "value": "Research-supply lyophilized vials; also an oral capsule supplement in Russia. No FDA-approved product."
         },
         {
           "label": "Frequency",
@@ -6288,7 +6288,7 @@
       },
       "dosingProtocol": {
         "startingDose": "subcutaneous, once daily, within 30–60 minutes of intended sleep onset",
-        "maximumDose": "Human clinical trials have used DSIP at doses up to 25 nmol/kg (approximately) intravenously, which corresponds to ~ for a 70 kg adult.[¹][²] Subcutaneous doses in research-community use rarely exceed per dose. Toxicology data at higher doses is essentially absent in the modern Western literature."
+        "maximumDose": "Human clinical trials have used DSIP at doses up to 25 nmol/kg intravenously, which corresponds for a 70 kg adult.[¹][²] Subcutaneous doses in research-community use rarely exceed per dose. Toxicology data at higher doses is essentially absent in the modern Western literature."
       },
       "stacks": {
         "combinations": [
@@ -6342,7 +6342,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible (typically white to off-white), no signs of damage or temperature exposure during shipping. Confirm the labeled potency matches what the Vialwise calculator is set to.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder. The reconstituted solution should be clear and colorless.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is typically per dose. Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is per dose. Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower doses (typical for DSIP at most reconstitution scenarios), even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
         "Inject subcutaneously into the abdomen, rotating sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies. Pre-bed (within 30–60 minutes of intended sleep onset) is the most-commonly-reported timing in research-community sleep protocols.",
         "Log the dose, the site, the time relative to sleep onset, and a baseline note (subjective sleep quality, time to sleep onset, number of nighttime awakenings, morning grogginess) immediately after administration. Track over the cycle — DSIP's effects, if present, typically build across multiple consecutive nights rather than appearing acutely on the first night, per the clinical trial pattern.[¹]",
@@ -6775,7 +6775,7 @@
       },
       "dosingProtocol": {
         "startingDose": "",
-        "maximumDose": "Khavinson group studies have used Epitalon at doses up to ~ for 10-day courses in Russian clinical settings without reported adverse effects. Western research-community use rarely exceeds these dose ranges. Toxicology data at higher doses is essentially absent in the published Western literature."
+        "maximumDose": "Khavinson group studies have used Epitalon at doses for 10-day courses in Russian clinical settings without reported adverse effects. Western research-community use rarely exceeds these dose ranges. Toxicology data at higher doses is essentially absent in the published Western literature."
       },
       "stacks": {
         "combinations": [
@@ -6825,7 +6825,7 @@
       "firstTimeWalkthrough": [
         "Verify product authenticity, labeled potency, and specific sequence (AEDG). Some research-community materials use \"Epitalon\" interchangeably with the related parent extract Epithalamin or with sequence-variant compounds. The canonical Khavinson Epitalon sequence is Ala-Glu-Asp-Gly (AEDG) — confirm with your source.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall; allow full dissolution (1–2 minutes with gentle inversion). Should be clear after dissolution.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time researchers, that is typically per dose per the Russian clinical course protocol.",
+        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time researchers, that is per dose per the Russian clinical course protocol.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark.",
         "Inject subcutaneously. The course-based protocol typically uses morning or evening dosing — timing relative to circadian rhythm has been studied in some Khavinson-group work but is not consistently established as load-bearing.",
         "Plan the course structure upfront: 10–20 days on, 30–180 days off. Decide before starting whether you intend a single course, a 6-month repeat, or an annual repeat. Continuous daily Epitalon outside the course-based pattern is not the published Khavinson framework.",
@@ -8224,7 +8224,7 @@
       "quickReference": [
         {
           "label": "Common vial sizes (injectable)",
-          "value": "(research/compounded). Branded pharmaceutical injectable products do not exist."
+          "value": "Branded pharmaceutical injectable products do not exist."
         },
         {
           "label": "Common topical concentrations",
@@ -8355,7 +8355,7 @@
         "Confirm the product is GHK-cu (the copper complex), not bare GHK peptide. Some research suppliers sell the unbound tripeptide separately from the copper-bound complex; the two have substantially different mechanisms (the copper-binding role is central to GHK-cu's biological activity per the published literature). Vendor labels should specify the form; if unclear, contact the source before reconstituting.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder. The reconstituted solution should be pale to medium blue/blue-green; this color is normal for the copper-peptide complex.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is typically per day. Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is per day. Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower doses (typical for GHK-cu at most reconstitution scenarios), even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
         "Inject subcutaneously into the abdomen, rotating sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies. Bedtime injection is the most-commonly-reported timing in research-community protocols.",
         "Log the dose, the site, and a baseline note (subjective skin/hair status, recovery, joint comfort if relevant) immediately after administration. Track over the cycle — GHK-cu's effects, if present, are typically gradual rather than acute, with most-noticeable change typically reported in the 4–8 week window."
@@ -9144,7 +9144,7 @@
       "disclosures": [
         "⚠️ For research and educational purposes only. GLOW is a compounded research-peptide blend; no FDA-approved GLOW product exists. Information in this entry is informational, not medical advice. Always confirm dose calculations and consult appropriate professional guidance before any protocol decisions.",
         "⚠️ Composition reflects the most-cited research-community GLOW formulation ( total per vial). The canonical GLOW blend formulation referenced across multiple research-peptide vendors and compounding-pharmacy sources is: GHK-cu + BPC-157 + TB-500 = total per vial. GLOW is essentially KLOW minus KPV — same three-peptide healing/regeneration core without the α-MSH-derived anti-inflammatory tripeptide. Some GLOW formulations vary (different total weights, different ratios, occasional component substitutions). Researchers should confirm the specific formulation of their actual product against the vial label and Certificate of Analysis before using this entry's dosing math. Component cross-references: [GHK-cu](./ghk-cu.md), [BPC-157](./bpc-157.md), [TB-500](./tb-500.md). For comparison: [KLOW](./klow.md) covers the four-component variant with KPV.",
-        "⚠️ Mismatched-range blend — same dosing-tradeoff framing as KLOW. Per the blend taxonomy established for the [BPC-157/TB-500 blend entry](./bpc-157-tb-500-blend.md) and inherited by KLOW, GLOW is a mismatched-range blend — the three components have meaningfully different typical research-community dose ranges (GHK-cu ~; BPC-157 ~; TB-500 ~). At the canonical per-vial ratio, dosing decisions for GLOW require accepting that at least some component will be outside its standalone \"ideal\" range at any given total-blend dose. Researchers should be explicit about which component they are prioritizing dosing-wise.",
+        "⚠️ Mismatched-range blend — same dosing-tradeoff framing as KLOW. Per the blend taxonomy established for the [BPC-157/TB-500 blend entry](./bpc-157-tb-500-blend.md) and inherited by KLOW, GLOW is a mismatched-range blend — the three components have meaningfully different typical research-community dose ranges (GHK-cu; BPC-157; TB-500). At the canonical per-vial ratio, dosing decisions for GLOW require accepting that at least some component will be outside its standalone \"ideal\" range at any given total-blend dose. Researchers should be explicit about which component they are prioritizing dosing-wise.",
         "⚠️ Component-level WADA and FDA caveats compound across the blend. Same regulatory situation as KLOW. WADA: BPC-157 is listed under S0 (Non-Approved Substances), prohibited at all times and explicitly named on the 2026 Prohibited List; TB-500 is listed under S2.3 (Growth Factors). A blend inherits its most restrictive component, so GLOW is unambiguously prohibited in WADA-tested sport. FDA 503A (as of 2026-07-18): BPC-157 and TB-500 were removed from 503A bulks list Category 2 in April 2026 — this is a transitional gray area, not approval and not a green light to compound — and were voted on at the PCAC meeting held July 23, 2026, with FDA briefing materials proposing against their addition; FDA has published no minutes, vote results, or determination as of 2026-09-03, and a PCAC recommendation is advisory and non-binding. GHK-cu is on a separate track: its 503A nomination was withdrawn in April 2026, with PCAC review scheduled for February 2027. GLOW therefore inherits these unresolved regulatory complications and should not be used by athletes in WADA-tested sport."
       ],
       "quickReference": [
@@ -9380,7 +9380,7 @@
         },
         {
           "label": "Common formulations",
-          "value": "Oral GSH supplements (free GSH): per capsule, multiple manufacturers. Liposomal GSH (improved bioavailability): typically per dose. Sublingual GSH preparations also available. IV GSH: per infusion at wellness clinics. Inhaled GSH (nebulized): per dose, 1–2 times daily, used in cystic fibrosis research contexts."
+          "value": "Oral GSH supplements (free GSH): per capsule, multiple manufacturers. Liposomal GSH (improved bioavailability): per dose. Sublingual GSH preparations also available. IV GSH: per infusion at wellness clinics. Inhaled GSH (nebulized): per dose, 1–2 times daily, used in cystic fibrosis research contexts."
         },
         {
           "label": "Frequency",
@@ -9614,7 +9614,7 @@
       "disclosures": [
         "⚠️ For research and educational purposes only. Gonadorelin (Lutrepulse, Factrel) was FDA-approved historically for primary hypothalamic amenorrhea (Lutrepulse) and diagnostic GnRH stimulation testing (Factrel) but both products were voluntarily withdrawn from the US commercial market for commercial reasons. It is currently available via compounding pharmacies in the US for off-label use — primarily as a TRT adjunct. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
         "⚠️ Precision matters at low doses. Gonadorelin is dosed in micrograms (mcg), not milligrams. Typical research-community / TRT-adjunct doses ( per dose) at typical reconstitution concentrations ( vial / 1 mL BAC water =) produce small draws in the range on a U-100 syringe. At those draw sizes, even a one-unit error is a meaningful percentage of the dose. Always verify draws against the in-app calculator. The precision concern is comparable to BPC-157, GHK-cu, mt-II, and igf-1 lr3.",
-        "⚠️ Pulsatile vs continuous administration produces opposite effects — this is the load-bearing pharmacological detail. Gonadorelin's mechanism critically depends on the administration pattern:\n\n- Pulsatile administration (every 90–120 minutes, mimicking endogenous GnRH pulse pattern) → physiologic LH and FSH release → testicular function stimulation in men, ovulation induction in women. This is the original Lutrepulse FDA-approved use case (delivered via Zyklomat / OmniPod portable infusion pump for primary hypothalamic amenorrhea).\n- Continuous administration or single high-dose administration → GnRH receptor downregulation/desensitization → suppression of LH and FSH release → suppression of testicular function. This is the basis for the FDA-approved GnRH agonist drugs (leuprolide / Lupron, triptorelin, goserelin) used for prostate cancer, endometriosis, central precocious puberty, and GnRH agonist-suppression contexts.\n\nResearch-community TRT-adjunct dosing (typically SC 2–3× weekly) sits between these extremes — frequent enough to provide meaningful LH/FSH stimulation, but not as frequent as the every-90–120-minute pulsatile pump that produces the strongest physiologic response. The published clinical evidence for fertility induction (Lutrepulse, congenital hypogonadotropic hypogonadism trials) used true pulsatile-pump administration; the research-community 2–3×-weekly dosing pattern is a practical compromise that does not directly correspond to the published trial regimens. Researchers using gonadorelin for TRT-adjunct purposes should be explicit with themselves about this evidence-base / dosing-regimen mismatch.",
+        "⚠️ Pulsatile vs continuous administration produces opposite effects — this is the load-bearing pharmacological detail. Gonadorelin's mechanism critically depends on the administration pattern:\n\n- Pulsatile administration (every 90–120 minutes, mimicking endogenous GnRH pulse pattern) → physiologic LH and FSH release → testicular function stimulation in men, ovulation induction in women. This is the original Lutrepulse FDA-approved use case (delivered via Zyklomat / OmniPod portable infusion pump for primary hypothalamic amenorrhea).\n- Continuous administration or single high-dose administration → GnRH receptor downregulation/desensitization → suppression of LH and FSH release → suppression of testicular function. This is the basis for the FDA-approved GnRH agonist drugs (leuprolide / Lupron, triptorelin, goserelin) used for prostate cancer, endometriosis, central precocious puberty, and GnRH agonist-suppression contexts.\n\nResearch-community TRT-adjunct dosing ( SC 2–3× weekly) sits between these extremes — frequent enough to provide meaningful LH/FSH stimulation, but not as frequent as the every-90–120-minute pulsatile pump that produces the strongest physiologic response. The published clinical evidence for fertility induction (Lutrepulse, congenital hypogonadotropic hypogonadism trials) used true pulsatile-pump administration; the research-community 2–3×-weekly dosing pattern is a practical compromise that does not directly correspond to the published trial regimens. Researchers using gonadorelin for TRT-adjunct purposes should be explicit with themselves about this evidence-base / dosing-regimen mismatch.",
         "⚠️ The \"HCG-alternative\" use case context: a 2021–2023 supply-disruption-driven shift, not a fully evidence-equivalent substitution. Gonadorelin's recent surge in research-community popularity is largely driven by HCG supply disruptions that began in early 2021 and persisted through 2023 (regulatory and manufacturing issues affected HCG availability through US retail and compounding pharmacies). Compounding pharmacies offered gonadorelin as a substitute because (a) gonadorelin is on the FDA approved-API list and is legally compoundable under 503A; (b) it stimulates the same downstream LH-driven testicular function that HCG stimulates, just upstream (at the pituitary, vs HCG's direct LH-receptor agonism at the testes). However, the substitution is mechanistically and clinically distinct, not equivalent: HCG directly stimulates Leydig cells (bypasses the pituitary entirely); gonadorelin works through the pituitary and depends on intact pituitary somatotroph function. Patients with pituitary dysfunction will not respond to gonadorelin but will respond to HCG. Subjective patient reports are mixed — some research-community sources describe gonadorelin as \"providing comparable benefits\" while others report patients on gonadorelin \"have not felt the desired effects.\" Researchers selecting gonadorelin specifically for fertility preservation during TRT should weigh that the strongest published clinical evidence (Zhang 2019, congenital hypogonadotropic hypogonadism cohorts) used pulsatile-pump administration, not the 2–3×-weekly research-community pattern.[⁵]",
         "⚠️ WADA-banned in regulated sport — explicitly named under Section S2.2.1 (Testosterone-stimulating peptides in males). The 2026 WADA Prohibited List Section S2.2.1 names *\"gonadotrophin-releasing hormone (GnRH, gonadorelin) and its agonist analogues (e.g. buserelin, deslorelin, goserelin, histrelin, leuprorelin, nafarelin and triptorelin)\"* alongside chorionic gonadotrophin (CG / HCG), luteinizing hormone (LH), and kisspeptin and its agonist analogues.[⁶] This is the same WADA subsection as HCG — the S2.2.1 framework covers all peptides that stimulate testosterone production via the upstream HPG axis. Prohibited at all times, in-competition and out-of-competition. Note the regulatory irony: compounding pharmacies are offering gonadorelin specifically because kisspeptin is not approved for compounding under California state regulations, while gonadorelin IS — but both compounds sit in the same WADA S2.2.1 category and are equally prohibited in regulated sport.[⁶]"
       ],
@@ -9730,7 +9730,7 @@
         "Not DEA-scheduled."
       ],
       "firstTimeWalkthrough": [
-        "Confirm prescription / source legitimacy. In the US, gonadorelin requires a prescription dispensed through a 503A compounding pharmacy. Verify the source and that the compounded gonadorelin matches the labeled potency (typically or in 2 mL or 5 mL multidose vials).",
+        "Confirm prescription / source legitimacy. In the US, gonadorelin requires a prescription dispensed through a 503A compounding pharmacy. Verify the source and that the compounded gonadorelin matches the labeled potency ( or in 2 mL or 5 mL multidose vials).",
         "Verify vial integrity. Liquid solution should be clear and colorless; no signs of damage, cloudiness, or temperature exposure.",
         "Confirm storage. Compounding-pharmacy gonadorelin is typically dispensed pre-reconstituted; refrigerate immediately on receipt. Lyophilized vials (less common) require BAC-water reconstitution before first use.",
         "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time research-community / TRT-adjunct users: starting twice weekly is a common tolerability strategy. Verify the units field shows \"mcg\" before entering the dose.",
@@ -9879,7 +9879,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "and lyophilized powder vials (Pregnyl, Novarel, generic compounded). Single-dose pre-filled formulations also exist (Ovidrel ≈ recombinant)."
+          "value": "and lyophilized powder vials (Pregnyl, Novarel, generic compounded). Single-dose pre-filled formulations also exist (Ovidrel recombinant)."
         },
         {
           "label": "Frequency",
@@ -9901,7 +9901,7 @@
       "about": [
         "HCG (human chorionic gonadotropin) is a 244-amino-acid heterodimeric glycoprotein hormone, not a small peptide. The molecule consists of two non-covalently linked subunits: an α subunit (92 amino acids — shared with the pituitary glycoprotein hormones LH, FSH, and TSH) and a β subunit (145 amino acids — HCG-specific, with substantial structural homology to the LH β subunit). HCG is produced naturally by the syncytiotrophoblast cells of the placenta during pregnancy; the molecule's namesake biological role is supporting the corpus luteum during early pregnancy. Pharmacologically, HCG functions as an LH analog at the LHCG receptor — in males, this stimulates Leydig-cell testosterone production; in females, it triggers ovulation when administered at the appropriate point in the menstrual cycle.",
         "Pharmacological identity vs LH. HCG and LH bind the same receptor (LHCG-R) and produce highly similar downstream effects (testosterone production via Leydig cells, ovulation/luteinization via theca/granulosa cells). HCG has a substantially longer half-life than LH (~32–33 hours subcutaneous vs ~30 minutes for endogenous LH), which makes it a more practical pharmaceutical agent. Most therapeutic uses of HCG could conceptually be substituted with LH if a long-acting LH preparation existed; HCG's longer half-life is the reason it is the dominant agent in clinical practice.",
-        "Regulatory status (US). HCG is FDA-approved under multiple NDAs spanning multiple branded products and routes:\n- Pregnyl (Organon, BLA 017692, originally approved 1974) — IM, urinary-derived hCG, for cryptorchidism, hypogonadotropic hypogonadism in males, and ovulation induction[⁴]\n- Novarel (Ferring, BLA 017016, originally approved 1974) — IM, urinary-derived hCG, same indications as Pregnyl[⁵]\n- Ovidrel / Ovitrelle (EMD Serono, BLA 021149, approved 2000) — SC, recombinant choriogonadotropin alfa ( pre-filled syringe ≈), specifically for ovulation induction\n- Profasi (Serono, historical) — discontinued in the US\n- Generic compounded HCG is widely available through compounding pharmacies for off-label uses (TRT adjunct, fertility recovery)",
+        "Regulatory status (US). HCG is FDA-approved under multiple NDAs spanning multiple branded products and routes:\n- Pregnyl (Organon, BLA 017692, originally approved 1974) — IM, urinary-derived hCG, for cryptorchidism, hypogonadotropic hypogonadism in males, and ovulation induction[⁴]\n- Novarel (Ferring, BLA 017016, originally approved 1974) — IM, urinary-derived hCG, same indications as Pregnyl[⁵]\n- Ovidrel / Ovitrelle (EMD Serono, BLA 021149, approved 2000) — SC, recombinant choriogonadotropin alfa ( pre-filled syringe), specifically for ovulation induction\n- Profasi (Serono, historical) — discontinued in the US\n- Generic compounded HCG is widely available through compounding pharmacies for off-label uses (TRT adjunct, fertility recovery)",
         "Availability note. Branded urinary-derived products (Pregnyl, Novarel), recombinant Ovidrel, and generic hCG remain manufactured (not discontinued), but urinary-derived products have seen intermittent shortages / inconsistent availability since roughly 2020 (Novarel in particular). FDA enforcement has curtailed compounded hCG supply, shifting demand onto the FDA-approved products — so availability can vary by product and period.",
         "Not FDA-approved for weight loss. HCG is not FDA-approved for weight loss or obesity. The FDA and the FTC have acted against over-the-counter drug products labeled \"homeopathic\" HCG and marketed for weight loss — issuing warning letters and classifying such products as unapproved and illegally marketed — and the FDA states the available evidence does not support the safety or efficacy of HCG for weight loss (FDA, [\"Questions and Answers on HCG Products for Weight Loss\"](https://www.fda.gov/drugs/medication-health-fraud/questions-and-answers-hcg-products-weight-loss)). This is a regulatory fact about those products, not a claim about any individual's use.",
         "HCG is not a DEA controlled substance. Unlike testosterone (Schedule III under the Anabolic Steroid Control Act), HCG is not scheduled under federal law. It is prescription-only but does not carry the controlled-substance regulatory framework. The off-label use of HCG for TRT-adjunct testicular preservation, fertility recovery, and PCT is widely practiced under prescriber supervision in the US.",
@@ -10174,7 +10174,7 @@
       "disclosures": [
         "⚠️ For research and educational purposes only. Hexarelin (examorelin) is not approved by the FDA for any indication. Mediolanum Farmaceutici discontinued clinical development before market approval. It is available exclusively as a research peptide through unregulated supply chains. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
         "⚠️ Precision matters at low doses. Hexarelin is dosed in micrograms (mcg), not milligrams. Typical research-community doses ( per dose) at typical reconstitution concentrations ( vial / 1 mL BAC water = =) produce small draws in the range on a U-100 syringe. Lower-concentration setups ( / 2 mL =) produce draws — generally easier precision. Always verify draws against the in-app calculator. Same precision concern as Ipamorelin and the other GHS-class peptides.",
-        "⚠️ Hexarelin has high acute GH-stimulating potency among the older GHRPs, but its tolerability profile limits sustained use. Three load-bearing pharmacological detrents distinguish hexarelin from the cleaner ghrelin-receptor-agonist alternatives:\n\n- Dose-dependent cortisol elevation. The Massoud 1996 dose-response study found cortisol elevation begins at hexarelin doses ≥ IV (a step increase to ~40% above baseline at this dose).[³] At typical research-community SC doses (~ in a 70-kg adult), cortisol elevation is a meaningful pharmacological concern.\n- Dose-dependent prolactin elevation. The same Massoud 1996 study found PRL elevation at all doses tested, with maximum response (~180% rise from baseline) IV.[³] Sustained elevation is a particular concern in research-community contexts where hexarelin is used long-term for muscle/recovery purposes.\n- GH-response tachyphylaxis (research-community reports) vs the published cortisol-axis finding. Research-community reports — unverified, not from published trials — cite GH-response decline of 50–80% within 2–4 weeks of daily use. The one published chronic-dosing study measured something different: in the Rahim 1999 study (twice-daily SC for 16 weeks), participants' cortisol-AUC response decreased from baseline (1506 ± 77 nmol/L/h) to week 16 (1222 ± 92 nmol/L/h — a ~19% reduction), returning to baseline (1586 ± 58 nmol/L/h) 4 weeks after discontinuation.[⁴] That is a pituitary-adrenal-axis adaptation, not a direct measurement of GH tachyphylaxis — Rahim did not measure GH response, and the authors judged the cortisol-AUC change unlikely to be of clinical significance, concluding that over-stimulation of the pituitary-adrenal axis and prolactin secretion did not occur. The two figures should not be equated.\n\nThe Massoud 1996 study also established that low-dose hexarelin combined with GHRH(1-29)NH2 produces massive synergistic GH release without cortisol elevation and with minimal prolactin elevation.[³] This finding is the basis for combining hexarelin with a GHRH analog (CJC-1295 no-DAC, sermorelin, tesamorelin) at low doses rather than running hexarelin alone at higher doses — the synergistic combination produces stronger GH response with cleaner side-effect profile.",
+        "⚠️ Hexarelin has high acute GH-stimulating potency among the older GHRPs, but its tolerability profile limits sustained use. Three load-bearing pharmacological detrents distinguish hexarelin from the cleaner ghrelin-receptor-agonist alternatives:\n\n- Dose-dependent cortisol elevation. The Massoud 1996 dose-response study found cortisol elevation begins at hexarelin doses ≥ IV (a step increase to ~40% above baseline at this dose).[³] At typical research-community SC doses ( in a 70-kg adult), cortisol elevation is a meaningful pharmacological concern.\n- Dose-dependent prolactin elevation. The same Massoud 1996 study found PRL elevation at all doses tested, with maximum response (~180% rise from baseline) IV.[³] Sustained elevation is a particular concern in research-community contexts where hexarelin is used long-term for muscle/recovery purposes.\n- GH-response tachyphylaxis (research-community reports) vs the published cortisol-axis finding. Research-community reports — unverified, not from published trials — cite GH-response decline of 50–80% within 2–4 weeks of daily use. The one published chronic-dosing study measured something different: in the Rahim 1999 study (twice-daily SC for 16 weeks), participants' cortisol-AUC response decreased from baseline (1506 ± 77 nmol/L/h) to week 16 (1222 ± 92 nmol/L/h — a ~19% reduction), returning to baseline (1586 ± 58 nmol/L/h) 4 weeks after discontinuation.[⁴] That is a pituitary-adrenal-axis adaptation, not a direct measurement of GH tachyphylaxis — Rahim did not measure GH response, and the authors judged the cortisol-AUC change unlikely to be of clinical significance, concluding that over-stimulation of the pituitary-adrenal axis and prolactin secretion did not occur. The two figures should not be equated.\n\nThe Massoud 1996 study also established that low-dose hexarelin combined with GHRH(1-29)NH2 produces massive synergistic GH release without cortisol elevation and with minimal prolactin elevation.[³] This finding is the basis for combining hexarelin with a GHRH analog (CJC-1295 no-DAC, sermorelin, tesamorelin) at low doses rather than running hexarelin alone at higher doses — the synergistic combination produces stronger GH response with cleaner side-effect profile.",
         "⚠️ Hexarelin vs Ipamorelin — third GHS-axis entry warrants explicit cluster context. The library now has three ghrelin-receptor-agonist entries with substantially different pharmacology:\n\n- Ipamorelin — pentapeptide; the cleanest GHRP for clinical use; minimal cortisol/prolactin elevation at any dose; minimal tachyphylaxis. The default research-community choice for sustained GH-axis stimulation.\n- Hexarelin (this entry) — hexapeptide; high acute potency; dose-dependent cortisol/prolactin elevation; meaningful tachyphylaxis with sustained dosing. Generally not the preferred choice for sustained use but used in research-community contexts for its high acute potency and the cardioprotective preclinical evidence.\n- MK-677 / Ibutamoren — non-peptide oral small-molecule ghrelin agonist; very long half-life (~24 hours); CHF-safety-signal concern in elderly populations (Adunsky 2011 phase 2b DSMB termination); active phase 3 program at Lumos Pharma.\n\nThe \"alphabet soup\" of older GHRPs (GHRP-1, GHRP-2/pralmorelin, GHRP-3, GHRP-4, GHRP-5, GHRP-6, hexarelin/examorelin) all share the ghrelin-receptor-agonist mechanism but differ in potency, half-life, cortisol/prolactin selectivity, and tachyphylaxis profile. Hexarelin sits at the high-potency end of this older-GHRP family and is the only one in the Vialwise library; the others are not currently in the active pipeline (deferred to v2). Ipamorelin emerged as the modern default because it kept the GH-stimulating potency while substantially improving the side-effect-profile selectivity.",
         "⚠️ WADA-banned — explicitly named under Section S2.2.4 (Growth Hormone Releasing Factors → GHRP subsection) using the INN spelling \"examorelin (hexarelin)\". The 2026 WADA Prohibited List Section S2.2.4 names *\"GH-releasing peptides (GHRPs) [e.g. alexamorelin, examorelin (hexarelin), GHRP-1, GHRP-2 (pralmorelin), GHRP-3, GHRP-4, GHRP-5 and GHRP-6]\"*.[⁶] Same WADA subsection (S2.2.4) as Ipamorelin, CJC-1295, Sermorelin, Tesamorelin, and MK-677. Prohibited at all times. Note the INN-vs-research-name distinction: WADA uses \"examorelin\" (INN) with parenthetical \"(hexarelin)\"; research-community use almost exclusively uses \"hexarelin.\" Same compound."
       ],
@@ -10474,7 +10474,7 @@
         "⚠️ HGH is a 191-amino-acid polypeptide hormone — technically a peptide but structurally distinct from the small peptides that dominate the rest of this library. This entry exists because researchers running peptide protocols frequently use HGH (alongside testosterone, GH-secretagogue stacks, GLP-1 agonists, AOD-9604, and other compounds covered elsewhere in this library). Mechanistically, HGH is the endogenous ligand at the GH receptor that the GHRH analogs (CJC-1295, sermorelin, tesamorelin) and GH secretagogues (Ipamorelin, MK-677) ultimately stimulate — exogenous HGH bypasses the upstream pituitary release pathway and acts directly. Researchers should be explicit with themselves about which compound class they are using.",
         "⚠️ Federal distribution restrictions — different from testosterone's Schedule III but similar consequences. HGH (somatropin) is not formally classified under DEA Schedule III of the Controlled Substances Act. However, the Anabolic Steroid Control Act of 1990 amended the Federal Food, Drug, and Cosmetic Act to apply penalties analogous to Schedule III anabolic steroids to the distribution of human growth hormone, codified at 21 USC 333(e). Specifically, distribution of HGH for any use other than treatment of a disease or other recognized medical condition where such use has been authorized by the Secretary of Health and Human Services is a federal criminal offense, with penalties including up to 5 years imprisonment for a first offense and up to 10 years where the offense involves a person under 18. This means the legal framework for HGH is stricter in some respects than for testosterone — testosterone is Schedule III but has a broader range of legal off-label medical uses, while HGH's \"FDA-approved indication\" requirement is statutorily narrower. Distribution of HGH for anti-aging, athletic performance, body composition, or research-community use without an FDA-approved indication is illegal under federal law.",
         "⚠️ Multiple FDA-approved products with substantially different reconstitution, dose units, and delivery devices. HGH is sold under 10+ FDA-approved branded products. The most common include:\n\n- Genotropin (Pfizer, cartridge + reconstitution + pen device) — most widely prescribed\n- Humatrope (Eli Lilly, cartridge + reconstitution + pen device)\n- Norditropin (Novo Nordisk, pre-filled solution pen — no reconstitution required, ready-to-inject)\n- Saizen (EMD Serono, cartridge + reconstitution + pen) — all presentations discontinued per the FDA Purple Book (BLA 019764); the licence stands but the product is no longer marketed\n- Omnitrope (Sandoz, cartridge + reconstitution + pen)\n- Zomacton (Ferring, vial + reconstitution + pen or syringe)\n- Serostim (EMD Serono, vial + reconstitution + syringe — specifically labeled for HIV-associated wasting)\n- Zorbtive (EMD Serono, vial + reconstitution — specifically labeled for short bowel syndrome) — discontinued per the FDA Purple Book (BLA 020604)\n- Long-acting weekly products (newer formulations):\n - Sogroya / somapacitan (Novo Nordisk, weekly SC) — albumin-binder modification. In Feb 2026 the FDA approved somapacitan for pediatric idiopathic short stature, small-for-gestational-age, and Noonan syndrome, giving it the broadest indication set among the long-acting GH products.\n - Skytrofa / lonapegsomatropin (Ascendis, weekly SC) — TransCon prodrug\n - Ngenla / somatrogon (Pfizer, weekly SC) — CTP modification\n\nThe pharmacokinetics, dose units (mg vs IU), reconstitution requirements, and delivery devices differ substantially across these products. The Vialwise calculator's role for HGH is conversion of dose target (mg or IU) into draw volume at the labeled concentration — same architecture as the other peptide entries, but with brand-specific complexity around device-based delivery (pens) vs vial-and-syringe. Researchers should be explicit with themselves about which product they are using and follow that product's specific labeling.",
-        "⚠️ Three distinct dose contexts — different doses, different evidence bases, different regulatory contexts. HGH appears in three meaningfully distinct contexts:\n\n1. FDA-approved indication treatment (TRT-equivalent for the GH axis) — adult GHD or pediatric GHD treatment per FDA labels. Dose ranges: ~ starting (adult);/day (pediatric). Goal: replacement to mid-normal IGF-1 range; titrated to symptoms, IGF-1 labs, and side effects (edema, joint pain, glucose tolerance). This is the FDA-approved use case and the use case supported by the largest RCT evidence base — primarily the Yuen 2019 AACE/ACE guideline framework[¹] and the Molitch 2011 Endocrine Society guideline.[²]\n2. Off-label \"anti-aging\" use — operates outside the FDA-approved indication, outside DEA prescription authority, and outside the published RCT evidence base for that population. The Rudman 1990 NEJM trial[³] sparked an entire \"anti-aging clinic\" industry but reported significant side effects (carpal tunnel, gynecomastia, glucose intolerance) at supraphysiologic doses, and subsequent literature has not validated a clinical anti-aging benefit. Distribution of HGH for anti-aging is specifically illegal under 21 USC 333(e).\n3. Research-community / performance use — supraphysiologic doses (typically) for athletic performance, body composition, or injury recovery; widely encountered in bodybuilding contexts. Operates outside the FDA-approved indication and outside the published RCT efficacy/safety data; explicitly illegal under federal law.\n\nResearchers should be explicit with themselves about which dose context applies and what evidence base + regulatory framework supports their specific use."
+        "⚠️ Three distinct dose contexts — different doses, different evidence bases, different regulatory contexts. HGH appears in three meaningfully distinct contexts:\n\n1. FDA-approved indication treatment (TRT-equivalent for the GH axis) — adult GHD or pediatric GHD treatment per FDA labels. Dose ranges: starting (adult);/day (pediatric). Goal: replacement to mid-normal IGF-1 range; titrated to symptoms, IGF-1 labs, and side effects (edema, joint pain, glucose tolerance). This is the FDA-approved use case and the use case supported by the largest RCT evidence base — primarily the Yuen 2019 AACE/ACE guideline framework[¹] and the Molitch 2011 Endocrine Society guideline.[²]\n2. Off-label \"anti-aging\" use — operates outside the FDA-approved indication, outside DEA prescription authority, and outside the published RCT evidence base for that population. The Rudman 1990 NEJM trial[³] sparked an entire \"anti-aging clinic\" industry but reported significant side effects (carpal tunnel, gynecomastia, glucose intolerance) at supraphysiologic doses, and subsequent literature has not validated a clinical anti-aging benefit. Distribution of HGH for anti-aging is specifically illegal under 21 USC 333(e).\n3. Research-community / performance use — supraphysiologic doses for athletic performance, body composition, or injury recovery; widely encountered in bodybuilding contexts. Operates outside the FDA-approved indication and outside the published RCT efficacy/safety data; explicitly illegal under federal law.\n\nResearchers should be explicit with themselves about which dose context applies and what evidence base + regulatory framework supports their specific use."
       ],
       "quickReference": [
         {
@@ -10487,7 +10487,7 @@
         },
         {
           "label": "FDA-approved adult GHD dosing[¹][²][⁴][⁵]",
-          "value": "Starting: ~ SC, no weight-based titration. Increase at 1–2 month intervals. Goal: mid-normal IGF-1 range; rarely exceeds. Some labels use weight-based starting (e.g., Genotropin/week → ~ for a 70 kg adult, divided into 6–7 daily SC injections)."
+          "value": "Starting: SC, no weight-based titration. Increase at 1–2 month intervals. Goal: mid-normal IGF-1 range; rarely exceeds. Some labels use weight-based starting (e.g., Genotropin/week → for a 70 kg adult, divided into 6–7 daily SC injections)."
         },
         {
           "label": "FDA-approved pediatric GHD dosing[⁴]",
@@ -10785,7 +10785,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply vials commonly or (vendor-dependent; not standardized)."
+          "value": "Research-supply vials or (vendor-dependent; not standardized)."
         },
         {
           "label": "Frequency",
@@ -11284,12 +11284,12 @@
       },
       "disclosures": [
         "⚠️ For research and educational purposes only. Ipamorelin is not approved by the FDA for any indication. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
-        "⚠️ Precision matters at low doses. Ipamorelin is dosed in micrograms (typically per dose), placing typical draws in the range depending on reconstitution. Small dosing errors that look trivial in absolute terms can be significant in percentage terms when starting doses are small. A one-unit mis-draw at a 5-unit dose is a 20% error; the same one-unit error at a 30-unit dose is only 3.3%. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting — most acutely at the smallest draws in your titration."
+        "⚠️ Precision matters at low doses. Ipamorelin is dosed in micrograms ( per dose), placing typical draws in the range depending on reconstitution. Small dosing errors that look trivial in absolute terms can be significant in percentage terms when starting doses are small. A one-unit mis-draw at a 5-unit dose is a 20% error; the same one-unit error at a 30-unit dose is only 3.3%. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting — most acutely at the smallest draws in your titration."
       ],
       "quickReference": [
         {
           "label": "Common vial sizes",
-          "value": "(research/compounded). Branded products do not exist — there is no FDA-approved Ipamorelin product."
+          "value": "Branded products do not exist — there is no FDA-approved Ipamorelin product."
         },
         {
           "label": "Frequency",
@@ -11833,7 +11833,7 @@
       "disclosures": [
         "⚠️ For research and educational purposes only. KLOW is a compounded research-peptide blend; no FDA-approved KLOW product exists. Information in this entry is informational, not medical advice. Always confirm dose calculations and consult appropriate professional guidance before any protocol decisions.",
         "⚠️ Composition reflects the most-cited research-community KLOW formulation ( total per vial). The canonical KLOW blend formulation referenced across multiple research-peptide vendors and compounding-pharmacy sources is: GHK-cu + BPC-157 + TB-500 + KPV = total per vial. Some KLOW formulations vary (different total weights, different ratios, occasional component substitutions). Researchers should confirm the specific formulation of their actual product against the vial label and Certificate of Analysis before using this entry's dosing math — vendor formulations are not standardized and the rationale below assumes the canonical ratio. Component cross-references: [GHK-cu](./ghk-cu.md), [BPC-157](./bpc-157.md), [TB-500](./tb-500.md), [KPV](./kpv.md).",
-        "⚠️ Mismatched-range blend — the dose ratio is fixed at vial-formulation but components have substantially different typical research-community dose ranges. Per the blend taxonomy established for the BPC-157/TB-500 blend entry, KLOW is a mismatched-range blend — the four components have meaningfully different typical research-community dose ranges in their standalone use (GHK-cu typically; BPC-157 typically; TB-500 typically; KPV typically). At the canonical per-vial ratio, dosing decisions for KLOW require accepting that at least some component will be outside its standalone \"ideal\" research-community range at any given total-blend dose. Researchers should be explicit with themselves about which component they are prioritizing dosing-wise.",
+        "⚠️ Mismatched-range blend — the dose ratio is fixed at vial-formulation but components have substantially different typical research-community dose ranges. Per the blend taxonomy established for the BPC-157/TB-500 blend entry, KLOW is a mismatched-range blend — the four components have meaningfully different typical research-community dose ranges in their standalone use (GHK-cu; BPC-157; TB-500; KPV). At the canonical per-vial ratio, dosing decisions for KLOW require accepting that at least some component will be outside its standalone \"ideal\" research-community range at any given total-blend dose. Researchers should be explicit with themselves about which component they are prioritizing dosing-wise.",
         "⚠️ No FDA-approved or published-RCT-validated dosing protocol for KLOW. Like all blend entries in the library, KLOW lacks RCT-grade evidence at any specific dose. The patterns reflect research-community-attributed practice. This is the third blend entry in the library; the [BPC-157/TB-500 blend](./bpc-157-tb-500-blend.md) and [CJC-1295/Ipamorelin blend](./cjc-1295-ipamorelin-blend.md) entries cover analogous frameworks for two-component blends.",
         "⚠️ Component-level WADA and FDA caveats compound across the blend. Two components are WADA-prohibited: BPC-157 under S0 (Non-Approved Substances, prohibited at all times, explicitly named — the most restrictive status in the blend) and TB-500 (a thymosin β4 derivative) under S2.3 (Growth Factors). On the FDA side, no component now carries a live 503A Category 2 designation — GHK-cu's nomination was withdrawn ~April 15, 2026 and BPC-157 was removed from Category 2 ~April 22, 2026 — but three of the four components (BPC-157, TB-500, KPV) were on the FDA pcac 503A Bulks List docket for July 23–24, 2026 and were voted on at that meeting; FDA has published no minutes, vote results, or determination as of 2026-09-03. Removal from Category 2 does not mean these components are approved or straightforwardly compoundable. KLOW therefore inherits these regulatory complications: it should not be used by athletes in WADA-tested sport, and its US compounding-pharmacy supply path remains unsettled pending the July 2026 advisory-committee outcome. Confirm the final PCAC determinations — FDA had published no minutes, vote results, or determination as of 2026-09-03; re-check before App Store submission."
       ],
@@ -12062,7 +12062,7 @@
         },
         {
           "label": "Common formulations",
-          "value": "Oral capsules (most common): typically or per capsule. Topical creams and serums: typically 0.05%–0.5% w/v. Injectable: research-peptide vials lyophilized powder (less commonly encountered)."
+          "value": "Oral capsules (most common): or per capsule. Topical creams and serums: typically 0.05%–0.5% w/v. Injectable: research-peptide vials lyophilized powder (less commonly encountered)."
         },
         {
           "label": "Frequency",
@@ -12186,9 +12186,9 @@
         "Regulatory note (WADA): KPV is not named in the 2026 WADA Prohibited List.[⁵] But not-named is not not-prohibited: WADA's S0 (Non-Approved Substances) category prohibits at all times any pharmacological substance lacking current regulatory approval for human therapeutic use by any governmental health authority — a description KPV fits. Researchers competing in WADA-tested sport should treat KPV as prohibited-by-default under S0 and confirm against the most recent edition before any competitive event."
       ],
       "firstTimeWalkthrough": [
-        "Verify product authenticity and labeled potency. Confirm the capsule labeled potency (typically, or per capsule) matches your intended dose. KPV is a small tripeptide and counterfeit or under-dosed products are a real concern in the research-peptide market — purchase from sources with established reputation and ideally with third-party testing.",
+        "Verify product authenticity and labeled potency. Confirm the capsule labeled potency (or per capsule) matches your intended dose. KPV is a small tripeptide and counterfeit or under-dosed products are a real concern in the research-peptide market — purchase from sources with established reputation and ideally with third-party testing.",
         "Confirm the product is KPV (Lys-Pro-Val), not a different α-MSH-derived peptide. Several other α-MSH-derived peptides exist (notably KPV-22, MSH(11-13)-related variants, and longer melanocortin analogues like mt-II and PT-141 covered in their own library entries). The mechanism, dose range, and indications differ substantially. Vendor labels should specify KPV (Lys-Pro-Val) explicitly; if unclear, contact the source before using.",
-        "For first-time researchers, start at the lower end of the dose range — typically once or twice daily for IBD/systemic anti-inflammatory indications. Increase gradually based on response over 1–2 weeks.",
+        "For first-time researchers, start at the lower end of the dose range — once or twice daily for IBD/systemic anti-inflammatory indications. Increase gradually based on response over 1–2 weeks.",
         "Take orally with or without food — published preclinical work and research-community use have not established a clear food-effect pattern for oral KPV, and PepT1-mediated uptake in the small intestine is the rate-limiting step regardless of food status.",
         "Log the dose, the timing, and a baseline note (subjective inflammatory symptoms — for IBD researchers, that is bowel-movement frequency, urgency, blood, and abdominal discomfort; for skin indications, that is the standard atopic-dermatitis severity tracking). Track over the cycle — KPV's effects, if present, are typically gradual rather than acute, with most-noticeable change typically reported in the 2–4 week window.",
         "After 4 weeks, reassess. If effects are not detectable, consider whether the dose, timing, or compound is the right tool for the inflammatory concern at hand. Researchers managing IBD or other inflammatory conditions should not delay or substitute for established medical care based on KPV response or non-response.",
@@ -13075,7 +13075,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~; also an oral capsule supplement in Russia. No FDA-approved product."
+          "value": "Research-supply lyophilized vials; also an oral capsule supplement in Russia. No FDA-approved product."
         },
         {
           "label": "Frequency",
@@ -13406,7 +13406,7 @@
         "Verify product authenticity and labeled potency.",
         "Confirm the product is LL-37 (37-amino-acid full-length active fragment), not a truncated or modified analog. Several LL-37-derived peptides exist (smaller fragments, mimetic compounds, modified analogs); vendor labels should specify LL-37 (full-length) explicitly.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall. Should be clear after gentle inversion.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time researchers, that is typically per dose, 2–3 times per week.",
+        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time researchers, that is per dose, 2–3 times per week.",
         "Inject subcutaneously, rotating sites per the body map.",
         "Log dose, timing, and subjective response (relevant to the intended indication: wound healing progress, skin condition, immune symptoms, recovery from infection). Track over the cycle.",
         "After 4 weeks, reassess. If effects are not detectable, consider whether the dose, indication, or compound is the right tool."
@@ -13555,7 +13555,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Cosmetic/research-supply lyophilized vials, commonly ~; also sold as pre-diluted cosmetic solutions."
+          "value": "Cosmetic/research-supply lyophilized vials; also sold as pre-diluted cosmetic solutions."
         },
         {
           "label": "Typical use concentration",
@@ -14018,7 +14018,7 @@
         "Melanotan II is a synthetic cyclic heptapeptide analog of α-melanocyte-stimulating hormone (α-MSH), developed at the University of Arizona in the late 1980s and early 1990s by Victor Hruby, Mac Hadley, Robert Dorr, and Norman Levine — the same research group that established the foundational pharmacology of the melanocortin receptor system. The original program aim was to develop stable α-MSH analogs capable of stimulating melanogenesis as a photoprotective strategy — the hypothesis being that increasing baseline melanin density might reduce ultraviolet radiation damage to skin and decrease skin cancer risk. The compound was patented by the University of Arizona and licensed to Competitive Technologies, then to Palatin Technologies for clinical development.[²]",
         "Mechanism. Mt-II is a broad-spectrum melanocortin receptor agonist that activates four of the five melanocortin receptor subtypes:\n- MC1R (skin/hair) — drives melanogenesis (the tanning effect)\n- MC3R and MC4R (CNS) — drive sexual function effects (spontaneous erections, libido elevation), appetite suppression, and energy expenditure\n- MC5R (exocrine glands) — minor role in sebum production and other peripheral effects\n- No significant MC2R binding (MC2R is the adrenocortical ACTH receptor; absence of MC2R activity means mt-II does not produce adrenal stimulation effects)",
         "This broad-spectrum receptor profile distinguishes mt-II from PT-141/bremelanotide (which has the same receptor profile but with different selectivity) and from later-generation selective MC4R agonists like setmelanotide (Imcivree, FDA-approved 2020 for genetic obesity).",
-        "Development history and the bremelanotide pivot. The original Phase I clinical study of mt-II was published in 1996 by Dorr, Lines, Levine, Brooks, Xiang, Hruby, and Hadley as \"Evaluation of melanotan-II, a superpotent cyclic melanotropic peptide in a pilot phase-I clinical study.\"[²] The trial established that mt-II produced reliable tanning at doses around/day SC. This pilot enrolled only 3 male volunteers, and it reported spontaneous penile erections qualitatively (occurring 1–5 hours post-dose, correlated with stretching and yawning) rather than as a proportion — an unanticipated observation that ultimately redirected the entire development program. A quantified figure comes from a later, separate trial: the Wessells 1998 double-blind placebo-controlled crossover study in men with psychogenic erectile dysfunction reported that \"in 8 of 10 men treated with Melanotan-II clinically apparent erections developed.\"[⁷] Palatin Technologies discontinued mt-II development in 2000 in favor of developing bremelanotide (a deaminated metabolite of mt-II with hydroxyl rather than amide C-terminus) specifically for the sexual function indication. Bremelanotide subsequently advanced through FDA approval as Vyleesi (NDA 210557) in June 2019 for hypoactive sexual desire disorder (HSDD) in premenopausal women. Mt-II itself never advanced to NDA submission — the original tanning indication never produced sufficient safety data to support FDA approval, and the program's redirection to bremelanotide left mt-II as an abandoned development candidate. See [pt-141.md](./pt-141.md) for the bremelanotide entry.",
+        "Development history and the bremelanotide pivot. The original Phase I clinical study of mt-II was published in 1996 by Dorr, Lines, Levine, Brooks, Xiang, Hruby, and Hadley as \"Evaluation of melanotan-II, a superpotent cyclic melanotropic peptide in a pilot phase-I clinical study.\"[²] The trial established that mt-II produced reliable tanning at doses /day SC. This pilot enrolled only 3 male volunteers, and it reported spontaneous penile erections qualitatively (occurring 1–5 hours post-dose, correlated with stretching and yawning) rather than as a proportion — an unanticipated observation that ultimately redirected the entire development program. A quantified figure comes from a later, separate trial: the Wessells 1998 double-blind placebo-controlled crossover study in men with psychogenic erectile dysfunction reported that \"in 8 of 10 men treated with Melanotan-II clinically apparent erections developed.\"[⁷] Palatin Technologies discontinued mt-II development in 2000 in favor of developing bremelanotide (a deaminated metabolite of mt-II with hydroxyl rather than amide C-terminus) specifically for the sexual function indication. Bremelanotide subsequently advanced through FDA approval as Vyleesi (NDA 210557) in June 2019 for hypoactive sexual desire disorder (HSDD) in premenopausal women. Mt-II itself never advanced to NDA submission — the original tanning indication never produced sufficient safety data to support FDA approval, and the program's redirection to bremelanotide left mt-II as an abandoned development candidate. See [pt-141.md](./pt-141.md) for the bremelanotide entry.",
         "Regulatory status (US — current). Mt-II is illegal to market, sell, or purchase for human consumption in the United States. The FDA has issued multiple warning letters to companies marketing mt-II as a \"tanning injection,\" and has pursued border seizures and website takedowns of online sellers. Specific FDA enforcement actions include warning letters to Melanocorp and proceedings against Edward Manookian (Docket FDA-2015-N-4169).[¹] mt-II is not FDA-approved for any indication and is not available through any legal pharmaceutical or compounding-pharmacy channel in the US. All mt-II in current US use is obtained through unregulated research-peptide supply chains, with substantial variability in product purity and potency.",
         "Regulatory status (international). Mt-II is similarly restricted for human use in the UK (MHRA), Australia (TGA), New Zealand, and several other regulated markets. Australia is now the strictest market: beyond the explicit consumer-warning advisory issued in 2023, the TGA reclassified melanotan II from Schedule 4 to Schedule 9 (prohibited substance) in February 2026, and in May 2026 issued 27 infringement notices totalling approximately AUD $101,412 to an individual alleged to have supplied melanotan II.[¹²] Enforcement in Australia is therefore active and current, not merely advisory. The compound has no human-use approval in any major Western regulatory framework. The \"Barbie drug\" media nickname (referencing the tanning + appetite-suppression + libido side-effect cluster) has produced periodic media attention to mt-II's underground use.",
         "Regulatory status (sport — WADA). Mt-II is not listed on the WADA 2026 Prohibited List — direct PDF grep confirms absence of melanotan, melanocortin, MSH, and bremelanotide from the canonical document.[¹³] This is consistent with melanocortin receptor agonists not fitting any WADA prohibited category. Fifth negative-WADA-listing entry in the library (joining GHK-cu, PT-141, Liraglutide, Thymosin α1).",
@@ -14325,7 +14325,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly or. Also sold in a PEGylated form (PEG-MGF) marketed for longer duration — a separate, distinct product. No FDA-approved product exists."
+          "value": "Research-supply lyophilized vials or. Also sold in a PEGylated form (PEG-MGF) marketed for longer duration — a separate, distinct product. No FDA-approved product exists."
         },
         {
           "label": "Frequency",
@@ -14940,7 +14940,7 @@
         "Verify product authenticity and labeled potency.",
         "Confirm the product is MOTS-c (16-amino-acid sequence MRWQEMGYIFYPRKLR), not a different mitochondrial-derived peptide. Several MDPs exist (Humanin, SHLPs, others) with different sequences and pharmacological profiles. Vendor labels should specify MOTS-c explicitly.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above).",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time researchers, that is typically per dose, 2–3 times per week.",
+        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time researchers, that is per dose, 2–3 times per week.",
         "Inject subcutaneously, rotating sites per the body map. Morning dosing is most commonly reported in research-community protocols, often pre-exercise on training days.",
         "Log dose, timing, and subjective response (energy, exercise tolerance, glucose levels if monitoring, sleep quality, recovery). Track over the cycle — MOTS-c's effects, if present, build over weeks of consistent dosing rather than acutely.",
         "After 4 weeks, reassess. If effects are not detectable, consider whether the dose, timing, or compound is the right tool for the application at hand."
@@ -15084,7 +15084,7 @@
         },
         {
           "label": "Common formulations",
-          "value": "Oral NMN (nicotinamide mononucleotide): per capsule, multiple manufacturers. Oral NR (nicotinamide riboside): per capsule, often as Niagen. Sublingual NMN/NR preparations also available. IV NAD+ infusions: typically per infusion at wellness clinics, administered over 2–4 hours. Subcutaneous NAD+ preparations: vials from compounding pharmacies."
+          "value": "Oral NMN (nicotinamide mononucleotide): per capsule, multiple manufacturers. Oral NR (nicotinamide riboside): per capsule, often as Niagen. Sublingual NMN/NR preparations also available. IV NAD+ infusions: per infusion at wellness clinics, administered over 2–4 hours. Subcutaneous NAD+ preparations: vials from compounding pharmacies."
         },
         {
           "label": "Frequency",
@@ -15780,7 +15780,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research/supplement-supply lyophilized vials, commonly ~; also an oral capsule supplement. No FDA-approved product."
+          "value": "Research/supplement-supply lyophilized vials; also an oral capsule supplement. No FDA-approved product."
         },
         {
           "label": "Frequency",
@@ -16193,7 +16193,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~. No FDA-approved product exists."
+          "value": "Research-supply lyophilized vials. No FDA-approved product exists."
         },
         {
           "label": "Frequency",
@@ -16439,7 +16439,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~; also an oral capsule supplement in Russia. No FDA-approved product."
+          "value": "Research-supply lyophilized vials; also an oral capsule supplement in Russia. No FDA-approved product."
         },
         {
           "label": "Frequency",
@@ -16653,7 +16653,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~. No FDA-approved product exists."
+          "value": "Research-supply lyophilized vials. No FDA-approved product exists."
         },
         {
           "label": "Frequency",
@@ -16847,7 +16847,7 @@
       "disclosures": [
         "⚠️ For research and educational purposes only. Pinealon is not approved by the FDA or any major Western regulatory agency as a pharmaceutical drug for any indication. Information in this entry is informational, not medical advice. Always confirm dose calculations and consult appropriate professional guidance before any protocol decisions.",
         "⚠️ The Khavinson short-peptide framework is concentrated within a single research tradition with limited independent replication. The bulk of the Pinealon (and broader Khavinson-peptide) literature comes from Vladimir Khavinson's group at the St. Petersburg Institute of Bioregulation and Gerontology, with co-authors from a relatively small set of collaborating institutions. This is structurally similar to the BPC-157 / Sikiric-lab citation-concentration pattern flagged elsewhere in the library, but more extreme — the Khavinson framework spans approximately 50 years of Russian gerontology research that has produced limited independent replication outside the original research tradition. The proposed mechanism (direct peptide-DNA interaction modulating gene expression in tissue-specific patterns) is theoretically interesting but is not consistent with mainstream pharmacological understanding of how short peptides interact with cells, and the Western primary-source evidence supporting the mechanism is limited. Researchers should be explicit with themselves about the asymmetric evidence base — strong claims rest on a narrow research tradition.",
-        "⚠️ Oral bioavailability claims are unusually strong for a tripeptide. Khavinson peptides are characterized by their developers as orally bioavailable due to the small molecular size (3–4 amino acids), permitting passage through the intestinal epithelium with intact biological activity. This claim contradicts general pharmacological understanding — most peptides are degraded by gastric and intestinal proteases before systemic absorption, with very limited fraction reaching circulation intact. The oral bioavailability claim is supported by some published work from the Khavinson group but has not been characterized in mainstream pharmacokinetic studies in the Western literature. The practical implication for researchers: the most-commonly-reported research-community Pinealon administration route is oral capsules at relatively low doses (typically per capsule, 1–2 capsules daily), with the rationale that small peptides retain activity even at low oral bioavailability fractions because the active metabolites (free amino acids in tissue-specific ratios) themselves modulate gene expression. Researchers should hold this rationale loosely — it is theoretically plausible at very low dose levels but is not validated by independent pharmacokinetic studies.",
+        "⚠️ Oral bioavailability claims are unusually strong for a tripeptide. Khavinson peptides are characterized by their developers as orally bioavailable due to the small molecular size (3–4 amino acids), permitting passage through the intestinal epithelium with intact biological activity. This claim contradicts general pharmacological understanding — most peptides are degraded by gastric and intestinal proteases before systemic absorption, with very limited fraction reaching circulation intact. The oral bioavailability claim is supported by some published work from the Khavinson group but has not been characterized in mainstream pharmacokinetic studies in the Western literature. The practical implication for researchers: the most-commonly-reported research-community Pinealon administration route is oral capsules at relatively low doses ( per capsule, 1–2 capsules daily), with the rationale that small peptides retain activity even at low oral bioavailability fractions because the active metabolites (free amino acids in tissue-specific ratios) themselves modulate gene expression. Researchers should hold this rationale loosely — it is theoretically plausible at very low dose levels but is not validated by independent pharmacokinetic studies.",
         "⚠️ Mechanism — \"peptide-DNA direct interaction\" is a contested framing. The Khavinson framework proposes that short peptides (3–4 amino acids) penetrate cell membranes and interact directly with specific DNA sequences to modulate gene expression in tissue-specific patterns. This proposed mechanism is unusual from a mainstream molecular biology perspective — short peptides are not typical transcription factors and do not have established sequence-specific DNA binding domains comparable to canonical transcription factors. Some published work from the Khavinson group has reported peptide-DNA binding studies; independent replication outside the originating research tradition is limited. The \"peptide-DNA direct interaction\" framing should be treated as a research-community hypothesis rather than as established pharmacology — it is the dominant framing in Khavinson-peptide research-community materials but is not consistent with mainstream biology textbook treatments."
       ],
       "quickReference": [
@@ -16857,7 +16857,7 @@
         },
         {
           "label": "Common formulations",
-          "value": "Oral capsules (most common in research-community use): typically per capsule. Russian clinical formulation comes as oral capsules. Research-peptide injectable: less commonly encountered; lyophilized vials."
+          "value": "Oral capsules (most common in research-community use): per capsule. Russian clinical formulation comes as oral capsules. Research-peptide injectable: less commonly encountered; lyophilized vials."
         },
         {
           "label": "Frequency",
@@ -16903,7 +16903,7 @@
       },
       "dosingProtocol": {
         "startingDose": "",
-        "maximumDose": "Khavinson group studies have used Pinealon at doses up to ~ per dose without reported adverse effects. Toxicology data at higher doses is essentially absent in the published Western literature."
+        "maximumDose": "Khavinson group studies have used Pinealon at doses per dose without reported adverse effects. Toxicology data at higher doses is essentially absent in the published Western literature."
       },
       "stacks": {
         "combinations": [
@@ -17061,7 +17061,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~. No FDA-approved product exists."
+          "value": "Research-supply lyophilized vials. No FDA-approved product exists."
         },
         {
           "label": "Frequency",
@@ -17445,7 +17445,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~; also an oral capsule supplement in Russia. No FDA-approved product."
+          "value": "Research-supply lyophilized vials; also an oral capsule supplement in Russia. No FDA-approved product."
         },
         {
           "label": "Frequency",
@@ -17931,10 +17931,6 @@
       ],
       "quickReference": [
         {
-          "label": "Common vial sizes",
-          "value": ""
-        },
-        {
           "label": "Frequency",
           "value": "Once weekly subcutaneous"
         },
@@ -18222,7 +18218,7 @@
       },
       "disclosures": [
         "⚠️ For research and educational purposes only. Selank is not approved by the FDA or any major Western regulatory agency as a pharmaceutical drug for any indication. Information in this entry is informational, not medical advice. Always confirm dose calculations and consult appropriate professional guidance before any protocol decisions.",
-        "⚠️ Precision matters at low doses. Selank is dosed in micrograms per dose for both the intranasal (~ per spray, several sprays per day) and the injectable (~ per dose) routes. At the small-volume injectable form (typical reconstitution in 5 mL →, producing draws in the range on a U-100 syringe), even a one-unit error is a meaningful percentage of the dose. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting.",
+        "⚠️ Precision matters at low doses. Selank is dosed in micrograms per dose for both the intranasal ( per spray, several sprays per day) and the injectable ( per dose) routes. At the small-volume injectable form (typical reconstitution in 5 mL →, producing draws in the range on a U-100 syringe), even a one-unit error is a meaningful percentage of the dose. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting.",
         "⚠️ Russian regulatory framework, thinner Western evidence base. Selank's clinical evidence base is predominantly in Russian-language literature, much of which is not PubMed-indexed.[¹] The Russian regulatory framework approved Selank for clinical use as an anxiolytic for generalized anxiety disorder and neurasthenia based on this Russian clinical evidence base. Western (English-language, PubMed-indexed) clinical evidence is much thinner — there is no published large-scale randomized controlled trial of Selank in major Western journals comparable to the FDA-approval-grade evidence for benzodiazepines, SSRIs, or other Western anxiolytics. A 2026-07-18 ClinicalTrials.gov search found zero registered interventional Selank trials. The English-language literature amounts to a small number of studies — including one human resting-state fMRI study in 52 healthy participants[⁶] — alongside a US pharmacology review that characterizes Selank as a poorly studied Russian drug and raises abuse, dependence, and withdrawal considerations.[⁷] Researchers should be explicit with themselves about the asymmetric evidence base when interpreting Selank's effects.",
         "⚠️ Mechanism — multimodal, not fully characterized. Selank's anxiolytic and immunomodulatory effects are attributed to a combination of mechanisms including: modulation of GABAergic neurotransmission gene expression;[²] effects on monoamine neurotransmitter (serotonin, dopamine, noradrenaline) metabolism; effects on the balance of T helper cell cytokines (IL-6, IL-4, IFN-γ); and degradation products that retain biological activity (in particular, the tripeptide Pro-Gly-Pro — PGP — which is the C-terminal addition that distinguishes Selank from native tuftsin and contributes to its in-vivo stability and CNS activity). Unlike benzodiazepines, Selank does not bind gaba-A receptors directly; the GABAergic effects are transcriptional rather than receptor-binding.[²] This is the mechanistic basis for the research-community claim that Selank produces anxiolytic effects without benzodiazepine-class dependence or sedation — a claim that is plausible mechanistically but not validated in long-term controlled human safety trials."
       ],
@@ -18233,7 +18229,7 @@
         },
         {
           "label": "Common formulations",
-          "value": "Intranasal spray (most common — Russian clinical formulation): 0.15% solution, typically delivering ~ per spray. Research-peptide injectable: lyophilized vials are most common; and vials also encountered."
+          "value": "Intranasal spray (most common — Russian clinical formulation): 0.15% solution, typically delivering per spray. Research-peptide injectable: lyophilized vials are most common; and vials also encountered."
         },
         {
           "label": "Frequency",
@@ -18295,7 +18291,7 @@
       },
       "dosingProtocol": {
         "startingDose": "",
-        "maximumDose": "Russian clinical research has used Selank at doses up to ~ intranasally without notable adverse effects. Research-community use rarely exceeds. Toxicology data at higher doses is essentially absent in the published Western literature."
+        "maximumDose": "Russian clinical research has used Selank at doses intranasally without notable adverse effects. Research-community use rarely exceeds. Toxicology data at higher doses is essentially absent in the published Western literature."
       },
       "stacks": {
         "combinations": [
@@ -18352,7 +18348,7 @@
       "firstTimeWalkthrough": [
         "Verify product authenticity and labeled potency. The Russian clinical formulation (Selanc 0.15% nasal spray) is sometimes available via international channels; the research-peptide intranasal preparations are typically reconstituted from injectable stocks at 0.15–0.5% w/v in saline. Confirm the labeled potency matches your intended dose.",
         "Confirm the product is Selank (TKPRPGP), not a different tuftsin analog. Several other tuftsin-derived peptides exist in the research literature; vendor labels should specify Selank or the TKPRPGP sequence explicitly. If unclear, contact the source before using.",
-        "For first-time researchers, start at the lower end of the dose range — 1 spray per nostril (≈ total) once or twice daily. Increase gradually based on response over 1–2 weeks.",
+        "For first-time researchers, start at the lower end of the dose range — 1 spray per nostril ( total) once or twice daily. Increase gradually based on response over 1–2 weeks.",
         "Apply intranasally — 1 spray per nostril, holding the spray bottle vertically and exhaling gently before each spray to avoid pushing the dose down the back of the throat. Inhale gently after the spray to draw the medication onto the nasal mucosa.",
         "Avoid blowing the nose for 15–30 minutes after administration to allow nasal absorption.",
         "Log the dose, the timing, and a baseline note (subjective anxiety, mood, focus, sleep quality) immediately after administration. Track over the cycle — Selank's effects can be acute (anxiolytic effect within 30–60 minutes) but the antiasthenic/cognitive effects build over consecutive days of use, per the 14-day Russian clinical protocol pattern.[¹]",
@@ -18502,7 +18498,7 @@
       "quickReference": [
         {
           "label": "Common vial sizes",
-          "value": "(research/compounded); branded products are pen-only"
+          "value": "branded products are pen-only"
         },
         {
           "label": "Frequency",
@@ -18795,7 +18791,7 @@
       },
       "disclosures": [
         "⚠️ For research and educational purposes only. Semax is not approved by the FDA or any major Western regulatory agency as a pharmaceutical drug for any indication. Information in this entry is informational, not medical advice. Always confirm dose calculations and consult appropriate professional guidance before any protocol decisions.",
-        "⚠️ Precision matters at low doses. Semax is dosed in micrograms per dose for both intranasal (~ per spray, 1–6 sprays per day) and injectable (~ per dose) routes. At small-volume injectable forms (typical reconstitution in 5 mL →, producing draws in the range), even a one-unit error is a meaningful percentage of the dose. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting.",
+        "⚠️ Precision matters at low doses. Semax is dosed in micrograms per dose for both intranasal ( per spray, 1–6 sprays per day) and injectable ( per dose) routes. At small-volume injectable forms (typical reconstitution in 5 mL →, producing draws in the range), even a one-unit error is a meaningful percentage of the dose. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting.",
         "⚠️ Russian regulatory framework, thinner Western evidence base. As with Selank, Semax's clinical evidence base is predominantly in Russian-language literature, much of which is not consistently PubMed-indexed.[¹] The Russian regulatory framework approved Semax for clinical use in stroke recovery and cognitive indications based on this Russian clinical evidence base. Western (English-language, PubMed-indexed) clinical evidence is much thinner — there is no FDA-approval-grade large-scale RCT of Semax for stroke, cognitive disorders, or any other indication in major Western journals. The PubMed-indexed Semax literature is heavily skewed toward preclinical mechanism work (rat models of cerebral ischemia, BDNF/TrkB regulation, transcriptomic studies)[²][³] rather than human clinical evidence. Researchers should be explicit with themselves about the asymmetric evidence base.",
         "⚠️ Mechanism — BDNF/TrkB upregulation and broad gene-expression modulation. Semax's neuroprotective and cognitive effects are attributed primarily to upregulation of brain-derived neurotrophic factor (BDNF) and its signaling receptor TrkB in the hippocampus,[²] alongside broad genome-wide modulation of inflammatory and neurotransmission gene expression in cerebral ischemia models.[³] In animal models of focal cerebral ischemia, Semax administration suppresses inflammatory gene expression and activates neurotransmission gene expression — partially compensating for the gene-expression patterns disrupted during ischemia-reperfusion injury.[³] Semax also rapidly activates serotonergic and dopaminergic brain systems. The original structural design rationale was to create a stable, biologically active analog of the ACTH(4-10) fragment (which has cognitive effects but very short in-vivo half-life) by adding the Pro-Gly-Pro (PGP) C-terminal tripeptide.",
         "⚠️ Sister compound to Selank — designed for complementary use. Semax (cognitive/neuroprotective) and Selank (anxiolytic/immunomodulatory) were developed at the same institution (Institute of Molecular Genetics, Russian Academy of Sciences) and are commonly used together in Russian-nootropic research-community protocols. The two are mechanistically distinct (Semax is BDNF/TrkB-driven; Selank is GABAergic-transcriptional and monoamine-modulatory) but share the same regulatory framework, the same intranasal administration route, and the same Russian institutional research tradition. See [selank.md](./selank.md) for the cluster-coherent sister entry."
@@ -18870,7 +18866,7 @@
       },
       "dosingProtocol": {
         "startingDose": "",
-        "maximumDose": "Russian clinical research has used Semax at total daily doses up to ~ intranasally (1% formulation, multiple doses daily) for acute stroke indications without notable adverse effects.[¹] Research-community use rarely exceeds. Toxicology data at higher doses is essentially absent in the published Western literature."
+        "maximumDose": "Russian clinical research has used Semax at total daily doses intranasally (1% formulation, multiple doses daily) for acute stroke indications without notable adverse effects.[¹] Research-community use rarely exceeds. Toxicology data at higher doses is essentially absent in the published Western literature."
       },
       "stacks": {
         "combinations": [
@@ -18927,7 +18923,7 @@
       "firstTimeWalkthrough": [
         "Verify product authenticity and labeled potency. The Russian clinical formulation comes in 0.1% (cognitive) and 1% (acute stroke neuroprotective) strengths — make sure you have the right concentration for your intended use. Research-peptide intranasal preparations are typically reconstituted from injectable stocks at 0.1–1% w/v in saline.",
         "Confirm the product is Semax (MEHFPGP / ACTH(4-7)PGP), not a different ACTH or melanocortin analog. Several ACTH-derived peptides exist with different sequences and pharmacological profiles. Vendor labels should specify Semax or the MEHFPGP sequence explicitly.",
-        "For first-time researchers (cognitive enhancement context), start at the lower end of the dose range — 1 drop per nostril (≈ total) once or twice daily, using the 0.1% formulation. Increase gradually based on response over 1–2 weeks.",
+        "For first-time researchers (cognitive enhancement context), start at the lower end of the dose range — 1 drop per nostril ( total) once or twice daily, using the 0.1% formulation. Increase gradually based on response over 1–2 weeks.",
         "Apply intranasally — 1 drop or spray per nostril, holding the bottle upright, exhaling gently before each application, then inhaling gently after to draw the medication onto the nasal mucosa.",
         "Avoid blowing the nose for 15–30 minutes after administration to allow nasal absorption.",
         "Log the dose, the timing, and a baseline note (subjective focus, working memory, verbal fluency, motivation, mood, sleep quality) immediately after administration. Track over the cycle — Semax's acute cognitive effects can be detectable within 30–60 minutes; the cumulative neuroprotective and BDNF-mediated effects build over consecutive days.",
@@ -19826,7 +19822,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Cosmetic/research-supply lyophilized vials, commonly ~; also sold as pre-diluted cosmetic solutions."
+          "value": "Cosmetic/research-supply lyophilized vials; also sold as pre-diluted cosmetic solutions."
         },
         {
           "label": "Typical use concentration",
@@ -20737,13 +20733,13 @@
       },
       "disclosures": [
         "⚠️ For research and educational purposes only. TB-500 is not approved by the FDA for any indication and is banned in regulated human and equine sport. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
-        "⚠️ Precision matters at low doses. Small dosing errors that look trivial in absolute terms can be significant in percentage terms when starting doses are small. A one-unit mis-draw at a 5-unit dose is a 20% error; the same one-unit error at a 50-unit dose is only 2%. TB-500 is dosed in milligrams (typically) and produces draws in the range at common reconstitutions, where precision is less acute than for microgram-dosed peptides — but the inverse problem (draw exceeding U-100 syringe capacity at low-concentration reconstitutions) is more common. Always verify draws against the in-app calculator.",
+        "⚠️ Precision matters at low doses. Small dosing errors that look trivial in absolute terms can be significant in percentage terms when starting doses are small. A one-unit mis-draw at a 5-unit dose is a 20% error; the same one-unit error at a 50-unit dose is only 2%. TB-500 is dosed in milligrams and produces draws in the range at common reconstitutions, where precision is less acute than for microgram-dosed peptides — but the inverse problem (draw exceeding U-100 syringe capacity at low-concentration reconstitutions) is more common. Always verify draws against the in-app calculator.",
         "⚠️ TB-500 is not the same molecule as full thymosin beta-4. Most of the published clinical and preclinical literature is on full thymosin beta-4 (Tβ4) — a 43-amino-acid endogenous peptide. TB-500 as commonly sold and used in the research community is a synthetic fragment of Tβ4 — specifically, the N-terminal acetylated 17-23 amino acid sequence, as identified and characterized in published doping-control literature.[⁶] The research community frequently treats TB-500 and full Tβ4 as equivalent; the published literature does not. Claims about TB-500 efficacy that extrapolate from full-Tβ4 trials are making an assumption that should be explicit. This entry treats them as related but distinct compounds and flags inline where a citation refers to full Tβ4 vs TB-500 fragment specifically."
       ],
       "quickReference": [
         {
           "label": "Common vial sizes",
-          "value": "(research/compounded). Branded products do not exist — there is no FDA-approved TB-500 product."
+          "value": "Branded products do not exist — there is no FDA-approved TB-500 product."
         },
         {
           "label": "Frequency",
@@ -20868,7 +20864,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency matches what the Vialwise calculator is set to.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). For typical dosing, default to higher-concentration setups to avoid the overflow-on-single-syringe problem at the upper end of normal dosing. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is typically twice weekly during the loading phase. Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is twice weekly during the loading phase. Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark.",
         "Inject subcutaneously, ideally in or near the area of intended effect (for tendon/ligament work) or in a standard subcutaneous site such as the abdomen (for general use). Rotate sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies.",
         "Log the dose, the site, and a baseline note (subjective injury status, fatigue level, sleep) immediately after administration. Track over the cycle — TB-500's effects, if present, are typically gradual rather than acute."
@@ -21374,7 +21370,7 @@
       "disclosures": [
         "⚠️ For research and educational purposes only. Tesamorelin is FDA-approved as a prescription drug for HIV-associated lipodystrophy with excess visceral abdominal fat. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
         "⚠️ Precision matters at low doses. Tesamorelin is dosed in milligrams at typical reconstitution concentrations producing draws in the range on a U-100 syringe (depending on formulation). At those draw sizes, even a one-unit error is a meaningful percentage of the dose. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting.",
-        "⚠️ Multiple FDA-approved formulations with different reconstitution and dosing. Tesamorelin has been sold under three FDA-approved formulations with substantially different reconstitution and per-dose volume:\n\n- Egrifta (original) — per vial; reconstitute with 2.1 mL diluent → ~; daily SC dose = 2 mL injection (relatively large volume). Discontinued — no longer marketed.\n- Egrifta SV — per vial; reconstitute with 0.5 mL diluent →; daily SC dose = 0.5 mL injection. Being phased out and replaced by Egrifta WR via a manufacturer patient-transition program.\n- Egrifta WR (F8 reformulation, approved March 25, 2025) — final concentration; daily SC dose = 0.16 mL injection (≈ on U-100). The go-forward formulation. Note that \"WR\" refers to weekly reconstitution, not weekly dosing — one reconstituted vial supplies 7 consecutive daily doses.\n- Research-community vial — typically reconstituted with 3 mL BAC water → ~; per-dose draw varies by target dose\n\nMarket-availability note (current as of 2026-07-18). Original Egrifta is discontinued and Egrifta SV is being replaced by Egrifta WR; per the manufacturer, Egrifta SV and Egrifta WR are not substitutable — they differ in concentration, per-dose volume, and reconstitution schedule. A 2024–25 Egrifta SV supply shortage (following a contract-manufacturing shutdown) has since resolved, with distribution resumed in February 2025.[⁵] The formulations have meaningfully different injection volumes and concentration profiles. Researchers should be explicit with themselves about which formulation they are using.",
+        "⚠️ Multiple FDA-approved formulations with different reconstitution and dosing. Tesamorelin has been sold under three FDA-approved formulations with substantially different reconstitution and per-dose volume:\n\n- Egrifta (original) — per vial; reconstitute with 2.1 mL diluent →; daily SC dose = 2 mL injection (relatively large volume). Discontinued — no longer marketed.\n- Egrifta SV — per vial; reconstitute with 0.5 mL diluent →; daily SC dose = 0.5 mL injection. Being phased out and replaced by Egrifta WR via a manufacturer patient-transition program.\n- Egrifta WR (F8 reformulation, approved March 25, 2025) — final concentration; daily SC dose = 0.16 mL injection ( on U-100). The go-forward formulation. Note that \"WR\" refers to weekly reconstitution, not weekly dosing — one reconstituted vial supplies 7 consecutive daily doses.\n- Research-community vial — typically reconstituted with 3 mL BAC water →; per-dose draw varies by target dose\n\nMarket-availability note (current as of 2026-07-18). Original Egrifta is discontinued and Egrifta SV is being replaced by Egrifta WR; per the manufacturer, Egrifta SV and Egrifta WR are not substitutable — they differ in concentration, per-dose volume, and reconstitution schedule. A 2024–25 Egrifta SV supply shortage (following a contract-manufacturing shutdown) has since resolved, with distribution resumed in February 2025.[⁵] The formulations have meaningfully different injection volumes and concentration profiles. Researchers should be explicit with themselves about which formulation they are using.",
         "⚠️ FDA-approved indication is HIV-associated lipodystrophy specifically. Research-community use extends beyond this population. The published RCT efficacy data (Falutz 2007, Falutz 2010 pooled phase 3, Stanley 2014, Stanley 2019) is exclusively in HIV-infected adults with excess abdominal fat. Research-community use of tesamorelin in non-HIV populations (general visceral fat reduction, NAFLD/MASLD, post-incretin-cycle visceral-fat targeting, anti-aging contexts) operates outside the FDA-approved indication and outside the published RCT evidence base for those non-HIV populations. The tesamorelin RCT efficacy data does not necessarily generalize to non-HIV populations — visceral fat accumulation in HIV-lipodystrophy has distinct mechanisms (antiretroviral-related metabolic disruption) that may not parallel general-population visceral adiposity."
       ],
       "quickReference": [
@@ -21886,7 +21882,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~; also an oral capsule supplement in Russia. No FDA-approved product."
+          "value": "Research-supply lyophilized vials; also an oral capsule supplement in Russia. No FDA-approved product."
         },
         {
           "label": "Frequency",
@@ -22116,7 +22112,7 @@
         },
         {
           "label": "Common vial sizes (injectable, US)",
-          "value": "Depo-Testosterone cypionate: and multidose vials. Generic enanthate: typically or. Propionate: typically. (All oil-based — cottonseed oil for cypionate; sesame oil typical for enanthate. Not lyophilized — no reconstitution required; vials come pre-mixed at fixed mg/mL concentration.)"
+          "value": "Depo-Testosterone cypionate: and multidose vials. Generic enanthate: or. Propionate:. (All oil-based — cottonseed oil for cypionate; sesame oil typical for enanthate. Not lyophilized — no reconstitution required; vials come pre-mixed at fixed mg/mL concentration.)"
         },
         {
           "label": "Frequency",
@@ -22242,7 +22238,7 @@
       "firstTimeWalkthrough": [
         "Confirm prescription status and source. In the US, testosterone is a DEA Schedule III controlled substance — legal possession requires an authorized prescription. Verify the source is a licensed pharmacy (or, in research contexts where applicable, an authorized research supply chain). This is a meaningful legal distinction from the unapproved peptides covered elsewhere in this library.",
         "Verify vial integrity and ester identity. Seal intact, oil clear (typically pale yellow to amber depending on the specific oil vehicle), no signs of damage or temperature exposure. Confirm the ester (cypionate, enanthate, propionate, undecanoate, suspension) — the dosing pattern, half-life, and injection interval differ substantially across esters. Confirm the labeled concentration.",
-        "Choose the appropriate syringe. For typical TRT doses at typical concentrations: a U-100 insulin syringe (1 mL) works for doses up to ~. For higher doses or lower concentrations, a 1 mL or 3 mL syringe with a 25–27g needle (IM) or 27–30g needle (SC) is typical.",
+        "Choose the appropriate syringe. For typical TRT doses at typical concentrations: a U-100 insulin syringe (1 mL) works for doses. For higher doses or lower concentrations, a 1 mL or 3 mL syringe with a 25–27g needle (IM) or 27–30g needle (SC) is typical.",
         "Use the Vialwise calculator to confirm exact draw volume. The calculator converts dose target (mg) → draw volume (mL → units) at the vial's concentration. Verify the syringe-size selector matches the syringe in hand (U-100 vs 1 mL vs 3 mL).",
         "Draw the dose. Oil viscosity is meaningfully higher than aqueous reconstituted-peptide solutions — a slower draw is normal. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated draw volume.",
         "Inject — IM or SC. IM technique: standard injection sites are gluteus medius (upper outer quadrant of glute), vastus lateralis (outer thigh), or deltoid (top of shoulder); 25–27g needle, 1.0–1.5 inch length depending on body composition. SC technique: standard SC sites are abdomen (avoiding 2-inch zone around umbilicus), upper outer thigh, or back of upper arm; shorter needle (5/8 inch typical). Rotate sites between injections to avoid scar tissue accumulation.",
@@ -22380,7 +22376,7 @@
         },
         {
           "label": "Common research-supply sizes",
-          "value": "Lyophilized vials, commonly. Available in the West primarily through international research-supply chains and gray-market import; marketed pharmaceutically in Russia as Timalin (Samson-Med)."
+          "value": "Lyophilized vials. Available in the West primarily through international research-supply chains and gray-market import; marketed pharmaceutically in Russia as Timalin (Samson-Med)."
         },
         {
           "label": "Frequency",
@@ -22635,10 +22631,6 @@
         {
           "label": "Compound class",
           "value": "28-amino-acid synthetic immunomodulatory peptide from prothymosin α. Distinct molecule from thymosin β4."
-        },
-        {
-          "label": "Common vial sizes",
-          "value": "(Zadaxin commercial label, where approved); (research / non-US compounded supply where legal)."
         },
         {
           "label": "Frequency",
@@ -22961,7 +22953,7 @@
       "quickReference": [
         {
           "label": "Common vial sizes",
-          "value": "(research/compounded); branded products are pen-only per dose"
+          "value": "branded products are pen-only per dose"
         },
         {
           "label": "Frequency",
@@ -23292,7 +23284,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~; also an oral capsule supplement in Russia. No FDA-approved product."
+          "value": "Research-supply lyophilized vials; also an oral capsule supplement in Russia. No FDA-approved product."
         },
         {
           "label": "Frequency",
@@ -23519,7 +23511,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~; also an oral capsule supplement in Russia. No FDA-approved product."
+          "value": "Research-supply lyophilized vials; also an oral capsule supplement in Russia. No FDA-approved product."
         },
         {
           "label": "Frequency",
@@ -23733,7 +23725,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "Research-supply lyophilized vials, commonly ~. No FDA-approved US product; investigational aviptadil formulations (IV, inhaled, injectable) exist in trials."
+          "value": "Research-supply lyophilized vials. No FDA-approved US product; investigational aviptadil formulations (IV, inhaled, injectable) exist in trials."
         },
         {
           "label": "Frequency",

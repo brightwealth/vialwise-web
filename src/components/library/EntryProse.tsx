@@ -36,7 +36,7 @@ function MarkdownTable({ source }: { source: string }) {
           <tr className="border-b-2 border-espresso/20">
             {header.map((h, i) => (
               <th key={i} className="py-2 pr-4 text-left font-medium text-espresso">
-                {h}
+                <Inline text={h} />
               </th>
             ))}
           </tr>
@@ -46,7 +46,7 @@ function MarkdownTable({ source }: { source: string }) {
             <tr key={r} className="border-b border-espresso/10 align-top">
               {row.map((cell, c) => (
                 <td key={c} className="py-2 pr-4 text-graphite">
-                  {cell}
+                  <Inline text={cell} />
                 </td>
               ))}
             </tr>
@@ -54,6 +54,46 @@ function MarkdownTable({ source }: { source: string }) {
         </tbody>
       </table>
     </div>
+  );
+}
+
+
+/**
+ * Inline markdown inside a text run: *emphasis*, **strong**, `code`.
+ *
+ * The library's prose is authored in markdown and the emitter deliberately
+ * leaves inline emphasis intact. Without this the page printed the characters:
+ * 144 occurrences of literal *asterisks* across the corpus, plus backticked
+ * SPL ids rendering as `09beda19-…`. The app never had this problem because
+ * toDisplayText strips emphasis before rendering; the web rendered it raw.
+ *
+ * Rendering it rather than stripping it keeps the authorial emphasis the
+ * library was written with — "a documented *sequence*, not a concurrent
+ * stack" leans on that word.
+ */
+const INLINE_RE = /(\*\*[^*\n]+\*\*|\*[^*\n]+\*|`[^`\n]+`)/g;
+
+function Inline({ text }: { text: string }) {
+  const parts = text.split(INLINE_RE).filter((s) => s !== "" && s !== undefined);
+  return (
+    <>
+      {parts.map((part, i) => {
+        if (/^\*\*[^*\n]+\*\*$/.test(part)) {
+          return <strong key={i} className="font-medium text-espresso">{part.slice(2, -2)}</strong>;
+        }
+        if (/^\*[^*\n]+\*$/.test(part)) {
+          return <em key={i}>{part.slice(1, -1)}</em>;
+        }
+        if (/^`[^`\n]+`$/.test(part)) {
+          return (
+            <code key={i} className="rounded bg-espresso/[0.06] px-1 py-0.5 text-[0.9em]">
+              {part.slice(1, -1)}
+            </code>
+          );
+        }
+        return <span key={i}>{part}</span>;
+      })}
+    </>
   );
 }
 
@@ -68,11 +108,11 @@ function Paragraphs({ text }: { text: string }) {
             className="my-4 rounded-md border-l-4 border-amber-deep bg-amber/[0.08] px-4 py-3"
           >
             <p className="!my-0 text-[15px] leading-relaxed text-espresso">
-              {part.text}
+              <Inline text={part.text} />
             </p>
           </div>
         ) : (
-          <p key={i}>{part.text}</p>
+          <p key={i}><Inline text={part.text} /></p>
         )
       )}
     </>
