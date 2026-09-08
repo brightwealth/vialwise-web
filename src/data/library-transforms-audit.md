@@ -2724,8 +2724,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "Regulatory status (US). FDA-approved as Linzess for three indications, and the age ranges differ between them: IBS-C in adults and pediatric patients 7 years of age and older; chronic idiopathic constipation (CIC) in adults; and functional constipation (FC) in pediatric patients 2 years of age and older. So the entry's older \"in adults\" framing was incomplete — only CIC is adults-only. The label c"
 
 **`linaclotide.contraindications[1]`**
-- before: "🚨 CONTRAINDICATED UNDER 2 YEARS OF AGE — this is the label's boxed warning. In neonatal mice, a single clinically relevant adult oral dose of linaclotide caused deaths due to dehydration. The FDA states this as its most serious warning class, not as a precaution. Verified against DailyMed SPL `09beda19-56d6-4a56-afdc-9a77b70b2ef3` version 39 (label revised 5/2026), checked 2026-09-08."
-- after:  "Contraindicated under 2 years of age — this is the label's boxed warning. In neonatal mice, a single clinically relevant adult oral dose of linaclotide caused deaths due to dehydration. The FDA states this as its most serious warning class, not as a precaution. Verified against DailyMed SPL `09beda19-56d6-4a56-afdc-9a77b70b2ef3` version 39 (label revised 5/2026), checked 2026-09-08."
+- before: "🚨 CONTRAINDICATED UNDER 2 YEARS OF AGE — this is the label's boxed warning. In neonatal mice, a single clinically relevant adult oral dose of linaclotide caused deaths due to dehydration. The FDA states this as its most serious warning class, not as a precaution. Verified against DailyMed SPL 09beda19-56d6-4a56-afdc-9a77b70b2ef3 version 39 (label revised 5/2026), checked 2026-09-08."
+- after:  "Contraindicated under 2 years of age — this is the label's boxed warning. In neonatal mice, a single clinically relevant adult oral dose of linaclotide caused deaths due to dehydration. The FDA states this as its most serious warning class, not as a precaution. Verified against DailyMed SPL 09beda19-56d6-4a56-afdc-9a77b70b2ef3 version 39 (label revised 5/2026), checked 2026-09-08."
 
 **`linaclotide.contraindications[8]`**
 - before: "NOT DEA-scheduled."
@@ -5781,7 +5781,7 @@ once**. 399 appear exactly once and are marked ⚠️.
 | `DEXA` | 11 | ss in the breast-cancer literature; baseline DEXA scan and serial bone density monitoring are |
 | `HDM-2` | 11 | aboratory studies, it binds a protein called HDM-2 found on cancer-cell membranes and pokes hol |
 | `MDP` | 11 | MDP |
-| `SPL` | 11 | IC is adults-only. Verified against DailyMed SPL `09beda19-56d6-4a56-afdc-9a77b70b2ef3` versi |
+| `SPL` | 11 | IC is adults-only. Verified against DailyMed SPL 09beda19-56d6-4a56-afdc-9a77b70b2ef3 version |
 | `ACTIVE` | 10 | - ACTIVE, the registration trial, was a Phase 3, doub |
 | `DPP-4` | 10 | ative GLP-1 is degraded within ~2 minutes by DPP-4; the GLP-1 analog portion of dulaglutide is |
 | `DSIP'` | 10 | ished. Despite roughly 50 years of research, DSIP's molecular mechanism remains incompletely ch |
