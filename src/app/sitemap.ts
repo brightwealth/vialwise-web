@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { getAllEntries } from "@/lib/library";
 
 /**
  * Auto-generated sitemap for getvialwise.com.
@@ -19,7 +20,24 @@ const BASE_URL = "https://www.getvialwise.com";
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
 
+  // Library URLs are GENERATED from the derived library, never hand-listed —
+  // a hand-maintained list silently stops covering new entries, which is the
+  // one failure a sitemap exists to prevent.
+  const libraryEntries: MetadataRoute.Sitemap = getAllEntries().map((e) => ({
+    url: e.web.url,
+    lastModified: new Date(e.lastUpdated),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
   return [
+    {
+      url: `${BASE_URL}/library`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    ...libraryEntries,
     {
       url: BASE_URL,
       lastModified,
