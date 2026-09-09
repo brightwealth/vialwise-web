@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "test": "tsx --test src/lib/calculator/__tests__/*.test.ts",
-    "check:markdown": "node scripts/check-rendered-markdown.mjs"
+    "check:markdown": "node scripts/check-rendered-markdown.mjs",
+    "indexnow": "node scripts/indexnow-submit.mjs"
   },
   "dependencies": {
     "next": "16.2.4",

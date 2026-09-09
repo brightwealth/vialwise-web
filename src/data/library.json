@@ -786,7 +786,7 @@
         },
         {
           "label": "Common research-supply sizes",
-          "value": "lyophilized vials. No FDA-approved product. Research-supply availability is more limited than for peptide-axis library entries given the sparse research-community use."
+          "value": "Lyophilized vials. No FDA-approved product. Research-supply availability is more limited than for peptide-axis library entries given the sparse research-community use."
         },
         {
           "label": "Frequency",
@@ -1441,7 +1441,7 @@
         },
         {
           "label": "Common vial sizes (research compound)",
-          "value": "lyophilized powder or pre-weighed research-supply forms. No FDA-approved finished pharmaceutical product exists; acadesine Phase III clinical trials used proprietary IV formulations that are not currently commercially available."
+          "value": "Lyophilized powder or pre-weighed research-supply forms. No FDA-approved finished pharmaceutical product exists; acadesine Phase III clinical trials used proprietary IV formulations that are not currently commercially available."
         },
         {
           "label": "Frequency",
@@ -1886,7 +1886,7 @@
         },
         {
           "label": "Common formulation",
-          "value": "film-coated tablet (Arimidex and generic equivalents). Pharmacy-compounded sub-1-mg capsules also available for off-label men's-health use."
+          "value": "Film-coated tablet (Arimidex and generic equivalents). Pharmacy-compounded sub-1-mg capsules also available for off-label men's-health use."
         },
         {
           "label": "Frequency",
@@ -2700,10 +2700,6 @@
           "value": "BPC-157 (see [bpc-157.md](./bpc-157.md)) + TB-500 (see [tb-500.md](./tb-500.md))"
         },
         {
-          "label": "Common pre-mixed vial sizes",
-          "value": "+ total+ total (varies by source)"
-        },
-        {
           "label": "Frequency",
           "value": "Twice weekly (loading) tapering to once weekly (maintenance), in commonly reported community protocols"
         },
@@ -2774,7 +2770,7 @@
         "US compounding status — under review, determination pending. Neither component is FDA-approved and neither is Category 1 / compoundable. BPC-157 was removed from FDA 503A bulks list Category 2 in ~April 2026 — removal is not approval and does not make it compoundable; it moves the compound into a transitional gray area pending formal evaluation. Both BPC-157 and TB-500 (free base and acetate) are named subjects of the FDA pcac 503A Bulks List review at the July 23–24, 2026 meeting, and FDA briefing materials propose against adding either. The review has since taken place (July 23, 2026) and the committee voted, but FDA has published no minutes, vote results, or determination as of 2026-09-03 — nothing has been decided by FDA. `[confirm the final PCAC outcome — FDA had published no minutes, vote results, or determination as of 2026-09-03; re-check before App Store submission]` See component entries for component-specific detail."
       ],
       "firstTimeWalkthrough": [
-        "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency of each component (e.g.+) matches what the Vialwise calculator is set to.",
+        "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency of each component (e.g.) matches what the Vialwise calculator is set to.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder. Pay attention that you are reconstituting a blend: the concentration shown on Vialwise should reflect both compounds.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
         "Use the Vialwise calculator to confirm exact insulin units for your target dose. Decide explicitly which dose-anchoring pattern you are following (BPC-anchored, TB-anchored, or compromise) and document it. For a first-time researcher, BPC-anchored dosing of each component is the most commonly reported starting point.",
@@ -3385,7 +3381,7 @@
       },
       "disclosures": [
         "⚠️ For research and educational purposes only. Cagrilintide (alone or in the CagriSema fixed-dose combination with semaglutide) is not currently FDA-approved for any indication. Novo Nordisk has completed Phase 3a clinical trials with results published in NEJM in 2025;[⁴][⁵] regulatory submission and approval timelines depend on Novo Nordisk strategy. Cagrilintide is not currently available through approved pharmaceutical supply chains. Research-peptide and unregulated GLP-1-cluster supply chains have begun making it available outside the FDA-recognized supply chain. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
-        "⚠️ The CagriSema (cagrilintide + semaglutide) Phase 3a results are among the largest weight-loss results in published obesity-pharmacotherapy literature — but Phase 3 results in REDEFINE 1 (20.4%) were modestly below the early-trial expectations (~25%) that drove Novo Nordisk stock volatility in late 2024. Two key data points anchor cagrilintide's clinical relevance:\n\n- REDEFINE 1 (Garvey 2025 NEJM): Phase 3a 68-week trial in 3,417 adults with overweight or obesity without diabetes. Mean body-weight reduction with cagrilintide-semaglutide + = −20.4% vs placebo −3.0% (treatment difference −17.3 percentage points, p<0.001).[⁴]\n- REDEFINE 2 (Davies 2025 NEJM): Phase 3a 68-week trial in 1,206 adults with overweight or obesity and type 2 diabetes. Mean body-weight reduction with cagrilintide-semaglutide = −13.7% vs placebo −3.4% (treatment difference −10.4 percentage points, p<0.001). 73.5% of cagrilintide-semaglutide patients achieved HbA1c ≤6.5% vs 15.9% placebo.[⁵]\n\nContext: Novo Nordisk's published Phase 1b expectations (Enebo 2021, Lancet) reported 17.1% weight loss at 20 weeks with the cagrilintide + semaglutide combination — a result that anchored market expectations of ~25%+ weight loss at the 68-week Phase 3 timepoint.[³] The actual REDEFINE 1 Phase 3 result of 20.4% met the regulatory primary-endpoint significance threshold but was below the most optimistic projections.",
+        "⚠️ The CagriSema (cagrilintide + semaglutide) Phase 3a results are among the largest weight-loss results in published obesity-pharmacotherapy literature — but Phase 3 results in REDEFINE 1 (20.4%) were modestly below the early-trial expectations (~25%) that drove Novo Nordisk stock volatility in late 2024. Two key data points anchor cagrilintide's clinical relevance:\n\n- REDEFINE 1 (Garvey 2025 NEJM): Phase 3a 68-week trial in 3,417 adults with overweight or obesity without diabetes. Mean body-weight reduction with cagrilintide-semaglutide = −20.4% vs placebo −3.0% (treatment difference −17.3 percentage points, p<0.001).[⁴]\n- REDEFINE 2 (Davies 2025 NEJM): Phase 3a 68-week trial in 1,206 adults with overweight or obesity and type 2 diabetes. Mean body-weight reduction with cagrilintide-semaglutide = −13.7% vs placebo −3.4% (treatment difference −10.4 percentage points, p<0.001). 73.5% of cagrilintide-semaglutide patients achieved HbA1c ≤6.5% vs 15.9% placebo.[⁵]\n\nContext: Novo Nordisk's published Phase 1b expectations (Enebo 2021, Lancet) reported 17.1% weight loss at 20 weeks with the cagrilintide + semaglutide combination — a result that anchored market expectations of ~25%+ weight loss at the 68-week Phase 3 timepoint.[³] The actual REDEFINE 1 Phase 3 result of 20.4% met the regulatory primary-endpoint significance threshold but was below the most optimistic projections.",
         "⚠️ Cagrilintide is dosed in milligrams (mg), not micrograms — same as the GLP-1 ra family. Unlike the GHS-axis peptide entries in the library that dose in mcg, cagrilintide doses are per weekly injection (the dose used in the REDEFINE 1/2 Phase 3a trials). Cagrilintide is supplied in research-peptide / unregulated GLP-1-cluster supply chains in formats ranging vials. Always verify the units field shows \"mg\" before entering the dose in the Vialwise calculator. Same mg-scale dosing convention as Semaglutide, Tirzepatide, Liraglutide, Retatrutide, and Exenatide.",
         "⚠️ Cagrilintide is mechanistically distinct from the GLP-1 ra family — but the two mechanisms are additive on weight loss. The GLP-1 ra family (Semaglutide, Tirzepatide, Liraglutide, Retatrutide, Exenatide) act primarily at the GLP-1 receptor (Tirzepatide also at the GIP receptor; Retatrutide also at the glucagon receptor) — producing satiety, delayed gastric emptying, and improved glycemic control. Cagrilintide acts at the amylin and calcitonin receptor family — producing complementary satiety signaling and gastric emptying delay through a distinct receptor pathway. The Phase 1b Enebo 2021 and Phase 3 Garvey 2025 / Davies 2025 trials established that the cagrilintide + semaglutide combination produces additive (super-additive in some metrics) weight loss compared to either compound alone.[³][⁴][⁵] CagriSema is the clinical-development manifestation of this additive-mechanism hypothesis.",
         "⚠️ The gastrointestinal-adverse-event burden of CagriSema is substantial. Per the REDEFINE 1 Phase 3a results, gastrointestinal adverse events affected 79.6% of patients in the cagrilintide-semaglutide group vs 39.9% in the placebo group — including nausea, vomiting, diarrhea, constipation, abdominal pain.[⁴] REDEFINE 2 reported 72.5% GI adverse events vs 34.4% placebo.[⁵] Most events were transient and mild-to-moderate in severity. The GI burden of CagriSema is higher than for semaglutide monotherapy — the additive-mechanism benefit on weight loss comes with an additive GI adverse-event signal that is the dominant tolerability concern in clinical practice."
@@ -3397,7 +3393,7 @@
         },
         {
           "label": "Common vial sizes (research peptide / unregulated)",
-          "value": "lyophilized vials. No FDA-approved finished pharmaceutical product as of the entry-publication date."
+          "value": "Lyophilized vials. No FDA-approved finished pharmaceutical product as of the entry-publication date."
         },
         {
           "label": "Frequency",
@@ -3421,11 +3417,11 @@
         "Mechanism. Amylin (also called islet amyloid polypeptide / IAPP) is co-secreted with insulin from pancreatic β-cells in response to nutrient intake. Endogenous amylin signaling is acutely satiety-inducing and slows gastric emptying — complementing insulin's direct glucose-lowering effect with a parallel pathway of post-prandial energy-balance regulation. Cagrilintide is a long-acting synthetic agonist of this pathway — the once-weekly subcutaneous formulation produces sustained amylin-receptor activation, in contrast to the rapid clearance of endogenous amylin (very short half-life in human circulation). The mechanism complements GLP-1 ra-class weight loss effects at the satiety and gastric-emptying axes through a distinct receptor pathway — establishing the rationale for the CagriSema combination.",
         "Cagrilintide monotherapy Phase 2 dose-finding (Lau 2021 Lancet).[²] The Lau 2021 *Lancet* Phase 2 dose-finding trial enrolled 706 adults without diabetes, BMI ≥30 (or ≥27 with hypertension/dyslipidemia), randomized 6:1 to cagrilintide (0.3, 0.6, 1.2, 2.4, or once-weekly SC) or volume-matched placebo, with an active-control arm of liraglutide once-daily SC. Treatment period 26 weeks (including ≤6-week dose-escalation) + 6-week follow-up. Cagrilintide produced dose-dependent weight loss: 6.0–10.8% across doses (vs placebo 3.0%; treatment difference 3.0–7.8 percentage points, p<0.001). Cagrilintide produced significantly greater weight loss than liraglutide (10.8% vs 9.0%, treatment difference 1.8%, p=0.03). Gastrointestinal adverse events were the most common — 41–63% in cagrilintide groups vs 32% placebo, primarily nausea (20–47% vs 18%).[²] This is the foundational Phase 2 cagrilintide-alone clinical-pharmacology citation — it is no longer the most advanced monotherapy evidence; see the REDEFINE 1 cagrilintide-alone arm and the RENEW Phase 3 program below.",
         "Cagrilintide-semaglutide Phase 1b combination (Enebo 2021 Lancet).[³] The Enebo 2021 *Lancet* Phase 1b trial enrolled 96 adults BMI 27.0–39.9 kg/m² without diabetes, randomized 3:1 to cagrilintide (0.16, 0.30, 0.60, 1.2, 2.4, or once-weekly SC) or matched placebo, in combination with once-weekly semaglutide in all groups. Multiple-ascending dose design over 16 weeks of co-escalation + 4 weeks at target dose + 5 weeks follow-up. Mean percentage body-weight reductions at week 20 were greater with cagrilintide + semaglutide (15.7%), cagrilintide + semaglutide (17.1%), and cagrilintide + semaglutide (15.4%) than with placebo + semaglutide (8.0–9.8%). Cagrilintide pharmacokinetics: half-life 159–195 hours, Tmax 24–72 hours, no effect on semaglutide exposure or elimination. The Enebo Phase 1b combination-dose-finding result anchored the selection of cagrilintide + semaglutide as the CagriSema Phase 3 fixed-dose combination.[³]",
-        "CagriSema Phase 3a REDEFINE 1 (Garvey 2025 NEJM).[⁴] The Garvey 2025 *New England Journal of Medicine* Phase 3a trial enrolled 3,417 adults with BMI ≥30 (or ≥27 with at least one obesity-related complication) without diabetes, randomized 21:3:3:7 to cagrilintide-semaglutide +, semaglutide alone, cagrilintide alone, or placebo, plus lifestyle interventions for all groups. 68-week treatment duration. Coprimary endpoints: percent change in body weight (treatment-policy estimand) and the proportion of patients achieving ≥5% body-weight reduction. Mean body-weight reduction: cagrilintide-semaglutide −20.4% vs placebo −3.0% (treatment difference −17.3 percentage points, 95% CI −18.1 to −16.6, p<0.001). Weight-loss targets of ≥5%, ≥20%, ≥25%, and ≥30% all favored cagrilintide-semaglutide (p<0.001 for all). Gastrointestinal adverse events affected 79.6% of cagrilintide-semaglutide patients vs 39.9% of placebo patients — mainly transient and mild-to-moderate.[⁴] REDEFINE 1 is the foundational Phase 3 efficacy citation for CagriSema in non-diabetic obesity.",
+        "CagriSema Phase 3a REDEFINE 1 (Garvey 2025 NEJM).[⁴] The Garvey 2025 *New England Journal of Medicine* Phase 3a trial enrolled 3,417 adults with BMI ≥30 (or ≥27 with at least one obesity-related complication) without diabetes, randomized 21:3:3:7 to cagrilintide-semaglutide, semaglutide alone, cagrilintide alone, or placebo, plus lifestyle interventions for all groups. 68-week treatment duration. Coprimary endpoints: percent change in body weight (treatment-policy estimand) and the proportion of patients achieving ≥5% body-weight reduction. Mean body-weight reduction: cagrilintide-semaglutide −20.4% vs placebo −3.0% (treatment difference −17.3 percentage points, 95% CI −18.1 to −16.6, p<0.001). Weight-loss targets of ≥5%, ≥20%, ≥25%, and ≥30% all favored cagrilintide-semaglutide (p<0.001 for all). Gastrointestinal adverse events affected 79.6% of cagrilintide-semaglutide patients vs 39.9% of placebo patients — mainly transient and mild-to-moderate.[⁴] REDEFINE 1 is the foundational Phase 3 efficacy citation for CagriSema in non-diabetic obesity.",
         "Cagrilintide monotherapy Phase 3 data (REDEFINE 1 cagrilintide-alone arm). REDEFINE 1 also contained a cagrilintide monotherapy arm (n=302), whose 68-week results were presented as a sub-analysis at EASD 2025. In that arm, participants had a mean body-weight reduction of about −11.8% versus −2.3% on placebo (trial-product estimand), with ≥15% weight loss reached by 31.6% of the cagrilintide group versus 4.7% of placebo; on the treatment-policy estimand the figures were −11.5% versus −3.0%, with ≥15% reached by 31.0% versus 5.2%. Nausea-driven discontinuation was 1.0% versus 0.1%. Novo Nordisk described this as the first Phase 3 clinical-trial data for a long-acting amylin analogue monotherapy in obesity. [⁴]",
         "Cagrilintide monotherapy Phase 3 program — RENEW. Following the REDEFINE 1 monotherapy arm, Novo Nordisk advanced cagrilintide alone into a dedicated Phase 3 program. Per ClinicalTrials.gov, two RENEW-tier Phase 3 monotherapy trials both started 2025-11-05 and are ACTIVE, not recruiting: NCT07220642 (cagrilintide for weight management in participants with overweight or obesity, without diabetes; n≈300, primary completion 2027-05-11) and NCT07220759 (the same in participants with overweight or obesity and type 2 diabetes; n≈330, primary completion 2027-05-12).[⁷] Cagrilintide monotherapy is therefore no longer a Phase-2-stage compound, though neither RENEW trial has reported results.",
         "Cagrilintide monotherapy arm in REIMAGINE 2 (Phase 3, type 2 diabetes). REIMAGINE 2 (Buse et al., Lancet Diabetes & Endocrinology 2026; NCT06065540, n=2713) compared CagriSema against semaglutide or cagrilintide in people with type 2 diabetes, and includes a cagrilintide monotherapy arm (n=152) — a second Phase 3 source carrying monotherapy data.[⁶] On the trial's primary endpoint, CagriSema reduced HbA1c by 1.91 percentage points versus 1.75 with semaglutide at week 68 (estimated difference −0.16 pp; 95% CI −0.27 to −0.05; p=0.0035).[⁶]",
-        "CagriSema Phase 3a REDEFINE 2 (Davies 2025 NEJM).[⁵] The Davies 2025 *New England Journal of Medicine* Phase 3a parallel trial enrolled 1,206 adults with BMI ≥27, HbA1c 7–10%, and type 2 diabetes, randomized 3:1 to cagrilintide-semaglutide + or placebo, plus lifestyle intervention, for 68 weeks. Mean body-weight reduction: −13.7% with cagrilintide-semaglutide vs −3.4% placebo (treatment difference −10.4 percentage points, p<0.001). Glycemic outcomes: 73.5% of cagrilintide-semaglutide patients achieved HbA1c ≤6.5% vs 15.9% placebo. Gastrointestinal adverse events affected 72.5% of cagrilintide-semaglutide patients vs 34.4% placebo.[⁵] REDEFINE 2 establishes CagriSema's efficacy in the type-2-diabetes-with-overweight-or-obesity population.",
+        "CagriSema Phase 3a REDEFINE 2 (Davies 2025 NEJM).[⁵] The Davies 2025 *New England Journal of Medicine* Phase 3a parallel trial enrolled 1,206 adults with BMI ≥27, HbA1c 7–10%, and type 2 diabetes, randomized 3:1 to cagrilintide-semaglutide or placebo, plus lifestyle intervention, for 68 weeks. Mean body-weight reduction: −13.7% with cagrilintide-semaglutide vs −3.4% placebo (treatment difference −10.4 percentage points, p<0.001). Glycemic outcomes: 73.5% of cagrilintide-semaglutide patients achieved HbA1c ≤6.5% vs 15.9% placebo. Gastrointestinal adverse events affected 72.5% of cagrilintide-semaglutide patients vs 34.4% placebo.[⁵] REDEFINE 2 establishes CagriSema's efficacy in the type-2-diabetes-with-overweight-or-obesity population.",
         "Regulatory status (US — current). Cagrilintide is not FDA-approved for any indication. The Phase 3a REDEFINE 1 and REDEFINE 2 results were published in June 2025, and on the strength of those trials Novo Nordisk submitted a New Drug Application (NDA) to the FDA for the cagrilintide-semaglutide combination in December 2025 — an NDA under the 505 pathway, not a Biologics License Application. A first FDA decision is expected late 2026; as of mid-2026 neither cagrilintide nor CagriSema is approved in the US or EU.[⁸] Cagrilintide is not currently available through approved pharmaceutical supply chains. Research-peptide and unregulated GLP-1-cluster supply chains have begun making cagrilintide and CagriSema-like formulations available outside the FDA-recognized supply chain — a regulatory context that parallels the broader unregulated GLP-1 ra supply chain that emerged around semaglutide and tirzepatide compounding-pharmacy and gray-market activity in 2023–2026. Not DEA-scheduled.",
         "Regulatory status (sport — WADA). Cagrilintide is not explicitly named on the 2026 WADA Prohibited List as of last review. The broader GLP-1 ra / amylin-axis class is not currently a WADA-targeted category. Users in regulated sport should verify the current WADA status directly via the WADA Prohibited List and their National Anti-Doping Organization before any use.",
         "Common research interests. Cagrilintide is used in research-community contexts for:\n- Weight management as part of CagriSema combination (cagrilintide + semaglutide once weekly SC) — the dominant research-community use case, tracking the published REDEFINE 1/2 Phase 3a regimen.[⁴][⁵]\n- Cagrilintide monotherapy once weekly SC for weight management — secondary research-community use case extrapolating from Lau 2021 Phase 2 data, less commonly reported than the combination.[²]\n- Adjunct to existing GLP-1 ra therapy — some research-community use reports adding cagrilintide to existing semaglutide or tirzepatide regimens at varying doses to capture the additive amylin-axis effect. The cagrilintide + tirzepatide combination is not directly characterized in published trials but is mechanistically plausible."
@@ -3555,7 +3551,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure. Confirm the labeled potency matches what the Vialwise calculator is set to. Verify the units field shows \"mg\" (not \"mcg\") before entering the dose.",
         "Reconstitute with the chosen volume of bacteriostatic water. Default / 2 mL for typical CagriSema dosing — provides ~4 doses per vial with clean unit conversions. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use targeting CagriSema regimen: start at cagrilintide + semaglutide once weekly — paralleling the semaglutide standard titration schedule rather than starting directly +. The dose-escalation period in REDEFINE 1/2 was ~16 weeks to reach + target dose.",
+        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use targeting CagriSema regimen: start at cagrilintide + semaglutide once weekly — paralleling the semaglutide standard titration schedule rather than starting directly at. The dose-escalation period in REDEFINE 1/2 was ~16 weeks to reach target dose.",
         "Time the injection for the same weekly day — once-weekly dosing convention. The day of the week is not load-bearing; consistency week-to-week is what matters.",
         "Inject subcutaneously into a standard subcutaneous site (abdomen, thigh, or upper arm). Rotate sites between injections. Cagrilintide and semaglutide can be injected separately at different sites on the same day (the Phase 3a trials used both same-syringe and separate-syringe approaches).",
         "Plan for GI adverse-event management. Expect nausea to be the dominant adverse event during dose escalation (per REDEFINE 1/2 data, 72.5–79.6% of patients experienced GI adverse events overall). Most are transient and resolve within 4–8 weeks; some patients require slower dose escalation or temporary dose reduction.",
@@ -4109,7 +4105,7 @@
         },
         {
           "label": "Common research-supply sizes",
-          "value": "lyophilized vials. Available primarily through Russian and international research-supply chains and gray-market import."
+          "value": "Lyophilized vials. Available primarily through Russian and international research-supply chains and gray-market import."
         },
         {
           "label": "Frequency",
@@ -4837,10 +4833,6 @@
           "value": "CJC-1295 no-DAC (see [cjc-1295.md](./cjc-1295.md)) + Ipamorelin (see [ipamorelin.md](./ipamorelin.md))"
         },
         {
-          "label": "Common pre-mixed vial sizes",
-          "value": "+ total+ total (1:1 mass ratio is standard; varies by source)"
-        },
-        {
           "label": "Frequency",
           "value": "Daily, most commonly as a single bedtime injection. Multiple-times-daily protocols (e.g., bedtime + pre/post training) are also reported but less common when using the pre-mixed blend."
         },
@@ -4914,7 +4906,7 @@
         "US compounding restrictions — status differs by component. Ipamorelin is on FDA's 503A Category 2 bulk-substances list (2023 action, halting legal 503A compounding pending review). CJC-1295 was subsequently removed from Category 2 and was not among the seven substances FDA's Pharmacy Compounding Advisory Committee took up at its July 23–24, 2026 meeting, which has since taken place (that agenda was BPC-157, KPV, TB-500 and MOTS-c on July 23; Emideltide/DSIP, Epitalon and Semax on July 24). That meeting therefore says nothing about CJC-1295 either way — it was never on the agenda and no committee vote was taken on it.. Under the blend's most-restrictive-component rule, treat the blend as carrying ipamorelin's Category 2 restriction. See [cjc-1295.md](./cjc-1295.md) and [ipamorelin.md](./ipamorelin.md) for component-specific detail."
       ],
       "firstTimeWalkthrough": [
-        "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency of each component (e.g.+) matches what the Vialwise calculator is set to. Confirm which form of CJC-1295 is in the blend — should be no-DAC for nearly all pre-mixed products; if the label specifies DAC, the dosing pattern differs substantially and you should use the DAC dosing in [cjc-1295.md](./cjc-1295.md) instead.",
+        "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency of each component (e.g.) matches what the Vialwise calculator is set to. Confirm which form of CJC-1295 is in the blend — should be no-DAC for nearly all pre-mixed products; if the label specifies DAC, the dosing pattern differs substantially and you should use the DAC dosing in [cjc-1295.md](./cjc-1295.md) instead.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
         "Use the Vialwise calculator to confirm exact insulin units for your target dose. For a first-time researcher: start of each component daily at bedtime — this is the most commonly reported starting protocol and aligns with both components' single-compound starting-dose recommendations.",
@@ -6214,7 +6206,7 @@
       "quickReference": [
         {
           "label": "Common vial sizes (research peptide)",
-          "value": "lyophilized vials are the most common research-peptide format; and vials also encountered. Branded pharmaceutical products do not exist in the US/EU."
+          "value": "Lyophilized vials are the most common research-peptide format; and vials also encountered. Branded pharmaceutical products do not exist in the US/EU."
         },
         {
           "label": "Sequence",
@@ -7438,7 +7430,7 @@
         },
         {
           "label": "Common research-supply sizes",
-          "value": "solid or pre-weighed research-supply forms. No FDA-approved finished pharmaceutical product."
+          "value": "Solid or pre-weighed research-supply forms. No FDA-approved finished pharmaceutical product."
         },
         {
           "label": "Frequency",
@@ -7709,7 +7701,7 @@
         },
         {
           "label": "Common vial sizes (research peptide)",
-          "value": "lyophilized vials (most common); also encountered. Research-peptide-supplied form is typically FST-344 (the precursor that cleaves to FST-315 in vivo). Branded products do not exist — there is no FDA-approved or commercially-marketed follistatin product."
+          "value": "Lyophilized vials (most common); also encountered. Research-peptide-supplied form is typically FST-344 (the precursor that cleaves to FST-315 in vivo). Branded products do not exist — there is no FDA-approved or commercially-marketed follistatin product."
         },
         {
           "label": "Frequency",
@@ -7978,7 +7970,7 @@
         },
         {
           "label": "Common research-supply sizes",
-          "value": "lyophilized vials. Substantially more expensive than typical research-peptide library entries given the D-retro-inverso synthesis complexity. Per-mg cost typically 5–10× higher than for standard L-amino-acid peptides of similar length."
+          "value": "Lyophilized vials. Substantially more expensive than typical research-peptide library entries given the D-retro-inverso synthesis complexity. Per-mg cost typically 5–10× higher than for standard L-amino-acid peptides of similar length."
         },
         {
           "label": "Frequency",
@@ -8540,7 +8532,7 @@
         },
         {
           "label": "Common vial sizes (research peptide)",
-          "value": "lyophilized vials most common. No branded research-peptide products; pralmorelin is the only GHRP-class peptide with an approved finished pharmaceutical product (Kaken Pharmaceutical, Japan, diagnostic indication only)."
+          "value": "Lyophilized vials most common. No branded research-peptide products; pralmorelin is the only GHRP-class peptide with an approved finished pharmaceutical product (Kaken Pharmaceutical, Japan, diagnostic indication only)."
         },
         {
           "label": "Frequency",
@@ -8842,7 +8834,7 @@
         },
         {
           "label": "Common vial sizes (research peptide)",
-          "value": "lyophilized vials most common. No branded GHRP-6 products exist — there is no FDA-approved or commercially-marketed GHRP-6 product anywhere in the world."
+          "value": "Lyophilized vials most common. No branded GHRP-6 products exist — there is no FDA-approved or commercially-marketed GHRP-6 product anywhere in the world."
         },
         {
           "label": "Frequency",
@@ -9625,7 +9617,7 @@
         },
         {
           "label": "Common vial sizes (compounding pharmacy)",
-          "value": "lyophilized vials. Compounding pharmacies (Empower, Strive, Clearwater Aesthetics, others) typically supply 2 mL or 5 mL multidose vials or. Branded Lutrepulse (Ortho) and Factrel (Wyeth) historical products are no longer commercially available in the US."
+          "value": "Lyophilized vials. Compounding pharmacies (Empower, Strive, Clearwater Aesthetics, others) typically supply 2 mL or 5 mL multidose vials or. Branded Lutrepulse (Ortho) and Factrel (Wyeth) historical products are no longer commercially available in the US."
         },
         {
           "label": "Frequency",
@@ -9879,7 +9871,7 @@
         },
         {
           "label": "Common vial sizes",
-          "value": "and lyophilized powder vials (Pregnyl, Novarel, generic compounded). Single-dose pre-filled formulations also exist (Ovidrel recombinant)."
+          "value": "And lyophilized powder vials (Pregnyl, Novarel, generic compounded). Single-dose pre-filled formulations also exist (Ovidrel recombinant)."
         },
         {
           "label": "Frequency",
@@ -10185,7 +10177,7 @@
         },
         {
           "label": "Common vial sizes (research peptide)",
-          "value": "lyophilized vials most common. Branded products do not exist — there is no FDA-approved or commercially-marketed hexarelin product."
+          "value": "Lyophilized vials most common. Branded products do not exist — there is no FDA-approved or commercially-marketed hexarelin product."
         },
         {
           "label": "Frequency",
@@ -11014,7 +11006,7 @@
         },
         {
           "label": "Common vial sizes (research peptide)",
-          "value": "lyophilized vials most common; and also encountered. Branded mecasermin (Increlex) is supplied as solution in 4 mL multidose vials at FDA-approved pharmacies — distinct product, not the same as research-peptide igf-1 lr3."
+          "value": "Lyophilized vials most common; and also encountered. Branded mecasermin (Increlex) is supplied as solution in 4 mL multidose vials at FDA-approved pharmacies — distinct product, not the same as research-peptide igf-1 lr3."
         },
         {
           "label": "Frequency",
@@ -11568,7 +11560,7 @@
         },
         {
           "label": "Common vial sizes (research peptide)",
-          "value": "lyophilized vials most common; kisspeptin-10 is more commonly available than kisspeptin-54 in the research-peptide supply chain (synthesis cost scales with peptide length). No FDA-approved finished pharmaceutical product exists."
+          "value": "Lyophilized vials most common; kisspeptin-10 is more commonly available than kisspeptin-54 in the research-peptide supply chain (synthesis cost scales with peptide length). No FDA-approved finished pharmaceutical product exists."
         },
         {
           "label": "Frequency",
@@ -13995,7 +13987,7 @@
         },
         {
           "label": "Common vial sizes (research peptide)",
-          "value": "lyophilized vials most common; also encountered. Branded products do not exist — there is no FDA-approved or commercially-marketed mt-II product."
+          "value": "Lyophilized vials most common; also encountered. Branded products do not exist — there is no FDA-approved or commercially-marketed mt-II product."
         },
         {
           "label": "Frequency",
@@ -18498,7 +18490,7 @@
       "quickReference": [
         {
           "label": "Common vial sizes",
-          "value": "branded products are pen-only"
+          "value": "Branded products are pen-only"
         },
         {
           "label": "Frequency",
@@ -19099,7 +19091,7 @@
         },
         {
           "label": "Common vial sizes (compounding-pharmacy supply)",
-          "value": "lyophilized vials. Branded Geref historical formulations were/amp (diagnostic) and / base/vial (treatment); these are no longer commercially available."
+          "value": "Lyophilized vials. Branded Geref historical formulations were/amp (diagnostic) and / base/vial (treatment); these are no longer commercially available."
         },
         {
           "label": "Frequency",
@@ -22953,7 +22945,7 @@
       "quickReference": [
         {
           "label": "Common vial sizes",
-          "value": "branded products are pen-only per dose"
+          "value": "Branded products are pen-only per dose"
         },
         {
           "label": "Frequency",

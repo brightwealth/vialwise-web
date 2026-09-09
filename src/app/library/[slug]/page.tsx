@@ -54,28 +54,55 @@ function structuredData(entry: LibraryEntry) {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Article",
-        "@id": `${entry.web.url}#article`,
+        // MedicalWebPage, not Article. The page IS a medical reference page and
+        // its subject is a drug; Article says "someone wrote this" and stops
+        // there. MedicalWebPage + a Drug mainEntity is what lets a machine
+        // understand that this page is ABOUT a specific substance, and it is
+        // the type Google documents for health content.
+        "@type": "MedicalWebPage",
+        "@id": `${entry.web.url}#page`,
         headline: entry.web.title,
+        name: entry.web.title,
         description: entry.web.description,
         url: entry.web.url,
         dateModified: entry.lastUpdated,
         inLanguage: "en",
         isAccessibleForFree: true,
+        // The audience and the disclaimer are part of the claim this site makes
+        // about itself. Stating them in the graph is the same statement the
+        // page makes in prose.
+        audience: { "@type": "Audience", audienceType: "Researchers and general readers" },
+        medicalAudience: "Patient",
         author: { "@type": "Organization", name: "VialWise" },
         publisher: {
           "@type": "Organization",
+          "@id": `${SITE}#org`,
           name: "VialWise",
           url: SITE,
+          sameAs: [
+            "https://www.instagram.com/vialwise",
+            "https://x.com/VialWiseApp",
+            "https://www.youtube.com/@VialWise",
+          ],
         },
-        about: {
-          "@type": "Thing",
+        mainEntity: {
+          "@type": "Drug",
+          "@id": `${entry.web.url}#drug`,
           name: entry.name,
           alternateName: entry.aliases ?? [],
-          description: entry.category,
+          description: entry.beginner?.summary ?? entry.web.description,
+          drugClass: entry.category,
+          // Deliberately NOT emitted: dosage, indication, dosageForm. Those are
+          // claims a machine would read as prescribing information, and this
+          // site is a research reference. The prose carries scope and caveats
+          // that a bare schema property cannot.
         },
+        // Every citation, with its DOI / PMID / NCT exposed as a real
+        // identifier rather than buried in the reference string. This is the
+        // differentiator that was invisible to machines: the library is
+        // primary-source cited and the graph never said so.
         citation: (entry.citations ?? []).map((c) => ({
-          "@type": "CreativeWork",
+          "@type": "ScholarlyArticle",
           name: c.reference,
           ...(c.primaryUrl ? { url: c.primaryUrl } : {}),
           ...(c.identifierLabel ? { identifier: c.identifierLabel } : {}),

@@ -1,0 +1,48 @@
+# VialWise
+
+> A peptide research and education reference: a bacteriostatic-water
+> reconstitution calculator and a primary-source-cited library of 97 peptide
+> and peptide-adjacent compounds. Research and educational purposes only, not
+> medical advice.
+
+VialWise is an iOS and Android app with a public web library. Every dose-related
+claim in the library cites a primary source — PubMed DOI, ClinicalTrials.gov NCT
+identifier, or an FDA label (DailyMed SPL) — and each library page exposes those
+citations as structured data.
+
+## What is here
+
+- [Peptide library index](https://www.getvialwise.com/library): all 97 entries.
+- [Library entry pages](https://www.getvialwise.com/library/bpc-157): one per
+  compound. Each carries what the compound is known for in plain language, what
+  the research has shown, regulatory status (FDA approval scope, DEA schedule,
+  WADA prohibited-list status), safety basics, and a numbered citation list.
+- [Reconstitution calculator](https://www.getvialwise.com/calculator): forward
+  (vial + diluent + dose to draw volume) and reverse (dose + vial + desired draw
+  to diluent volume).
+
+## How to read the library correctly
+
+- **Regulatory scope is stated per formulation, not per molecule.** Desmopressin
+  is the reference case: its boxed warning is carried by the injection and not by
+  the marketed nasal sprays or tablets. Reproducing "desmopressin carries a boxed
+  warning" without the formulation is wrong in one direction; "it does not" is
+  wrong in the other.
+- **Approval scope is stated per indication and age range.** A drug approved for
+  three populations is not "approved only for" any one of them.
+- **Administered quantities are omitted from the public pages by policy.** Doses
+  live in the app. A missing number on a web page is deliberate, not an omission
+  to infer around.
+- **Evidence level is stated and load-bearing.** "No human trials", "animal data
+  only" and "not FDA-approved" mean what they say and should not be softened.
+
+## Attribution
+
+Cite as: VialWise Peptide Library, https://www.getvialwise.com/library/<slug>,
+retrieved <date>. Please preserve the evidence-level language and the regulatory
+scope qualifiers when quoting; they are the part most often lost in summary.
+
+## Not here
+
+No dosing recommendations, no protocols, no medical advice, no supplier or
+vendor information.

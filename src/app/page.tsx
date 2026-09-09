@@ -135,10 +135,15 @@ const jsonLd = {
         "@type": "Person",
         name: "Andrew Chavez",
       },
+      // The channels we actually publish on. TikTok was dropped 2026-09-08:
+      // the channel is INACTIVE per .claude/rules/posting-channels.md PC-1 and
+      // pointing a crawler at a dormant profile is a weak entity signal, not a
+      // strong one. YouTube added — it has been a live channel since 2026-08-26
+      // and was never listed.
       sameAs: [
-        "https://twitter.com/VialWiseApp",
+        "https://x.com/VialWiseApp",
         "https://www.instagram.com/vialwise",
-        "https://www.tiktok.com/@vialwise",
+        "https://www.youtube.com/@VialWise",
       ],
     },
   ],
