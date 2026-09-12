@@ -119,6 +119,40 @@ function structuredData(entry: LibraryEntry) {
   };
 }
 
+/**
+ * The entry's ⚠️ callouts in READING order: the lead first, then every other
+ * callout in its authored order.
+ *
+ * WHY THIS EXISTS. `disclosures` arrives in the order the callouts are authored
+ * in content/peptides/<slug>.md. On 8 entries that is not the order they should
+ * be READ in: the authored opener is a status or research-purposes line while a
+ * regulator-grade warning sits further down. Metreleptin opened with 157
+ * characters of approval status while its BOXED WARNING and REMS restricted-
+ * distribution callout sat at [2]. `disclosuresLeadIndex` is the app's
+ * build-time answer to which callout leads, and until now the website ignored
+ * it and led with whatever was written first.
+ *
+ * THIS MIRRORS THE APP ON PURPOSE. The identical hoist lives in the app's
+ * PeptideDisclosures.tsx. The data stays in authored order in both places and
+ * each view applies the same reordering, so library.json remains a faithful
+ * copy of what the app compiles. If the app's rule changes, change it here too.
+ *
+ * WHAT IS DIFFERENT HERE. The app shows the lead expanded and collapses the
+ * rest behind a count; the website has no collapse and renders all of them. So
+ * on the web this changes reading ORDER only — nothing is hidden, and nothing
+ * is dropped. An out-of-range index falls back to 0 rather than rendering
+ * nothing, because a bad index must never blank the safety section.
+ */
+function orderedDisclosures(entry: LibraryEntry): string[] {
+  const all = entry.disclosures ?? [];
+  const raw = entry.disclosuresLeadIndex;
+  const lead =
+    Number.isInteger(raw) && raw !== undefined && raw >= 0 && raw < all.length
+      ? raw
+      : 0;
+  return [...all.slice(lead, lead + 1), ...all.filter((_, i) => i !== lead)];
+}
+
 function Section({
   title,
   children,
@@ -206,7 +240,7 @@ export default async function PeptideEntryPage({
 
           {entry.disclosures?.length ? (
             <Section title="Disclosures">
-              {entry.disclosures.map((d, i) => (
+              {orderedDisclosures(entry).map((d, i) => (
                 <EntryProse key={i} text={d} />
               ))}
             </Section>

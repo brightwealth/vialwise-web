@@ -2,8 +2,8 @@
   "generatedBy": "scripts/build-library-web.mjs",
   "source": "src/library/peptides/*.ts (generated from content/peptides/*.md by scripts/build-library.mjs)",
   "doNotEdit": "DERIVED FILE. Editing it makes the website disagree with the app. Edit content/peptides/<slug>.md, re-run build-library.mjs, then re-run build-library-web.mjs.",
-  "entryCount": 97,
-  "totalInLibrary": 97,
+  "entryCount": 100,
+  "totalInLibrary": 100,
   "slateGate": [
     "POSITIVE CONTROL — the matcher must see both marker shapes",
     "PASS  control: matcher sees a bare [VERIFY]",
@@ -21,6 +21,7 @@
     "info  anastrozole: no [VERIFY] markers at all",
     "info  aod-9604: 4 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  ara-290: no [VERIFY] markers at all",
+    "info  bimagrumab: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  bpc-157-tb-500-blend: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  ⚠️ REPORT (not blocking): bpc-157 has 2 PARAMETERISED [VERIFY ...] marker(s) on an LV-1 source field (frontmatter status:). These do NOT block today by Andrew's 2026-09-08 decision — an unresolved marker is not a false claim. They WILL block once the backlog is resolved.",
     "info  bpc-157: 4 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
@@ -73,6 +74,7 @@
     "info  matrixyl: no [VERIFY] markers at all",
     "info  mazdutide: no [VERIFY] markers at all",
     "info  melanotan-ii: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
+    "info  metreleptin: no [VERIFY] markers at all",
     "info  mgf: no [VERIFY] markers at all",
     "info  mk-677: 2 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  mots-c: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
@@ -89,6 +91,7 @@
     "info  pramlintide: no [VERIFY] markers at all",
     "info  prostamax: no [VERIFY] markers at all",
     "info  pt-141: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
+    "info  pyy: no [VERIFY] markers at all",
     "info  retatrutide: 1 [VERIFY] marker(s). 1 sit on an LV-1 source field but state a fact as TRUE NOW WITH A NAMED EXPIRY (beginner.safetyBasics) — non-blocking. ⚠️ REVIEWER MUST CONFIRM the public copy for retatrutide does not assert the thing that expires.",
     "info  selank: 6 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  semaglutide: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
@@ -115,7 +118,7 @@
     "info  vesugen: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)",
     "info  vilon: no [VERIFY] markers at all",
     "info  vip: no [VERIFY] markers at all",
-    "97 checked · 0 blocking · 106 informational"
+    "100 checked · 0 blocking · 109 informational"
   ],
   "entries": [
     {
@@ -469,6 +472,11 @@
             "reason": "same mechanism class"
           },
           {
+            "slug": "bimagrumab",
+            "name": "Bimagrumab",
+            "reason": "shared research area"
+          },
+          {
             "slug": "follistatin",
             "name": "Follistatin",
             "reason": "shared research area"
@@ -476,11 +484,6 @@
           {
             "slug": "hgh",
             "name": "HGH (Human Growth Hormone) / Somatropin",
-            "reason": "shared research area"
-          },
-          {
-            "slug": "igf-1-lr3",
-            "name": "IGF-1 LR3",
             "reason": "shared research area"
           }
         ]
@@ -941,6 +944,11 @@
         "description": "Adipotide is an engineered peptide designed to destroy the blood vessels feeding white fat tissue, causing fat loss without a measured change in food intake —…",
         "related": [
           {
+            "slug": "bimagrumab",
+            "name": "Bimagrumab",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "follistatin",
             "name": "Follistatin",
             "reason": "same mechanism class"
@@ -956,19 +964,14 @@
             "reason": "same mechanism class"
           },
           {
-            "slug": "tesofensine",
-            "name": "Tesofensine",
+            "slug": "pyy",
+            "name": "PYY",
             "reason": "same mechanism class"
           },
           {
-            "slug": "amycretin",
-            "name": "Amycretin",
-            "reason": "shared research area"
-          },
-          {
-            "slug": "aod-9604",
-            "name": "AOD-9604",
-            "reason": "shared research area"
+            "slug": "tesofensine",
+            "name": "Tesofensine",
+            "reason": "same mechanism class"
           }
         ]
       }
@@ -1635,13 +1638,13 @@
             "reason": "same mechanism class"
           },
           {
-            "slug": "follistatin",
-            "name": "Follistatin",
+            "slug": "bimagrumab",
+            "name": "Bimagrumab",
             "reason": "shared research area"
           },
           {
-            "slug": "hgh",
-            "name": "HGH (Human Growth Hormone) / Somatropin",
+            "slug": "follistatin",
+            "name": "Follistatin",
             "reason": "shared research area"
           }
         ]
@@ -2638,6 +2641,222 @@
           {
             "slug": "tb-500",
             "name": "TB-500",
+            "reason": "same mechanism class"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "bimagrumab",
+      "name": "Bimagrumab",
+      "aliases": [
+        "BYM338",
+        "LY3985863"
+      ],
+      "category": "Anti-activin type II receptor monoclonal antibody",
+      "mechanismClass": "Other investigational compound",
+      "researchAreas": [
+        "muscle-performance",
+        "metabolic-weight"
+      ],
+      "status": "Not a peptide — a monoclonal antibody. Not FDA-approved, and not approved by any regulator anywhere; it has been investigational throughout its development. Originated at Novartis as BYM338 and now studied by Eli Lilly as LY3985863. Its largest and best-powered programme — a phase 2b trial in sporadic inclusion body myositis — did not improve its primary endpoint. Current weight-management work is phase 2; no phase 3 weight-management trial exists. WADA status: Prohibited at all times. The 2026 WADA Prohibited List names bimagrumab by name under S4.3, \"Agents Preventing Activin Receptor IIB Activation\", as an example of an anti-activin receptor IIB antibody. Per the S4 section header, S4.3 substances are non-Specified Substances. Not DEA-scheduled.",
+      "recommendedTimeOfDay": "anytime",
+      "lastUpdated": "2026-09-10",
+      "beginner": {
+        "summary": "Bimagrumab is a lab-made antibody, not a peptide. Antibodies are much larger molecules, and they are given by a drip into a vein rather than as a small injection under the skin. It works by blocking a docking point on muscle cells that normally receives signals telling muscle to stop growing. With that docking point blocked, the brake comes off: muscle tissue grows, and in the studies done so far fat tissue also went down. It is still experimental everywhere in the world — no regulator has approved it for anything.",
+        "researchFindings": "In a study of adults who had type 2 diabetes along with overweight or obesity, people given bimagrumab lost body fat and gained lean tissue over about a year, while those given a placebo did neither. A later and much larger study tested it in adults with obesity, on its own and alongside an existing weight-loss medicine, and the combination brought about more weight loss than either one used alone. Muscle spasms, diarrhoea and acne were the side effects that came up most often with it. Its biggest test was in a rare muscle-wasting disease, where the main thing the trial set out to measure — how far people could walk in six minutes — did not improve compared with placebo at any dose. It has never been approved for sale, and all the weight-related work so far has been mid-stage.",
+        "evidenceLevel": "Clinical research",
+        "keyTerms": [
+          {
+            "term": "Monoclonal antibody",
+            "definition": "A large lab-made protein designed to stick to one specific target in the body. Much bigger than a peptide, and usually given by a drip."
+          },
+          {
+            "term": "Activin type II receptor",
+            "definition": "A docking point on muscle cells. Signals arriving there tell muscle to limit its own growth."
+          },
+          {
+            "term": "Myostatin",
+            "definition": "A natural signal that acts as a brake on muscle growth. Blocking its docking point releases that brake."
+          },
+          {
+            "term": "Lean mass",
+            "definition": "The weight of everything in the body that is not fat — muscle, organs, bone and water."
+          },
+          {
+            "term": "Investigational",
+            "definition": "Still being studied and not approved by regulators for general use."
+          }
+        ],
+        "safetyBasics": "Bimagrumab is investigational and is not approved anywhere, so it is not available by prescription and nothing sold as it has been reviewed by a regulator. Muscle spasms, diarrhoea and acne were the side effects reported most often in its studies. It is banned in drug-tested sport, where it is named directly on the banned list. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
+      },
+      "disclosures": [
+        "⚠️ For research and educational purposes only. Bimagrumab is an investigational compound not approved by any regulator for any indication. Information in this entry is informational, not medical advice.",
+        "⚠️ This is a monoclonal antibody, not a peptide. Bimagrumab is a fully human monoclonal antibody[¹] — a large immunoglobulin protein of roughly 150 kDa, given by intravenous infusion. It is not a lyophilized research peptide, it is not reconstituted with bacteriostatic water, and it is not injected subcutaneously. The library carries non-peptide compounds deliberately; a reader mistaking an antibody for a peptide is a different matter, because every handling, preparation, and dosing convention used elsewhere in this library is wrong for it.",
+        "⚠️ Investigational everywhere. Not approved, not withdrawn — never approved. Bimagrumab has been in clinical development since at least 2011 without an approval in any jurisdiction. FDA labeling and application records return no result for it (checked 2026-09-10), and the 2026 Nature Medicine report describes it in its own opening sentence as *\"an investigational antibody\"*.[³]",
+        "⚠️ The muscle-preservation story is the most hype-adjacent claim in this space. Read the populations. Every efficacy figure below belongs to a specific trial in a specific population at a specific dose, and none of them generalises. The body-composition findings come from phase 2 trials of 75 and 507 participants; the combination finding excludes people with diabetes; and the compound's largest trial — in a muscle-wasting disease — missed its primary endpoint entirely.[¹] A phase 2 body-composition result is not a general claim that bimagrumab preserves muscle.",
+        "⚠️ WADA-banned, named explicitly. The 2026 WADA Prohibited List names bimagrumab under S4.3, \"Agents Preventing Activin Receptor IIB Activation\", verbatim as *\"Anti-activin receptor IIB antibodies (e.g. bimagrumab)\"*.[⁵] Per the S4 section header, *\"Prohibited substances in classes S4.1 and S4.2 are Specified Substances. Those in classes S4.3 and S4.4 are non-Specified Substances.\"*[⁵] Non-Specified status carries a stricter sanction range. Prohibited at all times, in and out of competition. This is the same S4.3 cluster as [follistatin.md](./follistatin.md) and [ace-031.md](./ace-031.md)."
+      ],
+      "quickReference": [
+        {
+          "label": "Compound class",
+          "value": "Fully human monoclonal antibody[¹] against the activin type II receptors (ActRII).[²] Blocking the receptor prevents myostatin, activins and related TGF-β-superfamily ligands from signalling through it — receptor-level blockade, as distinct from the ligand-trap approach of [ace-031.md](./ace-031.md) or the ligand-binding approach of [follistatin.md](./follistatin.md)."
+        },
+        {
+          "label": "Supplied as",
+          "value": "No approved product exists in any country. Supplied only as investigational material within clinical trials."
+        },
+        {
+          "label": "Frequency",
+          "value": "Every 4 weeks in the earlier programmes;[¹][²] every 12 weeks in the 2026 obesity trial.[³]"
+        },
+        {
+          "label": "Half-life",
+          "value": "Not stated in this entry — no half-life figure is asserted without a primary pharmacokinetic source `[ADD]`. The 12-week dosing interval used in the obesity trial implies a long one.[³]"
+        },
+        {
+          "label": "Route",
+          "value": "Intravenous infusion in every trial cited here.[¹][²][³][⁴] Not subcutaneous."
+        },
+        {
+          "label": "Onset of action",
+          "value": "Thigh muscle volume increased by week 2 and was sustained through week 24 in the sarcopenia study.[⁴] Body-composition endpoints were assessed at week 48 in both weight-related trials.[²][³]"
+        }
+      ],
+      "about": [
+        "Bimagrumab (development codes BYM338 at Novartis, LY3985863 at Eli Lilly) is a fully human monoclonal antibody that binds the activin type II receptors.[¹][²] Antibody blockade of ActRII signalling stimulates skeletal muscle growth, and the 2021 trial report notes that earlier clinical work had also suggested it promotes loss of excess adipose tissue and improves insulin resistance.[²]",
+        "Mechanism, stated at the level the sources support. The receptor is the point of blockade. Myostatin and the activins signal *through* ActRII to restrain muscle growth; an antibody occupying the receptor prevents that signalling regardless of which ligand is present.[²] This is mechanistically adjacent to, but not the same as, the two other myostatin-pathway compounds in this library: [ace-031.md](./ace-031.md) is a soluble decoy receptor that mops up ligands, and [follistatin.md](./follistatin.md) is a binding protein that sequesters myostatin and activins. A naming caution worth carrying: the WADA List files bimagrumab under *anti-activin receptor IIB antibodies*,[⁵] while the trial literature describes its target as the activin type II receptors more generally.[²][³] Both descriptions are reproduced here as their sources give them; this entry does not assert a receptor-subtype selectivity figure `[ADD]`.",
+        "Sporadic inclusion body myositis — the largest programme, and it failed. RESILIENT was a multicentre, double-blind, placebo-controlled phase 2b trial at 38 academic sites across Australia, Europe, Japan and the USA, enrolling 251 participants aged 36–85 randomised 1:1:1:1 to bimagrumab 10, 3 or or placebo, infused every 4 weeks for at least 48 weeks.[¹] The primary outcome was 6-minute walking distance at week 52, analysed by intention-to-treat.[¹] At week 52, 6MWD change from baseline did not differ between any bimagrumab dose and placebo — the least-squares mean treatment differences were 17·6 m (SE 14·3; 99% CI −19·6 to 54·8; p=0·22) for, 18·6 m (14·2; −18·2 to 55·4; p=0·19) for, and −1·3 m (14·1; −38·0 to 35·4; p=0·93) for.[¹] The authors' own conclusion is that bimagrumab *\"showed a good safety profile, relative to placebo, in individuals with inclusion body myositis but did not improve 6MWD.\"*[¹] The study was funded by Novartis Pharma.[¹] A long-term extension reported progressive deterioration in 6MWD from weeks 24 to 104 in all treatment groups, including those receiving bimagrumab.[⁶]",
+        "Type 2 diabetes with overweight or obesity. A 48-week, double-masked, placebo-controlled phase 2 randomised trial at 9 US and UK sites enrolled adults with type 2 diabetes, BMI 28–40 and HbA1c 6.5–10.0%.[²] 75 patients were randomised (bimagrumab n=37, placebo n=38) and 58 (77.3%) completed; the published analysis included only participants who completed the full treatment regimen.[²] At week 48, changes for bimagrumab versus placebo were: fat mass −20.5% (−7.5 kg; 80% CI −8.3 to −6.6) versus −0.5% (−0.18 kg; 80% CI −0.99 to 0.63), P<.001; lean mass +3.6% (+1.70 kg; 80% CI 1.1 to 2.3) versus −0.8% (−0.4 kg; 80% CI −1.0 to 0.1), P<.001; waist circumference −9.0 cm versus +0.5 cm, P<.001; HbA1c −0.76 percentage points versus −0.04, P=.005; and body weight −6.5% (−5.9 kg) versus −0.8% (−0.8 kg), P<.001.[²] Three design facts travel with those numbers: the trial had 75 participants, the analysis was restricted to completers, and the intervals reported are 80% confidence intervals, not the conventional 95%.[²]",
+        "Obesity, with and without semaglutide. The 2026 Nature Medicine report is the largest weight-related trial: a double-blind, placebo-controlled phase 2 trial randomising 507 adults with obesity (BMI ≥30, or ≥27 with at least one obesity-associated complication, excluding diabetes) 1:1:1:1:1:1:1:1:1 across nine groups for 48 weeks — placebo, bimagrumab 10 or intravenously every 12 weeks, semaglutide 1.0 or subcutaneously once weekly, and combinations — followed by an open-label extension to week 72.[³] The primary endpoint was absolute change from baseline in body weight at week 48.[³] Least-squares mean absolute body-weight changes at week 48 were −9.3 kg (bimagrumab), −14.2 kg (semaglutide) and −17.8 kg (bimagrumab plus semaglutide), versus −3.3 kg for placebo (all P<0.001 versus placebo).[³] Common adverse events for bimagrumab were muscle spasms, diarrhoea and acne; semaglutide was associated with nausea, diarrhoea, constipation and fatigue.[³]",
+        "On the body-composition question this trial is best known for: the published abstract reports body weight, and does not report the fat-mass and lean-mass split. This entry therefore attributes lean-mass gain only to the 2021 type 2 diabetes trial, which measured and reported it,[²] and makes no claim about lean-mass preservation in the semaglutide combination.",
+        "Sarcopenia. A 24-week randomised, double-blind, placebo-controlled parallel-arm phase 2 proof-of-concept study at five US centres enrolled 40 community-dwelling adults aged 65 and over with gait speed 0.4–1.0 m/s and low appendicular skeletal muscle index, randomised to intravenous bimagrumab (n=19) or placebo (n=21).[⁴] Thigh muscle volume increased by week 2 and remained above baseline at study end in the bimagrumab group with no change on placebo (week 24: 4.80±5.81% versus −1.01±4.43%, P=.002).[⁴] Participants with slower baseline walking speed who received bimagrumab had greater improvements in gait speed (mean 0.15 m/s, P=.009) and 6-minute walk distance (mean 82 m, P=.022) than placebo at week 16 — a subgroup finding in a 40-person study, and framed as such here.[⁴]",
+        "Development status (checked against ClinicalTrials.gov, 2026-09-10). The registry record shows the programme moving from Novartis to Eli Lilly. The furthest any bimagrumab trial has been registered is phase 2/phase 3, in sporadic inclusion body myositis — the programme that missed its endpoint. Every registered weight-management trial is phase 2, including the completed 507-participant semaglutide combination study (NCT05616013) and an active phase 2 weight-management study of 252 participants (NCT06643728). A registered bimagrumab-plus-tirzepatide study (NCT06901349) is listed as withdrawn with zero enrolment.",
+        "Regulatory status (US). Not FDA-approved. Searches of FDA labeling and application records return no result for bimagrumab (checked 2026-09-10). Consistent with a compound that has never held an approval, there is nothing to be withdrawn or discontinued. Not DEA-scheduled.",
+        "Regulatory status (sport — WADA). Prohibited at all times, named explicitly. See the callout above for the verbatim S4.3 listing and the non-Specified Substance framework note.[⁵]"
+      ],
+      "reconstitution": {
+        "diluent": "",
+        "examples": [],
+        "storageBeforeReconstitution": "No storage or in-use stability guidance is published here. Do not extrapolate from research-peptide conventions."
+      },
+      "dosingProtocol": {
+        "startingDose": ""
+      },
+      "stacks": {
+        "combinations": [
+          {
+            "partner": "Semaglutide",
+            "rationale": "the only combination with published phase 2 human evidence, and the result is quantified above: combined treatment produced greater absolute body-weight reduction at week 48 than either agent alone in adults with obesity without diabetes, with a safety profile the investigators described as consistent with the known profiles of both drugs.[³] See [semaglutide.md](./semaglutide.md). This is a trial result in a defined population, not a protocol and not a recommendation."
+          },
+          {
+            "partner": "Tirzepatide",
+            "rationale": "a registered bimagrumab-plus-tirzepatide study was withdrawn with zero participants enrolled (ClinicalTrials.gov, checked 2026-09-10). There is no published trial result for this combination. See [tirzepatide.md](./tirzepatide.md)."
+          },
+          {
+            "partner": "Other myostatin-pathway inhibitors ([follistatin.md](./follistatin.md), [ace-031.md](./ace-031.md))",
+            "rationale": "mechanistically redundant, since all three act on the same pathway at different points. No human data exist on combining them, and the vascular adverse events that ended the ACE-031 programme are a class-level caution against compounding inhibition of multiple TGF-β-superfamily ligands.[⁴]"
+          }
+        ],
+        "contraindicatedCombinations": []
+      },
+      "sideEffects": {
+        "common": [
+          "Muscle spasms — the most characteristic bimagrumab adverse event. In RESILIENT, reported in 51%, 68% and 40% of participants versus 21% on placebo.[¹] Also common in the 2026 obesity trial.[³]",
+          "Diarrhoea — 52%, 44% and 32% across the RESILIENT bimagrumab arms versus 18% on placebo.[¹] Also common in the obesity trial.[³]",
+          "Acne — reported as a common bimagrumab adverse event in the 2026 obesity trial.[³]"
+        ],
+        "serious": []
+      },
+      "contraindications": [
+        "No approved product exists anywhere. Anything sold as bimagrumab outside a clinical trial is outside any regulatory system for identity, purity, or sterility, and is not the trial material any figure in this entry describes.",
+        "The route is intravenous infusion under clinical supervision. Nothing in this entry supports self-administration by any route.",
+        "Drug-tested athletes: prohibited at all times and named on the list. S4.3 substances are non-Specified, carrying a stricter sanction range.[⁵]",
+        "Class-level caution from the pathway. The ACE-031 phase 2 programme in Duchenne muscular dystrophy was stopped for epistaxis and telangiectasias — vascular adverse events attributed to inhibition of TGF-β-superfamily ligands beyond myostatin. See [ace-031.md](./ace-031.md) and [follistatin.md](./follistatin.md). Whether that concern extends to receptor-level blockade by bimagrumab is not established in the trials cited here.",
+        "Pregnancy and lactation: no data presented here. Default to contraindicated."
+      ],
+      "firstTimeWalkthrough": [
+        "There is no first-use workflow for this compound, and this library will not construct one. Bimagrumab is an investigational monoclonal antibody given by intravenous infusion inside clinical trials. It is not available, and no self-directed protocol for it exists.",
+        "Do not use the VialWise reconstitution calculator for this compound. That calculator is built for lyophilized research peptide vials. Bimagrumab is neither lyophilized research supply nor a peptide.",
+        "If you are reading this because of the muscle-preservation discussion around GLP-1 weight loss, read the fourth callout at the top. The lean-mass figure in this entry belongs to a 75-participant completers analysis in adults with type 2 diabetes,[²] and the 507-participant semaglutide combination trial's published abstract reports body weight rather than the lean-mass split.[³]",
+        "The compound's largest trial did not improve its primary endpoint.[¹] Any account of bimagrumab that omits that is incomplete."
+      ],
+      "citations": [
+        {
+          "index": 1,
+          "reference": "Hanna MG, Badrising UA, Benveniste O, Lloyd TE, Needham M, Chinoy H, Aoki M, Machado PM, et al. (2019). Safety and efficacy of intravenous bimagrumab in inclusion body myositis (RESILIENT): a randomised, double-blind, placebo-controlled phase 2b trial. The Lancet Neurology, 18(9):834–844.",
+          "primaryUrl": "https://doi.org/10.1016/S1474-4422(19)30200-5",
+          "identifierLabel": "PMID 31397289 · NCT01925209",
+          "verified": true
+        },
+        {
+          "index": 2,
+          "reference": "Heymsfield SB, Coleman LA, Miller R, Rooks DS, Laurent D, Petricoul O, Praestgaard J, Swan T, et al. (2021). Effect of Bimagrumab vs Placebo on Body Fat Mass Among Adults With Type 2 Diabetes and Obesity: A Phase 2 Randomized Clinical Trial. JAMA Network Open, 4(1):e2033457.",
+          "primaryUrl": "https://doi.org/10.1001/jamanetworkopen.2020.33457",
+          "identifierLabel": "PMID 33439265 · NCT03005288",
+          "verified": true
+        },
+        {
+          "index": 3,
+          "reference": "Heymsfield SB, Aronne LJ, Montgomery P, Klickstein LB, Coleman LA, Dole K, Mindeholm L, Spruill S, et al. (2026). Bimagrumab plus semaglutide alone or in combination for the treatment of obesity: a randomized phase 2 trial. Nature Medicine, 32(3):869–882.",
+          "primaryUrl": "https://doi.org/10.1038/s41591-026-04204-0",
+          "identifierLabel": "PMID 41772149 · NCT05616013",
+          "verified": true
+        },
+        {
+          "index": 4,
+          "reference": "Rooks D, Praestgaard J, Hariry S, Laurent D, Petricoul O, Perry RG, Lach-Trifilieff E, Roubenoff R. (2017). Treatment of Sarcopenia with Bimagrumab: Results from a Phase II, Randomized, Controlled, Proof-of-Concept Study. Journal of the American Geriatrics Society, 65(9):1988–1995.",
+          "primaryUrl": "https://doi.org/10.1111/jgs.14927",
+          "identifierLabel": "PMID 28653345",
+          "verified": true
+        },
+        {
+          "index": 5,
+          "reference": "World Anti-Doping Agency. The 2026 Prohibited List, International Standard (effective 1 January 2026). Canonical PDF: wada-ama.org; local archival copy at `docs/legal/wada-2026-prohibited-list.pdf`.",
+          "primaryUrl": "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf",
+          "verified": true
+        },
+        {
+          "index": 6,
+          "reference": "Amato AA, Hanna MG, Machado PM, Badrising UA, Chinoy H, Benveniste O, Karanam AK, Wu M, et al. (2021). Efficacy and Safety of Bimagrumab in Sporadic Inclusion Body Myositis: Long-term Extension of RESILIENT. Neurology, 96(12):e1595–e1607.",
+          "primaryUrl": "https://doi.org/10.1212/WNL.0000000000011626",
+          "identifierLabel": "PMID 33597289 · NCT02573467",
+          "verified": true
+        }
+      ],
+      "web": {
+        "url": "https://www.getvialwise.com/library/bimagrumab",
+        "title": "Bimagrumab (BYM338) — what it does, evidence, and safety",
+        "description": "Bimagrumab is a lab-made antibody, not a peptide. Antibodies are much larger molecules, and they are given by a drip into a vein rather than as a small…",
+        "related": [
+          {
+            "slug": "semaglutide",
+            "name": "Semaglutide",
+            "reason": "discussed together in this entry's stacks section"
+          },
+          {
+            "slug": "tirzepatide",
+            "name": "Tirzepatide",
+            "reason": "discussed together in this entry's stacks section"
+          },
+          {
+            "slug": "adipotide",
+            "name": "Adipotide",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "follistatin",
+            "name": "Follistatin",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "foxo4-dri",
+            "name": "FOXO4-DRI",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "pnc-27",
+            "name": "PNC-27",
             "reason": "same mechanism class"
           }
         ]
@@ -4366,6 +4585,7 @@
         "⚠️ The CASTA Phase IV trial (the largest and methodologically-strongest Cerebrolysin trial in the published literature) had a negative primary endpoint in acute ischemic stroke. The Heiss 2012 *Stroke* CASTA trial enrolled 1,070 patients with acute ischemic hemispheric stroke within 12 hours of symptom onset, randomized to Cerebrolysin 30 mL daily IV (n=529) or placebo (n=541) for 10 days, with 90-day follow-up. The primary endpoint — combined global directional test of modified Rankin Scale, Barthel Index, and NIH Stroke Scale — showed no significant difference between treatment groups.[³] A post-hoc subgroup analysis suggested a trend favoring Cerebrolysin in severely affected patients (NIHSS >12), with cumulative 90-day mortality 20.2% placebo vs 10.5% Cerebrolysin in this subgroup (HR 1.97, lower CI bound 1.00) — but this is a post-hoc finding from a trial that did not meet its primary endpoint, requiring confirmation by a subsequent prospective trial that has not been completed.[³] The Phase IV CASTA trial's neutral primary endpoint is the largest single-trial evidence base for Cerebrolysin in acute stroke and should anchor the entry's clinical-evidence framing.",
         "⚠️ Cerebrolysin dosing is in milliliters of solution, not milligrams of peptide — fundamentally different from the rest of the Vialwise library. Standard clinical-trial doses are 10–60 mL IV per day, typically administered as a slow IV infusion (in 100–250 mL saline carrier) over 60–90 minutes daily for 10–21 days. The CASTA Phase IV stroke trial used 30 mL daily for 10 days (cumulative 300 mL).[³] Research-community use varies but typically follows the clinical-protocol convention of IV or IM administration measured in milliliters. The Vialwise calculator is designed for mg/mcg dosing of single-peptide compounds and may not apply cleanly to Cerebrolysin's mL-dosing convention — verify any Cerebrolysin protocol against published clinical-trial dosing rather than against the calculator output."
       ],
+      "disclosuresLeadIndex": 0,
       "quickReference": [
         {
           "label": "Compound class",
@@ -6024,6 +6244,7 @@
       },
       "disclosures": [
         "⚠️ This is an approved prescription medicine, not a research peptide. Desmopressin is dispensed by a pharmacy and used under clinical supervision. The reconstitution and self-dosing workflows used elsewhere in this library do not apply. Information here is informational, not medical advice.",
+        "⚠️ Explicitly prohibited in sport — read this before anything else. Unlike nearly every other compound in this library, desmopressin is named outright on the 2026 WADA Prohibited List. It sits in S5 (Diuretics and Masking Agents) and is prohibited at all times, in and out of competition. In the list text it appears in the same block as intravenous plasma expanders (albumin, dextran, hydroxyethyl starch, mannitol) and probenecid. Every substance in S5 is a Specified Substance — a classification that can affect how a case is judged, but which does not make it permitted. If you are subject to anti-doping rules, this is a prohibited substance.",
         "⚠️ The main safety story is hyponatraemia, and it is not a footnote. Desmopressin's whole mechanism is water retention, so the predictable failure mode is dilutional low blood sodium. Pooled trial data identified dose, age, baseline sodium and kidney function as risk factors, and the researchers responded by proposing a lower, sex-specific dose plus a sodium-monitoring schedule.[¹] Take that as the central fact about this drug rather than a listed side effect."
       ],
       "quickReference": [
@@ -7164,6 +7385,7 @@
         "⚠️ FDA black-box warning for thyroid C-cell tumors — same class warning as the rest of the modern GLP-1 family. The Bydureon FDA label carries a black-box warning for risk of thyroid C-cell tumors based on findings of C-cell adenomas and C-cell carcinomas in rats and mice exposed to exenatide extended-release at all doses in 2-year carcinogenicity studies. Human relevance is unknown but the label-level concern is a class effect across the GLP-1 ra family (semaglutide, tirzepatide, and liraglutide all carry similar boxed warnings). Contraindicated in patients with personal or family history of medullary thyroid carcinoma (MTC) or in patients with multiple endocrine neoplasia syndrome type 2 (MEN 2). Additional important safety considerations: acute pancreatitis (class effect; case reports + theoretical concern), acute kidney injury (volume depletion from GI side effects; particular concern in patients with pre-existing renal impairment), hypoglycemia (when combined with sulfonylurea or insulin), gallbladder disease (cholelithiasis / cholecystitis; class effect across the GLP-1 family).",
         "⚠️ not listed on the WADA 2026 Prohibited List. Direct grep against the canonical WADA 2026 PDF confirms exenatide, GLP-1, and the related incretin-mimetic class are absent from the document — consistent with the entire GLP-1 ra family (Liraglutide, Semaglutide, Tirzepatide, Retatrutide) being absent from WADA listings.[⁶] Sixth negative-WADA-listing entry in the library (joining GHK-cu, PT-141, Liraglutide, Thymosin α1, Melanotan II). The GLP-1 receptor agonism mechanism does not fit any WADA prohibited category (S0–S9). Researchers competing in WADA-tested sport should still confirm against the current annual edition before competition; the absence of a current listing is not a guarantee of absence in future editions."
       ],
+      "disclosuresLeadIndex": 3,
       "quickReference": [
         {
           "label": "Compound class",
@@ -7894,6 +8116,11 @@
             "reason": "same mechanism class"
           },
           {
+            "slug": "bimagrumab",
+            "name": "Bimagrumab",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "foxo4-dri",
             "name": "FOXO4-DRI",
             "reason": "same mechanism class"
@@ -7904,14 +8131,9 @@
             "reason": "same mechanism class"
           },
           {
-            "slug": "tesofensine",
-            "name": "Tesofensine",
+            "slug": "pyy",
+            "name": "PYY",
             "reason": "same mechanism class"
-          },
-          {
-            "slug": "ace-031",
-            "name": "ACE-031",
-            "reason": "shared research area"
           }
         ]
       }
@@ -8136,6 +8358,11 @@
             "reason": "same mechanism class"
           },
           {
+            "slug": "bimagrumab",
+            "name": "Bimagrumab",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "follistatin",
             "name": "Follistatin",
             "reason": "same mechanism class"
@@ -8146,19 +8373,14 @@
             "reason": "same mechanism class"
           },
           {
-            "slug": "tesofensine",
-            "name": "Tesofensine",
+            "slug": "pyy",
+            "name": "PYY",
             "reason": "same mechanism class"
           },
           {
-            "slug": "cartalax",
-            "name": "Cartalax",
-            "reason": "shared research area"
-          },
-          {
-            "slug": "cortagen",
-            "name": "Cortagen",
-            "reason": "shared research area"
+            "slug": "tesofensine",
+            "name": "Tesofensine",
+            "reason": "same mechanism class"
           }
         ]
       }
@@ -10468,6 +10690,7 @@
         "⚠️ Multiple FDA-approved products with substantially different reconstitution, dose units, and delivery devices. HGH is sold under 10+ FDA-approved branded products. The most common include:\n\n- Genotropin (Pfizer, cartridge + reconstitution + pen device) — most widely prescribed\n- Humatrope (Eli Lilly, cartridge + reconstitution + pen device)\n- Norditropin (Novo Nordisk, pre-filled solution pen — no reconstitution required, ready-to-inject)\n- Saizen (EMD Serono, cartridge + reconstitution + pen) — all presentations discontinued per the FDA Purple Book (BLA 019764); the licence stands but the product is no longer marketed\n- Omnitrope (Sandoz, cartridge + reconstitution + pen)\n- Zomacton (Ferring, vial + reconstitution + pen or syringe)\n- Serostim (EMD Serono, vial + reconstitution + syringe — specifically labeled for HIV-associated wasting)\n- Zorbtive (EMD Serono, vial + reconstitution — specifically labeled for short bowel syndrome) — discontinued per the FDA Purple Book (BLA 020604)\n- Long-acting weekly products (newer formulations):\n - Sogroya / somapacitan (Novo Nordisk, weekly SC) — albumin-binder modification. In Feb 2026 the FDA approved somapacitan for pediatric idiopathic short stature, small-for-gestational-age, and Noonan syndrome, giving it the broadest indication set among the long-acting GH products.\n - Skytrofa / lonapegsomatropin (Ascendis, weekly SC) — TransCon prodrug\n - Ngenla / somatrogon (Pfizer, weekly SC) — CTP modification\n\nThe pharmacokinetics, dose units (mg vs IU), reconstitution requirements, and delivery devices differ substantially across these products. The Vialwise calculator's role for HGH is conversion of dose target (mg or IU) into draw volume at the labeled concentration — same architecture as the other peptide entries, but with brand-specific complexity around device-based delivery (pens) vs vial-and-syringe. Researchers should be explicit with themselves about which product they are using and follow that product's specific labeling.",
         "⚠️ Three distinct dose contexts — different doses, different evidence bases, different regulatory contexts. HGH appears in three meaningfully distinct contexts:\n\n1. FDA-approved indication treatment (TRT-equivalent for the GH axis) — adult GHD or pediatric GHD treatment per FDA labels. Dose ranges: starting (adult);/day (pediatric). Goal: replacement to mid-normal IGF-1 range; titrated to symptoms, IGF-1 labs, and side effects (edema, joint pain, glucose tolerance). This is the FDA-approved use case and the use case supported by the largest RCT evidence base — primarily the Yuen 2019 AACE/ACE guideline framework[¹] and the Molitch 2011 Endocrine Society guideline.[²]\n2. Off-label \"anti-aging\" use — operates outside the FDA-approved indication, outside DEA prescription authority, and outside the published RCT evidence base for that population. The Rudman 1990 NEJM trial[³] sparked an entire \"anti-aging clinic\" industry but reported significant side effects (carpal tunnel, gynecomastia, glucose intolerance) at supraphysiologic doses, and subsequent literature has not validated a clinical anti-aging benefit. Distribution of HGH for anti-aging is specifically illegal under 21 USC 333(e).\n3. Research-community / performance use — supraphysiologic doses for athletic performance, body composition, or injury recovery; widely encountered in bodybuilding contexts. Operates outside the FDA-approved indication and outside the published RCT efficacy/safety data; explicitly illegal under federal law.\n\nResearchers should be explicit with themselves about which dose context applies and what evidence base + regulatory framework supports their specific use."
       ],
+      "disclosuresLeadIndex": 2,
       "quickReference": [
         {
           "label": "Compound class",
@@ -12616,7 +12839,9 @@
         "safetyBasics": "Linaclotide carries a boxed warning, the most serious warning label US regulators issue: it must never be given to a child under 2 years old, because in newborn mice a single adult-sized dose caused deaths from dehydration. It must also not be used by anyone with a known or suspected mechanical blockage of the gut. Beyond those two, it is a prescription drug for diagnosed gut conditions — and it is approved for children as well as adults, at ages that differ by condition. Its most common side effect is diarrhea, reported by roughly one in five people in the IBS trials and clearly dose-related in the constipation trials — 6% at the lower dose and 17% at the higher, against 2% on placebo. That is the drug's own mechanism overshooting rather than an unrelated effect. It is not named on the WADA Prohibited List and, being an approved medicine, is not captured by the S0 non-approved-substances category — though athletes should verify with their anti-doping organization. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
       },
       "disclosures": [
+        "⚠️ boxed warning — risk of serious dehydration in children under 2. Linzess is contraindicated in patients less than 2 years of age; in neonatal mice, a single clinically relevant adult oral dose of linaclotide caused deaths due to dehydration. This is the FDA's most serious warning class. It is also contraindicated in anyone with known or suspected mechanical gastrointestinal obstruction. Verified against DailyMed SPL 09beda19-56d6-4a56-afdc-9a77b70b2ef3 version 39 (label revised 5/2026), checked 2026-09-08.",
         "⚠️ This is an approved prescription medicine, not a research peptide. Linaclotide is dispensed by a pharmacy for diagnosed conditions. The reconstitution and self-dosing workflows used elsewhere in this library do not apply. Information here is informational, not medical advice.",
+        "⚠️ A peptide you swallow. Almost every compound in this library is injected, because the digestive tract destroys peptides. Linaclotide is a 14-amino-acid peptide taken as an oral capsule — it works *because* it stays in the gut, acting on receptors in the intestinal lining. Alongside oral `octreotide` and `orforglipron`, it is one of this library's worked examples of peptide-class pharmacology in a swallowed dose.",
         "⚠️ It is not a general \"gut health\" supplement. Linaclotide's evidence base is in diagnosed conditions — IBS-C, chronic idiopathic constipation, and functional constipation in children — in trials where participants met formal diagnostic criteria.[¹][²][³] Nothing in this entry supports using it for general digestion, bloating without a diagnosis, or gut-lining \"repair,\" none of which it was tested for."
       ],
       "quickReference": [
@@ -14259,6 +14484,193 @@
       }
     },
     {
+      "slug": "metreleptin",
+      "name": "Metreleptin",
+      "aliases": [
+        "Myalept",
+        "Myalepta",
+        "recombinant methionyl-human leptin",
+        "r-metHuLeptin"
+      ],
+      "category": "Leptin analog",
+      "mechanismClass": "Leptin & adipokine analog",
+      "researchAreas": [
+        "metabolic-weight"
+      ],
+      "status": "FDA-approved prescription drug (Myalept, Chiesi). Approved as an adjunct to diet as replacement therapy to treat the complications of leptin deficiency in patients with congenital or acquired generalized lipodystrophy — a rare disease in which the body lacks fat tissue. It is not a weight-loss drug, and general obesity is a formal CONTRAINDICATION on its label, not merely an unapproved use. The label carries a boxed warning covering anti-metreleptin antibodies with neutralizing activity and the risk of lymphoma, and the product is available only through a restricted program under a Risk Evaluation and Mitigation Strategy (REMS). WADA status: metreleptin and leptin are not named anywhere on the 2026 WADA Prohibited List (checked directly against the list text, 2026-09-10); because metreleptin holds regulatory approval for human therapeutic use, S0 does not capture it. Not DEA-scheduled (prescription, non-controlled).",
+      "fdaApproved": true,
+      "recommendedTimeOfDay": "anytime",
+      "lastUpdated": "2026-09-10",
+      "beginner": {
+        "summary": "Metreleptin is a lab-made copy of leptin, the hormone that fat tissue normally releases to tell the brain how much energy is stored in the body. It is a prescription medicine for a rare condition called generalized lipodystrophy, in which a person is missing most or all of their body fat. Without fat tissue there is almost no leptin, the brain reads that as starvation, and hunger and metabolic problems follow. Metreleptin replaces the missing hormone.",
+        "researchFindings": "In people with generalized lipodystrophy, replacing the missing hormone improved blood sugar control and brought down very high blood fat levels, and those improvements held up over years of treatment. The main study behind its approval gave the drug to everyone taking part, with no comparison group, and people were allowed to change their other medicines during it, so the results show what happened rather than proving how much of it the drug caused on its own. Research has also looked at people with partial lipodystrophy, where only some fat tissue is missing, and the medicine is not approved for that group.",
+        "keyTerms": [
+          {
+            "term": "Leptin",
+            "definition": "A hormone released by fat tissue that tells the brain how much energy the body has stored. Low levels read to the brain as not enough food."
+          },
+          {
+            "term": "Generalized lipodystrophy",
+            "definition": "A rare condition in which the body is missing most or all of its fat tissue, either from birth or acquired later."
+          },
+          {
+            "term": "Leptin deficiency",
+            "definition": "Having too little leptin. In this condition it happens because the fat tissue that would make it is not there."
+          },
+          {
+            "term": "Replacement therapy",
+            "definition": "Giving back a substance the body cannot make enough of, rather than adding a drug that does something new."
+          },
+          {
+            "term": "Neutralizing antibodies",
+            "definition": "Proteins the immune system can make against a medicine, which can stop it working and, here, can also block the body's own version of the hormone."
+          }
+        ],
+        "safetyBasics": "This is a prescription medicine for a rare disease, and it is not a weight-loss treatment. It carries the most serious warning label US regulators issue, covering two problems: the body can make antibodies against the medicine that block both it and the person's own leptin, and a type of blood cancer called T-cell lymphoma has been reported in people with one form of this condition, both those who took the medicine and those who did not. Because of these risks it can only be supplied through a restricted program with extra safety requirements. It is not on the banned list for drug-tested sport. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
+      },
+      "disclosures": [
+        "⚠️ For research and educational purposes only. Metreleptin is an approved prescription medicine. Information in this entry is informational, not medical advice.",
+        "⚠️ This is not a weight-loss drug, and that is not a technicality. Metreleptin is approved to treat the complications of leptin deficiency in people with congenital or acquired generalized lipodystrophy — a rare disease in which the body lacks adipose tissue. Its label states plainly that MYALEPT is contraindicated in patients with general obesity not associated with congenital leptin deficiency, and that it has not been shown to be effective in treating general obesity.[¹] A contraindication is stronger than an absence of approval: it is the label instructing that the drug not be used in that group at all. If you arrived at this entry because \"leptin\" sounds like an appetite or weight-management tool, this is the finding that matters and the rest of the entry does not soften it.",
+        "⚠️ Boxed warning, and a restricted distribution program. The label carries a boxed warning — the most serious warning the FDA issues — headed *\"warning: Risk of anti-metreleptin antibodies with neutralizing activity and risk of lymphoma.\"*[¹] Anti-metreleptin antibodies with neutralizing activity have been identified in treated patients; the consequences are not well characterized but could include inhibition of endogenous leptin action and/or loss of efficacy, and severe infection and/or worsening metabolic control have been reported.[¹] T-cell lymphoma has been reported in patients with acquired generalized lipodystrophy, both treated and not treated with MYALEPT.[¹] Because of these risks, the product is available only through a restricted program under a Risk Evaluation and Mitigation Strategy (REMS) called the myalept rems program.[¹]",
+        "⚠️ Note on evidence quality. The pivotal clinical experience behind the approval is an open-label, single-arm study in 48 patients — no control group, no blinding — and concomitant antihyperglycemic and lipid-altering medication regimens were not held constant during the study.[¹] Some patients had insulin increased, others had large reductions or discontinuation.[¹] This is normal and largely unavoidable in a disease this rare, but it means the reported changes describe what happened to a treated cohort rather than isolating the drug's independent effect.",
+        "⚠️ Approved for generalized, not partial, lipodystrophy. The label's Limitations of Use state that safety and effectiveness have not been established for the complications of partial lipodystrophy, or for liver disease including nonalcoholic steatohepatitis (NASH), and that the drug is not indicated in HIV-related lipodystrophy or in patients with metabolic disease — including diabetes mellitus and hypertriglyceridemia — without concurrent evidence of generalized lipodystrophy.[¹]"
+      ],
+      "disclosuresLeadIndex": 2,
+      "quickReference": [
+        {
+          "label": "Compound class",
+          "value": "Recombinant human leptin analog. Metreleptin (recombinant methionyl-human leptin) is produced in *E. coli* and differs from native human leptin by the addition of a methionine residue at its amino terminus. A 147-amino-acid, nonglycosylated polypeptide with one disulfide bond between Cys-97 and Cys-147 and a molecular weight of approximately 16.15 kDa.[¹]"
+        },
+        {
+          "label": "Supplied as",
+          "value": "Pharmacy-dispensed prescription product supplied through a restricted program. Sterile lyophilized cake containing, reconstituted with 2.2 mL of bacteriostatic or sterile water for injection to a final concentration.[¹] Not a research-supply vial, and not obtainable outside the REMS program."
+        },
+        {
+          "label": "Frequency",
+          "value": "Subcutaneous, once daily or twice daily in two equal doses in the pivotal study.[¹]"
+        },
+        {
+          "label": "Half-life",
+          "value": "3.8 to 4.7 hours following single subcutaneous doses of 0.01 in healthy subjects.[¹] The label notes there are limited pharmacokinetic data in patients with generalized lipodystrophy, and that clearance is expected to be delayed in the presence of leptin antibodies.[¹]"
+        },
+        {
+          "label": "Route",
+          "value": "Subcutaneous injection.[¹]"
+        },
+        {
+          "label": "Onset of action",
+          "value": "Changes in HbA1c, fasting glucose and triglycerides observed at month 4 were similar to those at 1 year.[¹]"
+        }
+      ],
+      "about": [
+        "Metreleptin is a recombinant analog of human leptin that binds to and activates the human leptin receptor (ObR), a Class I cytokine-family receptor that signals through the JAK/STAT pathway.[¹] It is marketed in the US as Myalept under BLA 125390, originally approved 24 February 2014, currently sponsored by Chiesi Farmaceutici S.p.A. and listed as a prescription product in the FDA's application record (checked 2026-09-10).",
+        "Why leptin replacement makes sense in this disease, and only in this disease. Adipocytes store lipids to meet the fuel requirements of non-adipose tissues during fasting.[¹] In generalized lipodystrophy, the deficiency of adipose tissue leads to hypertriglyceridemia and ectopic deposition of fat in non-adipose tissues such as liver and muscle, contributing to insulin resistance.[¹] Leptin is secreted predominantly by adipose tissue and informs the central nervous system about the status of the body's energy stores; when there is no adipose tissue, there is almost no leptin, and that deficiency contributes to excess caloric intake, which worsens the metabolic abnormalities.[¹] Metreleptin replaces the missing hormone.",
+        "This is the mechanistic reason it does not transfer to common obesity. In generalized lipodystrophy the problem is an *absence* of leptin. In common obesity, leptin levels are typically high rather than low, and the limiting factor is resistance to leptin's action — the contrast the PYY literature drew on explicitly when it argued that obesity does not blunt the response to PYY, \"in common with the adipocyte hormone leptin… in obesity there is a marked resistance to the action of leptin, which greatly limits its therapeutic effectiveness.\"[³] Replacing a hormone that is already abundant does not address resistance to it. See [pyy.md](./pyy.md) for that comparison in its original context, and [setmelanotide.md](./setmelanotide.md) for the downstream leptin–melanocortin pathway, where a different rare, genetically defined defect is treated by acting below the leptin step.",
+        "What the pivotal study reported. An open-label, single-arm study evaluated metreleptin in patients with congenital or acquired generalized lipodystrophy who had diabetes mellitus, hypertriglyceridemia, and/or increased fasting insulin.[¹] Of the 48 patients enrolled, 32 (67%) had congenital and 16 (33%) had acquired generalized lipodystrophy; 36 (75%) were female; median age at baseline was 15 years (range 1–68), with 35 (73%) under 18.[¹] Median duration of treatment was 2.7 years (range 3.6 months – 10.9 years).[¹] At 12 months, mean HbA1c fell by 2.0 percentage points (SD 1.5) from a baseline of 8.5% (n=35); mean fasting glucose fell by 49 mg/dL (SD 75) from 174 (n=37); and median fasting triglycerides fell by 184 mg/dL from a median baseline of 348, a median −55% change (n=36).[¹] Among the 28 patients with baseline HbA1c ≥7% and month-12 data, mean baseline HbA1c was 9.3% and the mean reduction was 2.4%.[¹] Among the 12 patients with baseline triglycerides ≥500 mg/dL and month-12 data, median baseline was 1527 mg/dL and the median reduction was 1117 mg/dL.[¹] These are single-arm, open-label results with background medications changing during the study, and the label reports them as such.[¹]",
+        "Longer-term and comparative reports. A prospective, single-arm, open-label study conducted at the National Institutes of Health compared response in generalized versus partial lipodystrophy in patients treated for six months or longer.[²] At 12 months, HbA1c fell in both groups — to 6.4% ± 1.5% in 55 patients with generalized lipodystrophy (P<.001) and 7.3% ± 1.6% in 31 with partial lipodystrophy (P=.004) — and triglycerides fell in both.[²] The paper's own framing is that metreleptin was approved in the United States for generalized but not partial lipodystrophy, and its object was to test efficacy in partial versus generalized disease.[²] A separate report of long-term treatment in 55 patients (36 generalized, 19 partial) at the same centre described sustained reductions in HbA1c and triglycerides across a 3-year treatment period, alongside reductions in elevated ALT and AST.[³] Both are uncontrolled: one is explicitly a prospective single-arm open-label study,[²] the other describes an observed patient population within an ongoing trial.[³]",
+        "Regulatory status (US). FDA-approved as Myalept under BLA 125390 (original approval 24 February 2014), sponsor Chiesi Farmaceutici S.p.A., current label effective 25 March 2024, marketing status *Prescription*.[¹] Because this is a biologic licensed under a BLA, the Orange Book is the wrong database for it — approval and marketing status here are taken from the FDA labeling and application records. Distribution is restricted through the myalept rems program.[¹] not DEA-scheduled.",
+        "Regulatory status (sport — WADA). Metreleptin and leptin are not named anywhere on the 2026 WADA Prohibited List (checked directly against the list text, 2026-09-10). S0 (Non-Approved Substances) does not capture metreleptin, because S0 reaches only substances *\"with no current approval by any governmental regulatory health authority for human therapeutic use\"* and metreleptin holds such approval. This is the same reasoning applied in [setmelanotide.md](./setmelanotide.md). Athletes should verify current status with their National Anti-Doping Organization."
+      ],
+      "reconstitution": {
+        "diluent": "",
+        "examples": [],
+        "storageBeforeReconstitution": "Per the dispensed product's labeling. Do not extrapolate storage or in-use stability from the research-peptide conventions used elsewhere in this library."
+      },
+      "dosingProtocol": {
+        "startingDose": ""
+      },
+      "sideEffects": {
+        "common": [],
+        "serious": [
+          "Anti-metreleptin antibodies with neutralizing activity. Identified in treated patients. Consequences are not well characterized but could include inhibition of endogenous leptin action and/or loss of efficacy. Severe infection and/or worsening metabolic control have been reported. The label directs testing for neutralizing antibodies in patients who develop severe infections or show signs suspicious for loss of efficacy during treatment.",
+          "T-cell lymphoma, reported in patients with acquired generalized lipodystrophy — both treated and not treated with metreleptin. The label directs careful consideration of benefits and risks in patients with significant hematologic abnormalities and/or acquired generalized lipodystrophy."
+        ]
+      },
+      "contraindications": [
+        "Contraindications, verbatim in substance from the label:[¹]",
+        "General obesity not associated with congenital leptin deficiency. Metreleptin has not been shown to be effective in treating general obesity, and the development of anti-metreleptin antibodies with neutralizing activity has been reported in obese patients treated with it.",
+        "Hypersensitivity to metreleptin — prior severe hypersensitivity reactions to metreleptin or any product component.",
+        "Limitations of use, from the label:[¹]",
+        "Safety and effectiveness not established for complications of partial lipodystrophy.",
+        "Safety and effectiveness not established for liver disease, including NASH.",
+        "Not indicated in HIV-related lipodystrophy.",
+        "Not indicated in patients with metabolic disease, including diabetes mellitus and hypertriglyceridemia, without concurrent evidence of congenital or acquired generalized lipodystrophy.",
+        "Access: available only through the myalept rems program.[¹] There is no legitimate supply route outside it."
+      ],
+      "firstTimeWalkthrough": [
+        "This is a prescription medicine for a rare disease, dispensed through a restricted safety program. There is no self-directed first-use workflow for it, and this library will not construct one.",
+        "If you are here looking for a leptin-based weight-loss option, the answer in the label is explicit: general obesity is a contraindication, and the drug has not been shown to be effective in treating general obesity.[¹] That is the end of the question, not the start of a workaround.",
+        "If metreleptin has been prescribed to you, follow the instructions supplied with the dispensed product and your prescriber's direction — not the reconstitution workflow used for research peptides elsewhere in this library.",
+        "Do not use the VialWise reconstitution calculator for this compound. The calculator is built for lyophilized research vials you prepare yourself; this is a pharmacy-dispensed product supplied under a restricted program with its own labeled preparation instructions.",
+        "Ask your prescriber about the antibody testing described in the boxed warning, particularly if a severe infection occurs or the medicine appears to stop working.[¹]",
+        "You can still log doses in VialWise to keep a record — but treat the app as a log only. The dose, the titration, and the monitoring are set by your prescriber."
+      ],
+      "citations": [
+        {
+          "index": 1,
+          "reference": "US Food and Drug Administration. MYALEPT (metreleptin) for injection, for subcutaneous use — Prescribing Information. BLA 125390; label version effective 2024-03-25; sponsor Chiesi Farmaceutici S.p.A. (US labeler Chiesi USA, Inc.); NDC 10122-210; unii tl60c27rlh; SPL set id `d3b50bbd-140b-425c-b5ec-d4682aad62bc`. Retrieved 2026-09-10 from the openFDA drug label API (`api.fda.gov/drug/label.json`, raw JSON saved); approval history and marketing status cross-checked the same day against the openFDA",
+          "verified": true
+        },
+        {
+          "index": 2,
+          "reference": "Diker-Cohen T, Cochran E, Gorden P, Brown RJ. (2015). Partial and generalized lipodystrophy: comparison of baseline characteristics and response to metreleptin. The Journal of Clinical Endocrinology and Metabolism, 100(5):1802–1810.",
+          "primaryUrl": "https://doi.org/10.1210/jc.2014-4491",
+          "identifierLabel": "PMID 25734254",
+          "verified": true
+        },
+        {
+          "index": 3,
+          "reference": "Chan JL, Lutz K, Cochran E, Huang W, Peters Y, Weyer C, Gorden P. (2011). Clinical effects of long-term metreleptin treatment in patients with lipodystrophy. Endocrine Practice, 17(6):922–932.",
+          "primaryUrl": "https://doi.org/10.4158/EP11229.OR",
+          "identifierLabel": "PMID 22068254",
+          "verified": true
+        },
+        {
+          "index": 4,
+          "reference": "World Anti-Doping Agency. The 2026 Prohibited List, International Standard (effective 1 January 2026). Canonical PDF: wada-ama.org; local archival copy at `docs/legal/wada-2026-prohibited-list.pdf`.",
+          "primaryUrl": "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf",
+          "verified": true
+        }
+      ],
+      "web": {
+        "url": "https://www.getvialwise.com/library/metreleptin",
+        "title": "Metreleptin (Myalept) — what it does, evidence, and safety",
+        "description": "Metreleptin is a lab-made copy of leptin, the hormone that fat tissue normally releases to tell the brain how much energy is stored in the body.",
+        "related": [
+          {
+            "slug": "adipotide",
+            "name": "Adipotide",
+            "reason": "shared research area"
+          },
+          {
+            "slug": "amycretin",
+            "name": "Amycretin",
+            "reason": "shared research area"
+          },
+          {
+            "slug": "aod-9604",
+            "name": "AOD-9604",
+            "reason": "shared research area"
+          },
+          {
+            "slug": "bimagrumab",
+            "name": "Bimagrumab",
+            "reason": "shared research area"
+          },
+          {
+            "slug": "cagrilintide",
+            "name": "Cagrilintide",
+            "reason": "shared research area"
+          },
+          {
+            "slug": "cagrisema",
+            "name": "CagriSema",
+            "reason": "shared research area"
+          }
+        ]
+      }
+    },
+    {
       "slug": "mgf",
       "name": "MGF",
       "aliases": [
@@ -15010,8 +15422,8 @@
             "reason": "shared research area"
           },
           {
-            "slug": "cagrilintide",
-            "name": "Cagrilintide",
+            "slug": "bimagrumab",
+            "name": "Bimagrumab",
             "reason": "shared research area"
           }
         ]
@@ -15306,6 +15718,7 @@
       },
       "disclosures": [
         "⚠️ This is an approved prescription medicine, not a research peptide. Octreotide is dispensed by a pharmacy and used under specialist endocrine care. The reconstitution and self-dosing workflows used elsewhere in this library do not apply. Information here is informational, not medical advice.",
+        "⚠️ Why this entry is in a peptide library: it is the mirror image of the GH cluster. A large share of this library — sermorelin, tesamorelin, CJC-1295, ipamorelin, hexarelin, the GHRPs, MK-677 — exists to *raise* growth hormone. Octreotide is the drug used to *lower* it, and the disease it treats, acromegaly, is what chronic growth-hormone excess actually looks like clinically: enlarging hands, feet and jaw, joint damage, and metabolic disease. Reading this entry alongside the secretagogue entries is the point.",
         "⚠️ Read the Phase 3 trial's entry criteria before reading its result. The MPOWERED trial only randomized patients who were already responding to injectable somatostatin receptor ligands and who then also responded during a 26-week oral run-in.[¹] It is a maintenance and formulation-switching study. It does not tell you how likely a newly diagnosed patient is to respond to octreotide at all."
       ],
       "quickReference": [
@@ -15994,9 +16407,11 @@
       },
       "disclosures": [
         "⚠️ For research and educational purposes only. Oxytocin (Pitocin) is an FDA-approved prescription drug for obstetric use, administered in a hospital under medical supervision. Information in this entry is informational, not medical advice. Always consult appropriate professional guidance before any decisions.",
+        "⚠️ boxed warning — not for elective induction of labor. Verbatim from the Pitocin label: \"Elective induction of labor is defined as the initiation of labor in a pregnant individual who has no medical indications for induction. Since the available data are inadequate to evaluate the benefits-to-risks considerations, Pitocin is not indicated for elective induction of labor.\" The approval covers induction where a medical indication exists — not induction by choice. Verified against the Pitocin FDA label (DailyMed SPL 6e5a66fc-e507-497c-b5ce-44a8c95898ad, version 15, effective 2026-05-06) on 2026-09-08.",
         "⚠️ The FDA-approved use is obstetric and hospital-administered — not a self-dosed peptide. Pitocin's labeled indications are labor induction/augmentation and control of postpartum bleeding, given by IV infusion pump (milliunits/min) or IM injection by clinicians. The label's pharmacology characterizes this use. The research-community \"social/bonding/anxiolytic\" interest (often intranasal) is off-label, not FDA-characterized, and outside what this entry's clinical data describe. This entry is included for educational completeness on an FDA-approved peptide hormone, not as a self-administration protocol.",
         "⚠️ Oxytocin and vasopressin differ by only 2 amino acids — oxytocin has intrinsic pressor and antidiuretic effects. Per the FDA label, large doses can manifest vasopressin-like activity (water retention → water intoxication risk). This is a real hazard at high/prolonged dosing and a key reason the obstetric use is tightly supervised."
       ],
+      "disclosuresLeadIndex": 1,
       "quickReference": [
         {
           "label": "Compound class",
@@ -17170,6 +17585,11 @@
             "reason": "same mechanism class"
           },
           {
+            "slug": "bimagrumab",
+            "name": "Bimagrumab",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "follistatin",
             "name": "Follistatin",
             "reason": "same mechanism class"
@@ -17177,6 +17597,11 @@
           {
             "slug": "foxo4-dri",
             "name": "FOXO4-DRI",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "pyy",
+            "name": "PYY",
             "reason": "same mechanism class"
           },
           {
@@ -17371,13 +17796,13 @@
             "reason": "shared research area"
           },
           {
-            "slug": "cagrisema",
-            "name": "CagriSema",
+            "slug": "bimagrumab",
+            "name": "Bimagrumab",
             "reason": "shared research area"
           },
           {
-            "slug": "dulaglutide",
-            "name": "Dulaglutide",
+            "slug": "cagrisema",
+            "name": "CagriSema",
             "reason": "shared research area"
           }
         ]
@@ -17870,6 +18295,201 @@
             "slug": "gonadorelin",
             "name": "Gonadorelin",
             "reason": "shared research area"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pyy",
+      "name": "PYY",
+      "aliases": [
+        "Peptide YY",
+        "PYY 3-36",
+        "PYY(3-36)",
+        "PYY3-36",
+        "peptide tyrosine tyrosine"
+      ],
+      "category": "Gut satiety hormone; npy y2 receptor agonist",
+      "mechanismClass": "Other investigational compound",
+      "researchAreas": [
+        "appetite",
+        "metabolic-weight"
+      ],
+      "status": "Not FDA-approved for any indication, and no PYY product of any kind is approved anywhere. Exogenous PYY3-36 has been given to humans only in research settings, and the modern long-acting analogue tested alongside semaglutide produced a treatment effect its own investigators described as not clinically meaningful, with poor tolerability at the higher dose. WADA status: PYY, PYY3-36 and peptide YY are not named anywhere on the 2026 WADA Prohibited List (checked directly against the list text, 2026-09-10). Because S0 (Non-Approved Substances) captures any pharmacological substance not addressed elsewhere on the List and with no current approval by any governmental regulatory health authority for human therapeutic use, an unapproved PYY3-36 preparation falls under S0 by default. Not DEA-scheduled.",
+      "recommendedTimeOfDay": "anytime",
+      "lastUpdated": "2026-09-10",
+      "beginner": {
+        "summary": "PYY is a hormone your gut releases after you eat. Its active form, called PYY3-36, is one of the signals that tells the brain a meal has arrived and that it is time to stop eating. The amount released tracks how many calories the meal contained, which is why it is described as a fullness signal. Researchers have given PYY3-36 to people through a drip to see whether adding more of it makes people eat less. It is not an approved medicine anywhere, and nothing containing it can be prescribed.",
+        "researchFindings": "In short studies where PYY3-36 was dripped into a vein, people ate noticeably less at a meal offered afterwards, and this happened in people with obesity as well as in lean people. Those studies measured how much someone ate over a single day. They did not measure weight change over weeks or months, so they show an effect on appetite rather than an effect on body weight. When another research group tried to repeat the original animal experiments, they could not get the same result, which became a long-running disagreement in the field. More recently, a longer-acting version was designed so it could be given as a regular injection instead of a drip, and it was tested on top of an existing weight-loss medicine. The added benefit was small enough that the researchers running it described it as not clinically meaningful, stomach-related side effects were common, and the higher dose was not tolerated well enough to continue.",
+        "keyTerms": [
+          {
+            "term": "Gut hormone",
+            "definition": "A chemical messenger released by the digestive tract that travels in the blood and reports back to the brain about food that has been eaten."
+          },
+          {
+            "term": "PYY3-36",
+            "definition": "The shortened, active form of PYY that the body makes from the full hormone. It is the form used in appetite research."
+          },
+          {
+            "term": "Y2 receptor",
+            "definition": "The docking point in the brain that PYY3-36 fits into. Switching it on turns down the signals that drive hunger."
+          },
+          {
+            "term": "Infusion",
+            "definition": "Giving something slowly into a vein through a drip, rather than as an injection under the skin."
+          },
+          {
+            "term": "Analogue",
+            "definition": "A lab-made version of a natural substance, redesigned so it lasts longer in the body or is easier to give."
+          }
+        ],
+        "safetyBasics": "No PYY product is approved anywhere, so nothing containing it has been reviewed for safety or quality by a regulator. In research, stomach and bowel side effects such as nausea have been the common and dose-limiting problem. PYY itself is not named on the banned list for drug-tested sport, but anything not approved as a medicine anywhere is off-limits in drug-tested sport by default. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
+      },
+      "disclosures": [
+        "⚠️ For research and educational purposes only. PYY is not an approved medicine in any country and no PYY product has been reviewed by a regulator for safety, quality, or effectiveness. Information in this entry is informational, not medical advice.",
+        "⚠️ What this entry covers, and what it does not. This entry is about exogenous PYY3-36 — PYY given to people as an intervention. PYY is also an extensively studied piece of normal human physiology: it rises after meals, it rises sharply after bariatric surgery, and it shifts with dietary fibre. That endogenous literature measures PYY as a marker of something else happening and does not establish anything about administering PYY. Findings of the \"PYY levels rose after X\" kind are outside this entry's scope and are not evidence that taking PYY does anything.",
+        "⚠️ An appetite effect measured over one day is not a weight-loss result. The human infusion studies below measured how much people ate at a test meal and across 24 hours. They did not run long enough to measure weight. The one program that did test a PYY analogue for weight management over months reported an effect its own investigators called not clinically meaningful."
+      ],
+      "quickReference": [
+        {
+          "label": "Compound class",
+          "value": "Gut peptide hormone. Full-length PYY is 36 amino acids; the circulating active fragment PYY3-36 is selective for the neuropeptide Y Y2 receptor (Y2R).[¹]"
+        },
+        {
+          "label": "Supplied as",
+          "value": "No approved product exists in any country. Human studies used material prepared for research administration."
+        },
+        {
+          "label": "Frequency",
+          "value": "Continuous intravenous infusion in the foundational human studies.[¹][²] The long-acting analogue was developed specifically so that repeat subcutaneous dosing would be possible.[⁴]"
+        },
+        {
+          "label": "Half-life",
+          "value": "Not stated in this entry. Native PYY3-36 is short-lived enough that the human studies delivered it by continuous infusion, and a long-acting analogue had to be engineered for repeat dosing[⁴] — but no half-life figure is asserted here `[ADD]`."
+        },
+        {
+          "label": "Route",
+          "value": "Intravenous infusion in the foundational human studies.[¹][²]"
+        },
+        {
+          "label": "Onset of action",
+          "value": "Food intake was measured at a test meal offered two hours after infusion, and cumulatively over 24 hours.[¹][²]"
+        }
+      ],
+      "about": [
+        "PYY (peptide YY, sometimes written peptide tyrosine tyrosine) is a hormone released from the gastrointestinal tract after eating, in proportion to the calorie content of the meal.[¹] The circulating form relevant to appetite research is the cleaved fragment PYY3-36, which is an agonist at the neuropeptide Y Y2 receptor.[¹]",
+        "Mechanism. The Y2 receptor is a presynaptic inhibitory receptor expressed on neuropeptide Y (NPY) neurons in the arcuate nucleus of the hypothalamus, a region accessible to hormones circulating in the blood.[¹] The 2002 Nature report that established the mechanism found that PYY3-36 inhibits the electrical activity of NPY nerve terminals, which in turn activates neighbouring pro-opiomelanocortin (POMC) neurons — the same POMC step that sits upstream of the melanocortin pathway described in [setmelanotide.md](./setmelanotide.md).[¹] In mice lacking the Y2 receptor, the appetite effect did not occur, which is the evidence that the effect runs through Y2R rather than around it.[¹]",
+        "The human infusion findings. Two reports form the human basis for the appetite claim, and both are acute studies:",
+        "- The 2002 Nature paper — predominantly a rodent study — included a human component in which infusion of PYY3-36 at normal postprandial concentrations decreased appetite and reduced food intake by 33% over 24 hours.[¹]\n- The 2003 New England Journal of Medicine report was a double-blind, placebo-controlled crossover study in 12 people with obesity and 12 lean people. Caloric intake at a buffet lunch offered two hours after infusion fell by 30% in the obese participants and 31% in the lean participants, and cumulative 24-hour caloric intake fell in both groups.[²] The same paper reported that endogenous fasting and postprandial PYY levels were lower in the obese participants, and that fasting PYY correlated negatively with body-mass index.[²]",
+        "The framing that paper argued for is worth stating precisely, because it is often reported loosely: its finding was that people with obesity are not resistant to the appetite effect of PYY, in contrast to the leptin resistance described in [metreleptin.md](./metreleptin.md).[²] That is a statement about responsiveness in a two-hour window in 24 people. It is not a statement about weight loss.",
+        "The replication dispute. In 2004, a separate group published a Brief Communications Arising item in Nature reporting that they had been unable to replicate the rodent food-intake results, and argued that the difficulty of replication called into question the value of an anti-obesity approach based on administering PYY3-36.[³] The dispute concerned the rodent experiments. It is recorded here because the field's subsequent caution is not fully legible without it.",
+        "What happened when it was developed as a drug. The most informative modern source is a 2025 report in *Obesity* covering a long-acting PYY3-36 analogue (PYY1875) from preclinical work through Phase 1 and Phase 2 studies.[⁴] In obese male rats, the analogue added weight loss on top of semaglutide.[⁴] In the Phase 1 study, all doses alone and with semaglutide were tolerated.[⁴] In the Phase 2 study, the treatment effect of PYY1875 versus placebo as an add-on to semaglutide was described by the investigators as \"modest but not clinically meaningful\"; gastrointestinal adverse events were common at that dose, and the dose-escalation regimen was not tolerated.[⁴] The authors' own summary is that the analogue \"showed modest efficacy as an add-on to semaglutide for weight management in people with obesity, but the treatment was not well tolerated.\"[⁴]",
+        "Regulatory status (US). No PYY product is FDA-approved for any indication, and a search of FDA labeling records for peptide YY returns no result (checked 2026-09-10). Not DEA-scheduled.",
+        "Regulatory status (sport — WADA). PYY, PYY3-36 and peptide YY are not named anywhere on the 2026 WADA Prohibited List (checked directly against the list text, 2026-09-10). That absence does not make it permitted. S0 (Non-Approved Substances) covers, verbatim, any pharmacological substance *\"which is not addressed by any of the subsequent sections of the List and with no current approval by any governmental regulatory health authority for human therapeutic use (e.g. drugs under pre-clinical or clinical development or discontinued, designer drugs, substances approved only for veterinary use)\"* — which describes an unapproved PYY3-36 preparation exactly. Substances in S0 are Specified Substances and are prohibited at all times. Athletes should verify current status with their National Anti-Doping Organization."
+      ],
+      "reconstitution": {
+        "diluent": "",
+        "examples": [],
+        "storageBeforeReconstitution": "No storage or in-use stability guidance is published here. Do not extrapolate from the research-peptide conventions used elsewhere in this library."
+      },
+      "dosingProtocol": {
+        "startingDose": ""
+      },
+      "stacks": {
+        "combinations": [
+          {
+            "partner": "GLP-1 receptor agonists (semaglutide)",
+            "rationale": "this is the only combination with published human trial evidence, and the result was negative on the question that matters: as an add-on to semaglutide, the PYY analogue's effect was modest and not clinically meaningful, and tolerability worsened.[⁴] See [semaglutide.md](./semaglutide.md). This is a documented outcome, not a rationale."
+          },
+          {
+            "partner": "Amylin analogues (pramlintide, cagrilintide)",
+            "rationale": "grouped with PYY in general discussions of gut-hormone satiety signalling. No human data exist on PYY combined with an amylin analogue. See [pramlintide.md](./pramlintide.md), [cagrilintide.md](./cagrilintide.md). `[citation needed]`"
+          }
+        ],
+        "contraindicatedCombinations": []
+      },
+      "sideEffects": {
+        "common": [
+          "Gastrointestinal adverse events — common at the analogue dose given with semaglutide, and the reason the escalation regimen was not tolerated.[⁴]"
+        ],
+        "serious": []
+      },
+      "contraindications": [
+        "No approved product exists. Anything sold as PYY or PYY3-36 is outside any regulatory system for identity, purity, dose accuracy, or sterility.",
+        "The route studied is not the route available. Human efficacy data come from intravenous infusion in supervised research settings. Nothing in this entry supports subcutaneous self-administration.",
+        "Pregnancy and lactation: no data. Default to contraindicated.",
+        "Drug-tested athletes: captured by WADA S0 by default as an unapproved substance — see the regulatory note above."
+      ],
+      "firstTimeWalkthrough": [
+        "There is no first-use workflow for this compound, and this library will not construct one. PYY3-36 has been given to humans by intravenous infusion in research settings only. There is no approved product, no validated preparation, and no published self-administration protocol.",
+        "Do not use the VialWise reconstitution calculator for this compound. The calculator is built for lyophilized research vials with an established concentration and dose; PYY3-36 has neither.",
+        "If you are reading about PYY because of the appetite findings, read the scope callout at the top of this entry first. The measured effect is on how much people ate over one day, in studies of 12 to 24 participants.",
+        "The one program that tested a PYY analogue for weight management over months found a modest, not clinically meaningful benefit and poor tolerability at the higher dose.[⁴] That is the most decision-relevant published result in this entry."
+      ],
+      "citations": [
+        {
+          "index": 1,
+          "reference": "Batterham RL, Cowley MA, Small CJ, Herzog H, Cohen MA, Dakin CL, Wren AM, Brynes AE, Low MJ, Ghatei MA, Cone RD, Bloom SR. (2002). Gut hormone PYY(3-36) physiologically inhibits food intake. Nature, 418(6898):650–654.",
+          "primaryUrl": "https://doi.org/10.1038/nature00887",
+          "identifierLabel": "PMID 12167864",
+          "verified": true
+        },
+        {
+          "index": 2,
+          "reference": "Batterham RL, Cohen MA, Ellis SM, Le Roux CW, Withers DJ, Frost GS, Ghatei MA, Bloom SR. (2003). Inhibition of food intake in obese subjects by peptide YY3-36. New England Journal of Medicine, 349(10):941–948.",
+          "primaryUrl": "https://doi.org/10.1056/NEJMoa030204",
+          "identifierLabel": "PMID 12954742",
+          "verified": true
+        },
+        {
+          "index": 3,
+          "reference": "Tschöp M, Castañeda TR, Joost HG, Thöne-Reineke C, Ortmann S, Klaus S, Hagan MM, Chandler PC, Oswald KD, Benoit SC, Seeley RJ, Kinzig KP. (2004). Physiology: does gut hormone PYY3-36 decrease food intake in rodents? Nature, 430(6996):1 p following 165; discussion 2 p following 165.",
+          "primaryUrl": "https://doi.org/10.1038/nature02665",
+          "identifierLabel": "PMID 15243972",
+          "verified": true
+        },
+        {
+          "index": 4,
+          "reference": "Wulff BS, Chambers AP, Osorto Contreras CK, Kirkeby K, Rinnov AR, Sustarsic RK, Østergaard S, Laabs JE, et al. (2025). Long-acting PYY3-36 analogue with semaglutide for obesity: from preclinical assessment through randomized clinical studies. Obesity (Silver Spring), 33(8):1457–1474.",
+          "primaryUrl": "https://doi.org/10.1002/oby.24329",
+          "identifierLabel": "PMID 40629530",
+          "verified": true
+        }
+      ],
+      "web": {
+        "url": "https://www.getvialwise.com/library/pyy",
+        "title": "PYY (Peptide YY) — what it does, evidence, and safety",
+        "description": "PYY is a hormone your gut releases after you eat. Its active form, called PYY3-36, is one of the signals that tells the brain a meal has arrived and that it…",
+        "related": [
+          {
+            "slug": "adipotide",
+            "name": "Adipotide",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "bimagrumab",
+            "name": "Bimagrumab",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "follistatin",
+            "name": "Follistatin",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "foxo4-dri",
+            "name": "FOXO4-DRI",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "pnc-27",
+            "name": "PNC-27",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "tesofensine",
+            "name": "Tesofensine",
+            "reason": "same mechanism class"
           }
         ]
       }
@@ -20476,6 +21096,7 @@
         "⚠️ Black-box warnings — the safety profile in women includes serious risks; the men's-health off-label safety profile is generally more favorable but is less well-characterized in published literature. The FDA Nolvadex label carries black-box warnings for:\n\n- Endometrial cancer and uterine sarcoma in women — tamoxifen's partial agonist activity at the endometrium drives a meaningful (~2–4×) increased risk of endometrial cancer in women on long-term tamoxifen. This black-box warning does not apply to men (men do not have endometrium).\n- Stroke and pulmonary embolism in women — increased risk of venous thromboembolism (VTE), pulmonary embolism (PE), and ischemic stroke in women on tamoxifen. VTE risk in men on off-label tamoxifen is less well-characterized but the underlying pharmacology is shared and theoretical risk is plausible. Researchers with personal or family history of VTE should be cautious.\n\nOther notable safety considerations: Hot flashes (very common across all populations); mood and cognitive effects (variable); bone density preservation in postmenopausal women (favorable, due to partial agonist activity at bone) but uncertain in men; lipid effects (favorable HDL changes, less consistent LDL effects); cataracts (uncommon but characteristic class effect for triphenylethylene SERMs — same as clomiphene); ocular effects including the same visual-disturbance concerns as clomiphene (uncommon); CYP2D6 metabolism interactions (see About). The Wibowo 2016 *Andrology* review of adverse events in men on tamoxifen characterized the off-label men's-health safety profile across published cohorts and case reports — generally favorable at typical men's-health dosing, with hot flashes as the most common reported adverse event.[⁵]",
         "⚠️ WADA-banned — explicitly named under Section S4.2 as a Specified Substance. Tamoxifen is one of the named compounds in the canonical 2026 WADA Prohibited List Section S4.2 (Anti-Estrogenic Substances and SERMs), alongside Bazedoxifene, Elacestrant, Raloxifene, Clomifene, Fulvestrant, Cyclofenil, Ospemifene, and Toremifene.[⁶] Specified Substance status under WADA's framework means a positive test triggers a reduced sanction range vs non-Specified Substances — but the compound remains prohibited at all times, in-competition and out-of-competition. Same WADA subsection (S4.2) as Clomiphene/Enclomiphene — second SERM entry in the library, third entry in the broader S4 (Hormone and Metabolic Modulators) WADA cluster after Anastrozole's S4.1."
       ],
+      "disclosuresLeadIndex": 3,
       "quickReference": [
         {
           "label": "Compound class",
@@ -21175,9 +21796,11 @@
         "safetyBasics": "Teriparatide is a prescription medicine that should be used under medical supervision. It can cause transient increases in blood calcium, dizziness on standing, leg cramps, nausea, and headache. It is not recommended for people at increased risk of osteosarcoma (for example, prior skeletal radiation, Paget's disease of bone, or unexplained high alkaline phosphatase). It is not on the WADA Prohibited List, but athletes should verify the current list. VialWise is a research and educational reference, not medical advice — teriparatide use should be directed by a licensed clinician."
       },
       "disclosures": [
+        "⚠️ This is an FDA-approved prescription medicine, not a research chemical. Teriparatide (Forteo, Bonsity, and generics) is approved for osteoporosis at high fracture risk. It is included here because it is a peptide people encounter and calculate doses for — but unlike most entries in this library, it has a defined label, indications, and high-quality trial evidence. It should be obtained by prescription and used under medical supervision.",
         "⚠️ For research and educational purposes only (this entry). This entry is informational and not medical advice or a substitute for the FDA-approved prescribing information. Always confirm dose calculations with the in-app calculator and follow your prescriber's instructions and the product labeling.",
         "⚠️ Osteosarcoma history. Rats given high, near-lifelong doses of teriparatide developed osteosarcoma (a bone cancer), which drove a boxed warning and a 2-year lifetime-use limit for years. The FDA removed the boxed warning and the lifetime limit in 2020, but labeling still advises caution in people at increased baseline risk of osteosarcoma. This is a real regulatory history worth understanding."
       ],
+      "disclosuresLeadIndex": 0,
       "quickReference": [
         {
           "label": "Compound class",
@@ -21793,6 +22416,11 @@
             "reason": "same mechanism class"
           },
           {
+            "slug": "bimagrumab",
+            "name": "Bimagrumab",
+            "reason": "same mechanism class"
+          },
+          {
             "slug": "follistatin",
             "name": "Follistatin",
             "reason": "same mechanism class"
@@ -21808,14 +22436,9 @@
             "reason": "same mechanism class"
           },
           {
-            "slug": "amycretin",
-            "name": "Amycretin",
-            "reason": "shared research area"
-          },
-          {
-            "slug": "aod-9604",
-            "name": "AOD-9604",
-            "reason": "shared research area"
+            "slug": "pyy",
+            "name": "PYY",
+            "reason": "same mechanism class"
           }
         ]
       }
@@ -22087,12 +22710,13 @@
       },
       "disclosures": [
         "⚠️ For research and educational purposes only. Testosterone is a DEA Schedule III controlled substance and is FDA-approved as a prescription drug for male hypogonadism. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions. Use of testosterone outside a prescribed therapeutic relationship is illegal under US federal law and carries criminal as well as health-related consequences.",
-        "Boxed warning — and it is formulation-specific. Testosterone does not carry one boxed warning; some formulations carry one and most do not, so the formulation has to be named either way. Topical and transdermal products — gels, creams, skin solutions — carry secondary exposure to testosterone: virilization has been reported in children secondarily exposed to another person's application site. Aveed (undecanoate, IM) carries a boxed warning for serious pulmonary oil microembolism and anaphylaxis. The ordinary cypionate/enanthate injections, Xyosted, the oral undecanoates, Natesto and Testopel carry none. ⚠️ The FDA's 2/28/2025 action removed cardiovascular-risk language from within the boxed warning[⁹] — it did not remove the boxed warning from testosterone, and the warning left standing is about harm to someone other than the user. See the per-formulation table under Contraindications & Warnings. Verified against openFDA drug/label across every testosterone label, 2026-09-08.",
+        "⚠️ boxed warning — and it is formulation-specific. Testosterone does not carry one boxed warning; some formulations carry one and most do not, so the formulation has to be named either way. Topical and transdermal products — gels, creams, skin solutions — carry secondary exposure to testosterone: virilization has been reported in children secondarily exposed to another person's application site. Aveed (undecanoate, IM) carries a boxed warning for serious pulmonary oil microembolism and anaphylaxis. The ordinary cypionate/enanthate injections, Xyosted, the oral undecanoates, Natesto and Testopel carry none. ⚠️ The FDA's 2/28/2025 action removed cardiovascular-risk language from within the boxed warning[⁹] — it did not remove the boxed warning from testosterone, and the warning left standing is about harm to someone other than the user. See the per-formulation table under Contraindications & Warnings. Verified against openFDA drug/label across every testosterone label, 2026-09-08.",
         "⚠️ Testosterone is not a peptide. This entry exists in the Vialwise library because researchers running peptide protocols frequently use TRT (testosterone replacement therapy) or research-community testosterone alongside peptide stacks (CJC-1295/Ipamorelin, BPC-157/TB-500, AOD-9604, GLP-1 agonists). The compound is a 19-carbon steroid hormone, not a peptide — produced naturally in the testes (and adrenals/ovaries) and synthesized commercially in multiple ester forms. Mechanistically, pharmacologically, and regulatorily it sits in a different category from the rest of the Vialwise library. Researchers should be explicit with themselves about which compound class they are using and the corresponding regulatory and safety considerations.",
         "⚠️ DEA Schedule III. Prescription required. Testosterone has been a Schedule III controlled substance under the US Controlled Substances Act since the Anabolic Steroid Control Act of 1990.[⁸] The schedule was expanded by the Anabolic Steroid Control Act of 2004 (effective January 20, 2005 — eliminated the prior \"muscle growth\" requirement and added 59 specific substances) and by the Designer Anabolic Steroid Control Act of 2014 (DASCA) (closing the chemical-modification loophole for designer derivatives). Possessing, distributing, or using testosterone outside an authorized prescriber relationship is a federal criminal offense in the US, distinct from the regulatory environment of unapproved peptides like BPC-157 or TB-500. State laws also apply; some states have additional restrictions. Researchers in jurisdictions outside the US face different regulatory environments.",
         "⚠️ Multiple ester forms with substantially different pharmacokinetics. Do not confuse them. Testosterone is sold in multiple ester forms with substantially different half-lives, peak/trough profiles, dosing intervals, and delivery routes. The most common are:\n\n- Testosterone cypionate (Depo-Testosterone) — IM oil-based injection, half-life ~8 days, typical TRT dose weekly\n- Testosterone enanthate — IM oil-based injection (and subcutaneous via Xyosted autoinjector), half-life ~4.5 days, typical TRT dose weekly ( starting for SC enanthate via Xyosted)\n- Testosterone propionate — IM oil-based injection, half-life ~0.8 days (~20 hours), requires more frequent dosing (every 1–3 days) — uncommon in modern TRT but encountered in research-community use\n- Testosterone undecanoate — IM (Aveed, dosed every 10 weeks after loading) and oral (Jatenzo, Tlando), much longer half-life\n- Testosterone suspension — water-based, no ester, very short acting; primarily research/legacy use\n- Transdermal gel/cream (AndroGel 1.62%, Testim, Vogelxo, compounded creams) — daily application, different absorption profile\n- Subcutaneous pellet (Testopel) — implanted every 3–6 months\n- Mixed-ester products (Sustanon 250) — combinations of propionate, phenylpropionate, isocaproate, decanoate; not FDA-approved in the US but encountered in research/international contexts\n\nThe dosing patterns, delivery routes, and pharmacokinetic profiles for each ester are not interchangeable. Researchers should be explicit with themselves about which ester they are using, in what formulation, by what route, and at what dose interval. This entry treats each ester as a related but distinct preparation and flags inline where dosing claims apply to one ester vs another.",
         "⚠️ TRT (replacement) vs supraphysiologic / research-community use are pharmacologically and regulatorily distinct. The published RCT efficacy and safety data for testosterone (Bhasin 2018 Endocrine Society guidelines,[¹] TTrials,[²] TRAVERSE[³]) is overwhelmingly from TRT contexts — adult men with documented hypogonadism (low total testosterone confirmed on multiple morning measurements, plus consistent symptoms), receiving doses titrated to mid-normal physiologic range (~400–700 ng/dL trough). Research-community supraphysiologic use — doses targeting peaks of 1500–3000+ ng/dL — operates outside the published RCT evidence base for both efficacy and safety, and is also outside any FDA-approved indication, prescribing label, or DEA Schedule III prescription authority. The TRAVERSE cardiovascular-safety conclusions in particular (\"non-inferiority to placebo on MACE in middle-aged and older men with hypogonadism\")[³] do not generalize to the supraphysiologic-dose research-community use pattern. Researchers should be explicit with themselves about which dose context applies and what evidence base supports their specific use."
       ],
+      "disclosuresLeadIndex": 1,
       "quickReference": [
         {
           "label": "Compound class",

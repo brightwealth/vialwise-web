@@ -63,6 +63,17 @@ export type LibraryEntry = {
     safetyBasics?: string;
   };
   disclosures?: string[];
+  /**
+   * Index of the callout that leads the entry, in AUTHORED order — computed or
+   * pinned by `pickDisclosureLead` in the app's scripts/build-library.mjs and
+   * carried through unchanged by build-library-web.mjs.
+   *
+   * `disclosures` stays in authored order here so this file keeps mirroring the
+   * app's own data exactly; the hoist is a VIEW concern, applied in
+   * library/[slug]/page.tsx the same way the app applies it in
+   * PeptideDisclosures.tsx. Keep those two in step.
+   */
+  disclosuresLeadIndex?: number;
   quickReference?: QuickReferenceRow[];
   about?: string[];
   sideEffects?: { common?: string[]; serious?: string[] };
