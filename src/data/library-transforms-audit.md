@@ -841,8 +841,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "AHK-cu is used topically and is generally considered low-risk at cosmetic concentrations, but human safety and efficacy data specific to AHK-cu are limited. Patch-testing a new topical on a small area first is sensible, as irritation or allergy is possible with any cosmetic peptide. It is a cosmetic ingredient, not a treatment for hair loss or any medical condition. It is not on the WADA Prohibite"
 
 **`ahk-cu.disclosures[0]`**
-- before: "⚠️ For research and educational purposes only. AHK-Cu is a topical cosmetic ingredient, not an FDA-approved drug. It is not a treatment for hair loss, thinning, or any medical condition. Information here is informational, not medical advice."
-- after:  "⚠️ For research and educational purposes only. AHK-cu is a topical cosmetic ingredient, not an FDA-approved drug. It is not a treatment for hair loss, thinning, or any medical condition. Information here is informational, not medical advice."
+- before: "⚠️ AHK-Cu is a topical cosmetic ingredient, not an FDA-approved drug. It is not a treatment for hair loss, thinning, or any medical condition. Information here is informational, not medical advice."
+- after:  "⚠️ AHK-cu is a topical cosmetic ingredient, not an FDA-approved drug. It is not a treatment for hair loss, thinning, or any medical condition. Information here is informational, not medical advice."
 
 **`ahk-cu.disclosures[1]`**
 - before: "⚠️ This is a topical, not an injectable. AHK-Cu is applied to the skin or scalp in a serum/cream — it is not reconstituted for injection like the research peptides elsewhere in this library. The reconstitution guidance below is for dissolving the powder into a topical formulation, not for injecting it."
@@ -1201,8 +1201,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "Not FDA-approved in the US for any indication. Cerebrolysin has never been submitted for FDA approval despite ~50 years of clinical use internationally. Available exclusively in the US as a research compound or through gray-market import from jurisdictions where it is approved (Russia, Eastern Europe, Asia). Not DEA-scheduled. WADA status: not explicitly named on the 2026 Prohibited List as of las"
 
 **`cerebrolysin.disclosures[0]`**
-- before: "⚠️ For research and educational purposes only. Cerebrolysin is NOT FDA-approved in the US for any indication. The product has never been submitted for FDA approval despite ~50 years of clinical use internationally. Cerebrolysin is available exclusively in the US as a research compound or through gray-market import. Information in this entry is informational, not medical advice. Always confirm dose"
-- after:  "⚠️ For research and educational purposes only. Cerebrolysin is not FDA-approved in the US for any indication. The product has never been submitted for FDA approval despite ~50 years of clinical use internationally. Cerebrolysin is available exclusively in the US as a research compound or through gray-market import. Information in this entry is informational, not medical advice. Always confirm dose"
+- before: "⚠️ Cerebrolysin is NOT FDA-approved in the US for any indication. The product has never been submitted for FDA approval despite ~50 years of clinical use internationally. Cerebrolysin is available exclusively in the US as a research compound or through gray-market import. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and"
+- after:  "⚠️ Cerebrolysin is not FDA-approved in the US for any indication. The product has never been submitted for FDA approval despite ~50 years of clinical use internationally. Cerebrolysin is available exclusively in the US as a research compound or through gray-market import. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and"
 
 **`cerebrolysin.disclosures[1]`**
 - before: "⚠️ The strongest available evidence (2023 Cochrane systematic review) finds NO clinical benefit on the primary outcome of all-cause death in acute ischemic stroke AND a moderate-certainty signal of INCREASED non-fatal serious adverse events with Cerebrolysin compared to placebo. The Ziganshina 2023 *Cochrane Database of Systematic Reviews* meta-analysis pooled 7 RCTs (1,773 participants) and reach"
@@ -1281,8 +1281,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "Clomiphene citrate is FDA-approved as Clomid (NDA 016131, originally approved February 1, 1967, sponsored by William S. Merrell Company) and Serophene for ovulation induction in anovulatory or oligo-ovulatory women desiring pregnancy.[¹] The FDA-approved indication is exclusively in women — clomiphene is not FDA-approved for any male indication and is not approved for treatment of male hypogonadis"
 
 **`clomiphene-enclomiphene.disclosures[0]`**
-- before: "⚠️ For research and educational purposes only. Clomiphene citrate (Clomid) is FDA-approved exclusively for ovulation induction in anovulatory women — NOT for any male indication. Enclomiphene (the trans-isomer alone) is NOT FDA-approved for any indication; the Repros Therapeutics Androxal NDA for secondary male hypogonadism received a Complete Response Letter in December 2015 and development was d"
-- after:  "⚠️ For research and educational purposes only. Clomiphene citrate (Clomid) is FDA-approved exclusively for ovulation induction in anovulatory women — not for any male indication. Enclomiphene (the trans-isomer alone) is not FDA-approved for any indication; the Repros Therapeutics Androxal NDA for secondary male hypogonadism received a Complete Response Letter in December 2015 and development was d"
+- before: "⚠️ Clomiphene citrate (Clomid) is FDA-approved exclusively for ovulation induction in anovulatory women — NOT for any male indication. Enclomiphene (the trans-isomer alone) is NOT FDA-approved for any indication; the Repros Therapeutics Androxal NDA for secondary male hypogonadism received a Complete Response Letter in December 2015 and development was discontinued by 2021. Use of either compound "
+- after:  "⚠️ Clomiphene citrate (Clomid) is FDA-approved exclusively for ovulation induction in anovulatory women — not for any male indication. Enclomiphene (the trans-isomer alone) is not FDA-approved for any indication; the Repros Therapeutics Androxal NDA for secondary male hypogonadism received a Complete Response Letter in December 2015 and development was discontinued by 2021. Use of either compound "
 
 **`clomiphene-enclomiphene.disclosures[1]`**
 - before: "⚠️ Clomiphene and enclomiphene are NOT peptides. This entry exists in the Vialwise library because researchers running TRT-adjacent men's-health protocols frequently use clomiphene or enclomiphene as a TRT alternative (raises endogenous testosterone via hypothalamic-pituitary axis stimulation) or as a fertility-preserving option (preserves spermatogenesis, unlike exogenous testosterone administrat"
@@ -1465,8 +1465,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "Both branded products discontinued; FDA approvals withdrawn. Exenatide was the first FDA-approved GLP-1 receptor agonist — Byetta (exenatide twice-daily injection, NDA 021773, originally approved April 28, 2005, Amylin Pharmaceuticals / Eli Lilly) and Bydureon / Bydureon BCise / Bydureon Pen (exenatide extended-release once-weekly injection, NDA 022200, originally approved January 27, 2012, Amylin"
 
 **`exenatide.disclosures[0]`**
-- before: "⚠️ For research and educational purposes only. Exenatide was FDA-approved as Byetta (twice-daily) and Bydureon / Bydureon BCise (once-weekly) for type 2 diabetes, but all branded exenatide products are discontinued and their approvals were withdrawn — the FDA Orange Book lists BYETTA, BYDUREON, BYDUREON PEN and BYDUREON BCISE as discontinued. The only exenatide product it lists as marketed is a ge"
-- after:  "⚠️ For research and educational purposes only. Exenatide was FDA-approved as Byetta (twice-daily) and Bydureon / Bydureon BCise (once-weekly) for type 2 diabetes, but all branded exenatide products are discontinued and their approvals were withdrawn — the FDA Orange Book lists BYETTA, BYDUREON, bydureon pen and bydureon bcise as discontinued. The only exenatide product it lists as marketed is a ge"
+- before: "⚠️ Exenatide was FDA-approved as Byetta (twice-daily) and Bydureon / Bydureon BCise (once-weekly) for type 2 diabetes, but all branded exenatide products are discontinued and their approvals were withdrawn — the FDA Orange Book lists BYETTA, BYDUREON, BYDUREON PEN and BYDUREON BCISE as discontinued. The only exenatide product it lists as marketed is a generic (Amneal, ANDA 206697). There is no cur"
+- after:  "⚠️ Exenatide was FDA-approved as Byetta (twice-daily) and Bydureon / Bydureon BCise (once-weekly) for type 2 diabetes, but all branded exenatide products are discontinued and their approvals were withdrawn — the FDA Orange Book lists BYETTA, BYDUREON, bydureon pen and bydureon bcise as discontinued. The only exenatide product it lists as marketed is a generic (Amneal, ANDA 206697). There is no cur"
 
 **`exenatide.disclosures[1]`**
 - before: "⚠️ First FDA-approved GLP-1 receptor agonist (April 28, 2005) — the regulatory-history anchor for the entire incretin-mimetic class. Exenatide / Byetta opened the GLP-1 RA pharmaceutical category with FDA approval for T2DM in April 2005, predating liraglutide (Victoza FDA-approved 2010 / Saxenda 2014), semaglutide (Ozempic 2017 / Wegovy 2021 / Rybelsus 2019), tirzepatide (Mounjaro 2022 / Zepbound "
@@ -1665,8 +1665,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "GHK-cu is not FDA-approved as a drug; topical use is legal as a cosmetic ingredient, while injectable GHK-cu is in a transitional regulatory position — its 503A compounding nomination was withdrawn in April 2026, it is not on the FDA 503A bulks list, and compounding for injection still carries regulatory risk. It is not named on the WADA Prohibited List, but being legal as a cosmetic ingredient is"
 
 **`ghk-cu.disclosures[0]`**
-- before: "⚠️ For research and educational purposes only. GHK-Cu is not approved by the FDA as a pharmaceutical drug for any indication. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions."
-- after:  "⚠️ For research and educational purposes only. GHK-cu is not approved by the FDA as a pharmaceutical drug for any indication. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions."
+- before: "⚠️ GHK-Cu is not approved by the FDA as a pharmaceutical drug for any indication. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions."
+- after:  "⚠️ GHK-cu is not approved by the FDA as a pharmaceutical drug for any indication. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions."
 
 **`ghk-cu.disclosures[1]`**
 - before: "⚠️ Precision matters at low doses. GHK-Cu is dosed in milligrams per dose, but typical research-community injectable doses ( per dose) at typical reconstitution concentrations produce small draws in the range on a U-100 syringe. At those draw sizes, even a one-unit error is a meaningful percentage of the dose (a one-unit error is ~33%; the same one-unit error is ~14%). Always verify draws against "
@@ -2161,8 +2161,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "Igf-1 lr3 is not FDA-approved and is banned in regulated sport (WADA); its safety in humans has not been established in clinical trials. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
 
 **`igf-1-lr3.disclosures[0]`**
-- before: "⚠️ For research and educational purposes only. IGF-1 LR3 (Long-R3 IGF-1) is not approved by the FDA for any indication. The native unmodified IGF-1 form (mecasermin / Increlex) IS FDA-approved for a narrow pediatric indication — but IGF-1 LR3 is a structurally modified analog with substantially different pharmacokinetics and is not the same compound. Information in this entry is informational, not"
-- after:  "⚠️ For research and educational purposes only. Igf-1 lr3 (Long-R3 IGF-1) is not approved by the FDA for any indication. The native unmodified IGF-1 form (mecasermin / Increlex) IS FDA-approved for a narrow pediatric indication — but igf-1 lr3 is a structurally modified analog with substantially different pharmacokinetics and is not the same compound. Information in this entry is informational, not"
+- before: "⚠️ IGF-1 LR3 (Long-R3 IGF-1) is not approved by the FDA for any indication. The native unmodified IGF-1 form (mecasermin / Increlex) IS FDA-approved for a narrow pediatric indication — but IGF-1 LR3 is a structurally modified analog with substantially different pharmacokinetics and is not the same compound. Information in this entry is informational, not medical advice. Always confirm dose calcula"
+- after:  "⚠️ igf-1 lr3 (Long-R3 IGF-1) is not approved by the FDA for any indication. The native unmodified IGF-1 form (mecasermin / Increlex) IS FDA-approved for a narrow pediatric indication — but igf-1 lr3 is a structurally modified analog with substantially different pharmacokinetics and is not the same compound. Information in this entry is informational, not medical advice. Always confirm dose calcula"
 
 **`igf-1-lr3.disclosures[1]`**
 - before: "⚠️ Precision matters at low doses. IGF-1 LR3 is dosed in micrograms (mcg), not milligrams. Typical research-community doses ( per dose) at typical reconstitution concentrations ( vial / 1 mL BAC water = =/unit on a U-100 syringe) produce small draws in the range — a precision-friendly range comparable to BPC-157 and GHK-Cu. Higher concentrations ( / 0.5 mL =) produce smaller draws where one-unit p"
@@ -2721,8 +2721,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "Access: available only through the myalept rems program.[¹] There is no legitimate supply route outside it."
 
 **`metreleptin.citations[0].reference`**
-- before: "US Food and Drug Administration. MYALEPT (metreleptin) for injection, for subcutaneous use — Prescribing Information. BLA 125390; label version effective 2024-03-25; sponsor Chiesi Farmaceutici S.p.A. (US labeler Chiesi USA, Inc.); NDC 10122-210; UNII TL60C27RLH; SPL set id `d3b50bbd-140b-425c-b5ec-d4682aad62bc`. Retrieved 2026-09-10 from the openFDA drug label API (`api.fda.gov/drug/label.json`, "
-- after:  "US Food and Drug Administration. MYALEPT (metreleptin) for injection, for subcutaneous use — Prescribing Information. BLA 125390; label version effective 2024-03-25; sponsor Chiesi Farmaceutici S.p.A. (US labeler Chiesi USA, Inc.); NDC 10122-210; unii tl60c27rlh; SPL set id `d3b50bbd-140b-425c-b5ec-d4682aad62bc`. Retrieved 2026-09-10 from the openFDA drug label API (`api.fda.gov/drug/label.json`, "
+- before: "US Food and Drug Administration. MYALEPT (metreleptin) for injection, for subcutaneous use — Prescribing Information. BLA 125390; label version effective 2024-03-25; sponsor Chiesi Farmaceutici S.p.A. (US labeler Chiesi USA, Inc.); NDC 10122-210; UNII TL60C27RLH; SPL set id d3b50bbd-140b-425c-b5ec-d4682aad62bc. Retrieved 2026-09-10 from the openFDA drug label API (api.fda.gov/drug/label.json, raw "
+- after:  "US Food and Drug Administration. MYALEPT (metreleptin) for injection, for subcutaneous use — Prescribing Information. BLA 125390; label version effective 2024-03-25; sponsor Chiesi Farmaceutici S.p.A. (US labeler Chiesi USA, Inc.); NDC 10122-210; unii tl60c27rlh; SPL set id d3b50bbd-140b-425c-b5ec-d4682aad62bc. Retrieved 2026-09-10 from the openFDA drug label API (api.fda.gov/drug/label.json, raw "
 
 **`mgf.status`**
 - before: "Not FDA-approved for any indication. Investigational / research-supply only. MGF is a synthetic peptide corresponding to the C-terminal region of the IGF-1Ec splice variant; there is no approved MGF product in any jurisdiction. WADA status: prohibited at all times. \"Mechano growth factors (MGFs)\" are explicitly named on the WADA 2026 Prohibited List under S2.3 (Growth Factors and Growth Factor Mod"
@@ -2761,8 +2761,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "a growth factor the liver makes in response to growth hormone; used as a lab marker (and, for igf-1 lr3, a growth factor that drives tissue and muscle growth)."
 
 **`mk-677.disclosures[0]`**
-- before: "⚠️ For research and educational purposes only. MK-677 is NOT FDA-approved for any indication and is currently under phase 3 development by Lumos Pharma for pediatric GHD. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions."
-- after:  "⚠️ For research and educational purposes only. MK-677 is not FDA-approved for any indication and is currently under phase 3 development by Lumos Pharma for pediatric GHD. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions."
+- before: "⚠️ MK-677 is NOT FDA-approved for any indication and is currently under phase 3 development by Lumos Pharma for pediatric GHD. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions."
+- after:  "⚠️ MK-677 is not FDA-approved for any indication and is currently under phase 3 development by Lumos Pharma for pediatric GHD. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions."
 
 **`mk-677.disclosures[1]`**
 - before: "⚠️ MK-677 is NOT a peptide. It is a small-molecule, non-peptide, spiropiperidine drug. This entry exists in the Vialwise library because researchers running peptide protocols frequently use MK-677 alongside peptide stacks (CJC-1295, Ipamorelin, etc.) — and because MK-677 acts on the same ghrelin receptor (GHS-R1a) as the peptide GHRP class (Ipamorelin, GHRP-2, GHRP-6). MK-677 is structurally a non"
@@ -6465,7 +6465,7 @@ once**. 414 appear exactly once and are marked ⚠️.
 | `JNCI` | 1 ⚠️ | Breast Cancer Prevention Trial (Fisher 1998, JNCI) — the trial supporting the 1998 chemopreven |
 | `JND-150083` | 1 ⚠️ | https://doi.org/10.3233/JND-150083 |
 | `JRT` | 1 ⚠️ | Riddoch-Contreras J, Yang SY, Dick JRT, Goldspink G, Orrell RW, Greensmith L. (2008 |
-| `JSON` | 1 ⚠️ | abel API (`api.fda.gov/drug/label.json`, raw JSON saved); approval history and marketing statu |
+| `JSON` | 1 ⚠️ | label API (api.fda.gov/drug/label.json, raw JSON saved); approval history and marketing statu |
 | `JSR` | 1 ⚠️ | https://doi.org/10.1249/JSR.0000000000001353 |
 | `K562` | 1 ⚠️ | rget cell.[¹] - In a p53-null leukemia line (K562), PNC-27 induced near-complete cell killing |
 | `KDM` | 1 ⚠️ | Kuerec AH, Wang W, Fokke KDM, Yi L, Lin Z, Vaidya A, Pendse S, Thasma S, |
@@ -6571,7 +6571,7 @@ once**. 414 appear exactly once and are marked ⚠️.
 | `NCT06643728` | 1 ⚠️ | weight-management study of 252 participants (NCT06643728). A registered bimagrumab-plus-tirzepatide s |
 | `NCT06901349` | 1 ⚠️ | egistered bimagrumab-plus-tirzepatide study (NCT06901349) is listed as withdrawn with zero enrolment. |
 | `NDA'` | 1 ⚠️ | s pathway is the one behind the elamipretide NDA's Complete Response Letter and subsequent acc |
-| `NDC` | 1 ⚠️ | eutici S.p.A. (US labeler Chiesi USA, Inc.); NDC 10122-210; UNII TL60C27RLH; SPL set id `d3b5 |
+| `NDC` | 1 ⚠️ | eutici S.p.A. (US labeler Chiesi USA, Inc.); NDC 10122-210; UNII TL60C27RLH; SPL set id d3b50 |
 | `NDIN` | 1 ⚠️ | each marketer must file an NDI notification (NDIN) with FDA; self-affirmed GRAS status does no |
 | `NEJM198902233200802` | 1 ⚠️ | https://doi.org/10.1056/NEJM198902233200802 |
 | `NEJM199007053230101` | 1 ⚠️ | https://doi.org/10.1056/NEJM199007053230101 |
