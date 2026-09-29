@@ -2,8 +2,8 @@
   "generatedBy": "scripts/build-library-web.mjs",
   "source": "src/library/peptides/*.ts (generated from content/peptides/*.md by scripts/build-library.mjs)",
   "doNotEdit": "DERIVED FILE. Editing it makes the website disagree with the app. Edit content/peptides/<slug>.md, re-run build-library.mjs, then re-run build-library-web.mjs.",
-  "entryCount": 100,
-  "totalInLibrary": 100,
+  "entryCount": 101,
+  "totalInLibrary": 101,
   "entries": [
     {
       "slug": "abaloparatide",
@@ -5123,12 +5123,12 @@
       "researchAreas": [
         "growth-hormone"
       ],
-      "status": "WADA-banned in regulated sport — CJC-1295 is explicitly named in the WADA 2026 Prohibited List under S2.2.4 (Growth Hormone Releasing Factors → GHRH and its analogues): \"GHRH and its analogues (e.g. CJC-1293, CJC-1295, sermorelin and tesamorelin)\", prohibited at all times. ✓ verified 2026-07-18 — the 2026 List is still the operative edition and the CJC-1295 listing is unchanged since the 2026-05-30 check. Not DEA-scheduled. Not FDA approved for any indication. Original ConjuChem Phase 2 development program halted July 17, 2006 after a single participant death at the Argentina trial site (acute myocardial infarction ~2 hours after the 11th weekly dose; the attending physician concluded the event was due to asymptomatic coronary artery disease with plaque rupture, unrelated to CJC-1295; ConjuChem terminated the program as a precaution and has not resumed development). Currently sold as a research peptide. US compounding status is unsettled, and it has diverged from BPC-157's: CJC-1295 has never been on FDA's 503A Category 1 list, was removed from the interim Category 2 list, and is not among the peptides that FDA's Pharmacy Compounding Advisory Committee took up at its July 23–24, 2026 meeting, which has since taken place (BPC-157, KPV, TB-500 and MOTS-c on July 23; Emideltide/DSIP, Epitalon and Semax on July 24). That meeting therefore says nothing about CJC-1295 either way — it was never on the agenda, no committee vote was taken on it, and its 503A position is unchanged for a different reason: it is simply not on the 503A Bulks List and so is not compoundable under 503A. ✓ verified 2026-09-03 against the FDA meeting page and FDA's voting-questions document.",
+      "status": "WADA-banned in regulated sport — CJC-1295 is explicitly named in the WADA 2026 Prohibited List under S2.2.4 (Growth Hormone Releasing Factors → GHRH and its analogues): \"GHRH and its analogues (e.g. CJC-1293, CJC-1295, sermorelin and tesamorelin)\", prohibited at all times. ✓ verified 2026-07-18 — the 2026 List is still the operative edition and the CJC-1295 listing is unchanged since the 2026-05-30 check. Not DEA-scheduled. Not FDA approved for any indication. Original ConjuChem Phase 2 development program halted July 17, 2006 after a single participant death at an Argentina trial site (the contemporaneous report [5] said the cause of death and its relationship to the study drug were still being investigated; ConjuChem's own statement the following month reported that the attending physician attributed the death to asymptomatic coronary artery disease with plaque rupture, unrelated to CJC-1295, and that the program was ended as a precaution. That company statement is not yet archived as a citation). ConjuChem has not resumed development. Currently sold as a research peptide. US compounding status is unsettled, and it has diverged from BPC-157's: CJC-1295 has never been on FDA's 503A Category 1 list, was removed from the interim Category 2 list, and is not among the peptides that FDA's Pharmacy Compounding Advisory Committee took up at its July 23–24, 2026 meeting, which has since taken place (BPC-157, KPV, TB-500 and MOTS-c on July 23; Emideltide/DSIP, Epitalon and Semax on July 24). That meeting therefore says nothing about CJC-1295 either way — it was never on the agenda, no committee vote was taken on it, and its 503A position is unchanged for a different reason: it is simply not on the 503A Bulks List and so is not compoundable under 503A. ✓ verified 2026-09-03 against the FDA meeting page and FDA's voting-questions document.",
       "recommendedTimeOfDay": "bedtime",
       "lastUpdated": "2026-09-03",
       "beginner": {
         "summary": "CJC-1295 is a synthetic growth hormone releaser, a lab-made peptide that signals the pituitary gland to release more of the body's own growth hormone. People pursue it for muscle gain, fat loss, and recovery, though those effects come from its underlying biology and user reports rather than trials that prove them. It's a modified copy of the body's own growth hormone-releasing hormone, sold in two forms, with DAC and without DAC (also called Mod GRF 1-29), that last very different lengths of time in the body. It's not FDA-approved for any use, has no brand-name products, and is banned in drug-tested sport.",
-        "researchFindings": "CJC-1295 has been studied as a long-acting compound to raise growth hormone and IGF-1. A Phase 1 study showed single doses of the DAC form raised growth hormone and IGF-1 for several days, confirming it does what it's designed to do. That early program was halted in 2006 after a participant death the trial physician attributed to pre-existing heart disease rather than the drug, and was never resumed. The body-composition, sleep, and recovery uses people pursue come from this pharmacology plus user reports, not from trials proving those outcomes.",
+        "researchFindings": "CJC-1295 has been studied as a long-acting compound to raise growth hormone and IGF-1. A Phase 1 study showed single doses of the DAC form raised growth hormone and IGF-1 for several days, confirming it does what it's designed to do. That early program was halted in 2006 after a participant died. The company later said the trial physician attributed the death to pre-existing heart disease rather than the drug; the program was never resumed. The body-composition, sleep, and recovery uses people pursue come from this pharmacology plus user reports, not from trials proving those outcomes.",
         "evidenceLevel": "Clinical research",
         "keyTerms": [
           {
@@ -5183,7 +5183,7 @@
       ],
       "about": [
         "CJC-1295 is a synthetic growth hormone-releasing hormone (GHRH) analog originally developed by ConjuChem Biotechnologies (Montreal). The molecule consists of the first 29 amino acids of native GHRH (the bioactive sequence GRF 1-29) with four amino-acid substitutions that resist enzymatic degradation, plus — in the DAC formulation — a Drug Affinity Complex linker that covalently binds the peptide to circulating serum albumin, dramatically extending its half-life.[¹]",
-        "Clinical development history. ConjuChem advanced CJC-1295 with DAC through Phase 1 and Phase 2 clinical trials in the mid-2000s. The Phase 1 results (Teichman et al., 2006) demonstrated sustained elevation of GH and IGF-1 levels in healthy adults for up to 9 days after a single subcutaneous dose, with a half-life of approximately 5.8–8.1 days.[¹] The Phase 2 program — a multicenter, randomized, placebo-controlled, double-blind trial in HIV-related lipodystrophy with 192 participants enrolled — was halted on July 17, 2006 following a single participant death at an Argentina trial site. The participant received the 11th weekly dose on July 13, 2006 and reported chest discomfort approximately two hours later; an ECG confirmed an acute myocardial infarction and death occurred approximately one hour after presentation. The attending physician concluded the most likely explanation was asymptomatic coronary artery disease with plaque rupture and occlusion, unrelated to CJC-1295; ConjuChem terminated the program as a precaution.[⁵] ConjuChem has not pursued further clinical development of the molecule.",
+        "Clinical development history. ConjuChem advanced CJC-1295 with DAC through Phase 1 and Phase 2 clinical trials in the mid-2000s. The Phase 1 results (Teichman et al., 2006) demonstrated sustained elevation of GH and IGF-1 levels in healthy adults for up to 9 days after a single subcutaneous dose, with a half-life of approximately 5.8–8.1 days.[¹] The Phase 2 program — a multicenter, randomized, placebo-controlled, double-blind trial in HIV-related visceral obesity with 192 participants enrolled at sites in North and South America — was stopped by ConjuChem on July 17, 2006 following the death of a single participant at an Argentina trial site. The contemporaneous report stated that the cause of death and its relationship to the study drug were still being investigated.[⁵] In a statement the following month, ConjuChem reported that the attending physician had concluded the most likely explanation was asymptomatic coronary artery disease with plaque rupture and occlusion, unrelated to CJC-1295, and that the company was ending the program as a precaution. That conclusion is the sponsor's own account; the statement is not yet archived as a citation in this entry. ConjuChem has not pursued further clinical development of the molecule.",
         "Mechanism. Both forms of CJC-1295 act as GHRH receptor agonists at the pituitary somatotrophs, stimulating pulsatile growth hormone release. The pharmacological difference between the two forms produces meaningfully different downstream patterns:",
         "- DAC formulation: the long half-life produces sustained elevation of GH baseline and IGF-1 levels — sometimes called a \"GH bleed\" — rather than amplifying the body's natural pulsatile pattern. This is the formulation ConjuChem developed and the formulation most published clinical pharmacology data refers to.[¹][²]\n- No-DAC formulation (Mod GRF 1-29): the short half-life produces transient, near-physiologic GH pulses with each dose, more closely mimicking natural pulsatile GH release. This formulation is rarely cited in primary clinical literature; most evidence is extrapolation from native GHRH studies plus research-community experience. A 2026 review of GH/IGF-1-axis peptides treats the DAC and no-DAC forms as distinct agents and places the no-DAC form in a lower evidence tier than the DAC form, on the basis that no primary human PK/PD study of the no-DAC modification has been published.[⁶]",
         "Common research interests. CJC-1295 in either form is widely used in the research-peptide community for:\n- Body composition optimization (lean mass, fat mass)\n- Sleep quality (particularly deep sleep stages, related to GH pulse during sleep)\n- Recovery from training\n- General \"anti-aging\" / IGF-1 elevation contexts",
@@ -5309,7 +5309,7 @@
         },
         {
           "index": 5,
-          "reference": "Lipodystrophy study halted after patient death. (2006, July). aidsmap (Newsdesk).",
+          "reference": "Bernard EJ. Lipodystrophy study halted after patient death. (2006, July 31). aidsmap.",
           "primaryUrl": "https://www.aidsmap.com/news/jul-2006/lipodystrophy-study-halted-after-patient-death",
           "verified": true
         },
@@ -5336,7 +5336,7 @@
         },
         {
           "index": 9,
-          "reference": "Uçaktürk E, Nemutlu E. (2025). Analysis of growth hormone releasing hormone and its analogs in urine using nano liquid chromatography coupled with quadrupole/orbitrap mass spectrometry. Journal of Pharmaceutical and Biomedical Analysis, 268:117207.",
+          "reference": "Uçaktürk E, Nemutlu E. (2026). Analysis of growth hormone releasing hormone and its analogs in urine using nano liquid chromatography coupled with quadrupole/orbitrap mass spectrometry. Journal of Pharmaceutical and Biomedical Analysis, 268:117207.",
           "primaryUrl": "https://doi.org/10.1016/j.jpba.2025.117207",
           "identifierLabel": "PMID 41138283",
           "verified": true
@@ -23725,6 +23725,233 @@
           {
             "slug": "dulaglutide",
             "name": "Dulaglutide",
+            "reason": "same mechanism class"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ubt251",
+      "name": "UBT251",
+      "aliases": [
+        "UBT-251",
+        "UBT 251"
+      ],
+      "category": "GLP-1/GIP/glucagon receptor triple agonist",
+      "mechanismClass": "Incretin receptor agonist",
+      "researchAreas": [
+        "metabolic-weight"
+      ],
+      "status": "Investigational — not FDA-approved and not approved by any regulator anywhere, including China, where it was developed. UBT251 was developed by The United Bio-Technology (Hengqin) Co., Ltd., a subsidiary of The United Laboratories (TUL), and licensed in March 2025 to Novo Nordisk for development outside mainland China, Hong Kong, Macau and Taiwan. It is a once-weekly subcutaneous GLP-1/GIP/glucagon triple agonist with published Phase 1 and Phase 2 data and Phase 3 trials registered in China as of September 2026. \"Vistrutide\" is a seller-coined name, not an official one. WADA status: UBT251 is not named on the 2026 WADA Prohibited List (checked against the list text, 2026-09-29). Because S0 (Non-Approved Substances) captures any pharmacological substance not addressed elsewhere on the List and with no current approval by any governmental regulatory health authority for human therapeutic use, UBT251 falls under S0 by default and is prohibited at all times.",
+      "fdaApproved": false,
+      "recommendedTimeOfDay": "anytime",
+      "lastUpdated": "2026-09-29",
+      "beginner": {
+        "summary": "UBT251 is a lab-made peptide being studied for weight loss and type 2 diabetes. Like retatrutide, it switches on three gut-hormone receptors at once (GLP-1, GIP and glucagon), which is why it is called a \"triple agonist.\" It is given as a once-weekly injection under the skin. It was developed in China and is now being developed together with Novo Nordisk. It is investigational and not approved anywhere.",
+        "researchFindings": "In a small first study, people with overweight or obesity who took UBT251 once a week for 12 weeks lost weight, while people on placebo gained a little. In a larger six-month study in Chinese adults with overweight or obesity, every dose led to more weight loss than placebo, up to about 20% of body weight on average versus about 2% on placebo. The best result came from a middle dose, not the highest one. In a six-month study in Chinese adults with type 2 diabetes, it lowered blood sugar (HbA1c) more than placebo, and in the companies' announcement more than a standard diabetes dose of semaglutide. No study has compared UBT251 with retatrutide. Most results so far come from the companies developing it, and larger trials have only just begun.",
+        "evidenceLevel": "Clinical research",
+        "keyTerms": [
+          {
+            "term": "Triple agonist",
+            "definition": "A compound that activates three different receptors at once, here the GLP-1, GIP and glucagon receptors."
+          },
+          {
+            "term": "GLP-1 receptor agonist",
+            "definition": "A compound that switches on the GLP-1 receptor, the same target a natural gut hormone uses to signal fullness and help regulate blood sugar."
+          },
+          {
+            "term": "Glucagon receptor",
+            "definition": "A receptor that, when activated, affects how much sugar the liver releases and may increase the energy the body uses."
+          },
+          {
+            "term": "Investigational",
+            "definition": "Still being studied and not yet approved by regulators for general use."
+          },
+          {
+            "term": "Dose escalation",
+            "definition": "Starting at a low dose and stepping up over several weeks, a pattern used in these trials to limit stomach side effects."
+          }
+        ],
+        "safetyBasics": "UBT251 is investigational and not approved by any regulator. In its early trials the most common side effects were stomach and bowel problems and reduced appetite, mostly mild to moderate, but detailed side-effect numbers have not been published. Drugs in its family carry a caution for people with a personal or family history of a rare thyroid cancer (medullary thyroid carcinoma). Because its structure has not been published, nothing sold as UBT251 can be checked against a reference. It is not named on the banned list for drug-tested sport, but anything not approved as a medicine anywhere is off-limits in drug-tested sport by default. VialWise is a research and educational reference, not medical advice — consult a licensed professional."
+      },
+      "disclosures": [
+        "⚠️ UBT251 is an investigational compound that is not approved by the FDA or by any other regulator, including in China, where it was developed. Information in this entry is informational, not medical advice.",
+        "⚠️ No published structure — nothing sold as \"UBT251\" can be checked against a reference. None of the sources cited in this entry gives UBT251's amino-acid sequence or molecular structure. A seller's Certificate of Analysis can report purity, but it cannot show that a vial contains the molecule tested in these trials.",
+        "⚠️ Early data, mostly from the companies developing it — and not a proven upgrade on retatrutide. Every efficacy figure in this entry comes from trials in Chinese adults, reported by the developer and its licensee, and no side-effect rates have been published. No study has compared UBT251 with retatrutide."
+      ],
+      "quickReference": [
+        {
+          "label": "Compound class",
+          "value": "GLP-1 / GIP / glucagon receptor triple agonist (\"triple G\"); long-acting synthetic peptide[⁵]"
+        },
+        {
+          "label": "Developer",
+          "value": "The United Bio-Technology (Hengqin) Co., Ltd., a subsidiary of The United Laboratories (TUL); licensed to Novo Nordisk outside mainland China, Hong Kong, Macau and Taiwan[⁵]"
+        },
+        {
+          "label": "Route / frequency",
+          "value": "Subcutaneous injection, once weekly, in every trial reported so far[¹][²]"
+        },
+        {
+          "label": "Status (September 2026)",
+          "value": "Investigational; not approved anywhere; Phase 3 trials registered in China[⁶]"
+        },
+        {
+          "label": "Key data",
+          "value": "Phase 1a/1b (Diabetes, Obesity and Metabolism 2026[¹]); Phase 2 obesity in China (ADA 2026 abstract[²]); Phase 2 type 2 diabetes in China (company topline[⁴])"
+        },
+        {
+          "label": "Half-life",
+          "value": "Not reported in any source cited here. The published abstract describes approximately linear pharmacokinetics across the doses studied but gives no half-life, so this entry gives none.[¹]"
+        }
+      ],
+      "about": [
+        "UBT251 is a long-acting synthetic peptide that activates the GLP-1, GIP and glucagon receptors, the same three receptors as retatrutide, which is why it is described as a \"triple agonist\" or \"triple G.\"[³][⁵] It has been given once weekly by subcutaneous injection in every trial reported so far.[¹][²]",
+        "Development. UBT251 was developed by The United Bio-Technology (Hengqin) Co., Ltd., a subsidiary of the Hong Kong-listed The United Laboratories (TUL). In March 2025, Novo Nordisk licensed exclusive rights to develop, manufacture and commercialize it outside mainland China, Hong Kong, Macau and Taiwan, for an upfront payment of US$200 million and up to US$1.8 billion in potential milestones.[⁵] The two companies now describe it as jointly developed.[³]",
+        "First human study (Phase 1a/1b). The first-in-human study, published in *Diabetes, Obesity and Metabolism* in September 2026, was randomized, double-blind and placebo-controlled.[¹] Phase 1a tested single subcutaneous doses across a range of dose levels. Phase 1b gave once-weekly doses at three dose levels for 12 weeks to people with overweight or obesity without diabetes, and mean body weight fell by 8.96 to 13.48 kg across those dose levels, while the placebo group gained 1.57 kg.[¹] The developer's earlier announcement described this Phase 1b as 36 participants in three titrated dose groups, with a 15.1% average weight loss among those who completed the top-dose group, against a 1.5% gain on placebo.[⁵] Blood levels rose roughly in proportion to dose across the range studied.[¹] The most common adverse events were changes in laboratory test results, decreased appetite and gastrointestinal events.[¹] Eight of the paper's fifteen authors are employees of TUL or Novo Nordisk.[¹]",
+        "Phase 2 in overweight and obesity (China). This trial randomized 205 Chinese adults, with an average age of 34.1 years, weight of 92.2 kg and BMI of 33.1, to four UBT251 dose arms or placebo for 24 weeks.[²] Average weight loss was 13.6% in the lowest-dose arm, 16.2% and 19.7% in the two middle-dose arms, and 18.7% in the highest-dose arm, against 2.0% on placebo.[²] The two middle-dose arms reached the same target dose from different starting doses, and the arm that started higher lost more.[²] Gastrointestinal events were the most frequent side effects, mostly mild to moderate.[²] The authors describe the response as dose-dependent, but the widely reported 19.7% came from a middle-dose arm, not the highest-dose arm.[²] Under the trial's 2:1:1:2:2 randomization, each middle-dose arm was allocated half as many participants as the highest-dose arm.[²] The companies' announcement of this trial called 19.7% the \"highest mean weight loss observed.\"[³] These results are a conference abstract, not a full peer-reviewed paper.",
+        "Phase 2 in type 2 diabetes (China). This trial enrolled 211 Chinese adults with type 2 diabetes managed with lifestyle measures alone or with metformin, with an average starting HbA1c of 8.12%.[⁴] After 24 weeks, HbA1c fell by up to 2.16 percentage points on UBT251, against 1.77 on semaglutide and 0.66 on placebo, and body weight fell by up to 9.8%, against 4.8% and 1.4%.[⁴] These are topline figures from the companies' announcement, which does not report a statistical comparison with semaglutide. The semaglutide comparator was the diabetes dose (Ozempic).[⁴][⁶]",
+        "How it compares with retatrutide. UBT251 and retatrutide act on the same three receptors and are both given once a week. No study comparing them directly has been published. Their results come from different populations, trial lengths and designs, so their headline weight-loss figures cannot be ranked against each other. Retatrutide is further along, with Phase 3 results already reported (see its entry), while UBT251's Phase 3 trials are only starting.[⁶] Novo Nordisk has described UBT251's profile as \"differentiated\" without publishing a comparison.[³] Claims that UBT251 is better than retatrutide, or has more benefits, are not supported by any published data.",
+        "Where it sits in the library's incretin family. Pure GLP-1: semaglutide, liraglutide, dulaglutide and exenatide. GLP-1/GIP: tirzepatide. GLP-1/glucagon: survodutide and mazdutide. GLP-1/GIP/glucagon triple: retatrutide and UBT251 (this entry).",
+        "What is being studied next. ClinicalTrials.gov lists 14 UBT251 studies as of September 29, 2026.[⁶] They include Phase 2 trials in chronic kidney disease with overweight or obesity (NCT07134335) and in metabolic dysfunction-associated steatohepatitis, or MASH (NCT07145151); two Novo Nordisk-sponsored Phase 2 trials, in overweight or obesity (NCT07395687) and in type 2 diabetes (NCT07668388); Phase 1 drug-interaction studies; and five Phase 3 trials in China covering obesity (NCT07648225), type 2 diabetes (UNIGUIDE-1, NCT07659574, and UNIGUIDE-2, NCT07653477) and obstructive sleep apnea with obesity (NCT07767942, NCT07806851).[⁶] Novo Nordisk expects topline data from its global trial in overweight or obesity in 2027.[³] No results have been reported from the kidney, liver or sleep-apnea trials.",
+        "Structure. None of the sources cited here gives UBT251's amino-acid sequence or molecular structure. The name \"Vistrutide,\" used by at least one seller, does not appear in any developer announcement, trial registration or journal source cited in this entry.",
+        "Regulatory status (US and elsewhere). Not FDA-approved and not approved by any regulator. The developer's 2025 announcement described UBT251 as a Class 1 innovative drug in China, cleared for clinical trials in China in type 2 diabetes, overweight or obesity, MAFLD and chronic kidney disease, and in the United States in type 2 diabetes, overweight or obesity and chronic kidney disease.[⁵]",
+        "Regulatory status (sport — WADA). UBT251 is not named anywhere on the 2026 WADA Prohibited List (checked against the list text, 2026-09-29). That absence does not make it permitted. S0 (Non-Approved Substances) covers, verbatim, any pharmacological substance *\"which is not addressed by any of the subsequent sections of the List and with no current approval by any governmental regulatory health authority for human therapeutic use (e.g. drugs under pre-clinical or clinical development or discontinued, designer drugs, substances approved only for veterinary use)\"*, which describes UBT251 exactly. Substances in S0 are Specified Substances and are prohibited at all times. The approved GLP-1 drugs are outside S0 because they are approved, and that exemption does not carry over to an investigational member of the family. Athletes should verify current status with their National Anti-Doping Organization. UBT251 is also not named on the 2027 List, which takes effect on January 1, 2027, and its S0 clause still covers substances with no approval anywhere (checked against the list text, 2026-09-29)."
+      ],
+      "reconstitution": {
+        "diluent": "Not established. The trial formulation is not described in any source cited here, and this entry provides no reconstitution table for UBT251.",
+        "examples": [],
+        "storageBeforeReconstitution": "No manufacturer storage or stability data exist for research-supply material sold as UBT251."
+      },
+      "dosingProtocol": {
+        "startingDose": "or once weekly, depending on the arm, stepped up every four weeks toward each arm's target dose.[⁶]",
+        "titrationSchedule": [
+          {
+            "weeks": "Week 1–4",
+            "dose": "weekly"
+          },
+          {
+            "weeks": "Week 5–8",
+            "dose": "weekly"
+          },
+          {
+            "weeks": "Week 9–12",
+            "dose": "weekly"
+          },
+          {
+            "weeks": "Week 13–24",
+            "dose": "weekly"
+          }
+        ],
+        "maximumDose": "once weekly (Phase 1b and Phase 2).[¹][²]",
+        "notes": [
+          "No approved or established dose exists. The figures in this section are the doses the trials used, recorded for reference, not a protocol.",
+          "The largest average weight loss in the Phase 2 obesity trial came from a arm that started (19.7%), not from the arm (18.7%).[²]"
+        ]
+      },
+      "sideEffects": {
+        "common": [
+          "Gastrointestinal adverse events — the most common in every trial reported, mostly mild to moderate.[¹][²][⁵]",
+          "Decreased appetite.[¹]",
+          "Changes in laboratory test results — among the most common adverse events in the first human study; the published abstract does not say which tests were affected.[¹]"
+        ],
+        "serious": [
+          "Severe or persistent vomiting, or signs of dehydration",
+          "Severe abdominal pain that may spread to the back (possible pancreatitis), a concern across the GLP-1 drug family",
+          "Pain in the upper right abdomen or yellowing of the skin (possible gallbladder problems), a class concern",
+          "A resting heart rate that stays raised; no UBT251 heart-rate data have been published"
+        ]
+      },
+      "contraindications": [
+        "Not approved anywhere, and identity cannot be verified. No regulator has approved UBT251, and with no published structure, nothing sold as UBT251 can be checked against a reference.",
+        "Personal or family history of medullary thyroid carcinoma or MEN2 — a class caution for the GLP-1 drug family; no UBT251-specific data exist.",
+        "History of pancreatitis — class caution.",
+        "Do not combine with other GLP-1, GIP or glucagon receptor agonists (semaglutide, tirzepatide, retatrutide, liraglutide, dulaglutide, mazdutide, survodutide) — overlapping mechanisms, and no combination data exist.",
+        "Insulin or sulfonylureas — added low-blood-sugar risk is a class concern.",
+        "Pregnancy and lactation — no data; avoid.",
+        "Thin safety record. No adverse-event rates, discontinuation rates, heart-rate data or long-term safety results have been published in any source cited here, and the published safety statements come from the developer and its licensee.[¹][²][³][⁴]",
+        "Drug-tested athletes — captured by WADA S0 by default as an unapproved substance; see the regulatory note in About."
+      ],
+      "firstTimeWalkthrough": [
+        "Understand what UBT251 is and is not. It is an investigational triple agonist with Phase 1 and Phase 2 data, mostly from trials in China reported by its developer and licensee. It is not approved anywhere, and it is not a proven upgrade on retatrutide.",
+        "This library does not construct a first-use workflow for UBT251. There is no approved product, no published formulation, and no published structure to check a vial against.",
+        "The VialWise calculator can do the arithmetic for a vial, but it cannot confirm what the vial contains. For this compound, nothing can.",
+        "Never combine it with another GLP-1, GIP or glucagon receptor agonist.",
+        "Know the red flags. Severe or persistent vomiting, severe abdominal pain, or a resting heart rate that stays raised call for professional review."
+      ],
+      "citations": [
+        {
+          "index": 1,
+          "reference": "Yang GP, Liu YX, Xie JL, Zeng S, Xiong J, Ling W, Zhang HY, Su T, Xu YX, Huang L, Holst-Hansen T, Bay S, Yan HR, Huang J, Jin P. (2026). Safety, Pharmacokinetics and Pharmacodynamics of the GLP-1/GIP/GCG Receptor Agonist UBT251 Injection: A Randomized, Placebo-Controlled Phase 1a/1b Study. Diabetes, Obesity and Metabolism, published online 8 September 2026 (Early View).",
+          "primaryUrl": "https://doi.org/10.1111/dom.71327",
+          "verified": true
+        },
+        {
+          "index": 2,
+          "reference": "Zhou Z, Cheng Z, Jin P, Yang G, Wang H, Shi B, Dong Q, Shi X, Shi X, Shu H, Sun W, Huang C, Zhao S, Mao L, Bian W, Yan H, Su T, Huang L, Simony SB, Holst-Hansen T. (2026). 3090-LB: UBT251, a Triple Hormone Receptor Agonist in Adults with Overweight or Obesity: A Multicenter, Double-Blind, Placebo-Controlled, Randomized, Phase 2 Trial. Diabetes, 75(Supplement_1):3090-LB.",
+          "primaryUrl": "https://doi.org/10.2337/db26-3090-lb",
+          "identifierLabel": "NCT07177469",
+          "verified": true
+        },
+        {
+          "index": 3,
+          "reference": "The United Laboratories International Holdings Limited and Novo Nordisk A/S. (24 February 2026). Novo Nordisk: Triple agonist UBT251 delivers up to 19.7% mean weight loss after 24 weeks in phase 2 trial in China. Company announcement.",
+          "primaryUrl": "https://www.globenewswire.com/news-release/2026/02/24/3243205/0/en/Novo-Nordisk-Triple-agonist-UBT251-delivers-up-to-19-7-mean-weight-loss-after-24-weeks-in-phase-2-trial-in-China.html",
+          "verified": true
+        },
+        {
+          "index": 4,
+          "reference": "The United Laboratories International Holdings Limited and Novo Nordisk A/S. (25 March 2026). Novo Nordisk A/S: Triple agonist UBT251 showed a mean HbA1c reduction of up to 2.16% after 24 weeks in phase 2 trial in Chinese patients with type 2 diabetes. Company announcement.",
+          "primaryUrl": "https://www.globenewswire.com/news-release/2026/03/25/3261925/0/en/novo-nordisk-a-s-triple-agonist-ubt251-showed-a-mean-hba1c-reduction-of-up-to-2-16-after-24-weeks-in-phase-2-trial-in-chinese-patients-with-type-2-diabetes.html",
+          "identifierLabel": "NCT07163624",
+          "verified": true
+        },
+        {
+          "index": 5,
+          "reference": "The United Laboratories International Holdings Limited and Novo Nordisk A/S. (24 March 2025). The United Laboratories and Novo Nordisk announce exclusive license agreement for UBT251, a GLP-1/GIP/glucagon triple receptor agonist. Company announcement.",
+          "primaryUrl": "https://www.globenewswire.com/news-release/2025/03/24/3047656/0/en/the-united-laboratories-and-novo-nordisk-announce-exclusive-license-agreement-for-ubt251-a-glp-1-gip-glucagon-triple-receptor-agonist.html",
+          "verified": true
+        },
+        {
+          "index": 6,
+          "reference": "ClinicalTrials.gov registry — studies matching \"UBT251\" (14 registrations as of 29 September 2026).",
+          "primaryUrl": "https://clinicaltrials.gov/search?term=UBT251",
+          "verified": true
+        }
+      ],
+      "web": {
+        "url": "https://www.getvialwise.com/library/ubt251",
+        "title": "UBT251 — what it does, evidence, and safety",
+        "description": "UBT251 is a lab-made peptide being studied for weight loss and type 2 diabetes. Like retatrutide, it switches on three gut-hormone receptors at once (GLP-1,…",
+        "related": [
+          {
+            "slug": "amycretin",
+            "name": "Amycretin",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "cagrisema",
+            "name": "CagriSema",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "dulaglutide",
+            "name": "Dulaglutide",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "exenatide",
+            "name": "Exenatide",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "liraglutide",
+            "name": "Liraglutide",
+            "reason": "same mechanism class"
+          },
+          {
+            "slug": "mazdutide",
+            "name": "Mazdutide",
             "reason": "same mechanism class"
           }
         ]
