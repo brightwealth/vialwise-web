@@ -2458,8 +2458,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "Common research interests. Testosterone is one of the most widely used research peptides — although it is not technically a peptide. The most common contexts:\n- TRT (testosterone replacement therapy) — adult men with diagnosed hypogonadism. This is the FDA-approved use case and the use case supported by the largest body of RCT evidence.[¹][²][³]\n- Performance / research-community supraphysiologic "
 
 **`testosterone.about[6]`**
-- before: "🚨 Boxed warnings — per formulation. Testosterone has no single answer here, and a blanket statement in either direction is wrong. Verified against openFDA drug/label across every testosterone label, 2026-09-08: 34 of 122 labels carry a boxed warning."
-- after:  "Boxed warnings — per formulation. Testosterone has no single answer here, and a blanket statement in either direction is wrong. Verified against openFDA drug/label across every testosterone label, 2026-09-08: 34 of 122 labels carry a boxed warning."
+- before: "🚨 Boxed warnings — per formulation. Testosterone has no single answer here, and a blanket statement in either direction is wrong."
+- after:  "Boxed warnings — per formulation. Testosterone has no single answer here, and a blanket statement in either direction is wrong."
 
 **`testosterone.about[7]`**
 - before: "| Formulation / route | Boxed warning on the current US label |\n|---|---|\n| Topical and transdermal — gels, creams, skin solutions (Testim, Vogelxo, and the generic testosterone gels and solutions) | 🚨 YES — SECONDARY EXPOSURE TO TESTOSTERONE. Virilization has been reported in children who were secondarily exposed. Children should avoid contact with unwashed or unclothed application sites. |\n| Te"
@@ -4168,8 +4168,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "weight reduction in adults or (recommended) weekly, and after at least 4 weeks on, if additional weight reduction is clinically indicated, up to a maximum weekly; cardiovascular risk reduction in adults (recommended) or weekly; weight reduction in patients aged 12 and older (recommended) or weekly; noncirrhotic MASH in adults weekly, decreased weekly if is not tolerated, with re-escalation weekly "
 
 **`semaglutide.dosingProtocol.maximumDose`**
-- before: "Wegovy label maximum 7.2mg weekly subcutaneous (weight reduction in adults only); STEP-1 trial maximum 2.4mg weekly (trial data); 2mg weekly subcutaneous (Ozempic T2D indication); 14mg daily oral (Rybelsus)."
-- after:  "Wegovy label maximum weekly subcutaneous (weight reduction in adults only); STEP-1 trial maximum weekly (trial data); weekly subcutaneous (Ozempic T2D indication); daily oral (Rybelsus)."
+- before: "Wegovy label maximum 7.2mg weekly subcutaneous (weight reduction in adults only); STEP-1 trial maximum 2.4mg weekly (trial data); 2mg weekly subcutaneous (Ozempic T2D indication); 14mg daily oral (Rybelsus); 9mg daily oral (Ozempic tablets, US, since May 2026: the label's top dose, one tablet a day);[¹⁶] 25mg daily oral (Wegovy pill: the label's maintenance dose, one tablet a day).[⁸]"
+- after:  "Wegovy label maximum weekly subcutaneous (weight reduction in adults only); STEP-1 trial maximum weekly (trial data); weekly subcutaneous (Ozempic T2D indication); daily oral (Rybelsus); daily oral (Ozempic tablets, US, since May 2026: the label's top dose, one tablet a day);[¹⁶] daily oral (Wegovy pill: the label's maintenance dose, one tablet a day).[⁸]"
 
 **`semaglutide.dosingProtocol.notes[0]`**
 - before: "Researcher communities sometimes report sub-0.25mg starting doses (e.g., 0.125mg) and slower titration schedules to reduce gastrointestinal side effects. These are not validated in published trials and should be presented as observational, not recommended."
@@ -4968,7 +4968,6 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `MDP` | 7 | MDP |
 | `NAFLD` | 7 | ake.[³] - Non-alcoholic fatty liver disease (NAFLD) — emerging evidence for GSH supplementation |
 | `NMPA` | 7 | lycemic control (Nature 2025[⁴][⁵]). China's NMPA approved mazdutide for chronic weight manage |
-| `POME` | 7 | carries SERIOUS PULMONARY OIL MICROEMBOLISM (POME) REACTIONS AND ANAPHYLAXIS. DOES NOT CARRY O |
 | `PPAR` | 7 | the AMP-activated protein kinase (AMPK) and PPARδ agonists, within the Metabolic Modulators c |
 | `RECONNECT` | 7 | in premenopausal women. The pivotal Phase 3 RECONNECT trials (about 1,267 premenopausal women) rep |
 | `SLU-PP-915` | 7 | reason they developed the successor compound SLU-PP-915.[⁴] |
@@ -4994,6 +4993,7 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `IGFBP` | 6 | IGF-1 designed to evade IGF-binding protein (IGFBP) sequestration. The compound was originally |
 | `IL-6` | 6 | r peptides tested — reduced pro-inflammatory IL-6 and cell adhesion, consistent with a "TNF to |
 | `MEN` | 6 | ultiple endocrine neoplasia syndrome type 2 (MEN 2). Additional important safety consideratio |
+| `POME` | 6 | carries SERIOUS PULMONARY OIL MICROEMBOLISM (POME) REACTIONS AND ANAPHYLAXIS. DOES NOT CARRY O |
 | `RED-CABG` | 6 | BG) surgery in the late 2000s and 2010 — the RED-CABG Phase III trial was terminated for futility |
 | `RENEW` | 6 | apy is itself now in Phase 3 — the dedicated RENEW program (NCT07220642, NCT07220759) began Nov |
 | `REWIND` | 6 | abetes, and a cardiovascular outcomes trial (REWIND) supported a label expansion to reduce major |
