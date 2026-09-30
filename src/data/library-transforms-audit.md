@@ -188,8 +188,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "Not FDA-approved for any indication and never submitted to FDA; sold only as a research chemical (\"not for human consumption\"). Not registered as a pharmaceutical drug in any jurisdiction (unlike Semax, which is registered in Russia). Not a DEA-controlled substance — no entry in the DEA *Lists of Scheduling Actions, Controlled Substances, Regulated Chemicals* (August 2026 revision), checked 2026-0"
 
 **`adamax.disclosures[2]`**
-- before: "⚠️ Adamax is NOT the same as Cortagen / AEDP. The two are readily confused, and the conflation is worth naming: AEDP is Cortagen — a separate, brain-cortex peptide that has its own [Cortagen entry](./cortagen.md) — and the thymus-tropic Khavinson peptide is Vilon (Lys-Glu), not AEDP. Adamax itself is a Semax-family neuropeptide marketed for cognition, with no thymus/immune positioning and no Khavi"
-- after:  "⚠️ Adamax is not the same as Cortagen / AEDP. The two are readily confused, and the conflation is worth naming: AEDP is Cortagen — a separate, brain-cortex peptide that has its own [Cortagen entry](./cortagen.md) — and the thymus-tropic Khavinson peptide is Vilon (Lys-Glu), not AEDP. Adamax itself is a Semax-family neuropeptide marketed for cognition, with no thymus/immune positioning and no Khavi"
+- before: "⚠️ Adamax is NOT the same as Cortagen / AEDP. The two are readily confused, and the conflation is worth naming: AEDP is Cortagen — a separate, brain-cortex peptide that has its own Cortagen entry — and the thymus-tropic Khavinson peptide is Vilon (Lys-Glu), not AEDP. Adamax itself is a Semax-family neuropeptide marketed for cognition, with no thymus/immune positioning and no Khavinson-bioregulator"
+- after:  "⚠️ Adamax is not the same as Cortagen / AEDP. The two are readily confused, and the conflation is worth naming: AEDP is Cortagen — a separate, brain-cortex peptide that has its own Cortagen entry — and the thymus-tropic Khavinson peptide is Vilon (Lys-Glu), not AEDP. Adamax itself is a Semax-family neuropeptide marketed for cognition, with no thymus/immune positioning and no Khavinson-bioregulator"
 
 **`adamax.about[5]`**
 - before: "Regulatory status (sport — WADA). Prohibited at all times under S0. 🚨"
@@ -316,8 +316,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "FDA-approved as Arimidex (anastrozole) tablets, NDA 020541 — originally approved December 27, 1995, for treatment of advanced breast cancer in postmenopausal women; subsequent expansions to first-line therapy of postmenopausal hormone-receptor-positive locally advanced or metastatic breast cancer (2000) and adjuvant treatment of early-stage hormone-receptor-positive breast cancer in postmenopausal"
 
 **`anastrozole.disclosures[1]`**
-- before: "⚠️ Anastrozole is NOT a peptide. This entry exists in the Vialwise library because researchers running peptide protocols and TRT (see [testosterone.md](./testosterone.md)) frequently use anastrozole as a TRT-adjunct to suppress estradiol elevation driven by aromatization of supplemental testosterone. The compound is a small-molecule non-steroidal aromatase inhibitor (molecular weight 293 Da) — not"
-- after:  "⚠️ Anastrozole is not a peptide. This entry exists in the Vialwise library because researchers running peptide protocols and TRT (see [testosterone.md](./testosterone.md)) frequently use anastrozole as a TRT-adjunct to suppress estradiol elevation driven by aromatization of supplemental testosterone. The compound is a small-molecule non-steroidal aromatase inhibitor (molecular weight 293 Da) — not"
+- before: "⚠️ Anastrozole is NOT a peptide. This entry exists in the Vialwise library because researchers running peptide protocols and TRT (see the Testosterone entry) frequently use anastrozole as a TRT-adjunct to suppress estradiol elevation driven by aromatization of supplemental testosterone. The compound is a small-molecule non-steroidal aromatase inhibitor (molecular weight 293 Da) — not a peptide, no"
+- after:  "⚠️ Anastrozole is not a peptide. This entry exists in the Vialwise library because researchers running peptide protocols and TRT (see the Testosterone entry) frequently use anastrozole as a TRT-adjunct to suppress estradiol elevation driven by aromatization of supplemental testosterone. The compound is a small-molecule non-steroidal aromatase inhibitor (molecular weight 293 Da) — not a peptide, no"
 
 **`anastrozole.quickReference[0].value`**
 - before: "Third-generation non-steroidal selective aromatase inhibitor. Small molecule (MW 293 Da). NOT a peptide."
@@ -328,8 +328,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "Regulatory status (US). Anastrozole is FDA-approved exclusively for postmenopausal breast cancer (advanced, first-line metastatic, and adjuvant early-stage in hormone-receptor-positive disease). All other uses — including all use in men — are off-label. Off-label prescribing is legal in the US under standard FDA prescribing-authority framework but is not supported by FDA-approved labeling and is o"
 
 **`anastrozole.stacks.combinations[0].rationale`**
-- before: "the canonical TRT-adjunct combination. Anastrozole co-administered to suppress aromatization-driven E2 elevation. See [testosterone.md](./testosterone.md) for the broader TRT context. Note that the major men's-health guidelines (Endocrine Society Bhasin 2018, AUA Mulhall 2018) recommend AGAINST routine prophylactic AI co-administration with TRT — the recommendation is to monitor and treat selectiv"
-- after:  "the canonical TRT-adjunct combination. Anastrozole co-administered to suppress aromatization-driven E2 elevation. See [testosterone.md](./testosterone.md) for the broader TRT context. Note that the major men's-health guidelines (Endocrine Society Bhasin 2018, AUA Mulhall 2018) recommend against routine prophylactic AI co-administration with TRT — the recommendation is to monitor and treat selectiv"
+- before: "the canonical TRT-adjunct combination. Anastrozole co-administered to suppress aromatization-driven E2 elevation. See the Testosterone entry for the broader TRT context. Note that the major men's-health guidelines (Endocrine Society Bhasin 2018, AUA Mulhall 2018) recommend AGAINST routine prophylactic AI co-administration with TRT — the recommendation is to monitor and treat selectively if symptom"
+- after:  "the canonical TRT-adjunct combination. Anastrozole co-administered to suppress aromatization-driven E2 elevation. See the Testosterone entry for the broader TRT context. Note that the major men's-health guidelines (Endocrine Society Bhasin 2018, AUA Mulhall 2018) recommend against routine prophylactic AI co-administration with TRT — the recommendation is to monitor and treat selectively if symptom"
 
 **`anastrozole.sideEffects.common[7]`**
 - before: "Endometrial cancer risk REDUCED vs tamoxifen (ATAC) — this is a relative-risk comparison vs tamoxifen, not an absolute reduction vs untreated; relevant only in the breast-cancer comparator context"
@@ -688,8 +688,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "FDA-approved — Trulicity (BLA 125469, Eli Lilly), approved September 18, 2014 for glycemic control in adults with type 2 diabetes; expanded February 21, 2020 to reduce major adverse cardiovascular events in adults with T2D and established CV disease or multiple CV risk factors; pediatric T2D (ages ≥10) approved 2022. Not DEA-scheduled. Not listed in the WADA 2026 or 2027 Prohibited List[⁶] (the en"
 
 **`dulaglutide.disclosures[2]`**
-- before: "⚠️ Dulaglutide is not interchangeable with other GLP-1 agonists. It shares the GLP-1 receptor mechanism with semaglutide, liraglutide, exenatide, and tirzepatide, but differs in structure (IgG4-Fc fusion vs fatty-acid acylation), half-life (~5 days), and dosing device. Do NOT stack it on top of another GLP-1/GIP agonist — the compounded incretin effect is unpredictable. See [semaglutide.md](./sema"
-- after:  "⚠️ Dulaglutide is not interchangeable with other GLP-1 agonists. It shares the GLP-1 receptor mechanism with semaglutide, liraglutide, exenatide, and tirzepatide, but differs in structure (IgG4-Fc fusion vs fatty-acid acylation), half-life (~5 days), and dosing device. Do not stack it on top of another GLP-1/GIP agonist — the compounded incretin effect is unpredictable. See [semaglutide.md](./sema"
+- before: "⚠️ Dulaglutide is not interchangeable with other GLP-1 agonists. It shares the GLP-1 receptor mechanism with semaglutide, liraglutide, exenatide, and tirzepatide, but differs in structure (IgG4-Fc fusion vs fatty-acid acylation), half-life (~5 days), and dosing device. Do NOT stack it on top of another GLP-1/GIP agonist — the compounded incretin effect is unpredictable. See the Semaglutide, Liragl"
+- after:  "⚠️ Dulaglutide is not interchangeable with other GLP-1 agonists. It shares the GLP-1 receptor mechanism with semaglutide, liraglutide, exenatide, and tirzepatide, but differs in structure (IgG4-Fc fusion vs fatty-acid acylation), half-life (~5 days), and dosing device. Do not stack it on top of another GLP-1/GIP agonist — the compounded incretin effect is unpredictable. See the Semaglutide, Liragl"
 
 **`dulaglutide.about[3]`**
 - before: "Regulatory status. FDA-approved prescription drug (BLA 125469). NOT DEA-scheduled. NOT listed in the WADA 2026 or 2027 Prohibited List[⁶] — the entire GLP-1 / GIP / glucagon agonist class is currently absent from the list (same negative-listing pattern documented in the liraglutide, semaglutide, and PT-141 entries)."
@@ -1024,8 +1024,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "HCG is not a DEA controlled substance. Unlike testosterone (Schedule III under the Anabolic Steroid Control Act), HCG is not scheduled under federal law. It is prescription-only but does not carry the controlled-substance regulatory framework. The off-label use of HCG for TRT-adjunct testicular preservation, fertility recovery, and PCT is widely practiced under prescriber supervision in the US."
 
 **`hcg.stacks.combinations[3].rationale`**
-- before: "sometimes added to the HCG/testosterone stack to manage estradiol elevation. HCG itself can drive estradiol elevation (because it stimulates testosterone production, and testosterone aromatizes to estradiol); some clinicians add anastrozole to manage this. The Bhasin 2018 testosterone guidelines recommend AGAINST routine AI use; this remains a case-by-case decision. See [testosterone.md](./testost"
-- after:  "sometimes added to the HCG/testosterone stack to manage estradiol elevation. HCG itself can drive estradiol elevation (because it stimulates testosterone production, and testosterone aromatizes to estradiol); some clinicians add anastrozole to manage this. The Bhasin 2018 testosterone guidelines recommend against routine AI use; this remains a case-by-case decision. See [testosterone.md](./testost"
+- before: "sometimes added to the HCG/testosterone stack to manage estradiol elevation. HCG itself can drive estradiol elevation (because it stimulates testosterone production, and testosterone aromatizes to estradiol); some clinicians add anastrozole to manage this. The Bhasin 2018 testosterone guidelines recommend AGAINST routine AI use; this remains a case-by-case decision. See the Stacks section of the T"
+- after:  "sometimes added to the HCG/testosterone stack to manage estradiol elevation. HCG itself can drive estradiol elevation (because it stimulates testosterone production, and testosterone aromatizes to estradiol); some clinicians add anastrozole to manage this. The Bhasin 2018 testosterone guidelines recommend against routine AI use; this remains a case-by-case decision. See the Stacks section of the T"
 
 **`hcg.contraindications[9]`**
 - before: "Regulatory note (US): HCG is NOT a DEA-scheduled controlled substance but IS a prescription drug — possession outside an authorized prescriber relationship is a regulatory issue but not a controlled-substance criminal offense. This is a meaningful distinction from testosterone (Schedule III)."
@@ -1080,8 +1080,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "- Anti-aging / \"men's health\" clinic use — driven by the Rudman 1990 NEJM trial.[³] The trial reported lean-mass gain (+4.7 kg) and fat-mass loss (-3.5 kg) in 12 elderly men over 6 months three times weekly, but also documented carpal tunnel syndrome, gynecomastia, and glucose-tolerance impairment. Subsequent literature has not validated long-term benefit and has consistently flagged side effects."
 
 **`hgh.stacks.combinations[5].rationale`**
-- before: "sometimes stacked during cutting cycles for additive lipolytic effects (HGH GH-receptor-mediated lipolysis + AOD-9604 β3-AR-mediated lipolysis). Mechanistically distinct pathways. See [aod-9604.md](./aod-9604.md)."
-- after:  "sometimes stacked during cutting cycles for additive lipolytic effects (hgh gh-receptor-mediated lipolysis + AOD-9604 β3-AR-mediated lipolysis). Mechanistically distinct pathways. See [aod-9604.md](./aod-9604.md)."
+- before: "sometimes stacked during cutting cycles for additive lipolytic effects (HGH GH-receptor-mediated lipolysis + AOD-9604 β3-AR-mediated lipolysis). Mechanistically distinct pathways. See the AOD-9604 entry."
+- after:  "sometimes stacked during cutting cycles for additive lipolytic effects (hgh gh-receptor-mediated lipolysis + AOD-9604 β3-AR-mediated lipolysis). Mechanistically distinct pathways. See the AOD-9604 entry."
 
 **`humanin.status`**
 - before: "Research compound — NOT FDA-approved, NOT investigational under any active registrational program. No FDA approval, no FDA-cleared clinical indication, not DEA-scheduled. Sold as a research-only peptide. Human pharmacokinetic data are limited; most evidence is preclinical (cell and animal models). Treat all dosing and half-life figures as estimates, not established human parameters."
@@ -1844,8 +1844,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "- Bicalutamide-induced gynecomastia prophylaxis in prostate cancer patients — multiple RCTs (Boccardo 2005; Saltzstein 2007 dose-response RCT) established that tamoxifen prevents and treats gynecomastia and breast pain in prostate cancer patients on bicalutamide monotherapy. The most rigorous published off-label men's-health evidence base for any SERM in any indication.\n- Idiopathic gynecomastia t"
 
 **`tamoxifen.stacks.combinations[1].rationale`**
-- before: "typically NOT stacked simultaneously with tamoxifen; researchers usually use one or the other for HPG-axis recovery contexts. See [clomiphene-enclomiphene.md](./clomiphene-enclomiphene.md)."
-- after:  "typically not stacked simultaneously with tamoxifen; researchers usually use one or the other for HPG-axis recovery contexts. See [clomiphene-enclomiphene.md](./clomiphene-enclomiphene.md)."
+- before: "typically NOT stacked simultaneously with tamoxifen; researchers usually use one or the other for HPG-axis recovery contexts. See the Clomiphene / Enclomiphene entry."
+- after:  "typically not stacked simultaneously with tamoxifen; researchers usually use one or the other for HPG-axis recovery contexts. See the Clomiphene / Enclomiphene entry."
 
 **`tamoxifen.contraindications[15]`**
 - before: "NOT DEA-scheduled."
@@ -2174,8 +2174,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "FDA-approved as Arimidex (anastrozole) tablets, NDA 020541 — originally approved December 27, 1995, for treatment of advanced breast cancer in postmenopausal women; subsequent expansions to first-line therapy of postmenopausal hormone-receptor-positive locally advanced or metastatic breast cancer (2000) and adjuvant treatment of early-stage hormone-receptor-positive breast cancer in postmenopausal"
 
 **`anastrozole.disclosures[1]`**
-- before: "⚠️ Anastrozole is NOT a peptide. This entry exists in the Vialwise library because researchers running peptide protocols and TRT (see [testosterone.md](./testosterone.md)) frequently use anastrozole as a TRT-adjunct to suppress estradiol elevation driven by aromatization of supplemental testosterone. The compound is a small-molecule non-steroidal aromatase inhibitor (molecular weight 293 Da) — not"
-- after:  "⚠️ Anastrozole is NOT a peptide. This entry exists in the Vialwise library because researchers running peptide protocols and TRT (see [testosterone.md](./testosterone.md)) frequently use anastrozole as a TRT-adjunct to suppress estradiol elevation driven by aromatization of supplemental testosterone. The compound is a small-molecule non-steroidal aromatase inhibitor (molecular weight 293 Da) — not"
+- before: "⚠️ Anastrozole is NOT a peptide. This entry exists in the Vialwise library because researchers running peptide protocols and TRT (see the Testosterone entry) frequently use anastrozole as a TRT-adjunct to suppress estradiol elevation driven by aromatization of supplemental testosterone. The compound is a small-molecule non-steroidal aromatase inhibitor (molecular weight 293 Da) — not a peptide, no"
+- after:  "⚠️ Anastrozole is NOT a peptide. This entry exists in the Vialwise library because researchers running peptide protocols and TRT (see the Testosterone entry) frequently use anastrozole as a TRT-adjunct to suppress estradiol elevation driven by aromatization of supplemental testosterone. The compound is a small-molecule non-steroidal aromatase inhibitor (molecular weight 293 Da) — not a peptide, no"
 
 **`anastrozole.disclosures[2]`**
 - before: "⚠️ The Vialwise calculator is informational, not computational, for anastrozole. Unlike injectable peptides where the calculator computes draws from concentration math, anastrozole is dosed as whole or split tablets (1 mg, 0.5 mg, or 0.25 mg). The calculator's role for anastrozole is to display the labeled and off-label dosing patterns plus the pill-splitting precision considerations — there is no"
@@ -2282,8 +2282,8 @@ info  vip: no [VERIFY] markers at all
 - after:  ", (varies by source)"
 
 **`bpc-157-tb-500-blend.about[5]`**
-- before: "| Compound | Single-compound typical dose range | Source |\n|---|---|---|\n| BPC-157 | 200–500 mcg | See [bpc-157.md](./bpc-157.md) |\n| TB-500 | 2,000–2,500 mcg (2–2.5 mg) | See [tb-500.md](./tb-500.md) |"
-- after:  "| Compound | Single-compound typical dose range | Source |\n|---|---|---|\n| BPC-157 | | See [bpc-157.md](./bpc-157.md) |\n| TB-500 | | See [tb-500.md](./tb-500.md) |"
+- before: "| Compound | Single-compound typical dose range | Source |\n|---|---|---|\n| BPC-157 | 200–500 mcg | See the BPC-157 entry |\n| TB-500 | 2,000–2,500 mcg (2–2.5 mg) | See the TB-500 entry |"
+- after:  "| Compound | Single-compound typical dose range | Source |\n|---|---|---|\n| BPC-157 | | See the BPC-157 entry |\n| TB-500 | | See the TB-500 entry |"
 
 **`bpc-157-tb-500-blend.about[7]`**
 - before: "1. BPC-anchored dosing (250–500 mcg of each per dose): the TB-500 component is well below its single-compound range. This is the most common research-community pattern for regular use.\n2. TB-anchored dosing (2,000–2,500 mcg of each per dose): the BPC-157 component is significantly above its single-compound range. Less commonly reported and increases per-dose cost substantially.\n3. Compromise dosin"
@@ -2854,8 +2854,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "⚠️ Composition reflects the most-cited research-community GLOW formulation ( total per vial). The canonical GLOW blend formulation referenced across multiple research-peptide vendors and compounding-pharmacy sources is: GHK-Cu + BPC-157 + TB-500 = total per vial. GLOW is essentially KLOW minus KPV — same three-peptide healing/regeneration core without the α-MSH-derived anti-inflammatory tripeptide"
 
 **`glow.disclosures[2]`**
-- before: "⚠️ Mismatched-range blend — same dosing-tradeoff framing as KLOW. Per the blend taxonomy established for the [BPC-157/TB-500 blend entry](./bpc-157-tb-500-blend.md) and inherited by KLOW, GLOW is a mismatched-range blend — the three components have meaningfully different typical research-community dose ranges (GHK-Cu ~1–2 mg; BPC-157 ~250–500 mcg; TB-500 ~2–10 mg). At the canonical 50/10/10 mg per"
-- after:  "⚠️ Mismatched-range blend — same dosing-tradeoff framing as KLOW. Per the blend taxonomy established for the [BPC-157/TB-500 blend entry](./bpc-157-tb-500-blend.md) and inherited by KLOW, GLOW is a mismatched-range blend — the three components have meaningfully different typical research-community dose ranges (GHK-Cu; BPC-157; TB-500). At the canonical per-vial ratio, dosing decisions for GLOW req"
+- before: "⚠️ Mismatched-range blend — same dosing-tradeoff framing as KLOW. Per the blend taxonomy established for the BPC-157/TB-500 blend entry and inherited by KLOW, GLOW is a mismatched-range blend — the three components have meaningfully different typical research-community dose ranges (GHK-Cu ~1–2 mg; BPC-157 ~250–500 mcg; TB-500 ~2–10 mg). At the canonical 50/10/10 mg per-vial ratio, dosing decisions"
+- after:  "⚠️ Mismatched-range blend — same dosing-tradeoff framing as KLOW. Per the blend taxonomy established for the BPC-157/TB-500 blend entry and inherited by KLOW, GLOW is a mismatched-range blend — the three components have meaningfully different typical research-community dose ranges (GHK-Cu; BPC-157; TB-500). At the canonical per-vial ratio, dosing decisions for GLOW require accepting that at least "
 
 **`glow.quickReference[0].label`**
 - before: "Components (canonical 70 mg formulation)"
@@ -3179,7 +3179,7 @@ info  vip: no [VERIFY] markers at all
 
 **`letrozole.about[2]`**
 - before: "Mechanism — comparison to anastrozole and exemestane. All three FDA-approved third-generation AIs act on the aromatase enzyme but differ structurally and pharmacologically. Letrozole (triazole, nonsteroidal, reversible) achieves >99% aromatase inhibition at 2.5 mg/day. Anastrozole (pyrrole, nonsteroidal, reversible) achieves ~97% aromatase inhibition at 1 mg/day. Exemestane (steroidal, irreversibl"
-- after:  "Mechanism — comparison to anastrozole and exemestane. All three FDA-approved third-generation AIs act on the aromatase enzyme but differ structurally and pharmacologically. Letrozole (triazole, nonsteroidal, reversible) achieves >99% aromatase inhibition. Anastrozole (pyrrole, nonsteroidal, reversible) achieves ~97% aromatase inhibition. Exemestane (steroidal, irreversible — see [exemestane.md](./"
+- after:  "Mechanism — comparison to anastrozole and exemestane. All three FDA-approved third-generation AIs act on the aromatase enzyme but differ structurally and pharmacologically. Letrozole (triazole, nonsteroidal, reversible) achieves >99% aromatase inhibition. Anastrozole (pyrrole, nonsteroidal, reversible) achieves ~97% aromatase inhibition. Exemestane (steroidal, irreversible — see the Exemestane ent"
 
 **`letrozole.dosingProtocol.startingDose`**
 - before: "2.5 mg orally once daily for 5 years (adjuvant) or until disease progression (advanced).[¹]"
@@ -3538,8 +3538,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "What happened when it was developed as a drug. The most informative modern source is a 2025 report in *Obesity* covering a long-acting PYY3-36 analogue (PYY1875) from preclinical work through Phase 1 and Phase 2 studies.[⁴] In obese male rats, the analogue added weight loss on top of semaglutide.[⁴] In the Phase 1 study, all doses alone and with semaglutide were tolerated.[⁴] In the Phase 2 study,"
 
 **`pyy.stacks.combinations[0].rationale`**
-- before: "this is the only combination with published human trial evidence, and the result was negative on the question that matters: as an add-on to semaglutide 2.4 mg, the PYY analogue's effect was modest and not clinically meaningful, and tolerability worsened.[⁴] See [semaglutide.md](./semaglutide.md). This is a documented outcome, not a rationale."
-- after:  "this is the only combination with published human trial evidence, and the result was negative on the question that matters: as an add-on to semaglutide, the PYY analogue's effect was modest and not clinically meaningful, and tolerability worsened.[⁴] See [semaglutide.md](./semaglutide.md). This is a documented outcome, not a rationale."
+- before: "this is the only combination with published human trial evidence, and the result was negative on the question that matters: as an add-on to semaglutide 2.4 mg, the PYY analogue's effect was modest and not clinically meaningful, and tolerability worsened.[⁴] See the Semaglutide entry. This is a documented outcome, not a rationale."
+- after:  "this is the only combination with published human trial evidence, and the result was negative on the question that matters: as an add-on to semaglutide, the PYY analogue's effect was modest and not clinically meaningful, and tolerability worsened.[⁴] See the Semaglutide entry. This is a documented outcome, not a rationale."
 
 **`pyy.sideEffects.common[0]`**
 - before: "Gastrointestinal adverse events — common at the 1.0 mg analogue dose given with semaglutide, and the reason the 2.0 mg escalation regimen was not tolerated.[⁴]"
@@ -4648,52 +4648,52 @@ once**. 405 appear exactly once and are marked ⚠️.
 | token | n | example |
 |---|---|---|
 | `GLP-1` | 327 | GLP-1 + amylin receptor dual agonist |
-| `BPC-157` | 208 | BPC-157 / TB-500 |
+| `BPC-157` | 217 | BPC-157 / TB-500 |
 | `IGF-1` | 208 | Growth-hormone secretagogues / IGF-1 compounds |
-| `TB-500` | 192 | BPC-157 / TB-500 |
-| `CJC-1295` | 162 | below) - Adjunct to GH-secretagogue stacks (CJC-1295 / Ipamorelin) on the rationale that AOD-9604 |
+| `TB-500` | 202 | BPC-157 / TB-500 |
+| `CJC-1295` | 188 | below) - Adjunct to GH-secretagogue stacks (CJC-1295 / Ipamorelin) on the rationale that AOD-9604 |
 | `GH-` | 146 | -regeneration data — see below) - Adjunct to GH-secretagogue stacks (CJC-1295 / Ipamorelin) o |
-| `KPV` | 143 | since taken place (that agenda was BPC-157, KPV, TB-500 and MOTS-c on July 23; Emideltide/DS |
+| `KPV` | 144 | since taken place (that agenda was BPC-157, KPV, TB-500 and MOTS-c on July 23; Emideltide/DS |
 | `PDF` | 133 | ibited List 2027 (effective 1 January 2027). PDF: wada-ama.org/sites/default/files/2026-09/20 |
 | `NAD` | 128 | protocols Epitalon is sometimes stacked with NAD+ precursors, rapamycin, metformin, or other |
 | `GHRH` | 119 | Pre-mixed GH-secretagogue blend (GHRH analog + GHRP) |
-| `GHRP-2` | 108 | de (GHRP) — most often Ipamorelin, sometimes GHRP-2 or GHRP-6 — on the rationale that GHRH analo |
+| `GHRP-2` | 109 | de (GHRP) — most often Ipamorelin, sometimes GHRP-2 or GHRP-6 — on the rationale that GHRH analo |
 | `TRT` | 103 | Testosterone replacement therapy (TRT) |
 | `GHRP-6` | 102 | — most often Ipamorelin, sometimes GHRP-2 or GHRP-6 — on the rationale that GHRH analogs and GHR |
-| `MOTS-` | 95 | t is exercise-mimetic compounds (SLU-PP-332, MOTS-c, AICAR), not the GHS-axis or HPG-axis pepti |
+| `MOTS-` | 96 | t is exercise-mimetic compounds (SLU-PP-332, MOTS-c, AICAR), not the GHS-axis or HPG-axis pepti |
 | `GHRP` | 89 | e-mixed GH-secretagogue blend (GHRH analog + GHRP) |
 | `DAC` | 88 | des, CJC-1295 (a GHRH analog, usually the no-DAC form) and ipamorelin (a GHRP), each promptin |
 | `PCAC` | 87 | on from that meeting as of 2026-09-03, and a PCAC recommendation is advisory and non-binding. |
-| `MK-677` | 83 | aming) demonstrated by Locke 1995 in rats. - MK-677 / Ibutamoren — non-peptide oral small-molecu |
+| `MK-677` | 86 | aming) demonstrated by Locke 1995 in rats. - MK-677 / Ibutamoren — non-peptide oral small-molecu |
+| `AOD-9604` | 85 | cleoside analog) but converging mechanism. - AOD-9604 — synthetic lipolytic fragment of GH; differ |
 | `GSH` | 82 | ity, decreased TNF-β, increased glutathione (GSH) and ascorbic acid concentrations in healing |
 | `AICAR` | 80 | ily, the metabolic-modulator small molecules AICAR / 5-amino-1MQ) with substantially better-cha |
-| `AOD-9604` | 80 | cleoside analog) but converging mechanism. - AOD-9604 — synthetic lipolytic fragment of GH; differ |
-| `HGH` | 70 | HGH (Human Growth Hormone) / Somatropin |
+| `HGH` | 71 | HGH (Human Growth Hormone) / Somatropin |
 | `LL-37` | 67 | LL-37, thymosin α1, or other immune-modulating pep |
 | `FSH` | 66 | rations — anastrozole's effect on raising LH/FSH/T while reducing E2 is the basis for the off |
 | `U-100` | 64 | Draw into a U-100 insulin syringe; expel to the calculated mar |
 | `AMPK` | 62 | AMPK activator (nucleoside analog, not a peptide) |
 | `DSIP` | 62 | PV, TB-500 and MOTS-c on July 23; Emideltide/DSIP, Epitalon and Semax on July 24). That meetin |
 | `REDEFINE` | 58 | disk advanced CagriSema through the Phase 3a REDEFINE 1 trial (adults without diabetes) and REDEFI |
+| `ACE-031` | 55 | ACE-031 |
 | `SLU-PP-332` | 52 | uster context is exercise-mimetic compounds (SLU-PP-332, MOTS-c, AICAR), not the GHS-axis or HPG-axi |
-| `ACE-031` | 50 | ACE-031 |
 | `FOXO4-DRI` | 50 | FOXO4-DRI |
 | `BAC` | 49 | mediately. Stability after reconstitution in BAC water is commonly cited at 14–30 days based |
 | `HPG-` | 49 | -PP-332, MOTS-c, AICAR), not the GHS-axis or HPG-axis peptide clusters. |
 | `DNA` | 48 | at a very short amino-acid sequence can bind DNA and nudge gene activity in its matching orga |
 | `KLOW` | 48 | s and should not use it. GLOW is essentially KLOW without the KPV component — same three-pepti |
+| `PT-141` | 48 | umented in the liraglutide, semaglutide, and PT-141 entries). |
 | `T2D` | 48 | ) were reported by week 36.[²] These Phase 2 T2D figures are from a Novo Nordisk press releas |
 | `NMN` | 47 | NAD+ precursors (NMN, NR), rapamycin, metformin |
 | `TRT-` | 47 | men with hypogonadism, infertility, or as a TRT-adjunct to suppress aromatization-driven estr |
 | `NNMT` | 46 | NNMT inhibitor (5-amino-1MQ class) |
-| `PT-141` | 45 | umented in the liraglutide, semaglutide, and PT-141 entries). |
 | `BDNF` | 39 | Semax-like nootropic — described as raising BDNF (a nerve-growth protein) and interacting wit |
 | `MGF` | 39 | MGF |
 | `MSH` | 39 | [Nle4-D-Phe7]-α-MSH |
 | `P021` | 38 | P21 (P021) |
 | `GLOW` | 37 | GLOW |
 | `UBT251` | 37 | UBT251 |
-| `PYY` | 35 | stance to leptin's action — the contrast the PYY literature drew on explicitly when it argued |
+| `PYY` | 36 | stance to leptin's action — the contrast the PYY literature drew on explicitly when it argued |
 | `ERR` | 34 | ary alongside: - SLU-PP-332 — small-molecule ERR (estrogen-related receptor) agonist exercise |
 | `AAS` | 31 | om the GHRP-class compounds (S2.2.4) and the AAS class (S1).[³][⁵] Recent doping context: AIC |
 | `KTTKS` | 31 | pal-KTTKS |
@@ -4728,7 +4728,7 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `FST-315` | 17 | FST-315 |
 | `FST-344` | 17 | FST-344 |
 | `GHD` | 17 | ent (TRT-equivalent for the GH axis) — adult GHD or pediatric GHD treatment per FDA labels. D |
-| `HSDD` | 17 | 2019) for hypoactive sexual desire disorder (HSDD) in premenopausal women. See [pt-141.md](./p |
+| `HSDD` | 17 | 2019) for hypoactive sexual desire disorder (HSDD) in premenopausal women. See the PT-141 (Bre |
 | `POMC` | 17 | activates neighbouring pro-opiomelanocortin (POMC) neurons — the same POMC step that sits upst |
 | `S0140-6736` | 17 | https://doi.org/10.1016/S0140-6736(25)01185-7 |
 | `T2DM` | 17 | or 2017 under its own NDA, 209210; pediatric T2DM ≥10 years 2021). The original Bydureon has b |
@@ -4801,7 +4801,7 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `GRAS` | 8 | dpoint and was discontinued in March 2007. A GRAS (Generally Recognized As Safe) status for fo |
 | `IGFBP-` | 8 | R3 IGF-I for cell-culture applications — the IGFBP-binding-evasion makes it a more stable additi |
 | `LAR` | 8 | Sandostatin LAR |
-| `LH-` | 8 | d](./hcg.md). Mechanism: HCG provides direct LH-receptor agonism at the testicular Leydig cel |
+| `LH-` | 8 | ropin) entry. Mechanism: HCG provides direct LH-receptor agonism at the testicular Leydig cel |
 | `MASLD` | 8 | weeks (efficacy estimand), and the obesity + MASLD trial SYNCHRONIZE-MASLD published in Nature |
 | `PLGA` | 8 | n used 50:50 poly(D,L-lactide-co-glycolide) (PLGA) microspheres for sustained release across t |
 | `S2213-8587` | 8 | https://doi.org/10.1016/S2213-8587(26)00125-7 |
@@ -4887,7 +4887,7 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `PDGF` | 5 | tors (MGFs), Platelet-derived growth factor (PDGF), and Vascular endothelial growth factor (VE |
 | `RESILIENT` | 5 | itis — the largest programme, and it failed. RESILIENT was a multicentre, double-blind, placebo-con |
 | `SAE` | 5 | 95% CI 0.81 to 1.66 — no difference in total SAE rates; but (c) non-fatal serious adverse eve |
-| `SELECT` | 5 | (no generic); strong CV outcomes (SUSTAIN-6, SELECT) — see [semaglutide.md](./semaglutide.md) - |
+| `SELECT` | 5 | (no generic); strong CV outcomes (SUSTAIN-6, SELECT) — see the Semaglutide entry - Tirzepatide ( |
 | `SURPASS-2` | 5 | acebo, and in a head-to-head diabetes trial (SURPASS-2) it produced greater blood-sugar (HbA1c) red |
 | `SYNCHRONIZE-1` | 5 | two indications — the pivotal obesity trial SYNCHRONIZE-1 published in the New England Journal of Medi |
 | `TKPRPGP` | 5 | TKPRPGP |
@@ -4954,7 +4954,7 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `REM` | 4 | esearchers, presumably reflecting changes in REM sleep architecture |
 | `SASP` | 4 | e senescence-associated secretory phenotype (SASP) — secretion of pro-inflammatory cytokines, |
 | `SUMMIT` | 4 | action plus obesity submission (based on the SUMMIT trial) was FILED with FDA and EMA in 2025 an |
-| `SURPASS-CVOT` | 4 | -2.4%; most expensive; emerging CV outcomes (SURPASS-CVOT pending) — see [tirzepatide.md](./tirzepatid |
+| `SURPASS-CVOT` | 4 | -2.4%; most expensive; emerging CV outcomes (SURPASS-CVOT pending) — see the Tirzepatide entry - Retat |
 | `SURPASS-PEDS` | 4 | mber 2025 — SUPPL-39 to NDA 215866, based on SURPASS-PEDS Phase 3 trial). No cardiovascular, heart-fai |
 | `SUSTAIN-6` | 4 | t. (e) Cardiovascular outcomes: semaglutide (SUSTAIN-6) and dulaglutide (REWIND) showed cardiovascu |
 | `THP-1` | 4 | y of several Khavinson peptides in the human THP-1 monocyte/macrophage cell line found that the |
@@ -5360,7 +5360,7 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `HBSP` | 1 ⚠️ | HBSP |
 | `HCC` | 1 ⚠️ | eckpoint inhibitors is being investigated in HCC, NSCLC, and gastric cancer trials. Clinical |
 | `HDM-2-` | 1 ⚠️ | A synthetic peptide joining a p53-derived HDM-2-binding sequence (roughly p53 residues 12–26) |
-| `HGH-` | 1 ⚠️ | [hgh.md](./hgh.md) for the broader exogenous-HGH-vs-secretagogue distinction. |
+| `HGH-` | 1 ⚠️ | / Somatropin entry for the broader exogenous-HGH-vs-secretagogue distinction. |
 | `HLA` | 1 ⚠️ | ndritic cell maturation with upregulation of HLA class II and costimulatory molecules; (b) Th |
 | `HMK` | 1 ⚠️ | ock MTWT, de Kemp VF, de Kort LMO, van Breda HMK. (2022). Clomiphene citrate for men with hyp |
 | `HOMA-IR` | 1 ⚠️ | abetes, and lower levels tracked with higher HOMA-IR and HbA1c.[⁵] That study measured naturally |
