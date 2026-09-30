@@ -1624,7 +1624,7 @@
         "metabolic-weight",
         "appetite"
       ],
-      "status": "Investigational (not FDA approved); Phase 3 (AMAZE) program underway — recruiting since Q1 2026. WADA: not specifically named; as an investigational compound with no approval it could fall under S0 (non-approved substances) for tested athletes — verify with your anti-doping organization. Not DEA-scheduled.",
+      "status": "Investigational (not FDA approved); Phase 3 (AMAZE) program underway — recruiting since Q1 2026. WADA status: not named on the 2026 or 2027 Prohibited List, but best treated as prohibited at all times under S0 (Non-Approved Substances), because it has no approval as a medicine anywhere — verify with your anti-doping organization. Not DEA-scheduled.",
       "recommendedTimeOfDay": "anytime",
       "lastUpdated": "2026-09-03",
       "beginner": {
@@ -2373,7 +2373,7 @@
       "researchAreas": [
         "healing-repair"
       ],
-      "status": "Not FDA-approved for any indication. Investigational. ARA-290 (cibinetide) was developed by Araim Pharmaceuticals and holds FDA Orphan Drug Designation and Fast Track Designation for sarcoidosis-associated small-fiber neuropathy (US), plus EU Orphan Drug Designation for sarcoidosis. It reached Phase 2 in several indications but has not received marketing approval in any jurisdiction, and development appears to have since stalled — no ARA-290 clinical trial has started since 2016 and no Phase 3 program or active US IND could be identified. WADA status: ARA-290 is not explicitly named on the Prohibited List, but as a research peptide with no regulatory approval anywhere it is captured under S0 (Non-Approved Substances) — prohibited at all times — the same basis that applies to BPC-157. Because ARA-290 is non-erythropoietic by design, the S2 \"agents affecting erythropoiesis\" logic does not cleanly apply; S0 is the governing basis. Athletes should verify with their anti-doping organization. Not DEA-scheduled.",
+      "status": "Not FDA-approved for any indication. Investigational. ARA-290 (cibinetide) was developed by Araim Pharmaceuticals and holds FDA Orphan Drug Designation and Fast Track Designation for sarcoidosis-associated small-fiber neuropathy (US), plus EU Orphan Drug Designation for sarcoidosis. It reached Phase 2 in several indications but has not received marketing approval in any jurisdiction, and development appears to have since stalled — no ARA-290 clinical trial has started since 2016 and no Phase 3 program or active US IND could be identified. WADA status: ARA-290 is not named on the 2026 or 2027 Prohibited List, but its class is. S2.1.5 prohibits \"innate repair receptor agonists\" (e.g. asialo EPO and carbamylated EPO), and ARA-290 acts on that receptor,[³] so it is prohibited at all times under S2. Athletes should verify with their anti-doping organization. Not DEA-scheduled.",
       "recommendedTimeOfDay": "anytime",
       "lastUpdated": "2026-09-03",
       "beginner": {
@@ -2684,7 +2684,7 @@
         },
         {
           "label": "Half-life",
-          "value": "Not stated in this entry — no half-life figure is asserted without a primary pharmacokinetic source `[ADD]`. The 12-week dosing interval used in the obesity trial implies a long one.[³]"
+          "value": "Not stated in this entry — no half-life figure is asserted without a primary pharmacokinetic source. The 12-week dosing interval used in the obesity trial implies a long one.[³]"
         },
         {
           "label": "Route",
@@ -2697,7 +2697,7 @@
       ],
       "about": [
         "Bimagrumab (development codes BYM338 at Novartis, LY3985863 at Eli Lilly) is a fully human monoclonal antibody that binds the activin type II receptors.[¹][²] Antibody blockade of ActRII signalling stimulates skeletal muscle growth, and the 2021 trial report notes that earlier clinical work had also suggested it promotes loss of excess adipose tissue and improves insulin resistance.[²]",
-        "Mechanism, stated at the level the sources support. The receptor is the point of blockade. Myostatin and the activins signal *through* ActRII to restrain muscle growth; an antibody occupying the receptor prevents that signalling regardless of which ligand is present.[²] This is mechanistically adjacent to, but not the same as, the two other myostatin-pathway compounds in this library: ACE-031 is a soluble decoy receptor that mops up ligands, and Follistatin is a binding protein that sequesters myostatin and activins. A naming caution worth carrying: the WADA List files bimagrumab under *anti-activin receptor IIB antibodies*,[⁵] while the trial literature describes its target as the activin type II receptors more generally.[²][³] Both descriptions are reproduced here as their sources give them; this entry does not assert a receptor-subtype selectivity figure `[ADD]`.",
+        "Mechanism, stated at the level the sources support. The receptor is the point of blockade. Myostatin and the activins signal *through* ActRII to restrain muscle growth; an antibody occupying the receptor prevents that signalling regardless of which ligand is present.[²] This is mechanistically adjacent to, but not the same as, the two other myostatin-pathway compounds in this library: ACE-031 is a soluble decoy receptor that mops up ligands, and Follistatin is a binding protein that sequesters myostatin and activins. A naming caution worth carrying: the WADA List files bimagrumab under *anti-activin receptor IIB antibodies*,[⁵] while the trial literature describes its target as the activin type II receptors more generally.[²][³] Both descriptions are reproduced here as their sources give them; this entry does not assert a receptor-subtype selectivity figure.",
         "Sporadic inclusion body myositis — the largest programme, and it failed. RESILIENT was a multicentre, double-blind, placebo-controlled phase 2b trial at 38 academic sites across Australia, Europe, Japan and the USA, enrolling 251 participants aged 36–85 randomised 1:1:1:1 to bimagrumab 10, 3 or or placebo, infused every 4 weeks for at least 48 weeks.[¹] The primary outcome was 6-minute walking distance at week 52, analysed by intention-to-treat.[¹] At week 52, 6MWD change from baseline did not differ between any bimagrumab dose and placebo — the least-squares mean treatment differences were 17·6 m (SE 14·3; 99% CI −19·6 to 54·8; p=0·22) for, 18·6 m (14·2; −18·2 to 55·4; p=0·19) for, and −1·3 m (14·1; −38·0 to 35·4; p=0·93) for.[¹] The authors' own conclusion is that bimagrumab *\"showed a good safety profile, relative to placebo, in individuals with inclusion body myositis but did not improve 6MWD.\"*[¹] The study was funded by Novartis Pharma.[¹] A long-term extension reported progressive deterioration in 6MWD from weeks 24 to 104 in all treatment groups, including those receiving bimagrumab.[⁶]",
         "Type 2 diabetes with overweight or obesity. A 48-week, double-masked, placebo-controlled phase 2 randomised trial at 9 US and UK sites enrolled adults with type 2 diabetes, BMI 28–40 and HbA1c 6.5–10.0%.[²] 75 patients were randomised (bimagrumab n=37, placebo n=38) and 58 (77.3%) completed; the published analysis included only participants who completed the full treatment regimen.[²] At week 48, changes for bimagrumab versus placebo were: fat mass −20.5% (−7.5 kg; 80% CI −8.3 to −6.6) versus −0.5% (−0.18 kg; 80% CI −0.99 to 0.63), P<.001; lean mass +3.6% (+1.70 kg; 80% CI 1.1 to 2.3) versus −0.8% (−0.4 kg; 80% CI −1.0 to 0.1), P<.001; waist circumference −9.0 cm versus +0.5 cm, P<.001; HbA1c −0.76 percentage points versus −0.04, P=.005; and body weight −6.5% (−5.9 kg) versus −0.8% (−0.8 kg), P<.001.[²] Three design facts travel with those numbers: the trial had 75 participants, the analysis was restricted to completers, and the intervals reported are 80% confidence intervals, not the conventional 95%.[²]",
         "Obesity, with and without semaglutide. The 2026 Nature Medicine report is the largest weight-related trial: a double-blind, placebo-controlled phase 2 trial randomising 507 adults with obesity (BMI ≥30, or ≥27 with at least one obesity-associated complication, excluding diabetes) 1:1:1:1:1:1:1:1:1 across nine groups for 48 weeks — placebo, bimagrumab 10 or intravenously every 12 weeks, semaglutide 1.0 or subcutaneously once weekly, and combinations — followed by an open-label extension to week 72.[³] The primary endpoint was absolute change from baseline in body weight at week 48.[³] Least-squares mean absolute body-weight changes at week 48 were −9.3 kg (bimagrumab), −14.2 kg (semaglutide) and −17.8 kg (bimagrumab plus semaglutide), versus −3.3 kg for placebo (all P<0.001 versus placebo).[³] Common adverse events for bimagrumab were muscle spasms, diarrhoea and acne; semaglutide was associated with nausea, diarrhoea, constipation and fatigue.[³]",
@@ -3878,7 +3878,7 @@
         "metabolic-weight",
         "appetite"
       ],
-      "status": "Investigational combination (not FDA approved); Novo Nordisk submitted an NDA in December 2025 based on REDEFINE 1, with an FDA decision expected in 2026; components individually relevant (semaglutide approved separately). WADA: not specifically named; as an investigational combination it could fall under S0 (non-approved substances) for tested athletes — verify with your anti-doping organization. Not DEA-scheduled.",
+      "status": "Investigational combination (not FDA approved); Novo Nordisk submitted an NDA in December 2025 based on REDEFINE 1, with an FDA decision expected in 2026; components individually relevant (semaglutide approved separately). WADA status: not named on the 2026 or 2027 Prohibited List, but best treated as prohibited at all times under S0 (Non-Approved Substances), because its cagrilintide component has no approval as a medicine anywhere — verify with your anti-doping organization. Not DEA-scheduled.",
       "recommendedTimeOfDay": "anytime",
       "lastUpdated": "2026-09-03",
       "beginner": {
@@ -8518,7 +8518,7 @@
         "skin-cosmetic",
         "healing-repair"
       ],
-      "status": "Not FDA approved as a pharmaceutical drug for any indication. Topical GHK-Cu is legal as a cosmetic active ingredient under FDA cosmetic regulation (no pre-approval required for cosmetic ingredients). Injectable GHK-Cu: its 503A bulks-list nomination was WITHDRAWN, and FDA gave notice dated April 15, 2026 removing GHK-Cu from its prior 503A category (effective on or about April 22, 2026). GHK-Cu now sits in a transitional / regulatory gray area — it is not on the FDA 503A bulks list and not under formal enforcement discretion, with a PCAC consultation on GHK-Cu planned before the end of February 2027. A withdrawn nomination is not permission to compound: compounding for injection still carries regulatory risk until FDA affirmatively lists the substance. Not listed in the WADA 2026 or 2027 Prohibited List[¹³]. Currently sold as a research peptide in jurisdictions where this is permitted.",
+      "status": "Not FDA approved as a pharmaceutical drug for any indication. Topical GHK-Cu is legal as a cosmetic active ingredient under FDA cosmetic regulation (no pre-approval required for cosmetic ingredients). Injectable GHK-Cu: its 503A bulks-list nomination was WITHDRAWN, and FDA gave notice dated April 15, 2026 removing GHK-Cu from its prior 503A category (effective on or about April 22, 2026). GHK-Cu now sits in a transitional / regulatory gray area — it is not on the FDA 503A bulks list and not under formal enforcement discretion, with a PCAC consultation on GHK-Cu planned before the end of February 2027. A withdrawn nomination is not permission to compound: compounding for injection still carries regulatory risk until FDA affirmatively lists the substance. WADA: not named on the 2026 or 2027 Prohibited List.[¹³] Legal cosmetic use is not approval as a medicine, and WADA says a peptide that is not named may still be prohibited under S0 (Non-Approved Substances); athletes should check with their anti-doping organization before use. Any injected, research-supply form has no approval anywhere, so S0 covers it by default. Currently sold as a research peptide in jurisdictions where this is permitted.",
       "recommendedTimeOfDay": "anytime",
       "lastUpdated": "2026-09-03",
       "beginner": {
@@ -11127,7 +11127,7 @@
         "cognition-neuro",
         "longevity-aging"
       ],
-      "status": "Research compound — not FDA-approved, not investigational under any active registrational program. No FDA approval, no FDA-cleared clinical indication, not DEA-scheduled. Sold as a research-only peptide. Human pharmacokinetic data are limited; most evidence is preclinical (cell and animal models). Treat all dosing and half-life figures as estimates, not established human parameters.",
+      "status": "Research compound — not FDA-approved, not investigational under any active registrational program. No FDA approval, no FDA-cleared clinical indication, not DEA-scheduled. Sold as a research-only peptide. Human pharmacokinetic data are limited; most evidence is preclinical (cell and animal models). Treat all dosing and half-life figures as estimates, not established human parameters. WADA status: not named on the 2026 or 2027 Prohibited List, but best treated as prohibited at all times under S0 (Non-Approved Substances), because it has no approval as a medicine anywhere — verify with your anti-doping organization.",
       "recommendedTimeOfDay": "anytime",
       "lastUpdated": "2026-09-03",
       "beginner": {
@@ -18751,7 +18751,7 @@
         },
         {
           "label": "Half-life",
-          "value": "Not stated in this entry. Native PYY3-36 is short-lived enough that the human studies delivered it by continuous infusion, and a long-acting analogue had to be engineered for repeat dosing[⁴] — but no half-life figure is asserted here `[ADD]`."
+          "value": "Not stated in this entry. Native PYY3-36 is short-lived enough that the human studies delivered it by continuous infusion, and a long-acting analogue had to be engineered for repeat dosing[⁴] — but no half-life figure is asserted here."
         },
         {
           "label": "Route",
@@ -19195,7 +19195,7 @@
       "researchAreas": [
         "cognition-neuro"
       ],
-      "status": "Not FDA approved for any indication. Registered in Russia as a clinical anxiolytic medication (registered name \"Selanc\" in some Russian-language sources) — used clinically in Russian psychiatric practice for generalized anxiety disorder and neurasthenia. Not approved as a pharmaceutical drug in any major regulatory jurisdiction outside Russia (FDA, EMA, MHRA, TGA, Health Canada). Available in Western markets as a research peptide. Selank acetate (TP-7) was previously listed in Category 2 of FDA's interim 503A bulk-substances list (substances FDA identified as presenting significant safety risks); it was removed on 20 September 2024 following withdrawal of the nomination, not an affirmative FDA safety determination. It is not currently on Category 1 or Category 2. Not named in the WADA 2026 or 2027 Prohibited List[⁹] — but WADA's S0 (Non-Approved Substances) category is a catch-all prohibiting, at all times, pharmacological substances with no current approval by any governmental regulatory health authority for human therapeutic use; because Selank is approved only in Russia and not by major regulators, some anti-doping interpretations treat it as captured by S0. Its status is therefore contested — not clearly permitted; athletes in WADA-tested sport should confirm with their anti-doping organization before use. Sister compound to Semax; both developed at the Institute of Molecular Genetics, Russian Academy of Sciences.",
+      "status": "Not FDA approved for any indication. Registered in Russia as a clinical anxiolytic medication (registered name \"Selanc\" in some Russian-language sources) — used clinically in Russian psychiatric practice for generalized anxiety disorder and neurasthenia. Not approved as a pharmaceutical drug in any major regulatory jurisdiction outside Russia (FDA, EMA, MHRA, TGA, Health Canada). Available in Western markets as a research peptide. Selank acetate (TP-7) was previously listed in Category 2 of FDA's interim 503A bulk-substances list (substances FDA identified as presenting significant safety risks); it was removed on 20 September 2024 following withdrawal of the nomination, not an affirmative FDA safety determination. It is not currently on Category 1 or Category 2. Not named in the WADA 2026 or 2027 Prohibited List[⁹]. S0 (Non-Approved Substances) reaches only substances with no current approval from any governmental health authority, and Selank is a registered medicine in Russia (registration ЛП-№(010951)-(РГ-RU))[¹⁰], so S0 does not apply. Athletes in WADA-tested sport should still confirm with their anti-doping organization before use. Sister compound to Semax; both developed at the Institute of Molecular Genetics, Russian Academy of Sciences.",
       "recommendedTimeOfDay": "anytime",
       "lastUpdated": "2026-09-03",
       "beginner": {
@@ -19424,6 +19424,12 @@
           "reference": "World Anti-Doping Agency. World Anti-Doping Code International Standard Prohibited List 2027 (effective 1 January 2027). PDF: wada-ama.org/sites/default/files/2026-09/2027list_en_final_clean_26_august_2026_2.pdf. Selank is not named. S0 (Non-Approved Substances) keeps its 2026 wording and adds \"peptides\" to its examples.",
           "primaryUrl": "https://www.wada-ama.org/sites/default/files/2026-09/2027list_en_final_clean_26_august_2026_2.pdf",
           "verified": true
+        },
+        {
+          "index": 10,
+          "reference": "Ministry of Health of the Russian Federation. State Register of Medicines (ГРЛС): Селанк® (Selank), nasal drops. Registration holder: АО «ИНПЦ «Пептоген». Registration ЛП-№(010951)-(РГ-RU), 15.07.2025, in force. grls.minzdrav.gov.ru. Retrieved 2026-09-30.",
+          "primaryUrl": "https://grls.minzdrav.gov.ru/Grls_View_v2.aspx?routingGuid=4bb4c668-ec92-4246-b8c3-9ff022b79026",
+          "verified": false
         }
       ],
       "web": {
