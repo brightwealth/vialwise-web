@@ -989,6 +989,20 @@
       "dosingProtocol": {
         "startingDose": ""
       },
+      "stacks": {
+        "combinations": [],
+        "contraindicatedCombinations": [],
+        "notes": [
+          {
+            "text": "Afamelanotide in its FDA-approved use is a monotherapy for EPP photoprotection, administered by professionals. It is not part of research-community \"stacks.\"",
+            "bullet": false
+          },
+          {
+            "text": "Photoprotective behavior (clothing, avoidance) remains standard alongside the implant in EPP management — afamelanotide increases but does not eliminate the need for sun-safety measures.",
+            "bullet": true
+          }
+        ]
+      },
       "sideEffects": {
         "common": [
           "Implant-site reaction (~21%)",
@@ -13094,6 +13108,12 @@
         "combinations": [],
         "contraindicatedCombinations": [
           "Anything that also loosens stool — laxatives, magnesium, or other secretagogues would compound the dose-related diarrhea documented at 17% on the higher dose.[²] Unstudied in combination; the mechanistic overlap is the concern."
+        ],
+        "notes": [
+          {
+            "text": "No combination data exist in the sources cited here. All three trials studied linaclotide against placebo as monotherapy.[¹][²][³] No trial of linaclotide alongside any other compound in this library has been published.",
+            "bullet": false
+          }
         ]
       },
       "sideEffects": {
@@ -14262,6 +14282,20 @@
       "dosingProtocol": {
         "startingDose": ""
       },
+      "stacks": {
+        "combinations": [],
+        "contraindicatedCombinations": [],
+        "notes": [
+          {
+            "text": "⚠️ Do not stack with other GLP-1 / GIP / glucagon agonists (semaglutide, tirzepatide, retatrutide, liraglutide, dulaglutide, exenatide, survodutide) — the combined effect has not been studied and cannot be predicted.",
+            "bullet": true
+          },
+          {
+            "text": "⚠️ Insulin / sulfonylureas — hypoglycemia risk (GLP-1-class effect), amplified by the dual mechanism.",
+            "bullet": true
+          }
+        ]
+      },
       "sideEffects": {
         "common": [
           "GI: nausea, vomiting, diarrhea, decreased appetite (dose/titration-dependent — the class hallmark)",
@@ -14830,6 +14864,20 @@
       },
       "dosingProtocol": {
         "startingDose": ""
+      },
+      "stacks": {
+        "combinations": [],
+        "contraindicatedCombinations": [],
+        "notes": [
+          {
+            "text": "Not applicable in the sense used elsewhere in this library. Metreleptin is replacement therapy for a rare disease, administered under clinical supervision alongside whatever antihyperglycemic and lipid-altering medicines the treating clinician judges necessary — in the pivotal study those background regimens were adjusted during treatment, including large reductions in or discontinuation of insulin in some patients.[¹] That is clinical management, not stacking, and this entry does not present a combination rationale.",
+            "bullet": false
+          },
+          {
+            "text": "Related entries for pathway context, not for combination: setmelanotide acts downstream of leptin on the melanocortin pathway in a different rare genetic disease; PYY is the gut satiety hormone whose literature uses leptin resistance as its explicit contrast case.",
+            "bullet": false
+          }
+        ]
       },
       "sideEffects": {
         "common": [],
@@ -16752,6 +16800,20 @@
       "dosingProtocol": {
         "startingDose": ""
       },
+      "stacks": {
+        "combinations": [],
+        "contraindicatedCombinations": [],
+        "notes": [
+          {
+            "text": "Oxytocin's FDA use is standalone obstetric administration; it is not part of research-community \"stacks.\"",
+            "bullet": false
+          },
+          {
+            "text": "⚠️ Drug interaction (label): severe hypertension reported when oxytocin was given 3–4 h after a vasoconstrictor with caudal-block anesthesia; cyclopropane anesthesia can modify its cardiovascular effects. Clinician-managed.",
+            "bullet": true
+          }
+        ]
+      },
       "sideEffects": {
         "common": [
           "Nausea, vomiting",
@@ -17824,6 +17886,18 @@
       },
       "dosingProtocol": {
         "startingDose": ""
+      },
+      "stacks": {
+        "combinations": [],
+        "contraindicatedCombinations": [
+          "No data. Because PNC-27 is a membrane-disrupting peptide, any assumption about interactions is speculative. The absence of data is not evidence of safety."
+        ],
+        "notes": [
+          {
+            "text": "No evidence-based combinations exist. PNC-27 is a preclinical research compound, not a therapy, and there are no human combination data.",
+            "bullet": true
+          }
+        ]
       },
       "sideEffects": {
         "common": [
@@ -20411,6 +20485,20 @@
       "dosingProtocol": {
         "startingDose": "Set by prescribing labeling and by the treating clinician, with individual titration. The registration trials used once-daily subcutaneous administration with per-patient dose titration.[¹] No self-directed dose is published in this entry — see below."
       },
+      "stacks": {
+        "combinations": [],
+        "contraindicatedCombinations": [],
+        "notes": [
+          {
+            "text": "No stacking data exist, and stacking is not an applicable concept here. Setmelanotide was studied as monotherapy in a diagnosed population.[¹] No combination trials with GLP-1 receptor agonists or any other compound in this library have been published, and none of the trials cited here permit any inference about combined use.",
+            "bullet": false
+          },
+          {
+            "text": "Caution: Because setmelanotide has documented off-target activity at MC1R producing skin and hair pigmentation,[³] combining it with other melanocortin-active compounds would compound that off-target effect. No data characterize that combination.",
+            "bullet": false
+          }
+        ]
+      },
       "sideEffects": {
         "common": [
           "Injection-site reactions — reported in every participant in both trials (10/10 POMC, 11/11 LEPR).[¹]",
@@ -21365,6 +21453,20 @@
       "dosingProtocol": {
         "startingDose": ""
       },
+      "stacks": {
+        "combinations": [],
+        "contraindicatedCombinations": [],
+        "notes": [
+          {
+            "text": "⚠️ Do not stack with other GLP-1 / GIP / glucagon agonists (semaglutide, tirzepatide, retatrutide, liraglutide, dulaglutide, exenatide, mazdutide) — the combined effect has not been studied and cannot be predicted.",
+            "bullet": true
+          },
+          {
+            "text": "⚠️ Insulin / sulfonylureas — hypoglycemia risk (GLP-1-class effect), amplified by the dual mechanism.",
+            "bullet": true
+          }
+        ]
+      },
       "sideEffects": {
         "common": [
           "GI: nausea, vomiting, diarrhea, decreased appetite (dose/titration-dependent — the class hallmark). In Phase 3 SYNCHRONIZE-1 these were the dominant adverse events, mostly mild to moderate and concentrated during dose escalation, occurring in 80.9% and 89.7% of participants vs 47.9% on placebo.[³]",
@@ -22114,6 +22216,20 @@
       "dosingProtocol": {
         "startingDose": "/day subcutaneously, once daily — the dose used in the pivotal 24-week trial.[¹] Presented as a reference point, not a recommendation; the prescribed dose is set by labeling and by the treating clinician."
       },
+      "stacks": {
+        "combinations": [],
+        "contraindicatedCombinations": [],
+        "notes": [
+          {
+            "text": "No stacking data exist, and stacking is not an applicable concept here. Teduglutide was studied against placebo on a background of standard parenteral-support management.[¹] No combination trials with any compound in this library have been published.",
+            "bullet": false
+          },
+          {
+            "text": "Relevant interaction principle: because teduglutide increases intestinal absorption, it can in principle change how much of an orally taken substance gets absorbed — that is the mechanism working as intended. Anyone taking oral medication alongside it should raise that with their prescriber.",
+            "bullet": false
+          }
+        ]
+      },
       "sideEffects": {
         "common": [
           "The distribution of treatment-emergent adverse events leading to study discontinuation was similar between groups — 2 patients on teduglutide versus 3 on placebo.[¹]",
@@ -22793,6 +22909,24 @@
       },
       "dosingProtocol": {
         "startingDose": ""
+      },
+      "stacks": {
+        "combinations": [],
+        "contraindicatedCombinations": [],
+        "notes": [
+          {
+            "text": "⚠️ Serotonergic drug interactions — as an SSRI/SNRI-adjacent reuptake inhibitor, combining tesofensine with other serotonergic agents (SSRIs, SNRIs, MAOIs, other reuptake inhibitors) raises serotonin-syndrome risk. Not a benign stack.",
+            "bullet": true
+          },
+          {
+            "text": "⚠️ CYP3A4 interactions — strong CYP3A4 inhibitors/inducers will shift tesofensine + NS2360 exposure substantially given the long half-lives.",
+            "bullet": true
+          },
+          {
+            "text": "Combining with GLP-1 agonists is discussed in the community but has no controlled-evidence base and stacks cardiovascular/appetite effects unpredictably.",
+            "bullet": true
+          }
+        ]
       },
       "sideEffects": {
         "common": [
