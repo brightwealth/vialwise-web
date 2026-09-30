@@ -293,7 +293,7 @@
         "combinations": [
           {
             "partner": "Growth-hormone secretagogues / IGF-1 compounds",
-            "rationale": "sometimes discussed together in research-community muscle protocols on a broad \"anabolic axis\" rationale. No human interaction or combination data exist, and stacking a discontinued ligand trap with growth factors compounds the unknowns. `[citation needed]`"
+            "rationale": "sometimes discussed together in research-community muscle protocols on a broad \"anabolic axis\" rationale. No human interaction or combination data exist, and stacking a discontinued ligand trap with growth factors compounds the unknowns."
           }
         ],
         "contraindicatedCombinations": []
@@ -1209,7 +1209,7 @@
         "combinations": [
           {
             "partner": "GHK-Cu",
-            "rationale": "the more-studied copper peptide; sometimes used alongside AHK-Cu in scalp/skin formulations on a shared copper-peptide rationale. `[citation needed]`"
+            "rationale": "the more-studied copper peptide; sometimes used alongside AHK-Cu in scalp/skin formulations on a shared copper-peptide rationale. No published evidence supports this combination."
           },
           {
             "partner": "Topical hair/skin routines",
@@ -2186,7 +2186,7 @@
           },
           {
             "partner": "GLP-1 / GIP / glucagon agonists (semaglutide, tirzepatide, retatrutide)",
-            "rationale": "sometimes stacked during incretin-driven weight-loss cycles on the rationale that AOD-9604 accelerates fat-mass loss while the incretin agonist drives appetite suppression and overall caloric reduction. The lean-mass-preservation rationale referenced in the GLP-1 entries' Stacks sections also applies. Mechanistic rationale is plausible but not validated in published trials. `[citation needed]`"
+            "rationale": "sometimes stacked during incretin-driven weight-loss cycles on the rationale that AOD-9604 accelerates fat-mass loss while the incretin agonist drives appetite suppression and overall caloric reduction. The lean-mass-preservation rationale referenced in the GLP-1 entries' Stacks sections also applies. Mechanistic rationale is plausible but not validated in published trials."
           },
           {
             "partner": "BPC-157 / TB-500",
@@ -2472,7 +2472,7 @@
         "combinations": [
           {
             "partner": "BPC-157 / TB-500",
-            "rationale": "sometimes combined in research-community recovery protocols on the rationale that ARA-290's anti-inflammatory/tissue-protective activity complements other repair peptides. No interaction or combination data are published. `[citation needed]`"
+            "rationale": "sometimes combined in research-community recovery protocols on the rationale that ARA-290's anti-inflammatory/tissue-protective activity complements other repair peptides. No interaction or combination data are published."
           },
           {
             "partner": "GLP-1 / metabolic protocols",
@@ -2927,11 +2927,11 @@
         "combinations": [
           {
             "partner": "GH peptides (CJC-1295 / Ipamorelin)",
-            "rationale": "sometimes stacked with the regenerative blend during heavy training or recovery cycles for broader systemic recovery support `[citation needed]`"
+            "rationale": "sometimes stacked with the regenerative blend during heavy training or recovery cycles for broader systemic recovery support. No published evidence supports this combination."
           },
           {
             "partner": "GLP-1 / GIP agonists during weight-loss cycles",
-            "rationale": "sometimes used by researchers running aggressive incretin protocols who want regenerative tissue support during rapid body composition change. Mechanistic rationale is plausible but not validated in published trials `[citation needed]`"
+            "rationale": "sometimes used by researchers running aggressive incretin protocols who want regenerative tissue support during rapid body composition change. Mechanistic rationale is plausible but not validated in published trials"
           }
         ],
         "contraindicatedCombinations": []
@@ -3165,7 +3165,7 @@
         "combinations": [
           {
             "partner": "TB-500 (Thymosin Beta-4 fragment)",
-            "rationale": "frequently stacked with BPC-157 on the rationale that BPC-157 promotes angiogenesis and tendon fibroblast activity while TB-500 promotes cell migration and tissue remodeling — complementary mechanisms during recovery from injury. The blend is one of Vialwise's planned future entries (see `bpc-157-tb-500-blend.md` when published)."
+            "rationale": "frequently stacked with BPC-157 on the rationale that BPC-157 promotes angiogenesis and tendon fibroblast activity while TB-500 promotes cell migration and tissue remodeling — complementary mechanisms during recovery from injury. See the BPC-157 / TB-500 blend entry."
           },
           {
             "partner": "GH peptides (CJC-1295 / Ipamorelin)",
@@ -3173,7 +3173,7 @@
           },
           {
             "partner": "GLP-1 / GIP / glucagon agonists during weight-loss cycles",
-            "rationale": "sometimes used by researchers running aggressive incretin protocols who want tissue-support adjuncts during rapid body composition change. Mechanistic rationale is plausible but not validated in published trials. `[citation needed]`"
+            "rationale": "sometimes used by researchers running aggressive incretin protocols who want tissue-support adjuncts during rapid body composition change. Mechanistic rationale is plausible but not validated in published trials."
           }
         ],
         "contraindicatedCombinations": []
@@ -3438,7 +3438,7 @@
         "combinations": [
           {
             "partner": "Other Khavinson bioregulators",
-            "rationale": "in Russian practice, organ-specific bioregulators are sometimes combined (e.g., an organ peptide plus the pineal peptide Epitalon). No controlled combination data exist. `[citation needed]`"
+            "rationale": "in Russian practice, organ-specific bioregulators are sometimes combined (e.g., an organ peptide plus the pineal peptide Epitalon). No controlled combination data exist."
           }
         ],
         "contraindicatedCombinations": []
@@ -4166,7 +4166,7 @@
         "combinations": [
           {
             "partner": "Other Khavinson bioregulators",
-            "rationale": "sometimes combined in Russian practice; no controlled combination data. `[citation needed]`"
+            "rationale": "sometimes combined in Russian practice; no controlled combination data."
           }
         ],
         "contraindicatedCombinations": []
@@ -4917,7 +4917,7 @@
         "combinations": [
           {
             "partner": "Other Khavinson bioregulators",
-            "rationale": "sometimes combined in Russian practice; no controlled combination data. `[citation needed]`"
+            "rationale": "sometimes combined in Russian practice; no controlled combination data."
           }
         ],
         "contraindicatedCombinations": []
@@ -5100,7 +5100,7 @@
         "combinations": [
           {
             "partner": "BPC-157 / TB-500 (or the BPC/TB blend)",
-            "rationale": "sometimes stacked during heavy training cycles for combined GH stimulation + tissue-recovery support `[citation needed]`"
+            "rationale": "sometimes stacked during heavy training cycles for combined GH stimulation + tissue-recovery support. No published evidence supports this combination."
           },
           {
             "partner": "GLP-1 / GIP / glucagon agonists during weight-loss cycles",
@@ -5358,7 +5358,7 @@
           },
           {
             "partner": "BPC-157 / TB-500",
-            "rationale": "sometimes stacked during heavy training cycles for combined GH + tissue-recovery support `[citation needed]`"
+            "rationale": "sometimes stacked during heavy training cycles for combined GH + tissue-recovery support. No published evidence supports this combination."
           },
           {
             "partner": "GLP-1 / GIP / glucagon agonists during weight-loss cycles",
@@ -5928,7 +5928,7 @@
         "combinations": [
           {
             "partner": "Other Khavinson bioregulators (e.g., Pinealon, Epitalon)",
-            "rationale": "sometimes combined in Russian \"neuro/geroprotector\" practice; no controlled combination data. `[citation needed]`"
+            "rationale": "sometimes combined in Russian \"neuro/geroprotector\" practice; no controlled combination data."
           }
         ],
         "contraindicatedCombinations": []
@@ -6127,7 +6127,7 @@
         "combinations": [
           {
             "partner": "Other Khavinson bioregulators (e.g., Vilon)",
-            "rationale": "sometimes combined in Russian immune protocols; no controlled combination data. `[citation needed]`"
+            "rationale": "sometimes combined in Russian immune protocols; no controlled combination data."
           }
         ],
         "contraindicatedCombinations": []
@@ -6326,7 +6326,7 @@
         ],
         "contraindicatedCombinations": [
           "Any medication associated with hyponatraemia — named in the pooled analysis as a reason to add sodium monitoring at week 1 and month 1.[¹] This is the interaction that matters most.",
-          "Other agents affecting fluid balance or plasma volume — no data in the sources here, and desmopressin is grouped in WADA's list alongside plasma expanders, which underlines that this is a fluid-compartment drug. `[citation needed]`"
+          "Other agents affecting fluid balance or plasma volume — no data in the sources here, and desmopressin is grouped in WADA's list alongside plasma expanders, which underlines that this is a fluid-compartment drug."
         ]
       },
       "sideEffects": {
@@ -6531,7 +6531,7 @@
         "combinations": [
           {
             "partner": "Selank, Semax, or other Russian nootropic peptides",
-            "rationale": "sometimes stacked on the rationale that DSIP and Selank/Semax are part of a coordinated Russian research tradition emphasizing peptide-based modulation of stress, sleep, and cognition. The published clinical evidence for these specific stacks is limited to Russian-language literature that is harder to verify against canonical primary sources. `[citation needed]`"
+            "rationale": "sometimes stacked on the rationale that DSIP and Selank/Semax are part of a coordinated Russian research tradition emphasizing peptide-based modulation of stress, sleep, and cognition. The published clinical evidence for these specific stacks is limited to Russian-language literature that is harder to verify against canonical primary sources."
           },
           {
             "partner": "Magnesium, glycine, or other \"sleep stack\" supplements",
@@ -6539,7 +6539,7 @@
           },
           {
             "partner": "CJC-1295 / Ipamorelin (or other GHS-axis peptides)",
-            "rationale": "sometimes co-administered with DSIP pre-bed on the rationale that GH peptides amplify the natural sleep-onset GH pulse and DSIP independently supports sleep onset and depth. The combination is theoretical; no published clinical data supports the specific stack. `[citation needed]`"
+            "rationale": "sometimes co-administered with DSIP pre-bed on the rationale that GH peptides amplify the natural sleep-onset GH pulse and DSIP independently supports sleep onset and depth. The combination is theoretical; no published clinical data supports the specific stack."
           },
           {
             "partner": "BPC-157 / TB-500",
@@ -11764,7 +11764,7 @@
           },
           {
             "partner": "BPC-157 / TB-500",
-            "rationale": "sometimes stacked during heavy training cycles for combined GH + tissue-recovery support `[citation needed]`"
+            "rationale": "sometimes stacked during heavy training cycles for combined GH + tissue-recovery support. No published evidence supports this combination."
           },
           {
             "partner": "GLP-1 / GIP / glucagon agonists during weight-loss cycles",
@@ -12535,7 +12535,7 @@
         "combinations": [
           {
             "partner": "BPC-157 (oral or injectable)",
-            "rationale": "sometimes stacked for combined gut-healing and anti-inflammatory effects. BPC-157 has its own oral-formulation literature for gut-specific applications; KPV's PepT1-mediated mechanism makes oral formulations particularly relevant for gut indications. The combination is mechanistically complementary on paper but the specific stack has not been studied in published trials. `[citation needed]`"
+            "rationale": "sometimes stacked for combined gut-healing and anti-inflammatory effects. BPC-157 has its own oral-formulation literature for gut-specific applications; KPV's PepT1-mediated mechanism makes oral formulations particularly relevant for gut indications. The combination is mechanistically complementary on paper but the specific stack has not been studied in published trials."
           },
           {
             "partner": "Tudca (tauroursodeoxycholic acid) or other gut-supportive supplements",
@@ -12543,7 +12543,7 @@
           },
           {
             "partner": "GLP-1 agonists during weight-loss cycles",
-            "rationale": "sometimes co-administered when GI side effects of GLP-1 agonists are particularly burdensome, on the rationale that KPV's anti-inflammatory activity may attenuate the GLP-1-induced GI inflammation/discomfort. The combination is research-community-attributed; no clinical evidence supports the specific stack. `[citation needed]`"
+            "rationale": "sometimes co-administered when GI side effects of GLP-1 agonists are particularly burdensome, on the rationale that KPV's anti-inflammatory activity may attenuate the GLP-1-induced GI inflammation/discomfort. The combination is research-community-attributed; no clinical evidence supports the specific stack."
           },
           {
             "partner": "LL-37, thymosin α1, or other immune-modulating peptides",
@@ -13558,7 +13558,7 @@
         "combinations": [
           {
             "partner": "Other Khavinson bioregulators",
-            "rationale": "sometimes combined in Russian practice; no controlled combination data. `[citation needed]`"
+            "rationale": "sometimes combined in Russian practice; no controlled combination data."
           }
         ],
         "contraindicatedCombinations": []
@@ -14055,11 +14055,11 @@
         "combinations": [
           {
             "partner": "Other cosmetic actives (hyaluronic acid, niacinamide, retinoids)",
-            "rationale": "Matrixyl is frequently combined with these in finished skincare. Interactions are at the formulation level. `[citation needed]`"
+            "rationale": "Matrixyl is frequently combined with these in finished skincare. Interactions are at the formulation level. No published evidence supports these combinations."
           },
           {
             "partner": "Other signal/copper peptides",
-            "rationale": "sometimes co-formulated; effects are not independently validated in combination. `[citation needed]`"
+            "rationale": "sometimes co-formulated; effects are not independently validated in combination."
           }
         ],
         "contraindicatedCombinations": []
@@ -16058,7 +16058,7 @@
           }
         ],
         "contraindicatedCombinations": [
-          "Growth hormone secretagogues and releasing factors — directly pharmacologically opposed. Combining a GH-raising compound with a GH-suppressing drug is self-defeating and entirely unstudied; no source in this entry addresses it. `[citation needed]`"
+          "Growth hormone secretagogues and releasing factors — directly pharmacologically opposed. Combining a GH-raising compound with a GH-suppressing drug is self-defeating and entirely unstudied; no source in this entry addresses it."
         ]
       },
       "sideEffects": {
@@ -16533,7 +16533,7 @@
         "combinations": [
           {
             "partner": "Other Khavinson bioregulators",
-            "rationale": "sometimes combined in Russian practice; no controlled combination data, and none specific to Ovagen. `[citation needed]`"
+            "rationale": "sometimes combined in Russian practice; no controlled combination data, and none specific to Ovagen."
           }
         ],
         "contraindicatedCombinations": []
@@ -16955,7 +16955,7 @@
         "combinations": [
           {
             "partner": "Other nootropic / neurotrophic peptides (e.g., Semax, Selank, Cerebrolysin)",
-            "rationale": "sometimes grouped in research-community cognitive protocols on a shared \"neurotrophic\" rationale. No combination data exist for P021. `[citation needed]`"
+            "rationale": "sometimes grouped in research-community cognitive protocols on a shared \"neurotrophic\" rationale. No combination data exist for P021."
           }
         ],
         "contraindicatedCombinations": []
@@ -17197,7 +17197,7 @@
         "combinations": [
           {
             "partner": "Other Khavinson bioregulators",
-            "rationale": "sometimes combined in Russian practice; no controlled combination data. `[citation needed]`"
+            "rationale": "sometimes combined in Russian practice; no controlled combination data."
           }
         ],
         "contraindicatedCombinations": []
@@ -17415,7 +17415,7 @@
         "combinations": [
           {
             "partner": "Other nootropic / mood-oriented peptides (e.g., Selank, Semax)",
-            "rationale": "sometimes grouped in research-community protocols on a shared neuro-modulatory rationale. No combination data exist for PE-22-28. `[citation needed]`"
+            "rationale": "sometimes grouped in research-community protocols on a shared neuro-modulatory rationale. No combination data exist for PE-22-28."
           }
         ],
         "contraindicatedCombinations": []
@@ -18225,7 +18225,7 @@
         "combinations": [
           {
             "partner": "Other Khavinson bioregulators",
-            "rationale": "sometimes combined in Russian practice; no controlled combination data. `[citation needed]`"
+            "rationale": "sometimes combined in Russian practice; no controlled combination data."
           }
         ],
         "contraindicatedCombinations": []
@@ -18715,7 +18715,7 @@
           },
           {
             "partner": "Amylin analogues (pramlintide, cagrilintide)",
-            "rationale": "grouped with PYY in general discussions of gut-hormone satiety signalling. No human data exist on PYY combined with an amylin analogue. See [pramlintide.md](./pramlintide.md), [cagrilintide.md](./cagrilintide.md). `[citation needed]`"
+            "rationale": "grouped with PYY in general discussions of gut-hormone satiety signalling. No human data exist on PYY combined with an amylin analogue. See [pramlintide.md](./pramlintide.md), [cagrilintide.md](./cagrilintide.md)."
           }
         ],
         "contraindicatedCombinations": []
@@ -18964,11 +18964,11 @@
           },
           {
             "partner": "BPC-157 / TB-500",
-            "rationale": "Tissue support during rapid body composition change `[citation needed]`"
+            "rationale": "Tissue support during rapid body composition change. No published evidence supports this combination."
           },
           {
             "partner": "Tesamorelin",
-            "rationale": "Visceral fat targeting alongside total-weight loss `[citation needed]`"
+            "rationale": "Visceral fat targeting alongside total-weight loss. No published evidence supports this combination."
           }
         ],
         "contraindicatedCombinations": []
@@ -19535,7 +19535,7 @@
         ],
         "maximumDose": "Wegovy label maximum weekly subcutaneous (weight reduction in adults only); STEP-1 trial maximum weekly (trial data); weekly subcutaneous (Ozempic T2D indication); daily oral (Rybelsus); daily oral (Ozempic tablets, US, since May 2026: the label's top dose, one tablet a day);[¹⁶] daily oral (Wegovy pill: the label's maintenance dose, one tablet a day).[⁸]",
         "notes": [
-          "Researcher communities sometimes report sub- starting doses (e.g.) and slower titration schedules to reduce gastrointestinal side effects. These are not validated in published trials and should be presented as observational, not recommended."
+          "Researcher communities sometimes report sub- starting doses (e.g.) and slower titration schedules to reduce gastrointestinal side effects. These are not validated in published trials and are reported here as observations, not recommendations."
         ]
       },
       "stacks": {
@@ -19546,11 +19546,11 @@
           },
           {
             "partner": "BPC-157 / TB-500",
-            "rationale": "Tissue support during rapid body composition change `[citation needed]`"
+            "rationale": "Tissue support during rapid body composition change. No published evidence supports this combination."
           },
           {
             "partner": "Tesamorelin",
-            "rationale": "Visceral fat targeting alongside total-weight loss `[citation needed]`"
+            "rationale": "Visceral fat targeting alongside total-weight loss. No published evidence supports this combination."
           }
         ],
         "contraindicatedCombinations": []
@@ -20908,11 +20908,11 @@
         "combinations": [
           {
             "partner": "Argireline (acetyl hexapeptide-8)",
-            "rationale": "the sibling peptide; sometimes combined with SNAP-8 in \"expression-line\" products on a shared mechanism rationale. `[citation needed]`"
+            "rationale": "the sibling peptide; sometimes combined with SNAP-8 in \"expression-line\" products on a shared mechanism rationale. No published evidence supports this combination."
           },
           {
             "partner": "Signal peptides (e.g., Matrixyl) + hydration actives",
-            "rationale": "commonly co-formulated in finished skincare; interactions are formulation-level. `[citation needed]`"
+            "rationale": "commonly co-formulated in finished skincare; interactions are formulation-level. No published evidence supports these combinations."
           }
         ],
         "contraindicatedCombinations": []
@@ -21891,7 +21891,7 @@
           },
           {
             "partner": "BPC-157 + GH peptide combination",
-            "rationale": "three-way stack reported for major injury recovery, particularly tendon/ligament; mechanism rationale is plausible but not validated in published trials `[citation needed]`"
+            "rationale": "three-way stack reported for major injury recovery, particularly tendon/ligament; mechanism rationale is plausible but not validated in published trials"
           }
         ],
         "contraindicatedCombinations": []
@@ -22471,7 +22471,7 @@
         "Market availability (as of this revision). The original Egrifta is discontinued. Egrifta SV is being phased out and replaced by Egrifta WR through a manufacturer patient-transition program; per Theratechnologies, the two products are not substitutable — they differ in concentration, injection volume, and reconstitution schedule. Egrifta SV also went through a supply disruption after a contract-manufacturing voluntary shutdown announced in early 2025; distribution resumed in February 2025 and the shortage has resolved.[⁵] Note that the \"WR\" designation refers to weekly reconstitution — dosing remains subcutaneously once daily, with one reconstituted vial supplying 7 consecutive daily doses. Tesamorelin is not a DEA controlled substance — it is prescription-only but does not carry the controlled-substance regulatory framework that applies to testosterone or HGH.",
         "Regulatory status (sport — WADA). Tesamorelin is explicitly listed in the WADA 2026 and 2027 Prohibited Lists[¹³] under Section S2.2.4 (Growth Hormone Releasing Factors), in the GHRH-analogues subsection alongside CJC-1293, CJC-1295, and sermorelin. Verbatim from the 2026 List (unchanged in 2027): *\"growth hormone-releasing hormone (GHRH) and its analogues (e.g. CJC-1293, CJC-1295, sermorelin and tesamorelin).\"*[⁶] Prohibited at all times in regulated sport.",
         "Common research interests. Tesamorelin is used in three meaningfully distinct contexts:",
-        "1. HIV-associated lipodystrophy (FDA-approved indication). Adult HIV-infected patients with antiretroviral-related visceral fat accumulation. This is the population in which the published RCT evidence was generated.[¹][²][³]\n2. Visceral fat / NAFLD reduction in non-HIV populations (off-label; expanding research-community use). Increasingly studied for general visceral adiposity and non-alcoholic fatty liver disease (now sometimes termed MASLD — metabolic dysfunction-associated steatotic liver disease) in non-HIV populations. The published NAFLD trial evidence is still in the HIV population — Stanley 2019 (Lancet HIV) randomized 61 people with HIV and NAFLD and reported a reduction in hepatic fat fraction over 12 months;[⁷] it was not a non-HIV study. The broader research-community pattern of tesamorelin use for general visceral-fat targeting predates — and is not covered by — that evidence base.[⁸][⁹]\n3. Adjunct to GLP-1 / GIP / glucagon agonist weight-loss cycles (off-label, research-community pattern). Some protocols add tesamorelin during incretin-driven weight-loss cycles specifically for visceral-fat targeting on top of the broader incretin-driven weight loss. Mechanistic rationale is plausible (visceral-fat-preferential lipolysis from tesamorelin + total-weight loss from incretin) but not validated in any published combination trial. A 2026 review discusses tesamorelin among agents studied for lean-body-mass preservation during incretin-driven weight loss,[¹⁰] and a 2026 clinical review contrasts tesamorelin with GLP-1 receptor agonists for excess visceral fat in people with HIV,[¹¹] but both are reviews/case-level reports rather than combination-trial evidence. `[citation needed]`",
+        "1. HIV-associated lipodystrophy (FDA-approved indication). Adult HIV-infected patients with antiretroviral-related visceral fat accumulation. This is the population in which the published RCT evidence was generated.[¹][²][³]\n2. Visceral fat / NAFLD reduction in non-HIV populations (off-label; expanding research-community use). Increasingly studied for general visceral adiposity and non-alcoholic fatty liver disease (now sometimes termed MASLD — metabolic dysfunction-associated steatotic liver disease) in non-HIV populations. The published NAFLD trial evidence is still in the HIV population — Stanley 2019 (Lancet HIV) randomized 61 people with HIV and NAFLD and reported a reduction in hepatic fat fraction over 12 months;[⁷] it was not a non-HIV study. The broader research-community pattern of tesamorelin use for general visceral-fat targeting predates — and is not covered by — that evidence base.[⁸][⁹]\n3. Adjunct to GLP-1 / GIP / glucagon agonist weight-loss cycles (off-label, research-community pattern). Some protocols add tesamorelin during incretin-driven weight-loss cycles specifically for visceral-fat targeting on top of the broader incretin-driven weight loss. Mechanistic rationale is plausible (visceral-fat-preferential lipolysis from tesamorelin + total-weight loss from incretin) but not validated in any published combination trial. A 2026 review discusses tesamorelin among agents studied for lean-body-mass preservation during incretin-driven weight loss,[¹⁰] and a 2026 clinical review contrasts tesamorelin with GLP-1 receptor agonists for excess visceral fat in people with HIV,[¹¹] but both are reviews/case-level reports rather than combination-trial evidence.",
         "Tesamorelin vs CJC-1295 vs Sermorelin — the GHRH-analog landscape. All three are GHRH analogs acting on the same pituitary GHRH receptor; the practical differences are pharmacokinetic and regulatory:\n- CJC-1295 no-DAC (Mod GRF 1-29): 29-amino-acid GHRH(1-29) fragment with stabilization substitutions; ~30 minute half-life; not FDA-approved; commonly used in research-community GH-secretagogue stacks; see [cjc-1295.md](./cjc-1295.md).\n- CJC-1295 with DAC: same 29-aa fragment plus albumin-binding linker; ~6–8 day half-life; ConjuChem Phase 2 program halted 2006; not FDA-approved; see [cjc-1295.md](./cjc-1295.md).\n- Sermorelin: 29-amino-acid GHRH(1-29) fragment without stabilization; ~10–20 minute half-life; was FDA-approved as Geref (Serono) for pediatric GH deficiency but withdrawn from US market in 2008; available via compounding pharmacies; will eventually be its own Vialwise entry.\n- Tesamorelin: 44-amino-acid GHRH(1-44) with N-terminal trans-3-hexenoic acid; ~26 minute half-life; FDA-approved (the only FDA-approved GHRH analog currently marketed in the US); this entry.",
         "The functional consequence of this landscape: tesamorelin is the only GHRH analog with FDA-approved indication and substantial RCT evidence — researchers selecting between GHRH analogs based on regulatory status and evidence quality will land on tesamorelin; researchers selecting on cost and research-community adoption will more often land on CJC-1295 no-DAC."
       ],
@@ -22513,7 +22513,7 @@
         "combinations": [
           {
             "partner": "GLP-1 / GIP / glucagon agonists during weight-loss cycles",
-            "rationale": "increasingly common research-community pattern. Mechanism rationale: incretin agonists drive total-body weight loss with appetite suppression; tesamorelin adds visceral-fat-preferential lipolysis. Combined effect targets both the global weight-loss endpoint and the visceral-fat-specific endpoint. The rationale is plausible but not validated in published trials. `[citation needed]`"
+            "rationale": "increasingly common research-community pattern. Mechanism rationale: incretin agonists drive total-body weight loss with appetite suppression; tesamorelin adds visceral-fat-preferential lipolysis. Combined effect targets both the global weight-loss endpoint and the visceral-fat-specific endpoint. The rationale is plausible but not validated in published trials."
           },
           {
             "partner": "CJC-1295 / Ipamorelin (or other GH-secretagogue stacks)",
@@ -23016,7 +23016,7 @@
         "combinations": [
           {
             "partner": "Other Khavinson bioregulators",
-            "rationale": "sometimes combined in Russian practice; no controlled combination data. `[citation needed]`"
+            "rationale": "sometimes combined in Russian practice; no controlled combination data."
           }
         ],
         "contraindicatedCombinations": []
@@ -24148,22 +24148,22 @@
         ],
         "maximumDose": "weekly subcutaneous (both Mounjaro and Zepbound adult indications); the dose has been the highest dose evaluated in adult pivotal trials.",
         "notes": [
-          "Researcher communities sometimes report sub- starting doses (e.g.) and slower titration schedules to reduce gastrointestinal side effects. These are not validated in published trials and should be presented as observational, not recommended."
+          "Researcher communities sometimes report sub- starting doses (e.g.) and slower titration schedules to reduce gastrointestinal side effects. These are not validated in published trials and are reported here as observations, not recommendations."
         ]
       },
       "stacks": {
         "combinations": [
           {
             "partner": "CJC-1295 / Ipamorelin",
-            "rationale": "GH preservation during rapid weight loss; aimed at mitigating lean mass loss observed across the GLP-1 class. Body-composition substudies of tirzepatide (SURMOUNT and SURPASS body comp analyses) have reported lean mass loss as a proportion of total weight loss in the same range observed across the incretin class (~30–40%), with greater absolute lean mass loss because total weight loss is greater. `[citation needed — SURMOUNT-1 body composition substudy or equivalent]`. The downstream claim that GH peptides meaningfully preserve lean mass during incretin therapy still needs a primary-source citation."
+            "rationale": "GH preservation during rapid weight loss; aimed at mitigating lean mass loss observed across the GLP-1 class. No published evidence shows that GH peptides preserve lean mass during incretin therapy, and none supports this combination."
           },
           {
             "partner": "BPC-157 / TB-500",
-            "rationale": "Tissue support during rapid body composition change `[citation needed]`"
+            "rationale": "Tissue support during rapid body composition change. No published evidence supports this combination."
           },
           {
             "partner": "Tesamorelin",
-            "rationale": "Visceral fat targeting alongside total-weight loss `[citation needed]`"
+            "rationale": "Visceral fat targeting alongside total-weight loss. No published evidence supports this combination."
           }
         ],
         "contraindicatedCombinations": []
@@ -24682,11 +24682,11 @@
         "combinations": [
           {
             "partner": "Pinealon",
-            "rationale": "combined with Vesugen in the human study;[¹] a common Russian \"geroprotector\" pairing. No controlled combination data. `[citation needed]`"
+            "rationale": "combined with Vesugen in the human study;[¹] a common Russian \"geroprotector\" pairing. No controlled combination data."
           },
           {
             "partner": "Other Khavinson bioregulators",
-            "rationale": "sometimes combined in Russian practice. `[citation needed]`"
+            "rationale": "sometimes combined in Russian practice. No published evidence supports these combinations."
           }
         ],
         "contraindicatedCombinations": []
@@ -24908,7 +24908,7 @@
         "combinations": [
           {
             "partner": "Other Khavinson bioregulators",
-            "rationale": "sometimes combined in Russian practice; no controlled combination data. `[citation needed]`"
+            "rationale": "sometimes combined in Russian practice; no controlled combination data."
           }
         ],
         "contraindicatedCombinations": []
@@ -25131,7 +25131,7 @@
           },
           {
             "partner": "Research-community immune protocols",
-            "rationale": "VIP is sometimes discussed alongside other anti-inflammatory peptides; no controlled combination data exist. `[citation needed]`"
+            "rationale": "VIP is sometimes discussed alongside other anti-inflammatory peptides; no controlled combination data exist."
           }
         ],
         "contraindicatedCombinations": []
