@@ -4652,7 +4652,7 @@ once**. 405 appear exactly once and are marked ⚠️.
 | token | n | example |
 |---|---|---|
 | `GLP-1` | 327 | GLP-1 + amylin receptor dual agonist |
-| `BPC-157` | 216 | BPC-157 / TB-500 |
+| `BPC-157` | 212 | BPC-157 / TB-500 |
 | `IGF-1` | 208 | Growth-hormone secretagogues / IGF-1 compounds |
 | `TB-500` | 202 | BPC-157 / TB-500 |
 | `CJC-1295` | 188 | below) - Adjunct to GH-secretagogue stacks (CJC-1295 / Ipamorelin) on the rationale that AOD-9604 |
@@ -4701,11 +4701,11 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `ERR` | 34 | ary alongside: - SLU-PP-332 — small-molecule ERR (estrogen-related receptor) agonist exercise |
 | `AAS` | 31 | om the GHRP-class compounds (S2.2.4) and the AAS class (S1).[³][⁵] Recent doping context: AIC |
 | `KTTKS` | 31 | pal-KTTKS |
+| `ARA-290` | 30 | ARA-290 |
 | `BLA` | 30 | FDA-approved — Trulicity (BLA 125469, Eli Lilly), approved September 18, 2 |
 | `PNC-27` | 30 | PNC-27 |
 | `SS-31` | 30 | NAD+ / Glutathione / SS-31 |
 | `SERM` | 29 | Selective estrogen receptor modulator (SERM) |
-| `ARA-290` | 28 | ARA-290 |
 | `GHS-` | 28 | mpounds (SLU-PP-332, MOTS-c, AICAR), not the GHS-axis or HPG-axis peptide clusters. |
 | `HIV-` | 27 | fat targeting. Tesamorelin (FDA-approved for HIV-associated lipodystrophy) drives visceral fat |
 | `SNAP-8` | 27 | SNAP-8 |
@@ -4725,6 +4725,7 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `TGF-` | 19 | igand trap" that binds myostatin and related TGF-β-superfamily ligands (activins, GDF-11) befo |
 | `AMPK-` | 18 | ications, or impaired glucose tolerance, the AMPK-activation pathway may produce unexpected hyp |
 | `EDL` | 18 | EDL peptide |
+| `EPO` | 18 | Non-erythropoietic, tissue-protective EPO peptide |
 | `FDA-2025-N-6895` | 18 | oc. 2026-07361, published 04/16/2026, Docket FDA-2025-N-6895 (comment docket closes 07/22/2026) — federal |
 | `GHRP-` | 18 | 1516" — a different WADA subsection from the GHRP-class compounds (S2.2.4) and the AAS class (S |
 | `GLP-1-` | 18 | ply chains; research-peptide and unregulated GLP-1-cluster supply chains have begun making cagri |
@@ -4743,7 +4744,6 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `IBD` | 16 | basis for the oral route's effectiveness in IBD models. Some research-community use of injec |
 | `SPL` | 16 | IC is adults-only. Verified against DailyMed SPL 09beda19-56d6-4a56-afdc-9a77b70b2ef3 version |
 | `CMP` | 15 | tarting — fasting glucose, HbA1c, uric acid, CMP, CBC, LFTs. Baseline uric acid is particular |
-| `EPO` | 15 | Non-erythropoietic, tissue-protective EPO peptide |
 | `FORZINITY` | 15 | FORZINITY |
 | `KLAKLAK` | 15 | CKGGRAKDC-GG-D(KLAKLAK)2 |
 | `NH2` | 15 | D-Ala-D-β-naphthyl-alanine-Ala-Trp-D-Phe-Lys-NH2. The compound was developed at Tulane Univer |
