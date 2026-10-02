@@ -4655,21 +4655,21 @@ once**. 406 appear exactly once and are marked ⚠️.
 | `BPC-157` | 212 | BPC-157 / TB-500 |
 | `IGF-1` | 208 | Growth-hormone secretagogues / IGF-1 compounds |
 | `TB-500` | 202 | BPC-157 / TB-500 |
-| `CJC-1295` | 189 | below) - Adjunct to GH-secretagogue stacks (CJC-1295 / Ipamorelin) on the rationale that AOD-9604 |
+| `CJC-1295` | 190 | below) - Adjunct to GH-secretagogue stacks (CJC-1295 / Ipamorelin) on the rationale that AOD-9604 |
 | `GH-` | 144 | -regeneration data — see below) - Adjunct to GH-secretagogue stacks (CJC-1295 / Ipamorelin) o |
 | `KPV` | 144 | since taken place (that agenda was BPC-157, KPV, TB-500 and MOTS-c on July 23; Emideltide/DS |
 | `PDF` | 133 | ibited List 2027 (effective 1 January 2027). PDF: wada-ama.org/sites/default/files/2026-09/20 |
 | `NAD` | 128 | protocols Epitalon is sometimes stacked with NAD+ precursors, rapamycin, metformin, or other |
-| `GHRH` | 118 | Pre-mixed GH-secretagogue blend (GHRH analog + GHRP) |
+| `GHRH` | 116 | Pre-mixed GH-secretagogue blend (GHRH analog + GHRP) |
 | `GHRP-2` | 110 | de (GHRP) — most often Ipamorelin, sometimes GHRP-2 or GHRP-6 — on the rationale that GHRH analo |
 | `GHRP-6` | 103 | — most often Ipamorelin, sometimes GHRP-2 or GHRP-6 — on the rationale that GHRH analogs and GHR |
 | `TRT` | 103 | Testosterone replacement therapy (TRT) |
 | `MOTS-` | 96 | t is exercise-mimetic compounds (SLU-PP-332, MOTS-c, AICAR), not the GHS-axis or HPG-axis pepti |
 | `DAC` | 88 | des, CJC-1295 (a GHRH analog, usually the no-DAC form) and ipamorelin (a GHRP), each promptin |
-| `GHRP` | 87 | e-mixed GH-secretagogue blend (GHRH analog + GHRP) |
 | `PCAC` | 87 | on from that meeting as of 2026-09-03, and a PCAC recommendation is advisory and non-binding. |
 | `MK-677` | 86 | aming) demonstrated by Locke 1995 in rats. - MK-677 / Ibutamoren — non-peptide oral small-molecu |
 | `AOD-9604` | 85 | cleoside analog) but converging mechanism. - AOD-9604 — synthetic lipolytic fragment of GH; differ |
+| `GHRP` | 84 | e-mixed GH-secretagogue blend (GHRH analog + GHRP) |
 | `GSH` | 82 | ity, decreased TNF-β, increased glutathione (GSH) and ascorbic acid concentrations in healing |
 | `AICAR` | 80 | ily, the metabolic-modulator small molecules AICAR / 5-amino-1MQ) with substantially better-cha |
 | `HGH` | 71 | HGH (Human Growth Hormone) / Somatropin |
