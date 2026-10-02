@@ -11652,12 +11652,12 @@
       "researchAreas": [
         "growth-hormone"
       ],
-      "status": "WADA-banned in regulated sport — ipamorelin is explicitly named in the WADA 2026 and 2027 Prohibited Lists[⁸] under S2.2.4 (Growth Hormone Releasing Factors → growth hormone secretagogues / GHS), alongside anamorelin, capromorelin, ibutamoren (MK-677), lenomorelin (ghrelin), and macimorelin, prohibited at all times. Not DEA-scheduled. Not FDA approved for any indication. Novo Nordisk discovered ipamorelin (1998, development code NNC 26-0161); the compound was later licensed, and a Helsinn Therapeutics-sponsored Phase 2 postoperative-ileus trial (NCT00672074) completed December 2009 and published 2014 did not beat placebo, ending development. Currently sold as a research peptide. On the FDA 503A Category 2 bulk-substances list since the September 2023 action; exact current-year 503A/503B sub-status.",
+      "status": "WADA-banned in regulated sport — ipamorelin is explicitly named in the WADA 2026 and 2027 Prohibited Lists[⁸] under S2.2.4 (Growth Hormone Releasing Factors → growth hormone secretagogues / GHS), alongside anamorelin, capromorelin, ibutamoren (MK-677), lenomorelin (ghrelin), and macimorelin, prohibited at all times. Not DEA-scheduled. Not FDA approved for any indication. Novo Nordisk discovered ipamorelin (1998, development code NNC 26-0161); the compound was later licensed, and Helsinn Therapeutics sponsored two placebo-controlled Phase 2 postoperative-ileus trials: the first (NCT00672074, completed December 2009, published 2014) did not beat placebo, and the second, larger one (NCT01280344, completed May 2014) has no posted or published results. No later interventional trial is registered. Currently sold as a research peptide. On the FDA 503A Category 2 bulk-substances list since the September 2023 action; exact current-year 503A/503B sub-status.",
       "recommendedTimeOfDay": "bedtime",
-      "lastUpdated": "2026-09-03",
+      "lastUpdated": "2026-10-01",
       "beginner": {
-        "summary": "Ipamorelin is a growth hormone releaser known as one of the more selective options in its class: it triggers a short pulse of the body's own growth hormone by acting on the ghrelin (hunger hormone) receptor, with little effect on cortisol or prolactin, the side effects that older growth hormone releasers tend to cause. It's often paired with CJC-1295, a different type of growth hormone releaser, for a stronger combined effect. It's not FDA-approved (the company that developed it ended its trials after it failed to beat a placebo for an unrelated surgery-recovery use), there are no brand-name products, and it's banned in drug-tested sport.",
-        "researchFindings": "Ipamorelin has been studied as a selective way to trigger growth-hormone release. Studies showed it reliably produces a short pulse of growth hormone with little effect on cortisol or prolactin — the main reason it's preferred over older peptides in its class. It was tested in humans for gut-motility recovery after surgery but did not outperform placebo, so development stopped. The body-composition, sleep, and recovery uses people pursue come from its pharmacology plus user reports, not confirmed clinical trials.",
+        "summary": "Ipamorelin is a growth hormone releaser known as one of the more selective options in its class: it triggers a short pulse of the body's own growth hormone by acting on the ghrelin (hunger hormone) receptor. In animal studies it did this without raising cortisol, a stress hormone that older growth hormone releasers push up; that difference hasn't been clearly shown in people. It's often paired with CJC-1295, a different type of growth hormone releaser, for a stronger combined effect. It's not FDA-approved: its only trials in patients were for an unrelated surgery-recovery use, where the first did not beat a placebo and the second never reported results. There are no brand-name products, and it's banned in drug-tested sport.",
+        "researchFindings": "Ipamorelin has been studied as a selective way to trigger growth-hormone release. A small study in healthy men found it produces a single short pulse of growth hormone that peaks within about an hour. In animal studies it did not raise cortisol the way older peptides in its class do, which is the main reason it's preferred over them; that difference hasn't been clearly shown in people. It was tested in people recovering from bowel surgery, to see whether it sped up gut recovery: the first trial found no benefit over placebo, and a second, larger trial finished without reporting results. The body-composition, sleep, and recovery uses people pursue come from its pharmacology plus user reports, not confirmed clinical trials.",
         "evidenceLevel": "Clinical research",
         "keyTerms": [
           {
@@ -11694,7 +11694,7 @@
         },
         {
           "label": "Half-life",
-          "value": "~2 hours[¹]"
+          "value": "~2 hours (measured after intravenous dosing in healthy men)[⁹]"
         },
         {
           "label": "Route",
@@ -11702,13 +11702,13 @@
         },
         {
           "label": "Onset of action",
-          "value": "Acute GH pulse within ~30 minutes of dose; subjective effects (sleep changes, body composition, recovery) typically reported within 1–3 weeks of consistent use"
+          "value": "GH pulse peaks about 40 minutes after dosing (intravenous, healthy men)[⁹]; subjective effects (sleep changes, body composition, recovery) typically reported within 1–3 weeks of consistent use"
         }
       ],
       "about": [
         "Ipamorelin is a pentapeptide (five-amino-acid) growth hormone-releasing peptide (GHRP) discovered and originally developed by Novo Nordisk under the development code NNC 26-0161.[¹] The molecule binds to the ghrelin receptor (also called GHS-R1a — the growth hormone secretagogue receptor type 1a) at the pituitary, stimulating growth hormone release through a receptor pathway distinct from that used by growth-hormone-releasing hormone (GHRH). This receptor-pathway distinction is what underlies Ipamorelin's synergy when stacked with GHRH analogs like CJC-1295: GHRH analogs and GHRPs activate different receptors that both lead to GH release, and the combined activation produces greater GH output than either alone.",
-        "The selectivity advantage. Ipamorelin's defining pharmacological property — and the reason it is preferred over older GHRPs in research-community use — is its selective action on GHS-R1a without significant stimulation of cortisol or prolactin release. Earlier-generation GHRPs (GHRP-2, GHRP-6, hexarelin) all produce dose-dependent elevations in cortisol and prolactin alongside their GH-releasing effects, with potential downstream consequences (cortisol → catabolic state, prolactin → various endocrine effects).[¹][²] Ipamorelin, in contrast, was specifically designed and selected during the Novo Nordisk discovery program for its lack of cortisol and prolactin stimulation at GH-stimulating doses. This is the single most important reason researchers choose Ipamorelin over older GHRPs.",
-        "Clinical development history. Novo Nordisk discovered Ipamorelin in 1998 (development code NNC 26-0161) and advanced it through early clinical pharmacology work. The compound was later licensed, and the most prominent Phase 2 program — targeting postoperative ileus (gastrointestinal motility recovery after surgery, where gut prokinetic effects of GHS-R1a agonism were the rationale) — was sponsored by Helsinn Therapeutics (U.S.), Inc. That trial (NCT00672074) completed December 2009 and was published in 2014;[⁴] it did not demonstrate sufficient efficacy over placebo (primary endpoint p=0.15, not significant), and development was not pursued further.",
+        "The selectivity advantage. Ipamorelin's defining pharmacological property — and the reason it is preferred over older GHRPs in research-community use — is that, in animal studies, it released growth hormone without the cortisol rise those older peptides cause. In people, earlier-generation GHRPs (GHRP-2, GHRP-6, hexarelin) raise cortisol, and more variably prolactin, alongside their GH-releasing effects, with potential downstream consequences (cortisol → catabolic state, prolactin → various endocrine effects).[²][⁶] That evidence comes from the discovery paper's swine studies: GHRP-6 and GHRP-2 raised ACTH and cortisol, while ipamorelin did not, even at doses more than 200-fold above its half-maximal GH dose. The authors called that result \"very surprising\", so it was a finding of the chemistry program rather than its design goal. Prolactin did not change with any of the peptides tested in that study, so it shows no prolactin difference.[¹] In people, a 2026 review reports no significant effect on other pituitary or adrenal hormones in an early healthy-volunteer study,[⁶] but that study's published summary reports growth hormone only,[⁹] so the human side of the comparison is not well documented. This selectivity is still the main reason researchers choose Ipamorelin over older GHRPs.",
+        "Clinical development history. Novo Nordisk discovered Ipamorelin in 1998 (development code NNC 26-0161). Early human pharmacology work includes a dose-escalation study in healthy male volunteers that characterized its pharmacokinetics and GH response.[⁹] The compound was later licensed, and its Phase 2 program — targeting postoperative ileus (gastrointestinal motility recovery after surgery, where gut prokinetic effects of GHS-R1a agonism were the rationale) — was sponsored by Helsinn Therapeutics (U.S.), Inc. The first trial (NCT00672074) completed December 2009 and was published in 2014;[⁴] it did not demonstrate efficacy over placebo (primary endpoint p=0.15, not significant). Helsinn then ran a second, larger placebo-controlled, dose-finding Phase 2 trial (NCT01280344), which started in April 2011, after the first had ended, enrolled 320 patients and completed in May 2014. It has no results posted on ClinicalTrials.gov, and no publication of it has been found.[¹⁰] No later interventional trial of ipamorelin is registered.",
         "Current research-community use. Despite the absence of FDA approval, Ipamorelin is widely used in the research-peptide community for:\n- Body composition optimization (lean mass, fat mass), typically as part of a stack with CJC-1295 no-DAC\n- Sleep quality (particularly when dosed at bedtime, amplifying the natural sleep-time GH pulse)\n- Recovery from training\n- General \"anti-aging\" / IGF-1 elevation contexts",
         "These uses are based on extrapolation from clinical pharmacology data plus accumulated researcher experience. Ipamorelin has no FDA-approved indication.",
         "Stacking with CJC-1295. Ipamorelin is most commonly stacked with CJC-1295 — usually the no-DAC formulation (Mod GRF 1-29) — on the rationale that GHRH analog (CJC) + GHRP (Ipamorelin) act on different receptors and produce synergistic GH release. The CJC-1295 no-DAC + Ipamorelin pairing is one of the most common research-peptide stacks; see the CJC-1295 entry for the GHRH-side detail and the CJC-1295 / Ipamorelin Blend entry for the combined product."
@@ -11774,7 +11774,7 @@
           },
           {
             "partner": "Other GHRPs (GHRP-2, GHRP-6, hexarelin)",
-            "rationale": "generally not stacked with Ipamorelin; researchers choose Ipamorelin specifically to avoid the cortisol/prolactin elevation of these older GHRPs."
+            "rationale": "generally not stacked with Ipamorelin; researchers choose Ipamorelin specifically to avoid the cortisol and prolactin rises these older GHRPs cause (Ipamorelin's own advantage is shown in animal studies, for cortisol only)."
           },
           {
             "partner": "BPC-157 / TB-500",
@@ -11794,8 +11794,8 @@
           "Headache — uncommon",
           "Mild water retention — particularly during the first 1–2 weeks of a cycle",
           "Sleep changes — usually improved deep sleep when dosed at bedtime; this is one of the most-reported subjective benefits",
-          "Cortisol elevation — Ipamorelin's defining selectivity is the absence of significant cortisol stimulation at GH-effective doses, distinguishing it from GHRP-2, GHRP-6, and hexarelin.[¹]",
-          "Prolactin elevation — same selectivity story.",
+          "Cortisol elevation — not typically reported. In the discovery paper's animal studies it did not occur, even at very high doses, while GHRP-2 and GHRP-6 raised cortisol.[¹] In people it is not well documented: a 2026 review reports no effect in an early human study,[⁶] but that study's published summary reports growth hormone only.[⁹]",
+          "Prolactin elevation — not typically reported. Older GHRPs raise it variably in people.[⁶] The discovery paper's animal study found no prolactin change with any peptide tested, so it shows no difference;[¹] human data for ipamorelin are as thin as for cortisol.",
           "Same theoretical concerns as CJC-1295 — see the Side Effects section of the CJC-1295 entry for: insulin resistance / impaired glucose tolerance, IGF-1-mediated theoretical cancer concerns, theoretical cardiovascular concerns from sustained GH/IGF-1 elevation. These are class-level concerns for any GH-elevating intervention; specific data on long-term Ipamorelin use is essentially absent."
         ],
         "serious": []
@@ -11806,7 +11806,7 @@
         "Pregnancy and lactation: no data; default to contraindicated",
         "Pediatric use: no data — should not be used in researchers under 18; GH-elevating interventions in children are heavily regulated and require specialist medical supervision",
         "Concurrent use of exogenous GH — combined GH elevation is unpredictable; not studied",
-        "Concurrent use of another GHRP — receptor saturation + reintroduces cortisol/prolactin issues that Ipamorelin was selected to avoid",
+        "Concurrent use of another GHRP — receptor saturation + reintroduces the cortisol and prolactin effects of older GHRPs, which researchers describe as the reason they choose Ipamorelin",
         "Hyperinsulinism caution",
         "Regulatory note (US): Ipamorelin was placed on the FDA 503A Category 2 bulk-substances list in the September 2023 action (the same action that caught BPC-157), which halts legal 503A compounding pending review. The exact current-year 503A/503B sub-status."
       ],
@@ -11866,13 +11866,27 @@
           "index": 7,
           "reference": "Mayfield CK, Bolia IK, Feingold CL, Lin EH, Liu JN, Rick Hatch GF, Gamradt SC, Weber AE. (2026). Injectable Peptide Therapy: A Primer for Orthopaedic and Sports Medicine Physicians. The American Journal of Sports Medicine, 54(1):223–229.",
           "primaryUrl": "https://doi.org/10.1177/03635465251357593",
-          "identifierLabel": "PMID 41476424 · NCT00672074",
+          "identifierLabel": "PMID 41476424",
           "verified": true
         },
         {
           "index": 8,
           "reference": "World Anti-Doping Agency. World Anti-Doping Code International Standard Prohibited List 2027 (effective 1 January 2027). PDF: wada-ama.org/sites/default/files/2026-09/2027list_en_final_clean_26_august_2026_2.pdf. Ipamorelin is named under S2.2.4 (growth hormone secretagogues): \"ipamorelin\".",
           "primaryUrl": "https://www.wada-ama.org/sites/default/files/2026-09/2027list_en_final_clean_26_august_2026_2.pdf",
+          "verified": true
+        },
+        {
+          "index": 9,
+          "reference": "Gobburu JV, Agersø H, Jusko WJ, Ynddal L. (1999). Pharmacokinetic-pharmacodynamic modeling of ipamorelin, a growth hormone releasing peptide, in human volunteers. Pharmaceutical Research, 16(9):1412–1416.",
+          "primaryUrl": "https://doi.org/10.1023/a:1018955126402",
+          "identifierLabel": "PMID 10496658",
+          "verified": true
+        },
+        {
+          "index": 10,
+          "reference": "Helsinn Therapeutics (U.S.), Inc. Phase II Double-Blind Placebo-Controlled Dose Finding Study to Evaluate Safety/Efficacy of Ipamorelin Compared to Placebo for Recovery of Gastrointestinal Function in Patients Following Small or Large Bowel Resection w/Primary Anastomosis. ClinicalTrials.gov: NCT01280344. Phase 2 (sponsor study ID HT-IPAM-202); randomized, quadruple-masked, placebo-controlled, three ipamorelin arms. Status: COMPLETED; start 2011-04; primary completion 2013-06; completion 2014-05; enrollment 320 (actual). No results posted and no linked publication; a PubMed search for the registry ID returns 0.",
+          "primaryUrl": "https://clinicaltrials.gov/study/NCT01280344",
+          "identifierLabel": "NCT01280344",
           "verified": true
         }
       ],

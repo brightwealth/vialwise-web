@@ -93,7 +93,7 @@ info  hgh: no [VERIFY] markers at all
 info  humanin: no [VERIFY] markers at all
 info  igf-1-lr3: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)
 info  ⚠️ REPORT (not blocking): ipamorelin has 1 PARAMETERISED [VERIFY ...] marker(s) on an LV-1 source field (frontmatter status:). These do NOT block today by Andrew's 2026-09-08 decision — an unresolved marker is not a false claim. They WILL block once the backlog is resolved.
-info  ipamorelin: 4 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)
+info  ipamorelin: 3 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)
 info  kisspeptin: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)
 info  klow: 5 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)
 info  kpv: 17 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)
@@ -1144,8 +1144,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "WADA-banned in regulated sport — ipamorelin is explicitly named in the WADA 2026 and 2027 Prohibited Lists[⁸] under S2.2.4 (Growth Hormone Releasing Factors → growth hormone secretagogues / GHS), alongside anamorelin, capromorelin, ibutamoren (MK-677), lenomorelin (ghrelin), and macimorelin, prohibited at all times. Not DEA-scheduled. Not FDA approved for any indication. Novo Nordisk discovered ip"
 
 **`ipamorelin.stacks.combinations[2].rationale`**
-- before: "generally NOT stacked with Ipamorelin; researchers choose Ipamorelin specifically to AVOID the cortisol/prolactin elevation of these older GHRPs."
-- after:  "generally not stacked with Ipamorelin; researchers choose Ipamorelin specifically to avoid the cortisol/prolactin elevation of these older GHRPs."
+- before: "generally NOT stacked with Ipamorelin; researchers choose Ipamorelin specifically to avoid the cortisol and prolactin rises these older GHRPs cause (Ipamorelin's own advantage is shown in animal studies, for cortisol only)."
+- after:  "generally not stacked with Ipamorelin; researchers choose Ipamorelin specifically to avoid the cortisol and prolactin rises these older GHRPs cause (Ipamorelin's own advantage is shown in animal studies, for cortisol only)."
 
 **`kisspeptin.status`**
 - before: "NOT FDA-approved for any indication. Kisspeptin (in both kisspeptin-54 and kisspeptin-10 forms) is investigational only — no national regulator has approved any kisspeptin formulation for any clinical indication. The most clinically-advanced kisspeptin program is the Imperial College London / Dhillo group kisspeptin-54 IVF-trigger Phase II program — the Abbara 2015 *J Clin Endocrinol Metab* phase "
@@ -4642,12 +4642,12 @@ info  vip: no [VERIFY] markers at all
 - after:  "Over 40 weeks at three ascending dose levels, participants"
 
 
-## ALL-CAPS tokens kept as names/acronyms — 984 distinct
+## ALL-CAPS tokens kept as names/acronyms — 986 distinct
 
 These were left capitalised because a lone all-caps token is far more often
 a name or acronym than shouted emphasis (see calmTone). Frequency is the
 triage signal: **a genuine acronym recurs; a mangled word usually appears
-once**. 405 appear exactly once and are marked ⚠️.
+once**. 406 appear exactly once and are marked ⚠️.
 
 | token | n | example |
 |---|---|---|
@@ -4656,14 +4656,14 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `IGF-1` | 208 | Growth-hormone secretagogues / IGF-1 compounds |
 | `TB-500` | 202 | BPC-157 / TB-500 |
 | `CJC-1295` | 188 | below) - Adjunct to GH-secretagogue stacks (CJC-1295 / Ipamorelin) on the rationale that AOD-9604 |
-| `GH-` | 146 | -regeneration data — see below) - Adjunct to GH-secretagogue stacks (CJC-1295 / Ipamorelin) o |
+| `GH-` | 144 | -regeneration data — see below) - Adjunct to GH-secretagogue stacks (CJC-1295 / Ipamorelin) o |
 | `KPV` | 144 | since taken place (that agenda was BPC-157, KPV, TB-500 and MOTS-c on July 23; Emideltide/DS |
 | `PDF` | 133 | ibited List 2027 (effective 1 January 2027). PDF: wada-ama.org/sites/default/files/2026-09/20 |
 | `NAD` | 128 | protocols Epitalon is sometimes stacked with NAD+ precursors, rapamycin, metformin, or other |
 | `GHRH` | 119 | Pre-mixed GH-secretagogue blend (GHRH analog + GHRP) |
-| `GHRP-2` | 109 | de (GHRP) — most often Ipamorelin, sometimes GHRP-2 or GHRP-6 — on the rationale that GHRH analo |
+| `GHRP-2` | 110 | de (GHRP) — most often Ipamorelin, sometimes GHRP-2 or GHRP-6 — on the rationale that GHRH analo |
+| `GHRP-6` | 103 | — most often Ipamorelin, sometimes GHRP-2 or GHRP-6 — on the rationale that GHRH analogs and GHR |
 | `TRT` | 103 | Testosterone replacement therapy (TRT) |
-| `GHRP-6` | 102 | — most often Ipamorelin, sometimes GHRP-2 or GHRP-6 — on the rationale that GHRH analogs and GHR |
 | `MOTS-` | 96 | t is exercise-mimetic compounds (SLU-PP-332, MOTS-c, AICAR), not the GHS-axis or HPG-axis pepti |
 | `GHRP` | 89 | e-mixed GH-secretagogue blend (GHRH analog + GHRP) |
 | `DAC` | 88 | des, CJC-1295 (a GHRH analog, usually the no-DAC form) and ipamorelin (a GHRP), each promptin |
@@ -4713,8 +4713,8 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `VIP` | 25 | VIP |
 | `IGF-1-` | 24 | ortions responsible for hGH's hyperglycemic, IGF-1-elevating, and growth-promoting effects. In r |
 | `PYY3-36` | 24 | PYY3-36 |
+| `ACTH` | 23 | oth of which act on the adrenal axis, and an ACTH(4-10) fragment of the Semax family does not. |
 | `MC4R` | 23 | ction with melanocortin receptors (MC1R/MC3R/MC4R/MC5R) given the ACTH-fragment origin. The BD |
-| `ACTH` | 22 | oth of which act on the adrenal axis, and an ACTH(4-10) fragment of the Semax family does not. |
 | `CBC` | 22 | ne, eGFR), urinalysis with urine microscopy, CBC, fasting glucose, lipid panel. Baseline rena |
 | `INN` | 22 | AMPK activator. NOT a peptide. MW 258.23 Da. INN: acadesine. Phosphorylated intracellularly t |
 | `COVID-19` | 21 | vant to viral infection (the paper discusses COVID-19 context).[³] A 2022 Western-collaborative pa |
@@ -4780,13 +4780,13 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `GW1516` | 11 | Narkar paper found that the PPARβ/δ agonist GW1516 synergized with exercise training to further |
 | `HDM-2` | 11 | aboratory studies, it binds a protein called HDM-2 found on cancer-cell membranes and pokes hol |
 | `JAMA` | 11 | h Osteoporosis: A Randomized Clinical Trial. JAMA, 316(7):722–733. |
+| `COMPLETED` | 10 | s (NCT00755638; NCT00952887) are recorded as COMPLETED. |
 | `DPP-4` | 10 | ative GLP-1 is degraded within ~2 minutes by DPP-4; the GLP-1 analog portion of dulaglutide is |
 | `EMD` | 10 | 021149 [recombinant choriogonadotropin alfa, EMD Serono, approved 2000]) — Drugs@FDA classifi |
 | `GHRP-5` | 10 | morelin (hexarelin), GHRP-1, GHRP-3, GHRP-4, GHRP-5, and GHRP-6.[⁷][⁸] |
 | `IBS-C` | 10 | irritable bowel syndrome with constipation (IBS-C) in adults and pediatric patients 7 years of |
 | `REIMAGINE` | 10 | Cagrilintide monotherapy arm in REIMAGINE 2 (Phase 3, type 2 diabetes). REIMAGINE 2 (B |
 | `TRAVERSE` | 10 | showed benefits on several measures, and the TRAVERSE trial found no increase in major cardiac eve |
-| `COMPLETED` | 9 | s (NCT00755638; NCT00952887) are recorded as COMPLETED. |
 | `DNA-` | 9 | idence is almost entirely preclinical (cell, DNA-binding, and animal work) plus small Russian |
 | `EDR` | 9 | EDR |
 | `FOXO4` | 9 | rupting an interaction between two proteins (FOXO4 and p53) so the senescent cell self-destruct |
@@ -4883,6 +4883,7 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `LUM-201` | 5 | g, started 2026-05-20; n=150; randomized 2:1 LUM-201:placebo) in treatment-naive prepubertal chil |
 | `MEHFPGPAG-NH` | 5 | ct. The most common vendor description is Ac-MEHFPGPAG-NH₂: the Semax backbone (Met-Glu-His-Phe-Pro-Gl |
 | `MPOWERED` | 5 | ntry criteria before reading its result. The MPOWERED trial only randomized patients who were alre |
+| `NCT01280344` | 5 | ot beat placebo, and the second, larger one (NCT01280344, completed May 2014) has no posted or publis |
 | `NCT06542874` | 5 | 2025) headline results from a Phase 2 trial (NCT06542874) in 448 adults with type 2 diabetes inadequa |
 | `NCT07220642` | 5 | ow in Phase 3 — the dedicated RENEW program (NCT07220642, NCT07220759) began November 2025.[⁷] Cagril |
 | `NDI` | 5 | onetheless remains a New Dietary Ingredient (NDI), so each marketer must file an NDI notifica |
@@ -4940,7 +4941,6 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `MNA` | 4 | otinamide, producing 1-methylnicotinamide (1-MNA).[²] NNMT was originally characterized as a |
 | `MRI` | 4 | , by DXA) and thigh muscle volume (~5.1%, by MRI) at day 29, plus biomarker changes suggestin |
 | `NASH` | 4 | ease including nonalcoholic steatohepatitis (NASH), and that the drug is not indicated in HIV- |
-| `NCT00672074` | 4 | sponsored Phase 2 postoperative-ileus trial (NCT00672074) completed December 2009 and published 2014 |
 | `NCT06065540` | 4 | t al., Lancet Diabetes & Endocrinology 2026; NCT06065540, n=2713) compared CagriSema against semaglut |
 | `NCT06131437` | 4 | y endpoint not met. In the REDEFINE 4 trial (NCT06131437, n≈800, 84 weeks), CagriSema 2.4/2.4 was com |
 | `NCT06948214` | 4 | controlled phase 3 trial (ClinicalTrials.gov NCT06948214; recruiting, started 2026-05-20; n=150; rand |
@@ -5011,6 +5011,7 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `MK-0677` | 3 | MK-0677 |
 | `MYALEPT` | 3 | dipose tissue. Its label states plainly that MYALEPT is contraindicated in patients with general |
 | `NADH` | 3 | olecular weight 663.4 Da (NAD+) or 665.4 Da (NADH, reduced form). |
+| `NCT00672074` | 3 | ase 2 postoperative-ileus trials: the first (NCT00672074, completed December 2009, published 2014) di |
 | `NCT01099761` | 3 | ystrophy studies are recorded as TERMINATED (NCT01099761; open-label extension NCT01239758), while th |
 | `NCT01519349` | 3 | s. The Mendell BMD program is registered as [NCT01519349](https://clinicaltrials.gov/study/NCT0151934 |
 | `NCT04614337` | 3 | vs rhGH / Norditropin). ClinicalTrials.gov: NCT04614337. Sponsor Lumos Pharma; status COMPLETED 2024 |
@@ -5372,6 +5373,7 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `HRT` | 1 ⚠️ | usual but appears occasionally in compounded HRT contexts; anastrozole's purpose (suppress es |
 | `HSDD-` | 1 ⚠️ | HSDD-specific combination with flibanserin (Addyi) |
 | `HSS` | 1 ⚠️ | paedic Sports Medicine: A Systematic Review. HSS Journal, 21(4):15563316251355551 (online ahe |
+| `HT-IPAM-202` | 1 ⚠️ | .gov: NCT01280344. Phase 2 (sponsor study ID HT-IPAM-202); randomized, quadruple-masked, placebo-cont |
 | `HT1A` | 1 ⚠️ | d HSDD medication for premenopausal women (5-HT1A agonist, 5-HT2A antagonist; chronic daily do |
 | `HT2A` | 1 ⚠️ | n for premenopausal women (5-HT1A agonist, 5-HT2A antagonist; chronic daily dosing). Combinati |
 | `ICV-` | 1 ⚠️ | central appetite regulation — the Locke 1995 ICV-eating finding[⁴] anchors a substantial precl |
