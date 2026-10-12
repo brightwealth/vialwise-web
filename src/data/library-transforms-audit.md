@@ -147,7 +147,7 @@ info  thymalin: 1 [VERIFY] marker(s), none on an LV-1 source field (informationa
 info  thymosin-alpha-1: 2 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)
 info  tirzepatide: 9 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)
 info  ubt251: no [VERIFY] markers at all
-info  vesugen: 1 [VERIFY] marker(s), none on an LV-1 source field (informational only — citation provenance, dosing, list currency etc.)
+info  vesugen: no [VERIFY] markers at all
 info  vilon: no [VERIFY] markers at all
 info  vip: no [VERIFY] markers at all
 101 checked · 0 blocking · 109 informational
@@ -2040,8 +2040,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "Investigational — not FDA-approved and not approved by any regulator anywhere, including China, where it was developed. UBT251 was developed by The United Bio-Technology (Hengqin) Co., Ltd., a subsidiary of The United Laboratories (TUL), and licensed in March 2025 to Novo Nordisk for development outside mainland China, Hong Kong, Macau and Taiwan. It is a once-weekly subcutaneous GLP-1/GIP/glucago"
 
 **`vesugen.status`**
-- before: "Not a drug in the US and not FDA-approved for any indication. A synthetic \"Khavinson\" short-peptide bioregulator (\"cytogen\") from the St. Petersburg Institute of Bioregulation and Gerontology (Russia). The \"vascular\" tissue label reflects the Khavinson family's tissue-assignment framework, not direct evidence — every PubMed-indexed cell-mechanism study of KED is in neurons and neuronal differentia"
-- after:  "Not a drug in the US and not FDA-approved for any indication. A synthetic \"Khavinson\" short-peptide bioregulator (\"cytogen\") from the St. Petersburg Institute of Bioregulation and Gerontology (Russia). The \"vascular\" tissue label reflects the Khavinson family's tissue-assignment framework, not direct evidence — every PubMed-indexed cell-mechanism study of KED is in neurons and neuronal differentia"
+- before: "Not a drug in the US and not FDA-approved for any indication. A synthetic \"Khavinson\" short-peptide bioregulator (\"cytogen\") from the St. Petersburg Institute of Bioregulation and Gerontology (Russia). The \"vascular\" tissue label comes from the Khavinson family's tissue-assignment framework, with little direct evidence behind it — the newest cell studies of KED are all in neurons and neuronal diff"
+- after:  "Not a drug in the US and not FDA-approved for any indication. A synthetic \"Khavinson\" short-peptide bioregulator (\"cytogen\") from the St. Petersburg Institute of Bioregulation and Gerontology (Russia). The \"vascular\" tissue label comes from the Khavinson family's tissue-assignment framework, with little direct evidence behind it — the newest cell studies of KED are all in neurons and neuronal diff"
 
 **`vesugen.about[5]`**
 - before: "Regulatory status (US). NOT FDA-approved; not a drug. NOT DEA-scheduled. Also not on FDA's 503A list of bulk substances permitted for pharmacy compounding."
@@ -4756,6 +4756,7 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `ATAC` | 14 | postmenopausal women (2005, supported by the ATAC trial).[²] |
 | `CNS` | 14 | c diamondoid cage, the same scaffold used in CNS drugs such as amantadine and memantine, inte |
 | `GRF` | 14 | Mod GRF + Ipamorelin |
+| `KED` | 14 | from the combined peptide compound and from KED alone, not from AED,[²] and in the thymocyte |
 | `LEPR` | 14 | people with POMC deficiency and 5 of 11 with LEPR deficiency lost at least 10% of their body w |
 | `MEN2` | 14 | tory of medullary thyroid carcinoma (MTC) or MEN2 — class-level caution for GLP-1 receptor ago |
 | `MTC` | 14 | mily history of medullary thyroid carcinoma (MTC) or MEN2 — class-level caution for GLP-1 rec |
@@ -4774,7 +4775,6 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `EPP` | 12 | eactions from erythropoietic protoporphyria (EPP). Administered ONLY by a trained healthcare |
 | `IVF` | 12 | n. Severe OHSS is a serious adverse event in IVF/IUI contexts and the relevant Pregnyl/Novare |
 | `IVF-` | 12 | College London / Dhillo group kisspeptin-54 IVF-trigger Phase II program — the Abbara 2015 *J |
-| `KED` | 12 | from the combined peptide compound and from KED alone, not from AED,[²] and in the thymocyte |
 | `KISS1R` | 12 | Kisspeptin / KISS1R agonist |
 | `PGP` | 12 | (in particular, the tripeptide Pro-Gly-Pro — PGP — which is the C-terminal addition that dist |
 | `PTH` | 12 | `teriparatide` (already in this library) is PTH(1-34); abaloparatide is PTHrP(1-34). Differe |
