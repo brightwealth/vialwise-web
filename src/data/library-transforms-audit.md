@@ -4661,7 +4661,7 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `TB-500` | 202 | BPC-157 / TB-500 |
 | `CJC-1295` | 190 | below) - Adjunct to GH-secretagogue stacks (CJC-1295 / Ipamorelin) on the rationale that AOD-9604 |
 | `KPV` | 144 | since taken place (that agenda was BPC-157, KPV, TB-500 and MOTS-c on July 23; Emideltide/DS |
-| `GH-` | 143 | -regeneration data — see below) - Adjunct to GH-secretagogue stacks (CJC-1295 / Ipamorelin) o |
+| `GH-` | 142 | -regeneration data — see below) - Adjunct to GH-secretagogue stacks (CJC-1295 / Ipamorelin) o |
 | `PDF` | 133 | ibited List 2027 (effective 1 January 2027). PDF: wada-ama.org/sites/default/files/2026-09/20 |
 | `NAD` | 128 | protocols Epitalon is sometimes stacked with NAD+ precursors, rapamycin, metformin, or other |
 | `GHRH` | 116 | Pre-mixed GH-secretagogue blend (GHRH analog + GHRP) |
