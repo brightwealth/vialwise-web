@@ -1891,7 +1891,7 @@
         "storageBeforeReconstitution": "Room temperature (20–25°C / 68–77°F), original bottle, away from moisture. Per the FDA Arimidex label.[¹]"
       },
       "dosingProtocol": {
-        "startingDose": "PO once daily, with or without food"
+        "startingDose": "PO once daily, with or without food[¹]"
       },
       "stacks": {
         "combinations": [
@@ -5617,7 +5617,7 @@
         "Enclomiphene-only formulations. Repros Therapeutics developed Androxal (enclomiphene citrate) as a single-isomer formulation specifically for the male secondary hypogonadism indication. The development program included multiple Phase II dose-ranging studies (ZA-203, ZA-204) and two Phase III trials (ZA-301, ZA-302) under designation ZA-203. Phase II trial results published by Wiehle et al. 2014 in *Fertility and Sterility* demonstrated that enclomiphene or daily produced morning serum testosterone elevation similar to topical testosterone gel while preserving spermatogenesis (LH and FSH preserved or elevated, sperm counts maintained).[⁷]",
         "Enclomiphene's FDA regulatory history (the rejection). Repros Therapeutics submitted an NDA for Androxal in 2014 for the indication of secondary hypogonadism in overweight men wishing to restore normal testicular function. The FDA scheduled an advisory committee meeting for November 3, 2015 to review the NDA. The advisory committee meeting was canceled before convening due to FDA concerns about bioanalytical method validation that could affect interpretability of pivotal study data.[²] In December 2015, the FDA issued a Complete Response Letter (not an outright rejection) citing: (a) inadequate Phase 3 study design — the FDA's primary concern was that the active comparator (topical testosterone gel) had been studied as a co-primary endpoint, and the agency required a placebo-controlled trial; (b) study entry criteria concerns; (c) titration concerns; (d) bioanalytical method validation. The FDA recommended Repros conduct an additional Phase 3 study or studies. Repros did not resubmit. The company rebranded as Androclus Therapeutics and eventually wound down the enclomiphene program. As of 2021, enclomiphene drug-development is discontinued for all medical purposes. Enclomiphene-only formulations are now available exclusively via 503A compounding pharmacies for off-label men's-health use.",
         "Off-label use in men — published evidence base. Off-label use of clomiphene (and increasingly enclomiphene from compounding pharmacies) in men is widespread despite the absence of FDA approval. The published evidence in men is substantial, with the 2022 Huijben systematic review and meta-analysis (*Andrology*) consolidating the data:",
-        "- Huijben et al. 2022 systematic review and meta-analysis of clomiphene citrate for male hypogonadism (PMID 34933414): 19 studies, 1,642 patients (4 RCTs + 15 observational); meta-analysis on 17 studies, 1,279 patients. Reported an increase in total testosterone during clomiphene treatment (standardized mean difference 2.60, 95% CI 1.82–3.38), with increases also reported in free testosterone, LH, FSH, SHBG, and estradiol. Side effects in <10% of populations; no serious adverse events reported.[³] The strongest single citation establishing clomiphene's effectiveness for men's hypogonadism. Important framing caveat: 15 of the 19 included studies are observational/single-arm, so the pooled estimate is a pre-treatment-vs-during-treatment comparison, not a placebo-controlled difference.\n- Krzastek et al. 2019 Long-Term Safety and Efficacy retrospective review (PMID 31216250, *Journal of Urology*): 400 patients across two institutions, 2010–2018, mean follow-up 25.5 ± 20.48 months (range 0–84), with 280 receiving clomiphene ≤3 years and 120 receiving it for >3 years.[⁴] Strongest long-term safety citation.\n- Wiehle et al. 2014 Phase II RCT comparing enclomiphene to topical testosterone gel (PMID 25044085, *Fertility and Sterility*).[⁷]\n- Constantinou et al. 2026 systematic review and meta-analysis directly comparing clomiphene citrate with testosterone replacement therapy (PMID 42435198, *European Journal of Clinical Pharmacology*): 11 studies, 1,512 patients (764 clomiphene vs 748 TRT). Reported no significant difference in serum testosterone between clomiphene and testosterone gel (mean difference 6.64 ng/dL, not significant); injectable testosterone produced higher serum testosterone than clomiphene, and TRT was associated with greater libido improvement.[⁸] The newest head-to-head-framed comparison; complements Huijben 2022.\n- Kim et al. 2026 predictors-of-response analysis (PMID 42251758, *Journal of Sexual Medicine*): 292 men, LC-MS/MS testosterone assay, using the every-other-day starting pattern escalated every other day — the same pattern described in this entry's Dosing Protocol; 47% of the cohort met the response threshold.[¹⁰] Recent real-world corroboration of the dosing pattern and of the fact that a substantial share of users do not reach target.\n- Shabsigh et al. 2005 (PMID 16422830) and related studies establishing the clomiphene starting-dose pattern as the most common research-community starting dose.[⁵]",
+        "- Huijben et al. 2022 systematic review and meta-analysis of clomiphene citrate for male hypogonadism (PMID 34933414): 19 studies, 1,642 patients (4 RCTs + 15 observational); meta-analysis on 17 studies, 1,279 patients. Reported an increase in total testosterone during clomiphene treatment (standardized mean difference 2.60, 95% CI 1.82–3.38), with increases also reported in free testosterone, LH, FSH, SHBG, and estradiol. Side effects in <10% of populations; no serious adverse events reported.[³] The strongest single citation establishing clomiphene's effectiveness for men's hypogonadism. Important framing caveat: 15 of the 19 included studies are observational/single-arm, so the pooled estimate is a pre-treatment-vs-during-treatment comparison, not a placebo-controlled difference.\n- Krzastek et al. 2019 Long-Term Safety and Efficacy retrospective review (PMID 31216250, *Journal of Urology*): 400 patients across two institutions, 2010–2018, mean follow-up 25.5 ± 20.48 months (range 0–84), with 280 receiving clomiphene ≤3 years and 120 receiving it for >3 years.[⁴] Strongest long-term safety citation.\n- Wiehle et al. 2014 Phase II RCT comparing enclomiphene to topical testosterone gel (PMID 25044085, *Fertility and Sterility*).[⁷]\n- Constantinou et al. 2026 systematic review and meta-analysis directly comparing clomiphene citrate with testosterone replacement therapy (PMID 42435198, *European Journal of Clinical Pharmacology*): 11 studies, 1,512 patients (764 clomiphene vs 748 TRT). Reported no significant difference in serum testosterone between clomiphene and testosterone gel (mean difference 6.64 ng/dL, not significant); injectable testosterone produced higher serum testosterone than clomiphene, and TRT was associated with greater libido improvement.[⁸] The newest head-to-head-framed comparison; complements Huijben 2022.\n- Kim et al. 2026 predictors-of-response analysis (PMID 42251758, *Journal of Sexual Medicine*): 292 men, LC-MS/MS testosterone assay, using the every-other-day starting pattern escalated every other day — the same pattern described in this entry's Dosing Protocol; 47% of the cohort met the response threshold.[¹⁰] Recent real-world corroboration of the dosing pattern and of the fact that a substantial share of users do not reach target.\n- Shabsigh et al. 2005 (PMID 16422830): 36 men with hypogonadism treated with clomiphene citrate daily; mean total testosterone rose from 247.6 ng/dL to 610 ng/dL by the first follow-up visit at 4–6 weeks.[⁵]",
         "The professional-guidance landscape is beginning to move (2026). The major men's-health guidelines that this entry references (Endocrine Society, Bhasin 2018; AUA, Mulhall 2018) do not recommend SERMs as routine testosterone-replacement alternatives, and that remains the guideline position. However, in February 2026 the British Society for Sexual Medicine published a position statement specifically on the potential use of enclomiphene in male hypogonadism (*World Journal of Men's Health*, PMID 41714894) — the first professional-society position statement addressing enclomiphene directly.[¹¹] A position statement is not an approval and does not change enclomiphene's US regulatory status (still not FDA-approved, still compounded-only); it is noted here because the entry's \"no professional-society guidance exists\" framing is no longer strictly accurate.",
         "Common research interests. Despite the off-label status (clomiphene) and never-approved status (enclomiphene), both compounds are widely used in research-community contexts:\n- TRT alternative — primary off-label men's-health use case. Researchers seeking to raise endogenous testosterone without exogenous T administration (typically motivated by fertility preservation, simpler administration, or a preference for endogenous production over external supplementation). The Huijben 2022 meta-analysis supports this use case.[³]\n- Fertility-preserving adjunct during or after TRT. Researchers on TRT who want to maintain or restore spermatogenesis use clomiphene or enclomiphene to keep LH/FSH-driven testicular function active. Often co-administered with HCG. See the HCG (Human Chorionic Gonadotropin) entry.\n- HPG-axis recovery after androgen cycles. \"Post-cycle therapy\" (PCT) protocols in research-community supraphysiologic-testosterone contexts use clomiphene to accelerate HPG-axis recovery after exogenous androgen suppression. This is outside any FDA-approved indication and still outside the published RCT literature — but it is no longer outside the published literature entirely: Bandura et al. 2026 (*Andrology*, PMID 42387872) is a narrative review specifically of off-label clomiphene in post-cycle therapy after anabolic-androgenic steroid use, covering the proposed mechanisms, the reported efficacy signals, and the diagnostic challenges of assessing endocrine recovery (including the value of LC-MS/MS assays and the enclomiphene-isomer question).[⁹] A narrative review is not trial evidence — the rationale for PCT use remains primarily mechanistic.\n- Female ovulation induction (FDA-approved use). Clomiphene's actual FDA indication. Clinical use under specialist supervision; not relevant to research-community men's-health use cases but is the regulatory anchor for the compound's existence.\n- Off-label male infertility. Clomiphene for subfertile hypogonadal men is a related but distinct off-label use case — overlapping with the TRT-alternative use case but motivated specifically by fertility rather than testosterone replacement."
       ],
@@ -5628,7 +5628,7 @@
         "storageBeforeReconstitution": "Room temperature (20–25°C), original container, away from light. Per the FDA Clomid label.[¹]"
       },
       "dosingProtocol": {
-        "startingDose": "PO once daily for 5 days, starting on cycle day 3, 4, or 5 of menstrual cycle (or anytime in patients with no recent uterine bleeding)."
+        "startingDose": "In the FDA label, the first course is by mouth once daily for 5 days, begun on or about the 5th day of the cycle, or at any time in patients with no recent uterine bleeding.[¹]"
       },
       "stacks": {
         "combinations": [
@@ -5710,7 +5710,7 @@
         "Establish baseline labs before starting. For research-community men's-health use, baseline labs typically include: total testosterone, free testosterone, SHBG, sensitive estradiol (LC-MS/MS preferred), LH, FSH, prolactin (to rule out prolactinoma), CBC, and (for sustained use) liver function tests and bone density (DEXA).",
         "Choose between racemic clomiphene and enclomiphene-only based on the intended duration. For short-term use (≤6 months), racemic clomiphene is the standard option (FDA-approved, generic, low cost). For sustained use (>6 months) where zuclomiphene accumulation matters, enclomiphene-only compounded formulations are an alternative — at higher cost and outside FDA-approved supply chain.",
         "Dose patterns in the published men's-health literature. There is no FDA-approved dose for either compound in men. Racemic clomiphene: in the 2026 Kim cohort of 292 men, the initial dose was every other day, escalated every other day if total testosterone stayed below 400 ng/dL.[¹⁰] The earlier Shabsigh 2005 study used daily.[⁵] Enclomiphene: the Phase II trial used or daily.[⁷] In the Kim cohort, labs were redrawn every 4 weeks after each dose change.[¹⁰]",
-        "Use whole tablets or compounded capsules where possible. Pill-splitting accuracy degrades substantially below half-tablet ( from a clomiphene tablet); pharmacy-compounded sub-25-mg formulations are the more accurate option.",
+        "Tablet splitting. Splitting below a half-tablet ( from a clomiphene tablet) is less accurate; pharmacy-compounded sub-25-mg formulations are dispensed at exact strengths.",
         "Recheck labs at 4–8 weeks after starting. In the Kim cohort, dose changes were based on total testosterone.[¹⁰] Monitor for visual changes — discontinue immediately for any visual symptoms.",
         "Periodic monitoring — total testosterone, estradiol, CBC, liver function quarterly; bone density (DEXA) at baseline and annually for sustained use."
       ],
@@ -6539,7 +6539,7 @@
       },
       "dosingProtocol": {
         "startingDose": "subcutaneous, once daily, within 30–60 minutes of intended sleep onset",
-        "maximumDose": "Human clinical trials have used DSIP at doses up to 25 nmol/kg intravenously, which corresponds for a 70 kg adult.[¹][²] Subcutaneous doses in research-community use rarely exceed per dose. Toxicology data at higher doses is essentially absent in the modern Western literature."
+        "maximumDose": "Human clinical trials have used DSIP at doses up to 25 nmol/kg intravenously.[¹][²] Amounts in research-community subcutaneous protocols (rarely above per dose) come from community practice, not from trials. Toxicology data at higher doses is essentially absent in the modern Western literature."
       },
       "stacks": {
         "combinations": [
@@ -6795,7 +6795,7 @@
         ]
       },
       "dosingProtocol": {
-        "startingDose": "SC once weekly — starting dose",
+        "startingDose": "SC once weekly — the label's starting dosage[¹]",
         "maximumDose": "weekly (AWARD-11)."
       },
       "stacks": {
@@ -6989,7 +6989,7 @@
         },
         {
           "label": "Frequency",
-          "value": "Daily during a 10–20-day course; not continuous use. Off-periods of 30–180 days between courses are typical in Russian clinical and research-community protocols."
+          "value": "Daily during a 10–20-day course; not continuous use. Off-periods of 30–180 days between courses are typical in research-community protocols."
         },
         {
           "label": "Half-life",
@@ -7038,7 +7038,7 @@
       },
       "dosingProtocol": {
         "startingDose": "",
-        "maximumDose": "Khavinson group studies have used Epitalon at doses for 10-day courses in Russian clinical settings without reported adverse effects. Western research-community use rarely exceeds these dose ranges. Toxicology data at higher doses is essentially absent in the published Western literature."
+        "maximumDose": "Toxicology data on multi-milligram Epitalon doses is essentially absent in the published Western literature."
       },
       "stacks": {
         "combinations": [
@@ -7241,7 +7241,7 @@
         },
         {
           "label": "Route",
-          "value": "Oral, swallowed whole or split, with food for full bioavailability"
+          "value": "Oral tablet, swallowed whole or split; the FDA label's dose is taken after a meal.[²]"
         },
         {
           "label": "Onset of action",
@@ -7262,8 +7262,8 @@
         "storageBeforeReconstitution": "Room temperature 20–25°C (68–77°F), away from moisture and light."
       },
       "dosingProtocol": {
-        "startingDose": "orally once daily, after a meal, for 5 years (adjuvant) or until disease progression (advanced).[¹]",
-        "maximumDose": "is the standard adjuvant and advanced-disease dose. Doses were studied in early Phase 1 trials in advanced breast cancer; no additional efficacy was observed above. In off-label men's-health use, doses above are not reported in published or research-community-attributed protocols."
+        "startingDose": "The FDA label's dose is one tablet orally once daily after a meal; in the adjuvant setting it follows two to three years of tamoxifen, to complete a total of five consecutive years of adjuvant hormonal therapy.[²]",
+        "maximumDose": "is the FDA label's dose for adjuvant and advanced disease.[²] The label reports multiple-dose studies of 0.5 in postmenopausal women with advanced breast cancer, with maximum estrogen suppression (at least 85% to 95%) reached.[²] In off-label men's-health use, doses above are not reported in published or research-community-attributed protocols."
       },
       "stacks": {
         "combinations": [
@@ -7319,7 +7319,7 @@
       "firstTimeWalkthrough": [
         "Establish a clear baseline. Same baseline labs as for the other AIs: serum total testosterone, free testosterone, sensitive estradiol (LC-MS/MS preferred), LH, FSH, SHBG, lipid panel, comprehensive metabolic panel, and DEXA bone density (if not measured in past 2 years).",
         "Amounts in research-community protocols (TRT-adjunct: every other day twice weekly; AAS-cycle: every other day to daily) come from community practice, not from trials. No published randomized controlled trial has validated any specific off-label men's-health dose.",
-        "Exemestane is an oral tablet; the FDA-approved dose is taken after a meal, and food increases its absorption by about 40%. That food effect is large enough that food timing which varies from dose to dose produces meaningful differences in how much is absorbed.",
+        "Exemestane is an oral tablet; the FDA-approved dose is taken after a meal, and in the label a high-fat breakfast raised its exposure (AUC) by 59% and its peak level by 39% compared with fasting.[²] That food effect is large enough that food timing which varies from dose to dose produces meaningful differences in how much is absorbed.",
         "Monitor at 4–8 weeks. Repeat sensitive estradiol, total testosterone, and clinical assessment of estradiol-related symptoms. Goal estradiol typically in the 20–40 pg/mL range.",
         "Over-suppressed estradiol is a main concern the follow-up labs look for; research-community protocols respond by lowering the amount or lengthening the dosing interval. Because exemestane's mechanism is irreversible, a lower amount needs 3–7 days to fully show in lab values, so labs drawn sooner can understate the change.",
         "Re-monitor at 3 and 6 months. Lipid panel, DEXA bone density (if 12+ months since last), and continued estradiol/testosterone monitoring.",
@@ -7766,7 +7766,7 @@
         "None of these research-community use patterns are supported by published human clinical-trial evidence. The published evidence base remains exclusively preclinical (Neelakantan 2017 mouse data and supporting cell-culture work).",
         "Regulatory status (US — current). 5-amino-1MQ is not FDA-approved for any indication and has never been the subject of a published human clinical trial. The compound is available exclusively as a research compound through unregulated research-supply chains; not legally compoundable through US 503A pharmacies (the compound is not on the 503A bulks list and would be unlikely to qualify given the absent human clinical-trial evidence base). Not DEA-scheduled.",
         "Regulatory status (sport — WADA). Prohibited now — not named, but captured. 5-amino-1MQ is not explicitly named on the 2026 or 2027 WADA Prohibited List[⁴], and that is not clearance. S0 (Non-Approved Substances) reaches it by default: S0 covers *\"any pharmacological substance which is not addressed by any of the subsequent sections of the List and with no current approval by any governmental regulatory health authority for human therapeutic use\"*, naming \"drugs under pre-clinical or clinical development\" as the paradigm case. 5-amino-1MQ holds no approval from any regulator anywhere and is not addressed by any other section, so both S0 limbs are satisfied and it is prohibited at all times, in- and out-of-competition. ⚠️ Corrected 2026-09-14. This section previously described the NNMT-inhibitor class as \"not currently a WADA-targeted category\" and framed S4.4 extension as a *future* risk — which read as \"allowed today, may change later.\" That was misleading by omission: S0 already applied, and nothing about a future list was needed to reach it. The S4.4 point stands but is secondary: the S4.4 (Metabolic Modulators) subsection that captures AICAR and GW1516 could plausibly be extended to NNMT inhibitors in a future Prohibited List, which would change which section is cited, not whether it is prohibited. Users in regulated sport should verify the current WADA status directly via the WADA Prohibited List and their National Anti-Doping Organization before any use.",
-        "Common research interests. Despite the absent human clinical-trial evidence base, 5-amino-1MQ is used in research-community contexts for:\n- Putative fat-loss / body-composition effects — the dominant research-community use case, extrapolating from the Neelakantan 2017 mouse data without published human evidence.[²]\n- Combined with exercise / dietary intervention — research-community use typically pairs 5-amino-1MQ with caloric restriction or exercise protocols, paralleling how AICAR is used in the exercise-mimetic context.\n- Adjunct to existing GLP-1 RA therapy — some research-community use reports adding 5-amino-1MQ to existing semaglutide or tirzepatide regimens for putative additive fat-loss effect. The combined mechanism (NNMT inhibition + GLP-1 receptor agonism) is mechanistically plausible but no published evidence supports the combination.\n- Adjunct to other metabolic-modulator compounds — combined with AICAR, SLU-PP-332, MOTS-c, or NAD+ in research-community body-composition / longevity protocols."
+        "Common research interests. Despite the absent human clinical-trial evidence base, 5-amino-1MQ is used in research-community contexts for:\n- Putative fat-loss / body-composition effects — the dominant research-community use case, extrapolating from the Neelakantan 2017 mouse data without published human evidence.[²]\n- Combined with exercise / dietary intervention — research-community use typically pairs 5-amino-1MQ with caloric restriction or exercise protocols, paralleling how AICAR is used in the exercise-mimetic context.\n- Adjunct to existing GLP-1 RA therapy — some research-community use reports adding 5-amino-1MQ to existing semaglutide or tirzepatide regimens on the idea that the two act through separate pathways. The combined mechanism (NNMT inhibition + GLP-1 receptor agonism) is mechanistically plausible but no published evidence supports the combination.\n- Adjunct to other metabolic-modulator compounds — combined with AICAR, SLU-PP-332, MOTS-c, or NAD+ in research-community body-composition / longevity protocols."
       ],
       "reconstitution": {
         "diluent": "",
@@ -7881,7 +7881,7 @@
         "Morning dosing is the timing most often described in research-community protocols — intended to align with the daytime energy-expenditure cycle. Pre-meal or pre-workout timing is also reported in research-community use.",
         "Inject subcutaneously (for SC route) into a standard subcutaneous site (abdomen most common). Rotate sites between injections. Oral use (dissolved in water or in capsules) is also reported; oral bioavailability is not well-characterized in humans.",
         "Cycle structure — 4–8 week cycles followed by a 4+ week off-cycle is the most commonly reported pattern in research-community protocols, though no published evidence supports specific cycling parameters.",
-        "Recheck lipid panel and metabolic labs at 6–8 weeks. Discontinue if unusual lab abnormalities emerge. Given the absent human safety data, error toward conservative monitoring and low threshold for discontinuation."
+        "Recheck lipid panel and metabolic labs at 6–8 weeks. Discontinue if unusual lab abnormalities emerge. There is no human safety data, so no monitoring interval has been validated; the stop above applies to any unusual result."
       ],
       "citations": [
         {
@@ -8351,7 +8351,7 @@
         ]
       },
       "dosingProtocol": {
-        "startingDose": "IV or SC 3× per week for the first treatment cycle (2–4 weeks)"
+        "startingDose": ""
       },
       "stacks": {
         "combinations": [
@@ -8898,13 +8898,13 @@
       "about": [
         "According to PubMed-indexed research, GHRP-2 is a synthetic hexapeptide growth hormone-releasing peptide (GHRP) with the sequence D-Ala-D-β-naphthyl-alanine-Ala-Trp-D-Phe-Lys-NH2. The compound was developed at Tulane University in the laboratory of Cyril Y. Bowers (the same Bowers research program that produced the original GHRP-6 in the 1980s) as a second-generation GHRP, with the D-β-naphthyl-alanine residue conferring substantially greater potency than GHRP-6.[¹] The INN spelling is \"pralmorelin\"; \"GHRP-2\" is the developmental designation used in the great majority of clinical trials and the dominant name in research-community use. Wyeth-Ayerst licensed the compound for US clinical development under codes KP-102 / GPA-748 and advanced it through Phase II/III clinical evaluation for pediatric short stature in the late 1990s and early 2000s — but US clinical development was discontinued before market approval. Kaken Pharmaceutical (Japan) received Japanese regulatory approval for pralmorelin as a diagnostic agent for adult GH deficiency — Japan is the only major jurisdiction with an approved indication, making pralmorelin the only GHRP-class peptide with an approved finished pharmaceutical product anywhere in the world.",
         "Mechanism. Based on articles retrieved from PubMed, GHRP-2 acts as an agonist at the ghrelin receptor (GHS-R1a) at both pituitary and hypothalamic levels to stimulate GH release.[⁵] The mechanism is shared with all GHRP-class peptides plus the non-peptide ghrelin-mimetic MK-677. The Adams 1996 *Molecular Endocrinology* study established that GHRP-2 acts via protein kinase C-dependent phosphatidylinositol hydrolysis at the human pituitary somatotroph, with the cAMP-second-messenger pathway providing additional crosstalk in tumors expressing constitutively-active Gs-protein (gsp oncogenes).[⁵] Critically, the Adams 1996 study established that GHRP-2 was considerably more potent than GHRP-6 in stimulating GH secretion from human pituitary somatotropinoma cell cultures — a finding that anchored the subsequent clinical development of GHRP-2 (rather than GHRP-6) as the lead GHRP class candidate for both pediatric short-stature treatment and adult GH-deficiency diagnostic testing.",
-        "Bitar 1991 receptor-pharmacology context. The Bitar 1991 *Biochemical and Biophysical Research Communications* study established that GHRP and GHRH act through distinct receptors — substance P/bombesin antagonists dose-dependently inhibited GHRP-induced GH release (IC50 0.2–6 µM range across multiple antagonists) but had only 10–15% inhibitory effect on GHRH-stimulated GH release.[⁶] Conversely, the GHRH antagonist DC21-366 inhibited GHRH-stimulated GH release (IC50 0.16 µM) but did not inhibit GHRP-stimulated GH release. This established the dual-receptor model of GH stimulation — GHRP and GHRH activate different receptors, with subsequent identification of the ghrelin receptor (GHS-R1a) for the GHRP class and the GHRH receptor for GHRH. The dual-receptor framework is the basis for the synergistic GHRP-plus-GHRH combination protocol used across the GHS-axis library (GHRP-2 plus CJC-1295 no-DAC, sermorelin, or tesamorelin).",
+        "Bitar 1991 receptor-pharmacology context. The Bitar 1991 *Biochemical and Biophysical Research Communications* study established that GHRP and GHRH act through distinct receptors — substance P/bombesin antagonists dose-dependently inhibited GHRP-induced GH release (IC50 0.2–6 µM range across multiple antagonists) but had only 10–15% inhibitory effect on GHRH-stimulated GH release.[⁶] Conversely, the GHRH antagonist DC21-366 inhibited GHRH-stimulated GH release (IC50 0.16 µM) but did not inhibit GHRP-stimulated GH release. This established the dual-receptor model of GH stimulation — GHRP and GHRH activate different receptors, with subsequent identification of the ghrelin receptor (GHS-R1a) for the GHRP class and the GHRH receptor for GHRH. The dual-receptor framework is the rationale cited for the research-community GHRP-plus-GHRH pairing (GHRP-2 plus CJC-1295 no-DAC, sermorelin, or tesamorelin). Bitar 1991 was an in-vitro study of GHRP-6 that showed separate receptors; it did not test the two together.",
         "Pediatric short-stature clinical-development thread (Pihoker 1997 / Pihoker 1998).[³][⁴] The Wyeth-Ayerst Phase II/III pediatric short-stature program was anchored on two Pihoker-Bowers studies. Pihoker 1998 *Journal of Clinical Endocrinology & Metabolism* established the pediatric Phase I PK/PD profile in 10 prepubertal children receiving IV: elimination half-life 0.55 ± 0.14 h, Cmax 7.4 ± 3.8 ng/mL, EC50 1.09 ± 0.59 ng/mL, peak GH response 50.7 ± 17.2 ng/mL.[³] Pihoker 1997 *Journal of Endocrinology* established the chronic-intranasal-treatment efficacy profile: 15 children with short stature received intranasal GHRP-2 ( twice daily, escalated to three times daily) for 6 months (n=15) to 18–24 months (n=6); height velocity increased from 3.7 ± 0.2 cm/year to 6.1 ± 0.3 cm/year at 6 months and was sustained at 6.0 ± 0.4 cm/year at 18–24 months.[⁴] GHRP-2-stimulated GH response did not decline over the treatment period, suggesting that GH-response tachyphylaxis to chronic intranasal GHRP-2 dosing in this pediatric population was less severe than the chronic-SC-hexarelin tachyphylaxis demonstrated in adults by Rahim 1999 (see hexarelin entry). The Pihoker dataset is the most clinically-relevant published evidence for GHRP-2 efficacy — though limited to pediatric short stature, not the adult body-composition/recovery use case that dominates research-community use.",
         "Postmenopausal GH/IGF axis thread (Veldhuis 2001). The Veldhuis 2001 *Endocrine* review/clinical-investigation article characterized the estrogen-GHRP-2 interaction in postmenopausal women.[²] The framework synthesized: (a) estrogen is the proximate sex steroid sustaining GH secretion across the human lifespan in both sexes; (b) GHRP-2 stimulates GH at the somatotroph level and likely also at the hypothalamic level via somatostatin-tone modulation; (c) in hyposomatotropic postmenopausal women, GHRP-2 produces meaningful GH/IGF-1 elevation that interacts with estrogen status. This is the foundational \"GHRP-2 in adult use\" reference for the entry — though Veldhuis 2001 frames GHRP-2 as an investigational tool rather than as a clinical therapy, it remains the most comprehensive published characterization of GHRP-2's effects in adult endocrine physiology.",
-        "Japan diagnostic approval (Kaken Pharmaceutical). Pralmorelin is approved in Japan as a diagnostic agent for adult growth hormone deficiency, marketed by Kaken Pharmaceutical. The diagnostic protocol is a single IV bolus dose ( per the Japanese labeling) with subsequent GH measurements at 15 / 30 / 60 / 90 / 120 minutes. The diagnostic cutoff for adult GH deficiency is peak-stimulated GH below 9 ng/mL (varies by clinical context). The Japanese diagnostic indication is the only currently-approved use of any GHRP-class peptide anywhere in the world. US, EU, and other major-jurisdiction regulators have not approved pralmorelin for any indication.",
+        "Japan diagnostic approval (Kaken Pharmaceutical). Pralmorelin is approved in Japan as a diagnostic agent for adult growth hormone deficiency, marketed by Kaken Pharmaceutical. The Japanese diagnostic indication is the only currently-approved use of any GHRP-class peptide anywhere in the world. US, EU, and other major-jurisdiction regulators have not approved pralmorelin for any indication.",
         "Regulatory status (US — current). GHRP-2 (pralmorelin) is not FDA-approved for any indication. Wyeth-Ayerst's pediatric short-stature clinical development program was discontinued before market approval. The compound is available outside Japan exclusively as a research peptide through unregulated research-peptide supply chains; not legally compoundable through US 503A pharmacies (the compound is not on the 503A bulks list, and per the broader peptide-bulks-list regulatory situation as of 2024, is not approved for compounding). Not DEA-scheduled.",
         "Regulatory status (sport — WADA). GHRP-2 is WADA-banned under Section S2.2.4 (Growth Hormone Releasing Factors → GHRP subsection) of the 2026 and 2027 Prohibited Lists, named explicitly as \"GHRP-2 (pralmorelin)\" alongside alexamorelin, examorelin (hexarelin), GHRP-1, GHRP-3, GHRP-4, GHRP-5, and GHRP-6.[⁷][⁸] Same WADA subsection as Ipamorelin, Hexarelin, CJC-1295, Sermorelin, Tesamorelin, and MK-677. Prohibited at all times.",
-        "Common research interests. GHRP-2 is used in research-community contexts for:\n- Acute GH stimulation for body composition and recovery — the dominant research-community use case. Typically used in 4–6 week cycles to manage tachyphylaxis. The relative-potency advantage of GHRP-2 over GHRP-6 per Adams 1996[⁵] is the typical rationale for choosing GHRP-2 over GHRP-6 in this context.\n- Combined with low-dose GHRH analog (CJC-1295 no-DAC, sermorelin, tesamorelin) — the same synergistic-GHRP-plus-GHRH-analog framework described for hexarelin, with the dual-receptor pharmacology established by Bitar 1991.[⁶] Reduces required per-dose GHRP-2 amount and produces stronger GH response than GHRP-2 alone.\n- Diagnostic GH-stimulation testing (clinical context, Japan) — the only currently-approved clinical use, exclusively in Japan, exclusively for adult GH-deficiency diagnostic workup.\n- Investigational / experimental endocrine pharmacology — Veldhuis-style clinical research on GH-axis regulation in aging, hypopituitarism, and related contexts."
+        "Common research interests. GHRP-2 is used in research-community contexts for:\n- Acute GH stimulation for body composition and recovery — the dominant research-community use case. Typically used in 4–6 week cycles to manage tachyphylaxis. The relative-potency advantage of GHRP-2 over GHRP-6 per Adams 1996[⁵] is the typical rationale for choosing GHRP-2 over GHRP-6 in this context.\n- Combined with low-dose GHRH analog (CJC-1295 no-DAC, sermorelin, tesamorelin) — the same GHRP-plus-GHRH-analog pairing described for hexarelin. The research-community belief is that the pairing allows a lower GHRP-2 amount and gives a larger GH response than GHRP-2 alone; Bitar 1991 showed only that GHRP (GHRP-6, in vitro) and GHRH act on separate receptors and did not test the combination.[⁶]\n- Diagnostic GH-stimulation testing (clinical context, Japan) — the only currently-approved clinical use, exclusively in Japan, exclusively for adult GH-deficiency diagnostic workup.\n- Investigational / experimental endocrine pharmacology — Veldhuis-style clinical research on GH-axis regulation in aging, hypopituitarism, and related contexts."
       ],
       "reconstitution": {
         "diluent": "Bacteriostatic water (most common). Sterile water acceptable for single-use reconstitution.",
@@ -8949,13 +8949,13 @@
         ]
       },
       "dosingProtocol": {
-        "startingDose": "SC 1× daily for 1–2 weeks to assess tolerance (cortisol/prolactin response, injection site reaction, subjective effects)"
+        "startingDose": "Amounts in research-community protocols ( once daily for the first 1–2 weeks for the first 3–5 doses in some protocols) come from community practice, not from trials."
       },
       "stacks": {
         "combinations": [
           {
             "partner": "GHRH analogs (CJC-1295 no-DAC, sermorelin, tesamorelin)",
-            "rationale": "the canonical synergistic combination per the dual-receptor pharmacology established by Bitar 1991.[⁶] Low-dose GHRP-2 + GHRH analog produces synergistic GH release. The cleanest published-evidence-supported GHRP-2 protocol. Same framework as hexarelin + GHRH analog."
+            "rationale": "the most common research-community pairing. Its rationale is the dual-receptor model: Bitar 1991 showed in vitro, with GHRP-6, that GHRP and GHRH act on separate receptors, and did not test the combination.[⁶] The belief that the pairing gives a synergistic GH release comes from research-community practice, not from a source cited in this entry. Same framework as hexarelin + GHRH analog."
           },
           {
             "partner": "Ipamorelin or other GHRPs",
@@ -9207,13 +9207,13 @@
         "According to PubMed-indexed research, GHRP-6 is a synthetic hexapeptide growth hormone-releasing peptide (GHRP) with the sequence His-D-Trp-Ala-Trp-D-Phe-Lys-NH2.[³] The compound was developed in the Bowers/Momany research program at Tulane University in the late 1980s as the original GHRP class compound — the foundational hexapeptide from which the entire GHRP class is derived.[¹] Both GHRP-2 (Bowers/Momany second-generation derivative with D-β-naphthyl-alanine substitution; see the GHRP-2 entry) and hexarelin (Mediolanum-developed derivative with 2-methyl-Trp substitution; see the Hexarelin entry) emerged structurally from GHRP-6 as more-potent analogs. GHRP-6 itself was advanced through Phase I/II clinical evaluation in the early 1990s but GH-directed clinical development was abandoned in favor of the more potent derivatives — no Phase II or III trial of GHRP-6 for GH stimulation or body composition has ever been published. GHRP-6 did later reach Phase III in an unrelated indication: the Cuban COURAGE-2 trial tested an EGF + GHRP-6 combination for neuroprotection in acute ischemic stroke and missed its primary endpoint.[⁷]",
         "Mechanism. Based on articles retrieved from PubMed, GHRP-6 acts as an agonist at the ghrelin receptor (GHS-R1a) at both pituitary and hypothalamic levels to stimulate GH release.[³][⁵] The mechanism is shared with all GHRP-class peptides plus the non-peptide ghrelin-mimetic MK-677. The Adams 1996 study established that GHRP-6 acts via protein kinase C-dependent phosphatidylinositol hydrolysis at the human pituitary somatotroph[⁵] — the same mechanism as GHRP-2, with substantially less potency at the receptor. The \"hunger peptide\" effect of GHRP-6 operates through hypothalamic ghrelin-receptor activation at central feeding centers — established by the Locke 1995 intracerebroventricular study in rats that demonstrated dose-dependent eating stimulation independent of peripheral GH response.[⁴]",
         "Bowers 1991 normal-adult-men intranasal study (Hayashi 1991 Endocrinologia Japonica). The Hayashi 1991 study in 6 healthy adult men established the foundational human pharmacology of GHRP-6.[³] An IV bolus produced a robust GH peak of 54.9 ± 4.2 µg/L. Intranasal administration produced dose-related GH response: peak of 39.6 ± 15.3 µg/L, 14.1 ± 5.0 µg/L, and 7.5 ± 5.7 µg/L. Plasma prolactin and cortisol levels were slightly but significantly increased after IV administration but GHRP-6 did not affect plasma TSH, LH, FSH, insulin, blood sugar, or GHRH-LI levels — establishing the GH/PRL/cortisol-selective hormonal profile that distinguishes GHRPs from the gonadotropin axis. Seven consecutive intranasal doses ( every 8 hours) over 56 hours did not produce GH-response desensitization and IGF-1 rose from 94.5 ± 5.8 µg/L before GHRP to 125.8 ± 6.0 µg/L after repeated GHRP administration. The Hayashi study is the foundational adult-human GHRP-6 pharmacology citation — Cyril Y. Bowers (Tulane) was a co-author, anchoring the entry to the foundational Bowers research program.",
-        "Bitar 1991 dual-receptor pharmacology. The Bitar 1991 *Biochemical and Biophysical Research Communications* study established that GHRP and GHRH act through distinct receptors using a panel of substance P/bombesin antagonists.[²] The GHRP-6 sequence (His-D-Trp-Ala-Trp-D-Phe-LysNH2) was the GHRP used in this study. Substance P/bombesin antagonists (P-7482, P-7483, P-7492) dose-dependently inhibited GHRP-6-induced GH release (IC50 = 0.2 µM, 0.85 µM, and 6 µM respectively) but had only 10–15% inhibitory effect on GHRH-stimulated GH release. Conversely, the GHRH antagonist DC21-366 inhibited GHRH-induced GH release (IC50 = 0.16 µM) but did not inhibit GHRP-6-induced GH release. Established the dual-receptor model that is the basis for the synergistic-GHRP-plus-GHRH-analog combination protocol used across the GHS-axis library.",
+        "Bitar 1991 dual-receptor pharmacology. The Bitar 1991 *Biochemical and Biophysical Research Communications* study established that GHRP and GHRH act through distinct receptors using a panel of substance P/bombesin antagonists.[²] The GHRP-6 sequence (His-D-Trp-Ala-Trp-D-Phe-LysNH2) was the GHRP used in this study. Substance P/bombesin antagonists (P-7482, P-7483, P-7492) dose-dependently inhibited GHRP-6-induced GH release (IC50 = 0.2 µM, 0.85 µM, and 6 µM respectively) but had only 10–15% inhibitory effect on GHRH-stimulated GH release. Conversely, the GHRH antagonist DC21-366 inhibited GHRH-induced GH release (IC50 = 0.16 µM) but did not inhibit GHRP-6-induced GH release. Established the dual-receptor model that is the rationale cited for research-community GHRP-plus-GHRH-analog pairing; the study did not test the two together.",
         "The \"hunger peptide\" thread (Locke 1995 ICV eating-stimulation study).[⁴] The Locke 1995 *Life Sciences* study in adult male Sprague-Dawley rats characterized the central appetite-stimulation effect of GHRP-6. Intracerebroventricular GHRP-6 (0–1000 pmol in 5 µL saline) was injected into lateral ventricles of sated rats; for 1 hour after injection, occurrence of eating was noted and arterial blood was collected for plasma GH measurement at 0/15/30/60 minutes. A nearly linear, statistically significant (p<0.01) dose-response relationship between GHRP-6 dose and incidence of eating was observed. Mean change from baseline of plasma GH during the 60 minutes after injection was not dose-related (p>0.2 at 15 min; p>0.1 at 30 and 60 min). The authors concluded that GHRP-6 administered ICV to sated adult male Sprague-Dawley rats stimulates eating \"by some mechanism that is independent of its GH-releasing property.\" This is the foundational citation for the \"hunger peptide\" framing of GHRP-6 — the central appetite effect operates through hypothalamic ghrelin-receptor activation at feeding centers, distinct from the pituitary ghrelin-receptor activation that produces GH release.",
         "Adams 1996 head-to-head potency comparison (GHRP-2 > GHRP-6).[⁵] The Adams 1996 *Molecular Endocrinology* study in human pituitary somatotropinoma cell cultures established that GHRP-2 was considerably more potent than GHRP-6 at GH stimulation, despite shared mechanism. This is the load-bearing pharmacology finding for the relative-potency framing in this entry: GHRP-6 is the original GHRP but is substantially less potent than its derivatives (GHRP-2 second-generation Bowers/Momany derivative; hexarelin Mediolanum-developed derivative). The Adams 1996 finding explains why modern clinical-development resources concentrated on GHRP-2 and hexarelin rather than GHRP-6.",
         "COURAGE-2 (2026) — the only published late-stage GHRP-6 trial, and it is not a GH-stimulation trial.[⁷] The Hernández-Bernal 2026 *Journal of Clinical Neuroscience* report describes COURAGE-2, a multicenter, randomized, open-label Phase III trial run by the Cuban CIGB program in acute ischemic stroke (n=188). Participants received IV epidermal growth factor plus GHRP-6 twice daily for 7 days versus standard care. The trial missed its primary endpoint — no intention-to-treat difference in modified Rankin Scale, Barthel Index, or survival; the authors report that a severe-stroke subgroup (NIHSS ≥ 15, n=27) showed reduced disability and mortality, which is a subgroup finding and not a primary result. Three things matter for reading this entry correctly: (1) GHRP-6 was given here as a cytoprotective/neuroprotective agent, not as a GH secretagogue, so the trial says nothing about GH stimulation, IGF-1, or body composition; (2) it was tested as a combination with EGF, so no GHRP-6-alone effect can be separated out; (3) the headline result was negative. COURAGE-2 does mean the older blanket statement that \"no Phase II or III trial of GHRP-6 has been published\" is no longer accurate — the accurate scoping is that no Phase II/III trial of GHRP-6 for GH stimulation or body composition has been published. A companion preclinical mouse study from the same cigb egf+GHRP-6 neuroprotection program was also published in 2026.",
         "Regulatory status (US — current). GHRP-6 is not FDA-approved for any indication. GHRP-6 clinical development was abandoned in the 1990s in favor of GHRP-2 and hexarelin. The compound is available exclusively as a research peptide through unregulated research-peptide supply chains; not legally compoundable through US 503A pharmacies (the compound is not on the 503A bulks list, and per the broader peptide-bulks-list regulatory situation as of 2024, is not approved for compounding). Not DEA-scheduled.",
         "Regulatory status (sport — WADA). GHRP-6 is WADA-banned under Section S2.2.4 (Growth Hormone Releasing Factors → GHRP subsection) of the 2026 and 2027 Prohibited Lists, named explicitly as \"GHRP-6\" alongside alexamorelin, examorelin (hexarelin), GHRP-1, GHRP-2 (pralmorelin), GHRP-3, GHRP-4, and GHRP-5.[⁶][¹⁰] Same WADA subsection as Ipamorelin, Hexarelin, GHRP-2, CJC-1295, Sermorelin, Tesamorelin, and MK-677. Prohibited at all times.",
-        "Common research interests. GHRP-6 is used in research-community contexts for:\n- Acute GH stimulation for body composition and recovery, with deliberate use of the appetite-stimulation effect — the dominant research-community use case. Researchers who specifically want the appetite effect (e.g. during bulking phases) choose GHRP-6 over GHRP-2 or ipamorelin; researchers who specifically want to avoid the appetite effect choose GHRP-2 or ipamorelin instead.\n- Combined with low-dose GHRH analog (CJC-1295 no-DAC, sermorelin, tesamorelin) — the same synergistic-GHRP-plus-GHRH-analog framework described for GHRP-2 and hexarelin, with the dual-receptor pharmacology established by Bitar 1991.[²]\n- Lower-cost GHRP option in the research-peptide supply chain — GHRP-6 is typically priced lower than GHRP-2 or hexarelin in research-peptide supply chains, making it a budget-conscious option for the GHRP class.\n- Preclinical and translational research on central appetite regulation — the Locke 1995 ICV-eating finding[⁴] anchors a substantial preclinical literature on GHRP-6 as a tool for studying hypothalamic feeding regulation, distinct from the clinical/therapeutic-development thread."
+        "Common research interests. GHRP-6 is used in research-community contexts for:\n- Acute GH stimulation for body composition and recovery, with deliberate use of the appetite-stimulation effect — the dominant research-community use case. Researchers who specifically want the appetite effect (e.g. during bulking phases) choose GHRP-6 over GHRP-2 or ipamorelin; researchers who specifically want to avoid the appetite effect choose GHRP-2 or ipamorelin instead.\n- Combined with low-dose GHRH analog (CJC-1295 no-DAC, sermorelin, tesamorelin) — the same GHRP-plus-GHRH-analog pairing described for GHRP-2 and hexarelin. Its rationale is the dual-receptor pharmacology established by Bitar 1991, which did not test the combination.[²]\n- Lower-cost GHRP option in the research-peptide supply chain — GHRP-6 is typically priced lower than GHRP-2 or hexarelin in research-peptide supply chains, making it a budget-conscious option for the GHRP class.\n- Preclinical and translational research on central appetite regulation — the Locke 1995 ICV-eating finding[⁴] anchors a substantial preclinical literature on GHRP-6 as a tool for studying hypothalamic feeding regulation, distinct from the clinical/therapeutic-development thread."
       ],
       "reconstitution": {
         "diluent": "Bacteriostatic water (most common). Sterile water acceptable for single-use reconstitution.",
@@ -9257,13 +9257,13 @@
         ]
       },
       "dosingProtocol": {
-        "startingDose": "SC 1× daily for 1–2 weeks to assess tolerance (cortisol/prolactin response, appetite effect intensity, injection site reaction, subjective effects)"
+        "startingDose": "Amounts in research-community protocols ( once daily for the first 1–2 weeks; for the first 3–5 doses in some protocols) come from community practice, not from trials."
       },
       "stacks": {
         "combinations": [
           {
             "partner": "GHRH analogs (CJC-1295 no-DAC, sermorelin, tesamorelin)",
-            "rationale": "the canonical synergistic combination per the dual-receptor pharmacology established by Bitar 1991.[²] Low-dose GHRP-6 + GHRH analog produces synergistic GH release. Same framework as GHRP-2 and hexarelin + GHRH analog."
+            "rationale": "the most common research-community pairing. Its rationale is the dual-receptor model: Bitar 1991 showed in vitro that GHRP-6 and GHRH act on separate receptors, and did not test the combination.[²] The belief that low-dose GHRP-6 plus a GHRH analog gives a synergistic GH release comes from research-community practice, not from a source cited in this entry. Same framework as GHRP-2 and hexarelin + GHRH analog."
           },
           {
             "partner": "Ipamorelin or other GHRPs",
@@ -10513,11 +10513,11 @@
         "growth-hormone"
       ],
       "status": "Not FDA-approved for any indication. Mediolanum Farmaceutici advanced hexarelin through Phase II clinical evaluation in GH-axis indications and as an investigational cardioprotective agent in the 1990s, but clinical development was discontinued before market approval — the combination of GH-response tachyphylaxis with sustained dosing and the dose-dependent cortisol/prolactin elevation limited clinical utility for sustained therapeutic use. Available exclusively as a research peptide through unregulated research-peptide supply chains. Not DEA-scheduled. WADA-banned in regulated sport — explicitly named under Section S2.2.4 (Growth Hormone Releasing Factors → GH-releasing peptides subsection) of the 2026 and 2027 Prohibited Lists using the INN spelling \"examorelin (hexarelin)\", alongside alexamorelin, GHRP-1, GHRP-2 (pralmorelin), GHRP-3, GHRP-4, GHRP-5, and GHRP-6.[⁶][⁸]",
-      "recommendedTimeOfDay": "bedtime",
+      "recommendedTimeOfDay": "morning",
       "lastUpdated": "2026-09-03",
       "beginner": {
-        "summary": "Hexarelin (also called examorelin) is a growth hormone releaser that prompts the pituitary gland to release growth hormone by acting on the ghrelin (hunger hormone) receptor. It's the most potent of the older growth hormone releasers in its class, but it also raises cortisol and prolactin more than newer options and its growth-hormone effect fades with repeated use. Its developer stopped clinical development before it reached approval; it's not FDA-approved, sold only as a research peptide, and banned in drug-tested sport.",
-        "researchFindings": "Hexarelin has been studied to raise growth hormone. Dose-response studies showed it reliably triggers growth-hormone release but also raises cortisol and prolactin dose-dependently, and a 16-week study found the growth-hormone response faded over time (tachyphylaxis) and returned to normal after stopping. The body-composition and recovery uses people pursue are not supported by large clinical trials.",
+        "summary": "Hexarelin (also called examorelin) is a growth hormone releaser that prompts the pituitary gland to release growth hormone by acting on the ghrelin (hunger hormone) receptor. It's the most potent of the older growth hormone releasers in its class, but it also raises cortisol and prolactin more than newer options, and research-community reports say its growth-hormone effect fades with repeated use. Its developer stopped clinical development before it reached approval; it's not FDA-approved, sold only as a research peptide, and banned in drug-tested sport.",
+        "researchFindings": "Hexarelin has been studied to raise growth hormone. Dose-response studies showed it reliably triggers growth-hormone release but also raises cortisol and prolactin dose-dependently. A 16-week study found the cortisol response eased over time and returned to normal after stopping; its abstract reports no growth-hormone measurement. Reports that the growth-hormone effect fades with repeated use come from the research community. The body-composition and recovery uses people pursue are not supported by large clinical trials.",
         "evidenceLevel": "Clinical research",
         "keyTerms": [
           {
@@ -10546,7 +10546,7 @@
       "disclosures": [
         "⚠️ Hexarelin (examorelin) is not approved by the FDA for any indication. Mediolanum Farmaceutici discontinued clinical development before market approval. It is available exclusively as a research peptide through unregulated supply chains. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
         "⚠️ Precision matters at low doses. Hexarelin is dosed in micrograms (mcg), not milligrams. Typical research-community doses ( per dose) at typical reconstitution concentrations ( vial / 1 mL BAC water = =) produce small draws in the range on a U-100 syringe. Lower-concentration setups ( / 2 mL =) produce draws — generally easier precision. Always verify draws against the in-app calculator. Same precision concern as Ipamorelin and the other GHS-class peptides.",
-        "⚠️ Hexarelin has high acute GH-stimulating potency among the older GHRPs, but its tolerability profile limits sustained use. Three load-bearing pharmacological detrents distinguish hexarelin from the cleaner ghrelin-receptor-agonist alternatives:\n\n- Dose-dependent cortisol elevation. The Massoud 1996 dose-response study found cortisol elevation begins at hexarelin doses ≥ IV (a step increase to ~40% above baseline at this dose).[³] At typical research-community SC doses ( in a 70-kg adult), cortisol elevation is a meaningful pharmacological concern.\n- Dose-dependent prolactin elevation. The same Massoud 1996 study found PRL elevation at all doses tested, with maximum response (~180% rise from baseline) IV.[³] Sustained elevation is a particular concern in research-community contexts where hexarelin is used long-term for muscle/recovery purposes.\n- GH-response tachyphylaxis (research-community reports) vs the published cortisol-axis finding. Research-community reports — unverified, not from published trials — cite GH-response decline of 50–80% within 2–4 weeks of daily use. The one published chronic-dosing study measured something different: in the Rahim 1999 study (twice-daily SC for 16 weeks), participants' cortisol-AUC response decreased from baseline (1506 ± 77 nmol/L/h) to week 16 (1222 ± 92 nmol/L/h — a ~19% reduction), returning to baseline (1586 ± 58 nmol/L/h) 4 weeks after discontinuation.[⁴] That is a pituitary-adrenal-axis adaptation, not a direct measurement of GH tachyphylaxis — Rahim did not measure GH response, and the authors judged the cortisol-AUC change unlikely to be of clinical significance, concluding that over-stimulation of the pituitary-adrenal axis and prolactin secretion did not occur. The two figures should not be equated.\n\nThe Massoud 1996 study also established that low-dose hexarelin combined with GHRH(1-29)NH2 produces massive synergistic GH release without cortisol elevation and with minimal prolactin elevation.[³] This finding is the basis for combining hexarelin with a GHRH analog (CJC-1295 no-DAC, sermorelin, tesamorelin) at low doses rather than running hexarelin alone at higher doses — the synergistic combination produces stronger GH response with cleaner side-effect profile.",
+        "⚠️ Hexarelin has high acute GH-stimulating potency among the older GHRPs, but its tolerability profile limits sustained use. Three load-bearing pharmacological detrents distinguish hexarelin from the cleaner ghrelin-receptor-agonist alternatives:\n\n- Dose-dependent cortisol elevation. The Massoud 1996 dose-response study found cortisol elevation begins at hexarelin doses ≥ IV (a step increase to ~40% above baseline at this dose).[³] At typical research-community SC doses ( in a 70-kg adult), cortisol elevation is a meaningful pharmacological concern.\n- Dose-dependent prolactin elevation. The same Massoud 1996 study found PRL elevation at all doses tested, with maximum response (~180% rise from baseline) IV.[³] Sustained elevation is a particular concern in research-community contexts where hexarelin is used long-term for muscle/recovery purposes.\n- GH-response tachyphylaxis (research-community reports) vs the published cortisol-axis finding. Research-community reports — unverified, not from published trials — cite GH-response decline of 50–80% within 2–4 weeks of daily use. The one published chronic-dosing study measured something different: in the Rahim 1999 study (twice-daily SC for 16 weeks), participants' cortisol-AUC response decreased from baseline (1506 ± 77 nmol/L/h) to week 16 (1222 ± 92 nmol/L/h — a ~19% reduction), returning to baseline (1586 ± 58 nmol/L/h) 4 weeks after discontinuation.[⁴] That is a pituitary-adrenal-axis adaptation, not a direct measurement of GH tachyphylaxis — Rahim's abstract reports no growth-hormone measurement, and the authors judged the cortisol-AUC change unlikely to be of clinical significance, concluding that over-stimulation of the pituitary-adrenal axis and prolactin secretion did not occur. The two figures should not be equated.\n\nThe Massoud 1996 study also established that low-dose hexarelin combined with GHRH(1-29)NH2 produces massive synergistic GH release without cortisol elevation and with minimal prolactin elevation.[³] This finding is the basis for combining hexarelin with a GHRH analog (CJC-1295 no-DAC, sermorelin, tesamorelin) at low doses rather than running hexarelin alone at higher doses — the synergistic combination produces stronger GH response with cleaner side-effect profile.",
         "⚠️ Hexarelin vs Ipamorelin — third GHS-axis entry warrants explicit cluster context. The library now has three ghrelin-receptor-agonist entries with substantially different pharmacology:\n\n- Ipamorelin — pentapeptide; the cleanest GHRP for clinical use; minimal cortisol/prolactin elevation at any dose; minimal tachyphylaxis. The default research-community choice for sustained GH-axis stimulation.\n- Hexarelin (this entry) — hexapeptide; high acute potency; dose-dependent cortisol/prolactin elevation; meaningful tachyphylaxis with sustained dosing. Generally not the preferred choice for sustained use but used in research-community contexts for its high acute potency and the cardioprotective preclinical evidence.\n- MK-677 / Ibutamoren — non-peptide oral small-molecule ghrelin agonist; very long half-life (~24 hours); CHF-safety-signal concern in elderly populations (Adunsky 2011 phase 2b DSMB termination); active phase 3 program at Lumos Pharma.\n\nThe \"alphabet soup\" of older GHRPs (GHRP-1, GHRP-2/pralmorelin, GHRP-3, GHRP-4, GHRP-5, GHRP-6, hexarelin/examorelin) all share the ghrelin-receptor-agonist mechanism but differ in potency, half-life, cortisol/prolactin selectivity, and tachyphylaxis profile. Hexarelin sits at the high-potency end of this older-GHRP family and is the only one in the Vialwise library; the others are not currently in the active pipeline (deferred to v2). Ipamorelin emerged as the modern default because it kept the GH-stimulating potency while substantially improving the side-effect-profile selectivity.",
         "⚠️ WADA-banned — explicitly named under Section S2.2.4 (Growth Hormone Releasing Factors → GHRP subsection) using the INN spelling \"examorelin (hexarelin)\". Section S2.2.4 of the 2026 and 2027 WADA Prohibited Lists[⁸] names *\"GH-releasing peptides (GHRPs) [e.g. alexamorelin, examorelin (hexarelin), GHRP-1, GHRP-2 (pralmorelin), GHRP-3, GHRP-4, GHRP-5 and GHRP-6]\"*.[⁶] Same WADA subsection (S2.2.4) as Ipamorelin, CJC-1295, Sermorelin, Tesamorelin, and MK-677. Prohibited at all times. Note the INN-vs-research-name distinction: WADA uses \"examorelin\" (INN) with parenthetical \"(hexarelin)\"; research-community use almost exclusively uses \"hexarelin.\" Same compound."
       ],
@@ -10573,7 +10573,7 @@
         },
         {
           "label": "Onset of action",
-          "value": "Acute GH peak within 30–60 minutes of injection. Subjective effects on body composition, recovery, and sleep typically reported within 2–4 weeks of consistent dosing — though tachyphylaxis often begins to manifest at the 2–4 week mark, limiting cycle duration."
+          "value": "Acute GH peak within 30–60 minutes of injection. Subjective effects on body composition, recovery, and sleep typically reported within 2–4 weeks of consistent dosing — though research-community reports, not published trials, describe tachyphylaxis beginning around 2–4 weeks."
         }
       ],
       "about": [
@@ -10581,7 +10581,7 @@
         "Mechanism. Based on articles retrieved from PubMed, hexarelin acts as an agonist at the ghrelin receptor (GHS-R1a) at both pituitary and hypothalamic levels to stimulate GH release in an age-dependent manner.[⁵] The mechanism is shared with all the GHRP-class peptides plus the non-peptide ghrelin-mimetic MK-677. Hexarelin is more potent than GHRP-6 (the original GHRP from which it was derived) but produces the dose-dependent cortisol and prolactin elevation that distinguishes it from the cleaner ghrelin-receptor agonists like Ipamorelin. The cortisol and prolactin effects are mediated by ghrelin-receptor activity at extra-pituitary sites — the receptor is expressed in adrenal and lactotroph tissue.[⁵]",
         "Age-related GH response variation. A foundational Bellone 1998 study published in the *Journal of Endocrinological Investigation* compared hexarelin GH response across four age groups: prepubertal children, pubertal children, young adults, and elderly subjects.[⁵] Hexarelin produces powerful GH stimulation in pubertal children and young adults but substantially weaker response in prepubertal children and elderly subjects. This age-dependent response pattern is shared across GHRPs and is the basis for hexarelin's limited utility for diagnostic GH-stimulation testing in the very young or elderly populations. The clinical implication for adult research-community use: hexarelin's GH-stimulation effect is strongest in young adults (the dominant research-community demographic) and progressively weaker with age.",
         "Cortisol and prolactin dose-response. The pivotal Massoud 1996 dose-response study in the *Journal of Clinical Endocrinology & Metabolism* established the modern understanding of hexarelin's hormonal selectivity.[³] In healthy adult males, IV hexarelin produced GH, PRL, and cortisol release in a dose-dependent manner: GH response plateaued at 140 mU/L corresponding to a hexarelin dose with ED50; PRL response plateaued at 180% maximum rise from baseline corresponding with ED50; cortisol response showed a step increase to ~40% above baseline. Critically, the Massoud study also demonstrated that low-dose hexarelin combined with GHRH(1-29)NH2 produced massive synergistic GH release (115 ± 32.8 mU/L) without cortisol elevation and with only moderate prolactin rise (84.9 ± 27.5%) — establishing the rationale for combining hexarelin with GHRH analogs at low doses rather than running hexarelin alone at higher doses.[³]",
-        "Chronic-administration tachyphylaxis (Rahim 1999 study). Per PubMed, the Rahim 1999 *Clinical Endocrinology* study established the chronic-administration profile.[⁴] Subjects received twice-daily SC hexarelin for 16 weeks. The cortisol-AUC response decreased significantly from baseline (1506 ± 77 nmol/L/h) to week 16 (1222 ± 92 nmol/L/h, p<0.05), then returned to baseline (1586 ± 58 nmol/L/h) 4 weeks after discontinuation — confirming tachyphylaxis is real, dose-frequency-dependent, and reversible after washout. No significant change in basal cortisol, urinary free cortisol, or ACTH-AUC over the study period. Prolactin AUC was unchanged at 16 weeks vs baseline. The Rahim study is reassuring on the chronic-cortisol-elevation question — sustained twice-daily dosing did not produce sustained hyperprolactinemia or hypercortisolemia at the dose tested.",
+        "Chronic administration (Rahim 1999 study). Per PubMed, the Rahim 1999 *Clinical Endocrinology* study established the chronic-administration profile.[⁴] Subjects received twice-daily SC hexarelin for 16 weeks. The cortisol-AUC response decreased significantly from baseline (1506 ± 77 nmol/L/h) to week 16 (1222 ± 92 nmol/L/h, p<0.05), then returned to baseline (1586 ± 58 nmol/L/h) 4 weeks after discontinuation, so the cortisol-axis change reversed after stopping. Its abstract reports no growth-hormone measurement, so it does not show whether the GH response fades; that fade is described in research-community reports. No significant change in basal cortisol, urinary free cortisol, or ACTH-AUC over the study period. Prolactin AUC was unchanged at 16 weeks vs baseline. The Rahim study is reassuring on the chronic-cortisol-elevation question — sustained twice-daily dosing did not produce sustained hyperprolactinemia or hypercortisolemia at the dose tested.",
         "Cardioprotective preclinical research thread. Hexarelin has been investigated for cardiovascular applications in preclinical and limited clinical studies — particularly for cardioprotective effects in models of myocardial ischemia and post-infarct remodeling. The mechanism is hypothesized to involve cardioprotective effects of ghrelin-receptor activation distinct from the GH-axis effects. This is the most-cited \"alternative use case\" thread in the hexarelin literature beyond the dominant GH-stimulation use case. Specific clinical translation has not advanced.",
         "Regulatory status (US — current). Hexarelin is not FDA-approved for any indication. Mediolanum's clinical development program was discontinued. The compound is available exclusively as a research peptide through unregulated research-peptide supply chains; not legally compoundable through US 503A pharmacies (the compound is not on the 503A bulks list, and per the broader peptide-bulks-list regulatory situation as of 2024, is not approved for compounding). Not DEA-scheduled.",
         "Regulatory status (sport — WADA). Hexarelin is WADA-banned under Section S2.2.4 (Growth Hormone Releasing Factors → GHRP subsection) of the 2026 and 2027 Prohibited Lists, named explicitly using the INN spelling \"examorelin (hexarelin)\" alongside alexamorelin, GHRP-1, GHRP-2 (pralmorelin), GHRP-3, GHRP-4, GHRP-5, and GHRP-6.[⁶][⁸] Same WADA subsection as Ipamorelin, CJC-1295, Sermorelin, Tesamorelin, and MK-677. Prohibited at all times.",
@@ -10660,7 +10660,7 @@
         "common": [
           "Cortisol elevation — dose-dependent; meaningful at higher doses (≥ per the Massoud 1996 dose-response study). Reduced or absent at low doses combined with GHRH analog.",
           "Prolactin elevation — dose-dependent; meaningful at higher doses; clinically relevant if sustained",
-          "Tachyphylaxis (GH-response decline with sustained use) — confirmed in chronic-administration studies; reversible after washout",
+          "Tachyphylaxis (GH-response decline with sustained use) — described in research-community reports; the published 16-week study measured cortisol and prolactin, not GH response[⁴]",
           "Injection site reactions — typical of subcutaneous peptide injection",
           "Water retention / fluid retention — common; same as other GHS-class compounds",
           "Increased appetite — common; ghrelin-receptor agonism is the mechanism",
@@ -10693,7 +10693,7 @@
         "Use the Vialwise calculator to confirm exact insulin units for a given dose. Amounts in research-community protocols ( once daily for the first 1–2 weeks, then one to three times daily in 4–6 week cycles; see Dosing Protocol) come from community practice, not from trials. Verify the units field shows \"mcg\" before entering the dose.",
         "Pre-bedtime is the typical timing in research-community protocols. The Loche 1997 study found GH-AUC response is higher during sleep than during morning hours, supporting the bedtime-timing convention.[²]",
         "Inject subcutaneously into a standard subcutaneous site (abdomen most common). Rotate sites between injections.",
-        "Cycle structure. Research-community protocols run 4–6 week cycles followed by a 4+ week washout (see Dosing Protocol), because community reports describe the GH response fading within 2–4 weeks of consistent dosing. The published 16-week study did not measure GH response; it found a cortisol-response change that reversed 4 weeks after stopping.[⁴]",
+        "Cycle structure. Research-community protocols run 4–6 week cycles followed by a 4+ week washout (see Dosing Protocol), because community reports describe the GH response fading within 2–4 weeks of consistent dosing. The published 16-week study's abstract reports no growth-hormone measurement; it found a cortisol-response change that reversed 4 weeks after stopping.[⁴]",
         "Recheck morning cortisol and prolactin at 4–6 weeks. Discontinue if either rises above the normal range."
       ],
       "citations": [
@@ -10866,7 +10866,7 @@
         },
         {
           "label": "FDA-approved adult GHD dosing[¹][²][⁴][⁵]",
-          "value": "Starting: SC, no weight-based titration. Increase at 1–2 month intervals. Goal: mid-normal IGF-1 range; rarely exceeds. Some labels use weight-based starting (e.g., Genotropin: not more than/week at the start, which is for a 70 kg adult, divided into 6–7 daily SC injections)."
+          "value": "Starting: SC, no weight-based titration. Increase at 1–2 month intervals. Goal: mid-normal IGF-1 range. Some labels use weight-based starting (e.g., Genotropin: not more than/week at the start, which is for a 70 kg adult, divided into 6–7 daily SC injections)."
         },
         {
           "label": "FDA-approved pediatric GHD dosing[⁴]",
@@ -10932,8 +10932,7 @@
         ]
       },
       "dosingProtocol": {
-        "startingDose": "SC (non-weight-based; lower starting in older patients, women on oral estrogen, and patients with diabetes / pre-diabetes)",
-        "maximumDose": "Rarely exceeds in adult GHD; some patients achieve adequate IGF-1 levels"
+        "startingDose": "The Genotropin label's non-weight-based adult starting dose is SC (range), used without regard to body weight.[⁴] The label advises considering a lower starting dose and smaller increments in older patients, and notes that women on oral estrogen may need larger doses.[⁴]"
       },
       "stacks": {
         "combinations": [
@@ -12052,7 +12051,7 @@
         ]
       },
       "dosingProtocol": {
-        "startingDose": "SC 1× daily for 1–2 weeks to assess tolerance (subjective effects, injection-site reaction)"
+        "startingDose": "Amounts in research-community protocols ( of kisspeptin-10 once daily for the first 1–2 weeks; for the first 3–5 doses in some protocols) come from community practice, not from trials."
       },
       "stacks": {
         "combinations": [
@@ -12840,7 +12839,7 @@
       },
       "disclosures": [
         "⚠️ Letrozole is FDA-approved for postmenopausal breast cancer indications, but all use in men is off-label. Information in this entry is informational, not medical advice. Always confirm dose calculations and consult appropriate professional guidance before any protocol decisions, particularly for off-label men's-health use which lacks FDA-approval-grade clinical guidance.",
-        "⚠️ Pill-splitting accuracy at sub-1-mg doses. Letrozole's FDA-approved dose for breast cancer is once daily — a single full Femara tablet. Off-label men's-health protocols typically use much lower doses (often per dose, several times per week), requiring pill-splitting of the tablet into halves, quarters, or eighths. Pill-splitting accuracy degrades substantially below the half-tablet level — a quartered or eighthed tablet will rarely produce equal doses. Researchers using letrozole at sub- doses should use a tablet splitter and accept that day-to-day dose variability will be greater than the nominal dose suggests. Compounded letrozole (available from 503A pharmacies) at custom strengths (e.g. or capsules) is a more precise alternative.",
+        "⚠️ Pill-splitting accuracy at sub-1-mg doses. Letrozole's FDA-approved dose for breast cancer is once daily — a single full Femara tablet. Off-label men's-health protocols typically use much lower doses (often per dose, several times per week), requiring pill-splitting of the tablet into halves, quarters, or eighths. Pill-splitting accuracy degrades substantially below the half-tablet level — a quartered or eighthed tablet will rarely produce equal doses. Researchers using letrozole at sub- doses should use a tablet splitter and accept that day-to-day dose variability will be greater than the nominal dose suggests. Compounded letrozole (available from 503A pharmacies) comes as capsules at custom strengths (e.g. or), which are not split.",
         "⚠️ Off-label men's-health use is supported by mechanism but not by RCT-grade efficacy data for somatic or psychological endpoints. A 2013 randomized placebo-controlled trial of low-dose letrozole in obese men with hypogonadotropic hypotestosteronemia (Loves et al.) confirmed letrozole effectively suppresses estradiol and raises testosterone, but found no significant somatic or psychological benefits at the predefined endpoints (body composition, exercise capacity, glucose/lipid/bone metabolism, psychological function).[³] This is an important nuance for researchers extrapolating breast cancer trial data into men's-health use: the biochemical effect is robust and reproducible, but the clinical translation to symptom or body-composition benefit in men is not established by the available RCT evidence base.",
         "⚠️ Letrozole achieves near-complete aromatase inhibition at its standard dose. Letrozole produces approximately >99% aromatase inhibition at the standard dose; anastrozole produces ~97%. This translates to greater estradiol suppression — which is the goal in postmenopausal breast cancer adjuvant therapy, but is the load-bearing safety concern in men's-health off-label use, where over-suppression of estradiol produces clinically meaningful harm (mood disturbance, low-libido, joint pain, accelerated bone loss). Researchers switching from anastrozole to letrozole or considering letrozole as a first-line off-label AI should account for the higher per-mg potency in their starting dose selection.",
         "⚠️ WADA-prohibited at all times under S4.1. Letrozole is listed by name on the 2026 and 2027 WADA Prohibited Lists under Section S4.1 (Aromatase Inhibitors).[⁵][⁷] Aromatase inhibitors are Specified Substances under WADA — meaning the standard adverse-finding penalty path applies (typically 2-year ban for a first violation, reducible upon establishment of no fault or no significant fault). Researchers competing in WADA-tested sport should not use letrozole."
@@ -12881,7 +12880,7 @@
         "storageBeforeReconstitution": "Room temperature 20–25°C (68–77°F), away from moisture and light. Do not refrigerate. Tablets and compounded capsules typically have manufacturer-specified expiry of 24–36 months from manufacture date."
       },
       "dosingProtocol": {
-        "startingDose": "orally once daily for 5 years (adjuvant) or until disease progression (advanced).[¹]",
+        "startingDose": "The Femara label's dose is orally once daily, continued until tumor progression in advanced disease; for adjuvant use the label states that the optimal duration is unknown and that median treatment in its adjuvant studies was 5 years.[²] The BIG 1-98 adjuvant trial compared five years of treatment, with letrozole daily.[¹]",
         "maximumDose": "In breast cancer adjuvant trials is the standard and only studied dose. Doses above have not been studied for additional efficacy and are not used clinically. In off-label men's-health use, doses above are not reported in any published or research-community-attributed protocol — over-suppression risk dominates."
       },
       "stacks": {
@@ -12936,7 +12935,7 @@
       ],
       "firstTimeWalkthrough": [
         "Establish a clear baseline. Before starting letrozole for off-label men's-health use, obtain baseline serum total testosterone, free testosterone, sensitive estradiol (LC-MS/MS preferred over immunoassay), LH, FSH, SHBG, lipid panel, comprehensive metabolic panel, and DEXA bone density (if not measured in the past 2 years). Letrozole's effects on bone and lipid metabolism make these baseline values load-bearing for safety monitoring during the course.",
-        "Decide on the dose form. A tablet splits into halves with reasonable accuracy, but quarters and eighths split unevenly; compounded capsules from a 503A pharmacy, dispensed at exact strengths, are the more precise option below (see Reconstitution).",
+        "Decide on the dose form. A tablet splits into halves with reasonable accuracy, but quarters and eighths split unevenly; compounded capsules from a 503A pharmacy are dispensed at exact strengths below (see Reconstitution).",
         "Off-label amounts in men. Amounts in research-community protocols ( twice weekly in conservative TRT-adjunct protocols, higher in AAS-cycle protocols; see Dosing Protocol) come from community practice, not from trials. Protocols that begin low do so to avoid over-suppressing estradiol, raising the amount later only if labs at week 4–8 call for it.",
         "It is taken orally, with or without food. Steady-state plasma levels are reached in 2–6 weeks of consistent dosing.",
         "Monitor at 4–8 weeks. Repeat sensitive estradiol, total testosterone, and clinical assessment of estradiol-related symptoms. Goal estradiol typically in the 20–40 pg/mL range; below 20 pg/mL is over-suppression territory.",
@@ -13298,15 +13297,27 @@
         ]
       },
       "dosingProtocol": {
-        "startingDose": "Week 1: SC daily (initiation, not therapeutic — designed to mitigate GI side effects)",
+        "startingDose": "The label's starting dosage for adults is SC once daily for one week, intended to reduce gastrointestinal side effects and not effective for glycemic control.[⁴]",
         "titrationSchedule": [
           {
             "weeks": "Week 1",
-            "dose": "SC daily (initiation, not therapeutic — designed to mitigate GI side effects)"
+            "dose": "SC daily"
           },
           {
-            "weeks": "Week 2+",
+            "weeks": "Week 2",
             "dose": "SC daily"
+          },
+          {
+            "weeks": "Week 3",
+            "dose": "SC daily"
+          },
+          {
+            "weeks": "Week 4",
+            "dose": "SC daily"
+          },
+          {
+            "weeks": "Week 5 onward",
+            "dose": "SC daily (maintenance)"
           }
         ],
         "maximumDose": "T2D efficacy: max studied in LEAD trials and confirmed in LEADER"
@@ -14523,7 +14534,7 @@
         "Melanotan II is a synthetic cyclic heptapeptide analog of α-melanocyte-stimulating hormone (α-MSH), developed at the University of Arizona in the late 1980s and early 1990s by Victor Hruby, Mac Hadley, Robert Dorr, and Norman Levine — the same research group that established the foundational pharmacology of the melanocortin receptor system. The original program aim was to develop stable α-MSH analogs capable of stimulating melanogenesis as a photoprotective strategy — the hypothesis being that increasing baseline melanin density might reduce ultraviolet radiation damage to skin and decrease skin cancer risk. The compound was patented by the University of Arizona and licensed to Competitive Technologies, then to Palatin Technologies for clinical development.[²]",
         "Mechanism. MT-II is a broad-spectrum melanocortin receptor agonist that activates four of the five melanocortin receptor subtypes:\n- MC1R (skin/hair) — drives melanogenesis (the tanning effect)\n- MC3R and MC4R (CNS) — drive sexual function effects (spontaneous erections, libido elevation), appetite suppression, and energy expenditure\n- MC5R (exocrine glands) — minor role in sebum production and other peripheral effects\n- No significant MC2R binding (MC2R is the adrenocortical ACTH receptor; absence of MC2R activity means MT-II does not produce adrenal stimulation effects)",
         "This broad-spectrum receptor profile distinguishes MT-II from PT-141/bremelanotide (which has the same receptor profile but with different selectivity) and from later-generation selective MC4R agonists like setmelanotide (Imcivree, FDA-approved 2020 for genetic obesity).",
-        "Development history and the bremelanotide pivot. The original Phase I clinical study of MT-II was published in 1996 by Dorr, Lines, Levine, Brooks, Xiang, Hruby, and Hadley as \"Evaluation of melanotan-II, a superpotent cyclic melanotropic peptide in a pilot phase-I clinical study.\"[²] The trial established that MT-II produced reliable tanning at doses /day SC. This pilot enrolled only 3 male volunteers, and it reported spontaneous penile erections qualitatively (occurring 1–5 hours post-dose, correlated with stretching and yawning) rather than as a proportion — an unanticipated observation that ultimately redirected the entire development program. A quantified figure comes from a later, separate trial: the Wessells 1998 double-blind placebo-controlled crossover study in men with psychogenic erectile dysfunction reported that \"in 8 of 10 men treated with Melanotan-II clinically apparent erections developed.\"[⁷] Palatin Technologies discontinued MT-II development in 2000 in favor of developing bremelanotide (a deaminated metabolite of MT-II with hydroxyl rather than amide C-terminus) specifically for the sexual function indication. Bremelanotide subsequently advanced through FDA approval as Vyleesi (NDA 210557) in June 2019 for hypoactive sexual desire disorder (HSDD) in premenopausal women. MT-II itself never advanced to NDA submission — the original tanning indication never produced sufficient safety data to support FDA approval, and the program's redirection to bremelanotide left MT-II as an abandoned development candidate. See the PT-141 (Bremelanotide) entry.",
+        "Development history and the bremelanotide pivot. The original Phase I clinical study of MT-II was published in 1996 by Dorr, Lines, Levine, Brooks, Xiang, Hruby, and Hadley as \"Evaluation of melanotan-II, a superpotent cyclic melanotropic peptide in a pilot phase-I clinical study.\"[²] In that pilot study of 3 men, 2 had increased pigmentation a week after the last of 5 doses given every other day, and the authors recommended/day SC for future Phase I studies. This pilot enrolled only 3 male volunteers, and it reported spontaneous penile erections qualitatively (occurring 1–5 hours post-dose, correlated with stretching and yawning) rather than as a proportion — an unanticipated observation that ultimately redirected the entire development program. A quantified figure comes from a later, separate trial: the Wessells 1998 double-blind placebo-controlled crossover study in men with psychogenic erectile dysfunction reported that \"in 8 of 10 men treated with Melanotan-II clinically apparent erections developed.\"[⁷] Palatin Technologies discontinued MT-II development in 2000 in favor of developing bremelanotide (a deaminated metabolite of MT-II with hydroxyl rather than amide C-terminus) specifically for the sexual function indication. Bremelanotide subsequently advanced through FDA approval as Vyleesi (NDA 210557) in June 2019 for hypoactive sexual desire disorder (HSDD) in premenopausal women. MT-II itself never advanced to NDA submission — the original tanning indication never produced sufficient safety data to support FDA approval, and the program's redirection to bremelanotide left MT-II as an abandoned development candidate. See the PT-141 (Bremelanotide) entry.",
         "Regulatory status (US — current). MT-II is illegal to market, sell, or purchase for human consumption in the United States. The FDA has issued multiple warning letters to companies marketing MT-II as a \"tanning injection,\" and has pursued border seizures and website takedowns of online sellers. Specific FDA enforcement actions include warning letters to Melanocorp and proceedings against Edward Manookian (Docket FDA-2015-N-4169).[¹] MT-II is not FDA-approved for any indication and is not available through any legal pharmaceutical or compounding-pharmacy channel in the US. All MT-II in current US use is obtained through unregulated research-peptide supply chains, with substantial variability in product purity and potency.",
         "Regulatory status (international). MT-II is similarly restricted for human use in the UK (MHRA), Australia (TGA), New Zealand, and several other regulated markets. Australia is now the strictest market: beyond the explicit consumer-warning advisory issued in 2023, the TGA reclassified melanotan II from Schedule 4 to Schedule 9 (prohibited substance) in February 2026, and in May 2026 issued 27 infringement notices totalling approximately AUD $101,412 to an individual alleged to have supplied melanotan II.[¹²] Enforcement in Australia is therefore active and current, not merely advisory. The compound has no human-use approval in any major Western regulatory framework. The \"Barbie drug\" media nickname (referencing the tanning + appetite-suppression + libido side-effect cluster) has produced periodic media attention to MT-II's underground use.",
         "Regulatory status (sport — WADA). Melanotan II is not named on the WADA 2026 or 2027 Prohibited List, and neither List mentions melanotan, melanocortins, MSH or bremelanotide.[¹³][¹⁴] Not being named does not make it permitted. WADA's S0 (Non-Approved Substances) prohibits at all times any pharmacological substance \"with no current approval by any governmental regulatory health authority for human therapeutic use\", and melanotan II has never been approved as a medicine anywhere, so S0 covers it by default. The 2027 List adds \"peptides\" to S0's examples, and WADA's notes on that change say a peptide may still be prohibited even if it is not named.[¹⁵] PT-141 (bremelanotide) is different: it is an FDA-approved medicine, so S0 does not reach it.",
@@ -16860,7 +16871,7 @@
         {
           "index": 1,
           "reference": "Par Pharmaceutical. Pitocin (Oxytocin Injection, USP) Synthetic — prescribing information. US FDA, NDA 018261 (label revision 2021, s041).",
-          "verified": false
+          "verified": true
         },
         {
           "index": 2,
@@ -17634,7 +17645,7 @@
         },
         {
           "label": "Common formulations",
-          "value": "Oral capsules (most common in research-community use): per capsule. Russian clinical formulation comes as oral capsules. Research-peptide injectable: less commonly encountered; lyophilized vials."
+          "value": "Oral capsules (most common in research-community use): per capsule. Research-peptide injectable: less commonly encountered; lyophilized vials."
         },
         {
           "label": "Frequency",
@@ -17646,7 +17657,7 @@
         },
         {
           "label": "Route",
-          "value": "Oral (most common in Russian clinical and research-community use). Subcutaneous (research-community use, less common)."
+          "value": "Oral (most common in research-community use). Subcutaneous (research-community use, less common)."
         },
         {
           "label": "Onset of action",
@@ -17680,7 +17691,7 @@
       },
       "dosingProtocol": {
         "startingDose": "",
-        "maximumDose": "Khavinson group studies have used Pinealon at doses per dose without reported adverse effects. Toxicology data at higher doses is essentially absent in the published Western literature."
+        "maximumDose": "No study cited in this entry establishes a maximum human dose. Toxicology data at higher doses is essentially absent in the published Western literature."
       },
       "stacks": {
         "combinations": [
@@ -17717,7 +17728,7 @@
         "Regulatory note (WADA): Pinealon is not listed in the 2026 or 2027 WADA Prohibited List[⁴]. Not-named is not not-prohibited: WADA's S0 (Non-Approved Substances) prohibits at all times any pharmacological substance \"with no current approval by any governmental regulatory health authority for human therapeutic use\", which describes this compound — so S0 captures it by default and it is off-limits in drug-tested sport.[³]"
       ],
       "firstTimeWalkthrough": [
-        "Verify product authenticity and labeled potency. The Russian clinical formulation comes in pre-formulated capsules. Research-community oral capsules vary by source; purchase from sources with established reputation.",
+        "Verify product authenticity and labeled potency. Oral capsules are the most common form in research-community use. Research-community oral capsules vary by source; purchase from sources with established reputation.",
         "Confirm the product is Pinealon (EDR / Glu-Asp-Arg), not a different Khavinson peptide. Several Khavinson short peptides exist with different sequences and proposed indications. Vendor labels should specify Pinealon or the EDR sequence explicitly.",
         "Pinealon capsules are taken orally, with or without food. The proposed oral bioavailability mechanism (per the Khavinson framework) is not strongly food-dependent.",
         "Course structure. Amounts in research-community protocols (10–30 days on, then 30–60 days off) come from community practice, not from trials. The cumulative effect, if present, builds across the course rather than acutely.",
@@ -18131,7 +18142,7 @@
         "Attach a fresh pen needle; dial the prescribed mcg dose.",
         "Inject SC into abdomen or thigh (not arm), separate site from insulin, immediately before a major meal (≥250 kcal / ≥30 g carb).",
         "Monitor glucose closely pre- and post-meal, especially the first 3 hours and during titration.",
-        "Skip the dose if you skip the meal. Log dose, site, nausea, and any hypoglycemia."
+        "Meals and doses. The label says to skip the dose if the meal is skipped.[¹] Log dose, site, nausea, and any hypoglycemia."
       ],
       "citations": [
         {
@@ -18552,7 +18563,7 @@
         ]
       },
       "dosingProtocol": {
-        "startingDose": "SC, administered in the abdomen or thigh via the Vyleesi pre-filled autoinjector, as needed, at least 45 minutes before anticipated sexual activity"
+        "startingDose": "SC, administered in the abdomen or thigh via the Vyleesi pre-filled autoinjector, as needed, at least 45 minutes before anticipated sexual activity[⁴]"
       },
       "stacks": {
         "combinations": [
@@ -19018,30 +19029,12 @@
         ]
       },
       "dosingProtocol": {
-        "startingDose": "weekly for the first 4 weeks (titration arm).",
-        "titrationSchedule": [
-          {
-            "weeks": "Week 1–4",
-            "dose": "weekly"
-          },
-          {
-            "weeks": "Week 5–8",
-            "dose": "weekly"
-          },
-          {
-            "weeks": "Week 9–12",
-            "dose": "weekly"
-          },
-          {
-            "weeks": "Week 13+",
-            "dose": "weekly"
-          }
-        ],
-        "maximumDose": "weekly.",
+        "startingDose": "",
+        "maximumDose": "weekly.[¹][⁴]",
         "notes": [
-          "The schedule above is the *phase 2* titration. The phase 3 program used different target doses —, and weekly in both TRIUMPH-1 (obesity)[⁷] and TRANSCEND-T2D-1 (type 2 diabetes)[⁶], each reached via its own protocol-specified escalation. The step above does not appear as a phase 3 target dose.",
-          "The Rosenstock 2023 T2D phase 2 trial used a starting dose (lower than the obesity trial's starting dose), so the range is fully trial-validated when both phase 2 programs are considered together.[⁴]",
-          "Sub- starting doses (e.g. weekly) and twice-weekly split-dose protocols are reported in researcher communities but are not validated in published trials. These should be presented to users as observational, not recommended."
+          "The sequence above is from the *phase 2* trial. The phase 3 program used different target doses —, and weekly in both TRIUMPH-1 (obesity)[⁷] and TRANSCEND-T2D-1 (type 2 diabetes)[⁶], each reached via its own protocol-specified escalation. The step above does not appear as a phase 3 target dose.",
+          "The Rosenstock 2023 T2D phase 2 trial included a once-weekly maintenance-dose arm alongside arms (initial dose),[⁴] so weekly doses were studied across the two phase 2 trials.[¹][⁴]",
+          "Amounts in research-community protocols (initial doses below, e.g. weekly, and a weekly dose split into two half-doses given twice weekly) come from community practice, not from trials."
         ]
       },
       "stacks": {
@@ -19269,7 +19262,7 @@
         },
         {
           "label": "Onset of action",
-          "value": "Subjective anxiolytic effects typically reported within 30–60 minutes of intranasal administration in research-community reports. The Russian clinical protocol for generalized anxiety disorder evaluates response over a 14-day course, suggesting cumulative effects build with repeated dosing.[¹]"
+          "value": "Subjective anxiolytic effects typically reported within 30–60 minutes of intranasal administration in research-community reports."
         }
       ],
       "about": [
@@ -19315,7 +19308,7 @@
       },
       "dosingProtocol": {
         "startingDose": "",
-        "maximumDose": "Russian clinical research has used Selank at doses intranasally without notable adverse effects. Research-community use rarely exceeds. Toxicology data at higher doses is essentially absent in the published Western literature."
+        "maximumDose": "No source cited in this entry states a maximum studied dose. Amounts in research-community protocols (rarely above) come from community practice, not from trials. Toxicology data at higher doses is essentially absent in the published Western literature."
       },
       "stacks": {
         "combinations": [
@@ -19375,7 +19368,7 @@
         "Amounts in research-community intranasal protocols (1 spray of about per nostril, 2–3 times daily– a day in total; see Dosing Protocol) come from community practice, not from trials.",
         "Apply intranasally, holding the spray bottle vertically and exhaling gently before each spray to avoid pushing the dose down the back of the throat. Inhale gently after the spray to draw the medication onto the nasal mucosa.",
         "Avoid blowing the nose for 15–30 minutes after administration to allow nasal absorption.",
-        "Log the dose, the timing, and a baseline note (subjective anxiety, mood, focus, sleep quality) immediately after administration. Track over the cycle — Selank's effects can be acute (anxiolytic effect within 30–60 minutes) but the antiasthenic/cognitive effects build over consecutive days of use, per the 14-day Russian clinical protocol pattern.[¹]",
+        "Log the dose, the timing, and a baseline note (subjective anxiety, mood, focus, sleep quality) immediately after administration. Track over the cycle — Selank's effects can be acute (anxiolytic effect within 30–60 minutes) and the Russian clinical trial also reported antiasthenic effects.[¹]",
         "After 5–14 days, reassess. If effects are not detectable, Selank may not be the right tool for the application at hand. If side effects (over-stimulation, insomnia, headache) are present, stop and reassess.",
         "For acute pre-event use (public speaking, performance anxiety, exam), the amounts in research-community protocols (1–2 sprays per nostril 30–60 minutes before the event) come from community practice, not from trials."
       ],
@@ -19604,32 +19597,32 @@
         ]
       },
       "dosingProtocol": {
-        "startingDose": "Week 1–4: weekly",
+        "startingDose": "Weeks 1–4: weekly, the label's starting dosage.[⁸]",
         "titrationSchedule": [
           {
-            "weeks": "Week 1–4",
-            "dose": "weekly"
+            "weeks": "Weeks 1–4",
+            "dose": "weekly, the label's starting dosage."
           },
           {
-            "weeks": "Week 5–8",
-            "dose": "weekly"
+            "weeks": "Weeks 5–8",
+            "dose": "weekly."
           },
           {
-            "weeks": "Week 9–12",
-            "dose": "weekly"
+            "weeks": "Weeks 9–12",
+            "dose": "weekly."
           },
           {
-            "weeks": "Week 13–16",
-            "dose": "weekly"
+            "weeks": "Weeks 13–16",
+            "dose": "weekly."
           },
           {
-            "weeks": "Week 17+ (maintenance, by use)",
-            "dose": "weight reduction in adults or (recommended) weekly, and after at least 4 weeks on, if additional weight reduction is clinically indicated, up to a maximum weekly; cardiovascular risk reduction in adults (recommended) or weekly; weight reduction in patients aged 12 and older (recommended) or weekly; noncirrhotic MASH in adults weekly, decreased weekly if is not tolerated, with re-escalation weekly to be considered"
+            "weeks": "Week 17 onward, the label's maintenance dosage by use",
+            "dose": "weight reduction in adults or (recommended) weekly, and the label allows an increase to a maximum weekly for patients who tolerate for at least 4 weeks and for whom additional weight reduction is clinically indicated; cardiovascular risk reduction in adults (recommended) or weekly; weight reduction in patients aged 12 and older (recommended) or weekly; noncirrhotic MASH in adults weekly, which the label allows to be decreased weekly if is not tolerated, with re-escalation weekly to be considered."
           }
         ],
-        "maximumDose": "Wegovy label maximum weekly subcutaneous (weight reduction in adults only); STEP-1 trial maximum weekly (trial data); weekly subcutaneous (Ozempic T2D indication); daily oral (Rybelsus); daily oral (Ozempic tablets, US, since May 2026: the label's top dose, one tablet a day);[¹⁶] daily oral (Wegovy pill: the label's maintenance dose, one tablet a day).[⁸]",
+        "maximumDose": "Wegovy label maximum weekly subcutaneous (weight reduction in adults only);[⁸] STEP-1 trial maximum weekly;[¹] Ozempic label maximum weekly subcutaneous (type 2 diabetes);[⁶] daily oral (Rybelsus: the label's top dose);[¹¹] daily oral (Ozempic tablets, US, since May 2026: the label's top dose, one tablet a day);[¹⁶] daily oral (Wegovy pill: the label's maintenance dose, one tablet a day).[⁸]",
         "notes": [
-          "Researcher communities sometimes report sub- starting doses (e.g.) and slower titration schedules to reduce gastrointestinal side effects. These are not validated in published trials and are reported here as observations, not recommendations."
+          "Some research-community protocols use first amounts below the label starting dose, and slower step-ups, described as a way to limit gastrointestinal side effects. Amounts in research-community protocols (e.g. as a first weekly amount) come from community practice, not from trials. These are not validated in published trials and are reported here as observations, not recommendations."
         ]
       },
       "stacks": {
@@ -19880,7 +19873,7 @@
       },
       "disclosures": [
         "⚠️ Semax is not approved by the FDA or any major Western regulatory agency as a pharmaceutical drug for any indication. Information in this entry is informational, not medical advice. Always confirm dose calculations and consult appropriate professional guidance before any protocol decisions.",
-        "⚠️ Precision matters at low doses. Semax is dosed in micrograms per dose for both intranasal ( per spray, 1–6 sprays per day) and injectable ( per dose) routes. At small-volume injectable forms (typical reconstitution in 5 mL →, producing draws in the range), even a one-unit error is a meaningful percentage of the dose. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting.",
+        "⚠️ Precision matters at low doses. Research-community Semax use is dosed in micrograms per dose, intranasal or injectable ( per dose in research-community injectable protocols, which come from community practice, not from trials). At small-volume injectable forms (typical reconstitution in 5 mL →, producing draws in the range), even a one-unit error is a meaningful percentage of the dose. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting.",
         "⚠️ Russian regulatory framework, thinner Western evidence base. As with Selank, Semax's clinical evidence base is predominantly in Russian-language literature, much of which is not consistently PubMed-indexed.[¹] The Russian regulatory framework approved Semax for clinical use in stroke recovery and cognitive indications based on this Russian clinical evidence base. Western (English-language, PubMed-indexed) clinical evidence is much thinner — there is no FDA-approval-grade large-scale RCT of Semax for stroke, cognitive disorders, or any other indication in major Western journals. The PubMed-indexed Semax literature is heavily skewed toward preclinical mechanism work (rat models of cerebral ischemia, BDNF/TrkB regulation, transcriptomic studies)[²][³] rather than human clinical evidence. Researchers should be explicit with themselves about the asymmetric evidence base.",
         "⚠️ Mechanism — BDNF/TrkB upregulation and broad gene-expression modulation. Semax's neuroprotective and cognitive effects are attributed primarily to upregulation of brain-derived neurotrophic factor (BDNF) and its signaling receptor TrkB in the hippocampus,[²] alongside broad genome-wide modulation of inflammatory and neurotransmission gene expression in cerebral ischemia models.[³] In animal models of focal cerebral ischemia, Semax administration suppresses inflammatory gene expression and activates neurotransmission gene expression — partially compensating for the gene-expression patterns disrupted during ischemia-reperfusion injury.[³] Semax also rapidly activates serotonergic and dopaminergic brain systems. The original structural design rationale was to create a stable, biologically active analog of the ACTH(4-10) fragment (which has cognitive effects but very short in-vivo half-life) by adding the Pro-Gly-Pro (PGP) C-terminal tripeptide.",
         "⚠️ Sister compound to Selank — designed for complementary use. Semax (cognitive/neuroprotective) and Selank (anxiolytic/immunomodulatory) were developed at the same institution (Institute of Molecular Genetics, Russian Academy of Sciences) and are commonly used together in Russian-nootropic research-community protocols. The two are mechanistically distinct (Semax is BDNF/TrkB-driven; Selank is GABAergic-transcriptional and monoamine-modulatory) but share the same regulatory framework, the same intranasal administration route, and the same Russian institutional research tradition. See the Selank entry for the cluster-coherent sister entry."
@@ -19892,7 +19885,7 @@
         },
         {
           "label": "Common formulations",
-          "value": "Intranasal drops or spray (most common — Russian clinical formulation): 0.1% solution (typical), with the higher-strength 1% formulation also clinically registered for stroke indications. Research-peptide injectable: lyophilized vials are most common; and vials also encountered."
+          "value": "Intranasal drops or spray (most common — Russian clinical formulation): Semax is registered in Russia as 0.1% and 1% nasal drops.[⁶] Research-peptide injectable: lyophilized vials are most common; and vials also encountered."
         },
         {
           "label": "Frequency",
@@ -19908,7 +19901,7 @@
         },
         {
           "label": "Onset of action",
-          "value": "Subjective cognitive/focus effects typically reported within 30–60 minutes of intranasal administration in research-community reports. The Russian clinical neuroprotective protocols evaluate response over 5–10-day courses for acute stroke recovery; cognitive support protocols evaluate response over 14–30-day courses.[¹]"
+          "value": "Subjective cognitive/focus effects typically reported within 30–60 minutes of intranasal administration in research-community reports. In the Gusev 1997 acute stroke trial, courses were 5 days for moderate strokes and 10 days for severe strokes.[¹] Cognitive-support courses of 14–30 days in research-community protocols come from community practice, not from trials."
         }
       ],
       "about": [
@@ -19955,7 +19948,7 @@
       },
       "dosingProtocol": {
         "startingDose": "",
-        "maximumDose": "Russian clinical research has used Semax at total daily doses intranasally (1% formulation, multiple doses daily) for acute stroke indications without notable adverse effects.[¹] Research-community use rarely exceeds. Toxicology data at higher doses is essentially absent in the published Western literature."
+        "maximumDose": "The Gusev 1997 abstract names and daily as the most effective doses; it does not report the highest dose tested.[¹] Toxicology data at higher doses is essentially absent in the published Western literature."
       },
       "stacks": {
         "combinations": [
@@ -19984,7 +19977,7 @@
       },
       "sideEffects": {
         "common": [
-          "Generally well-tolerated at the registered clinical doses for both cognitive (0.1% formulation) and acute stroke (1% formulation) indications",
+          "Generally well-tolerated at the registered clinical doses",
           "Mild nasal irritation or rhinorrhea (transient, with intranasal use)",
           "Occasional headache (uncommon)",
           "No notable sedation, dependence, or withdrawal syndrome in the Russian clinical literature",
@@ -20010,9 +20003,9 @@
         "Regulatory note (WADA): Semax is not listed in the 2026 or 2027 WADA Prohibited List.[⁴][¹¹] This may change in future annual editions; researchers competing in WADA-tested sport should confirm against the most recent edition before any competitive event."
       ],
       "firstTimeWalkthrough": [
-        "Verify product authenticity and labeled potency. The Russian clinical formulation comes in 0.1% (cognitive) and 1% (acute stroke neuroprotective) strengths — make sure you have the right concentration for your intended use. Research-peptide intranasal preparations are typically reconstituted from injectable stocks at 0.1–1% w/v in saline.",
+        "Verify product authenticity and labeled potency. The registered Russian product comes as 0.1% and 1% nasal drops;[⁶] the two strengths differ tenfold, so the labeled concentration matters for the calculator. Research-peptide intranasal preparations are typically reconstituted from injectable stocks at 0.1–1% w/v in saline.",
         "Confirm the product is Semax (MEHFPGP / ACTH(4-7)PGP), not a different ACTH or melanocortin analog. Several ACTH-derived peptides exist with different sequences and pharmacological profiles. Vendor labels should specify Semax or the MEHFPGP sequence explicitly.",
-        "Amounts in research-community protocols (intranasal, lower-strength, for cognitive enhancement: 1 drop or spray, per nostril, 1–3 times daily; total daily amount –) come from community practice, not from trials.",
+        "Amounts in research-community protocols (intranasal, lower-strength, for cognitive enhancement: 1 drop or spray per nostril, 1–3 times daily; a 0.1% solution is) come from community practice, not from trials.",
         "Apply intranasally, holding the bottle upright, exhaling gently before each application, then inhaling gently after to draw the medication onto the nasal mucosa.",
         "Avoid blowing the nose for 15–30 minutes after administration to allow nasal absorption.",
         "Log the dose, the timing, and a baseline note (subjective focus, working memory, verbal fluency, motivation, mood, sleep quality) immediately after administration. Track over the cycle — Semax's acute cognitive effects can be detectable within 30–60 minutes; the cumulative neuroprotective and BDNF-mediated effects build over consecutive days.",
@@ -20262,7 +20255,7 @@
         ]
       },
       "dosingProtocol": {
-        "startingDose": "SC daily at bedtime — most common starting dose"
+        "startingDose": "SC daily at bedtime — the most commonly described amount"
       },
       "stacks": {
         "combinations": [
@@ -20328,7 +20321,7 @@
         "Verify vial integrity. Lyophilized powder visible, no signs of damage or temperature exposure.",
         "Reconstitute with the chosen volume of bacteriostatic water (or the compounding pharmacy's specified diluent). Inject slowly down the wall; gentle inversion only.",
         "Allow to dissolve — should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for a given dose. No adult trial has established a sermorelin dose; amounts in research-community protocols ( once daily at bedtime at first, some using for 1–2 weeks for tolerability before; see Dosing Protocol) come from community practice, not from trials. Verify the units field shows \"mcg\" before entering the dose.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. No adult trial has established a sermorelin dose; amounts in research-community protocols ( once daily at bedtime is the most commonly described, and some protocols use for the first 1–2 weeks; see Dosing Protocol) come from community practice, not from trials. Verify the units field shows \"mcg\" before entering the dose.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark.",
         "Inject subcutaneously into the abdomen, rotating sites between injections. Bedtime is the most common timing in compounding-pharmacy and research-community protocols, designed to amplify the natural sleep-onset GH pulse.",
         "Log the dose, the timing, and a baseline note (sleep quality, recovery, energy, body composition baseline). Track over the cycle — sermorelin's effects are typically reported within 1–3 weeks of consistent use, with sleep changes often the first noticeable subjective effect."
@@ -21248,8 +21241,7 @@
         ]
       },
       "dosingProtocol": {
-        "startingDose": "subcutaneous once daily for adults and pediatric patients ≥30 kg.[¹]",
-        "maximumDose": "Phase 2/3 trials have used elamipretide at doses. The FDA-approved Barth syndrome dose is. Off-label research-community use rarely exceeds."
+        "startingDose": "The FORZINITY label's dose is subcutaneously once daily for adult and pediatric patients weighing at least 30 kg.[³]"
       },
       "stacks": {
         "combinations": [
@@ -21691,7 +21683,7 @@
         "Mechanism. Tamoxifen's mechanism is tissue-selective estrogen receptor modulation — antagonist activity at some tissues (particularly breast), partial agonist activity at others (uterus/endometrium, bone, liver). The tissue-selectivity drives both the therapeutic mechanism (breast tissue antagonism for breast cancer treatment/prevention) and the major adverse effects (endometrial-tissue partial agonism for endometrial cancer / uterine sarcoma risk in women). Tamoxifen is a prodrug — the parent compound has modest receptor affinity, but the CYP2D6-mediated metabolite endoxifen has ~100-fold higher ER affinity and 30–100× more potency than the parent. CYP2D6 metabolizer status (poor, intermediate, extensive, ultrarapid) substantially affects endoxifen formation and may influence clinical response, particularly in breast-cancer treatment contexts. Strong CYP2D6 inhibitors (paroxetine, fluoxetine, bupropion, quinidine) reduce endoxifen levels and may reduce tamoxifen's clinical effect.",
         "FDA-approved evidence base (breast cancer). Tamoxifen has one of the largest RCT evidence bases of any oncology drug:\n- NSABP b-14 (Fisher 1989, NEJM) — the pivotal trial supporting the 1990 adjuvant approval for node-negative ER-positive breast cancer in postmenopausal women. 2,644 patients randomized to tamoxifen twice daily or placebo for 5 years.[²]\n- NSABP p-1 / Breast Cancer Prevention Trial (Fisher 1998, JNCI) — the trial supporting the 1998 chemoprevention indication for breast cancer in high-risk women. ~13,000 women randomized.\n- NSABP b-24 — supported the DCIS indication\n- IBIS-I / IBIS-II — chemoprevention trials in high-risk women\n- EBCTCG meta-analyses (Early Breast Cancer Trialists' Collaborative Group) — pooled analyses across multiple decades and many trials, establishing that 5 years of tamoxifen reduces breast cancer recurrence by approximately half and mortality by approximately one-third in ER-positive disease\n- ATLAS (Davies 2013, Lancet) — 6,846 women with ER-positive breast cancer who had been on tamoxifen for 5 years randomized to continue for another 5 years vs stop. Continuing tamoxifen to 10 years rather than stopping at 5 produces further reductions in recurrence and mortality, particularly after year 10, approximately halving breast cancer mortality during the second decade after diagnosis.[³] This trial drove the modern shift from 5-year to 10-year adjuvant tamoxifen practice.\n- aTTom — companion trial to ATLAS with similar design and findings",
         "Off-label use in men — published evidence base. Tamoxifen is the SERM with the strongest published off-label men's-health evidence base, particularly for gynecomastia:",
-        "- Bicalutamide-induced gynecomastia prophylaxis in prostate cancer patients — multiple RCTs (Boccardo 2005; Saltzstein 2007 dose-response RCT) established that tamoxifen prevents and treats gynecomastia and breast pain in prostate cancer patients on bicalutamide monotherapy. The most rigorous published off-label men's-health evidence base for any SERM in any indication.\n- Idiopathic gynecomastia treatment — the largest prospective cohort (Mannu et al. 2018, PMID 30079473; 81 men over 10 years) reported complete resolution in 90.1% (73/81) on tamoxifen daily; 8 men did not fully resolve and 2 of those went on to surgery.[⁴] *(A frequently repeated \"lump-type responds better than fatty-type, 100% vs 62.5%\" comparison is not present in that cohort's published record and no primary source for it has been located.)*\n- Pubertal gynecomastia — used off-label in adolescent boys with persistent pubertal gynecomastia. Generally well-tolerated; no RCT-grade evidence in pubertal populations specifically.\n- PCT (post-cycle therapy) HPG-axis recovery in research-community AAS contexts — widely used in research-community PCT protocols for 4–6 weeks post-cycle. Mechanism: blocks estrogen-receptor-mediated negative feedback on the hypothalamus, increasing endogenous LH/FSH/T production. No RCT-grade evidence specifically for AAS-PCT contexts — extrapolation from breast-cancer pharmacology and the broader serm hpg-axis-stimulation literature.",
+        "- Bicalutamide-induced gynecomastia prophylaxis in prostate cancer patients — in two randomized, placebo-controlled trials (Boccardo 2005; Saltzstein 2005), tamoxifen reduced gynecomastia and breast pain in men with prostate cancer on bicalutamide monotherapy.[⁸][⁹] Saltzstein 2005 tested it both to prevent and to treat them.[⁹] The most rigorous published off-label men's-health evidence base for any SERM in any indication.\n- Idiopathic gynecomastia treatment — the largest prospective cohort (Mannu et al. 2018, PMID 30079473; 81 men over 10 years) reported complete resolution in 90.1% (73/81) on tamoxifen daily; 8 men did not fully resolve and 2 of those went on to surgery.[⁴] *(A frequently repeated \"lump-type responds better than fatty-type, 100% vs 62.5%\" comparison is not present in that cohort's published record and no primary source for it has been located.)*\n- Pubertal gynecomastia — used off-label in adolescent boys with persistent pubertal gynecomastia. Generally well-tolerated; no RCT-grade evidence in pubertal populations specifically.\n- PCT (post-cycle therapy) HPG-axis recovery in research-community AAS contexts — widely used in research-community PCT protocols for 4–6 weeks post-cycle. Mechanism: blocks estrogen-receptor-mediated negative feedback on the hypothalamus, increasing endogenous LH/FSH/T production. No RCT-grade evidence specifically for AAS-PCT contexts — extrapolation from breast-cancer pharmacology and the broader serm hpg-axis-stimulation literature.",
         "Wibowo 2016 *Andrology* review of adverse events in men on tamoxifen synthesized the published off-label men's-health safety experience across cohorts and case reports.[⁵] The off-label men's-health safety profile is generally favorable at typical doses, with hot flashes as the most-commonly-reported adverse event. The endometrial-cancer black-box warning that defines the safety concern in women is not relevant in men. The VTE black-box warning concern remains plausible but is less well-characterized in published men's-health literature.",
         "Regulatory status (US — current). Tamoxifen is FDA-approved exclusively for breast-cancer indications in women (advanced, adjuvant, prevention, DCIS). All use in men — including gynecomastia treatment, PCT, and other men's-health contexts — is off-label. Off-label prescribing is legal in the US under standard FDA prescribing-authority framework but is not supported by FDA-approved labeling. Generic tamoxifen is widely available since 2002 patent expiration. Standard prescription required (not DEA-scheduled).",
         "Regulatory status (sport — WADA). Tamoxifen is named explicitly under Section S4.2 (Anti-Estrogenic Substances and SERMs) of the 2026 and 2027 WADA Prohibited Lists as a Specified Substance, alongside Bazedoxifene, Elacestrant, Raloxifene, Clomifene, Fulvestrant, Cyclofenil, Ospemifene, and Toremifene.[⁶][⁷] Same WADA subsection as Clomiphene/Enclomiphene. Prohibited at all times.",
@@ -21704,7 +21696,7 @@
         "storageBeforeReconstitution": "Room temperature (20–25°C / 68–77°F), original container, away from light and moisture."
       },
       "dosingProtocol": {
-        "startingDose": "PO once daily (or PO twice daily) for 5–10 years total duration."
+        "startingDose": "In the Nolvadex label, the recommended daily dose for breast cancer is, with doses above given in divided doses (morning and evening), and current trial data support 5 years of adjuvant therapy; the NSABP b-14 adjuvant study it describes gave one tablet twice a day for at least 5 years.[¹]"
       },
       "stacks": {
         "combinations": [
@@ -21837,6 +21829,20 @@
           "index": 7,
           "reference": "World Anti-Doping Agency. World Anti-Doping Code International Standard Prohibited List 2027 (effective 1 January 2027). PDF: wada-ama.org/sites/default/files/2026-09/2027list_en_final_clean_26_august_2026_2.pdf. Tamoxifen is named under S4.2, whose heading now also covers selective estrogen receptor degraders (SERDs).",
           "primaryUrl": "https://www.wada-ama.org/sites/default/files/2026-09/2027list_en_final_clean_26_august_2026_2.pdf",
+          "verified": true
+        },
+        {
+          "index": 8,
+          "reference": "Boccardo F, Rubagotti A, Battaglia M, Di Tonno P, Selvaggi FP, Conti G, et al. (2005). Evaluation of tamoxifen and anastrozole in the prevention of gynecomastia and breast pain induced by bicalutamide monotherapy of prostate cancer. Journal of Clinical Oncology, 23(4):808–815.",
+          "primaryUrl": "https://doi.org/10.1200/JCO.2005.12.013",
+          "identifierLabel": "PMID 15681525",
+          "verified": true
+        },
+        {
+          "index": 9,
+          "reference": "Saltzstein D, Sieber P, Morris T, Gallo J. (2005). Prevention and management of bicalutamide-induced gynecomastia and breast pain: randomized endocrinologic and clinical studies with tamoxifen and anastrozole. Prostate Cancer and Prostatic Diseases, 8(1):75–83.",
+          "primaryUrl": "https://doi.org/10.1038/sj.pcan.4500782",
+          "identifierLabel": "PMID 15685254",
           "verified": true
         }
       ],
@@ -23329,7 +23335,7 @@
         "⚠️ Testosterone is not a peptide. This entry exists in the Vialwise library because researchers running peptide protocols frequently use TRT (testosterone replacement therapy) or research-community testosterone alongside peptide stacks (CJC-1295/Ipamorelin, BPC-157/TB-500, AOD-9604, GLP-1 agonists). The compound is a 19-carbon steroid hormone, not a peptide — produced naturally in the testes (and adrenals/ovaries) and synthesized commercially in multiple ester forms. Mechanistically, pharmacologically, and regulatorily it sits in a different category from the rest of the Vialwise library. Researchers should be explicit with themselves about which compound class they are using and the corresponding regulatory and safety considerations.",
         "⚠️ DEA Schedule III. Prescription required. Testosterone has been a Schedule III controlled substance under the US Controlled Substances Act since the Anabolic Steroid Control Act of 1990.[⁸] The schedule was expanded by the Anabolic Steroid Control Act of 2004 (effective January 20, 2005 — eliminated the prior \"muscle growth\" requirement and added 59 specific substances) and by the Designer Anabolic Steroid Control Act of 2014 (DASCA) (closing the chemical-modification loophole for designer derivatives). Possessing, distributing, or using testosterone outside an authorized prescriber relationship is a federal criminal offense in the US, distinct from the regulatory environment of unapproved peptides like BPC-157 or TB-500. State laws also apply; some states have additional restrictions. Researchers in jurisdictions outside the US face different regulatory environments.",
         "⚠️ Multiple ester forms with substantially different pharmacokinetics. Do not confuse them. Testosterone is sold in multiple ester forms with substantially different half-lives, peak/trough profiles, dosing intervals, and delivery routes. The most common are:\n\n- Testosterone cypionate (Depo-Testosterone) — IM oil-based injection, half-life ~8 days, typical TRT dose weekly\n- Testosterone enanthate — IM oil-based injection (and subcutaneous via Xyosted autoinjector), half-life ~4.5 days, typical TRT dose weekly ( starting for SC enanthate via Xyosted)\n- Testosterone propionate — IM oil-based injection, half-life ~0.8 days (~20 hours), requires more frequent dosing (every 1–3 days) — uncommon in modern TRT but encountered in research-community use\n- Testosterone undecanoate — IM (Aveed, dosed every 10 weeks after loading) and oral (Jatenzo, Tlando), much longer half-life\n- Testosterone suspension — water-based, no ester, very short acting; primarily research/legacy use\n- Transdermal gel/cream (AndroGel 1.62%, Testim, Vogelxo, compounded creams) — daily application, different absorption profile\n- Subcutaneous pellet (Testopel) — implanted every 3–6 months\n- Mixed-ester products (Sustanon 250) — combinations of propionate, phenylpropionate, isocaproate, decanoate; not FDA-approved in the US but encountered in research/international contexts\n\nThe dosing patterns, delivery routes, and pharmacokinetic profiles for each ester are not interchangeable. Researchers should be explicit with themselves about which ester they are using, in what formulation, by what route, and at what dose interval. This entry treats each ester as a related but distinct preparation and flags inline where dosing claims apply to one ester vs another.",
-        "⚠️ TRT (replacement) vs supraphysiologic / research-community use are pharmacologically and regulatorily distinct. The published RCT efficacy and safety data for testosterone (Bhasin 2018 Endocrine Society guidelines,[¹] TTrials,[²] TRAVERSE[³]) is overwhelmingly from TRT contexts — adult men with documented hypogonadism (low total testosterone confirmed on multiple morning measurements, plus consistent symptoms), receiving doses titrated to mid-normal physiologic range (~400–700 ng/dL trough). Research-community supraphysiologic use — doses targeting peaks of 1500–3000+ ng/dL — operates outside the published RCT evidence base for both efficacy and safety, and is also outside any FDA-approved indication, prescribing label, or DEA Schedule III prescription authority. The TRAVERSE cardiovascular-safety conclusions in particular (\"non-inferiority to placebo on MACE in middle-aged and older men with hypogonadism\")[³] do not generalize to the supraphysiologic-dose research-community use pattern. Researchers should be explicit with themselves about which dose context applies and what evidence base supports their specific use."
+        "⚠️ TRT (replacement) vs supraphysiologic / research-community use are pharmacologically and regulatorily distinct. The published RCT efficacy and safety data for testosterone (Bhasin 2018 Endocrine Society guidelines,[¹] TTrials,[²] TRAVERSE[³]) is overwhelmingly from TRT contexts — adult men with documented hypogonadism (low total testosterone confirmed on multiple morning measurements, plus consistent symptoms), receiving doses titrated to the mid-normal physiologic range. Research-community supraphysiologic use — doses targeting peaks of 1500–3000+ ng/dL — operates outside the published RCT evidence base for both efficacy and safety, and is also outside any FDA-approved indication, prescribing label, or DEA Schedule III prescription authority. The TRAVERSE cardiovascular-safety conclusions in particular (\"non-inferiority to placebo on MACE in middle-aged and older men with hypogonadism\")[³] do not generalize to the supraphysiologic-dose research-community use pattern. Researchers should be explicit with themselves about which dose context applies and what evidence base supports their specific use."
       ],
       "disclosuresLeadIndex": 1,
       "quickReference": [
@@ -23384,7 +23390,7 @@
         ]
       },
       "dosingProtocol": {
-        "startingDose": ""
+        "startingDose": "Cypionate IM (Depo-Testosterone label): the label's replacement dose for hypogonadal men is every 2 to 4 weeks, with the dose adjusted according to response and adverse reactions.[⁵]"
       },
       "stacks": {
         "combinations": [
@@ -23551,6 +23557,18 @@
           "index": 12,
           "reference": "World Anti-Doping Agency. World Anti-Doping Code International Standard Prohibited List 2027 (effective 1 January 2027). PDF: wada-ama.org/sites/default/files/2026-09/2027list_en_final_clean_26_august_2026_2.pdf. Testosterone is named under S1.1 (Anabolic Androgenic Steroids), prohibited at all times.",
           "primaryUrl": "https://www.wada-ama.org/sites/default/files/2026-09/2027list_en_final_clean_26_august_2026_2.pdf",
+          "verified": true
+        },
+        {
+          "index": 13,
+          "reference": "Endo USA. Aveed (testosterone undecanoate) injection prescribing information. US Food and Drug Administration. NDA 022219; label revised 07/2025.",
+          "primaryUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/022219s021lbl.pdf",
+          "verified": true
+        },
+        {
+          "index": 14,
+          "reference": "ASCEND Therapeutics US / Besins Healthcare. AndroGel (testosterone gel) 1.62% prescribing information. US Food and Drug Administration. NDA 022309; label revised 07/2025.",
+          "primaryUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/022309s022lbl.pdf",
           "verified": true
         }
       ],
@@ -23912,7 +23930,7 @@
       "about": [
         "Thymosin alpha-1 (Tα1, thymalfasin) is a 28-amino-acid synthetic peptide corresponding to the N-terminal sequence of prothymosin α, a precursor protein with diverse intracellular functions. Tα1 was originally isolated in the 1970s as the most biologically active fraction of \"thymosin fraction 5,\" a partially purified bovine-thymus extract characterized by Allan Goldstein and colleagues at the National Cancer Institute. Subsequent molecular characterization established its sequence (Ac-Ser-Asp-Ala-Ala-Val-Asp-Thr-Ser-Ser-Glu-Ile-Thr-Thr-Lys-Asp-Leu-Lys-Glu-Lys-Lys-Glu-Val-Val-Glu-Glu-Ala-Glu-Asn) and led to the synthetic version that constitutes the modern pharmaceutical product.[²]",
         "Mechanism. Thymosin α1's mechanism is unusually multifaceted compared to most peptides in this library — it is not a single-receptor agonist but rather a multi-target immunomodulator. The primary mechanism converging from recent (2023–2025) immunology research is modulation of Toll-like receptors, particularly TLR9, on plasmacytoid dendritic cells. Tα1 increases TLR9 expression on pDCs, enhancing detection of viral CpG DNA and triggering activation of interferon regulatory factor 7 (IRF7), with downstream type I interferon (IFN-α) and IFN-γ release.[³] Additional documented mechanisms include: (a) promotion of monocyte-derived dendritic cell maturation with upregulation of HLA class II and costimulatory molecules; (b) Th1 polarization (IFN-γ, IL-2 release); (c) enhancement of NK-cell cytotoxicity; (d) bidirectional modulation of regulatory T-cells; (e) activation of indoleamine 2,3-dioxygenase (IDO) in dendritic cells, which provides a tolerogenic balance preventing immune hyperactivation.[³] This last mechanism — the simultaneous immunostimulatory and tolerogenic activities — is what distinguishes Tα1 from a purely immunostimulatory cytokine and is the basis for its use in both immunodeficient and hyperinflammatory states.",
-        "Clinical evidence base. Unusually for a research-community peptide, thymosin α1 has a substantial RCT-grade evidence base. The strongest body of evidence is in chronic hepatitis B, where multiple randomized controlled trials over 25+ years have established efficacy as monotherapy and in combination with interferon-α.[⁴][⁵] The Andreone group at Bologna conducted multiple foundational hepatitis B trials in the 1990s.[⁴] A Japanese RCT (Iino et al. 2005) extended the evidence to East Asian HBV populations.[⁵] Beyond hepatitis B, the severe-sepsis evidence is mixed and not confirmed at phase-3 level: the 2013 ETASS multicenter single-blind RCT in 361 ICU patients reported reduced 28-day mortality (26.0% vs 35.0% in controls),[⁶] but the larger, double-blind, placebo-controlled phase 3 TESTS trial (n=1106, 22 centers) reported no significant difference in 28-day all-cause mortality — 23.4% versus 24.1%, hazard ratio 0.99 (95% CI 0.77–1.27), P=0.93 — with no secondary or safety outcome differing significantly.[¹⁰] During the COVID-19 pandemic, Liu et al. 2020 reported Tα1 reduced mortality in severe COVID-19 patients and restored T-cell numbers in those with severe lymphocytopenia.[⁷] Two recent (2020 and 2024) comprehensive third-party reviews summarize the broader literature.[²][³]",
+        "Clinical evidence base. Unusually for a research-community peptide, thymosin α1 has a substantial RCT-grade evidence base. The strongest body of evidence is in chronic hepatitis B, where it has been tested in randomized controlled trials, including the two monotherapy trials cited here.[⁴][⁵] The Andreone group at Bologna conducted multiple foundational hepatitis B trials in the 1990s.[⁴] A Japanese RCT (Iino et al. 2005) extended the evidence to East Asian HBV populations.[⁵] Beyond hepatitis B, the severe-sepsis evidence is mixed and not confirmed at phase-3 level: the 2013 ETASS multicenter single-blind RCT in 361 ICU patients reported reduced 28-day mortality (26.0% vs 35.0% in controls),[⁶] but the larger, double-blind, placebo-controlled phase 3 TESTS trial (n=1106, 22 centers) reported no significant difference in 28-day all-cause mortality — 23.4% versus 24.1%, hazard ratio 0.99 (95% CI 0.77–1.27), P=0.93 — with no secondary or safety outcome differing significantly.[¹⁰] During the COVID-19 pandemic, Liu et al. 2020 reported Tα1 reduced mortality in severe COVID-19 patients and restored T-cell numbers in those with severe lymphocytopenia.[⁷] Two recent (2020 and 2024) comprehensive third-party reviews summarize the broader literature.[²][³]",
         "Regulatory status (US — current, May 2026). The US regulatory history for thymosin α1 is the most complex of any compound in this library:\n- No FDA full approval for any indication. Four FDA Orphan Drug Designations have been granted historically (chronic hepatitis B, chronic hepatitis C, hepatocellular carcinoma, malignant melanoma) but none have advanced to full approval.\n- September 29, 2023: FDA placed thymosin α1 on the interim 503A bulks list under Category 2 (substances that may pose significant safety risks; restricted from compounding pending PCAC review).\n- September 20, 2024: Nominations voluntarily withdrawn by nominators (alongside CJC-1295, ipamorelin acetate, AOD-9604, Selank acetate). Category 2 placement removed September 27, 2024.\n- FDA initiative: Despite the nomination withdrawal, FDA chose to evaluate thymosin α1 (free base) and thymosin α1 acetate on its own initiative.\n- December 4, 2024 PCAC meeting: The Pharmacy Compounding Advisory Committee voted against recommending thymosin α1 (free base) and thymosin α1 acetate for inclusion on the 503A Bulks List.[⁷]\n- April 15, 2026: FDA removed 12 peptides from Category 2 of the interim 503A list and scheduled a July 23–24, 2026 PCAC meeting to consider adding seven of them (BPC-157, KPV, MOTS-c, DSIP, Epitalon, Semax, TB-500). Thymosin α1 is not in that batch — it had already had its adverse PCAC review in December 2024.\n- Status as of 2026-09-03: A final Federal Register rule formalizing the post-PCAC determination has still not been published. FDA's position is that substances not on the 503A Bulks List cannot be legally compounded under 503A. Thymosin α1 is therefore not legally compoundable in the US through 503A pharmacies as of this date.",
         "This regulatory category is distinct from every other category currently represented in this library:\n- FDA-approved-and-marketed in US (Genotropin, Xyosted, Egrifta, Vyleesi, Saxenda, Victoza, Mounjaro, Ozempic, Wegovy, Zepbound) — full FDA framework\n- FDA-approved-historically-now-compoundable (Sermorelin) — withdrawn for commercial reasons; FDA Federal Register notice confirmed not for safety/effectiveness; legal via compounding pharmacy\n- Unapproved research peptide, US-only-research-supply (CJC-1295, BPC-157, TB-500, Ipamorelin, MK-677) — outside FDA approval entirely\n- DEA-controlled (testosterone) — Schedule III\n- Federally-distribution-restricted (HGH/somatropin) — 21 USC 333(f)\n- Generic-available within FDA-approved framework (liraglutide) — first GLP-1 generic",
         "Thymosin α1 establishes a new category: \"FDA-approved-abroad in 35+ countries, never-FDA-approved-in-US, currently non-compoundable in US per Dec 2024 PCAC.\" Researchers obtaining thymosin α1 in the US are doing so outside the FDA-recognized supply chain.",
@@ -24038,7 +24056,7 @@
       "citations": [
         {
           "index": 1,
-          "reference": "SciClone Pharmaceuticals. Zadaxin (thymalfasin) prescribing information / Indonesian regulatory dossier. Indonesian National Agency of Drug and Food Control assessment available at registrasiobat.pom.go.id/files/assesment-reports/01751602483.pdf. Source for: Zadaxin commercial label dose ( or/m² SC twice weekly for chronic hepatitis B); pharmacokinetic parameters (~2 hour plasma half-life; peak serum at ~2 hours post-SC; volume of distribution 5–8 L; 31–60% urinary excretion; no accumulation across multiple doses); single-use vial commercial formulation. Note: SciClone Pharmaceuticals is the originator developer of Zadaxin; international labeling varies by country. The Indonesian assessment is one of the more accessible English-language regulatory dossiers.",
+          "reference": "SciClone Pharmaceuticals. Zadaxin (thymalfasin) prescribing information / Indonesian regulatory dossier. Indonesian National Agency of Drug and Food Control assessment available at registrasiobat.pom.go.id/files/assesment-reports/01751602483.pdf. Source for: Zadaxin commercial label dose ( SC twice weekly, doses 3 or 4 days apart, for six months (52 doses) for chronic hepatitis B; Dosage and Administration",
           "primaryUrl": "https://registrasiobat.pom.go.id/files/assesment-reports/01751602483.pdf",
           "verified": true
         },
@@ -24289,20 +24307,10 @@
         ]
       },
       "dosingProtocol": {
-        "startingDose": "Week 1–4: weekly (initiation, not therapeutic)",
-        "titrationSchedule": [
-          {
-            "weeks": "Week 1–4",
-            "dose": "weekly (initiation, not therapeutic)"
-          },
-          {
-            "weeks": "Week 5+",
-            "dose": "weekly"
-          }
-        ],
+        "startingDose": "The label's starting dose is once weekly for 4 weeks, for treatment initiation and not for glycemic control[⁶]",
         "maximumDose": "weekly subcutaneous (both Mounjaro and Zepbound adult indications); the dose has been the highest dose evaluated in adult pivotal trials.",
         "notes": [
-          "Researcher communities sometimes report sub- starting doses (e.g.) and slower titration schedules to reduce gastrointestinal side effects. These are not validated in published trials and are reported here as observations, not recommendations."
+          "Amounts in research-community protocols (first doses below, such as, with slower increases, on the rationale of fewer gastrointestinal side effects) come from community practice, not from trials. They are reported here as observations, not recommendations."
         ]
       },
       "stacks": {
@@ -24401,13 +24409,13 @@
         },
         {
           "index": 6,
-          "reference": "Eli Lilly. Mounjaro (tirzepatide) injection prescribing information. US Food and Drug Administration. NDA 215866, current label SUPPL-9 approved 2026-01-20 (subsequent SUPPL-39 approval 2025-12-19 added the pediatric T2D indication for patients ≥10 years of age). Label PDF — accessdata.fda.gov/drugsatfda_docs/label/2026/215866s009lbl.pdf is the recorded suppl-9 pdf path; a 2026-07-18 web check surfaced further 2026 Mounjaro label PDFs (e.g. `215866s041lbl.pdf`), so the exact current label pdf URL and supplement number are not asserted here and must be re-pulled from the",
+          "reference": "Eli Lilly. Mounjaro (tirzepatide) injection prescribing information. US Food and Drug Administration. NDA 215866, current label SUPPL-9 approved 2026-01-20 (subsequent SUPPL-39 approval 2025-12-19 added the pediatric T2D indication for patients ≥10 years of age). Label PDF — accessdata.fda.gov/drugsatfda_docs/label/2026/215866s009lbl.pdf is the recorded suppl-9 pdf path; a 2026-07-18 web check surfaced further 2026 Mounjaro label PDFs (e.g. `215866s041lbl.pdf`). The indication set in this citation is confirmed current. SUPPL-39 approval letter at accessdata.fda.gov/drugsatfda_docs/appletter/2025/215866Orig1s039ltr.pdf.",
           "primaryUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215866s009lbl.pdf",
           "verified": true
         },
         {
           "index": 7,
-          "reference": "Eli Lilly. Zepbound (tirzepatide) injection prescribing information. US Food and Drug Administration. NDA 217806, label SUPPL-42 approved 2026-02-25. Label PDF — accessdata.fda.gov/drugsatfda_docs/label/2026/217806s042lbl.pdf is the recorded PDF path; a 2026-07-18 web check surfaced further 2026 Zepbound label PDFs (e.g. `217806s002lbl.pdf`), so the exact current label pdf URL and supplement number are not asserted here and must be re-pulled from the",
+          "reference": "Eli Lilly. Zepbound (tirzepatide) injection prescribing information. US Food and Drug Administration. NDA 217806, label SUPPL-42 approved 2026-02-25. Label PDF — accessdata.fda.gov/drugsatfda_docs/label/2026/217806s042lbl.pdf is the recorded PDF path; a 2026-07-18 web check surfaced further 2026 Zepbound label PDFs (e.g. `217806s002lbl.pdf`). The indication set (chronic weight management + moderate-to-severe OSA with obesity) is confirmed current.",
           "primaryUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s042lbl.pdf",
           "verified": true
         },
@@ -25328,7 +25336,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure. Confirm the labeled potency matches the Vialwise calculator setting.",
         "Reconstitute with bacteriostatic water down the vial wall. VIP is dosed in micrograms for subcutaneous/intranasal use — confirm the units field before entering the dose.",
         "Allow full dissolution — gentle inversion only, no shaking.",
-        "Use the Vialwise calculator to confirm units for your target amount. Be aware that trial IV dosing used a different (pmol/kg/hr) framework entirely.",
+        "Use the Vialwise calculator to confirm units for a given amount. Be aware that trial IV dosing used a different (pmol/kg/hr) framework entirely.",
         "Draw into a U-100 insulin syringe (for subcutaneous use); expel to the calculated mark.",
         "Given VIP's vasodilatory effect, be positioned to sit or lie down; the main acute risk is a drop in blood pressure or flushing.",
         "Log the dose, route, and site. Treat any non-medical use as experimental — human efficacy for research-community uses is not established."
