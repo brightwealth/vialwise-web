@@ -544,8 +544,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "Critical: The 2023 Cochrane systematic review found moderate-certainty evidence of NO clinical benefit on all-cause death in acute ischemic stroke and a moderate-certainty signal of increased non-fatal serious adverse events.[⁴] This is the strongest available evidence base and should anchor risk-benefit decision-making."
 
 **`chonluten.status`**
-- before: "Not a drug in the US and not FDA-approved for any indication. A synthetic \"Khavinson\" short-peptide bioregulator (\"cytogen\") from the St. Petersburg Institute of Bioregulation and Gerontology (Russia), derived from bronchial epithelial cells. Evidence is almost entirely preclinical (cell studies) plus small Russian studies; no large controlled human trials. WADA: not specifically named; best treat"
-- after:  "Not a drug in the US and not FDA-approved for any indication. A synthetic \"Khavinson\" short-peptide bioregulator (\"cytogen\") from the St. Petersburg Institute of Bioregulation and Gerontology (Russia), derived from bronchial epithelial cells. Evidence is almost entirely preclinical (cell studies) plus small Russian studies; no large controlled human trials. WADA: not specifically named; best treat"
+- before: "Not a drug in the US and not FDA-approved for any indication. A synthetic \"Khavinson\" short-peptide bioregulator (\"cytogen\") from the St. Petersburg Institute of Bioregulation and Gerontology (Russia), derived from bronchial epithelial cells. Evidence is preclinical (cell studies); no large controlled human trials. WADA: not specifically named; best treated as S0 (non-approved), prohibited at all "
+- after:  "Not a drug in the US and not FDA-approved for any indication. A synthetic \"Khavinson\" short-peptide bioregulator (\"cytogen\") from the St. Petersburg Institute of Bioregulation and Gerontology (Russia), derived from bronchial epithelial cells. Evidence is preclinical (cell studies); no large controlled human trials. WADA: not specifically named; best treated as S0 (non-approved), prohibited at all "
 
 **`chonluten.about[4]`**
 - before: "Regulatory status (US). NOT FDA-approved; not a drug. NOT DEA-scheduled."
@@ -608,8 +608,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "World Anti-Doping Agency. The 2026 Prohibited List, International Standard (effective 1 January 2026). PDF: wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf. Clomifene (INN spelling; US adopted name \"Clomiphene\") is named explicitly under Section S4.2 (Anti-Estrogenic Substances [Anti-Estrogens and Selective Estrogen Receptor Modulators (SERMs)]) — page 10 of the"
 
 **`cortagen.status`**
-- before: "Not a drug in the US and not FDA-approved for any indication. A synthetic \"Khavinson\" short-peptide bioregulator (\"cytogen\") from the St. Petersburg Institute of Bioregulation and Gerontology (Russia), associated with the cerebral cortex. Evidence is almost entirely preclinical (explant/cell) plus small Russian studies; no large controlled human trials. WADA: not specifically named; best treated a"
-- after:  "Not a drug in the US and not FDA-approved for any indication. A synthetic \"Khavinson\" short-peptide bioregulator (\"cytogen\") from the St. Petersburg Institute of Bioregulation and Gerontology (Russia), associated with the cerebral cortex. Evidence is almost entirely preclinical (explant/cell) plus small Russian studies; no large controlled human trials. WADA: not specifically named; best treated a"
+- before: "Not a drug in the US and not FDA-approved for any indication. A synthetic \"Khavinson\" short-peptide bioregulator (\"cytogen\") from the St. Petersburg Institute of Bioregulation and Gerontology (Russia), associated with the cerebral cortex. Evidence is preclinical (explant/cell); no large controlled human trials. WADA: not specifically named; best treated as S0 (non-approved), prohibited at all time"
+- after:  "Not a drug in the US and not FDA-approved for any indication. A synthetic \"Khavinson\" short-peptide bioregulator (\"cytogen\") from the St. Petersburg Institute of Bioregulation and Gerontology (Russia), associated with the cerebral cortex. Evidence is preclinical (explant/cell); no large controlled human trials. WADA: not specifically named; best treated as S0 (non-approved), prohibited at all time"
 
 **`cortagen.about[4]`**
 - before: "Regulatory status (US). NOT FDA-approved; not a drug. NOT DEA-scheduled."
@@ -3394,8 +3394,8 @@ info  vip: no [VERIFY] markers at all
 - after:  "Animal model studies have used MOTS-c at doses on the order (which would extrapolate to substantial multi-hundred-mg doses in humans). Research-community human use rarely exceeds. The translation between animal model doses and human research-community doses is not validated."
 
 **`mots-c.firstTimeWalkthrough[3]`**
-- before: "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time researchers, that is typically 5 mg per dose, 2–3 times per week."
-- after:  "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time researchers, that is per dose, 2–3 times per week."
+- before: "Use the Vialwise calculator to confirm exact insulin units for a given dose. No completed human trial has established a MOTS-c dose; the amounts in research-community protocols (5–10 mg, 1–3 times per week; see Dosing Protocol) come from community practice, not from trials."
+- after:  "Use the Vialwise calculator to confirm exact insulin units for a given dose. No completed human trial has established a MOTS-c dose; the amounts in research-community protocols (1–3 times per week; see Dosing Protocol) come from community practice, not from trials."
 
 **`nad.quickReference[1].value`**
 - before: "Oral NMN (nicotinamide mononucleotide): 250–500 mg per capsule, multiple manufacturers. Oral NR (nicotinamide riboside): 100–300 mg per capsule, often as Niagen. Sublingual NMN/NR preparations also available. IV NAD+ infusions: typically 250–1500 mg per infusion at wellness clinics, administered over 2–4 hours. Subcutaneous NAD+ preparations: 100–500 mg vials from compounding pharmacies."
@@ -4680,8 +4680,8 @@ once**. 405 appear exactly once and are marked ⚠️.
 | `LL-37` | 67 | LL-37, thymosin α1, or other immune-modulating pep |
 | `FSH` | 66 | rations — anastrozole's effect on raising LH/FSH/T while reducing E2 is the basis for the off |
 | `U-100` | 64 | Draw into a U-100 insulin syringe; expel to the calculated mar |
-| `AMPK` | 62 | AMPK activator (nucleoside analog, not a peptide) |
 | `DSIP` | 62 | PV, TB-500 and MOTS-c on July 23; Emideltide/DSIP, Epitalon and Semax on July 24). That meetin |
+| `AMPK` | 61 | AMPK activator (nucleoside analog, not a peptide) |
 | `REDEFINE` | 58 | disk advanced CagriSema through the Phase 3a REDEFINE 1 trial (adults without diabetes) and REDEFI |
 | `ACE-031` | 55 | ACE-031 |
 | `SLU-PP-332` | 52 | uster context is exercise-mimetic compounds (SLU-PP-332, MOTS-c, AICAR), not the GHS-axis or HPG-axi |
