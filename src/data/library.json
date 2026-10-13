@@ -806,10 +806,10 @@
         "Confirm source legitimacy. Adipotide from research-supply chains operates outside the FDA-recognized supply chain. Source quality is variable; verify against multiple lab tests if available.",
         "Establish baseline labs before starting — comprehensive metabolic panel (especially BUN, creatinine, eGFR), urinalysis with urine microscopy, CBC, fasting glucose, lipid panel. Baseline renal function must be normal before any adipotide use is reasonable.",
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure. Confirm the labeled potency matches what the Vialwise calculator is set to.",
-        "Reconstitute with the chosen volume of bacteriostatic water. Default / 2 mL ( =) for typical dosing.",
+        "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). A / 2 mL setup ( =) gives clean unit conversions.",
         "Allow the peptide to dissolve fully — gentle inversion only.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use: start.",
-        "Time the first injection for morning dosing in a setting where adverse-event monitoring is feasible.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. Published adipotide dosing studies were in mice and monkeys, and the one human trial was terminated with no results published, so no human dose has been established. Amounts in research-community protocols ( once daily for the first 1–2 weeks, or for the first 3–5 doses in some, then once daily in 2–4 week cycles; see Dosing Protocol) come from community practice, not from trials.",
+        "Morning dosing is the timing described in research-community protocols. Adverse-event monitoring matters most around the first injection.",
         "Inject subcutaneously into a standard subcutaneous site (abdomen most common).",
         "Weekly renal function monitoring is essential. BUN/creatinine/eGFR + urinalysis every 7 days during any cycle. Discontinue immediately at any sign of renal injury — proximal tubule damage may progress even after discontinuation."
       ],
@@ -1025,7 +1025,7 @@
       ],
       "firstTimeWalkthrough": [
         "Understand the product — Scenesse is a controlled-release implant for EPP, not an injectable tanning peptide and not the same as Melanotan II.",
-        "Administration is clinic-based — a trained healthcare professional inserts the implant subcutaneously above the anterior supra-iliac crest every 2 months.",
+        "Administration is clinic-based — a trained healthcare professional inserts the implant subcutaneously above the anterior supra-iliac crest. In two randomized trials in EPP, an implant containing of afamelanotide was inserted every 60 days.[³]",
         "Expect skin darkening — eumelanin increase is the mechanism; the label recommends twice-yearly full-body skin exams.",
         "Maintain sun-safety measures — the implant supplements, not replaces, photoprotective behavior in EPP.",
         "Report hypersensitivity symptoms immediately — anaphylaxis has been reported."
@@ -1529,13 +1529,13 @@
         "Confirm source legitimacy. AICAR from research-supply chains operates outside the FDA-recognized supply chain. Source quality is variable; verify against multiple lab tests if available. AICAR is a chemically-defined small molecule, so identity confirmation via mass spectrometry or NMR is achievable in research-supply contexts in a way that's harder for peptide compounds.",
         "Establish baseline labs before starting — fasting glucose, HbA1c, uric acid, CMP, CBC, LFTs. Baseline uric acid is particularly important given AICAR's hyperuricemia effect.",
         "Verify product appearance — AICAR is typically a white-to-off-white crystalline powder. Confirm the labeled potency matches what the Vialwise calculator is set to. Note that AICAR doses are typically in mg, not mcg — the calculator's unit field needs careful verification for this entry compared to the peptide entries.",
-        "Reconstitute with the chosen volume of bacteriostatic water. Default / 5 mL for typical dosing. The volume per dose is substantially larger than for peptide compounds — dose = 2 mL = on a U-100 syringe.",
+        "Reconstitute with the chosen volume of bacteriostatic water. Default / 5 mL. The volume per dose is substantially larger than for peptide compounds —, each 1 mL is, or on a U-100 syringe.",
         "Allow the compound to dissolve fully — AICAR is reasonably soluble in water but may require gentle inversion and 1–2 minutes for complete dissolution.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use: start. Verify the units field shows \"mg\" (not \"mcg\") before entering the dose.",
-        "Time the first injection for pre-workout (~30–60 minutes before training) if research-community exercise-mimetic use case applies. Alternative morning daily dosing is also reported.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. Amounts in research-community protocols ( once daily for the first 1–2 weeks, then once daily during 4–8 week cycles) come from community practice, not from trials. Verify the units field shows \"mg\" (not \"mcg\") before entering the dose.",
+        "Research-community exercise-mimetic protocols time injections for ~30–60 minutes before training. Morning daily dosing, independent of training, is also reported.",
         "Inject subcutaneously into a standard subcutaneous site (abdomen most common). Rotate sites between injections. Be aware that the substantially-larger volume relative to peptide injections may produce more noticeable injection-site discomfort.",
-        "Recheck uric acid at 4–6 weeks as the primary lab-monitoring data point. Discontinue or reduce dose if uric acid rises significantly or if gout symptoms emerge.",
-        "Plan the cycle structure upfront — 4–8 week cycles followed by 4+ week off-cycle is the most-commonly-reported pattern, though no published evidence supports specific cycling parameters."
+        "Recheck uric acid at 4–6 weeks as the primary lab-monitoring data point. Discontinue if uric acid rises significantly or if gout symptoms emerge.",
+        "Cycle structure — research-community protocols most commonly describe 4–8 week cycles followed by a 4+ week off-cycle, though no published evidence supports specific cycling parameters."
       ],
       "citations": [
         {
@@ -1961,9 +1961,9 @@
         "Confirm prescription source legitimacy. Anastrozole requires a prescription in the US. Generic anastrozole tablets are widely available through standard retail pharmacies. Compounded sub-1-mg formulations are dispensed by 503A compounding pharmacies under prescription.",
         "Confirm the indication context. Off-label use in men for hypogonadism, infertility, or as a TRT-adjunct operates outside FDA approval and outside men's-health professional-society guidelines (Endocrine Society Bhasin 2018, AUA Mulhall 2018). Researchers should be explicit with themselves about the off-label nature of any men's-health use.",
         "Establish baseline labs before starting. For research-community men's-health use, baseline labs typically include: total testosterone, free testosterone, SHBG, sensitive estradiol (LC-MS/MS preferred over immunoassay), LH, FSH, lipid panel, and (for sustained use) bone density (DEXA).",
-        "Choose a starting dose pattern matched to the indication context. For TRT-adjunct use twice weekly (on injection days) is a common starting pattern, titrated by E2 labs. For monotherapy (off-label): daily was the Burnett-Bowie 2009 RCT dose;[⁵] daily or twice weekly were the Leder 2004 doses.[⁴] Starting low is the conservative approach — anastrozole's near-maximal aromatase inhibition means under-dosing rarely fails to produce *some* effect; over-suppression of E2 is the more common failure mode.",
+        "Dose patterns differ by indication context. For TRT-adjunct use, amounts in research-community protocols (often twice weekly on injection days at first, within a twice-weekly range, then changed according to estradiol labs; see Dosing Protocol) come from community practice, not from trials. For monotherapy (off-label): daily was the Burnett-Bowie 2009 RCT dose;[⁵] daily or twice weekly were the Leder 2004 doses.[⁴] Aromatase inhibition is already near-maximal at the label's (96.7–97.3%),[¹] so lower amounts rarely fail to produce *some* effect; over-suppression of E2 is the more common failure mode.",
         "Use whole tablets where possible; pill-split with awareness of accuracy limits. Pharmacy-compounded or capsules are the more accurate option for sustained sub-1-mg dosing.",
-        "Recheck labs at 4–6 weeks after starting. Adjust dose based on serum estradiol response. Do not chase a specific E2 number without correlating to clinical symptoms — the optimal E2 range in men is contested in the men's-health literature and individual variation is substantial.",
+        "Recheck labs at 4–6 weeks after starting. In research-community protocols, the amount is changed according to the serum estradiol result. Do not chase a specific E2 number without correlating to clinical symptoms — the optimal E2 range in men is contested in the men's-health literature and individual variation is substantial.",
         "Watch for crashed-E2 symptoms — joint pain, libido suppression, erectile difficulty, mood symptoms, sleep disruption. These are reversible with dose reduction or discontinuation.",
         "Periodic bone density monitoring is appropriate for sustained (>6–12 month) use."
       ],
@@ -2232,7 +2232,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled compound is AOD-9604 specifically, not \"hGH fragment 176-191.\" The two compounds are related but not identical (see disambiguation callout above), and most published research is on AOD-9604 specifically. If the vendor's label says \"176-191\" without explicit AOD-9604 nomenclature, contact the source before reconstituting.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder. Pay attention to the unit conversion — AOD-9604 is dosed in micrograms, not milligrams. The calculator will handle the conversion; double-check the units field shows \"mcg\" before entering the dose.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is per day. Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. Amounts in research-community protocols ( once daily, then once daily; see Dosing Protocol) come from community practice, not from trials. Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower doses (typical for AOD-9604), even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
         "Inject subcutaneously, in a standard subcutaneous site such as the abdomen. The morning-fasted timing is the most commonly reported research-community pattern, reflecting the Phase 2b trial's protocol. Rotate sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies.",
         "Log the dose, the site, and a baseline note (subjective body composition, hunger, energy) immediately after administration. Track over the cycle — AOD-9604's effects, if present, are typically gradual rather than acute, with most-noticeable change typically reported in the 4–8 week window."
@@ -2517,7 +2517,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure. Confirm the labeled potency matches what the Vialwise calculator is set to.",
         "Reconstitute with the chosen volume of bacteriostatic water. ARA-290 is dosed in milligrams, not micrograms — double-check the units field shows \"mg\" before entering the dose. Inject diluent slowly down the vial wall.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. The published trials used subcutaneous; at a reconstitution that is a 40-unit (0.4 mL) draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. The type 2 diabetes and diabetic macular edema trials used subcutaneous;[³][⁵] at a reconstitution that is a 40-unit (0.4 mL) draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark.",
         "Inject subcutaneously into a standard site such as the abdomen. Rotate sites.",
         "Log the dose, the site, and a baseline note (subjective symptom status). ARA-290's trial effects were measured over weeks, not acutely."
@@ -2970,7 +2970,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency of each component (e.g.) matches what the Vialwise calculator is set to.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder. Pay attention that you are reconstituting a blend: the concentration shown on Vialwise should reflect both compounds.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. Decide explicitly which dose-anchoring pattern you are following (BPC-anchored, TB-anchored, or compromise) and document it. For a first-time researcher, BPC-anchored dosing of each component is the most commonly reported starting point.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. Blend protocols anchor each draw to one component's dose (BPC-anchored, TB-anchored, or a compromise; see the dosing tradeoff in About), so the pattern in use is worth recording in the log. No FDA-approved or trial-validated dosing protocol exists for the blend; amounts in research-community protocols ( of each component twice weekly during loading, with BPC-anchored dosing the most commonly reported pattern; see Dosing Protocol) come from community practice, not from trials.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower doses, even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
         "Inject subcutaneously, ideally in or near the area of intended effect (for tendon/ligament work) or in a standard subcutaneous site such as the abdomen (for general use). Rotate sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies.",
         "Log the dose (showing both compounds), the site, and a baseline note (subjective injury status, fatigue level, sleep) immediately after administration. Track over the cycle — both BPC-157 and TB-500 effects, if present, are typically gradual rather than acute."
@@ -3215,7 +3215,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency matches what the Vialwise calculator is set to.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder. Pay attention to the unit conversion — BPC-157 is dosed in micrograms, not milligrams. The calculator will handle the conversion; double-check the units field shows \"mcg\" before entering the dose.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is per day. Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. No randomized human trial has validated a BPC-157 dose; the amounts in research-community protocols ( once daily as the commonly reported starting amount once daily for general use; see Dosing Protocol) come from community practice, not from trials. Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower doses, even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
         "Inject subcutaneously, ideally at or near the area of intended effect (for tendon/ligament work) or in a standard subcutaneous site such as the abdomen (for general use). Rotate sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies.",
         "Log the dose, the site, and a baseline note (subjective injury status, mood, sleep) immediately after administration. Track over the cycle — BPC-157's effects, if present, are typically gradual rather than acute."
@@ -3758,13 +3758,13 @@
         "Confirm source legitimacy. Cagrilintide from research-peptide and unregulated GLP-1-cluster supply chains operates outside the FDA-recognized supply chain. The Novo Nordisk clinical-trial cagrilintide product is manufactured under GMP conditions; research-peptide cagrilintide does not carry equivalent quality assurance. Source quality is variable; verify against multiple lab tests if available.",
         "Establish baseline labs before starting — fasting glucose, HbA1c, lipid panel, CMP, CBC, TSH, urinalysis. Pregnancy test in women of childbearing potential.",
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure. Confirm the labeled potency matches what the Vialwise calculator is set to. Verify the units field shows \"mg\" (not \"mcg\") before entering the dose.",
-        "Reconstitute with the chosen volume of bacteriostatic water. Default / 2 mL for typical CagriSema dosing — provides ~4 doses per vial with clean unit conversions. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
+        "Reconstitute with the chosen volume of bacteriostatic water. Default / 2 mL. At the once-weekly cagrilintide dose used in REDEFINE 1 and 2, a vial holds about 4 doses, with clean unit conversions.[⁴][⁵] Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use targeting CagriSema regimen: start at cagrilintide + semaglutide once weekly — paralleling the semaglutide standard titration schedule rather than starting directly at. The dose-escalation period in REDEFINE 1/2 was ~16 weeks to reach target dose.",
-        "Time the injection for the same weekly day — once-weekly dosing convention. The day of the week is not load-bearing; consistency week-to-week is what matters.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. In the REDEFINE 1 trial, cagrilintide and semaglutide were escalated together over 16 weeks before the once-weekly maintenance dose.[⁴]",
+        "Same weekly day — the REDEFINE trials dosed once weekly.[⁴][⁵] The day of the week is not load-bearing; consistency week-to-week is what matters.",
         "Inject subcutaneously into a standard subcutaneous site (abdomen, thigh, or upper arm). Rotate sites between injections. Cagrilintide and semaglutide can be injected separately at different sites on the same day (the Phase 3a trials used both same-syringe and separate-syringe approaches).",
         "Plan for GI adverse-event management. Expect nausea to be the dominant adverse event during dose escalation (per REDEFINE 1/2 data, 72.5–79.6% of patients experienced GI adverse events overall). Most are transient and resolve within 4–8 weeks; some patients require slower dose escalation or temporary dose reduction.",
-        "Recheck weight, HbA1c, lipid panel at 12 and 24 weeks. Continue dose escalation per the slower-than-standard schedule if GI tolerance is challenging; the published 16-week escalation was tolerated by most participants in the trials."
+        "Recheck weight, HbA1c, lipid panel at 12 and 24 weeks."
       ],
       "citations": [
         {
@@ -4445,10 +4445,10 @@
         "Confirm source legitimacy. Cartalax from research-supply chains operates outside the FDA-recognized supply chain. Source verification is more important for Khavinson bioregulators than for established Western research peptides.",
         "Establish baseline labs and clinical assessment — CBC, CMP, CRP/ESR, uric acid, baseline imaging at affected joints if clinically relevant, subjective symptom tracking baseline.",
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure.",
-        "Reconstitute with the chosen volume of bacteriostatic water. Default / 10 mL ( =) for typical dosing.",
+        "Reconstitute with the chosen volume of bacteriostatic water. / 10 mL ( =) is the simplest of the scenarios above for microgram amounts.",
         "Allow the peptide to dissolve fully — gentle inversion only.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use: start. Verify the units field shows \"mcg\" before entering the dose.",
-        "Time the first injection for morning dosing.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. No published human trial has established a Cartalax dose; amounts in research-community protocols ( once daily in a first 10–14 day cycle once daily in later 10–30 day cycles; see Dosing Protocol) come from community practice, not from trials. Verify the units field shows \"mcg\" before entering the dose.",
+        "Morning dosing is the typical timing in research-community protocols (see Dosing Protocol).",
         "Inject SC or IM into a standard injection site. Do not inject intra-articularly with research-supply Cartalax — intra-articular injection of research-supply peptides carries elevated infection and joint-damage risk.",
         "Track subjective joint symptoms during and after the cycle. Russian Khavinson Institute protocols use 10–30 day treatment cycles followed by 6–12 month off-cycle intervals."
       ],
@@ -4711,9 +4711,9 @@
         "Verify the product format and storage — Cerebrolysin ships as a ready-to-use aqueous solution, not as lyophilized powder. Should be clear, slightly yellow-to-amber, no particulates. Refrigerated 2–8°C.",
         "For IV infusion (the published-evidence-based route): dilute the Cerebrolysin solution in 100–250 mL saline carrier and administer as slow IV infusion over 60–90 minutes. Direct IV bolus is contraindicated per the Ever Pharma product label.",
         "Use the Vialwise calculator with awareness of the mL-not-mg dosing convention. Cerebrolysin doses are described in mL of solution, not mg of peptide — the calculator's standard mg/mcg conversion may not apply cleanly. Verify any protocol against published clinical-trial dosing rather than calculator output alone.",
-        "For first-time use: start at the lower end of any protocol range (e.g., 10 mL daily rather than 30 mL daily) to assess infusion tolerance and any vasomotor or hypersensitivity reaction.",
+        "In the CASTA stroke trial, Cerebrolysin was given as 30 mL once daily by IV infusion for 10 days.[³] The Cochrane review's clearest signal of increased non-fatal serious adverse events was in that 30 mL × 10-day regimen.[⁴] Vasomotor reactions during infusion and hypersensitivity reactions are among the reported adverse effects (see Side Effects).",
         "Time the infusion in a setting where adverse-event monitoring is feasible — given the moderate-certainty Cochrane non-fatal SAE signal,[⁴] infusion in an environment with monitoring capability is appropriate; outpatient home infusion is generally not appropriate for first-time Cerebrolysin use.",
-        "Plan the treatment cycle structure upfront. Most published clinical trials use 10–21 day single-cycle protocols; longer continuous-use protocols are not well characterized in published evidence.",
+        "Treatment cycle structure. The CASTA trial used a single 10-day course.[³] Longer continuous-use protocols are not well characterized in published evidence.",
         "Recheck CBC, CMP, and clinical evaluation at end of treatment cycle. Discontinue if vasomotor, hypersensitivity, or other concerning symptoms emerge."
       ],
       "citations": [
@@ -5146,10 +5146,10 @@
         "US compounding restrictions — status differs by component. Ipamorelin is on FDA's 503A Category 2 bulk-substances list (2023 action, halting legal 503A compounding pending review). CJC-1295 was subsequently removed from Category 2 and was not among the seven substances FDA's Pharmacy Compounding Advisory Committee took up at its July 23–24, 2026 meeting, which has since taken place (that agenda was BPC-157, KPV, TB-500 and MOTS-c on July 23; Emideltide/DSIP, Epitalon and Semax on July 24). That meeting therefore says nothing about CJC-1295 either way — it was never on the agenda and no committee vote was taken on it.. Under the blend's most-restrictive-component rule, treat the blend as carrying ipamorelin's Category 2 restriction. See the CJC-1295 and Ipamorelin entries for component-specific detail."
       ],
       "firstTimeWalkthrough": [
-        "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency of each component (e.g.) matches what the Vialwise calculator is set to. Confirm which form of CJC-1295 is in the blend — should be no-DAC for nearly all pre-mixed products; if the label specifies DAC, the dosing pattern differs substantially and you should use the DAC dosing in the CJC-1295 entry instead.",
+        "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency of each component (e.g.) matches what the Vialwise calculator is set to. Confirm which form of CJC-1295 is in the blend — nearly all pre-mixed products use the no-DAC form; if the label specifies DAC, the dosing pattern differs substantially, and the CJC-1295 entry describes DAC dosing separately.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For a first-time researcher: start of each component daily at bedtime — this is the most commonly reported starting protocol and aligns with both components' single-compound starting-dose recommendations.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. No published randomized trial has tested this combination; the amounts in research-community protocols ( of each component once daily at bedtime for the first 1–2 weeks, then of each per dose; see Dosing Protocol) come from community practice, not from trials.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark.",
         "Inject subcutaneously — abdomen is the most common site for bedtime dosing. Rotate sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies.",
         "Log the dose (showing both compounds), the site, and a baseline note (sleep quality, hunger, recovery, body composition baseline) immediately after administration. Track over the cycle — both components' effects, if present, are typically gradual rather than acute, with sleep changes often the first reported subjective effect within the first week of consistent dosing."
@@ -5409,7 +5409,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm whether you have CJC-1295 with DAC or without DAC — this is the most important verification step for this peptide. The two forms have different dosing, different timing, and different effects. Vendor labels usually specify; if unclear, contact the source before reconstituting.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the appropriate reconstitution scenario for your form). Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time researchers using DAC: start twice weekly to assess tolerability before titrating up. For first-time researchers using no-DAC: start once daily (bedtime is the most common starting timing) to assess tolerability before adding additional doses or increasing per-dose amounts.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. Amounts in research-community protocols (with DAC: twice weekly, or once weekly; no-DAC: per dose, 1–3 times daily, most often timed to bedtime) come from community practice, not from trials.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower doses (typical for no-DAC), even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
         "Inject subcutaneously into the abdomen, rotating sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies.",
         "Log the dose, the form (DAC vs no-DAC), the site, and a baseline note (sleep quality, appetite, recovery) immediately after administration. Track over the cycle — CJC-1295's effects, if present, are typically gradual rather than acute, with sleep changes often the first reported subjective effect."
@@ -5709,9 +5709,9 @@
         "Confirm the indication context. Off-label use in men for hypogonadism, infertility, or as a TRT alternative operates outside FDA approval and outside men's-health professional-society guidelines (Endocrine Society Bhasin 2018, AUA Mulhall 2018). Researchers should be explicit with themselves about the off-label nature of any men's-health use.",
         "Establish baseline labs before starting. For research-community men's-health use, baseline labs typically include: total testosterone, free testosterone, SHBG, sensitive estradiol (LC-MS/MS preferred), LH, FSH, prolactin (to rule out prolactinoma), CBC, and (for sustained use) liver function tests and bone density (DEXA).",
         "Choose between racemic clomiphene and enclomiphene-only based on the intended duration. For short-term use (≤6 months), racemic clomiphene is the standard option (FDA-approved, generic, low cost). For sustained use (>6 months) where zuclomiphene accumulation matters, enclomiphene-only compounded formulations are an alternative — at higher cost and outside FDA-approved supply chain.",
-        "Choose a starting dose pattern matched to the indication context. For TRT-alternative use of racemic clomiphene: every other day is the most-common starting pattern (the Shabsigh 2005 / Moskovic-Katz 2012 pattern from the published men's-health literature; used again in the 2026 Kim cohort).[³][⁵][¹⁰] For TRT-alternative use of enclomiphene: daily or daily are the Phase II trial doses.[⁷] Titrate by serum testosterone response at 4–8 weeks.",
+        "Dose patterns in the published men's-health literature. There is no FDA-approved dose for either compound in men. Racemic clomiphene: in the 2026 Kim cohort of 292 men, the initial dose was every other day, escalated every other day if total testosterone stayed below 400 ng/dL.[¹⁰] The earlier Shabsigh 2005 study used daily.[⁵] Enclomiphene: the Phase II trial used or daily.[⁷] In the Kim cohort, labs were redrawn every 4 weeks after each dose change.[¹⁰]",
         "Use whole tablets or compounded capsules where possible. Pill-splitting accuracy degrades substantially below half-tablet ( from a clomiphene tablet); pharmacy-compounded sub-25-mg formulations are the more accurate option.",
-        "Recheck labs at 4–8 weeks after starting. Adjust dose based on serum testosterone, LH, FSH, and estradiol response. Monitor for visual changes — discontinue immediately for any visual symptoms.",
+        "Recheck labs at 4–8 weeks after starting. In the Kim cohort, dose changes were based on total testosterone.[¹⁰] Monitor for visual changes — discontinue immediately for any visual symptoms.",
         "Periodic monitoring — total testosterone, estradiol, CBC, liver function quarterly; bone density (DEXA) at baseline and annually for sustained use."
       ],
       "citations": [
@@ -6593,11 +6593,11 @@
         "Verify vial integrity — seal intact, lyophilized powder visible (typically white to off-white), no signs of damage or temperature exposure during shipping. Confirm the labeled potency matches what the Vialwise calculator is set to.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder. The reconstituted solution should be clear and colorless.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is per dose. Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. Amounts in research-community protocols ( once daily before sleep for the first 3–7 nights, then once daily before bed) come from community practice, not from trials. Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower doses (typical for DSIP at most reconstitution scenarios), even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
         "Inject subcutaneously into the abdomen, rotating sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies. Pre-bed (within 30–60 minutes of intended sleep onset) is the most-commonly-reported timing in research-community sleep protocols.",
         "Log the dose, the site, the time relative to sleep onset, and a baseline note (subjective sleep quality, time to sleep onset, number of nighttime awakenings, morning grogginess) immediately after administration. Track over the cycle — DSIP's effects, if present, typically build across multiple consecutive nights rather than appearing acutely on the first night, per the clinical trial pattern.[¹]",
-        "After 5–7 nights, reassess. If effects are not detectable, consider whether the dose, timing, or compound is the right tool for the sleep concern at hand. DSIP's evidence base does not support open-ended escalation in the absence of subjective response — researchers in published clinical trials saw mixed efficacy across populations, and individual non-response is not unexpected."
+        "After 5–7 nights, reassess. If effects are not detectable, DSIP may not be the right tool for the sleep concern at hand. DSIP's evidence base does not support open-ended escalation in the absence of subjective response — researchers in published clinical trials saw mixed efficacy across populations, and individual non-response is not unexpected."
       ],
       "citations": [
         {
@@ -6848,7 +6848,7 @@
         "Activate the pen against the skin per the product instructions; the hidden needle deploys and delivers the fixed dose.",
         "Hold until the device signals completion (audible clicks per the label) to ensure full delivery.",
         "Dispose of the device in a sharps container; do not reuse.",
-        "Log the dose, site, and any side effects; track A1c/fasting glucose at the recommended cadence. Keep the same day each week."
+        "Log the dose, site, and any side effects; track A1c/fasting glucose at the recommended cadence. The label's schedule is once weekly, on a regularly scheduled day.[¹]"
       ],
       "citations": [
         {
@@ -7088,10 +7088,10 @@
       "firstTimeWalkthrough": [
         "Verify product authenticity, labeled potency, and specific sequence (AEDG). Some research-community materials use \"Epitalon\" interchangeably with the related parent extract Epithalamin or with sequence-variant compounds. The canonical Khavinson Epitalon sequence is Ala-Glu-Asp-Gly (AEDG) — confirm with your source.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall; allow full dissolution (1–2 minutes with gentle inversion). Should be clear after dissolution.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time researchers, that is per dose per the Russian clinical course protocol.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. Amounts in research-community protocols ( per dose, once daily during a course; see Dosing Protocol) come from community practice, not from trials.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark.",
         "Inject subcutaneously. The course-based protocol typically uses morning or evening dosing — timing relative to circadian rhythm has been studied in some Khavinson-group work but is not consistently established as load-bearing.",
-        "Plan the course structure upfront: 10–20 days on, 30–180 days off. Decide before starting whether you intend a single course, a 6-month repeat, or an annual repeat. Continuous daily Epitalon outside the course-based pattern is not the published Khavinson framework.",
+        "Course structure. Amounts in research-community protocols (daily for 10–20 days, then 30–180 days off, with 1–4 courses a year) come from community practice, not from trials. Continuous daily Epitalon outside the course-based pattern is not the published Khavinson framework.",
         "Log the dose, the day-of-course, and a baseline note (subjective vitality, sleep quality, mood, energy). Track over the course; the cumulative effect, if present, builds across the 10–20-day window rather than acutely.",
         "After the course, reassess at 30 days post-final-dose and at the next scheduled course (if planned). The course-based framework expects effects to persist into the off-period; subjective tracking through the off-period informs whether to repeat."
       ],
@@ -7318,10 +7318,10 @@
       ],
       "firstTimeWalkthrough": [
         "Establish a clear baseline. Same baseline labs as for the other AIs: serum total testosterone, free testosterone, sensitive estradiol (LC-MS/MS preferred), LH, FSH, SHBG, lipid panel, comprehensive metabolic panel, and DEXA bone density (if not measured in past 2 years).",
-        "Decide on the dose pattern. Conservative TRT-adjunct: every other day twice weekly. AAS-cycle: every other day to daily, depending on aromatization profile.",
-        "Take with food for optimal bioavailability (food increases absorption ~40%). Keep food timing consistent across doses to minimize PK variability.",
+        "Amounts in research-community protocols (TRT-adjunct: every other day twice weekly; AAS-cycle: every other day to daily) come from community practice, not from trials. No published randomized controlled trial has validated any specific off-label men's-health dose.",
+        "Exemestane is an oral tablet; the FDA-approved dose is taken after a meal, and food increases its absorption by about 40%. That food effect is large enough that food timing which varies from dose to dose produces meaningful differences in how much is absorbed.",
         "Monitor at 4–8 weeks. Repeat sensitive estradiol, total testosterone, and clinical assessment of estradiol-related symptoms. Goal estradiol typically in the 20–40 pg/mL range.",
-        "Adjust based on labs. If estradiol is over-suppressed, reduce dose or extend dosing interval. Note that exemestane's irreversible mechanism means dose reductions take 3–7 days to fully manifest in lab values — interpret follow-up labs at appropriate timing.",
+        "Over-suppressed estradiol is a main concern the follow-up labs look for; research-community protocols respond by lowering the amount or lengthening the dosing interval. Because exemestane's mechanism is irreversible, a lower amount needs 3–7 days to fully show in lab values, so labs drawn sooner can understate the change.",
         "Re-monitor at 3 and 6 months. Lipid panel, DEXA bone density (if 12+ months since last), and continued estradiol/testosterone monitoring.",
         "If discontinuing exemestane after a longer course, plan for slow estradiol recovery — aromatase activity returns over ~3–7 days as new enzyme protein is synthesized, but full normalization of estradiol levels and downstream effects (mood, bone, lipid) may take longer.",
         "Log dose, food timing, and subjective response (mood, libido, joint comfort, energy, water retention, gynecomastia) at each lab check."
@@ -7875,13 +7875,13 @@
         "Confirm source legitimacy. 5-amino-1MQ from research-supply chains operates outside the FDA-recognized supply chain. The compound is a chemically-defined small molecule, so identity confirmation via mass spectrometry or NMR is achievable in research-supply contexts. Source quality is variable; verify against the labeled identity and purity if available.",
         "Establish baseline labs before starting — fasting glucose, HbA1c, lipid panel (LDL, HDL, triglycerides), CMP including LFTs, CBC. Given the absent human safety data, error toward conservative baseline monitoring.",
         "Verify product appearance — 5-amino-1MQ is typically a white-to-off-white crystalline solid (free amine) or pale-yellow solid (iodide salt). Confirm the labeled identity and potency match what the Vialwise calculator is set to. Verify the units field shows \"mg\" (not \"mcg\") before entering the dose.",
-        "Reconstitute with the chosen volume of bacteriostatic water (for SC route) or as oral solution (for oral route). Default / 2 mL for typical dosing as the cleanest precision-vs-volume tradeoff.",
+        "Reconstitute with the chosen volume of bacteriostatic water (for SC route) or as oral solution (for oral route). A / 2 mL setup is the cleanest precision-vs-volume tradeoff (refer to the reconstitution scenarios above).",
         "Allow the compound to dissolve fully — 5-amino-1MQ is reasonably soluble in water but may require gentle inversion and 1–2 minutes for complete dissolution. Slight yellow color in solution is expected for the iodide salt and does not indicate degradation.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use: start. Verify the units field shows \"mg\" (not \"mcg\") before entering the dose.",
-        "Time the injection for morning dosing — intended to align with the daytime energy-expenditure cycle. Alternative pre-meal or pre-workout timing is also reported in research-community use.",
-        "Inject subcutaneously (for SC route) into a standard subcutaneous site (abdomen most common). Rotate sites between injections. For oral route, take with water; oral bioavailability is not well-characterized in humans.",
-        "Plan the cycle structure upfront — 4–8 week cycles followed by 4+ week off-cycle is the most-commonly-reported pattern, though no published evidence supports specific cycling parameters.",
-        "Recheck lipid panel and metabolic labs at 6–8 weeks. Discontinue or reduce dose if unusual lab abnormalities emerge. Given the absent human safety data, error toward conservative monitoring and low threshold for discontinuation."
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. No human trial of 5-amino-1MQ has been published, and its published dosing data come from mice. Amounts in research-community protocols ( once daily for the first 1–2 weeks, or for the first 3–5 doses in some, then once daily in 4–8 week cycles; see Dosing Protocol) come from community practice, not from trials. Verify the units field shows \"mg\" (not \"mcg\") before entering the dose.",
+        "Morning dosing is the timing most often described in research-community protocols — intended to align with the daytime energy-expenditure cycle. Pre-meal or pre-workout timing is also reported in research-community use.",
+        "Inject subcutaneously (for SC route) into a standard subcutaneous site (abdomen most common). Rotate sites between injections. Oral use (dissolved in water or in capsules) is also reported; oral bioavailability is not well-characterized in humans.",
+        "Cycle structure — 4–8 week cycles followed by a 4+ week off-cycle is the most commonly reported pattern in research-community protocols, though no published evidence supports specific cycling parameters.",
+        "Recheck lipid panel and metabolic labs at 6–8 weeks. Discontinue if unusual lab abnormalities emerge. Given the absent human safety data, error toward conservative monitoring and low threshold for discontinuation."
       ],
       "citations": [
         {
@@ -8141,11 +8141,11 @@
         "Confirm source legitimacy. Follistatin from research-peptide supply chains operates outside the FDA-recognized supply chain. Source quality is variable; verify cold-chain integrity from supplier.",
         "Establish baseline labs before starting — total testosterone, LH, FSH (especially relevant given activin-pathway interaction), CBC, CMP including LFTs, semen analysis (if fertility preservation is a concern).",
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure. Confirm the labeled potency matches what the Vialwise calculator is set to.",
-        "Reconstitute with the chosen volume of bacteriostatic water. Default / 1 mL for typical dosing as the cleanest precision-vs-volume tradeoff. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
+        "Reconstitute with the chosen volume of bacteriostatic water. A / 1 mL reconstitution is the cleanest precision-vs-volume tradeoff (see the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the protein to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use: start. Verify the units field shows \"mcg\" before entering the dose.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. No FDA-approved or trial-validated dose exists for recombinant follistatin protein injection; amounts in research-community protocols ( daily during a 10-day initial cycle, then daily during 10–30 day cycles; see Dosing Protocol) come from community practice, not from trials. Verify the units field shows \"mcg\" before entering the dose.",
         "Inject subcutaneously into a standard subcutaneous site (abdomen most common). Rotate sites between injections.",
-        "Plan the cycle structure upfront. Research-community pattern is 10–30 day cycles followed by extended off-periods (2–3× the cycle length) to manage activin-pathway / FSH-suppression concerns.",
+        "Cycle structure. Research-community protocols run 10–30 day cycles followed by extended off-periods (2–3× the cycle length), aimed at activin-pathway / FSH-suppression concerns; these cycle lengths, like the amounts above, come from community practice, not from trials.",
         "Monitor for unusual bleeding (nosebleeds, gum bleeding) given the ACE-031 vascular-AE class signal. Discontinue and seek evaluation if symptoms develop.",
         "Repeat FSH lab at end of cycle to assess activin-pathway effect. Pause use well in advance of any planned conception."
       ],
@@ -8411,13 +8411,13 @@
         "Confirm source legitimacy and verify product identity. FOXO4-DRI's D-retro-inverso architecture is complex; research-supply quality varies substantially. Mass spectrometry or HPLC purity testing of the specific lot is more important for FOXO4-DRI than for any other library entry. Confirm the product is truly D-retro-inverso (not an L-amino-acid mis-labeled product).",
         "Establish baseline labs before starting — CBC (platelets, neutrophils), CMP including LFTs, renal function, lipid panel. Pregnancy test in women of childbearing potential.",
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure. Confirm the labeled potency matches what the Vialwise calculator is set to.",
-        "Reconstitute with the chosen volume of bacteriostatic water. Default / 2 mL for typical dosing. Inject diluent slowly down the vial wall.",
+        "Reconstitute with the chosen volume of bacteriostatic water. Default / 2 mL. Inject diluent slowly down the vial wall.",
         "Allow the peptide to dissolve fully — gentle inversion only.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use: start. Verify the units field shows \"mg\" before entering the dose.",
-        "Time the first injection for morning dosing in a setting where adverse-event monitoring is feasible.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. Studies of FOXO4-DRI dosing were in mice; no human starting dose has been studied in any published or registered trial. Verify the units field shows \"mg\" before entering the dose.",
+        "Morning dosing is what research-community protocols describe. Plan the first injection for a setting where adverse-event monitoring is feasible.",
         "Inject SC into a standard subcutaneous site (abdomen most common) for research-community use, or IV in clinical-investigation contexts.",
-        "Plan the treatment cycle structure upfront. Senolytic-class mechanism does not require continuous dosing — 2–4 week treatment cycles followed by 2–3 month off-cycle intervals is the appropriate pattern.",
-        "Recheck CBC at end of treatment cycle. Discontinue or reduce dose if thrombocytopenia, neutropenia, or other hematological abnormalities emerge."
+        "Cycle structure. Research-community protocols describe 2–4 week treatment cycles followed by 2–3 month off-cycle intervals, on the rationale that a senolytic mechanism does not require continuous dosing. The pattern is extrapolated from mouse work; no published evidence-based human dosing schedule exists.",
+        "Recheck CBC at end of treatment cycle. Discontinue if thrombocytopenia, neutropenia, or other hematological abnormalities emerge."
       ],
       "citations": [
         {
@@ -8685,7 +8685,7 @@
         "Confirm the product is GHK-Cu (the copper complex), not bare GHK peptide. Some research suppliers sell the unbound tripeptide separately from the copper-bound complex; the two have substantially different mechanisms (the copper-binding role is central to GHK-Cu's biological activity per the published literature). Vendor labels should specify the form; if unclear, contact the source before reconstituting.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder. The reconstituted solution should be pale to medium blue/blue-green; this color is normal for the copper-peptide complex.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is per day. Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. No published human trial has established an injectable GHK-Cu dose; amounts in research-community protocols ( once daily in starting protocols; see Dosing Protocol) come from community practice, not from trials. Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower doses (typical for GHK-Cu at most reconstitution scenarios), even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
         "Inject subcutaneously into the abdomen, rotating sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies. Bedtime injection is the most-commonly-reported timing in research-community protocols.",
         "Log the dose, the site, and a baseline note (subjective skin/hair status, recovery, joint comfort if relevant) immediately after administration. Track over the cycle — GHK-Cu's effects, if present, are typically gradual rather than acute, with most-noticeable change typically reported in the 4–8 week window."
@@ -9023,13 +9023,13 @@
         "Confirm source legitimacy. GHRP-2 from research-peptide supply chains operates outside the FDA-recognized supply chain. The Kaken Pharmaceutical Japanese diagnostic product is the only regulated finished pharmaceutical form; research-peptide GHRP-2 does not carry equivalent quality assurance. Source quality is variable; verify against multiple lab tests if available.",
         "Establish baseline labs before starting — morning cortisol, prolactin, IGF-1, fasting glucose, HbA1c, CBC, CMP including LFTs.",
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure. Confirm the labeled potency matches what the Vialwise calculator is set to.",
-        "Reconstitute with the chosen volume of bacteriostatic water. Default / 5 mL ( =) for typical dosing as the cleanest precision-vs-volume tradeoff. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
+        "Reconstitute with the chosen volume of bacteriostatic water. A vial in 5 mL ( =) gives the cleanest precision-vs-volume tradeoff for research-community amounts (see Reconstitution). Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use: start. Verify the units field shows \"mcg\" before entering the dose.",
-        "Time the first injection for evening dosing (pre-bedtime). The Loche 1997 hexarelin data established that GH-AUC response is higher during sleep than during morning hours; the same circadian rationale applies to GHRP-2.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. Amounts in research-community protocols ( once daily for the first 1–2 weeks, then 1–3 times daily) come from community practice, not from trials. Verify the units field shows \"mcg\" before entering the dose.",
+        "Timing. Pre-bedtime injection is a common research-community pattern. The Loche 1997 hexarelin data established that GH-AUC response is higher during sleep than during morning hours, and the same circadian rationale is extended to GHRP-2.",
         "Inject subcutaneously into a standard subcutaneous site (abdomen most common). Rotate sites between injections.",
-        "Plan the cycle structure upfront. Adult research-community use typically reports tachyphylaxis emerging within 2–4 weeks of consistent dosing. Plan for a 4–6 week cycle followed by a 4+ week washout to manage this.",
-        "Recheck morning cortisol and prolactin at 4–6 weeks. Discontinue or reduce dose if either rises above the normal range."
+        "Cycle structure. Adult research-community use typically reports tachyphylaxis emerging within 2–4 weeks of consistent dosing. Amounts in research-community protocols (4–6 week cycles followed by a 4+ week washout) come from community practice, not from trials.",
+        "Recheck morning cortisol and prolactin at 4–6 weeks. Discontinue if either rises above the normal range."
       ],
       "citations": [
         {
@@ -9334,14 +9334,14 @@
         "Confirm source legitimacy. GHRP-6 from research-peptide supply chains operates outside the FDA-recognized supply chain. Source quality is variable; verify against multiple lab tests if available.",
         "Establish baseline labs before starting — morning cortisol, prolactin, IGF-1, fasting glucose, HbA1c, CBC, CMP including LFTs.",
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure. Confirm the labeled potency matches what the Vialwise calculator is set to.",
-        "Reconstitute with the chosen volume of bacteriostatic water. Default / 5 mL ( =) for typical dosing as the cleanest precision-vs-volume tradeoff. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
+        "Reconstitute with the chosen volume of bacteriostatic water. A / 5 mL reconstitution ( =) is the cleanest precision-vs-volume tradeoff for the research-community amounts in step 6. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use: start. Verify the units field shows \"mcg\" before entering the dose.",
-        "Time the first injection for evening dosing (pre-bedtime). The same circadian rationale as hexarelin and GHRP-2 applies — GH-AUC response is higher during sleep than during morning hours.",
-        "Be prepared for the appetite-stimulation effect. Unlike GHRP-2 or ipamorelin, GHRP-6's hunger effect is pronounced and can occur within minutes of injection. Plan first-time use for an evening when a meal is available — or specifically avoid using pre-bedtime if eating before sleep is not desired.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. Amounts in research-community protocols ( once daily for the first 1–2 weeks, then 1–3 times daily) come from community practice, not from trials. Verify the units field shows \"mcg\" before entering the dose.",
+        "Evening (pre-bedtime) timing is the most common in research-community protocols. The same circadian rationale as hexarelin and GHRP-2 applies — GH-AUC response is higher during sleep than during morning hours.",
+        "Be prepared for the appetite-stimulation effect. Unlike GHRP-2 or ipamorelin, GHRP-6's hunger effect is pronounced and can occur within minutes of injection, so a pre-bedtime injection can bring on hunger close to sleep.",
         "Inject subcutaneously into a standard subcutaneous site (abdomen most common). Rotate sites between injections.",
-        "Plan the cycle structure upfront. Adult research-community use typically reports tachyphylaxis emerging within 2–4 weeks of consistent dosing. Plan for a 4–6 week cycle followed by a 4+ week washout to manage this.",
-        "Recheck morning cortisol and prolactin at 4–6 weeks. Discontinue or reduce dose if either rises above the normal range."
+        "Cycle structure. Adult research-community use typically reports tachyphylaxis emerging within 2–4 weeks of consistent dosing; research-community protocols manage this with a 4–6 week cycle followed by a 4+ week washout.",
+        "Recheck morning cortisol and prolactin at 4–6 weeks. If either rises above the normal range, discontinue; research-community protocols describe reducing the dose as the alternative."
       ],
       "citations": [
         {
@@ -9811,8 +9811,8 @@
         "Regulatory note (WADA): GSH is not listed in the 2026 or 2027 WADA Prohibited List[⁹]."
       ],
       "firstTimeWalkthrough": [
-        "Decide on the route based on goal: General antioxidant support: oral liposomal GSH Parkinson's-adjunct (with clinician): IV GSH per published protocols Cystic fibrosis (research): inhaled GSH per CF research protocols",
-        "For oral liposomal: take daily with or without food. Track over 2–4 weeks.",
+        "The route differs by research context: General antioxidant support: oral liposomal GSH. A 1-month pilot study in healthy adults gave 500 or per day.[¹] Parkinson's-adjunct (with clinician): IV GSH, as in published trial protocols. Cystic fibrosis (research): inhaled GSH, as in CF research protocols.",
+        "Oral liposomal GSH is used daily in research-community and wellness practice, with or without food (see Dosing Protocol). Track over 2–4 weeks.",
         "For IV: this is administered at wellness clinics or specialty practices.",
         "Log dose, route, timing, and subjective response.",
         "Reassess at 4 weeks."
@@ -10093,11 +10093,11 @@
         "Confirm prescription / source legitimacy. In the US, gonadorelin requires a prescription dispensed through a 503A compounding pharmacy. Verify the source and that the compounded gonadorelin matches the labeled potency ( or in 2 mL or 5 mL multidose vials).",
         "Verify vial integrity. Liquid solution should be clear and colorless; no signs of damage, cloudiness, or temperature exposure.",
         "Confirm storage. Compounding-pharmacy gonadorelin is typically dispensed pre-reconstituted; refrigerate immediately on receipt. Lyophilized vials (less common) require BAC-water reconstitution before first use.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time research-community / TRT-adjunct users: starting twice weekly is a common tolerability strategy. Verify the units field shows \"mcg\" before entering the dose.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. There is no current FDA-approved dosing protocol for TRT-adjunct use; amounts in research-community protocols ( twice weekly as the most common starting pattern as the first amount in some protocols, and 2–3 times weekly as maintenance; see Dosing Protocol) come from community practice, not from trials. Verify the units field shows \"mcg\" before entering the dose.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark.",
-        "Inject subcutaneously into the abdomen (most common site) on testosterone-injection days for a TRT-adjunct context, or on a fixed schedule (e.g., Mon/Wed/Fri) for monotherapy contexts. Rotate sites between injections.",
+        "Inject subcutaneously into the abdomen (most common site). Rotate sites between injections. Research-community protocols time doses to testosterone-injection days in a TRT-adjunct context, or to a fixed schedule (e.g., Mon/Wed/Fri) for monotherapy; that timing, like the amounts above, comes from community practice, not from trials.",
         "Log the dose, the timing, and a baseline note (testicular volume baseline if measuring; subjective baseline for libido / energy / TRT-related symptoms; LH/FSH/T baseline labs).",
-        "Track over 4–6 weeks before evaluating response. Gonadorelin's effects on testicular function and TRT-adjunct goals are typically gradual rather than acute; sustained 4–8 week dosing is needed before assessing whether the protocol is working."
+        "Track over 4–6 weeks before evaluating response. Gonadorelin's effects on testicular function and TRT-adjunct goals are typically gradual rather than acute; research-community reports describe effects within 4–8 weeks of consistent use."
       ],
       "citations": [
         {
@@ -10387,7 +10387,7 @@
         "Verify vial integrity and reconstitution kit. Lyophilized powder vial intact; if a manufacturer-supplied diluent kit is included (Pregnyl, Novarel), use the included diluent or substitute BAC water per research-community practice. Confirm the labeled IU content matches what the Vialwise calculator is set to.",
         "Reconstitute with the chosen volume of bacteriostatic water. The 1 mL per baseline produces — a clean reference concentration. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow to dissolve fully — gentle inversion only, no shaking. The reconstituted solution should be clear and colorless to faintly yellow. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. Verify the units field shows \"IU\" before entering the dose — HCG is the only IU-dosed compound currently in the Vialwise library, and the unit-mismatch failure mode is high-consequence.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. Verify the units field shows \"IU\" before entering the dose — HCG is the only IU-dosed compound currently in the Vialwise library, and the unit-mismatch failure mode is high-consequence.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower doses (typical for at most reconstitution scenarios), even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
         "Inject subcutaneously into the abdomen, rotating sites per the body map (when v2 ships). SC is the most common research-community / clinical-practice route despite Pregnyl/Novarel labels specifying IM; SC is widely tolerated and produces similar pharmacokinetic profiles per the published comparative literature.",
         "Log the dose, the use case (TRT adjunct, fertility recovery, PCT), the site, and any baseline labs (testosterone, estradiol, PSA, hematocrit, sperm parameters if relevant). Track over the cycle."
@@ -10688,13 +10688,13 @@
         "Confirm source legitimacy. Hexarelin from research-peptide supply chains operates outside the FDA-recognized supply chain. Source quality is variable; verify against multiple lab tests if available.",
         "Establish baseline labs before starting — morning cortisol, prolactin, IGF-1, fasting glucose, HbA1c, CBC, CMP including LFTs.",
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure. Confirm the labeled potency matches what the Vialwise calculator is set to.",
-        "Reconstitute with the chosen volume of bacteriostatic water. Default / 2 mL ( =) for typical dosing as the cleanest precision-vs-volume tradeoff. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
+        "Reconstitute with the chosen volume of bacteriostatic water. / 2 mL ( =) is the cleanest precision-vs-volume tradeoff of the scenarios above. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use: start. Verify the units field shows \"mcg\" before entering the dose.",
-        "Time the first injection for evening dosing (pre-bedtime). The Loche 1997 study found GH-AUC response is higher during sleep than during morning hours, supporting the bedtime-timing convention.[²]",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. Amounts in research-community protocols ( once daily for the first 1–2 weeks, then one to three times daily in 4–6 week cycles; see Dosing Protocol) come from community practice, not from trials. Verify the units field shows \"mcg\" before entering the dose.",
+        "Pre-bedtime is the typical timing in research-community protocols. The Loche 1997 study found GH-AUC response is higher during sleep than during morning hours, supporting the bedtime-timing convention.[²]",
         "Inject subcutaneously into a standard subcutaneous site (abdomen most common). Rotate sites between injections.",
-        "Plan the cycle structure upfront. Expect tachyphylaxis to begin within 2–4 weeks of consistent dosing per published evidence.[⁴] Plan for a 4–6 week cycle followed by a 4+ week washout to manage this.",
-        "Recheck morning cortisol and prolactin at 4–6 weeks. Discontinue or reduce dose if either rises above the normal range."
+        "Cycle structure. Research-community protocols run 4–6 week cycles followed by a 4+ week washout (see Dosing Protocol), because community reports describe the GH response fading within 2–4 weeks of consistent dosing. The published 16-week study did not measure GH response; it found a cortisol-response change that reversed 4 weeks after stopping.[⁴]",
+        "Recheck morning cortisol and prolactin at 4–6 weeks. Discontinue if either rises above the normal range."
       ],
       "citations": [
         {
@@ -10866,7 +10866,7 @@
         },
         {
           "label": "FDA-approved adult GHD dosing[¹][²][⁴][⁵]",
-          "value": "Starting: SC, no weight-based titration. Increase at 1–2 month intervals. Goal: mid-normal IGF-1 range; rarely exceeds. Some labels use weight-based starting (e.g., Genotropin/week → for a 70 kg adult, divided into 6–7 daily SC injections)."
+          "value": "Starting: SC, no weight-based titration. Increase at 1–2 month intervals. Goal: mid-normal IGF-1 range; rarely exceeds. Some labels use weight-based starting (e.g., Genotropin: not more than/week at the start, which is for a 70 kg adult, divided into 6–7 daily SC injections)."
         },
         {
           "label": "FDA-approved pediatric GHD dosing[⁴]",
@@ -11016,9 +11016,9 @@
         "Verify vial/cartridge integrity and product identity. Confirm it is somatropin (vs another peptide), confirm the labeled concentration (in mg or IU), and verify no signs of damage.",
         "Reconstitute with the included diluent (for branded products) or with bacteriostatic water (for compounded research-community vials). Inject diluent slowly down the wall — do not stream onto the powder. Roll gently to dissolve; do not shake.",
         "Allow to dissolve fully. Solution should be clear within 1–2 minutes of gentle rolling.",
-        "Use the Vialwise calculator to confirm exact draw volume for the target dose. Confirm the units field shows mg or IU as appropriate — HGH is one of the few compounds in this library where multiple unit systems are commonly used. For a typical adult-GHD starting dose, the draw is 0.04 mL = on a U-100 syringe — small enough that precision matters.",
+        "Use the Vialwise calculator to confirm exact draw volume for a given dose. Confirm the units field shows mg or IU as appropriate — HGH is one of the few compounds in this library where multiple unit systems are commonly used. The Genotropin label's non-weight-based adult GHD starting dose is;[⁴], that is a 0.04 mL draw = on a U-100 syringe, small enough that precision matters.",
         "Draw into a U-100 insulin syringe (typical for research-community vial-and-syringe scenarios). Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark.",
-        "Inject subcutaneously into the abdomen (most common site), upper outer thigh, or back of upper arm. Rotate sites between injections to prevent lipoatrophy. Bedtime injection is the most-commonly-recommended timing for daily HGH (mimics endogenous nocturnal pulse).",
+        "Inject subcutaneously into the abdomen (most common site), upper outer thigh, or back of upper arm. Rotate sites between injections to prevent lipoatrophy. Daily HGH is typically given at bedtime, to mimic the endogenous nocturnal GH pulse (see Dosing Protocol).",
         "Log the dose, the product (Genotropin / Humatrope / Norditropin / generic vial), the site, and any baseline labs (IGF-1, fasting glucose, HbA1c). IGF-1 monitoring at 1–2 months is the standard cadence per Yuen 2019.[¹]"
       ],
       "citations": [
@@ -11539,13 +11539,13 @@
         "Confirm source legitimacy. IGF-1 LR3 from research-peptide supply chains operates outside the FDA-recognized supply chain. Source quality is variable; verify against multiple lab tests if available.",
         "Establish baseline labs before starting — fasting glucose, HbA1c, CBC, CMP including LFTs, total testosterone, SHBG, and consideration of age-appropriate cancer screening.",
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure. Confirm the labeled potency matches what the Vialwise calculator is set to.",
-        "Reconstitute with the chosen volume of bacteriostatic water (or acetic-acid solution per the source's product sheet). Default / 1 mL for typical dosing. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
+        "Reconstitute with the chosen volume of bacteriostatic water (or acetic-acid solution per the source's product sheet). A / 1 mL reconstitution is the best precision-vs-volume tradeoff for the research-community amounts in step 6. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use: start. Verify the units field shows \"mcg\" before entering the dose. Double-check the draw on the syringe before injection.",
-        "Time the first injection within 30–60 minutes of a carbohydrate-containing meal. Do not inject in a fasted state for the first several injections — this is the highest-acute-risk practice.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. Amounts in research-community protocols ( for the first 5–7 days, then in 4–6 week cycles) come from community practice, not from trials. No controlled human trial has validated any dose of the LR3 form. Verify the units field shows \"mcg\" before entering the dose. Double-check the draw on the syringe before injection.",
+        "Research-community protocols time the injection within 30–60 minutes of a carbohydrate-containing meal. Do not inject in a fasted state for the first several injections — this is the highest-acute-risk practice.",
         "Inject subcutaneously into a standard subcutaneous site (abdomen most common). Have fast-acting carbohydrate (glucose tablets, juice) accessible during the immediate post-injection period.",
         "Monitor for hypoglycemia symptoms in the first 2–4 hours post-injection: lightheadedness, shakiness, sweating, blurred vision, mental confusion. If symptoms develop, immediately consume 15–30 g of fast-acting carbohydrate and recheck symptoms within 15 minutes; repeat as needed.",
-        "Log the dose, the timing, the meal context, and any subjective effects. Track over the cycle. Do not escalate dose until tolerance at the current dose is established over multiple injections.",
+        "Log the dose, the timing, the meal context, and any subjective effects. Track over the cycle. Higher amounts substantially increase hypoglycemia risk; research-community protocols establish tolerance at one amount over multiple injections before any increase.",
         "Recheck labs at mid-cycle (week 2–3) — fasting glucose, HbA1c, and any clinically-indicated repeat tests."
       ],
       "citations": [
@@ -11812,9 +11812,9 @@
       ],
       "firstTimeWalkthrough": [
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency matches what the Vialwise calculator is set to.",
-        "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). For first-time researchers using Ipamorelin alone, default to lower-concentration setups that produce draws at the starting dose. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
+        "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Lower-concentration setups produce draws at the table's smallest amount, which measure more precisely than the draws from the setups. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For a first-time researcher: start once daily at bedtime to assess tolerability before adding additional doses or increasing per-dose amounts.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. There is no FDA-approved dosing protocol for ipamorelin; the amounts in research-community protocols ( per dose, 1–3 times daily, most often at bedtime per dose at the higher end; see Dosing Protocol) come from community practice, not from trials.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower doses, even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
         "Inject subcutaneously into the abdomen, rotating sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies.",
         "Log the dose, the site, and a baseline note (sleep quality, hunger, recovery) immediately after administration. Track over the cycle — Ipamorelin's effects, if present, are typically gradual rather than acute, with sleep changes and a noticeable hunger pulse 30–60 minutes post-dose often the first reported subjective effects."
@@ -11945,7 +11945,7 @@
         "sexual-health"
       ],
       "status": "Not FDA-approved for any indication. Kisspeptin (in both kisspeptin-54 and kisspeptin-10 forms) is investigational only — no national regulator has approved any kisspeptin formulation for any clinical indication. The most clinically-advanced kisspeptin program is the Imperial College London / Dhillo group kisspeptin-54 IVF-trigger Phase II program — the Abbara 2015 *J Clin Endocrinol Metab* phase 2 multi-dose open-label RCT demonstrated that kisspeptin-54 can effectively and safely trigger oocyte maturation in IVF patients at high risk of ovarian hyperstimulation syndrome (OHSS) — with 0 cases of moderate, severe, or critical OHSS across 60 women.[³] Available outside the academic-clinical-trial context exclusively as a research peptide through unregulated research-peptide supply chains. Not DEA-scheduled. ⚠️ WADA-banned in male athletes — kisspeptin is explicitly named in the WADA 2026 and 2027 Prohibited Lists[⁶] under S2.2.1 (Testosterone-stimulating peptides in males): \"kisspeptin and its agonist analogues\", alongside chorionic gonadotrophin (CG), luteinizing hormone (LH), and GnRH (gonadorelin). Prohibited at all times, in males. The listing is explicit and sits under S2.2.1 (testosterone-stimulating peptides), not S2.3 (growth factors).",
-      "recommendedTimeOfDay": "morning",
+      "recommendedTimeOfDay": "anytime",
       "lastUpdated": "2026-09-03",
       "beginner": {
         "summary": "Kisspeptin sits at the very top of the reproductive hormone axis, triggering the brain's release of GnRH and, downstream, testosterone or estrogen. It's studied mainly for its role in fertility treatment and hormone signaling. It's a natural neuropeptide, most often studied as the 54-amino-acid kisspeptin-54 or the shorter kisspeptin-10. It's not FDA-approved for any indication and is investigational only; outside academic trials, it's sold as a research chemical.",
@@ -12124,12 +12124,12 @@
         "Confirm which form you have — kisspeptin-10 vs kisspeptin-54. They are not pharmacologically interchangeable. Kisspeptin-10 has substantially shorter half-life (~4 minutes plasma) than kisspeptin-54 (~25 minutes effective duration). Dose ranges differ accordingly.",
         "Establish baseline labs before starting — total testosterone, free testosterone, LH, FSH, estradiol, SHBG, prolactin, CMP, CBC.",
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure. Confirm the labeled potency matches what the Vialwise calculator is set to.",
-        "Reconstitute with the chosen volume of bacteriostatic water. Default / 2 mL ( =) for kisspeptin-10 for typical dosing as the cleanest precision-vs-volume tradeoff. Kisspeptin-54 doses are typically substantially larger — verify the specific protocol target.",
+        "Reconstitute with the chosen volume of bacteriostatic water. For kisspeptin-10, a / 2 mL reconstitution ( =) is the cleanest precision-vs-volume tradeoff (see the reconstitution scenarios above). Kisspeptin-54 amounts in published protocols are substantially larger (see Dosing Protocol).",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use: start of kisspeptin-10. Verify the units field shows \"mcg\" before entering the dose.",
-        "Time the first injection for morning dosing — kisspeptin's HPG-axis stimulation may be amplified in the morning when the natural HPG-axis pulsatility is most active. The Imperial College London IVF-trigger work uses a single SC bolus 36 hours before oocyte retrieval; chronic daily protocols vary in their timing convention.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. No FDA-approved or trial-validated dose exists for chronic kisspeptin use; amounts in research-community protocols ( of kisspeptin-10 once daily for 1–2 weeks, then 1–2 times daily; see Dosing Protocol) come from community practice, not from trials. Verify the units field shows \"mcg\" before entering the dose.",
+        "Timing. Research-community protocols use morning or pre-bedtime dosing, and some use peri-meal timing; morning use rests on the idea that kisspeptin's HPG-axis stimulation may be amplified when natural HPG-axis pulsatility is most active. In the Imperial College London IVF-trigger trial, women received a single injection of kisspeptin-54 (3.2–12.8 nmol/kg) and oocytes were retrieved 36 hours later.[³]",
         "Inject subcutaneously into a standard subcutaneous site (abdomen most common). Rotate sites between injections.",
-        "Recheck LH / FSH / total testosterone / estradiol at 4–6 weeks. Discontinue or reduce dose if estradiol rises significantly above target range or if HPG-axis response is not what was expected."
+        "Recheck LH / FSH / total testosterone / estradiol at 4–6 weeks. Discontinue if estradiol rises significantly above target range or if the HPG-axis response is not what was expected; research-community protocols also describe lowering the dose in those cases."
       ],
       "citations": [
         {
@@ -12617,11 +12617,11 @@
       "firstTimeWalkthrough": [
         "Verify product authenticity and labeled potency. Confirm the capsule labeled potency (or per capsule) matches your intended dose. KPV is a small tripeptide and counterfeit or under-dosed products are a real concern in the research-peptide market — purchase from sources with established reputation and ideally with third-party testing.",
         "Confirm the product is KPV (Lys-Pro-Val), not a different α-MSH-derived peptide. Several other α-MSH-derived peptides exist (notably KPV-22, MSH(11-13)-related variants, and longer melanocortin analogues like MT-II and PT-141 covered in their own library entries). The mechanism, dose range, and indications differ substantially. Vendor labels should specify KPV (Lys-Pro-Val) explicitly; if unclear, contact the source before using.",
-        "For first-time researchers, start at the lower end of the dose range — once or twice daily for IBD/systemic anti-inflammatory indications. Increase gradually based on response over 1–2 weeks.",
-        "Take orally with or without food — published preclinical work and research-community use have not established a clear food-effect pattern for oral KPV, and PepT1-mediated uptake in the small intestine is the rate-limiting step regardless of food status.",
+        "Amounts in research-community protocols (oral, for IBD/systemic anti-inflammatory use: per dose, 1–3 times daily; some protocols use three times daily for the first 2–4 weeks, then once or twice daily) come from community practice, not from trials.",
+        "Research-community oral protocols describe it taken with or without food — published preclinical work and research-community use have not established a clear food-effect pattern for oral KPV, and PepT1-mediated uptake in the small intestine is the rate-limiting step regardless of food status.",
         "Log the dose, the timing, and a baseline note (subjective inflammatory symptoms — for IBD researchers, that is bowel-movement frequency, urgency, blood, and abdominal discomfort; for skin indications, that is the standard atopic-dermatitis severity tracking). Track over the cycle — KPV's effects, if present, are typically gradual rather than acute, with most-noticeable change typically reported in the 2–4 week window.",
-        "After 4 weeks, reassess. If effects are not detectable, consider whether the dose, timing, or compound is the right tool for the inflammatory concern at hand. Researchers managing IBD or other inflammatory conditions should not delay or substitute for established medical care based on KPV response or non-response.",
-        "For topical use: apply per product instructions (typically 1–2 times daily to affected area). Topical formulations are pre-formulated and do not require dose calculation — but log application timing and severity tracking similarly to the oral protocol."
+        "After 4 weeks, reassess. If effects are not detectable, KPV may not be the right tool for the inflammatory concern at hand. Researchers managing IBD or other inflammatory conditions should not delay or substitute for established medical care based on KPV response or non-response.",
+        "For topical use: product instructions govern application, and amounts in research-community protocols (1–2 applications daily to the affected area) come from community practice, not from trials. Topical formulations are pre-formulated and do not require dose calculation — but log application timing and severity tracking similarly to the oral protocol."
       ],
       "citations": [
         {
@@ -12936,11 +12936,11 @@
       ],
       "firstTimeWalkthrough": [
         "Establish a clear baseline. Before starting letrozole for off-label men's-health use, obtain baseline serum total testosterone, free testosterone, sensitive estradiol (LC-MS/MS preferred over immunoassay), LH, FSH, SHBG, lipid panel, comprehensive metabolic panel, and DEXA bone density (if not measured in the past 2 years). Letrozole's effects on bone and lipid metabolism make these baseline values load-bearing for safety monitoring during the course.",
-        "Decide on the dose form. For doses ≥, splitting a tablet is acceptable. For doses <, compounded capsules from a 503A pharmacy at the target strength are recommended over splitting tablets into quarters or eighths.",
-        "Start at the lower end of the off-label dose range. Conservative protocols start twice weekly. Aggressive AAS-cycle protocols may start higher; the lower starting dose accepts that the bench may need to be raised based on labs at week 4–8 rather than over-suppressing on the first protocol.",
-        "Take orally with or without food. Steady-state plasma levels are reached in 2–6 weeks of consistent dosing.",
+        "Decide on the dose form. A tablet splits into halves with reasonable accuracy, but quarters and eighths split unevenly; compounded capsules from a 503A pharmacy, dispensed at exact strengths, are the more precise option below (see Reconstitution).",
+        "Off-label amounts in men. Amounts in research-community protocols ( twice weekly in conservative TRT-adjunct protocols, higher in AAS-cycle protocols; see Dosing Protocol) come from community practice, not from trials. Protocols that begin low do so to avoid over-suppressing estradiol, raising the amount later only if labs at week 4–8 call for it.",
+        "It is taken orally, with or without food. Steady-state plasma levels are reached in 2–6 weeks of consistent dosing.",
         "Monitor at 4–8 weeks. Repeat sensitive estradiol, total testosterone, and clinical assessment of estradiol-related symptoms. Goal estradiol typically in the 20–40 pg/mL range; below 20 pg/mL is over-suppression territory.",
-        "Adjust based on labs. If estradiol is over-suppressed, reduce dose or extend dosing interval. If estradiol remains elevated and symptoms persist, increase dose only after re-confirming with labs that aromatization is the actual driver (some \"estrogen-related symptoms\" are not estradiol-mediated).",
+        "Lab-guided changes. When estradiol is over-suppressed, research-community protocols lower the amount or lengthen the interval. When estradiol stays elevated and symptoms persist, they raise it only after labs re-confirm that aromatization is the actual driver (some \"estrogen-related symptoms\" are not estradiol-mediated).",
         "Re-monitor at 3 and 6 months. Lipid panel, DEXA bone density (if 12+ months since last), and continued estradiol/testosterone monitoring. Long-term off-label use without monitoring is not appropriate given letrozole's bone and lipid effects.",
         "Log dose, timing, and subjective response (mood, libido, joint comfort, energy, water retention, gynecomastia) at each lab check. Track over the cycle — letrozole's effects build over weeks, not days."
       ],
@@ -13386,7 +13386,7 @@
         "Verify pen integrity. Pen is pre-filled, multi-dose, dial-in-dose mechanism. Inspect for damage, frozen contents (do not use if frozen), or visible cloudiness or particulates.",
         "Attach a pen needle. New disposable pen needle for each injection. Screw onto pen tip.",
         "Prime the pen (per the product label) — first use only requires priming to remove air. Subsequent injections do not require priming.",
-        "Dial the prescribed dose ( starting; titrate per the FDA label as appropriate). The pen mechanism shows the dialed dose in the dose window.",
+        "Dial the prescribed dose. The FDA labels' starting dose is once daily for the first week, followed by stepwise increases (see Dosing Protocol).[⁴][⁵] The pen mechanism shows the dialed dose in the dose window.",
         "Inject subcutaneously into the abdomen, upper arm, or thigh. Rotate sites between injections.",
         "Hold the needle in place for at least 6 seconds after dose completion to ensure full delivery.",
         "Remove and discard the pen needle. Replace pen cap. Store pen per the label (refrigerated or room temperature; in-use shelf life 30 days).",
@@ -13867,10 +13867,10 @@
         "Verify product authenticity and labeled potency.",
         "Confirm the product is LL-37 (37-amino-acid full-length active fragment), not a truncated or modified analog. Several LL-37-derived peptides exist (smaller fragments, mimetic compounds, modified analogs); vendor labels should specify LL-37 (full-length) explicitly.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall. Should be clear after gentle inversion.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time researchers, that is per dose, 2–3 times per week.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. Amounts in research-community protocols ( per dose subcutaneous, 1–3 times per week, typically for 4–8 weeks) come from community practice, not from trials. No published randomized controlled trial has validated any specific dose.",
         "Inject subcutaneously, rotating sites per the body map.",
         "Log dose, timing, and subjective response (relevant to the intended indication: wound healing progress, skin condition, immune symptoms, recovery from infection). Track over the cycle.",
-        "After 4 weeks, reassess. If effects are not detectable, consider whether the dose, indication, or compound is the right tool."
+        "After 4 weeks, reassess. If effects are not detectable, LL-37 may not be the right tool for that indication."
       ],
       "citations": [
         {
@@ -14634,12 +14634,12 @@
       "firstTimeWalkthrough": [
         "Pre-baseline dermatologic evaluation strongly recommended. Schedule a full-skin examination by a dermatologist before starting MT-II, with photographic documentation of all moles. This baseline is the reference for comparison if any lesion changes develop during use.",
         "Confirm vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure. Confirm the labeled potency matches what the Vialwise calculator is set to.",
-        "Reconstitute with the chosen volume of bacteriostatic water. For first-time use, default concentration ( vial / 4–5 mL BAC water) to keep draws in the range for typical dosing. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
+        "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). A concentration ( vial / 4–5 mL BAC water) keeps draws in the range for the amounts in that table, where measurement precision is more manageable. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use: starting is a common tolerability strategy to assess nausea response before escalating. Verify the units field shows \"mcg\" before entering the dose.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. No controlled human trial has validated an MT-II dose; the amounts in research-community protocols ( for the first 2–3 doses in some, to gauge nausea, then daily for 5–10 days, then 1–2 times weekly; see Dosing Protocol) come from community practice, not from trials. Verify the units field shows \"mcg\" before entering the dose.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark.",
         "Inject subcutaneously into a standard subcutaneous site (abdomen most common). Rotate sites between injections.",
-        "Time the first injection for evening dosing when no driving or operating equipment is required for the next several hours. Nausea typically presents within 30–60 minutes; facial flushing within the first hour; spontaneous erections (male users) may persist hours after injection.",
+        "No driving or operating equipment for the next several hours after the first injection. Nausea typically presents within 30–60 minutes; facial flushing within the first hour; spontaneous erections (male users) may persist hours after injection.",
         "Log the dose, the timing, and a baseline note. Track over the cycle. Photograph any moles that show color or size changes and seek dermatologic evaluation promptly for any new lesion or change in an existing lesion.",
         "Schedule a repeat dermatologic examination at 3–6 months of any sustained MT-II use, even in the absence of noticed lesion changes."
       ],
@@ -15390,12 +15390,12 @@
       "firstTimeWalkthrough": [
         "Confirm source and product identity. Verify that the source provides MK-677 / ibutamoren mesylate (vs another compound with similar marketing). Confirm the labeled dose per capsule / tablet ( or).",
         "Verify capsule / tablet integrity. Intact packaging, no signs of damage or tampering.",
-        "Choose starting dose: orally at bedtime. Most research-community sources recommend for the first 2+ weeks to assess tolerability — particularly appetite and water retention. The Adunsky 2011 trial used; the Nass 2008 trial used; both produced meaningful appetite and water-retention effects.",
-        "Take with water at bedtime. Bedtime dosing aligns the appetite peak with sleep (vs morning dosing where the appetite peak occurs during waking hours and is harder to manage).",
+        "Doses in the trials and in community protocols. The cited trials gave MK-677 orally once daily: 2, 10 or in Chapman 1996,[¹] and in Nass 2008[²] and Adunsky 2011.[³] In Nass 2008, the most frequent side effects were an increase in appetite that subsided within a few months and transient, mild lower-extremity edema.[²] There is no FDA-approved dose; research-community protocols use these trial amounts in a step-up sequence ( once daily at bedtime for 2+ weeks, then if tolerated; see Dosing Protocol), and such sequences come from community practice, not from trials.",
+        "Bedtime timing. MK-677 is swallowed with water. Research-community protocols use bedtime dosing, which places the appetite peak during sleep rather than during waking hours, when it is harder to manage.",
         "Track tolerability over the first 1–2 weeks. Specifically: hunger intensity, water retention (visible edema, weight gain over baseline), sleep changes (REM increase, dream vividness), morning fatigue or grogginess.",
-        "If is well-tolerated and additional effect is desired, escalate at bedtime. No published trial cited here tested doses above.",
+        "Doses above. The highest dose in the cited trials was;[¹][²][³] higher doses are sometimes reported in research-community use, but no published trial cited here tested them, so their effects and safety are unknown.",
         "Monitor labs at 6–8 weeks: fasting glucose, HbA1c, IGF-1 baseline (pre-dose) → on-cycle. Stop and seek evaluation if HbA1c rises significantly, if new edema with shortness of breath develops, or if any CHF-suggestive symptoms appear.",
-        "Consider 8-weeks-on / 4-weeks-off cycling pattern — the most commonly reported research-community cycling structure; mitigates the progressive insulin-sensitivity worsening that develops with prolonged continuous use."
+        "Cycling. The most commonly reported research-community cycling structure is 8 weeks on / 4 weeks off, intended to limit the progressive insulin-sensitivity worsening that develops with prolonged continuous use; these cycle lengths come from community practice, not from trials."
       ],
       "citations": [
         {
@@ -15518,7 +15518,7 @@
       "researchAreas": [
         "metabolic-weight"
       ],
-      "status": "Not FDA approved for any indication. Research-community use only. Available as a research peptide. ⚠️ WADA-banned in regulated sport — MOTS-c is explicitly named in the WADA 2026 and 2027 Prohibited Lists[⁷] under S4.4.1 (Metabolic Modulators → activators of AMP-activated protein kinase (AMPK)): \"…(AMPK), e.g. …mitochondrial open reading frame of the 12S rRNA-c (MOTS-c)\", prohibited at all times — the same subsection as AICAR and GW1516. MOTS-c is named explicitly, not captured by a catch-all. Not DEA-scheduled. Sister compound to SS-31 in the mitochondrial-peptide cluster — but mechanistically distinct (SS-31 stabilizes mitochondrial membranes via cardiolipin binding; MOTS-c is encoded within the mitochondrial genome and acts as a hormone-like signaling molecule activating AMPK). ⚖️ Reviewed by FDA's 503A compounding advisory committee; no determination issued: MOTS-c (free base / acetate) was on the FDA Pharmacy Compounding Advisory Committee (PCAC) agenda for July 23–24, 2026 for possible inclusion on the 503A Bulks List (uses evaluated: obesity and osteoporosis; docket FDA-2025-N-6895), and that meeting took place on July 23, 2026, with separate votes on the free base and the acetate. FDA's pre-meeting briefing document proposed that neither form be included. FDA has published no summary minutes, vote results, or determination from that meeting as of 2026-09-03, and a PCAC recommendation is advisory and non-binding — MOTS-c is not on the 503A Bulks List and is not compoundable under 503A on that basis (as of 2026-09-03).",
+      "status": "Not FDA approved for any indication. Research-community use only. Available as a research peptide. ⚠️ WADA-banned in regulated sport — MOTS-c is explicitly named in the WADA 2026 and 2027 Prohibited Lists[⁷] under S4.4.1 (Metabolic Modulators → activators of AMP-activated protein kinase (AMPK)): \"…(AMPK), e.g. …mitochondrial open reading frame of the 12S rRNA-c (MOTS-c)\", prohibited at all times — the same subsection as AICAR and GW1516. MOTS-c is named explicitly, not captured by a catch-all. Not DEA-scheduled. Sister compound to SS-31 in the mitochondrial-peptide cluster — but mechanistically distinct (SS-31 stabilizes mitochondrial membranes via cardiolipin binding; MOTS-c is encoded within the mitochondrial genome and acts as a hormone-like signaling molecule activating AMPK). ⚖️ Reviewed by FDA's 503A compounding advisory committee; no determination issued: MOTS-c (free base / acetate) was on the FDA Pharmacy Compounding Advisory Committee (PCAC) agenda for July 23–24, 2026 for possible inclusion on the 503A Bulks List (uses evaluated: obesity and osteoporosis; docket FDA-2025-N-6895), and the committee met on July 23, 2026. FDA's pre-meeting briefing document proposed that neither form be included. FDA has published no summary minutes, vote results, or determination from that meeting as of 2026-10-13, and a PCAC recommendation is advisory and non-binding — MOTS-c is not on the 503A Bulks List and is not compoundable under 503A on that basis (as of 2026-10-13).",
       "recommendedTimeOfDay": "anytime",
       "lastUpdated": "2026-10-13",
       "beginner": {
@@ -15588,7 +15588,7 @@
         "The \"exercise mimetic\" framing. The label rests on the idea that MOTS-c acts on metabolic pathways that exercise also uses, and on the mouse findings above.[¹] Whether exercise raises MOTS-c levels in people is a separate question, and a 2026 human study found no or only modest changes in circulating mitochondrial-derived peptides, including MOTS-c, an hour after 45 minutes of running (see the 2026 literature note under Sources). The exercise mimetic framing should be read as directional rather than literal: MOTS-c administration recapitulates some of the metabolic signaling that exercise produces, but does not substitute for the broader physiological adaptations (cardiovascular, neurological, musculoskeletal) that exercise drives. Researchers using MOTS-c on exercise-mimetic rationale should not interpret it as a substitute for actual training.",
         "Mitochondrial-derived peptide (MDP) class. MOTS-c is one of several mitochondrial-derived peptides characterized to date — others include Humanin (encoded in the 16S mitochondrial rRNA gene; neuroprotective and metabolic effects) and the SHLP family (Small Humanin-like Peptides). The MDP class is a rapidly evolving area of research; MOTS-c is currently the most-studied MDP for metabolic/exercise applications.",
         "Common research interests. MOTS-c's research-community use spans:\n- Insulin sensitivity / metabolic support — the dominant rationale, paralleling the preclinical AMPK-activation and insulin-sensitization findings.[¹] Often used alongside or as adjunct to dietary and exercise interventions.\n- Exercise tolerance and recovery — research-community use for athletes and active researchers on the rationale of supporting mitochondrial signaling pathways disrupted during intense training.\n- Longevity / \"anti-aging\" protocols — research-community use as a longevity intervention; mechanistically aligned with AMPK-activating interventions (metformin, exercise, caloric restriction) that have aging-modifying signal in animal models.\n- Stack with SS-31 for \"mitochondrial cluster\" protocols — the canonical pairing in research-community longevity protocols. Mechanism rationale: SS-31 stabilizes mitochondrial membranes; MOTS-c activates AMPK and supports mitochondrial-derived signaling. Together they target two distinct aspects of mitochondrial function.\n- Type 2 diabetes and metabolic syndrome (research-community use, off-label) — research-community use on the insulin-sensitization rationale; not validated in published RCTs.",
-        "Regulatory status. MOTS-c is sold as a research peptide. Not FDA-approved. Not on the FDA 503A bulks list as either Category 1 or Category 2 — its US regulatory status is governed by general 503A requirements rather than a peptide-specific designation. ⚖️ 503A review is active and unresolved. MOTS-c (free base) / MOTS-c acetate was placed on the agenda of the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting of July 23–24, 2026 for possible inclusion on the 503A Bulks List, with the uses evaluated by FDA listed as obesity and osteoporosis (docket FDA-2025-N-6895).[⁵] FDA's published briefing document for the meeting leans against recommending inclusion, citing insufficient human effectiveness and safety evidence along with characterization and immunogenicity concerns. The committee met on July 23, 2026, but FDA has published no vote results or final determination (as of 2026-09-03), so the outcome should be treated as pending rather than decided. Researchers should confirm the current status against FDA's own docket rather than relying on this entry's snapshot. ⚠️ MOTS-c IS listed in the WADA 2026 and 2027 Prohibited Lists under S4.4.1 (Metabolic Modulators → activators of AMP-activated protein kinase (AMPK))[³][⁷] — named explicitly (\"…(AMPK), e.g. …mitochondrial open reading frame of the 12S rRNA-c (MOTS-c)\"), the same subsection as AICAR and GW1516, prohibited at all times. Researchers competing in WADA-tested sport should treat MOTS-c as prohibited and confirm against the most recent annual Prohibited List edition before any competitive event."
+        "Regulatory status. MOTS-c is sold as a research peptide. Not FDA-approved. Not on the FDA 503A bulks list as either Category 1 or Category 2 — its US regulatory status is governed by general 503A requirements rather than a peptide-specific designation. ⚖️ 503A review is active and unresolved. MOTS-c (free base) / MOTS-c acetate was placed on the agenda of the FDA Pharmacy Compounding Advisory Committee (PCAC) meeting of July 23–24, 2026 for possible inclusion on the 503A Bulks List, with the uses evaluated by FDA listed as obesity and osteoporosis (docket FDA-2025-N-6895).[⁵] FDA's published briefing document for the meeting leans against recommending inclusion, citing insufficient human effectiveness and safety evidence along with characterization and immunogenicity concerns. The committee met on July 23, 2026, but FDA has published no vote results or final determination (as of 2026-10-13), so the outcome should be treated as pending rather than decided. Researchers should confirm the current status against FDA's own docket rather than relying on this entry's snapshot. ⚠️ MOTS-c IS listed in the WADA 2026 and 2027 Prohibited Lists under S4.4.1 (Metabolic Modulators → activators of AMP-activated protein kinase (AMPK))[³][⁷] — named explicitly (\"…(AMPK), e.g. …mitochondrial open reading frame of the 12S rRNA-c (MOTS-c)\"), the same subsection as AICAR and GW1516, prohibited at all times. Researchers competing in WADA-tested sport should treat MOTS-c as prohibited and confirm against the most recent annual Prohibited List edition before any competitive event."
       ],
       "reconstitution": {
         "diluent": "Bacteriostatic water (most common). Sterile water acceptable for single-use reconstitution.",
@@ -15669,7 +15669,7 @@
         "Active type 1 or type 2 diabetes managed with insulin or insulin-secretagogues — caution; theoretical additive hypoglycemia risk",
         "Active cancer or undiagnosed malignancy concern — limited characterization; the AMPK activation pathway has complex relationships with cancer cell metabolism",
         "Known peptide allergy or hypersensitivity — contraindicated",
-        "Regulatory note (US): MOTS-c is sold as a research peptide; not on the FDA 503A bulks list. ⚖️ Under review: MOTS-c was on the FDA Pharmacy Compounding Advisory Committee agenda for July 23–24, 2026, and that meeting took place and the committee voted (uses evaluated: obesity and osteoporosis; docket FDA-2025-N-6895), but FDA has published no vote results or determination as of 2026-09-03.[⁵]",
+        "Regulatory note (US): MOTS-c is sold as a research peptide; not on the FDA 503A bulks list. ⚖️ Under review: MOTS-c was on the FDA Pharmacy Compounding Advisory Committee agenda for July 23–24, 2026, and the committee met on July 23, 2026 (uses evaluated: obesity and osteoporosis; docket FDA-2025-N-6895), but FDA has published no vote results or determination as of 2026-10-13.[⁵]",
         "Regulatory note (WADA): ⚠️ MOTS-c IS listed in the 2026 and 2027 WADA Prohibited Lists under S4.4.1 (Metabolic Modulators → AMPK activators), prohibited at all times.[³][⁷] Researchers competing in WADA-tested sport should treat MOTS-c as prohibited and confirm against the most recent edition before any competitive event."
       ],
       "firstTimeWalkthrough": [
@@ -15679,7 +15679,7 @@
         "Use the Vialwise calculator to confirm exact insulin units for a given dose. No completed human trial has established a MOTS-c dose; the amounts in research-community protocols (1–3 times per week; see Dosing Protocol) come from community practice, not from trials.",
         "Inject subcutaneously, rotating sites per the body map. Morning dosing is most commonly reported in research-community protocols, often pre-exercise on training days.",
         "Log dose, timing, and subjective response (energy, exercise tolerance, glucose levels if monitoring, sleep quality, recovery). Track over the cycle — MOTS-c's effects, if present, build over weeks of consistent dosing rather than acutely.",
-        "After 4 weeks, reassess. If effects are not detectable, consider whether the dose, timing, or compound is the right tool for the application at hand."
+        "After 4 weeks, reassess. If effects are not detectable, MOTS-c may not be the right tool for the application at hand."
       ],
       "citations": [
         {
@@ -15711,7 +15711,7 @@
         },
         {
           "index": 5,
-          "reference": "U.S. Food and Drug Administration. Pharmacy Compounding Advisory Committee (PCAC) meeting, July 23–24, 2026 — docket FDA-2025-N-6895. FDA briefing document: fda.gov/media/193347/download. MOTS-c (free base) / MOTS-c acetate appears on the July 23, 2026 agenda for consideration for the 503A Bulks List; uses evaluated per FDA = obesity and osteoporosis. FDA's briefing document leans against recommending inclusion (insufficient human effectiveness and safety evidence; characterization and immunogenicity concerns). ⚠️ No determination: the meeting has since taken place and the committee voted, but FDA has published no summary minutes, vote results, or final decision — this entry deliberately reports the review as open, not decided.",
+          "reference": "U.S. Food and Drug Administration. Pharmacy Compounding Advisory Committee (PCAC) meeting, July 23–24, 2026 — docket FDA-2025-N-6895. FDA briefing document: fda.gov/media/193347/download. MOTS-c (free base) / MOTS-c acetate appears on the July 23, 2026 agenda for consideration for the 503A Bulks List; uses evaluated per FDA = obesity and osteoporosis. FDA's briefing document leans against recommending inclusion (insufficient human effectiveness and safety evidence; characterization and immunogenicity concerns). ⚠️ No determination: the committee met on July 23, 2026, and FDA's posted questions asked it to vote separately on the free base and the acetate, but FDA has published no summary minutes, vote results, or final decision — this entry deliberately reports the review as open, not decided.",
           "primaryUrl": "https://www.fda.gov/media/193347/download",
           "verified": true
         },
@@ -15918,10 +15918,10 @@
       ],
       "firstTimeWalkthrough": [
         "Decide on the route. Oral (NMN/NR) is the most-evidence-supported route for systemic NAD+ elevation in research-community use. IV is wellness-clinic-administered; subcutaneous is less-evidence-supported.",
-        "For oral NMN: start for the first 1–2 weeks to assess GI tolerance. Increase or higher based on response.",
-        "For oral NR: start.",
+        "For oral NMN: amounts in research-community protocols ( for the first 1–2 weeks to gauge GI tolerance, then or more; see Dosing Protocol) come from community practice, not from trials. The NMN trials cited here gave per day for 6 or 12 weeks[²] and 300, 600 or once daily for 60 days.[¹]",
+        "For oral NR: amounts in research-community protocols (see Dosing Protocol) come from community practice, not from trials.",
         "For IV NAD+: this is administered at wellness clinics under their protocols; not a self-administered protocol.",
-        "For subcutaneous NAD+: start per dose, 2–3 times per week. Increase based on response.",
+        "For subcutaneous NAD+: amounts in research-community protocols ( per dose, 1–7 days per week; see Dosing Protocol) come from community practice, not from trials. The published evidence base for this route is essentially absent.",
         "Log dose, route, timing, and subjective response (energy, cognitive function, sleep, exercise tolerance). Track over weeks."
       ],
       "citations": [
@@ -17719,10 +17719,10 @@
       "firstTimeWalkthrough": [
         "Verify product authenticity and labeled potency. The Russian clinical formulation comes in pre-formulated capsules. Research-community oral capsules vary by source; purchase from sources with established reputation.",
         "Confirm the product is Pinealon (EDR / Glu-Asp-Arg), not a different Khavinson peptide. Several Khavinson short peptides exist with different sequences and proposed indications. Vendor labels should specify Pinealon or the EDR sequence explicitly.",
-        "Take orally with or without food. The proposed oral bioavailability mechanism (per the Khavinson framework) is not strongly food-dependent.",
-        "Course structure: 10–30 days on, 30–60 days off. The cumulative effect, if present, builds across the course rather than acutely.",
+        "Pinealon capsules are taken orally, with or without food. The proposed oral bioavailability mechanism (per the Khavinson framework) is not strongly food-dependent.",
+        "Course structure. Amounts in research-community protocols (10–30 days on, then 30–60 days off) come from community practice, not from trials. The cumulative effect, if present, builds across the course rather than acutely.",
         "Log dose, timing, and a baseline note (subjective cognitive function, sleep quality, general wellness). Track over the course.",
-        "After 30 days, reassess. If effects are not detectable, consider whether the dose, timing, or compound is the right tool for the application at hand. Researchers should interpret response or non-response in the context of the thin and concentrated evidence base — the absence of acute or strong effects is consistent with the modest claims supported by the available evidence."
+        "After 30 days, reassess. If effects are not detectable, Pinealon may not be the right tool for the application at hand. Researchers should interpret response or non-response in the context of the thin and concentrated evidence base — the absence of acute or strong effects is consistent with the modest claims supported by the available evidence."
       ],
       "citations": [
         {
@@ -18612,13 +18612,13 @@
       ],
       "firstTimeWalkthrough": [
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency matches what the Vialwise calculator is set to.",
-        "Reconstitute with the chosen volume of bacteriostatic water. The / 2 mL scenario is one of the most common research-community setups, producing 35-unit draws at the FDA-approved dose.",
+        "Reconstitute with the chosen volume of bacteriostatic water. The / 2 mL scenario is one of the most common research-community setups, producing 35-unit draws at the dose used in the phase 3 trials and on the FDA label.[¹][⁴]",
         "Allow to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time research-community users: starting (rather than) is a common tolerability strategy — given the high nausea rate, it's worth knowing whether tolerability is an issue at a lower dose before escalating.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. The phase 3 trials and the FDA label use subcutaneously as needed, no more than once in 24 hours.[¹][⁴] Amounts in research-community protocols (sometimes, as a tolerability check given the high nausea rate; at the upper end) come from community practice, not from trials.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark.",
-        "Inject subcutaneously into the abdomen or upper outer thigh, 45 minutes before anticipated sexual activity (matching the Vyleesi label's onset timing).",
-        "Have an antiemetic available for first-time use. Nausea is the most common side effect (~40%); some clinicians pre-treat with ondansetron or similar antiemetics for first-time users. Discuss with prescriber.",
-        "Log the dose, timing, and any side effects (nausea severity, flushing, BP if measured). Track over the first 2–3 uses to assess tolerability before establishing a maintenance pattern."
+        "Inject subcutaneously into the abdomen or upper outer thigh. The Vyleesi label's timing is at least 45 minutes before anticipated sexual activity.[⁴]",
+        "Have an antiemetic available the first time. Nausea is the most common side effect (~40%); some clinicians pre-treat first-time users with ondansetron or similar antiemetics. Discuss with prescriber.",
+        "Log the dose, timing, and any side effects (nausea severity, flushing, BP if measured). Track tolerability over the first 2–3 uses."
       ],
       "citations": [
         {
@@ -19089,7 +19089,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to table above). Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark.",
         "Inject subcutaneously into the abdomen, rotating sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies.",
         "Log the dose, the site, and a baseline note (mood, appetite, weight) immediately after administration. Observe for at least 30–60 minutes before resuming normal activity."
@@ -19370,14 +19370,14 @@
         "Regulatory note (WADA): Selank is not named in the 2026 or 2027 WADA Prohibited List.[⁴][⁹] Because it is a registered medicine in Russia,[¹⁰] S0 (Non-Approved Substances) does not reach it, so it is not prohibited under the current List. Athletes in WADA-tested sport should confirm directly with their anti-doping organization before use, and re-check each annual edition."
       ],
       "firstTimeWalkthrough": [
-        "Verify product authenticity and labeled potency. The Russian clinical formulation (Selanc 0.15% nasal spray) is sometimes available via international channels; the research-peptide intranasal preparations are typically reconstituted from injectable stocks at 0.15–0.5% w/v in saline. Confirm the labeled potency matches your intended dose.",
+        "Verify product authenticity and labeled potency. The Russian clinical formulation (Selanc 0.15% nasal spray) is sometimes available via international channels; the research-peptide intranasal preparations are typically reconstituted from injectable stocks at 0.15–0.5% w/v in saline. Confirm the labeled potency matches what the Vialwise calculator is set to.",
         "Confirm the product is Selank (TKPRPGP), not a different tuftsin analog. Several other tuftsin-derived peptides exist in the research literature; vendor labels should specify Selank or the TKPRPGP sequence explicitly. If unclear, contact the source before using.",
-        "For first-time researchers, start at the lower end of the dose range — 1 spray per nostril ( total) once or twice daily. Increase gradually based on response over 1–2 weeks.",
-        "Apply intranasally — 1 spray per nostril, holding the spray bottle vertically and exhaling gently before each spray to avoid pushing the dose down the back of the throat. Inhale gently after the spray to draw the medication onto the nasal mucosa.",
+        "Amounts in research-community intranasal protocols (1 spray of about per nostril, 2–3 times daily– a day in total; see Dosing Protocol) come from community practice, not from trials.",
+        "Apply intranasally, holding the spray bottle vertically and exhaling gently before each spray to avoid pushing the dose down the back of the throat. Inhale gently after the spray to draw the medication onto the nasal mucosa.",
         "Avoid blowing the nose for 15–30 minutes after administration to allow nasal absorption.",
         "Log the dose, the timing, and a baseline note (subjective anxiety, mood, focus, sleep quality) immediately after administration. Track over the cycle — Selank's effects can be acute (anxiolytic effect within 30–60 minutes) but the antiasthenic/cognitive effects build over consecutive days of use, per the 14-day Russian clinical protocol pattern.[¹]",
-        "After 5–14 days, reassess. If effects are not detectable, consider whether the dose, timing, or compound is the right tool for the application at hand. If side effects (over-stimulation, insomnia, headache) are present, reduce dose or change timing.",
-        "For acute pre-event use (public speaking, performance anxiety, exam): 1–2 sprays per nostril 30–60 minutes before the event."
+        "After 5–14 days, reassess. If effects are not detectable, Selank may not be the right tool for the application at hand. If side effects (over-stimulation, insomnia, headache) are present, stop and reassess.",
+        "For acute pre-event use (public speaking, performance anxiety, exam), the amounts in research-community protocols (1–2 sprays per nostril 30–60 minutes before the event) come from community practice, not from trials."
       ],
       "citations": [
         {
@@ -19683,7 +19683,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency matches what the Vialwise calculator is set to.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is almost always weekly (the standard starting dose for both Wegovy and Ozempic). Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. The FDA label starting dose for both Wegovy and Ozempic injection is once weekly.[⁶][⁸] Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower starting doses, even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
         "Inject subcutaneously into the abdomen, rotating sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies.",
         "Log the dose, the site, and a baseline note (mood, appetite, weight) immediately after administration. Observe for at least 30–60 minutes before resuming normal activity. Nausea, if it appears, typically peaks within the first 24–48 hours after a dose during titration steps."
@@ -20012,12 +20012,12 @@
       "firstTimeWalkthrough": [
         "Verify product authenticity and labeled potency. The Russian clinical formulation comes in 0.1% (cognitive) and 1% (acute stroke neuroprotective) strengths — make sure you have the right concentration for your intended use. Research-peptide intranasal preparations are typically reconstituted from injectable stocks at 0.1–1% w/v in saline.",
         "Confirm the product is Semax (MEHFPGP / ACTH(4-7)PGP), not a different ACTH or melanocortin analog. Several ACTH-derived peptides exist with different sequences and pharmacological profiles. Vendor labels should specify Semax or the MEHFPGP sequence explicitly.",
-        "For first-time researchers (cognitive enhancement context), start at the lower end of the dose range — 1 drop per nostril ( total) once or twice daily, using the 0.1% formulation. Increase gradually based on response over 1–2 weeks.",
-        "Apply intranasally — 1 drop or spray per nostril, holding the bottle upright, exhaling gently before each application, then inhaling gently after to draw the medication onto the nasal mucosa.",
+        "Amounts in research-community protocols (intranasal, lower-strength, for cognitive enhancement: 1 drop or spray, per nostril, 1–3 times daily; total daily amount –) come from community practice, not from trials.",
+        "Apply intranasally, holding the bottle upright, exhaling gently before each application, then inhaling gently after to draw the medication onto the nasal mucosa.",
         "Avoid blowing the nose for 15–30 minutes after administration to allow nasal absorption.",
         "Log the dose, the timing, and a baseline note (subjective focus, working memory, verbal fluency, motivation, mood, sleep quality) immediately after administration. Track over the cycle — Semax's acute cognitive effects can be detectable within 30–60 minutes; the cumulative neuroprotective and BDNF-mediated effects build over consecutive days.",
-        "After 14 days, reassess. If effects are not detectable, consider whether the dose, timing, or compound is the right tool for the application at hand. If side effects (over-stimulation, insomnia) are present, reduce dose or shift dosing to earlier in the day.",
-        "For acute pre-cognitive-task use (exam, presentation, demanding work session): 1–2 drops per nostril 30–60 minutes before the task."
+        "After 14 days, reassess. If effects are not detectable, Semax may not be the right tool for the application at hand. Mild over-stimulation, jitteriness, or insomnia are reported if it is dosed late in the day, since its dopaminergic activation can interfere with sleep.",
+        "For acute pre-cognitive-task use (exam, presentation, demanding work session), research-community protocols dose before the task, on the rationale of the rapid (30–60 minute) onset of the cognitive effect."
       ],
       "citations": [
         {
@@ -20328,9 +20328,9 @@
         "Verify vial integrity. Lyophilized powder visible, no signs of damage or temperature exposure.",
         "Reconstitute with the chosen volume of bacteriostatic water (or the compounding pharmacy's specified diluent). Inject slowly down the wall; gentle inversion only.",
         "Allow to dissolve — should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time research-community users: starting daily is a common tolerability strategy. Verify the units field shows \"mcg\" before entering the dose.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. No adult trial has established a sermorelin dose; amounts in research-community protocols ( once daily at bedtime at first, some using for 1–2 weeks for tolerability before; see Dosing Protocol) come from community practice, not from trials. Verify the units field shows \"mcg\" before entering the dose.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark.",
-        "Inject subcutaneously into the abdomen at bedtime — the bedtime timing is the most-recommended pattern in compounding-pharmacy and research-community use, designed to amplify the natural sleep-onset GH pulse. Rotate sites between injections.",
+        "Inject subcutaneously into the abdomen, rotating sites between injections. Bedtime is the most common timing in compounding-pharmacy and research-community protocols, designed to amplify the natural sleep-onset GH pulse.",
         "Log the dose, the timing, and a baseline note (sleep quality, recovery, energy, body composition baseline). Track over the cycle — sermorelin's effects are typically reported within 1–3 weeks of consistent use, with sleep changes often the first noticeable subjective effect."
       ],
       "citations": [
@@ -20765,8 +20765,8 @@
       "firstTimeWalkthrough": [
         "Verify product authenticity and potency. Research-chemical-grade SLU-PP-332 has variable purity; testing-confirmed sources are preferred.",
         "Confirm the product is SLU-PP-332, not a related ERR agonist (SLU-PP-915 and other compounds exist with different selectivity profiles).",
-        "Start at the lower end of the research-community dose range. Increase gradually based on response and tolerance over 2–4 weeks.",
-        "Take orally with food.",
+        "Studies of SLU-PP-332 dosing were in mice; no human starting dose has been studied. Amounts in research-community protocols ( per day by mouth; see Dosing Protocol) come from community practice, not from trials.",
+        "Research-community use is predominantly oral, often with food, although the originating lab reports that SLU-PP-332 lacks oral bioavailability.[⁴]",
         "Log dose, timing, and subjective response (energy, exercise tolerance, recovery, fat composition if measuring). Track over the cycle — effects, if present, build over weeks.",
         "After 4–8 weeks, reassess. Given the absence of clinical trial data, researchers should hold expectations modest."
       ],
@@ -21302,11 +21302,11 @@
         "Establish a clear baseline. Before starting SS-31 for off-label use, consider baseline labs relevant to your specific application (e.g., basic metabolic panel, exercise tolerance metrics for recovery use, sleep quality and fatigue scales for general mitochondrial support).",
         "Verify product authenticity and labeled potency. The FDA-approved FORZINITY product has full pharmaceutical labeling; research-peptide preparations vary by source.",
         "Reconstitute (if research-peptide form) per the scenarios above. The FDA-approved FORZINITY product comes pre-formulated.",
-        "Start at the lower end of the off-label dose range — for general mitochondrial-support indications. Increase gradually based on response and tolerance over 2–4 weeks.",
-        "Take subcutaneously, rotating injection sites per the body map. Inject at the same time of day for consistency.",
+        "Amounts in research-community protocols ( for general mitochondrial support in 4–12-week courses; in longevity and training-recovery protocols) come from community practice, not from trials. No published randomized controlled trial has validated any specific off-label dose.",
+        "Inject subcutaneously, rotating injection sites per the body map. Off-label protocols vary from daily to every-other-day to intermittent or cycled schedules.",
         "Log dose, timing, and subjective response (energy, exercise tolerance, fatigue, sleep, recovery). Track over the cycle — SS-31's effects, if present, build over weeks of consistent dosing rather than acutely.",
-        "After 4–8 weeks, reassess. If effects are detectable, continue per the chosen protocol. If effects are not detectable, consider whether the dose, indication, or compound is the right tool.",
-        "The FDA-approved Barth syndrome program has accumulated long-term safety data; off-label use is not validated by RCTs but the safety profile from the trial program supports cautious extended use."
+        "After 4–8 weeks, reassess. If effects are not detectable, SS-31 may not be the right tool for that indication.",
+        "The FDA-approved Barth syndrome program has accumulated long-term safety data; off-label use is not validated by randomized controlled trials."
       ],
       "citations": [
         {
@@ -21786,9 +21786,9 @@
         "Establish baseline labs before starting. For research-community men's-health use, baseline labs typically include: total testosterone, free testosterone, SHBG, sensitive estradiol (LC-MS/MS preferred), LH, FSH, prolactin, CBC, CMP including LFTs, lipid panel.",
         "Check for CYP2D6-inhibitor co-medications. If on paroxetine, fluoxetine, bupropion, quinidine, or other strong CYP2D6 inhibitors, discuss with prescriber — these will reduce endoxifen formation and may reduce tamoxifen's clinical effect.",
         "Check VTE risk factors. Personal or family history of VTE, PE, or stroke; current immobilization; recent surgery; oral contraceptive use; smoking — all increase VTE risk.",
-        "Choose a starting dose pattern matched to the indication context. Gynecomastia treatment: PO once daily for 3–6 months.[⁴] PCT (HPG-axis recovery post-AAS): PO once daily for 4–6 weeks. Bicalutamide-induced gynecomastia prophylaxis: PO once daily.",
-        "Take with or without food — bioavailability is not meaningfully affected by food.",
-        "Recheck labs at 4–8 weeks after starting. Adjust dose based on response (gynecomastia symptom changes; testosterone/LH/FSH/E2 lab response in PCT contexts).",
+        "Dose patterns differ by indication context. Gynecomastia treatment: in a 10-year prospective cohort of 81 men with idiopathic gynecomastia, the dose was PO once daily.[⁴] Amounts in research-community protocols ( PO once daily for 3–12 months) come from community practice, not from trials. PCT (HPG-axis recovery post-AAS): amounts in research-community protocols ( PO once daily for 4–6 weeks) come from community practice, not from trials. Bicalutamide-induced gynecomastia prophylaxis: tamoxifen has been used to prevent gynecomastia in men with prostate cancer receiving antiandrogen therapy.[⁵]",
+        "It is taken orally, with or without food — bioavailability is not meaningfully affected by food.",
+        "Recheck labs at 4–8 weeks after starting, along with gynecomastia symptom changes and, in PCT contexts, the testosterone/LH/FSH/E2 lab response.",
         "Monitor for visual changes — discontinue immediately for any visual symptoms.",
         "For sustained use (>6 months): monitor LFTs and lipids periodically."
       ],
@@ -22040,9 +22040,9 @@
       ],
       "firstTimeWalkthrough": [
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency matches what the Vialwise calculator is set to.",
-        "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). For typical dosing, default to higher-concentration setups to avoid the overflow-on-single-syringe problem at the upper end of normal dosing. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
+        "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Higher-concentration setups avoid overflowing a single syringe at the upper end of research-community amounts (see Dosing Protocol). Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is twice weekly during the loading phase. Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. No FDA-approved or trial-validated dosing protocol exists for TB-500. Amounts in research-community protocols ( twice weekly for a 4–6 week loading phase, then once weekly or every 2 weeks; see Dosing Protocol) come from community practice, not from trials, partly extrapolated from preclinical Tβ4 data. Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark.",
         "Inject subcutaneously, ideally in or near the area of intended effect (for tendon/ligament work) or in a standard subcutaneous site such as the abdomen (for general use). Rotate sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies.",
         "Log the dose, the site, and a baseline note (subjective injury status, fatigue level, sleep) immediately after administration. Track over the cycle — TB-500's effects, if present, are typically gradual rather than acute."
@@ -22490,7 +22490,7 @@
       ],
       "firstTimeWalkthrough": [
         "Confirm you have the correct product and that it has been kept refrigerated. Check the expiration and in-use dates.",
-        "For the prefilled pen: attach a new needle, prime/confirm per the Instructions for Use — no reconstitution is needed. (Only if using a research-supply vial: reconstitute per the calculator and confirm the tiny draw volume.)",
+        "For the prefilled pen: attach a new needle, prime/confirm per the Instructions for Use — no reconstitution is needed. (Only if using a research-supply vial: reconstitute per the calculator and confirm the draw volume, which is tiny, the lower of the two daily doses in the pivotal trial[¹] and the dose the approved pen delivers.)",
         "For the first several doses, sit or lie down in case of orthostatic dizziness.",
         "Inject subcutaneously into the thigh or abdomen; rotate sites.",
         "Dispose of the needle safely; re-refrigerate the pen.",
@@ -22570,7 +22570,7 @@
       "disclosures": [
         "⚠️ Tesamorelin is FDA-approved as a prescription drug for HIV-associated lipodystrophy with excess visceral abdominal fat. Information in this entry is informational, not medical advice. Always confirm dose calculations with the in-app calculator and consult appropriate professional guidance before any protocol decisions.",
         "⚠️ Precision matters at low doses. Tesamorelin is dosed in milligrams at typical reconstitution concentrations producing draws in the range on a U-100 syringe (depending on formulation). At those draw sizes, even a one-unit error is a meaningful percentage of the dose. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting.",
-        "⚠️ Multiple FDA-approved formulations with different reconstitution and dosing. Tesamorelin has been sold under three FDA-approved formulations with substantially different reconstitution and per-dose volume:\n\n- Egrifta (original) — per vial; reconstitute with 2.1 mL diluent →; daily SC dose = 2 mL injection (relatively large volume). Discontinued — no longer marketed.\n- Egrifta SV — per vial; reconstitute with 0.5 mL diluent →; daily SC dose = 0.5 mL injection. Being phased out and replaced by Egrifta WR via a manufacturer patient-transition program.\n- Egrifta WR (F8 reformulation, approved March 25, 2025) — final concentration; daily SC dose = 0.16 mL injection ( on U-100). The go-forward formulation. Note that \"WR\" refers to weekly reconstitution, not weekly dosing — one reconstituted vial supplies 7 consecutive daily doses.\n- Research-community vial — typically reconstituted with 3 mL BAC water →; per-dose draw varies by target dose\n\nMarket-availability note (current as of 2026-07-18). Original Egrifta is discontinued and Egrifta SV is being replaced by Egrifta WR; per the manufacturer, Egrifta SV and Egrifta WR are not substitutable — they differ in concentration, per-dose volume, and reconstitution schedule. A 2024–25 Egrifta SV supply shortage (following a contract-manufacturing shutdown) has since resolved, with distribution resumed in February 2025.[⁵] The formulations have meaningfully different injection volumes and concentration profiles. Researchers should be explicit with themselves about which formulation they are using.",
+        "⚠️ Multiple FDA-approved formulations with different reconstitution and dosing. Tesamorelin has been sold under three FDA-approved formulations with substantially different reconstitution and per-dose volume:\n\n- Egrifta (original) — per vial; reconstitute with 2.1 mL diluent →; daily SC dose = 2 mL injection (relatively large volume). Discontinued — no longer marketed.\n- Egrifta SV — per vial; reconstitute with 0.5 mL diluent →; the label's daily SC dose is = 0.35 mL injection, with exposure similar to the original dose. Being phased out and replaced by Egrifta WR via a manufacturer patient-transition program.\n- Egrifta WR (F8 reformulation, approved March 25, 2025) — final concentration; daily SC dose = 0.16 mL injection ( on U-100). The go-forward formulation. Note that \"WR\" refers to weekly reconstitution, not weekly dosing — one reconstituted vial supplies 7 consecutive daily doses.\n- Research-community vial — typically reconstituted with 3 mL BAC water →; per-dose draw varies by target dose\n\nMarket-availability note (current as of 2026-07-18). Original Egrifta is discontinued and Egrifta SV is being replaced by Egrifta WR; per the manufacturer, Egrifta SV and Egrifta WR are not substitutable — they differ in concentration, per-dose volume, and reconstitution schedule. A 2024–25 Egrifta SV supply shortage (following a contract-manufacturing shutdown) has since resolved, with distribution resumed in February 2025.[⁵] The formulations have meaningfully different injection volumes and concentration profiles. Researchers should be explicit with themselves about which formulation they are using.",
         "⚠️ FDA-approved indication is HIV-associated lipodystrophy specifically. Research-community use extends beyond this population. The published RCT efficacy data (Falutz 2007, Falutz 2010 pooled phase 3, Stanley 2014, Stanley 2019) is exclusively in HIV-infected adults with excess abdominal fat. Research-community use of tesamorelin in non-HIV populations (general visceral fat reduction, NAFLD/MASLD, post-incretin-cycle visceral-fat targeting, anti-aging contexts) operates outside the FDA-approved indication and outside the published RCT evidence base for those non-HIV populations. The tesamorelin RCT efficacy data does not necessarily generalize to non-HIV populations — visceral fat accumulation in HIV-lipodystrophy has distinct mechanisms (antiretroviral-related metabolic disruption) that may not parallel general-population visceral adiposity."
       ],
       "quickReference": [
@@ -22643,7 +22643,7 @@
         ]
       },
       "dosingProtocol": {
-        "startingDose": "Egrifta / Egrifta SV: subcutaneously once daily"
+        "startingDose": "Egrifta (original/vial formulation): subcutaneously once daily"
       },
       "stacks": {
         "combinations": [
@@ -22706,7 +22706,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible (typically white to off-white), no signs of damage or temperature exposure during shipping. Confirm the labeled potency matches what the Vialwise calculator is set to. Confirm the formulation — Egrifta original, Egrifta SV, Egrifta WR, or research-community vial — because reconstitution volumes and per-dose draws differ substantially.",
         "Reconstitute with the chosen volume of bacteriostatic water (or the included diluent kit, for FDA-approved Egrifta products). Inject diluent slowly down the vial wall — do not stream directly onto the powder. Roll the vial gently in your hands for ~30 seconds to dissolve; do not shake.",
         "Allow to dissolve fully — should be clear within 1–2 minutes after gentle rolling.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For FDA-approved Egrifta WR: = 0.16 mL = U-100. For research-community vials: = =. Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. The Egrifta WR label's dose is once daily: = 0.16 mL = U-100.[⁵] The pivotal trial used once daily;[¹] in a research-community vial =. Amounts in research-community protocols ( once daily as a lower-dose alternative, where = in that vial; see Dosing Protocol) come from community practice, not from trials. Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark.",
         "Inject subcutaneously into the abdomen (most common site per Egrifta labeling), rotating sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies. Daily abdominal injection means more frequent site rotation than weekly compounds.",
         "Log the dose, the formulation (Egrifta SV / WR / research-community vial), the site, and a baseline note (subjective abdominal fat distribution, energy, sleep, joint comfort) immediately after administration. Track over the cycle — tesamorelin's effects on visceral fat are typically gradual; most-noticeable change at 8–12 weeks per the pivotal RCTs.[¹][²][³]"
@@ -22971,11 +22971,11 @@
         "Regulatory (sport): ⚠️ WADA-banned in-competition — tesofensine is named in the WADA 2026 and 2027 Prohibited Lists[⁶] under S6 (Stimulants) (also reported in a 2026 anti-doping publication).[⁴] S6 substances are prohibited in-competition only. Investigational, not FDA-approved, not DEA-scheduled; not approved in Mexico despite claims circulating on vendor sites."
       ],
       "firstTimeWalkthrough": [
-        "Understand it's not a peptide and not injectable — oral, sub-mg daily; no reconstitution.",
+        "Understand it's not a peptide and not injectable — oral, with no reconstitution.",
         "Understand the long half-life — ~9 days parent, ~16 days active metabolite; levels accumulate over weeks and persist after stopping.",
         "Screen for serotonergic drug interactions before any use — this is the highest-risk interaction.",
         "Monitor blood pressure / heart rate — the class raises both.",
-        "There is no FDA-approved dose — trial doses are documented, not recommended."
+        "There is no FDA-approved dose. The TIPO-1 trial tested 0.25, 0.5 and once daily by mouth.[¹] These are trial doses, not a protocol."
       ],
       "citations": [
         {
@@ -23469,11 +23469,11 @@
       "firstTimeWalkthrough": [
         "Confirm prescription status and source. In the US, testosterone is a DEA Schedule III controlled substance — legal possession requires an authorized prescription. Verify the source is a licensed pharmacy (or, in research contexts where applicable, an authorized research supply chain). This is a meaningful legal distinction from the unapproved peptides covered elsewhere in this library.",
         "Verify vial integrity and ester identity. Seal intact, oil clear (typically pale yellow to amber depending on the specific oil vehicle), no signs of damage or temperature exposure. Confirm the ester (cypionate, enanthate, propionate, undecanoate, suspension) — the dosing pattern, half-life, and injection interval differ substantially across esters. Confirm the labeled concentration.",
-        "Choose the appropriate syringe. For typical TRT doses at typical concentrations: a U-100 insulin syringe (1 mL) works for doses. For higher doses or lower concentrations, a 1 mL or 3 mL syringe with a 25–27g needle (IM) or 27–30g needle (SC) is typical.",
+        "Choose the appropriate syringe. At typical concentrations, a U-100 insulin syringe (1 mL) holds draws. For larger draws or lower concentrations, a 1 mL or 3 mL syringe with a 25–27g needle (IM) or 27–30g needle (SC) is typical.",
         "Use the Vialwise calculator to confirm exact draw volume. The calculator converts dose target (mg) → draw volume (mL → units) at the vial's concentration. Verify the syringe-size selector matches the syringe in hand (U-100 vs 1 mL vs 3 mL).",
         "Draw the dose. Oil viscosity is meaningfully higher than aqueous reconstituted-peptide solutions — a slower draw is normal. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated draw volume.",
         "Inject — IM or SC. IM technique: standard injection sites are gluteus medius (upper outer quadrant of glute), vastus lateralis (outer thigh), or deltoid (top of shoulder); 25–27g needle, 1.0–1.5 inch length depending on body composition. SC technique: standard SC sites are abdomen (avoiding 2-inch zone around umbilicus), upper outer thigh, or back of upper arm; shorter needle (5/8 inch typical). Rotate sites between injections to avoid scar tissue accumulation.",
-        "Log the dose, ester, site, and lab values (if recent). Track over the cycle. For TRT, most monitoring is at 3 months, 6 months, then annually.[¹] First-time researchers should plan a 6-week mark for the first lab pull (5 half-lives of cypionate ≈ 6 weeks ≈ steady state) and a 3-month mark for full Bhasin-guideline-aligned reassessment."
+        "Log the dose, ester, site, and lab values (if recent). Track over the cycle. For TRT, most monitoring is at 3 months, 6 months, then annually.[¹] Because 5 half-lives of cypionate is about 6 weeks, a lab pull at the 6-week mark is the earliest that reflects steady state; the 3-month mark is the first full Bhasin-guideline reassessment."
       ],
       "citations": [
         {
@@ -23739,7 +23739,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure. Confirm labeled potency matches the calculator setting.",
         "Reconstitute with the chosen volume of bacteriostatic water. Confirm the units field shows \"mg\" — Thymalin is dosed in milligrams, not micrograms.",
         "Allow the powder to dissolve fully — gentle inversion only.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose.",
         "Inject IM (the dominant route for the Russian product) or SC per your protocol.",
         "Plan the course structure upfront — Russian protocols use short multi-day courses, possibly repeated.",
         "Recheck CBC with differential at end of the course to monitor for any lymphocyte-count changes consistent with the claimed mechanism."
@@ -24028,9 +24028,9 @@
       "firstTimeWalkthrough": [
         "Confirm source legitimacy and regional regulatory framework. International patients prescribed Zadaxin: verify the prescription and the dispensing pharmacy. US researchers: be aware that the US supply chain operates outside the FDA-recognized framework as of December 2024 and that source-quality is therefore variable.",
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency matches what the Vialwise calculator is set to. The Zadaxin commercial product is a single-use vial; non-commercial or vials require larger reconstitution volumes and produce different units-per-dose math.",
-        "Reconstitute with the chosen volume of bacteriostatic water (or the included diluent for Zadaxin commercial product). For non-commercial vials, default to higher-concentration setups ( or) to avoid the overflow-on-single-syringe scenario at the standard dose. Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
+        "Reconstitute with the chosen volume of bacteriostatic water (or the included diluent for Zadaxin commercial product). For non-commercial vials, higher-concentration setups ( or) avoid the overflow-on-single-syringe scenario at the label dose in step 5 (see the table above). Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose. For first-time use: the Zadaxin label dose is SC twice weekly — this is the most-validated starting pattern. Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. The Zadaxin label dose for chronic hepatitis B is SC twice weekly, with doses 3 or 4 days apart.[¹] Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark.",
         "Inject subcutaneously into a standard subcutaneous site (abdomen most common). Rotate sites between injections per the body-map convention.",
         "Log the dose, the timing, and a baseline note (current illness or immune-state context, if any). Track over the cycle — thymosin α1's effects on chronic-disease endpoints (HBV viral load, T-cell counts) are typically gradual over weeks-to-months."
@@ -24358,7 +24358,7 @@
         "Verify vial integrity — seal intact, lyophilized powder visible, no signs of damage or temperature exposure during shipping. Confirm the labeled potency matches what the Vialwise calculator is set to.",
         "Reconstitute with the chosen volume of bacteriostatic water (refer to the reconstitution scenarios above). Inject diluent slowly down the vial wall — do not stream directly onto the powder.",
         "Allow the peptide to dissolve fully — gentle inversion only, no shaking. Should be clear within 1–2 minutes.",
-        "Use the Vialwise calculator to confirm exact insulin units for your target dose — for a first-time researcher, that is almost always weekly (the standard starting dose for both Mounjaro and Zepbound). Verify the math twice on the first draw.",
+        "Use the Vialwise calculator to confirm exact insulin units for a given dose. The FDA label starting dose for both Mounjaro and Zepbound is once weekly.[⁶][⁷] Verify the math twice on the first draw.",
         "Draw into a U-100 insulin syringe. Tap to dislodge bubbles, expel until the meniscus aligns with the calculated unit mark. At lower starting doses, even a one-unit error is a meaningful percentage of the dose — slow down at this step.",
         "Inject subcutaneously into the abdomen, rotating sites per the body map (when v2 ships) — for v1 calc-only, manual rotation tracking applies.",
         "Log the dose, the site, and a baseline note (mood, appetite, weight) immediately after administration. Observe for at least 30–60 minutes before resuming normal activity. Nausea, if it appears, typically peaks within the first 24–48 hours after a dose during titration steps."
