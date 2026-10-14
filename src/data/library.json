@@ -5794,6 +5794,13 @@
           "reference": "World Anti-Doping Agency. World Anti-Doping Code International Standard Prohibited List 2027 (effective 1 January 2027). PDF: wada-ama.org/sites/default/files/2026-09/2027list_en_final_clean_26_august_2026_2.pdf. Clomifene (clomiphene) is named under S4.2, whose heading now also covers selective estrogen receptor degraders (SERDs); enclomiphene is not named separately.",
           "primaryUrl": "https://www.wada-ama.org/sites/default/files/2026-09/2027list_en_final_clean_26_august_2026_2.pdf",
           "verified": true
+        },
+        {
+          "index": 13,
+          "reference": "Moskovic DJ, Katz DJ, Akhavan A, Park K, Mulhall JP. (2012). Clomiphene citrate is safe and effective for long-term management of hypogonadism. BJU International, 110(10):1524–1528.",
+          "primaryUrl": "https://doi.org/10.1111/j.1464-410X.2012.10968.x",
+          "identifierLabel": "PMID 22458540",
+          "verified": true
         }
       ],
       "web": {
@@ -7284,14 +7291,14 @@
       },
       "sideEffects": {
         "common": [
-          "Hot flashes (~33% of patients, comparable to letrozole and anastrozole)",
-          "Arthralgia and joint stiffness (~18–20%, slightly less than letrozole and anastrozole per some comparative analyses)",
-          "Fatigue (~16%)",
-          "Headache (~13%)",
-          "Nausea (~9%)",
-          "Insomnia (~9%)",
-          "Increased sweating (~6%)",
-          "Hypercholesterolemia (~5–10%)",
+          "Hot flushes (21% vs 20%)[²]",
+          "Fatigue (16% vs 15%)[²]",
+          "Arthralgia (15% vs 9%)[²]",
+          "Headache (13% vs 11%)[²]",
+          "Insomnia (12% vs 9%)[²]",
+          "Increased sweating (12% vs 10%)[²]",
+          "Nausea (9% vs 9%)[²]",
+          "Lipids: in the label, HDL cholesterol fell 6–9% with exemestane, while total and LDL cholesterol were unchanged.[²]",
           "Skeletal events (osteopenia, fractures — increased over multi-year courses, comparable to letrozole and anastrozole)",
           "Mild androgenic-pattern side effects in some women (acne, mild hirsutism — uncommon, attributable to the steroidal backbone's weak androgenic activity)"
         ],
@@ -7308,10 +7315,10 @@
         "Premenopausal women — FDA labeling specifies postmenopausal use; premenopausal women have intact ovarian estradiol synthesis that is not adequately suppressed by AI alone.",
         "Pregnancy — Pregnancy Category D. Contraindicated; teratogenic in animal models. Women of reproductive potential should use effective contraception during use and for 1 month after the last dose.",
         "Lactation — contraindicated.",
-        "Severe hepatic impairment — exemestane is hepatically metabolized via CYP3A4; dose adjustment may be needed in severe hepatic impairment.",
+        "Moderate or severe hepatic impairment — exemestane exposure (AUC) was increased in these patients; the label states that, based on experience with repeated doses daily, dosage adjustment does not appear to be necessary.[²]",
         "Severe renal impairment — exemestane pharmacokinetics in severe renal impairment have not been fully characterized; caution.",
         "Severe osteoporosis or known osteopenia — caution; AIs accelerate bone loss. Baseline DEXA and ongoing monitoring are recommended.",
-        "Concurrent CYP3A4 inducers (rifampin, St. John's wort, phenytoin, carbamazepine) — may reduce exemestane levels; consider alternative AI or dose adjustment.",
+        "Concurrent strong CYP3A4 inducers (such as rifampin or phenytoin) — these decrease exemestane exposure; the label's dose with a strong CYP3A4 inducer is once daily after a meal.[²]",
         "Concurrent estrogen-containing therapies — pharmacologically counterproductive.",
         "Regulatory note (US): Exemestane is FDA-approved for postmenopausal breast cancer indications (advanced and adjuvant). All use in men, premenopausal women, and adolescents is off-label.",
         "Regulatory note (WADA): Exemestane is listed by name in the 2026 and 2027 WADA Prohibited Lists under Section S4.1 (Aromatase Inhibitors) as a Specified Substance.[⁵][⁶] Researchers competing in WADA-tested sport should not use exemestane."
@@ -8993,7 +9000,7 @@
           "Injection site reactions — typical of subcutaneous peptide injection",
           "Water retention / fluid retention — common; same as other GHS-class compounds",
           "Increased appetite — common; ghrelin-receptor agonism is the mechanism. The appetite effect is generally less pronounced than for GHRP-6 (the \"hunger peptide\") but more pronounced than for the cleaner Ipamorelin",
-          "Tingling or numbness in extremities — uncommon; suggests carpal-tunnel-syndrome-like effect; warrants dose reduction",
+          "Tingling or numbness in extremities — uncommon; suggests a carpal-tunnel-syndrome-like effect",
           "Joint stiffness — uncommon",
           "Sleep changes (typically improved sleep quality at modest doses; sleep disturbance at high doses) — mixed reports",
           "Long-term safety in adults using GHRP-2 off-label is not well characterized in published literature. The Pihoker 1997 pediatric intranasal treatment dataset extends to 18–24 months in 6 children — among the longest published exposures.[⁴] Multi-year off-label use in the research community is not characterized.",
@@ -9302,7 +9309,7 @@
           "Tachyphylaxis (GH-response decline with sustained use) — characterized in adult chronic-administration contexts for the GHRP class; Hayashi 1991 specifically did not see desensitization over 7 doses across 56 hours,[³] but longer-duration intervals are less well-characterized",
           "Injection site reactions — typical of subcutaneous peptide injection",
           "Water retention / fluid retention — common; same as other GHS-class compounds",
-          "Tingling or numbness in extremities — uncommon; suggests carpal-tunnel-syndrome-like effect; warrants dose reduction",
+          "Tingling or numbness in extremities — uncommon; suggests a carpal-tunnel-syndrome-like effect",
           "Joint stiffness — uncommon",
           "Sleep changes (typically improved sleep quality at modest doses; sleep disturbance at high doses) — mixed reports",
           "Long-term safety in adults using GHRP-6 off-label is not well characterized in published literature. The longest published human exposures are short: the Hayashi 1991 study dosed 7 intranasal doses across 56 hours,[³] and the COURAGE-2 Phase III dosed IV GHRP-6 (with EGF) twice daily for 7 days in a stroke population whose baseline risk profile has nothing in common with research-community use.[⁷] Multi-year off-label use in the research community remains uncharacterized. A 2026 case report of a ~20-year recreational GH/secretagogue user — whose regimen included a sermorelin/GHRP-6 combination — describes anterior cervical osteophyte-related dysphagia and hypothesizes a contribution from chronic GH-axis stimulation; the case is confounded by concurrent somatropin use and is a single report, not evidence of causation.[⁹]",
@@ -10102,8 +10109,8 @@
       "citations": [
         {
           "index": 1,
-          "reference": "US Food and Drug Administration / Ortho Pharmaceutical (R.W. Johnson). Lutrepulse (gonadorelin acetate) prescribing information (historical). FDA-approved late 1989 for primary hypothalamic amenorrhea via pulsatile IV administration (Zyklomat / OmniPod pump). Withdrawn from US commercial market for commercial reasons (not safety or effectiveness). Wyeth-Ayerst's Factrel (gonadorelin hydrochloride) — FDA-approved historically for diagnostic GnRH stimulation testing — also withdrawn from the US commercial market. Source for: gonadorelin's FDA-approved historical indications (Lutrepulse for primary hypothalamic amenorrhea; Factrel for diagnostic GnRH stimulation); pulsatile-pump regimen ( per pulse IV every 90 minutes); the regulatory framework for current compounding-pharmacy supply.",
-          "verified": false
+          "reference": "US Food and Drug Administration / Ortho Pharmaceutical (R.W. Johnson). Lutrepulse (gonadorelin acetate) prescribing information (historical). FDA-approved late 1989 for primary hypothalamic amenorrhea via pulsatile IV administration (Zyklomat / OmniPod pump). Withdrawn from US commercial market for commercial reasons (not safety or effectiveness). Wyeth-Ayerst's Factrel (gonadorelin hydrochloride) — FDA-approved historically for diagnostic GnRH stimulation testing — also withdrawn from the US commercial market. Source for: gonadorelin's FDA-approved historical indications (Lutrepulse for primary hypothalamic amenorrhea; Factrel for diagnostic GnRH stimulation); the regulatory framework for current compounding-pharmacy supply.",
+          "verified": true
         },
         {
           "index": 2,
@@ -13320,7 +13327,7 @@
             "dose": "SC daily (maintenance)"
           }
         ],
-        "maximumDose": "T2D efficacy: max studied in LEAD trials and confirmed in LEADER"
+        "maximumDose": "Type 2 diabetes: once daily is the Victoza label's maximum recommended dosage.[⁴]"
       },
       "stacks": {
         "combinations": [
@@ -21172,7 +21179,7 @@
         "⚠️ SS-31 (elamipretide, brand name FORZINITY) is FDA-approved as of September 2025 for Barth syndrome but all other uses are off-label. Information in this entry is informational, not medical advice. Always confirm dose calculations and consult appropriate professional guidance before any protocol decisions, particularly for off-label use which lacks FDA-approval-grade clinical guidance.",
         "⚠️ First-in-class FDA-approved mitochondrial therapy. SS-31's FDA Accelerated Approval on September 19, 2025 for Barth syndrome makes elamipretide the first FDA-approved therapy for any mitochondrial disease. The approval pathway is Accelerated Approval, which means the FDA accepted surrogate endpoints (cardiolipin biomarker improvements, 6-minute walk test improvements, cardiac stroke volume) as supporting clinical benefit, with confirmatory trial(s) required to verify the surrogate-to-clinical-benefit translation. The pivotal evidence base for the approval is the TAZPOWER trial (Phase 2/3, n=12 in original phase + open-label extension), conducted at Johns Hopkins and other sites, with results published in 2021.[¹]",
         "⚠️ Off-label research-community use is supported by mechanism but not by RCT-grade efficacy data for non-Barth indications. Despite the FDA approval for Barth syndrome, the broader off-label use cases popular in the research-community (general mitochondrial dysfunction, longevity, fatigue, age-related decline, recovery from physical training) have not been validated in published large-scale RCTs at the doses or durations used in research-community protocols. Stealth BioTherapeutics' multi-indication program spans heart failure (Phase 2), primary mitochondrial myopathy (Phase 3 — the MMPOWER-3 trial, which missed its 6-minute walk distance primary endpoint and is the pathway behind the elamipretide Complete Response Letter), and dry age-related macular degeneration / geographic atrophy (Phase 3 — the ReNEW trial, NCT06373731, still ongoing with results not yet reported) — none of these has produced an approval. The FDA approval is specifically for Barth syndrome based on the TAZPOWER evidence, not for the broader off-label uses. Researchers should be explicit with themselves about what is and is not supported by the FDA approval.",
-        "⚠️ Precision matters at low doses. SS-31 is dosed in milligrams per dose (typical range subcutaneous in research-community use; is the FDA-approved Barth syndrome dose), but at typical reconstitution concentrations the draws still land in the small-volume range on a U-100 syringe. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting.",
+        "⚠️ Precision matters at low doses. SS-31 is dosed in milligrams per dose (amounts in research-community protocols, about subcutaneous, come from community practice, not from trials; the FORZINITY label's dose for Barth syndrome is once daily[³]), but at typical reconstitution concentrations the draws still land in the small-volume range on a U-100 syringe. Always verify draws against the in-app calculator and double-check the unit count on the syringe before injecting.",
         "⚠️ Mechanism — cardiolipin stabilization at the inner mitochondrial membrane. SS-31 is a 4-amino-acid cell-penetrating peptide (sequence D-Arg-2',6'-Dmt-Lys-Phe-NH2 — incorporating non-standard residues including D-arginine and 2',6'-dimethyltyrosine) that selectively targets and binds cardiolipin, the unique phospholipid concentrated in the inner mitochondrial membrane.[¹] By stabilizing cardiolipin, SS-31 supports the proper organization of electron transport chain complexes, ATP synthase function, and mitochondrial cristae architecture. In Barth syndrome, the TAFAZZIN gene mutation produces abnormal cardiolipin remodeling, causing mitochondrial dysfunction across cardiac, skeletal muscle, and immune tissues — SS-31 partially compensates for the defective cardiolipin maturation. The mechanism is mitochondrial-membrane-stabilizing rather than direct ATP-production-enhancing; downstream effects on energy metabolism, oxidative stress, and cellular function follow from the membrane-stabilization upstream effect."
       ],
       "quickReference": [
@@ -23373,7 +23380,7 @@
         "Endogenous role. Testosterone is essential for male sexual development, fertility, muscle and bone maintenance, erythropoiesis (red blood cell production), libido and sexual function, and broader metabolic and CNS effects. Endogenous serum levels in healthy adult men typically range 300–1000 ng/dL (with diurnal variation — morning peak is highest). Levels decline gradually with age (~1% per year after age 30 in many men), but pathologic hypogonadism (consistently low T plus symptoms) is distinct from age-related decline. The Bhasin 2018 Endocrine Society guidelines define hypogonadism as \"symptoms and signs consistent with testosterone deficiency AND unequivocally and consistently low serum testosterone concentrations\" — both clinical and laboratory criteria are required.[¹]",
         "Regulatory status (US). Testosterone has been a DEA Schedule III controlled substance under the US Controlled Substances Act since the Anabolic Steroid Control Act of 1990. The legal definition of \"anabolic steroid\" was expanded by the Anabolic Steroid Control Act of 2004 (effective January 20, 2005) and the Designer Anabolic Steroid Control Act of 2014 (DASCA).[⁸] Testosterone is FDA-approved for treatment of male hypogonadism (primary or hypogonadotropic, congenital or acquired) under multiple NDAs spanning multiple ester forms and delivery routes — Depo-Testosterone (cypionate IM, ANDA 085635, since the 1950s), Xyosted (enanthate SC autoinjector, NDA 209863, approved 2018), AndroGel (transdermal 1% and 1.62%), Testim, Vogelxo, Aveed (undecanoate IM, every-10-weeks dosing), Jatenzo and Tlando (oral undecanoate), Natesto (intranasal), Testopel (subcutaneous pellet), among others. Each branded product has its own FDA-approved indication, dosing, and labeling — they are not interchangeable.[⁵][⁶]",
         "Regulatory status (sport — WADA). Testosterone is explicitly listed in Section S1.1 (Anabolic Androgenic Steroids) of the 2026 and 2027 WADA Prohibited Lists, the strongest WADA prohibition tier. This is a fundamentally different prohibition category from the peptides covered elsewhere in this library (which sit in S2 under Peptide Hormones, Growth Factors, Related Substances, and Mimetics). Testosterone is prohibited at all times — in-competition and out-of-competition — for all athletes under WADA jurisdiction.[⁷][¹²] The catch-all clause in S1.1 also covers \"other substances with a similar chemical structure or similar biological effect(s)\" — closing the loophole for novel anabolic-steroid analogues.",
-        "Common research interests. Testosterone is one of the most widely used research peptides — although it is not technically a peptide. The most common contexts:\n- TRT (testosterone replacement therapy) — adult men with diagnosed hypogonadism. This is the FDA-approved use case and the use case supported by the largest body of RCT evidence.[¹][²][³]\n- Performance / research-community supraphysiologic use — outside FDA approval, outside DEA prescription authority, and outside the published RCT efficacy/safety data; widely encountered in athletic and bodybuilding contexts. Typically targets supraphysiologic peak T (1500+ ng/dL) over multi-week or multi-month cycles.\n- Transgender masculinization (gender-affirming hormone therapy) — adult and adolescent transmasculine populations; FDA-off-label but widely practiced under specialist supervision; dose ranges typically overlap with TRT.\n- Anti-aging / \"men's health\" clinic use — a controversial use case where TRT is prescribed in older men based on age-related decline rather than diagnostic criteria meeting the Endocrine Society's definition of hypogonadism. The Bhasin 2018 guidelines explicitly recommend against routine TRT in men with age-related decline alone, in the absence of consistent symptoms and unequivocally low serum testosterone.[¹]",
+        "Common research interests. Testosterone is one of the most widely used research peptides — although it is not technically a peptide. The most common contexts:\n- TRT (testosterone replacement therapy) — adult men with diagnosed hypogonadism. This is the FDA-approved use case and the use case supported by the largest body of RCT evidence.[¹][²][³]\n- Performance / research-community supraphysiologic use — outside FDA approval, outside DEA prescription authority, and outside the published RCT efficacy/safety data; widely encountered in athletic and bodybuilding contexts. Typically targets supraphysiologic testosterone levels over multi-week or multi-month cycles.\n- Transgender masculinization (gender-affirming hormone therapy) — adult and adolescent transmasculine populations; FDA-off-label but widely practiced under specialist supervision; dose ranges typically overlap with TRT.\n- Anti-aging / \"men's health\" clinic use — a controversial use case where TRT is prescribed in older men based on age-related decline rather than diagnostic criteria meeting the Endocrine Society's definition of hypogonadism. The Bhasin 2018 guidelines explicitly recommend against routine TRT in men with age-related decline alone, in the absence of consistent symptoms and unequivocally low serum testosterone.[¹]",
         "Stacking with peptide protocols (the reason this entry exists in Vialwise). Researchers using peptide stacks frequently combine testosterone with one or more of: GH-secretagogue blends (CJC-1295/Ipamorelin), regenerative peptides (BPC-157, TB-500), GLP-1 / GIP / glucagon agonists (semaglutide, tirzepatide, retatrutide) for body-composition cycles, and AOD-9604 for additional fat loss. Each of these stack pairings has its own rationale and risk profile (see the relevant entries' Stacks sections for details).",
         "Boxed warnings — per formulation. Testosterone has no single answer here, and a blanket statement in either direction is wrong.",
         "| Formulation / route | Boxed warning on the current US label |\n|---|---|\n| Topical and transdermal — gels, creams, skin solutions (Testim, Vogelxo, and the generic testosterone gels and solutions) | YES — secondary exposure to testosterone. Virilization has been reported in children who were secondarily exposed. Children should avoid contact with unwashed or unclothed application sites. |\n| Testosterone undecanoate intramuscular injection (Aveed) | YES — serious pulmonary oil microembolism (POME) reactions and anaphylaxis, during or immediately after the injection. |\n| Ordinary intramuscular esters — cypionate (Depo-Testosterone), enanthate, propionate | No boxed warning. |\n| Subcutaneous enanthate auto-injector (Xyosted) | No boxed warning. |\n| Oral undecanoate (Jatenzo, Tlando, Kyzatrex) | No boxed warning. |\n| Nasal gel (Natesto), pellet (Testopel) | No boxed warning. |",
@@ -23427,7 +23434,7 @@
       },
       "sideEffects": {
         "common": [
-          "Erythrocytosis / elevated hematocrit — most common dose-limiting side effect; monitor hematocrit at 3 months and 6 months. If >54%, hold therapy. SC enanthate produces lower hematocrit elevation than IM cypionate at the same dose.[⁴]",
+          "Erythrocytosis / elevated hematocrit — most common dose-limiting side effect; the AndroGel label says it would be appropriate to re-evaluate hematocrit 3 to 6 months after starting and then annually, and that increases may require lowering or discontinuation of testosterone.[¹⁴] SC enanthate produces lower hematocrit elevation than IM cypionate at the same dose.[⁴]",
           "Secondary exposure — topical and transdermal only, and it happens to other people. Virilization has been reported in children who came into contact with an application site on someone using a testosterone gel, cream or skin solution. This is the boxed warning on every marketed topical/transdermal product, and it is the one adverse effect in this entry whose victim is not the person taking the drug. Labeling directs that children avoid contact with unwashed or unclothed application sites.",
           "Increased blood pressure — In 2025 FDA added a class-wide warning that testosterone can raise blood pressure, after required postmarket ambulatory blood-pressure monitoring studies \"confirmed an increase in blood pressure with use of all testosterone products, class-wide.\"[⁹] Labels direct prescribers to monitor blood pressure periodically, especially in men with hypertension.[⁶]",
           "Acne, oily skin, increased body/facial hair — dose-related; typically more prominent with supraphysiologic doses",
@@ -23445,7 +23452,7 @@
           "Acute abdominal pain, decreased urine output — possible acute kidney injury (TRAVERSE reported elevated AKI rate)[³]",
           "Unexplained leg swelling, redness, pain — possible deep vein thrombosis",
           "Severe psychiatric changes (mania, severe aggression, psychosis) — particularly with supraphysiologic doses",
-          "Hematocrit >54% with symptoms (headache, dizziness, blurred vision)",
+          "Markedly elevated hematocrit with symptoms (headache, dizziness, blurred vision)",
           "New-onset erectile dysfunction or worsening BPH symptoms"
         ]
       },
@@ -23456,7 +23463,7 @@
         "Severe cardiac, hepatic, or renal disease — exercise caution; balance against established benefit",
         "Pregnancy (testosterone can virilize a female fetus)",
         "Active fertility goals — TRT suppresses spermatogenesis; should not be used in men actively trying to conceive",
-        "Hematocrit >54% — start ineligible until hematocrit is managed; therapy should be held if hematocrit reaches this threshold during treatment",
+        "Elevated hematocrit — the AndroGel label says to check hematocrit before starting, and that increases may require lowering or discontinuation of testosterone[¹⁴]",
         "Recent (within 6 months) cardiovascular event — caution; TRT initiation should typically be delayed and balanced against other clinical needs",
         "Pediatric use — generally contraindicated outside specialist settings; testosterone can prematurely close growth plates and disrupt normal pubertal development",
         "Active breast cancer (in women) — even off-label transgender use should be reconsidered in this context",
@@ -23995,7 +24002,7 @@
         "combinations": [
           {
             "partner": "Hepatitis B / hepatitis C antiviral therapy",
-            "rationale": "clinically established. Tα1 has been shown to enhance response when combined with interferon-α and (more recently) with nucleos(t)ide analogs in chronic hepatitis B. This is a clinical context, not a research-community stack — researchers running antiviral protocols for chronic viral hepatitis are doing so under specialist care."
+            "rationale": "clinically established. The two hepatitis B trials cited in this entry tested Tα1 alone.[⁴][⁵] This is a clinical context, not a research-community stack — researchers running antiviral protocols for chronic viral hepatitis are doing so under specialist care."
           },
           {
             "partner": "Hepatitis B vaccination",
