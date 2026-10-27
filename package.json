@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "tsx --test src/lib/calculator/__tests__/*.test.ts",
+    "test": "tsx --import ./src/lib/calculator/__tests__/jest-compat.ts --test \"src/**/__tests__/**/*.test.ts\"",
+    "parity:sync": "tsx scripts/calculator-parity.mjs sync",
+    "parity:check": "tsx scripts/calculator-parity.mjs check",
     "check:markdown": "node scripts/check-rendered-markdown.mjs",
     "indexnow": "node scripts/indexnow-submit.mjs"
   },

@@ -97,6 +97,7 @@ export type WarningLevel = "info" | "warning" | "danger";
 export type WarningCode =
   | "DRAW_EXCEEDS_SYRINGE" // draw > 100 units on U-100; would require multiple draws
   | "DRAW_BELOW_PRECISION" // draw < 2 units; hard to measure accurately on a standard syringe
+  | "DRAW_ROUNDS_TO_ZERO" // draw rounds to 0 units; too small to measure at all
   | "CONCENTRATION_VERY_HIGH" // > 50 mg/mL; tiny draws prone to error
   | "CONCENTRATION_VERY_LOW" // < 0.1 mg/mL; wasted vial space
   | "VOLUME_VERY_LARGE" // > 10 mL BAC water; unusual for peptide vials

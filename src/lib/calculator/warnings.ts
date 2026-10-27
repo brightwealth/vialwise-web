@@ -3,7 +3,8 @@
  *
  * PORTED VERBATIM from the Vialwise iOS app (`src/calculator/warnings.ts`).
  * The messages here are user-facing and already "draw"-framed (never "dose") —
- * keep them in sync with the app.
+ * keep them in sync with the app. The one wording difference (the 0-unit
+ * message) is listed in `scripts/calculator-parity.mjs` VOCABULARY.
  *
  * Warnings ride along with successful calculator results. They surface
  * conditions that aren't math errors but that a researcher should be aware
@@ -52,6 +53,24 @@ export function checkDrawExceedsSyringe(
       level: "danger",
       code: "DRAW_EXCEEDS_SYRINGE",
       message: `Draw of ${unitsU100} units exceeds a single U-100 syringe (max 100 units). Would require multiple draws — consider a higher concentration.`,
+    };
+  }
+  return null;
+}
+
+/**
+ * A draw that rounds to 0 whole units. `checkDrawBelowPrecision` deliberately
+ * starts above 0, so before this check an amount under half a unit showed
+ * "0 units" with no warning at all (app fix cb65cbf, 2026-10-02). Inputs are
+ * validated positive, so 0 here always means "too small", never "nothing".
+ * Same check as the app; the message says "amount" where the app says "dose".
+ */
+export function checkDrawRoundsToZero(unitsU100: number): CalculatorWarning | null {
+  if (unitsU100 === 0) {
+    return {
+      level: "warning",
+      code: "DRAW_ROUNDS_TO_ZERO",
+      message: "This amount is too small to measure on this syringe at this concentration.",
     };
   }
   return null;
@@ -143,6 +162,7 @@ export function generateForwardWarnings(args: {
 }): CalculatorWarning[] {
   const candidates = [
     checkDrawExceedsSyringe(args.drawUnitsU100),
+    checkDrawRoundsToZero(args.drawUnitsU100),
     checkDrawBelowPrecision(args.drawUnitsU100),
     checkConcentrationHigh(args.concentrationMgPerMl),
     checkConcentrationLow(args.concentrationMgPerMl),
@@ -152,6 +172,8 @@ export function generateForwardWarnings(args: {
   return candidates.filter((w): w is CalculatorWarning => w !== null);
 }
 
+// Reverse needs no 0-unit check: its draw is the user's own positive whole
+// number of units (validateReverseInput). Blend rejects a 0-unit draw itself.
 export function generateReverseWarnings(args: {
   vialMg: number;
   bacWaterMlToAdd: number;
