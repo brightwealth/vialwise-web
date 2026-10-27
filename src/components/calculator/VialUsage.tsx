@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { computeVialUsage, type Frequency } from "@/lib/calculator";
-import { formatDays, formatDraws, formatVials } from "./format";
+import { formatDays, formatDraws, formatVialsPerMonth } from "./format";
 
 /**
  * Draws-per-vial + "how long a vial lasts" planning panel. Ports the app's
@@ -30,7 +30,7 @@ export function VialUsage({ totalDoses }: { totalDoses: number }) {
   );
 
   const days = formatDays(usage.daysPerVial);
-  const vials = formatVials(usage.vialsPerMonth);
+  const vials = formatVialsPerMonth(usage.vialsPerMonth);
 
   return (
     <div className="rounded-3xl border border-espresso/[0.10] bg-bone p-6">
@@ -77,7 +77,7 @@ export function VialUsage({ totalDoses }: { totalDoses: number }) {
           <p className="text-[16px] text-espresso">
             Lasts about <strong className="font-medium">{days} days</strong>
             {vials ? (
-              <span className="text-graphite">{`  ·  ≈ ${vials} vials/month`}</span>
+              <span className="text-graphite">{`  ·  ≈ ${vials}`}</span>
             ) : null}
           </p>
         ) : (

@@ -15,6 +15,7 @@ import { BlendCalculator } from "./BlendCalculator";
 import { emptyBlendForm, type AmountUnit, type BlendForm } from "./blendForm";
 import { NumberField, ResultPlaceholder, ResultShell, Stat, UnitToggle } from "./controls";
 import { DisclaimerBanner } from "./DisclaimerBanner";
+import { forwardFooter, REVERSE_FOOTER } from "./resultCopy";
 import { SyringePanel } from "./syringe/SyringePanel";
 import { SyringeSizeSelector } from "./syringe/SyringeSizeSelector";
 import {
@@ -263,7 +264,7 @@ function ForwardResult({ result, syringeMax }: { result: ForwardOutput; syringeM
 
   return (
     <ResultShell
-      footer="Researchers have observed this draw size at this concentration."
+      footer={forwardFooter(result.drawUnitsU100)}
       syringe={
         <SyringePanel
           drawUnitsU100={result.drawUnitsU100}
@@ -299,7 +300,7 @@ function ReverseResult({
 }) {
   return (
     <ResultShell
-      footer="Researchers add this volume of bacteriostatic water to achieve the target draw size."
+      footer={REVERSE_FOOTER}
       syringe={
         <SyringePanel
           drawUnitsU100={desiredUnits}

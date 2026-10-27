@@ -139,15 +139,18 @@ export function ResultShell({
   children: React.ReactNode;
   syringe?: React.ReactNode;
   warnings: React.ReactNode;
-  footer: string;
+  /** Omitted (or null) hides the footer line. */
+  footer?: string | null;
 }) {
   return (
     <div className="flex flex-col gap-4">
       <div className="rounded-3xl bg-forest p-6">
         <dl className="flex flex-col">{children}</dl>
-        <p className="mt-4 text-center text-[12.5px] italic leading-relaxed text-bone/75">
-          {footer}
-        </p>
+        {footer ? (
+          <p className="mt-4 text-center text-[12.5px] italic leading-relaxed text-bone/75">
+            {footer}
+          </p>
+        ) : null}
       </div>
       {syringe}
       {warnings}
