@@ -77,7 +77,11 @@ export function VialUsage({ totalDoses }: { totalDoses: number }) {
           <p className="text-[16px] text-espresso">
             Lasts about <strong className="font-medium">{days} days</strong>
             {vials ? (
-              <span className="text-graphite">{`  ·  ≈ ${vials}`}</span>
+              <span className="text-graphite">
+                {"  ·  "}
+                {/* One unit: "≈ 0.1 vials/month" never breaks across lines. */}
+                <span className="whitespace-nowrap">{`≈ ${vials}`}</span>
+              </span>
             ) : null}
           </p>
         ) : (
