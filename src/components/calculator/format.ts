@@ -30,3 +30,14 @@ export function formatVials(n: number | null): string | null {
   const r = Math.round(n * 10) / 10;
   return Number.isInteger(r) ? `${r}` : r.toFixed(1);
 }
+
+/**
+ * The vials/month figure with its unit, e.g. "1.5 vials/month". Singular only
+ * when the displayed value is exactly 1 (so 1.01 → "1 vial/month"); null when
+ * not computable.
+ */
+export function formatVialsPerMonth(n: number | null): string | null {
+  const vials = formatVials(n);
+  if (vials === null) return null;
+  return `${vials} ${vials === "1" ? "vial" : "vials"}/month`;
+}

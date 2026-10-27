@@ -1,12 +1,17 @@
-import type { CalculatorWarning, WarningLevel } from "@/lib/calculator";
+import type { WarningLevel } from "@/lib/calculator";
 
 /**
  * Renders the calculator's non-fatal warnings (syringe overflow, draw below
- * precision, concentration high/low, large volume, near-capacity). Same
- * messages and severities the app surfaces — the engine owns the copy; this
- * component only styles by level. Brand palette only (amber + forest, no
- * neon "alert" colors).
+ * precision or rounding to 0, concentration high/low, large volume,
+ * near-capacity). Same messages and severities the app surfaces — the engine
+ * owns the copy; this component only styles by level. Brand palette only
+ * (amber + forest, no neon "alert" colors).
+ *
+ * Takes any `{ level, message }` note: the blend engine returns plain messages
+ * (no code), which the blend view passes in as "warning" level.
  */
+
+export type CalculatorNote = { level: WarningLevel; code?: string; message: string };
 
 const LEVEL_STYLES: Record<
   WarningLevel,
@@ -36,7 +41,7 @@ const SEVERITY_RANK: Record<WarningLevel, number> = {
   info: 2,
 };
 
-export function WarningList({ warnings }: { warnings: CalculatorWarning[] }) {
+export function WarningList({ warnings }: { warnings: readonly CalculatorNote[] }) {
   if (warnings.length === 0) return null;
 
   const sorted = [...warnings].sort(
@@ -49,7 +54,7 @@ export function WarningList({ warnings }: { warnings: CalculatorWarning[] }) {
         const s = LEVEL_STYLES[w.level];
         return (
           <li
-            key={w.code}
+            key={`${w.code ?? ""}:${w.message}`}
             className={`flex flex-col gap-1 rounded-2xl border px-4 py-3 ${s.wrap}`}
           >
             <span

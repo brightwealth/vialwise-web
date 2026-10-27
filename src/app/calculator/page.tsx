@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { StoreBadges } from "@/components/StoreBadges";
 import { appStoreUrl } from "@/lib/storeLinks";
 import { ReconstitutionCalculator } from "@/components/calculator/ReconstitutionCalculator";
+import { DisclaimerBanner } from "@/components/calculator/DisclaimerBanner";
 import { pageMetadata } from "@/lib/metadata";
 
 const CANONICAL = "https://www.getvialwise.com/calculator";
@@ -22,6 +23,7 @@ export const metadata: Metadata = {
     "reconstitution calculator",
     "U-100 syringe calculator",
     "bacteriostatic water calculator",
+    "peptide blend calculator",
   ],
   ...pageMetadata(CANONICAL),
 };
@@ -47,10 +49,12 @@ const jsonLd = {
         priceCurrency: "USD",
       },
       description:
-        "Free forward and reverse peptide reconstitution calculator. Converts vial size, bacteriostatic water, and target amount into concentration, draw volume, and U-100 syringe units. For research and educational purposes only.",
+        "Free forward, reverse and blend peptide reconstitution calculator. Converts vial size, bacteriostatic water, and target amount into concentration, draw volume, and U-100 syringe units. For research and educational purposes only.",
       featureList: [
         "Forward calculator (vial + BAC water + amount → draw size in U-100 units)",
         "Reverse calculator (amount + vial + desired draw → BAC water volume)",
+        "Blend calculator (2–4 peptides in one vial, one shared draw)",
+        "Visual syringe with 30, 50 and 100 IU sizes",
         "mg / mcg amount toggle",
         "Draws per vial and how long a vial lasts",
         "Syringe-overflow and below-precision warnings",
@@ -128,8 +132,8 @@ export default function CalculatorPage() {
               Enter your vial size, bacteriostatic water, and the amount you want
               per draw. The calculator returns the concentration, the draw
               volume, and the draw size in units on a U-100 insulin syringe —
-              forward or reverse. The same math that ships in the VialWise app,
-              free in your browser.
+              forward, reverse, or for a blend of 2–4 peptides in one vial. The
+              same math that ships in the VialWise app, free in your browser.
             </p>
 
             <DisclaimerBanner className="mt-7" />
@@ -210,7 +214,8 @@ export default function CalculatorPage() {
                 That 0.1&nbsp;mL draw is 10 units. The calculator rounds to whole
                 units (you can&rsquo;t measure 16.67 units on a standard syringe)
                 and flags draws that are too small to measure accurately or too
-                large to fit a single syringe.
+                large to fit a single syringe. Pick a 30, 50 or 100&nbsp;IU
+                syringe and the drawing shows the draw on that scale.
               </p>
 
               <h3>Working backward</h3>
@@ -219,6 +224,26 @@ export default function CalculatorPage() {
                 you&rsquo;d like to measure — say a clean 10 units — and the
                 calculator tells you how much bacteriostatic water to add so that
                 draw delivers your target amount.
+              </p>
+
+              <h3>Blends: several peptides in one vial</h3>
+              <p>
+                Some vials hold two to four peptides together. They share one
+                volume of water, so each has its own concentration (its mg
+                divided by the shared mL), but every draw pulls all of them at
+                once. Set the draw by the amount of one peptide, or by units, and
+                each peptide&rsquo;s amount in that draw follows from its own
+                concentration:
+              </p>
+              <p>
+                <strong>amount per draw (mg) = peptide mg ÷ water mL × draw mL</strong>
+              </p>
+              <p>
+                For example, 10&nbsp;mg and 5&nbsp;mg in 2&nbsp;mL are 5&nbsp;mg/mL
+                and 2.5&nbsp;mg/mL, so a 20-unit draw (0.2&nbsp;mL) holds
+                1&nbsp;mg and 0.5&nbsp;mg. Because the peptides share the water,
+                each one gives the same number of draws per vial: the water
+                volume divided by the draw volume, 10 draws here.
               </p>
 
               <hr />
@@ -256,9 +281,9 @@ export default function CalculatorPage() {
                   </h2>
                   <p className="mt-4 max-w-md text-[16px] leading-relaxed text-bone/75 md:text-[17px]">
                     The web calculator is the math. The VialWise iOS app adds a
-                    library of 90+ peptides with primary-source citations, a
-                    visual syringe, and reconstitution tables rendered by this
-                    same engine. Free on the App Store and Google Play.
+                    library of 90+ peptides with primary-source citations and
+                    reconstitution tables rendered by this same engine. Free on
+                    the App Store and Google Play.
                   </p>
                 </div>
 
@@ -272,26 +297,5 @@ export default function CalculatorPage() {
       </main>
       <Footer />
     </>
-  );
-}
-
-/**
- * Prominent research/educational disclaimer — the same line the app shows on
- * every dose-related view. Amber strip so it reads as a first-class part of the
- * page, not fine print.
- */
-function DisclaimerBanner({ className }: { className?: string }) {
-  return (
-    <div
-      role="note"
-      className={`rounded-2xl border border-amber-dark/30 bg-amber-dark/[0.07] px-5 py-4 ${className ?? ""}`}
-    >
-      <p className="text-[14px] leading-relaxed text-espresso">
-        <span className="font-medium text-amber-deep">
-          For research and educational purposes only.
-        </span>{" "}
-        Not for medical use. This tool does not provide medical advice.
-      </p>
-    </div>
   );
 }

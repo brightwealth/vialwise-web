@@ -64,8 +64,24 @@ export function dosesPerMonth(
   }
 }
 
+/**
+ * Normalize a "people drawing from this vial" count (app Spec 10) to a whole
+ * number ≥ 1. Absent / non-finite / < 1 ⇒ 1 (single-user). A fractional value
+ * floors (2.5 people → 2). Pure; exported for tests + reuse.
+ */
+export function normalizeSharers(sharers: number | undefined): number {
+  if (sharers === undefined || !Number.isFinite(sharers) || sharers < 1) {
+    return 1;
+  }
+  return Math.floor(sharers);
+}
+
 export type VialUsage = {
-  /** Average draws administered per month at this frequency. Always ≥ 0. */
+  /**
+   * Average draws ONE user administers per month at this frequency (per-user,
+   * NOT scaled by `sharers`). Always ≥ 0. The `sharers` factor scales
+   * consumption (`daysPerVial` / `vialsPerMonth`), not a single user's draws.
+   */
   dosesPerMonth: number;
   /**
    * Vials consumed per month: `dosesPerMonth / totalDoses`. `null` when
@@ -86,24 +102,35 @@ export type VialUsageParams = {
   frequency: Frequency;
   /** Length of `injectionDays` — only used when `frequency === "custom"`. */
   injectionDaysCount?: number;
+  /**
+   * People drawing from this vial (app Spec 10). Default 1. Multiplies the
+   * consumption rate so `daysPerVial` shortens and `vialsPerMonth` grows for a
+   * shared vial. `dosesPerMonth` stays per-user. Absent / 1 ⇒ unchanged.
+   */
+  sharers?: number;
 };
 
 /**
  * Derive the full vial-usage picture from draws-per-vial + frequency.
  * Guards every division: returns `null` for any figure that would be
  * Infinity / NaN (zero or non-finite `totalDoses`, or zero `dosesPerMonth`).
+ *
+ * `sharers` scales the CONSUMPTION rate: with N people drawing, the vial
+ * empties N× faster, so `daysPerVial` divides by N and `vialsPerMonth`
+ * multiplies by N. `dosesPerMonth` is the per-user figure and is not scaled.
  */
 export function computeVialUsage(params: VialUsageParams): VialUsage {
-  const { totalDoses, frequency, injectionDaysCount = 0 } = params;
+  const { totalDoses, frequency, injectionDaysCount = 0, sharers } = params;
   const perMonth = dosesPerMonth(frequency, injectionDaysCount);
+  const effectivePerMonth = perMonth * normalizeSharers(sharers);
   const totalOk = Number.isFinite(totalDoses) && totalDoses > 0;
 
   return {
     dosesPerMonth: perMonth,
-    vialsPerMonth: totalOk ? perMonth / totalDoses : null,
+    vialsPerMonth: totalOk ? effectivePerMonth / totalDoses : null,
     daysPerVial:
-      totalOk && perMonth > 0
-        ? totalDoses / (perMonth / AVG_DAYS_PER_MONTH)
+      totalOk && effectivePerMonth > 0
+        ? totalDoses / (effectivePerMonth / AVG_DAYS_PER_MONTH)
         : null,
   };
 }
