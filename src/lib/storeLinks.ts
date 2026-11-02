@@ -23,6 +23,26 @@
  * this is being wired up to get.
  */
 
+/**
+ * ⛔ THE iOS SWITCH — false while the iPhone app is off the App Store.
+ *
+ * On 2026-11-01 the iOS app (id6774017323) was removed from sale on the App
+ * Store pending an App Review Board appeal; Google Play stayed live. While this
+ * is false the site sends nobody to the App Store:
+ *   - /download and /get send iPhone/iPad visitors to the homepage;
+ *   - every App Store badge and link is hidden, and the spot shows
+ *     <IosUnavailableNote /> instead; Google Play badges stay;
+ *   - copy that claims iPhone availability reads neutral or Android-only,
+ *     including the FAQ JSON-LD and SoftwareApplication.operatingSystem.
+ *
+ * Flipping this to `true` restores every badge, link, redirect and string
+ * exactly as it was. Nothing else needs to change.
+ */
+export const IOS_STORE_LIVE = false;
+
+/** Where iOS traffic goes while IOS_STORE_LIVE is false. */
+export const HOME_URL = "https://www.getvialwise.com/";
+
 const APPLE_APP_ID = "6774017323";
 const APPLE_PROVIDER_TOKEN = "128963457";
 const ANDROID_PACKAGE = "com.vialwise.app";
@@ -48,7 +68,12 @@ export function campaignFromSrc(src: string | null): Campaign {
   return SRC_CAMPAIGNS[src.trim().toLowerCase()] ?? "website";
 }
 
+/**
+ * Callers gate on IOS_STORE_LIVE themselves. This guard is the backstop: a call
+ * site that forgets still lands on the homepage, not a dead App Store listing.
+ */
 export function appStoreUrl(campaign: Campaign): string {
+  if (!IOS_STORE_LIVE) return HOME_URL;
   return (
     `https://apps.apple.com/app/apple-store/id${APPLE_APP_ID}` +
     `?pt=${APPLE_PROVIDER_TOKEN}&ct=${campaign}&mt=8`

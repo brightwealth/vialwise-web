@@ -1,4 +1,5 @@
 import { StoreBadges } from "./StoreBadges";
+import { IosUnavailableNote } from "./IosUnavailableNote";
 
 // Free tier (Option 1) — unlimited saved protocols, basic dose logging, the full
 // calculator, the full cited library, basic reminders, and the single-dose
@@ -65,7 +66,7 @@ export function Pricing() {
           summary="Unlimited saved protocols, the full forward and reverse calculator, 90+ cited peptides, basic logging, and reminders."
           features={FREE_FEATURES}
           tone="cream"
-          cta={<StoreBadges height={48} />}
+          cta={<StoreBadges height={48} iosNote={false} />}
         />
         <PricingCard
           name="Pro"
@@ -76,9 +77,12 @@ export function Pricing() {
           features={PRO_FEATURES}
           comingSoon={PRO_COMING_SOON}
           tone="forest"
-          cta={<StoreBadges height={48} />}
+          cta={<StoreBadges height={48} iosNote={false} />}
         />
       </div>
+
+      {/* One note for both cards while the iPhone app is off the App Store. */}
+      <IosUnavailableNote className="mx-auto mt-8 text-center" />
 
       <p className="mx-auto mt-8 max-w-xl text-center text-[13px] leading-relaxed text-graphite">
         Pro is a one-time purchase, unlocked inside the app. Everyone gets unlimited protocols, the full calculator, and the peptide library, free, today.

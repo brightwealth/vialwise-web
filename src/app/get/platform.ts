@@ -5,6 +5,8 @@
  * browser-only globals at module scope so the server can import it safely.
  */
 
+import { HOME_URL, IOS_STORE_LIVE } from "@/lib/storeLinks";
+
 /**
  * Apple campaign provider token, from App Store Connect → App Analytics →
  * Campaigns. It identifies US as the traffic provider; the per-link `ct`
@@ -95,12 +97,48 @@ export function sanitizeSource(raw: string | null | undefined): string {
  * from App Store Connect byte for byte.
  */
 export function appStoreUrl(source: string): string {
+  // Backstop for the iOS switch (src/lib/storeLinks.ts): never an App Store URL
+  // while the app is off the store.
+  if (!IOS_STORE_LIVE) return iosFallbackUrl(source);
+  return appStoreUrlLive(source);
+}
+
+function appStoreUrlLive(source: string): string {
   const params = new URLSearchParams({
     pt: APPLE_PROVIDER_TOKEN,
     ct: source,
     mt: "8",
   });
   return `https://apps.apple.com/app/apple-store/id${APPLE_APP_ID}?${params.toString()}`;
+}
+
+/**
+ * Where iOS goes while IOS_STORE_LIVE is false: the homepage, the same place
+ * /download sends it. The source rides along as UTM tags (the same values the
+ * Play referrer uses) so the social link stays attributable in GA4; the
+ * redirect is the session's first hit, so the tags start it rather than reset it.
+ */
+export function iosFallbackUrl(source: string): string {
+  const params = new URLSearchParams({
+    utm_source: source,
+    utm_medium: "social",
+    utm_campaign: source,
+  });
+  return `${HOME_URL}?${params.toString()}`;
+}
+
+/**
+ * The server-side destination for a phone, or null to render the card.
+ * `iosLive` defaults to the switch; tests pass it to cover both states.
+ */
+export function mobileDestination(
+  platform: ServerPlatform,
+  source: string,
+  iosLive: boolean = IOS_STORE_LIVE,
+): string | null {
+  if (platform === "ios") return iosLive ? appStoreUrlLive(source) : iosFallbackUrl(source);
+  if (platform === "android") return googlePlayUrl(source);
+  return null;
 }
 
 /**

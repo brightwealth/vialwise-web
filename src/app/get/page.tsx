@@ -3,9 +3,12 @@ import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 
 import { GetCard } from "./GetCard";
+import { IOS_STORE_LIVE } from "@/lib/storeLinks";
+
 import {
   appStoreUrl,
-  googlePlayUrl,
+  iosFallbackUrl,
+  mobileDestination,
   sanitizeSource,
   serverPlatformFromUserAgent,
 } from "./platform";
@@ -47,7 +50,9 @@ import {
  */
 export const metadata: Metadata = {
   title: "Get the app",
-  description: "Download Vialwise for iPhone or Android.",
+  description: IOS_STORE_LIVE
+    ? "Download Vialwise for iPhone or Android."
+    : "Download Vialwise for Android, or use the free calculator on the web.",
   robots: { index: false, follow: false },
 };
 
@@ -67,11 +72,21 @@ export default async function GetPage({
   const userAgent = (await headers()).get("user-agent") ?? "";
   const platform = serverPlatformFromUserAgent(userAgent);
 
-  // Mobile never renders anything: straight to the tagged store URL.
-  if (platform === "ios") redirect(appStoreUrl(source));
-  if (platform === "android") redirect(googlePlayUrl(source));
+  // Mobile never renders anything: straight to the tagged store URL, or, for
+  // iOS while the app is off the App Store (IOS_STORE_LIVE), the homepage.
+  const destination = mobileDestination(platform, source);
+  if (destination) redirect(destination);
 
   // Desktop, unknown, and iPadOS-in-desktop-mode land here. The card resolves
   // the last of those client-side (see GetCard) since no header can.
-  return <GetCard source={source} />;
+  // Built here, not in the card, so the client bundle never carries the App
+  // Store URL while IOS_STORE_LIVE is false.
+  const appStoreHref = IOS_STORE_LIVE ? appStoreUrl(source) : null;
+  return (
+    <GetCard
+      source={source}
+      appStoreHref={appStoreHref}
+      iosHref={appStoreHref ?? iosFallbackUrl(source)}
+    />
+  );
 }

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { PageShell } from "@/components/PageShell";
 import { pageMetadata } from "@/lib/metadata";
-import { appStoreUrl } from "@/lib/storeLinks";
+import { IOS_STORE_LIVE, appStoreUrl, googlePlayUrl } from "@/lib/storeLinks";
 
 export const metadata: Metadata = {
   title: {
@@ -60,13 +61,28 @@ export default function AboutPage() {
       <h2>If you want to help</h2>
       <p>
         The fastest way is to{" "}
-        <a
-          href={appStoreUrl("website")}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          download it on the App Store
-        </a>{" "}
+        {IOS_STORE_LIVE ? (
+          <a
+            href={appStoreUrl("website")}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            download it on the App Store
+          </a>
+        ) : (
+          <>
+            get it on{" "}
+            <a
+              href={googlePlayUrl("website")}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google Play
+            </a>{" "}
+            or use the free{" "}
+            <Link href="/calculator">calculator</Link> here on the web
+          </>
+        )}{" "}
         and tell me what&rsquo;s wrong with it. I&rsquo;m looking for honest feedback from people actually running peptides — bodybuilders, GLP-1 patients, biohackers, and anyone in between.
       </p>
       <p>

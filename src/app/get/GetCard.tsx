@@ -6,7 +6,9 @@ import { AppIcon } from "@/components/AppIcon";
 import { Wordmark } from "@/components/Wordmark";
 import { useCookieConsent } from "@/hooks/useCookieConsent";
 
-import { appStoreUrl, googlePlayUrl, isIpadOs } from "./platform";
+import { IosUnavailableNote } from "@/components/IosUnavailableNote";
+
+import { googlePlayUrl, isIpadOs } from "./platform";
 
 /**
  * The desktop half of /get: the two-button card, plus the one piece of device
@@ -16,7 +18,12 @@ import { appStoreUrl, googlePlayUrl, isIpadOs } from "./platform";
  * User-Agent — real desktops, unknown clients, and iPadOS requesting a desktop
  * site (which sends a UA byte-identical to a Mac's, so `page.tsx` cannot tell
  * them apart). `isIpadOs()` resolves that last case here, where
- * navigator.maxTouchPoints exists, and forwards to the App Store.
+ * navigator.maxTouchPoints exists, and forwards to `iosHref`.
+ *
+ * The server (page.tsx) builds both iOS URLs and passes them in, so this
+ * client bundle never carries the App Store URL builder: while IOS_STORE_LIVE
+ * is false `appStoreHref` is null (no App Store button) and `iosHref` is the
+ * homepage, the same place the server sends an iPhone.
  *
  * ── Analytics: desktop only, and that is deliberate ─────────────────────────
  * The GA4 `app_store_redirect` event fires ONLY on this card. Two reasons:
@@ -34,12 +41,21 @@ import { appStoreUrl, googlePlayUrl, isIpadOs } from "./platform";
  * bet — a desktop visitor has the banner in front of them — and if gtag is
  * absent the event is simply skipped. Nothing here blocks or delays the user.
  */
-export function GetCard({ source }: { source: string }) {
+export function GetCard({
+  source,
+  appStoreHref,
+  iosHref,
+}: {
+  source: string;
+  /** The tagged App Store URL, or null while the app is off the App Store. */
+  appStoreHref: string | null;
+  /** Where an iPad forwards: the App Store URL, or the homepage while it is off. */
+  iosHref: string;
+}) {
   const { analyticsAllowed, hydrated } = useCookieConsent();
   const [redirectingToAppStore, setRedirectingToAppStore] = useState(false);
   const startedRef = useRef(false);
 
-  const appStoreHref = appStoreUrl(source);
   const playHref = googlePlayUrl(source);
 
   useEffect(() => {
@@ -51,7 +67,7 @@ export function GetCard({ source }: { source: string }) {
     if (isIpadOs()) {
       startedRef.current = true;
       setRedirectingToAppStore(true);
-      window.location.replace(appStoreHref);
+      window.location.replace(iosHref);
       return;
     }
 
@@ -66,7 +82,7 @@ export function GetCard({ source }: { source: string }) {
     // No beacon transport or fallback timer: this page is not navigating away,
     // so there is no race for the request to lose.
     gtag("event", "app_store_redirect", { platform: "desktop", source });
-  }, [hydrated, analyticsAllowed, appStoreHref, source]);
+  }, [hydrated, analyticsAllowed, iosHref, source]);
 
   return (
     // Height accounts for the consent banner's reserved space (globals.css) so
@@ -79,7 +95,7 @@ export function GetCard({ source }: { source: string }) {
 
         {redirectingToAppStore ? (
           <p role="status" className="mt-5 text-[15px] leading-relaxed text-graphite">
-            Opening the App Store…
+            {appStoreHref ? "Opening the App Store…" : "Opening VialWise…"}
           </p>
         ) : (
           <>
@@ -87,19 +103,21 @@ export function GetCard({ source }: { source: string }) {
               Get Vialwise
             </h1>
             <p className="mt-2 text-[15px] leading-relaxed text-graphite">
-              The reconstitution calculator and cited peptide library. Free on
-              iPhone and Android.
+              The reconstitution calculator and cited peptide library. Free on{" "}
+              {appStoreHref ? "iPhone and Android." : "Android."}
             </p>
 
             <div className="mt-7 flex w-full flex-col gap-3">
-              <a
-                href={appStoreHref}
-                target="_blank"
-                rel="noopener"
-                className="rounded-pill bg-amber px-6 py-3.5 text-[15px] font-medium text-bone transition-colors hover:bg-amber-dark"
-              >
-                Download on the App Store
-              </a>
+              {appStoreHref ? (
+                <a
+                  href={appStoreHref}
+                  target="_blank"
+                  rel="noopener"
+                  className="rounded-pill bg-amber px-6 py-3.5 text-[15px] font-medium text-bone transition-colors hover:bg-amber-dark"
+                >
+                  Download on the App Store
+                </a>
+              ) : null}
               <a
                 href={playHref}
                 target="_blank"
@@ -109,6 +127,7 @@ export function GetCard({ source }: { source: string }) {
                 Get it on Google Play
               </a>
             </div>
+            <IosUnavailableNote className="mt-6" />
           </>
         )}
       </div>

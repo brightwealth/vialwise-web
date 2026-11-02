@@ -1,3 +1,4 @@
+import { IOS_STORE_LIVE } from "@/lib/storeLinks";
 import Link from "next/link";
 
 export function Features() {
@@ -12,7 +13,8 @@ export function Features() {
         </h2>
         <p className="mt-4 text-[16px] leading-relaxed text-graphite md:text-[17px]">
           The calculator is the hero. The library is the source of truth. And
-          Pro tracks the whole protocol &mdash; on the App Store and Google Play.
+          Pro tracks the whole protocol &mdash;{" "}
+          {IOS_STORE_LIVE ? "on the App Store and Google Play." : "in the app."}
         </p>
       </div>
 

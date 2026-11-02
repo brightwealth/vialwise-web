@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { StoreBadges } from "@/components/StoreBadges";
-import { appStoreUrl } from "@/lib/storeLinks";
+import { IOS_STORE_LIVE, appStoreUrl, googlePlayUrl } from "@/lib/storeLinks";
 import { ReconstitutionCalculator } from "@/components/calculator/ReconstitutionCalculator";
 import { DisclaimerBanner } from "@/components/calculator/DisclaimerBanner";
 import { pageMetadata } from "@/lib/metadata";
@@ -152,7 +152,8 @@ export default function CalculatorPage() {
               </p>
               <p className="mt-1 text-[14px] text-graphite">
                 VialWise pairs the calculator with primary-source-cited
-                entries. Free on the App Store and Google Play.
+                entries.{" "}
+                {IOS_STORE_LIVE ? "Free on the App Store and Google Play." : "Free on Google Play."}
               </p>
             </div>
             <StoreBadges height={48} />
@@ -251,16 +252,27 @@ export default function CalculatorPage() {
               <p>
                 VialWise keeps the calculator{" "}
                 <Link href="/#features">paired with a peptide library</Link> of
-                90+ entries, each with primary-source citations, in the iOS app.
+                90+ entries, each with primary-source citations, in the{" "}
+                {IOS_STORE_LIVE ? "iOS app" : "app"}.
                 You can read more{" "}
                 <Link href="/about">about why it exists</Link>, or{" "}
-                <a
-                  href={appStoreUrl("website")}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  download it on the App Store
-                </a>
+                {IOS_STORE_LIVE ? (
+                  <a
+                    href={appStoreUrl("website")}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    download it on the App Store
+                  </a>
+                ) : (
+                  <a
+                    href={googlePlayUrl("website")}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    get it on Google Play
+                  </a>
+                )}
                 . For research and educational purposes only.
               </p>
             </div>
@@ -280,15 +292,16 @@ export default function CalculatorPage() {
                     A calculator and a cited library, in your pocket.
                   </h2>
                   <p className="mt-4 max-w-md text-[16px] leading-relaxed text-bone/75 md:text-[17px]">
-                    The web calculator is the math. The VialWise iOS app adds a
+                    The web calculator is the math. The VialWise{" "}
+                    {IOS_STORE_LIVE ? "iOS app" : "app"} adds a
                     library of 90+ peptides with primary-source citations and
-                    reconstitution tables rendered by this same engine. Free on
-                    the App Store and Google Play.
+                    reconstitution tables rendered by this same engine.{" "}
+                    {IOS_STORE_LIVE ? "Free on the App Store and Google Play." : "Free on Google Play."}
                   </p>
                 </div>
 
                 <div className="flex md:justify-end">
-                  <StoreBadges height={52} />
+                  <StoreBadges height={52} noteTone="dark" />
                 </div>
               </div>
             </div>

@@ -1,5 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import {
+  HOME_URL,
+  IOS_STORE_LIVE,
   appStoreUrl,
   googlePlayUrl,
   campaignFromSrc,
@@ -14,7 +16,8 @@ import {
  * so the redirect is instant with no client flash.
  *
  * By User-Agent:
- *   - iOS (iPhone/iPad/iPod) → App Store
+ *   - iOS (iPhone/iPad/iPod) → App Store; the homepage while IOS_STORE_LIVE is
+ *     false (src/lib/storeLinks.ts), since the app is off the App Store
  *   - Android                → Google Play
  *   - anything else          → the homepage (which shows both store badges)
  *
@@ -39,13 +42,11 @@ import {
 // deploy. `/download` (no src) stays `website`: the codes already in the wild
 // have no src to send, and their scans therefore pool into `website` — recorded
 // in campaign-links.md so nobody later reads a website number as pure organic.
-const HOME_URL = "https://www.getvialwise.com/";
-
 const IOS_RE = /iPhone|iPad|iPod/i;
 const ANDROID_RE = /Android/i;
 
 function destinationFor(userAgent: string, campaign: Campaign): string {
-  if (IOS_RE.test(userAgent)) return appStoreUrl(campaign);
+  if (IOS_RE.test(userAgent)) return IOS_STORE_LIVE ? appStoreUrl(campaign) : HOME_URL;
   if (ANDROID_RE.test(userAgent)) return googlePlayUrl(campaign);
   return HOME_URL;
 }

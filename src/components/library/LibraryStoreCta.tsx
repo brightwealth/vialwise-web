@@ -12,7 +12,8 @@
  * it, so expect a blank Campaigns page before the traffic exists — that is
  * suppression, not zero.
  */
-import { appStoreUrl, googlePlayUrl } from "@/lib/storeLinks";
+import { IosUnavailableNote } from "@/components/IosUnavailableNote";
+import { IOS_STORE_LIVE, appStoreUrl, googlePlayUrl } from "@/lib/storeLinks";
 
 export function LibraryStoreCta({ peptideName }: { peptideName: string }) {
   return (
@@ -22,12 +23,14 @@ export function LibraryStoreCta({ peptideName }: { peptideName: string }) {
         logging and every citation — is in the VialWise app.
       </p>
       <div className="mt-4 flex flex-wrap gap-3">
-        <a
-          href={appStoreUrl("web-library")}
-          className="rounded-md bg-espresso px-4 py-2 text-[14px] font-medium text-bone no-underline transition-colors hover:bg-amber-deep"
-        >
-          Download on the App Store
-        </a>
+        {IOS_STORE_LIVE ? (
+          <a
+            href={appStoreUrl("web-library")}
+            className="rounded-md bg-espresso px-4 py-2 text-[14px] font-medium text-bone no-underline transition-colors hover:bg-amber-deep"
+          >
+            Download on the App Store
+          </a>
+        ) : null}
         <a
           href={googlePlayUrl("web-library")}
           className="rounded-md border border-espresso/20 px-4 py-2 text-[14px] font-medium text-espresso no-underline transition-colors hover:border-amber-deep hover:text-amber-deep"
@@ -35,6 +38,7 @@ export function LibraryStoreCta({ peptideName }: { peptideName: string }) {
           Get it on Google Play
         </a>
       </div>
+      <IosUnavailableNote className="mt-4" />
     </aside>
   );
 }
