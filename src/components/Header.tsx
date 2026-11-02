@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { Wordmark } from "./Wordmark";
 import { AppStoreBadge } from "./AppStoreBadge";
+import { GooglePlayBadge } from "./GooglePlayBadge";
 import { StoreBadges } from "./StoreBadges";
-import type { Campaign } from "@/lib/storeLinks";
+import { IOS_STORE_LIVE, type Campaign } from "@/lib/storeLinks";
 
 /**
  * `campaign` threads the install-attribution token through the site chrome.
@@ -59,13 +60,18 @@ export function Header({ campaign = "website" }: { campaign?: Campaign } = {}) {
           >
             About
           </Link>
-          <StoreBadges height={40} campaign={campaign} />
+          <StoreBadges height={40} campaign={campaign} iosNote={false} />
         </nav>
 
         {/* Mobile: a single App Store badge only — both full store badges plus
             the wordmark overflow a phone-width header bar. The hero directly
-            below the header shows the App Store + Google Play pair. */}
-        <AppStoreBadge height={40} className="md:hidden" campaign={campaign} />
+            below the header shows the App Store + Google Play pair. While
+            IOS_STORE_LIVE is false the slot holds the Google Play badge. */}
+        {IOS_STORE_LIVE ? (
+          <AppStoreBadge height={40} className="md:hidden" campaign={campaign} />
+        ) : (
+          <GooglePlayBadge height={40} className="md:hidden" campaign={campaign} />
+        )}
       </div>
     </header>
   );

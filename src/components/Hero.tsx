@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { StoreBadges } from "./StoreBadges";
+import { IosUnavailableNote } from "./IosUnavailableNote";
+import { IOS_STORE_LIVE } from "@/lib/storeLinks";
 
 export function Hero() {
   return (
@@ -11,7 +13,7 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-forest/40" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-forest" />
             </span>
-            Now on iPhone and Android.
+            {IOS_STORE_LIVE ? "Now on iPhone and Android." : "Now on Android, and free on the web."}
           </span>
 
           <h1 className="text-[44px] font-medium leading-[1.05] tracking-display text-espresso md:text-[68px] lg:text-[78px]">
@@ -41,9 +43,12 @@ export function Hero() {
             </Link>
 
             {/* Secondary CTA — the App Store + Google Play badges. The app is
-                live on both stores, so these link straight to each listing. */}
-            <StoreBadges height={52} />
+                live on both stores, so these link straight to each listing.
+                While IOS_STORE_LIVE is false only Google Play shows, and the
+                note sits under the row rather than inside it. */}
+            <StoreBadges height={52} iosNote={false} />
           </div>
+          <IosUnavailableNote className="-mt-3" />
 
           {/* Tertiary — feature breakdown, without leaving the page. */}
           <p className="-mt-3">

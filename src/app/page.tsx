@@ -8,6 +8,8 @@ import { AntiBloat } from "@/components/AntiBloat";
 import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
 import { pageMetadata } from "@/lib/metadata";
+import { FAQS } from "@/lib/faq";
+import { IOS_STORE_LIVE } from "@/lib/storeLinks";
 
 export const metadata: Metadata = {
   title: {
@@ -20,9 +22,9 @@ export const metadata: Metadata = {
 
 // JSON-LD structured data — SoftwareApplication + FAQPage + Organization on a
 // single @graph block so Google can ingest all three from one parse.
-// The FAQ entries below must match the visible Q&A in src/components/FAQ.tsx
-// verbatim — Google's structured-data guidelines require visible/schema parity.
-// When the live FAQ copy changes, update this list.
+// The FAQ entries are built from src/lib/faq.ts, the same list FAQ.tsx renders,
+// so they match the visible Q&A byte for byte (Google's structured-data
+// guidelines require visible/schema parity).
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -32,7 +34,7 @@ const jsonLd = {
       description:
         "Peptide reconstitution calculator with forward and reverse BAC water math, a library of 90+ peptides with primary-source citations, and a one-time Pro protocol-tracking suite. Research and educational use only.",
       applicationCategory: "HealthApplication",
-      operatingSystem: "iOS, Android",
+      operatingSystem: IOS_STORE_LIVE ? "iOS, Android" : "Android",
       offers: {
         "@type": "Offer",
         price: "0",
@@ -57,72 +59,14 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "Is this medical advice?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "No. Vialwise is a calculator and a tracker. It doesn't tell you which peptide to take, what dose to run, or whether peptides are right for you. Talk to a doctor for that. We help you do the math correctly once you've already decided.",
-          },
+      mainEntity: FAQS.map((item) => ({
+        "@type": "Question",
+        name: item.q,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: item.a,
         },
-        {
-          "@type": "Question",
-          name: "Do you partner with peptide vendors?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "No, and we never will. There's a real conflict of interest in being both 'the app that tells you you need more' and 'the app that gets paid when you buy more.' We picked a side.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What peptides does it support?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Any peptide you can reconstitute. Semaglutide, tirzepatide, BPC-157, TB-500, ipamorelin, CJC-1295, retatrutide, MOTS-c — the calculator doesn't care about brand names. It cares about mg per vial, mL of BAC water, and dose target.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Is my data private?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. Everything you enter — peptides, doses, protocols, and your dose log — stays on your device. The app collects no personal data and transmits nothing to a server; Apple's App Privacy label reads \"Data Not Collected,\" and the app ships no analytics, ads, or trackers on either platform. We never see your data.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Is VialWise available yet?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. VialWise is on the App Store for iPhone and on Google Play for Android. The forward and reverse calculator and 90+ cited peptides are free; Pro adds the full tracking suite as a one-time purchase.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What's the difference between Free and Pro?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Free gives you unlimited saved protocols, basic dose logging, the full forward and reverse calculator, the complete 90+ cited library, basic dose reminders, and the single-dose half-life chart. Pro is a one-time $44.99 purchase, not a subscription, that adds the advanced tracking suite (dose history and back-logging, body map for site rotation, live doses-remaining and vial inventory, the journal, PDF export, and weekly recap), the advanced calculators (blend, titration, and cost-per-dose), shared-vial support, the live half-life view, and advanced catch-up and expiry reminders. Free stays free, forever, even after you buy Pro.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Is Pro a subscription?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "No — one-time. Pro is a single $44.99 purchase in the app (App Store or Google Play). You buy it once and keep it: no recurring billing, no auto-renew, nothing to cancel.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Is VialWise on Android?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. VialWise is now available on Google Play, and on the App Store for iPhone. Because the app is built on React Native, both platforms run the same calculator and cited library.",
-          },
-        },
-      ],
+      })),
     },
     {
       "@type": "Organization",
