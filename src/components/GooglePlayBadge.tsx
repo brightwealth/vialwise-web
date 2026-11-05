@@ -7,7 +7,7 @@
  * The badge's own transparent clear-space margin was trimmed to the artwork
  * bounding box so it pairs tightly with the (equally tight) App Store SVG; the
  * required clear space is supplied by the surrounding layout gap instead, the
- * same way AppStoreBadge is placed. The dark badge suits Vialwise's light
+ * same way AppStoreBadge is placed. The dark badge suits VialWise's light
  * cream/bone surfaces and matches the App Store black variant.
  *
  * Mirrors AppStoreBadge's API (height + className) so the two can be dropped in

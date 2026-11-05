@@ -71,7 +71,7 @@ export function CookieConsent() {
           id="cookie-consent-title"
           className="text-[15px] font-medium text-espresso sm:text-base"
         >
-          Cookies on Vialwise
+          Cookies on VialWise
         </h2>
         {/* The second sentence is desktop-only. At phone widths it pushed the
             banner past half the viewport, which shoved the page's own CTA below

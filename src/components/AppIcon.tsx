@@ -24,7 +24,7 @@ export function AppIcon({ size = 130, className, withHalo = true }: AppIconProps
         viewBox="0 0 1024 1024"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
-        aria-label="Vialwise app icon"
+        aria-label="VialWise app icon"
         className="float-slow drop-shadow-[0_18px_40px_rgba(166,90,48,0.25)]"
       >
         <defs>
@@ -71,7 +71,7 @@ export function VMark({
       viewBox="0 0 100 100"
       xmlns="http://www.w3.org/2000/svg"
       role="img"
-      aria-label="Vialwise V mark"
+      aria-label="VialWise V mark"
       className={className}
     >
       <path

@@ -100,7 +100,7 @@ export function GetCard({
         ) : (
           <>
             <h1 className="mt-5 text-[26px] font-medium tracking-[-0.025em] text-espresso">
-              Get Vialwise
+              Get VialWise
             </h1>
             <p className="mt-2 text-[15px] leading-relaxed text-graphite">
               The reconstitution calculator and cited peptide library. Free on{" "}

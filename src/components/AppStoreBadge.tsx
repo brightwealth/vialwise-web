@@ -4,7 +4,7 @@
  * Uses Apple's official badge artwork (downloaded from Apple's Marketing
  * Resources, public/brand/app-store-badge-black.svg) — NOT recolored,
  * rotated, restyled, or cropped, per Apple's badge guidelines. The black
- * variant is used for best contrast on Vialwise's light cream/bone surfaces.
+ * variant is used for best contrast on VialWise's light cream/bone surfaces.
  *
  * Gating: rendered only when NEXT_PUBLIC_APP_LIVE is on (default OFF), so we
  * never ship a dead App Store link before launch. Andrew flips the flag in
@@ -53,7 +53,7 @@ export function AppStoreBadge({
       href={appStoreUrl(campaign)}
       target="_blank"
       rel="noopener"
-      aria-label="Download Vialwise on the App Store"
+      aria-label="Download VialWise on the App Store"
       className={`inline-flex w-fit shrink-0${className ? ` ${className}` : ""}`}
     >
       {/* eslint-disable-next-line @next/next/no-img-element -- official SVG lockup, must not be re-processed */}

@@ -8,29 +8,29 @@ export const metadata: Metadata = {
     absolute: "VialWise Terms of Service — Research & Educational Use",
   },
   description:
-    "VialWise is a research and educational tool. Use the calculator and peptide library for research purposes only. Read the full terms of service here.",
+    "VialWise is a research and educational tool. Read the full terms of service here.",
   ...pageMetadata("https://www.getvialwise.com/terms"),
 };
 
-const LAST_UPDATED = "June 23, 2026";
+const LAST_UPDATED = "November 4, 2026";
 
 export default function TermsPage() {
   return (
     <PageShell
       eyebrow="Legal"
       title="Terms of service"
-      intro="The legal terms governing your use of Vialwise. Plain English where possible."
+      intro="The legal terms governing your use of VialWise. Plain English where possible."
     >
       <p className="text-[14px] text-graphite">Last updated: {LAST_UPDATED}</p>
 
-      <h2>1. What Vialwise is</h2>
+      <h2>1. What VialWise is</h2>
       <p>
-        Vialwise is a software calculator and tracker for personal use. It performs reconstitution math and helps you organize information about peptides you have already independently chosen to use.
+        VialWise is software for personal tracking and reference. It helps you organize information about peptides you have already independently chosen to use. The reconstitution calculator is available only on our website and other versions of VialWise, and is not included in the iPhone and iPad app.
       </p>
 
-      <h2>2. What Vialwise is not</h2>
+      <h2>2. What VialWise is not</h2>
       <p>
-        Vialwise is <strong>not</strong> a medical device. It does not diagnose, treat, cure, or prevent any disease. It does not provide medical advice. It does not recommend specific peptides, doses, or protocols. Any information shown in the app is for organizational purposes only.
+        VialWise is <strong>not</strong> a medical device. It does not diagnose, treat, cure, or prevent any disease. It does not provide medical advice. It does not recommend specific peptides, doses, or protocols. Any information shown in the app is for organizational purposes only.
       </p>
       <p>
         Always consult a qualified healthcare provider before starting, modifying, or stopping any peptide use.
@@ -38,29 +38,29 @@ export default function TermsPage() {
 
       <h2>3. Eligibility</h2>
       <p>
-        You must be at least 18 years old to use Vialwise. By using the app, you represent that you are.
+        You must be at least 18 years old to use VialWise. By using the app, you represent that you are.
       </p>
 
       <h2>4. Your responsibilities</h2>
       <ul>
-        <li>You are responsible for verifying any calculation result before using it.</li>
+        <li>You are responsible for verifying anything you enter or read in VialWise, including any calculator result you get outside the iPhone and iPad app, before relying on it.</li>
         <li>You are responsible for the legality of your peptide use in your jurisdiction.</li>
         <li>You are responsible for keeping your device and account secure.</li>
       </ul>
 
       <h2>5. In-app purchases</h2>
       <p>
-        Vialwise Pro is a one-time in-app purchase processed by Apple via App Store In-App Purchases &mdash; not a subscription. Pricing, billing, and refunds are governed by Apple&rsquo;s standard terms. Because Pro is a one-time purchase, there is no recurring charge and nothing to cancel. Pro is a permanent unlock tied to your Apple ID; you can restore it on your other devices with &lsquo;Restore Purchases.&rsquo; Refund requests are handled by Apple.
+        VialWise Pro is a one-time in-app purchase processed by the app store you bought from &mdash; not a subscription. Pricing, billing, and refunds are governed by that store&rsquo;s standard terms. Because Pro is a one-time purchase, there is no recurring charge and nothing to cancel. Pro is a permanent unlock tied to your app store account; you can restore it on your other devices with &lsquo;Restore Purchases.&rsquo; Refund requests are handled by that store.
       </p>
 
       <h2>6. Acceptable use</h2>
       <p>
-        Don&rsquo;t reverse-engineer the app, scrape it, abuse our infrastructure, or use Vialwise to harm others. We reserve the right to terminate access for misuse.
+        Don&rsquo;t reverse-engineer the app, scrape it, abuse our infrastructure, or use VialWise to harm others. We reserve the right to terminate access for misuse.
       </p>
 
       <h2>7. Limitation of liability</h2>
       <p>
-        To the maximum extent permitted by law, Vialwise and its operators are not liable for any indirect, incidental, or consequential damages arising from your use of the app, including but not limited to health outcomes resulting from peptide use.
+        To the maximum extent permitted by law, VialWise and its operators are not liable for any indirect, incidental, or consequential damages arising from your use of the app, including but not limited to health outcomes resulting from peptide use.
       </p>
 
       <h2>8. Changes</h2>

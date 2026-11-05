@@ -15,12 +15,12 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.getvialwise.com"),
   title: {
-    default: "Vialwise — Peptide tracking, done right.",
-    template: "%s — Vialwise",
+    default: "VialWise — Peptide tracking, done right.",
+    template: "%s — VialWise",
   },
   description:
     "The honest peptide app. Built by someone who actually runs peptides. No vendor partnerships, no hidden upsells, just a calculator that's actually right.",
-  applicationName: "Vialwise",
+  applicationName: "VialWise",
   keywords: [
     "peptide tracker",
     "peptide calculator",
@@ -37,15 +37,15 @@ export const metadata: Metadata = {
   // homepage URL on every page.
   openGraph: {
     type: "website",
-    title: "Vialwise — Peptide tracking, done right.",
+    title: "VialWise — Peptide tracking, done right.",
     description:
       "The honest peptide app. Built by someone who actually runs peptides.",
-    siteName: "Vialwise",
+    siteName: "VialWise",
     images: ["/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vialwise — Peptide tracking, done right.",
+    title: "VialWise — Peptide tracking, done right.",
     description:
       "The honest peptide app. Built by someone who actually runs peptides.",
     images: ["/og-image.png"],

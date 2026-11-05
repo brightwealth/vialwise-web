@@ -51,8 +51,8 @@ import {
 export const metadata: Metadata = {
   title: "Get the app",
   description: IOS_STORE_LIVE
-    ? "Download Vialwise for iPhone or Android."
-    : "Download Vialwise for Android, or use the free calculator on the web.",
+    ? "Download VialWise for iPhone or Android."
+    : "Download VialWise for Android, or use the free calculator on the web.",
   robots: { index: false, follow: false },
 };
 
