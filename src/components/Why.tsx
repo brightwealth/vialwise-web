@@ -18,7 +18,7 @@ export function Why() {
             Most peptide apps were built by people who don&apos;t actually run peptides. So they ship glossy dashboards, push affiliate links to sketchy vendors, and dress up basic math with AI buzzwords.
           </p>
           <p>
-            Vialwise is built by someone who runs them — and got tired of doing reconstitution math in a Notes app while squinting at a u-100 syringe at 6am.
+            VialWise is built by someone who runs them — and got tired of doing reconstitution math in a Notes app while squinting at a u-100 syringe at 6am.
           </p>
           <p>
             No vendor partnerships. No hidden upsells. No medical claims. Just a calculator that&apos;s right, tracking that&apos;s honest, and a price that doesn&apos;t insult you.

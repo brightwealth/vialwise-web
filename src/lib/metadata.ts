@@ -10,7 +10,7 @@ export const OG_IMAGE = "/og-image.png";
 // As of the v2.0 launch the app IS a full protocol tracker (dose log, body map,
 // weekly recap, vial inventory, BID/TID, PDF export), so the "tracking" share
 // copy is now accurate. Kept site-wide (not per-page) intentionally.
-const OG_TITLE = "Vialwise — Peptide tracking, done right.";
+const OG_TITLE = "VialWise — Peptide tracking, done right.";
 const OG_DESCRIPTION =
   "The honest peptide app. Built by someone who actually runs peptides.";
 
@@ -30,7 +30,7 @@ export function pageMetadata(canonical: string): Metadata {
     alternates: { canonical },
     openGraph: {
       type: "website",
-      siteName: "Vialwise",
+      siteName: "VialWise",
       title: OG_TITLE,
       description: OG_DESCRIPTION,
       url: canonical,

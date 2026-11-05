@@ -19,7 +19,7 @@ export function Header({ campaign = "website" }: { campaign?: Campaign } = {}) {
   return (
     <header className="w-full border-b border-espresso/[0.06]">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5 md:px-10 md:py-6">
-        <Link href="/" aria-label="Vialwise home" className="flex items-center gap-2">
+        <Link href="/" aria-label="VialWise home" className="flex items-center gap-2">
           <Wordmark size={26} className="text-espresso" />
         </Link>
 

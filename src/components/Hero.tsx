@@ -85,7 +85,7 @@ export function Hero() {
 }
 
 /**
- * HeroVisual — a real Vialwise app capture in a CSS phone frame.
+ * HeroVisual — a real VialWise app capture in a CSS phone frame.
  *
  * Drops a real screenshot (public/hero-v31.png — the v3.1 reconstitution
  * calculator: syringe size, concentration, draw volume, and the draw position on
@@ -113,7 +113,7 @@ function HeroVisual() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/hero-v31.png"
-            alt="The Vialwise reconstitution calculator showing the concentration, draw volume, and the draw position on a U-100 syringe, under a research-and-educational disclaimer."
+            alt="The VialWise reconstitution calculator showing the concentration, draw volume, and the draw position on a U-100 syringe, under a research-and-educational disclaimer."
             width={1080}
             height={2342}
             className="h-full w-full object-cover"

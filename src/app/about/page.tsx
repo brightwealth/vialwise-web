@@ -18,7 +18,7 @@ export default function AboutPage() {
     <PageShell
       eyebrow="About"
       title="Built by someone who actually runs peptides."
-      intro="Most peptide apps are built by people who don't take peptides. That shows up in every part of the product. Vialwise exists because that gap kept costing me time and trust."
+      intro="Most peptide apps are built by people who don't take peptides. That shows up in every part of the product. VialWise exists because that gap kept costing me time and trust."
     >
       <h2>The short version</h2>
       <p>
@@ -51,7 +51,7 @@ export default function AboutPage() {
           <strong>No vendor kickbacks.</strong> Ever. There&rsquo;s a real conflict between &ldquo;the app you trust&rdquo; and &ldquo;the app that profits when you buy more.&rdquo; I&rsquo;m picking the first one.
         </li>
         <li>
-          <strong>No medical claims.</strong> Vialwise doesn&rsquo;t tell you what to take or whether to take it. That&rsquo;s a doctor&rsquo;s job.
+          <strong>No medical claims.</strong> VialWise doesn&rsquo;t tell you what to take or whether to take it. That&rsquo;s a doctor&rsquo;s job.
         </li>
         <li>
           <strong>No bloat.</strong> If a feature doesn&rsquo;t make the calculator more useful or your protocol easier to run, it doesn&rsquo;t ship.

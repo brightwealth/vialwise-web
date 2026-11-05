@@ -15,7 +15,7 @@ export type FaqItem = {
 export const FAQS: FaqItem[] = [
   {
     q: "Is this medical advice?",
-    a: "No. Vialwise is a calculator and a tracker. It doesn't tell you which peptide to take, what dose to run, or whether peptides are right for you. Talk to a doctor for that. We help you do the math correctly once you've already decided.",
+    a: "No. VialWise is a calculator and a tracker. It doesn't tell you which peptide to take, what dose to run, or whether peptides are right for you. Talk to a doctor for that. We help you do the math correctly once you've already decided.",
   },
   {
     q: "Do you partner with peptide vendors?",

@@ -32,6 +32,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
+      url: `${BASE_URL}/support`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
       url: `${BASE_URL}/library`,
       lastModified,
       changeFrequency: "weekly",

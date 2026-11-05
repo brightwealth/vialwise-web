@@ -74,9 +74,9 @@ export function Footer({ campaign = "website" }: { campaign?: Campaign } = {}) {
         </div>
 
         <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-espresso/[0.08] pt-6 text-[12.5px] text-graphite md:flex-row md:items-center">
-          <p>© {new Date().getFullYear()} Vialwise. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} VialWise. All rights reserved.</p>
           <p className="max-w-xl md:text-right">
-            Vialwise is not a medical device, does not diagnose or treat any condition, and does not provide medical advice. Talk to a qualified healthcare provider before making decisions about peptide use.
+            VialWise is not a medical device, does not diagnose or treat any condition, and does not provide medical advice. Talk to a qualified healthcare provider before making decisions about peptide use.
           </p>
         </div>
       </div>

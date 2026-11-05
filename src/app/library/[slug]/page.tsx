@@ -25,7 +25,7 @@ export async function generateMetadata({
   if (!entry) return {};
 
   return {
-    // `absolute` so the root layout's "%s — Vialwise" template does not append
+    // `absolute` so the root layout's "%s — VialWise" template does not append
     // to an already-complete, search-shaped title.
     title: { absolute: entry.web.title },
     description: entry.web.description,
